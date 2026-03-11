@@ -1,0 +1,1921 @@
+{
+  "label": "denmark",
+  "value": null,
+  "children": [
+    {
+      "label": "meta",
+      "value": null,
+      "children": [
+        {
+          "label": "country_name",
+          "value": "Denmark",
+          "children": []
+        },
+        {
+          "label": "retrieved_at",
+          "value": "2026-03-11T17:54:49+00:00",
+          "children": []
+        },
+        {
+          "label": "slug",
+          "value": "denmark",
+          "children": []
+        },
+        {
+          "label": "source",
+          "value": "wikipedia-infobox",
+          "children": []
+        },
+        {
+          "label": "wikipedia_url",
+          "value": "https://en.wikipedia.org/wiki/Danish_Realm",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "fields",
+      "value": null,
+      "children": [
+        {
+          "label": "calling_code",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "3",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "45",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "298",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "299",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Calling code",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "3 codes +45 ( Denmark ) +298 ( Faroe Islands ) +299 ( Greenland )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "3",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "codes",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "45",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Denmark",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "298",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Faroe",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Islands",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "299",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Greenland",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "capital_and_largest_city",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Capital and largest city",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Copenhagen",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Copenhagen",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "constituent_territories_non_sovereign_parts",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Constituent territories (non‑sovereign parts)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Denmark (main) and separate parts: Faroe Islands Greenland",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Denmark",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "main",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "and",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "separate",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "parts",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Faroe",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Islands",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Greenland",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "currency",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Currency",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Danish krone ( DKK ) Faroese króna",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Danish",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "krone",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "DKK",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Faroese",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "kr",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "na",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "demonyms",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Demonyms",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Danish ; locally: Greenlander Faroe Islander",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Danish",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "locally",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Greenlander",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Faroe",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Islander",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "denmark",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "5941388",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Denmark",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "5,941,388",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "5",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "941",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "388",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "faroe_islands",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1396",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "538.999",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Faroe Islands",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1,396 km 2 (538.999 sq mi)",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "396",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "km",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "538",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "999",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "sq",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "mi",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "faroese_home_rule",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "24",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1948",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Faroese home rule",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "24 March 1948",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "24",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "March",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1948",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "faroese_takeover_act",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "29",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2005",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Faroese takeover act",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "29 July 2005",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "29",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "July",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2005",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gdp_nominal",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2019",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "-2024",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "GDP (nominal)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2019-2024 estimate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2019",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2024",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "estimate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gdp_ppp",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2022",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "GDP ( PPP )",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2022 estimate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2022",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "estimate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "government",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Government",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Unitary parliamentary constitutional monarchy",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Unitary",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "parliamentary",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "constitutional",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "monarchy",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "greenland",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2166086",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "836330",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Greenland",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2,166,086 km 2 (836,330 sq mi)",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "166",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "086",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "km",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "836",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "330",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "sq",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "mi",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "greenland_and_faroe_islands",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "108191",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Greenland and Faroe Islands",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "108,191",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "108",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "191",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "greenlandic_home_rule",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1979",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Greenlandic home rule",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1 May 1979",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "May",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1979",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "greenlandic_self_rule",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "21",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2009",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Greenlandic self rule",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "21 June 2009",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "21",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "June",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2009",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "hdi_2021",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "0.948",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "HDI (2021)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "0.948 very high",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "0",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "948",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "very",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "high",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "internet_tld",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "3",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Internet TLD",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "3 TLDs .dk (Denmark) .fo (Faroe Islands) .gl (Greenland)",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "3",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "TLDs",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "dk",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Denmark",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "fo",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Faroe",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Islands",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "gl",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Greenland",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "iso_3166_code",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "ISO 3166 code",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "DK",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "DK",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "legislature",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Legislature",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Folketing , with some authority devolved to Løgting ( Faroe Islands ) and Inatsisartut ( Greenland )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Folketing",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "with",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "some",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "authority",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "devolved",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "to",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "L",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "gting",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Faroe",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Islands",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "and",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Inatsisartut",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Greenland",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "monarch",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Monarch",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Frederik X",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Frederik",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "X",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "official_languages",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Official languages",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Danish ; locally: Faroese Greenlandic",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Danish",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "locally",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Faroese",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Greenlandic",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "per_capita",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "69205",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Per capita",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "$69,205",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "69",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "205",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "prime_minister",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Prime Minister",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Mette Frederiksen",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Mette",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Frederiksen",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "prime_minister_of_greenland",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Prime Minister of Greenland",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Jens Frederik Nielsen",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Jens",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Frederik",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Nielsen",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "prime_minister_of_the_faroe_islands",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Prime Minister of the Faroe Islands",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Aksel V. Johannesen",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Aksel",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "V",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Johannesen",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "q2_2023_estimate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "6049579",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "112",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Q2 2023 estimate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "6,049,579 ( 112th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "6",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "049",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "579",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "112th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "recognised_regional_languages",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Recognised regional languages",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "German",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "German",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "summer_dst",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "-3",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "0",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Summer ( DST )",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "List UTC+2 ( CEST ) (Denmark) UTC+1 ( WEST ) (Faroe Islands) UTC-3 to 0 ( ADT , WGST , EGST , GMT) (Greenland)",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "List",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "UTC",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "CEST",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Denmark",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "UTC",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "WEST",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Faroe",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Islands",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "UTC",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "3",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "to",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "0",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "ADT",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "WGST",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "EGST",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "GMT",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Greenland",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "time_zone",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "-4",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "0",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Time zone",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "List UTC +1 ( CET ) (Denmark) UTC ( WET ) (Faroe Islands) UTC-4 to 0 ( AST , WGT , EGT , GMT ) (Greenland)",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "List",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "UTC",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "CET",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Denmark",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "UTC",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "WET",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Faroe",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Islands",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "UTC",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "4",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "to",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "0",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "AST",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "WGT",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "EGT",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "GMT",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Greenland",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "total",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "418.659",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Total",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "$418.659 billion",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "418",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "659",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "billion",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "unification",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "965",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Unification",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "c. 965",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "c",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "965",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

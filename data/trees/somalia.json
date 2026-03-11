@@ -1,0 +1,2061 @@
+{
+  "label": "somalia",
+  "value": null,
+  "children": [
+    {
+      "label": "meta",
+      "value": null,
+      "children": [
+        {
+          "label": "country_name",
+          "value": "Somalia",
+          "children": []
+        },
+        {
+          "label": "retrieved_at",
+          "value": "2026-03-11T17:57:51+00:00",
+          "children": []
+        },
+        {
+          "label": "slug",
+          "value": "somalia",
+          "children": []
+        },
+        {
+          "label": "source",
+          "value": "wikipedia-infobox",
+          "children": []
+        },
+        {
+          "label": "wikipedia_url",
+          "value": "https://en.wikipedia.org/wiki/Somalia",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "fields",
+      "value": null,
+      "children": [
+        {
+          "label": "2025_estimate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "19280850",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "66",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• 2025 estimate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "19,280,850 ( 66th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "19",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "280",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "850",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "66th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "adal_sultanate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "9",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Adal Sultanate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "9th century",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "9th",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "century",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ajuran_sultanate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "13",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Ajuran Sultanate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "13th century",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "13th",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "century",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "barbaria",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "100",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Barbaria",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "100 BC",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "100",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "BC",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "british_somaliland",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1884",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1960",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• British Somaliland",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1884–1960",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1884",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1960",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "calling_code",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "252",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Calling code",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "+252",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "252",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "capital_and_largest_city",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "45",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "21",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2.033",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "45.35",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2.033",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "45.35",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Capital and largest city",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Mogadishu 2°2′N 45°21′E ﻿ / ﻿ 2.033°N 45.350°E ﻿ / 2.033; 45.350",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Mogadishu",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "N",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "45",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "21",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "E",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "033",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "N",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "45",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "350",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "E",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "033",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "45",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "350",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "currency",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Currency",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Somali shilling ( SOS )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Somali",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "shilling",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "SOS",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "current_constitution",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2012",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Current constitution",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1 August 2012",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "August",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2012",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "demonym",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Demonym",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Somali",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Somali",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "density",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "27.2",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "70.4",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Density",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "27.2 /km 2 (70.4/sq mi)",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "27",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "km",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "70",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "4",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "sq",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "mi",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ethnic_groups_2021",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "85",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "15",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Ethnic groups (2021)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "85% Somali 15% other",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "85",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Somali",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "15",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "other",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gdp_nominal",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2025",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "GDP (nominal)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2025 estimate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2025",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "estimate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gdp_ppp",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2025",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "GDP ( PPP )",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2025 estimate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2025",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "estimate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "geledi_sultanate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1695",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1911",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Geledi Sultanate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1695–1911",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1695",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1911",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gini_2022_last_available_data",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "35.2",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Gini (2022 (last available data))",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "35.2 medium inequality",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "35",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "medium",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "inequality",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "government",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Government",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Federal parliamentary republic",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Federal",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "parliamentary",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "republic",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "hdi_2023",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "0.404",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "192",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "HDI (2023)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "0.404 low ( 192nd )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "0",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "404",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "low",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "192nd",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "hiraab_imamate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "16",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Hiraab Imamate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "16th century",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "16th",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "century",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "independence_of_the_state_of_somaliland_from_the_united_kingdom",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "26",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1960",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Independence of the State of Somaliland from the United Kingdom",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "26 June 1960",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "26",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "June",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1960",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "independence_of_the_trust_territory_of_somaliland_from_italy_and_union_with_the_state_of_somaliland_to_form_the_somali_republic",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1960",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Independence of the Trust Territory of Somaliland from Italy and union with the State of Somaliland to form the Somali Republic",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1 July 1960",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "July",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1960",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "internet_tld",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Internet TLD",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": ".so",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "so",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "isaaq_sultanate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1749",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1884",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Isaaq Sultanate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1749–1884",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1749",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1884",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "iso_3166_code",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "ISO 3166 code",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "SO",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "SO",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "italian_somaliland",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1889",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1941",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Italian Somaliland",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1889–1941",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1889",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1941",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "land_of_punt",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2350",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Land of Punt",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2350 BC",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2350",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "BC",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "legislature",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Legislature",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Federal Parliament",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Federal",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Parliament",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "lower_house",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Lower house",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "House of the People",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "House",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "of",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "the",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "People",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "macrobia",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "980",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Macrobia",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "980 BC",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "980",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "BC",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "majeerteen_sultanate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1648",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1927",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Majeerteen Sultanate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1648–1927",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1648",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1927",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "mogadishu_sultanate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "10",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Mogadishu Sultanate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "10th century",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "10th",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "century",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "official_languages",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Official languages",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Somali",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Somali",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "per_capita",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "766",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "177",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Per capita",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "$766 ( 177th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "766",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "177th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "president",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• President",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Hassan Sheikh Mohamud",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Hassan",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Sheikh",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Mohamud",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "prime_minister",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Prime Minister",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Hamza Abdi Barre",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Hamza",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Abdi",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Barre",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "religion",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Religion",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Sunni Islam ( official )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Sunni",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Islam",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "official",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "second_language",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Second language",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Arabic",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Arabic",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sultanate_of_hobyo",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1878",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1927",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Sultanate of Hobyo",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1878–1927",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1878",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1927",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sultanate_of_ifat",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "13",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Sultanate of Ifat",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "13th century",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "13th",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "century",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "time_zone",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "3",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Time zone",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "UTC +3 ( EAT )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "UTC",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "3",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "EAT",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "total",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "12.99",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "147",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Total",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "$12.990 billion ( 147th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "12",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "990",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "billion",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "147th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "upper_house",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Upper house",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Senate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Senate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

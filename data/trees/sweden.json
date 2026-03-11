@@ -1,0 +1,1463 @@
+{
+  "label": "sweden",
+  "value": null,
+  "children": [
+    {
+      "label": "meta",
+      "value": null,
+      "children": [
+        {
+          "label": "country_name",
+          "value": "Sweden",
+          "children": []
+        },
+        {
+          "label": "retrieved_at",
+          "value": "2026-03-11T17:58:02+00:00",
+          "children": []
+        },
+        {
+          "label": "slug",
+          "value": "sweden",
+          "children": []
+        },
+        {
+          "label": "source",
+          "value": "wikipedia-infobox",
+          "children": []
+        },
+        {
+          "label": "wikipedia_url",
+          "value": "https://en.wikipedia.org/wiki/Sweden",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "fields",
+      "value": null,
+      "children": [
+        {
+          "label": "a_unified_swedish_kingdom_established",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "10",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• A unified Swedish kingdom established",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "By the late 10th century",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "By",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "the",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "late",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "10th",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "century",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "calling_code",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "46",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Calling code",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "+46",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "46",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "capital_and_largest_city",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "59",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "21",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "18",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "4",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "59.35",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "18.067",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "59.35",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "18.067",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Capital and largest city",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Stockholm 59°21′N 18°4′E ﻿ / ﻿ 59.350°N 18.067°E ﻿ / 59.350; 18.067",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Stockholm",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "59",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "21",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "N",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "18",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "4",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "E",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "59",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "350",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "N",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "18",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "067",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "E",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "59",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "350",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "18",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "067",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "currency",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Currency",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Swedish krona ( SEK )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Swedish",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "krona",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "SEK",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "demonyms",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Demonyms",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Swedish Swede",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Swedish",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Swede",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "density",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "25",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "64.7",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "198",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Density",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "25/km 2 (64.7/sq mi) ( 198th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "25",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "km",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "64",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "7",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "sq",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "mi",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "198th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gdp_nominal",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2025",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "GDP (nominal)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2025 estimate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2025",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "estimate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gdp_ppp",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2025",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "GDP ( PPP )",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2025 estimate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2025",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "estimate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gini_2022",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "27.6",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Gini (2022)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "27.6 low inequality",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "27",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "6",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "low",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "inequality",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "government",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Government",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Unitary parliamentary constitutional monarchy",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Unitary",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "parliamentary",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "constitutional",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "monarchy",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "hdi_2023",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "0.959",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "5",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "HDI (2023)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "0.959 very high ( 5th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "0",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "959",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "very",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "high",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "5th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "internet_tld",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Internet TLD",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": ".se",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "se",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "iso_3166_code",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "ISO 3166 code",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "SE",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "SE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "legislature",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Legislature",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Riksdag",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Riksdag",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "monarch",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Monarch",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Carl XVI Gustaf",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Carl",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "XVI",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Gustaf",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "national_minority_languages",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "National minority languages",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Sámi Finnish Meänkieli Romani Yiddish",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "S",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "mi",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Finnish",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Me",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "nkieli",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Romani",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Yiddish",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "october_2025_estimate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "10610485",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "90",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• October 2025 estimate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "10,610,485 ( 90th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "10",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "610",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "485",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "90th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "official_languages",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Official languages",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Swedish",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Swedish",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "part_of_the_kalmar_union",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "17",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1397",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "6",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1523",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Part of the Kalmar Union",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "17 June 1397 – 6 June 1523",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "17",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "June",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1397",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "6",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "June",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1523",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "per_capita",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "58100",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "14",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Per capita",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "$58,100 ( 14th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "58",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "100",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "14th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "prime_minister",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Prime Minister",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Ulf Kristersson",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Ulf",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Kristersson",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "riksdag_speaker",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Riksdag Speaker",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Andreas Norlén",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Andreas",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Norl",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "n",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "summer_dst",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Summer ( DST )",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "UTC +2 ( CEST )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "UTC",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "CEST",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "swedish_empire",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1611",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1721",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Swedish Empire",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1611–1721",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1611",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1721",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "time_zone",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Time zone",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "UTC +1 ( CET )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "UTC",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "CET",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "total",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "620.3",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "24",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Total",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "$620.30 billion ( 24th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "620",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "30",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "billion",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "24th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "water",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "8.97",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2022",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Water (%)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "8.97 (2022)",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "8",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "97",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2022",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

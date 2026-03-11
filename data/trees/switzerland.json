@@ -1,0 +1,2033 @@
+{
+  "label": "switzerland",
+  "value": null,
+  "children": [
+    {
+      "label": "meta",
+      "value": null,
+      "children": [
+        {
+          "label": "country_name",
+          "value": "Switzerland",
+          "children": []
+        },
+        {
+          "label": "retrieved_at",
+          "value": "2026-03-11T17:58:04+00:00",
+          "children": []
+        },
+        {
+          "label": "slug",
+          "value": "switzerland",
+          "children": []
+        },
+        {
+          "label": "source",
+          "value": "wikipedia-infobox",
+          "children": []
+        },
+        {
+          "label": "wikipedia_url",
+          "value": "https://en.wikipedia.org/wiki/Switzerland",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "fields",
+      "value": null,
+      "children": [
+        {
+          "label": "2015_census",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "8327126",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• 2015 census",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "8,327,126",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "8",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "327",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "126",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "2025_estimate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "9060598",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "99",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• 2025 estimate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "9,060,598 ( 99th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "9",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "060",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "598",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "99th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "calling_code",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "41",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Calling code",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "+41",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "41",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "capital",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Capital",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Bern ( de facto )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Bern",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "de",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "facto",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "currency",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Currency",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Swiss franc ( CHF )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Swiss",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "franc",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "CHF",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "date_format",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Date format",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "dd.mm.yyyy ( AD )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "dd",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "mm",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "yyyy",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "AD",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "demonyms",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Demonyms",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "English: Swiss German: Schweizer/Schweizerin French: Suisse/Suissesse Italian : svizzero/svizzera or elvetico/elvetica Romansh : Svizzer/Svizra",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "English",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Swiss",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "German",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Schweizer",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Schweizerin",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "French",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Suisse",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Suissesse",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Italian",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "svizzero",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "svizzera",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "or",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "elvetico",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "elvetica",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Romansh",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Svizzer",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Svizra",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "density",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "207",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "536.1",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "67",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Density",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "207/km 2 (536.1/sq mi) ( 67th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "207",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "km",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "536",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "sq",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "mi",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "67th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "federal_chancellor",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Federal Chancellor",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Viktor Rossi",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Viktor",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Rossi",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "federal_city",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Federal city",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Bern",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Bern",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "federal_council",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Federal Council",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Guy Parmelin ( President ) Ignazio Cassis ( Vice president ) Karin Keller-Sutter Albert Rösti Élisabeth Baume-Schneider Beat Jans Martin Pfister",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Guy",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Parmelin",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "President",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Ignazio",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Cassis",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Vice",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "president",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Karin",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Keller",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Sutter",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Albert",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "R",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "sti",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "lisabeth",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Baume",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Schneider",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Beat",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Jans",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Martin",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Pfister",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "federal_state",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "12",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1848",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Federal state",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "12 September 1848",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "12",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "September",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1848",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "federal_treaty",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "7",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1815",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Federal Treaty",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "7 August 1815",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "7",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "August",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1815",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "founded",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1291",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Founded",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1 August 1291",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "August",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1291",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gdp_nominal",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2025",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "GDP (nominal)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2025 estimate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2025",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "estimate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gdp_ppp",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2025",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "GDP ( PPP )",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2025 estimate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2025",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "estimate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gini_2023",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "31.5",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Gini (2023)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "31.5 medium inequality",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "31",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "5",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "medium",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "inequality",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "government",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Government",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Federal assembly-independent directorial republic",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Federal",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "assembly",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "independent",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "directorial",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "republic",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "hdi_2023",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "0.97",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "HDI (2023)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "0.970 very high ( 2nd )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "0",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "970",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "very",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "high",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2nd",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "internet_tld",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Internet TLD",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": ".ch , .swiss",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "ch",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "swiss",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "iso_3166_code",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "ISO 3166 code",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "CH",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "CH",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "largest_city",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Largest city",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Zurich",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Zurich",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "legislature",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Legislature",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Federal Assembly",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Federal",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Assembly",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "lower_house",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Lower house",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "National Council",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "National",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Council",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "nationality_2024",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "72.6",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "27.4",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Nationality (2024)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "72.6% Swiss 27.4% foreign nationals",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "72",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "6",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Swiss",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "27",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "4",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "foreign",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "nationals",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "official_languages",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "62",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "23",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "8",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "0.5",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Official languages",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "German (62%), French (23%), Italian (8%), Romansh (0.5%)",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "German",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "62",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "French",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "23",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Italian",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "8",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Romansh",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "0",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "5",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "per_capita",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "111047",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "3",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Per capita",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "$111,047 ( 3rd )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "111",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "047",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "3rd",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "religion_2024",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "54.7",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "30",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "18.7",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "6",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "36.8",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "6",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1.5",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "0.9",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Religion (2024)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "54.7% Christianity 30% Catholicism 18.7% Protestantism 6% other Christian 36.8% no religion 6% Islam 1.5% other religions 0.9% unanswered",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "54",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "7",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Christianity",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "30",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Catholicism",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "18",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "7",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Protestantism",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "6",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "other",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Christian",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "36",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "8",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "no",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "religion",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "6",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Islam",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "5",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "other",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "religions",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "0",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "9",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "unanswered",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sovereignty_recognised_peace_of_westphalia",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "24",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1648",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Sovereignty recognised ( Peace of Westphalia )",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "24 October 1648",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "24",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "October",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1648",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "summer_dst",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Summer ( DST )",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "UTC +2 ( CEST )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "UTC",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "CEST",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "swiss_confederation_name_in_official_languages_and_latin_german_schweizerische_eidgenossenschaft_french_conf_d_ration_suisse_italian_confederazione_svizzera_romansh_confederaziun_svizra_latin_confoederatio_helvetica_ch",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Swiss Confederation Name in official languages and Latin German : Schweizerische Eidgenossenschaft French : Confédération suisse Italian : Confederazione Svizzera Romansh : Confederaziun svizra Latin : Confoederatio helvetica (CH)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Schweizerische Eidgenossenschaft",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Schweizerische",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Eidgenossenschaft",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "time_zone",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Time zone",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "UTC +1 ( CET )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "UTC",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "CET",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "total",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1.003",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "20",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Total",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "$1.003 trillion ( 20th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "003",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "trillion",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "20th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "upper_house",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Upper house",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Council of States",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Council",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "of",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "States",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "water",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "4",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Water (%)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "4",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "4",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

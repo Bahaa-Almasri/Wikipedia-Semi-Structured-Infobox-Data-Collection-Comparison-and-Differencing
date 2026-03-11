@@ -1,0 +1,1822 @@
+{
+  "label": "türkiye",
+  "value": null,
+  "children": [
+    {
+      "label": "meta",
+      "value": null,
+      "children": [
+        {
+          "label": "country_name",
+          "value": "Türkiye",
+          "children": []
+        },
+        {
+          "label": "retrieved_at",
+          "value": "2026-03-11T17:58:19+00:00",
+          "children": []
+        },
+        {
+          "label": "slug",
+          "value": "türkiye",
+          "children": []
+        },
+        {
+          "label": "source",
+          "value": "wikipedia-infobox",
+          "children": []
+        },
+        {
+          "label": "wikipedia_url",
+          "value": "https://en.wikipedia.org/wiki/Turkey",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "fields",
+      "value": null,
+      "children": [
+        {
+          "label": "calling_code",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "90",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Calling code",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "+90",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "90",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "capital",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "39",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "55",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "32",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "51",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "39.917",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "32.85",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "39.917",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "32.85",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Capital",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Ankara 39°55′N 32°51′E ﻿ / ﻿ 39.917°N 32.850°E ﻿ / 39.917; 32.850",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Ankara",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "39",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "55",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "N",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "32",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "51",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "E",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "39",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "917",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "N",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "32",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "850",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "E",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "39",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "917",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "32",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "850",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "chief_justice",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Chief Justice",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Kadir Özkaya",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Kadir",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "zkaya",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "currency",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Currency",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Turkish lira ( ₺ ) ( TRY )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Turkish",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "lira",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "TRY",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "current_constitution",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "9",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1982",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Current constitution",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "9 November 1982",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "9",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "November",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1982",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "december_2025_estimate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "86092168",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "18",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• December 2025 estimate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "86,092,168 ( 18th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "86",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "092",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "168",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "18th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "demonyms",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Demonyms",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Turkish Turk",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Turkish",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Turk",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "density",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "112",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "290.1",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "83",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Density",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "112 /km 2 (290.1/sq mi) ( 83rd )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "112",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "km",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "290",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "sq",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "mi",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "83rd",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gdp_nominal",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2025",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "GDP (nominal)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2025 estimate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2025",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "estimate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gdp_ppp",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2025",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "GDP ( PPP )",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2025 estimate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2025",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "estimate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gini_2022",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "44.5",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Gini (2022)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "44.5 medium inequality",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "44",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "5",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "medium",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "inequality",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "government",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Government",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Unitary presidential republic",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Unitary",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "presidential",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "republic",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "government_of_the_grand_national_assembly",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "23",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1920",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Government of the Grand National Assembly",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "23 April 1920",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "23",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "April",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1920",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "hdi_2023",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "0.853",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "51",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "HDI (2023)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "0.853 very high ( 51st )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "0",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "853",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "very",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "high",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "51st",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "internet_tld",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Internet TLD",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": ".tr",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "tr",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "iso_3166_code",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "ISO 3166 code",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "TR",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "TR",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "largest_city",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "41",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "28",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "57",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "41.017",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "28.95",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "41.017",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "28.95",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Largest city",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Istanbul 41°1′N 28°57′E ﻿ / ﻿ 41.017°N 28.950°E ﻿ / 41.017; 28.950",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Istanbul",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "41",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "N",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "28",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "57",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "E",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "41",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "017",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "N",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "28",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "950",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "E",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "41",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "017",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "28",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "950",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "legislature",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Legislature",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Grand National Assembly",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Grand",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "National",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Assembly",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "official_languages",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Official languages",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Turkish",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Turkish",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ottoman_empire",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1299",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Ottoman Empire",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "c. 1299",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "c",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1299",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "per_capita",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "18200",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "62",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Per capita",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "$18,200 ( 62nd )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "18",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "200",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "62nd",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "president",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• President",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Recep Tayyip Erdoğan",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Recep",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Tayyip",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Erdo",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "an",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "republic_declared",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "29",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1923",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Republic declared",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "29 October 1923",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "29",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "October",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1923",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "speaker",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Speaker",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Numan Kurtulmuş",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Numan",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Kurtulmu",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "spoken_languages",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Spoken languages",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Predominantly Turkish List Kurdish Zaza Arabic Circassian Laz Greek Armenian Albanian Bosnian Bulgarian Other languages",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Predominantly",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Turkish",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "List",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Kurdish",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Zaza",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Arabic",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Circassian",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Laz",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Greek",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Armenian",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Albanian",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Bosnian",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Bulgarian",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Other",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "languages",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "sultanate_abolished",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1922",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Sultanate abolished",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1 November 1922",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "November",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1922",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "time_zone",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "3",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Time zone",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "UTC +3 ( TRT )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "UTC",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "3",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "TRT",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "total",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1.57",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "16",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Total",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "$1.57 trillion ( 16th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "57",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "trillion",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "16th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "treaty_of_lausanne",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "24",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1923",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Treaty of Lausanne",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "24 July 1923",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "24",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "July",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1923",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "vice_president",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Vice President",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Cevdet Yılmaz",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Cevdet",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Y",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "lmaz",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "war_of_independence",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "19",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1919",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• War of Independence",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "19 May 1919",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "19",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "May",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1919",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "water",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2.03",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Water (%)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2.03",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "03",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

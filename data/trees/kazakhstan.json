@@ -1,0 +1,1983 @@
+{
+  "label": "kazakhstan",
+  "value": null,
+  "children": [
+    {
+      "label": "meta",
+      "value": null,
+      "children": [
+        {
+          "label": "country_name",
+          "value": "Kazakhstan",
+          "children": []
+        },
+        {
+          "label": "retrieved_at",
+          "value": "2026-03-11T17:56:17+00:00",
+          "children": []
+        },
+        {
+          "label": "slug",
+          "value": "kazakhstan",
+          "children": []
+        },
+        {
+          "label": "source",
+          "value": "wikipedia-infobox",
+          "children": []
+        },
+        {
+          "label": "wikipedia_url",
+          "value": "https://en.wikipedia.org/wiki/Kazakhstan",
+          "children": []
+        }
+      ]
+    },
+    {
+      "label": "fields",
+      "value": null,
+      "children": [
+        {
+          "label": "2026_estimate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "20495975",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "65",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• 2026 estimate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "20,495,975 ( 65th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "20",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "495",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "975",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "65th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "calling_code",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Calling code",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "+7",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "7",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "capital",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "51",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "8",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "71",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "26",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "51.133",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "71.433",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "51.133",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "71.433",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Capital",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Astana 51°8′N 71°26′E ﻿ / ﻿ 51.133°N 71.433°E ﻿ / 51.133; 71.433",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Astana",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "51",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "8",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "N",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "71",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "26",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "E",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "51",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "133",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "N",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "71",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "433",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "E",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "51",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "133",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "71",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "433",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "currency",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Currency",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Tenge (₸) ( KZT )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Tenge",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "KZT",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "current_constitution",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "30",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1995",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Current constitution",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "30 August 1995",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "30",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "August",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1995",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "demonyms",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Demonyms",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Kazakh Kazakhstani",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Kazakh",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Kazakhstani",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "density",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "7.44",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "19.3",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "236",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Density",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "7.44/km 2 (19.3/sq mi) ( 236th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "7",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "44",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "km",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "19",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "3",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "sq",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "mi",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "236th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "ethnic_groups_2025",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "71.3",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "14.6",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "3.3",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1.8",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1.5",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1.1",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1.1",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "5.3",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Ethnic groups (2025)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "71.3% Kazakh 14.6% Russian 3.3% Uzbek 1.8% Ukrainian 1.5% Uyghur 1.1% German 1.1% Tatar 5.3% others",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "71",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "3",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Kazakh",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "14",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "6",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Russian",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "3",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "3",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Uzbek",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "8",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Ukrainian",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "5",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Uyghur",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "German",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Tatar",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "5",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "3",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "others",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gdp_nominal",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2025",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "GDP (nominal)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2025 estimate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2025",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "estimate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gdp_ppp",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "2025",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "GDP ( PPP )",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "2025 estimate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "2025",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "estimate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "gini_2018",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "27.8",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Gini (2018)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "27.8 low inequality",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "27",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "8",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "low",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "inequality",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "government",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Government",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Unitary presidential republic under an authoritarian government",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Unitary",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "presidential",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "republic",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "under",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "an",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "authoritarian",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "government",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "hdi_2023",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "0.837",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "60",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "HDI (2023)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "0.837 very high ( 60th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "0",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "837",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "very",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "high",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "60th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "independence_from_the_soviet_union",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "16",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1991",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Independence from the Soviet Union",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "16 December 1991",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "16",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "December",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1991",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "internet_tld",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Internet TLD",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": ".kz .қаз",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "kz",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "iso_3166_code",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "ISO 3166 code",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "KZ",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "KZ",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "kazakh_assr",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "26",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1920",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Kazakh ASSR",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "26 August 1920",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "26",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "August",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1920",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "kazakh_khanate",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1465",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Kazakh Khanate",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "c. 1465",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "c",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1465",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "kazakh_ssr",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "5",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1936",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Kazakh SSR",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "5 December 1936",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "5",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "December",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1936",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "largest_city",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "43",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "14",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "76",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "57",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "43.233",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "76.95",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "43.233",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "76.95",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Largest city",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Almaty 43°14′N 76°57′E ﻿ / ﻿ 43.233°N 76.950°E ﻿ / 43.233; 76.950",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Almaty",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "43",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "14",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "N",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "76",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "57",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "E",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "43",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "233",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "N",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "76",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "950",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "E",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "43",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "233",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "76",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "950",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "legislature",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Legislature",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Parliament",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Parliament",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "lower_house",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Lower house",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Mäjilis",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "M",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "jilis",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "official_languages",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "Official languages",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Kazakh Russian",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Kazakh",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Russian",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "per_capita",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "14770",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "64",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Per capita",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "$14,770 ( 64th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "14",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "770",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "64th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "president",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• President",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Kassym-Jomart Tokayev",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Kassym",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Jomart",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Tokayev",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "prime_minister",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Prime Minister",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Oljas Bektenov",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Oljas",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Bektenov",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "recognized",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "26",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "1991",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Recognized",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "26 December 1991",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "26",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "December",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "1991",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "religion_2021",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "69.3",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "17.2",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "2.3",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "0.2",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "11.0",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Religion (2021)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "69.3% Islam 17.2% Christianity 2.3% no religion 0.2% other 11.0% unanswered",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "69",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "3",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Islam",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "17",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "Christianity",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "3",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "no",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "religion",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "0",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "2",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "other",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "11",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "0",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "unanswered",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "time_zone",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "5",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "Time zone",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "UTC +5",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "UTC",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "5",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "total",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "300.54",
+                  "children": []
+                },
+                {
+                  "label": "numbers_item",
+                  "value": "48",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Total",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "$300.540 billion ( 48th )",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "300",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "540",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "billion",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "48th",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "upper_house",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": []
+            },
+            {
+              "label": "raw_label",
+              "value": "• Upper house",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "Senate",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "Senate",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "water",
+          "value": null,
+          "children": [
+            {
+              "label": "numbers",
+              "value": null,
+              "children": [
+                {
+                  "label": "numbers_item",
+                  "value": "1.7",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "label": "raw_label",
+              "value": "• Water (%)",
+              "children": []
+            },
+            {
+              "label": "text",
+              "value": "1.7",
+              "children": []
+            },
+            {
+              "label": "tokens",
+              "value": null,
+              "children": [
+                {
+                  "label": "tokens_item",
+                  "value": "1",
+                  "children": []
+                },
+                {
+                  "label": "tokens_item",
+                  "value": "7",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
