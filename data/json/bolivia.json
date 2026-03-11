@@ -1,0 +1,737 @@
+{
+  "meta": {
+    "country_name": "Bolivia",
+    "slug": "bolivia",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bolivia",
+    "retrieved_at": "2026-03-11T17:52:51+00:00",
+    "source": "wikipedia-infobox"
+  },
+  "raw": {
+    "infobox_html": "<table class=\"infobox ib-country vcard\"><tbody><tr><th class=\"infobox-above adr\" colspan=\"2\"><div class=\"fn org country-name\">Plurinational State of Bolivia</div><div class=\"ib-country-names\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span title=\"Spanish-language text\"><i lang=\"es\">Estado Plurinacional de Bolivia</i></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(<a href=\"/wiki/Spanish_language\" title=\"Spanish language\">Spanish</a>)</span></li><li><span title=\"Quechua-language text\"><i lang=\"qu\">Puliwya Achka Aylluska Mamallaqta</i></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(<a class=\"mw-redirect\" href=\"/wiki/Quechua_language\" title=\"Quechua language\">Quechua</a>)</span></li><li><span title=\"Aymara-language text\"><i lang=\"ay\">Wuliwya Walja Ayllunakana Marka</i></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(<a href=\"/wiki/Aymara_language\" title=\"Aymara language\">Aymara</a>)</span></li><li><span title=\"Guarani-language text\"><i lang=\"gn\">Tetã Hetate'ýigua Volívia</i></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(<a href=\"/wiki/Guarani_language\" title=\"Guarani language\">Guarani</a>)</span></li></ul></div><span data-plural=\"0\" style=\"display:none\"></span></div></th></tr><tr><td class=\"infobox-image\" colspan=\"2\"><div class=\"noresize\" style=\"display:table; width:100%;\">\n<div style=\"display:table-cell; vertical-align:middle; padding-left:5px;\">\n<div style=\"padding-bottom:3px;\"><span class=\"mw-image-border\" typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Flag_of_Bolivia.svg\" title=\"Flag of Bolivia\"><img alt=\"Horizontal tricolor (red, yellow, and green from top to bottom)\" class=\"mw-file-element\" data-file-height=\"750\" data-file-width=\"1100\" decoding=\"async\" height=\"85\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/250px-Flag_of_Bolivia.svg.png\" width=\"125\"/></a></span></div>\n<div><a href=\"/wiki/Flag_of_Bolivia\" title=\"Flag of Bolivia\">Flag</a></div>\n</div>\n<div style=\"display:table-cell; vertical-align:middle; padding: 0px 5px;\">\n<div style=\"padding-bottom:3px;\"><span typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Escudo_de_Bolivia.svg\" title=\"Coat of arms of Bolivia\"><img alt=\"Coat of arms of Bolivia\" class=\"mw-file-element\" data-file-height=\"1529\" data-file-width=\"1814\" decoding=\"async\" height=\"84\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Escudo_de_Bolivia.svg/120px-Escudo_de_Bolivia.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Escudo_de_Bolivia.svg/250px-Escudo_de_Bolivia.svg.png 1.5x\" width=\"100\"/></a></span></div>\n<div><a href=\"/wiki/Coat_of_arms_of_Bolivia\" title=\"Coat of arms of Bolivia\"> Coat of arms</a></div>\n</div>\n</div></td></tr><tr><td class=\"infobox-full-data anthem\" colspan=\"2\"><b>Anthem:</b> <span title=\"Spanish-language text\"><i lang=\"es\">Himno Nacional de Bolivia</i></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(Spanish)</span><br/>\"<a class=\"mw-redirect\" href=\"/wiki/National_Anthem_of_Bolivia\" title=\"National Anthem of Bolivia\">National Anthem of Bolivia</a>\"<br/><div style=\"display:inline-block;margin-top:0.4em;\"><figure class=\"mw-default-size mw-halign-center\" typeof=\"mw:File\"><span><audio class=\"mw-file-element\" controls=\"\" data-durationhint=\"101\" data-mw-tmh=\"\" data-mwprovider=\"wikimediacommons\" data-mwtitle=\"Himno_Nacional_de_Bolivia_instrumental.ogg\" id=\"mwe_player_0\" preload=\"none\" style=\"width:250px;\" width=\"250\"><source data-height=\"0\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/5/54/Himno_Nacional_de_Bolivia_instrumental.ogg\" type='audio/ogg; codecs=\"vorbis\"'/><source data-height=\"0\" data-transcodekey=\"mp3\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/transcoded/5/54/Himno_Nacional_de_Bolivia_instrumental.ogg/Himno_Nacional_de_Bolivia_instrumental.ogg.mp3\" type=\"audio/mpeg\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Aymar aru ‪(ay)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AHimno_Nacional_de_Bolivia_instrumental.ogg&amp;lang=ay&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"ay\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"English ‪(en)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AHimno_Nacional_de_Bolivia_instrumental.ogg&amp;lang=en&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"en\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"español ‪(es)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AHimno_Nacional_de_Bolivia_instrumental.ogg&amp;lang=es&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"es\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Avañe'ẽ ‪(gn)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AHimno_Nacional_de_Bolivia_instrumental.ogg&amp;lang=gn&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"gn\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Runa Simi ‪(qu)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AHimno_Nacional_de_Bolivia_instrumental.ogg&amp;lang=qu&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"qu\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Tiếng Việt ‪(vi)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AHimno_Nacional_de_Bolivia_instrumental.ogg&amp;lang=vi&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"vi\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"中文（繁體） ‪(zh-hant)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AHimno_Nacional_de_Bolivia_instrumental.ogg&amp;lang=zh-hant&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"zh-Hant\" type=\"text/vtt\"/></audio></span><figcaption></figcaption></figure></div></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><b>Dual flag: <style data-mw-deduplicate=\"TemplateStyles:r886047488\">.mw-parser-output .nobold{font-weight:normal}</style><span class=\"nobold\"><span title=\"Spanish-language text\"><i lang=\"es\"><a href=\"/wiki/Wiphala\" title=\"Wiphala\">Wiphala</a></i></span></span><sup class=\"reference\" id=\"cite_ref-2\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-4\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup></b><br/><div style=\"padding:0.3em;\"><span typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Banner_of_the_Qulla_Suyu_(1979).svg\"><img class=\"mw-file-element\" data-file-height=\"700\" data-file-width=\"700\" decoding=\"async\" height=\"100\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Banner_of_the_Qulla_Suyu_%281979%29.svg/120px-Banner_of_the_Qulla_Suyu_%281979%29.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Banner_of_the_Qulla_Suyu_%281979%29.svg/250px-Banner_of_the_Qulla_Suyu_%281979%29.svg.png 1.5x\" width=\"100\"/></a></span></div></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><span typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:BOL_orthographic.svg\" title=\"Location of Bolivia (dark green) in South America (gray)\"><img alt=\"Location of Bolivia (dark green) in South America (gray)\" class=\"mw-file-element\" data-file-height=\"550\" data-file-width=\"550\" decoding=\"async\" height=\"220\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/83/BOL_orthographic.svg/250px-BOL_orthographic.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/83/BOL_orthographic.svg/330px-BOL_orthographic.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/83/BOL_orthographic.svg/500px-BOL_orthographic.svg.png 2x\" width=\"220\"/></a></span><div class=\"ib-country-map-caption\"><div style=\"text-align:center;line-height:1.15em;\">Location of Bolivia (dark green)<p style=\"text-align:center;margin-top:0px;margin-bottom:0px;line-height:1.15em;\">in <a href=\"/wiki/South_America\" title=\"South America\">South America</a> (gray)</p></div></div></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Capital</th><td class=\"infobox-data\"><a href=\"/wiki/Sucre\" title=\"Sucre\">Sucre</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\">Administrative center</th><td class=\"infobox-data\"><a href=\"/wiki/La_Paz\" title=\"La Paz\">La Paz</a></td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\">Largest city</th><td class=\"infobox-data\"><a href=\"/wiki/Santa_Cruz_de_la_Sierra\" title=\"Santa Cruz de la Sierra\">Santa Cruz</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Bolivia&amp;params=17_48_S_63_10_W_\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">17°48′S</span> <span class=\"longitude\">63°10′W</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">17.800°S 63.167°W</span><span style=\"display:none\">﻿ / <span class=\"geo\">-17.800; -63.167</span></span></span></a></span></span></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\">Official languages</th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Bolivian_Spanish\" title=\"Bolivian Spanish\">Spanish</a></li>\n<li><a href=\"/wiki/Quechuan_languages\" title=\"Quechuan languages\">Quechua</a></li>\n<li><a href=\"/wiki/Aymara_language\" title=\"Aymara language\">Aymara</a></li>\n<li><a href=\"/wiki/Guarani_language\" title=\"Guarani language\">Guarani</a></li>\n<li><a href=\"/wiki/Languages_of_Bolivia\" title=\"Languages of Bolivia\">Other indigenous languages</a></li></ul>\n</div></link></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Religion <div class=\"ib-country-religion\"> (2020)</div></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li><style data-mw-deduplicate=\"TemplateStyles:r1324795729\">.mw-parser-output .treeview ul{padding:0;margin:0}.mw-parser-output .treeview li{padding:0;margin:0;list-style-type:none;list-style-image:none}.mw-parser-output .treeview li li{background:url(\"https://upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png\")no-repeat 0 -2981px;padding-left:21px;text-indent:0.3em}.mw-parser-output .treeview li li:last-child{background-position:0 -5971px}.mw-parser-output .treeview li.emptyline>ul>.mw-empty-elt:first-child+.emptyline,.mw-parser-output .treeview li.emptyline>ul>li:first-child{background-position:0 9px}</style><div class=\"treeview\">\n<ul><li>92.8% <a href=\"/wiki/Christianity\" title=\"Christianity\">Christianity</a>\n<ul><li>81.4% <a href=\"/wiki/Catholic_Church_in_Bolivia\" title=\"Catholic Church in Bolivia\">Catholicism</a></li>\n<li>11.4% other <a href=\"/wiki/List_of_Christian_denominations\" title=\"List of Christian denominations\">Christian</a></li></ul></li></ul>\n</div></li><li>6.5% <a href=\"/wiki/Irreligion_in_Latin_America\" title=\"Irreligion in Latin America\">no religion</a></li><li>0.7% <a href=\"/wiki/Religion_in_Bolivia\" title=\"Religion in Bolivia\">other</a></li></ul></div></link></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Demonym\" title=\"Demonym\">Demonym</a></th><td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/Bolivian_people\" title=\"Bolivian people\">Bolivian</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Politics_of_Bolivia\" title=\"Politics of Bolivia\">Government</a></th><td class=\"infobox-data\">Unitary <a class=\"mw-redirect\" href=\"/wiki/Presidential_republic\" title=\"Presidential republic\">presidential republic</a></td></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/President_of_Bolivia\" title=\"President of Bolivia\">President</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Rodrigo_Paz\" title=\"Rodrigo Paz\">Rodrigo Paz</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Vice_President_of_Bolivia\" title=\"Vice President of Bolivia\">Vice President</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Edmand_Lara\" title=\"Edmand Lara\">Edmand Lara</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/President_of_the_Chamber_of_Senators_of_Bolivia\" title=\"President of the Chamber of Senators of Bolivia\">President of the Senate</a> </div></th><td class=\"infobox-data\">Diego Ávila</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/President_of_the_Chamber_of_Deputies_of_Bolivia\" title=\"President of the Chamber of Deputies of Bolivia\">President of the Chamber of Deputies</a> </div></th><td class=\"infobox-data\">Roberto Castro Salazar</td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Legislature</th><td class=\"infobox-data\"><a href=\"/wiki/Plurinational_Legislative_Assembly\" title=\"Plurinational Legislative Assembly\">Plurinational Legislative Assembly</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• <a href=\"/wiki/Upper_house\" title=\"Upper house\">Upper house</a></div></th><td class=\"infobox-data\"><a href=\"/wiki/Chamber_of_Senators_(Bolivia)\" title=\"Chamber of Senators (Bolivia)\">Chamber of Senators</a></td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• <a href=\"/wiki/Lower_house\" title=\"Lower house\">Lower house</a></div></th><td class=\"infobox-data\"><a href=\"/wiki/Chamber_of_Deputies_(Bolivia)\" title=\"Chamber of Deputies (Bolivia)\">Chamber of Deputies</a></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Bolivian_War_of_Independence\" title=\"Bolivian War of Independence\">Independence</a> <div class=\"ib-country-sovereignty\">from <a href=\"/wiki/Spain\" title=\"Spain\">Spain</a></div></th></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Bolivian_Declaration_of_Independence\" title=\"Bolivian Declaration of Independence\">Declared</a> </div></th><td class=\"infobox-data\">6 August 1825</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• Recognized </div></th><td class=\"infobox-data\">21 July 1847</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Constitution_of_Bolivia\" title=\"Constitution of Bolivia\">Current constitution</a> </div></th><td class=\"infobox-data\">7 February 2009</td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Geography_of_Bolivia\" title=\"Geography of Bolivia\">Area </a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\">1,098,581 km<sup>2</sup> (424,164 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">27th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Water (%)</div></th><td class=\"infobox-data\">1.29</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Demographics_of_Bolivia\" title=\"Demographics of Bolivia\">Population</a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• 2024 census</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 11,365,333 (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">84th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Density</div></th><td class=\"infobox-data\">10.4/km<sup>2</sup> (26.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">224th</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(<a href=\"/wiki/Purchasing_power_parity\" title=\"Purchasing power parity\">PPP</a>)</span></link></th><td class=\"infobox-data\">2025 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $144.098 billion (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">94th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $11,574 (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">120th</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(nominal)</span></link></th><td class=\"infobox-data\">2025 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $56.339 billion   (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">94th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $4,525 (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">126th</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gini_coefficient\" title=\"Gini coefficient\">Gini</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2021)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Positive decrease\"><img alt=\"Positive decrease\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/20px-Decrease_Positive.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/40px-Decrease_Positive.svg.png 2x\" width=\"11\"/></span></span> 40.9<br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:#707070\">medium inequality</span></span></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Human_Development_Index\" title=\"Human Development Index\">HDI</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2023)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.733<br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"><span class=\"tmp-color\" style=\"color:forestgreen\">high</span></link></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">108th</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Currency</th><td class=\"infobox-data\"><a href=\"/wiki/Bolivian_boliviano\" title=\"Bolivian boliviano\">Boliviano</a> (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">BOB</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Time zone</th><td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>−04:00</span> (<a href=\"/wiki/UTC%E2%88%9204:00\" title=\"UTC−04:00\">BOT</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Date format</th><td class=\"infobox-data\">dd/mm/yyyy</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Telephone_numbers_in_Bolivia\" title=\"Telephone numbers in Bolivia\">Calling code</a></th><td class=\"infobox-data\"><a href=\"/wiki/Telephone_numbers_in_Bolivia\" title=\"Telephone numbers in Bolivia\">+591</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/ISO_3166\" title=\"ISO 3166\">ISO 3166 code</a></th><td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:BO\" title=\"ISO 3166-2:BO\">BO</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Country_code_top-level_domain\" title=\"Country code top-level domain\">Internet TLD</a></th><td class=\"infobox-data\"><a href=\"/wiki/.bo\" title=\".bo\">.bo</a></td></tr></tbody></table>",
+    "rows": [
+      {
+        "label": "Capital",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Sucre\" title=\"Sucre\">Sucre</a><sup class=\"reference\" id=\"cite_ref-central_cities_5-0\"><a href=\"#cite_note-central_cities-5\"><span class=\"cite-bracket\">[</span>b<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "Sucre [ b ]"
+      },
+      {
+        "label": "Administrative center",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/La_Paz\" title=\"La Paz\">La Paz</a><sup class=\"reference\" id=\"cite_ref-central_cities_5-1\"><a href=\"#cite_note-central_cities-5\"><span class=\"cite-bracket\">[</span>b<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "La Paz [ b ]"
+      },
+      {
+        "label": "Largest city",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Santa_Cruz_de_la_Sierra\" title=\"Santa Cruz de la Sierra\">Santa Cruz</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Bolivia&amp;params=17_48_S_63_10_W_\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">17°48′S</span> <span class=\"longitude\">63°10′W</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">17.800°S 63.167°W</span><span style=\"display:none\">﻿ / <span class=\"geo\">-17.800; -63.167</span></span></span></a></span></span></td>",
+        "value_text": "Santa Cruz 17°48′S 63°10′W ﻿ / ﻿ 17.800°S 63.167°W ﻿ / -17.800; -63.167"
+      },
+      {
+        "label": "Official languages",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\">\n<ul><li><a href=\"/wiki/Bolivian_Spanish\" title=\"Bolivian Spanish\">Spanish</a></li>\n<li><a href=\"/wiki/Quechuan_languages\" title=\"Quechuan languages\">Quechua</a></li>\n<li><a href=\"/wiki/Aymara_language\" title=\"Aymara language\">Aymara</a></li>\n<li><a href=\"/wiki/Guarani_language\" title=\"Guarani language\">Guarani</a></li>\n<li><a href=\"/wiki/Languages_of_Bolivia\" title=\"Languages of Bolivia\">Other indigenous languages</a></li></ul>\n</div></link></td>",
+        "value_text": "Spanish Quechua Aymara Guarani Other indigenous languages"
+      },
+      {
+        "label": "Religion (2020)",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li><style data-mw-deduplicate=\"TemplateStyles:r1324795729\">.mw-parser-output .treeview ul{padding:0;margin:0}.mw-parser-output .treeview li{padding:0;margin:0;list-style-type:none;list-style-image:none}.mw-parser-output .treeview li li{background:url(\"https://upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png\")no-repeat 0 -2981px;padding-left:21px;text-indent:0.3em}.mw-parser-output .treeview li li:last-child{background-position:0 -5971px}.mw-parser-output .treeview li.emptyline>ul>.mw-empty-elt:first-child+.emptyline,.mw-parser-output .treeview li.emptyline>ul>li:first-child{background-position:0 9px}</style><div class=\"treeview\">\n<ul><li>92.8% <a href=\"/wiki/Christianity\" title=\"Christianity\">Christianity</a>\n<ul><li>81.4% <a href=\"/wiki/Catholic_Church_in_Bolivia\" title=\"Catholic Church in Bolivia\">Catholicism</a></li>\n<li>11.4% other <a href=\"/wiki/List_of_Christian_denominations\" title=\"List of Christian denominations\">Christian</a></li></ul></li></ul>\n</div></li><li>6.5% <a href=\"/wiki/Irreligion_in_Latin_America\" title=\"Irreligion in Latin America\">no religion</a></li><li>0.7% <a href=\"/wiki/Religion_in_Bolivia\" title=\"Religion in Bolivia\">other</a></li></ul></div></link></td>",
+        "value_text": "92.8% Christianity 81.4% Catholicism 11.4% other Christian 6.5% no religion 0.7% other"
+      },
+      {
+        "label": "Demonym",
+        "value_html": "<td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/Bolivian_people\" title=\"Bolivian people\">Bolivian</a></td>",
+        "value_text": "Bolivian"
+      },
+      {
+        "label": "Government",
+        "value_html": "<td class=\"infobox-data\">Unitary <a class=\"mw-redirect\" href=\"/wiki/Presidential_republic\" title=\"Presidential republic\">presidential republic</a></td>",
+        "value_text": "Unitary presidential republic"
+      },
+      {
+        "label": "• President",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Rodrigo_Paz\" title=\"Rodrigo Paz\">Rodrigo Paz</a></td>",
+        "value_text": "Rodrigo Paz"
+      },
+      {
+        "label": "• Vice President",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Edmand_Lara\" title=\"Edmand Lara\">Edmand Lara</a></td>",
+        "value_text": "Edmand Lara"
+      },
+      {
+        "label": "• President of the Senate",
+        "value_html": "<td class=\"infobox-data\">Diego Ávila</td>",
+        "value_text": "Diego Ávila"
+      },
+      {
+        "label": "• President of the Chamber of Deputies",
+        "value_html": "<td class=\"infobox-data\">Roberto Castro Salazar</td>",
+        "value_text": "Roberto Castro Salazar"
+      },
+      {
+        "label": "Legislature",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Plurinational_Legislative_Assembly\" title=\"Plurinational Legislative Assembly\">Plurinational Legislative Assembly</a></td>",
+        "value_text": "Plurinational Legislative Assembly"
+      },
+      {
+        "label": "• Upper house",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Chamber_of_Senators_(Bolivia)\" title=\"Chamber of Senators (Bolivia)\">Chamber of Senators</a></td>",
+        "value_text": "Chamber of Senators"
+      },
+      {
+        "label": "• Lower house",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Chamber_of_Deputies_(Bolivia)\" title=\"Chamber of Deputies (Bolivia)\">Chamber of Deputies</a></td>",
+        "value_text": "Chamber of Deputies"
+      },
+      {
+        "label": "• Declared",
+        "value_html": "<td class=\"infobox-data\">6 August 1825</td>",
+        "value_text": "6 August 1825"
+      },
+      {
+        "label": "• Recognized",
+        "value_html": "<td class=\"infobox-data\">21 July 1847</td>",
+        "value_text": "21 July 1847"
+      },
+      {
+        "label": "• Current constitution",
+        "value_html": "<td class=\"infobox-data\">7 February 2009</td>",
+        "value_text": "7 February 2009"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\">1,098,581 km<sup>2</sup> (424,164 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">27th</a>)</td>",
+        "value_text": "1,098,581 km 2 (424,164 sq mi) ( 27th )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_html": "<td class=\"infobox-data\">1.29</td>",
+        "value_text": "1.29"
+      },
+      {
+        "label": "• 2024 census",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 11,365,333<sup class=\"reference\" id=\"cite_ref-ine2024_7-0\"><a href=\"#cite_note-ine2024-7\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">84th</a>)</td>",
+        "value_text": "11,365,333 [ 5 ] ( 84th )"
+      },
+      {
+        "label": "• Density",
+        "value_html": "<td class=\"infobox-data\">10.4/km<sup>2</sup> (26.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">224th</a>)</td>",
+        "value_text": "10.4/km 2 (26.9/sq mi) ( 224th )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_html": "<td class=\"infobox-data\">2025 estimate</td>",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $144.098 billion<sup class=\"reference\" id=\"cite_ref-IMFWEO.BO_8-0\"><a href=\"#cite_note-IMFWEO.BO-8\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">94th</a>)</td>",
+        "value_text": "$144.098 billion [ 6 ] ( 94th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $11,574<sup class=\"reference\" id=\"cite_ref-IMFWEO.BO_8-1\"><a href=\"#cite_note-IMFWEO.BO-8\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">120th</a>)</td>",
+        "value_text": "$11,574 [ 6 ] ( 120th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_html": "<td class=\"infobox-data\">2025 estimate</td>",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $56.339 billion  <sup class=\"reference\" id=\"cite_ref-IMFWEO.BO_8-2\"><a href=\"#cite_note-IMFWEO.BO-8\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">94th</a>)</td>",
+        "value_text": "$56.339 billion [ 6 ] ( 94th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $4,525<sup class=\"reference\" id=\"cite_ref-IMFWEO.BO_8-3\"><a href=\"#cite_note-IMFWEO.BO-8\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">126th</a>)</td>",
+        "value_text": "$4,525 [ 6 ] ( 126th )"
+      },
+      {
+        "label": "Gini (2021)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Positive decrease\"><img alt=\"Positive decrease\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/20px-Decrease_Positive.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/40px-Decrease_Positive.svg.png 2x\" width=\"11\"/></span></span> 40.9<sup class=\"reference\" id=\"cite_ref-9\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:#707070\">medium inequality</span></span></td>",
+        "value_text": "40.9 [ 7 ] medium inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.733<sup class=\"reference\" id=\"cite_ref-HDI_10-0\"><a href=\"#cite_note-HDI-10\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"><span class=\"tmp-color\" style=\"color:forestgreen\">high</span></link></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">108th</a>)</td>",
+        "value_text": "0.733 [ 8 ] high ( 108th )"
+      },
+      {
+        "label": "Currency",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Bolivian_boliviano\" title=\"Bolivian boliviano\">Boliviano</a> (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">BOB</a>)</td>",
+        "value_text": "Boliviano ( BOB )"
+      },
+      {
+        "label": "Time zone",
+        "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>−04:00</span> (<a href=\"/wiki/UTC%E2%88%9204:00\" title=\"UTC−04:00\">BOT</a>)</td>",
+        "value_text": "UTC −04:00 ( BOT )"
+      },
+      {
+        "label": "Date format",
+        "value_html": "<td class=\"infobox-data\">dd/mm/yyyy</td>",
+        "value_text": "dd/mm/yyyy"
+      },
+      {
+        "label": "Calling code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Telephone_numbers_in_Bolivia\" title=\"Telephone numbers in Bolivia\">+591</a></td>",
+        "value_text": "+591"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:BO\" title=\"ISO 3166-2:BO\">BO</a></td>",
+        "value_text": "BO"
+      },
+      {
+        "label": "Internet TLD",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/.bo\" title=\".bo\">.bo</a></td>",
+        "value_text": ".bo"
+      }
+    ]
+  },
+  "cleaned": {
+    "rows": [
+      {
+        "label": "Capital",
+        "value_text": "Sucre"
+      },
+      {
+        "label": "Administrative center",
+        "value_text": "La Paz"
+      },
+      {
+        "label": "Largest city",
+        "value_text": "Santa Cruz 17°48′S 63°10′W ﻿ / ﻿ 17.800°S 63.167°W ﻿ / -17.800; -63.167"
+      },
+      {
+        "label": "Official languages",
+        "value_text": "Spanish Quechua Aymara Guarani Other indigenous languages"
+      },
+      {
+        "label": "Religion (2020)",
+        "value_text": "92.8% Christianity 81.4% Catholicism 11.4% other Christian 6.5% no religion 0.7% other"
+      },
+      {
+        "label": "Demonym",
+        "value_text": "Bolivian"
+      },
+      {
+        "label": "Government",
+        "value_text": "Unitary presidential republic"
+      },
+      {
+        "label": "• President",
+        "value_text": "Rodrigo Paz"
+      },
+      {
+        "label": "• Vice President",
+        "value_text": "Edmand Lara"
+      },
+      {
+        "label": "• President of the Senate",
+        "value_text": "Diego Ávila"
+      },
+      {
+        "label": "• President of the Chamber of Deputies",
+        "value_text": "Roberto Castro Salazar"
+      },
+      {
+        "label": "Legislature",
+        "value_text": "Plurinational Legislative Assembly"
+      },
+      {
+        "label": "• Upper house",
+        "value_text": "Chamber of Senators"
+      },
+      {
+        "label": "• Lower house",
+        "value_text": "Chamber of Deputies"
+      },
+      {
+        "label": "• Declared",
+        "value_text": "6 August 1825"
+      },
+      {
+        "label": "• Recognized",
+        "value_text": "21 July 1847"
+      },
+      {
+        "label": "• Current constitution",
+        "value_text": "7 February 2009"
+      },
+      {
+        "label": "• Total",
+        "value_text": "1,098,581 km 2 (424,164 sq mi) ( 27th )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_text": "1.29"
+      },
+      {
+        "label": "• 2024 census",
+        "value_text": "11,365,333 ( 84th )"
+      },
+      {
+        "label": "• Density",
+        "value_text": "10.4/km 2 (26.9/sq mi) ( 224th )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$144.098 billion ( 94th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$11,574 ( 120th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$56.339 billion ( 94th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$4,525 ( 126th )"
+      },
+      {
+        "label": "Gini (2021)",
+        "value_text": "40.9 medium inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_text": "0.733 high ( 108th )"
+      },
+      {
+        "label": "Currency",
+        "value_text": "Boliviano ( BOB )"
+      },
+      {
+        "label": "Time zone",
+        "value_text": "UTC −04:00 ( BOT )"
+      },
+      {
+        "label": "Date format",
+        "value_text": "dd/mm/yyyy"
+      },
+      {
+        "label": "Calling code",
+        "value_text": "+591"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_text": "BO"
+      },
+      {
+        "label": "Internet TLD",
+        "value_text": ".bo"
+      }
+    ]
+  },
+  "normalized": {
+    "fields": {
+      "capital": {
+        "raw_label": "Capital",
+        "text": "Sucre",
+        "tokens": [
+          "Sucre"
+        ],
+        "numbers": []
+      },
+      "administrative_center": {
+        "raw_label": "Administrative center",
+        "text": "La Paz",
+        "tokens": [
+          "La",
+          "Paz"
+        ],
+        "numbers": []
+      },
+      "largest_city": {
+        "raw_label": "Largest city",
+        "text": "Santa Cruz 17°48′S 63°10′W ﻿ / ﻿ 17.800°S 63.167°W ﻿ / -17.800; -63.167",
+        "tokens": [
+          "Santa",
+          "Cruz",
+          "17",
+          "48",
+          "S",
+          "63",
+          "10",
+          "W",
+          "17",
+          "800",
+          "S",
+          "63",
+          "167",
+          "W",
+          "17",
+          "800",
+          "63",
+          "167"
+        ],
+        "numbers": [
+          17,
+          48,
+          63,
+          10,
+          17.8,
+          63.167,
+          -17.8,
+          -63.167
+        ]
+      },
+      "official_languages": {
+        "raw_label": "Official languages",
+        "text": "Spanish Quechua Aymara Guarani Other indigenous languages",
+        "tokens": [
+          "Spanish",
+          "Quechua",
+          "Aymara",
+          "Guarani",
+          "Other",
+          "indigenous",
+          "languages"
+        ],
+        "numbers": []
+      },
+      "religion_2020": {
+        "raw_label": "Religion (2020)",
+        "text": "92.8% Christianity 81.4% Catholicism 11.4% other Christian 6.5% no religion 0.7% other",
+        "tokens": [
+          "92",
+          "8",
+          "Christianity",
+          "81",
+          "4",
+          "Catholicism",
+          "11",
+          "4",
+          "other",
+          "Christian",
+          "6",
+          "5",
+          "no",
+          "religion",
+          "0",
+          "7",
+          "other"
+        ],
+        "numbers": [
+          92.8,
+          81.4,
+          11.4,
+          6.5,
+          0.7
+        ]
+      },
+      "demonym": {
+        "raw_label": "Demonym",
+        "text": "Bolivian",
+        "tokens": [
+          "Bolivian"
+        ],
+        "numbers": []
+      },
+      "government": {
+        "raw_label": "Government",
+        "text": "Unitary presidential republic",
+        "tokens": [
+          "Unitary",
+          "presidential",
+          "republic"
+        ],
+        "numbers": []
+      },
+      "president": {
+        "raw_label": "• President",
+        "text": "Rodrigo Paz",
+        "tokens": [
+          "Rodrigo",
+          "Paz"
+        ],
+        "numbers": []
+      },
+      "vice_president": {
+        "raw_label": "• Vice President",
+        "text": "Edmand Lara",
+        "tokens": [
+          "Edmand",
+          "Lara"
+        ],
+        "numbers": []
+      },
+      "president_of_the_senate": {
+        "raw_label": "• President of the Senate",
+        "text": "Diego Ávila",
+        "tokens": [
+          "Diego",
+          "vila"
+        ],
+        "numbers": []
+      },
+      "president_of_the_chamber_of_deputies": {
+        "raw_label": "• President of the Chamber of Deputies",
+        "text": "Roberto Castro Salazar",
+        "tokens": [
+          "Roberto",
+          "Castro",
+          "Salazar"
+        ],
+        "numbers": []
+      },
+      "legislature": {
+        "raw_label": "Legislature",
+        "text": "Plurinational Legislative Assembly",
+        "tokens": [
+          "Plurinational",
+          "Legislative",
+          "Assembly"
+        ],
+        "numbers": []
+      },
+      "upper_house": {
+        "raw_label": "• Upper house",
+        "text": "Chamber of Senators",
+        "tokens": [
+          "Chamber",
+          "of",
+          "Senators"
+        ],
+        "numbers": []
+      },
+      "lower_house": {
+        "raw_label": "• Lower house",
+        "text": "Chamber of Deputies",
+        "tokens": [
+          "Chamber",
+          "of",
+          "Deputies"
+        ],
+        "numbers": []
+      },
+      "declared": {
+        "raw_label": "• Declared",
+        "text": "6 August 1825",
+        "tokens": [
+          "6",
+          "August",
+          "1825"
+        ],
+        "numbers": [
+          6,
+          1825
+        ]
+      },
+      "recognized": {
+        "raw_label": "• Recognized",
+        "text": "21 July 1847",
+        "tokens": [
+          "21",
+          "July",
+          "1847"
+        ],
+        "numbers": [
+          21,
+          1847
+        ]
+      },
+      "current_constitution": {
+        "raw_label": "• Current constitution",
+        "text": "7 February 2009",
+        "tokens": [
+          "7",
+          "February",
+          "2009"
+        ],
+        "numbers": [
+          7,
+          2009
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$56.339 billion ( 94th )",
+        "tokens": [
+          "56",
+          "339",
+          "billion",
+          "94th"
+        ],
+        "numbers": [
+          56.339,
+          94
+        ]
+      },
+      "water": {
+        "raw_label": "• Water (%)",
+        "text": "1.29",
+        "tokens": [
+          "1",
+          "29"
+        ],
+        "numbers": [
+          1.29
+        ]
+      },
+      "2024_census": {
+        "raw_label": "• 2024 census",
+        "text": "11,365,333 ( 84th )",
+        "tokens": [
+          "11",
+          "365",
+          "333",
+          "84th"
+        ],
+        "numbers": [
+          11365333,
+          84
+        ]
+      },
+      "density": {
+        "raw_label": "• Density",
+        "text": "10.4/km 2 (26.9/sq mi) ( 224th )",
+        "tokens": [
+          "10",
+          "4",
+          "km",
+          "2",
+          "26",
+          "9",
+          "sq",
+          "mi",
+          "224th"
+        ],
+        "numbers": [
+          10.4,
+          2,
+          26.9,
+          224
+        ]
+      },
+      "gdp_ppp": {
+        "raw_label": "GDP ( PPP )",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$4,525 ( 126th )",
+        "tokens": [
+          "4",
+          "525",
+          "126th"
+        ],
+        "numbers": [
+          4525,
+          126
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gini_2021": {
+        "raw_label": "Gini (2021)",
+        "text": "40.9 medium inequality",
+        "tokens": [
+          "40",
+          "9",
+          "medium",
+          "inequality"
+        ],
+        "numbers": [
+          40.9
+        ]
+      },
+      "hdi_2023": {
+        "raw_label": "HDI (2023)",
+        "text": "0.733 high ( 108th )",
+        "tokens": [
+          "0",
+          "733",
+          "high",
+          "108th"
+        ],
+        "numbers": [
+          0.733,
+          108
+        ]
+      },
+      "currency": {
+        "raw_label": "Currency",
+        "text": "Boliviano ( BOB )",
+        "tokens": [
+          "Boliviano",
+          "BOB"
+        ],
+        "numbers": []
+      },
+      "time_zone": {
+        "raw_label": "Time zone",
+        "text": "UTC −04:00 ( BOT )",
+        "tokens": [
+          "UTC",
+          "04",
+          "00",
+          "BOT"
+        ],
+        "numbers": [
+          4,
+          0
+        ]
+      },
+      "date_format": {
+        "raw_label": "Date format",
+        "text": "dd/mm/yyyy",
+        "tokens": [
+          "dd",
+          "mm",
+          "yyyy"
+        ],
+        "numbers": []
+      },
+      "calling_code": {
+        "raw_label": "Calling code",
+        "text": "+591",
+        "tokens": [
+          "591"
+        ],
+        "numbers": [
+          591
+        ]
+      },
+      "iso_3166_code": {
+        "raw_label": "ISO 3166 code",
+        "text": "BO",
+        "tokens": [
+          "BO"
+        ],
+        "numbers": []
+      },
+      "internet_tld": {
+        "raw_label": "Internet TLD",
+        "text": ".bo",
+        "tokens": [
+          "bo"
+        ],
+        "numbers": []
+      }
+    }
+  }
+}

@@ -1,0 +1,668 @@
+{
+  "meta": {
+    "country_name": "Luxembourg",
+    "slug": "luxembourg",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Luxembourg",
+    "retrieved_at": "2026-03-11T17:56:29+00:00",
+    "source": "wikipedia-infobox"
+  },
+  "raw": {
+    "infobox_html": "<table class=\"infobox ib-country vcard\"><tbody><tr><th class=\"infobox-above adr\" colspan=\"2\"><div class=\"fn org country-name\">Grand Duchy of Luxembourg</div><div class=\"ib-country-names\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span title=\"Luxembourgish-language text\"><i lang=\"lb\">Groussherzogtum Lëtzebuerg<wbr/></i></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(<a class=\"mw-redirect\" href=\"/wiki/Luxembourgish_language\" title=\"Luxembourgish language\">Luxembourgish</a>)</span></li><li><span title=\"French-language text\"><i lang=\"fr\">Grand-Duché de Luxembourg<wbr/></i></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(<a href=\"/wiki/French_language\" title=\"French language\">French</a>)</span></li><li><span title=\"German-language text\"><i lang=\"de\"><span class=\"nowrap\">Großherzogtum Luxemburg<wbr/></span></i></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(<a href=\"/wiki/German_language\" title=\"German language\">German</a>)</span></li></ul></div><span data-plural=\"0\" style=\"display:none\"></span></div></th></tr><tr><td class=\"infobox-image\" colspan=\"2\"><div class=\"noresize\" style=\"display:table; width:100%;\">\n<div style=\"display:table-cell; vertical-align:middle; padding-left:5px;\">\n<div style=\"padding-bottom:3px;\"><span class=\"mw-image-border\" typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Flag_of_Luxembourg.svg\" title=\"Flag of Luxembourg\"><img alt=\"Flag of Luxembourg\" class=\"mw-file-element\" data-file-height=\"307\" data-file-width=\"512\" decoding=\"async\" height=\"78\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/250px-Flag_of_Luxembourg.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/330px-Flag_of_Luxembourg.svg.png 2x\" width=\"130\"/></a></span></div>\n<div><a href=\"/wiki/Flag_of_Luxembourg\" title=\"Flag of Luxembourg\">Flag</a></div>\n</div>\n<div style=\"display:table-cell; vertical-align:middle; padding: 0px 5px;\">\n<div style=\"padding-bottom:3px;\"><span typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Coat_of_arms_of_Luxembourg.svg\" title=\"Coat of arms of Luxembourg\"><img alt=\"Coat of arms of Luxembourg\" class=\"mw-file-element\" data-file-height=\"507\" data-file-width=\"525\" decoding=\"async\" height=\"92\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Coat_of_arms_of_Luxembourg.svg/120px-Coat_of_arms_of_Luxembourg.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Coat_of_arms_of_Luxembourg.svg/250px-Coat_of_arms_of_Luxembourg.svg.png 1.5x\" width=\"95\"/></a></span></div>\n<div><a href=\"/wiki/Coat_of_arms_of_Luxembourg\" title=\"Coat of arms of Luxembourg\"> Coat of arms</a></div>\n</div>\n</div></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><b>Motto: </b>\"<a href=\"/wiki/Mir_w%C3%ABlle_bleiwe_wat_mir_sinn\" title=\"Mir wëlle bleiwe wat mir sinn\">Mir wëlle bleiwe wat mir sinn</a>\"<br/> \"We want to stay what we are\"</td></tr><tr><td class=\"infobox-full-data anthem\" colspan=\"2\"><b>Anthem:</b> \"<a href=\"/wiki/Ons_Heemecht\" title=\"Ons Heemecht\">Ons Heemecht</a>\"<br/>(\"Our Homeland\")<br/><div style=\"display:inline-block;margin-top:0.4em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><span><audio class=\"mw-file-element\" controls=\"\" data-durationhint=\"84\" data-mw-tmh=\"\" data-mwprovider=\"wikimediacommons\" data-mwtitle=\"Ons_Heemecht.ogg\" id=\"mwe_player_0\" preload=\"none\" style=\"width:250px;\" width=\"250\"><source data-height=\"0\" data-transcodekey=\"mp3\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/Ons_Heemecht.ogg/Ons_Heemecht.ogg.mp3\" type=\"audio/mpeg\"/><source data-height=\"0\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/f/f6/Ons_Heemecht.ogg\" type='audio/ogg; codecs=\"vorbis\"'/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"English ‪(en)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AOns_Heemecht.ogg&amp;lang=en&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"en\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"français ‪(fr)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AOns_Heemecht.ogg&amp;lang=fr&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"fr\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Lëtzebuergesch ‪(lb)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AOns_Heemecht.ogg&amp;lang=lb&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"lb\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"português ‪(pt)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AOns_Heemecht.ogg&amp;lang=pt&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"pt\" type=\"text/vtt\"/></audio></span></span></div><div class=\"ib-country-anthem\"><b><a class=\"mw-redirect\" href=\"/wiki/Royal_anthem\" title=\"Royal anthem\">Royal anthem</a>:</b> \"<span title=\"Luxembourgish-language text\"><span lang=\"lb\" style=\"font-style: normal;\"><a href=\"/wiki/De_Wilhelmus\" title=\"De Wilhelmus\">De Wilhelmus</a></span></span>\"<sup>a</sup></div></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:EU-Luxembourg.svg\" title=\"Location of Luxembourg (green circle) – in Europe (light green &amp; dark grey) – in the European Union (light green)  –  [Legend]\"><img alt=\"Location of Luxembourg (green circle) – in Europe (light green &amp; dark grey) – in the European Union (light green)  –  [Legend]\" class=\"mw-file-element\" data-file-height=\"1720\" data-file-width=\"2045\" decoding=\"async\" height=\"210\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/EU-Luxembourg.svg/250px-EU-Luxembourg.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/EU-Luxembourg.svg/500px-EU-Luxembourg.svg.png 1.5x\" width=\"250\"/></a></span><div class=\"ib-country-map-caption\"><div style=\"text-align:center;line-height:1.15em;\">Location of Luxembourg (green circle)<p style=\"text-align:left;margin-left:1.2ex;margin-top:0px;margin-bottom:0px;line-height:1.15em;\">– in <a href=\"/wiki/Europe\" title=\"Europe\">Europe</a> (light green &amp; dark grey)<br/>– in the <a href=\"/wiki/European_Union\" title=\"European Union\">European Union</a> (light green)  –  [<a href=\"/wiki/File:EU-Luxembourg.svg\" title=\"File:EU-Luxembourg.svg\">Legend</a>]</p></div></div></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Capital<div class=\"ib-country-largest\">and largest city</div></th><td class=\"infobox-data\"><a href=\"/wiki/Luxembourg_City\" title=\"Luxembourg City\">Luxembourg</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Luxembourg&amp;params=49.6106_N_6.1328_E_type:city(124,500)_region:LU\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">49°36′38″N</span> <span class=\"longitude\">6°07′58″E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">49.6106°N 6.1328°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">49.6106; 6.1328</span></span></span></a></span></span></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\">Official languages</th><td class=\"infobox-data\"><b>National language:</b><br/><a href=\"/wiki/Luxembourgish\" title=\"Luxembourgish\">Luxembourgish</a><br/>\n<b>Administrative languages:</b><style data-mw-deduplicate=\"TemplateStyles:r1333133064\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><div class=\"hlist\"><ul><li>Luxembourgish</li><li><a href=\"/wiki/German_language\" title=\"German language\">German</a></li><li><a href=\"/wiki/French_language\" title=\"French language\">French</a></li></ul></div><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Nationality <style data-mw-deduplicate=\"TemplateStyles:r886047488\">.mw-parser-output .nobold{font-weight:normal}</style><span class=\"nobold\">(2025)</span></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li>53% <a href=\"/wiki/Luxembourgers\" title=\"Luxembourgers\">Luxembourgers</a></li><li>13.2% <a class=\"mw-redirect\" href=\"/wiki/Portuguese_Luxembourger\" title=\"Portuguese Luxembourger\">Portuguese</a><sup>e</sup></li><li style=\"padding-top:0.2em;line-height:1.2em\">7.2% French<sup>e</sup></li><li>3.7% Italians<sup>e</sup></li><li>23% other<sup>e</sup></li></ul></div></link></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Religion <div class=\"ib-country-religion\"> (2021)</div></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space:nowrap;\"><style data-mw-deduplicate=\"TemplateStyles:r1324795729\">.mw-parser-output .treeview ul{padding:0;margin:0}.mw-parser-output .treeview li{padding:0;margin:0;list-style-type:none;list-style-image:none}.mw-parser-output .treeview li li{background:url(\"https://upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png\")no-repeat 0 -2981px;padding-left:21px;text-indent:0.3em}.mw-parser-output .treeview li li:last-child{background-position:0 -5971px}.mw-parser-output .treeview li.emptyline>ul>.mw-empty-elt:first-child+.emptyline,.mw-parser-output .treeview li.emptyline>ul>li:first-child{background-position:0 9px}</style><div class=\"treeview\">\n<ul><li>53% <a href=\"/wiki/Religion_in_Luxembourg\" title=\"Religion in Luxembourg\">Christianity</a>\n<ul><li>46% <a class=\"mw-redirect\" href=\"/wiki/Catholic_Church_in_Luxembourg\" title=\"Catholic Church in Luxembourg\">Catholicism</a></li>\n<li>7% other <a href=\"/wiki/List_of_Christian_denominations\" title=\"List of Christian denominations\">Christian</a></li></ul></li></ul>\n</div></li><li style=\"white-space:nowrap;\">38% <a href=\"/wiki/Irreligion\" title=\"Irreligion\">no religion</a></li><li style=\"white-space:nowrap;\">9% other</li></ul></div></link></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Demonym\" title=\"Demonym\">Demonyms</a></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1333133064\" rel=\"mw-deduplicated-inline-style\"><div class=\"hlist\"><ul><li><a href=\"/wiki/Luxembourgers\" title=\"Luxembourgers\">Luxembourger</a></li><li><a href=\"/wiki/Luxembourgers\" title=\"Luxembourgers\">Luxembourgish</a></li></ul></div></link></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Politics_of_Luxembourg\" title=\"Politics of Luxembourg\">Government</a></th><td class=\"infobox-data\">Unitary <a class=\"mw-redirect\" href=\"/wiki/Parliamentary_constitutional_monarchy\" title=\"Parliamentary constitutional monarchy\">parliamentary constitutional monarchy</a></td></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Monarchy_of_Luxembourg\" title=\"Monarchy of Luxembourg\">Grand Duke</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Guillaume_V,_Grand_Duke_of_Luxembourg\" title=\"Guillaume V, Grand Duke of Luxembourg\">Guillaume V</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a class=\"mw-redirect\" href=\"/wiki/Prime_Minister_of_Luxembourg\" title=\"Prime Minister of Luxembourg\">Prime Minister</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Luc_Frieden\" title=\"Luc Frieden\">Luc Frieden</a></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Legislature</th><td class=\"infobox-data\"><a href=\"/wiki/Chamber_of_Deputies_(Luxembourg)\" title=\"Chamber of Deputies (Luxembourg)\">Chamber of Deputies</a></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\">Establishment</th></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• From the <a href=\"/wiki/For%C3%AAts\" title=\"Forêts\">French Empire</a> and elevation to <a href=\"/wiki/History_of_Luxembourg#Developing_independence_(1815–1890)\" title=\"History of Luxembourg\">Grand Duchy of Luxembourg</a> </div></th><td class=\"infobox-data\">9 June 1815</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• Independence in personal Union with the Netherlands (<a href=\"/wiki/Treaty_of_London_(1839)\" title=\"Treaty of London (1839)\">Treaty of London</a>) </div></th><td class=\"infobox-data\">19 April 1839</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• End of <a href=\"/wiki/Personal_union\" title=\"Personal union\">personal union</a> with the Kingdom of the Netherlands </div></th><td class=\"infobox-data\">23 November 1890</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• Liberation from the <a href=\"/wiki/Nazi_Germany\" title=\"Nazi Germany\">Greater German Reich</a> </div></th><td class=\"infobox-data\">1944/1945</td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Geography_of_Luxembourg\" title=\"Geography of Luxembourg\">Area </a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\">2,586.4 km<sup>2</sup> (998.6 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">168th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Water (%)</div></th><td class=\"infobox-data\">0.23 (2015)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Demographics_of_Luxembourg\" title=\"Demographics of Luxembourg\">Population</a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• December 2025 estimate</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 690,947 (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">163rd</a>)</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• 2021 census</div></th><td class=\"infobox-data\">643,941</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Density</div></th><td class=\"infobox-data\">264/km<sup>2</sup> (683.8/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">55th</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(<a href=\"/wiki/Purchasing_power_parity\" title=\"Purchasing power parity\">PPP</a>)</span></link></th><td class=\"infobox-data\">2025 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $106.505 billion (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">100th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $154,914 (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">1st</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(nominal)</span></link></th><td class=\"infobox-data\">2025 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $96.993 billion (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">73rd</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $141,079 (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">1st</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gini_coefficient\" title=\"Gini coefficient\">Gini</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2023)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Negative increase\"><img alt=\"Negative increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Increase_Negative.svg/20px-Increase_Negative.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Increase_Negative.svg/40px-Increase_Negative.svg.png 2x\" width=\"11\"/></span></span> 30.6<br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:#707070\">medium inequality</span></span></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Human_Development_Index\" title=\"Human Development Index\">HDI</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2023)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Steady\"><img alt=\"Steady\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Steady2.svg/20px-Steady2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Steady2.svg/40px-Steady2.svg.png 2x\" width=\"11\"/></span></span> 0.922<br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"/><span class=\"tmp-color\" style=\"color:darkgreen\">very high</span></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">25th</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Currency</th><td class=\"infobox-data\"><a href=\"/wiki/Euro\" title=\"Euro\">Euro</a> (<a href=\"/wiki/Euro_sign\" title=\"Euro sign\">€</a>) (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">EUR</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Telephone_numbers_in_Luxembourg\" title=\"Telephone numbers in Luxembourg\">Calling code</a></th><td class=\"infobox-data\"><a href=\"/wiki/Telephone_numbers_in_Luxembourg\" title=\"Telephone numbers in Luxembourg\">+352</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/ISO_3166\" title=\"ISO 3166\">ISO 3166 code</a></th><td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:LU\" title=\"ISO 3166-2:LU\">LU</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Country_code_top-level_domain\" title=\"Country code top-level domain\">Internet TLD</a></th><td class=\"infobox-data\"><a href=\"/wiki/.lu\" title=\".lu\">.lu</a><sup>b</sup></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><div class=\"ib-country-fn\"><ol class=\"ib-country-fn-alpha\">\n<li value=\"1\">Not the same as <i><a class=\"mw-redirect\" href=\"/wiki/Het_Wilhelmus\" title=\"Het Wilhelmus\">Het Wilhelmus</a></i> of the Netherlands</li><li value=\"2\">The <a href=\"/wiki/.eu\" title=\".eu\">.eu</a> domain is also used, as it is shared with other European Union member states.</li><li value=\"4\"><style data-mw-deduplicate=\"TemplateStyles:r1041539562\">.mw-parser-output .citation{word-wrap:break-word}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}</style><span class=\"citation wikicite\" id=\"endnote_ddd\"><b><a href=\"#ref_ddd\">^</a></b></span> <style data-mw-deduplicate=\"TemplateStyles:r1333433106\">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><cite class=\"citation web cs1\"><a class=\"external text\" href=\"https://web.archive.org/web/20070613005439/https://www.cia.gov/library/publications/the-world-factbook/fields/2172.html#Govt\" rel=\"nofollow\">\"Field Listing – Distribution of family income – Gini index\"</a>. <i><a href=\"/wiki/The_World_Factbook\" title=\"The World Factbook\">The World Factbook</a></i>. <a href=\"/wiki/Central_Intelligence_Agency\" title=\"Central Intelligence Agency\">Central Intelligence Agency</a>. Archived from <a class=\"external text\" href=\"https://www.cia.gov/library/publications/the-world-factbook/fields/2172.html#Govt\" rel=\"nofollow\">the original</a> on 13 June 2007<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">3 May</span> 2013</span>.</cite><span class=\"Z3988\" title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=The+World+Factbook&amp;rft.atitle=Field+Listing+%E2%80%93+Distribution+of+family+income+%E2%80%93+Gini+index&amp;rft_id=https%3A%2F%2Fwww.cia.gov%2Flibrary%2Fpublications%2Fthe-world-factbook%2Ffields%2F2172.html%23Govt&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALuxembourg\"></span></li><li value=\"5\">These figures are likely an underestimation, as dual citizens with Luxembourgish nationality are counted solely as Luxembourgers in official estimates.</li>\n</ol></div></td></tr></tbody></table>",
+    "rows": [
+      {
+        "label": "Capital and largest city",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Luxembourg_City\" title=\"Luxembourg City\">Luxembourg</a><sup class=\"reference\" id=\"cite_ref-The_World_Factbook_1-0\"><a href=\"#cite_note-The_World_Factbook-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Luxembourg&amp;params=49.6106_N_6.1328_E_type:city(124,500)_region:LU\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">49°36′38″N</span> <span class=\"longitude\">6°07′58″E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">49.6106°N 6.1328°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">49.6106; 6.1328</span></span></span></a></span></span></td>",
+        "value_text": "Luxembourg [ 1 ] 49°36′38″N 6°07′58″E ﻿ / ﻿ 49.6106°N 6.1328°E ﻿ / 49.6106; 6.1328"
+      },
+      {
+        "label": "Official languages",
+        "value_html": "<td class=\"infobox-data\"><b>National language:</b><br/><a href=\"/wiki/Luxembourgish\" title=\"Luxembourgish\">Luxembourgish</a><br/>\n<b>Administrative languages:</b><style data-mw-deduplicate=\"TemplateStyles:r1333133064\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><div class=\"hlist\"><ul><li>Luxembourgish</li><li><a href=\"/wiki/German_language\" title=\"German language\">German</a></li><li><a href=\"/wiki/French_language\" title=\"French language\">French</a></li></ul></div><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td>",
+        "value_text": "National language: Luxembourgish Administrative languages: Luxembourgish German French"
+      },
+      {
+        "label": "Nationality (2025)",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li>53% <a href=\"/wiki/Luxembourgers\" title=\"Luxembourgers\">Luxembourgers</a></li><li>13.2% <a class=\"mw-redirect\" href=\"/wiki/Portuguese_Luxembourger\" title=\"Portuguese Luxembourger\">Portuguese</a><sup>e</sup></li><li style=\"padding-top:0.2em;line-height:1.2em\">7.2% French<sup>e</sup></li><li>3.7% Italians<sup>e</sup></li><li>23% other<sup>e</sup></li></ul></div></link></td>",
+        "value_text": "53% Luxembourgers 13.2% Portuguese e 7.2% French e 3.7% Italians e 23% other e"
+      },
+      {
+        "label": "Religion (2021 )",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space:nowrap;\"><style data-mw-deduplicate=\"TemplateStyles:r1324795729\">.mw-parser-output .treeview ul{padding:0;margin:0}.mw-parser-output .treeview li{padding:0;margin:0;list-style-type:none;list-style-image:none}.mw-parser-output .treeview li li{background:url(\"https://upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png\")no-repeat 0 -2981px;padding-left:21px;text-indent:0.3em}.mw-parser-output .treeview li li:last-child{background-position:0 -5971px}.mw-parser-output .treeview li.emptyline>ul>.mw-empty-elt:first-child+.emptyline,.mw-parser-output .treeview li.emptyline>ul>li:first-child{background-position:0 9px}</style><div class=\"treeview\">\n<ul><li>53% <a href=\"/wiki/Religion_in_Luxembourg\" title=\"Religion in Luxembourg\">Christianity</a>\n<ul><li>46% <a class=\"mw-redirect\" href=\"/wiki/Catholic_Church_in_Luxembourg\" title=\"Catholic Church in Luxembourg\">Catholicism</a></li>\n<li>7% other <a href=\"/wiki/List_of_Christian_denominations\" title=\"List of Christian denominations\">Christian</a></li></ul></li></ul>\n</div></li><li style=\"white-space:nowrap;\">38% <a href=\"/wiki/Irreligion\" title=\"Irreligion\">no religion</a></li><li style=\"white-space:nowrap;\">9% other</li></ul></div></link></td>",
+        "value_text": "53% Christianity 46% Catholicism 7% other Christian 38% no religion 9% other"
+      },
+      {
+        "label": "Demonyms",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1333133064\" rel=\"mw-deduplicated-inline-style\"><div class=\"hlist\"><ul><li><a href=\"/wiki/Luxembourgers\" title=\"Luxembourgers\">Luxembourger</a></li><li><a href=\"/wiki/Luxembourgers\" title=\"Luxembourgers\">Luxembourgish</a></li></ul></div></link></td>",
+        "value_text": "Luxembourger Luxembourgish"
+      },
+      {
+        "label": "Government",
+        "value_html": "<td class=\"infobox-data\">Unitary <a class=\"mw-redirect\" href=\"/wiki/Parliamentary_constitutional_monarchy\" title=\"Parliamentary constitutional monarchy\">parliamentary constitutional monarchy</a></td>",
+        "value_text": "Unitary parliamentary constitutional monarchy"
+      },
+      {
+        "label": "• Grand Duke",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Guillaume_V,_Grand_Duke_of_Luxembourg\" title=\"Guillaume V, Grand Duke of Luxembourg\">Guillaume V</a></td>",
+        "value_text": "Guillaume V"
+      },
+      {
+        "label": "• Prime Minister",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Luc_Frieden\" title=\"Luc Frieden\">Luc Frieden</a></td>",
+        "value_text": "Luc Frieden"
+      },
+      {
+        "label": "Legislature",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Chamber_of_Deputies_(Luxembourg)\" title=\"Chamber of Deputies (Luxembourg)\">Chamber of Deputies</a></td>",
+        "value_text": "Chamber of Deputies"
+      },
+      {
+        "label": "• From the French Empire and elevation to Grand Duchy of Luxembourg",
+        "value_html": "<td class=\"infobox-data\">9 June 1815</td>",
+        "value_text": "9 June 1815"
+      },
+      {
+        "label": "• Independence in personal Union with the Netherlands ( Treaty of London )",
+        "value_html": "<td class=\"infobox-data\">19 April 1839</td>",
+        "value_text": "19 April 1839"
+      },
+      {
+        "label": "• End of personal union with the Kingdom of the Netherlands",
+        "value_html": "<td class=\"infobox-data\">23 November 1890</td>",
+        "value_text": "23 November 1890"
+      },
+      {
+        "label": "• Liberation from the Greater German Reich",
+        "value_html": "<td class=\"infobox-data\">1944/1945</td>",
+        "value_text": "1944/1945"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\">2,586.4 km<sup>2</sup> (998.6 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">168th</a>)</td>",
+        "value_text": "2,586.4 km 2 (998.6 sq mi) ( 168th )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_html": "<td class=\"infobox-data\">0.23 (2015)<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "0.23 (2015) [ 3 ]"
+      },
+      {
+        "label": "• December 2025 estimate",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 690,947<sup class=\"reference\" id=\"cite_ref-DataPublic_4-0\"><a href=\"#cite_note-DataPublic-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">163rd</a>)</td>",
+        "value_text": "690,947 [ 4 ] ( 163rd )"
+      },
+      {
+        "label": "• 2021 census",
+        "value_html": "<td class=\"infobox-data\">643,941<sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "643,941 [ 5 ]"
+      },
+      {
+        "label": "• Density",
+        "value_html": "<td class=\"infobox-data\">264/km<sup>2</sup> (683.8/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">55th</a>)</td>",
+        "value_text": "264/km 2 (683.8/sq mi) ( 55th )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_html": "<td class=\"infobox-data\">2025 estimate</td>",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $106.505 billion<sup class=\"reference\" id=\"cite_ref-IMFWEO.LU_6-0\"><a href=\"#cite_note-IMFWEO.LU-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">100th</a>)</td>",
+        "value_text": "$106.505 billion [ 6 ] ( 100th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $154,914<sup class=\"reference\" id=\"cite_ref-IMFWEO.LU_6-1\"><a href=\"#cite_note-IMFWEO.LU-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">1st</a>)</td>",
+        "value_text": "$154,914 [ 6 ] ( 1st )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_html": "<td class=\"infobox-data\">2025 estimate</td>",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $96.993 billion<sup class=\"reference\" id=\"cite_ref-IMFWEO.LU_6-2\"><a href=\"#cite_note-IMFWEO.LU-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">73rd</a>)</td>",
+        "value_text": "$96.993 billion [ 6 ] ( 73rd )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $141,079<sup class=\"reference\" id=\"cite_ref-IMFWEO.LU_6-3\"><a href=\"#cite_note-IMFWEO.LU-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">1st</a>)</td>",
+        "value_text": "$141,079 [ 6 ] ( 1st )"
+      },
+      {
+        "label": "Gini (2023)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Negative increase\"><img alt=\"Negative increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Increase_Negative.svg/20px-Increase_Negative.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Increase_Negative.svg/40px-Increase_Negative.svg.png 2x\" width=\"11\"/></span></span> 30.6<sup class=\"reference\" id=\"cite_ref-eurogini_7-0\"><a href=\"#cite_note-eurogini-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:#707070\">medium inequality</span></span></td>",
+        "value_text": "30.6 [ 7 ] medium inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Steady\"><img alt=\"Steady\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Steady2.svg/20px-Steady2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Steady2.svg/40px-Steady2.svg.png 2x\" width=\"11\"/></span></span> 0.922<sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"/><span class=\"tmp-color\" style=\"color:darkgreen\">very high</span></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">25th</a>)</td>",
+        "value_text": "0.922 [ 8 ] very high ( 25th )"
+      },
+      {
+        "label": "Currency",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Euro\" title=\"Euro\">Euro</a> (<a href=\"/wiki/Euro_sign\" title=\"Euro sign\">€</a>) (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">EUR</a>)</td>",
+        "value_text": "Euro ( € ) ( EUR )"
+      },
+      {
+        "label": "Calling code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Telephone_numbers_in_Luxembourg\" title=\"Telephone numbers in Luxembourg\">+352</a></td>",
+        "value_text": "+352"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:LU\" title=\"ISO 3166-2:LU\">LU</a></td>",
+        "value_text": "LU"
+      },
+      {
+        "label": "Internet TLD",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/.lu\" title=\".lu\">.lu</a><sup>b</sup></td>",
+        "value_text": ".lu b"
+      }
+    ]
+  },
+  "cleaned": {
+    "rows": [
+      {
+        "label": "Capital and largest city",
+        "value_text": "Luxembourg 49°36′38″N 6°07′58″E ﻿ / ﻿ 49.6106°N 6.1328°E ﻿ / 49.6106; 6.1328"
+      },
+      {
+        "label": "Official languages",
+        "value_text": "National language: Luxembourgish Administrative languages: Luxembourgish German French"
+      },
+      {
+        "label": "Nationality (2025)",
+        "value_text": "53% Luxembourgers 13.2% Portuguese e 7.2% French e 3.7% Italians e 23% other e"
+      },
+      {
+        "label": "Religion (2021 )",
+        "value_text": "53% Christianity 46% Catholicism 7% other Christian 38% no religion 9% other"
+      },
+      {
+        "label": "Demonyms",
+        "value_text": "Luxembourger Luxembourgish"
+      },
+      {
+        "label": "Government",
+        "value_text": "Unitary parliamentary constitutional monarchy"
+      },
+      {
+        "label": "• Grand Duke",
+        "value_text": "Guillaume V"
+      },
+      {
+        "label": "• Prime Minister",
+        "value_text": "Luc Frieden"
+      },
+      {
+        "label": "Legislature",
+        "value_text": "Chamber of Deputies"
+      },
+      {
+        "label": "• From the French Empire and elevation to Grand Duchy of Luxembourg",
+        "value_text": "9 June 1815"
+      },
+      {
+        "label": "• Independence in personal Union with the Netherlands ( Treaty of London )",
+        "value_text": "19 April 1839"
+      },
+      {
+        "label": "• End of personal union with the Kingdom of the Netherlands",
+        "value_text": "23 November 1890"
+      },
+      {
+        "label": "• Liberation from the Greater German Reich",
+        "value_text": "1944/1945"
+      },
+      {
+        "label": "• Total",
+        "value_text": "2,586.4 km 2 (998.6 sq mi) ( 168th )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_text": "0.23 (2015)"
+      },
+      {
+        "label": "• December 2025 estimate",
+        "value_text": "690,947 ( 163rd )"
+      },
+      {
+        "label": "• 2021 census",
+        "value_text": "643,941"
+      },
+      {
+        "label": "• Density",
+        "value_text": "264/km 2 (683.8/sq mi) ( 55th )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$106.505 billion ( 100th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$154,914 ( 1st )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$96.993 billion ( 73rd )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$141,079 ( 1st )"
+      },
+      {
+        "label": "Gini (2023)",
+        "value_text": "30.6 medium inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_text": "0.922 very high ( 25th )"
+      },
+      {
+        "label": "Currency",
+        "value_text": "Euro ( € ) ( EUR )"
+      },
+      {
+        "label": "Calling code",
+        "value_text": "+352"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_text": "LU"
+      },
+      {
+        "label": "Internet TLD",
+        "value_text": ".lu b"
+      }
+    ]
+  },
+  "normalized": {
+    "fields": {
+      "capital_and_largest_city": {
+        "raw_label": "Capital and largest city",
+        "text": "Luxembourg 49°36′38″N 6°07′58″E ﻿ / ﻿ 49.6106°N 6.1328°E ﻿ / 49.6106; 6.1328",
+        "tokens": [
+          "Luxembourg",
+          "49",
+          "36",
+          "38",
+          "N",
+          "6",
+          "07",
+          "58",
+          "E",
+          "49",
+          "6106",
+          "N",
+          "6",
+          "1328",
+          "E",
+          "49",
+          "6106",
+          "6",
+          "1328"
+        ],
+        "numbers": [
+          49,
+          36,
+          38,
+          6,
+          7,
+          58,
+          49.6106,
+          6.1328,
+          49.6106,
+          6.1328
+        ]
+      },
+      "official_languages": {
+        "raw_label": "Official languages",
+        "text": "National language: Luxembourgish Administrative languages: Luxembourgish German French",
+        "tokens": [
+          "National",
+          "language",
+          "Luxembourgish",
+          "Administrative",
+          "languages",
+          "Luxembourgish",
+          "German",
+          "French"
+        ],
+        "numbers": []
+      },
+      "nationality_2025": {
+        "raw_label": "Nationality (2025)",
+        "text": "53% Luxembourgers 13.2% Portuguese e 7.2% French e 3.7% Italians e 23% other e",
+        "tokens": [
+          "53",
+          "Luxembourgers",
+          "13",
+          "2",
+          "Portuguese",
+          "e",
+          "7",
+          "2",
+          "French",
+          "e",
+          "3",
+          "7",
+          "Italians",
+          "e",
+          "23",
+          "other",
+          "e"
+        ],
+        "numbers": [
+          53,
+          13.2,
+          7.2,
+          3.7,
+          23
+        ]
+      },
+      "religion_2021": {
+        "raw_label": "Religion (2021 )",
+        "text": "53% Christianity 46% Catholicism 7% other Christian 38% no religion 9% other",
+        "tokens": [
+          "53",
+          "Christianity",
+          "46",
+          "Catholicism",
+          "7",
+          "other",
+          "Christian",
+          "38",
+          "no",
+          "religion",
+          "9",
+          "other"
+        ],
+        "numbers": [
+          53,
+          46,
+          7,
+          38,
+          9
+        ]
+      },
+      "demonyms": {
+        "raw_label": "Demonyms",
+        "text": "Luxembourger Luxembourgish",
+        "tokens": [
+          "Luxembourger",
+          "Luxembourgish"
+        ],
+        "numbers": []
+      },
+      "government": {
+        "raw_label": "Government",
+        "text": "Unitary parliamentary constitutional monarchy",
+        "tokens": [
+          "Unitary",
+          "parliamentary",
+          "constitutional",
+          "monarchy"
+        ],
+        "numbers": []
+      },
+      "grand_duke": {
+        "raw_label": "• Grand Duke",
+        "text": "Guillaume V",
+        "tokens": [
+          "Guillaume",
+          "V"
+        ],
+        "numbers": []
+      },
+      "prime_minister": {
+        "raw_label": "• Prime Minister",
+        "text": "Luc Frieden",
+        "tokens": [
+          "Luc",
+          "Frieden"
+        ],
+        "numbers": []
+      },
+      "legislature": {
+        "raw_label": "Legislature",
+        "text": "Chamber of Deputies",
+        "tokens": [
+          "Chamber",
+          "of",
+          "Deputies"
+        ],
+        "numbers": []
+      },
+      "from_the_french_empire_and_elevation_to_grand_duchy_of_luxembourg": {
+        "raw_label": "• From the French Empire and elevation to Grand Duchy of Luxembourg",
+        "text": "9 June 1815",
+        "tokens": [
+          "9",
+          "June",
+          "1815"
+        ],
+        "numbers": [
+          9,
+          1815
+        ]
+      },
+      "independence_in_personal_union_with_the_netherlands_treaty_of_london": {
+        "raw_label": "• Independence in personal Union with the Netherlands ( Treaty of London )",
+        "text": "19 April 1839",
+        "tokens": [
+          "19",
+          "April",
+          "1839"
+        ],
+        "numbers": [
+          19,
+          1839
+        ]
+      },
+      "end_of_personal_union_with_the_kingdom_of_the_netherlands": {
+        "raw_label": "• End of personal union with the Kingdom of the Netherlands",
+        "text": "23 November 1890",
+        "tokens": [
+          "23",
+          "November",
+          "1890"
+        ],
+        "numbers": [
+          23,
+          1890
+        ]
+      },
+      "liberation_from_the_greater_german_reich": {
+        "raw_label": "• Liberation from the Greater German Reich",
+        "text": "1944/1945",
+        "tokens": [
+          "1944",
+          "1945"
+        ],
+        "numbers": [
+          1944,
+          1945
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$96.993 billion ( 73rd )",
+        "tokens": [
+          "96",
+          "993",
+          "billion",
+          "73rd"
+        ],
+        "numbers": [
+          96.993,
+          73
+        ]
+      },
+      "water": {
+        "raw_label": "• Water (%)",
+        "text": "0.23 (2015)",
+        "tokens": [
+          "0",
+          "23",
+          "2015"
+        ],
+        "numbers": [
+          0.23,
+          2015
+        ]
+      },
+      "december_2025_estimate": {
+        "raw_label": "• December 2025 estimate",
+        "text": "690,947 ( 163rd )",
+        "tokens": [
+          "690",
+          "947",
+          "163rd"
+        ],
+        "numbers": [
+          690947,
+          163
+        ]
+      },
+      "2021_census": {
+        "raw_label": "• 2021 census",
+        "text": "643,941",
+        "tokens": [
+          "643",
+          "941"
+        ],
+        "numbers": [
+          643941
+        ]
+      },
+      "density": {
+        "raw_label": "• Density",
+        "text": "264/km 2 (683.8/sq mi) ( 55th )",
+        "tokens": [
+          "264",
+          "km",
+          "2",
+          "683",
+          "8",
+          "sq",
+          "mi",
+          "55th"
+        ],
+        "numbers": [
+          264,
+          2,
+          683.8,
+          55
+        ]
+      },
+      "gdp_ppp": {
+        "raw_label": "GDP ( PPP )",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$141,079 ( 1st )",
+        "tokens": [
+          "141",
+          "079",
+          "1st"
+        ],
+        "numbers": [
+          141079,
+          1
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gini_2023": {
+        "raw_label": "Gini (2023)",
+        "text": "30.6 medium inequality",
+        "tokens": [
+          "30",
+          "6",
+          "medium",
+          "inequality"
+        ],
+        "numbers": [
+          30.6
+        ]
+      },
+      "hdi_2023": {
+        "raw_label": "HDI (2023)",
+        "text": "0.922 very high ( 25th )",
+        "tokens": [
+          "0",
+          "922",
+          "very",
+          "high",
+          "25th"
+        ],
+        "numbers": [
+          0.922,
+          25
+        ]
+      },
+      "currency": {
+        "raw_label": "Currency",
+        "text": "Euro ( € ) ( EUR )",
+        "tokens": [
+          "Euro",
+          "EUR"
+        ],
+        "numbers": []
+      },
+      "calling_code": {
+        "raw_label": "Calling code",
+        "text": "+352",
+        "tokens": [
+          "352"
+        ],
+        "numbers": [
+          352
+        ]
+      },
+      "iso_3166_code": {
+        "raw_label": "ISO 3166 code",
+        "text": "LU",
+        "tokens": [
+          "LU"
+        ],
+        "numbers": []
+      },
+      "internet_tld": {
+        "raw_label": "Internet TLD",
+        "text": ".lu b",
+        "tokens": [
+          "lu",
+          "b"
+        ],
+        "numbers": []
+      }
+    }
+  }
+}

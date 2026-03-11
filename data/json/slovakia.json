@@ -1,0 +1,908 @@
+{
+  "meta": {
+    "country_name": "Slovakia",
+    "slug": "slovakia",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Slovakia",
+    "retrieved_at": "2026-03-11T17:57:46+00:00",
+    "source": "wikipedia-infobox"
+  },
+  "raw": {
+    "infobox_html": "<table class=\"infobox ib-country vcard\"><tbody><tr><th class=\"infobox-above adr\" colspan=\"2\"><div class=\"fn org country-name\">Slovak Republic</div><div class=\"ib-country-names\"><span title=\"Slovak-language text\"><i lang=\"sk\">Slovenská republika</i></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(<a href=\"/wiki/Slovak_language\" title=\"Slovak language\">Slovak</a>)</span><span data-plural=\"0\" style=\"display:none\"></span></div></th></tr><tr><td class=\"infobox-image\" colspan=\"2\"><div class=\"noresize\" style=\"display:table; width:100%;\">\n<div style=\"display:table-cell; vertical-align:middle; padding-left:5px;\">\n<div style=\"padding-bottom:3px;\"><span class=\"mw-image-border\" typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Flag_of_Slovakia.svg\" title=\"Flag of Slovakia\"><img alt=\"Flag of Slovakia\" class=\"mw-file-element\" data-file-height=\"600\" data-file-width=\"900\" decoding=\"async\" height=\"83\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/250px-Flag_of_Slovakia.svg.png\" width=\"125\"/></a></span></div>\n<div><a href=\"/wiki/Flag_of_Slovakia\" title=\"Flag of Slovakia\">Flag</a></div>\n</div>\n<div style=\"display:table-cell; vertical-align:middle; padding: 0px 5px;\">\n<div style=\"padding-bottom:3px;\"><span typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Coat_of_arms_of_Slovakia.svg\" title=\"Coat of arms of Slovakia\"><img alt=\"Coat of arms of Slovakia\" class=\"mw-file-element\" data-file-height=\"640\" data-file-width=\"512\" decoding=\"async\" height=\"88\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Coat_of_arms_of_Slovakia.svg/120px-Coat_of_arms_of_Slovakia.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Coat_of_arms_of_Slovakia.svg/250px-Coat_of_arms_of_Slovakia.svg.png 2x\" width=\"70\"/></a></span></div>\n<div><a href=\"/wiki/Coat_of_arms_of_Slovakia\" title=\"Coat of arms of Slovakia\"> Coat of arms</a></div>\n</div>\n</div></td></tr><tr><td class=\"infobox-full-data anthem\" colspan=\"2\"><b>Anthem:</b> <span title=\"Slovak-language text\"><i lang=\"sk\"><a href=\"/wiki/Nad_Tatrou_sa_bl%C3%BDska\" title=\"Nad Tatrou sa blýska\">Nad Tatrou sa blýska</a></i></span><br/><small>(English: <span lang=\"en\">\"Lightning Over the Tatras\"</span>)</small>\n<div style=\"display:inline-block;margin-top:0.4em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><span><audio class=\"mw-file-element\" controls=\"\" data-durationhint=\"34\" data-mw-tmh=\"\" data-mwprovider=\"wikimediacommons\" data-mwtitle=\"Nad_Tatrou_sa_blýska.ogg\" id=\"mwe_player_0\" preload=\"none\" style=\"width:250px;\" width=\"250\"><source data-height=\"0\" data-transcodekey=\"mp3\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Nad_Tatrou_sa_bl%C3%BDska.ogg/Nad_Tatrou_sa_bl%C3%BDska.ogg.mp3\" type=\"audio/mpeg\"/><source data-height=\"0\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/e/e8/Nad_Tatrou_sa_bl%C3%BDska.ogg\" type='audio/ogg; codecs=\"vorbis\"'/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"беларуская ‪(be)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=be&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"be\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"English ‪(en)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=en&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"en\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"français ‪(fr)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=fr&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"fr\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"हिन्दी ‪(hi)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=hi&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"hi\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"magyar ‪(hu)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=hu&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"hu\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Bahasa Indonesia ‪(id)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=id&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"id\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"日本語 ‪(ja)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=ja&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"ja\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"한국어 ‪(ko)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=ko&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"ko\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"polski ‪(pl)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=pl&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"pl\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"português ‪(pt)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=pt&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"pt\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"slovenčina ‪(sk)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=sk&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"sk\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"српски (ћирилица) ‪(sr-ec)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=sr-ec&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"sr-Cyrl\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Tiếng Việt ‪(vi)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=vi&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"vi\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"中文（中国大陆） ‪(zh-cn)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=zh-cn&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"zh-Hans-CN\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"中文（简体） ‪(zh-hans)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=zh-hans&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"zh-Hans\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"中文（臺灣） ‪(zh-tw)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ANad_Tatrou_sa_bl%C3%BDska.ogg&amp;lang=zh-tw&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"zh-Hant-TW\" type=\"text/vtt\"/></audio></span></span></div></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><b><a href=\"/wiki/National_Seal_of_Slovakia\" title=\"National Seal of Slovakia\">National seal</a></b><br/><div style=\"padding:0.3em;\">\n<span typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Seal_of_the_Slovak_Republic.png\"><img class=\"mw-file-element\" data-file-height=\"9828\" data-file-width=\"9827\" decoding=\"async\" height=\"85\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Seal_of_the_Slovak_Republic.png/120px-Seal_of_the_Slovak_Republic.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Seal_of_the_Slovak_Republic.png/250px-Seal_of_the_Slovak_Republic.png 1.5x\" width=\"85\"/></a></span></div></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><div class=\"switcher-container\"><div><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:Slovakia_on_the_globe_(Europe_centered).svg\"><img class=\"mw-file-element\" data-file-height=\"1032\" data-file-width=\"1032\" decoding=\"async\" height=\"290\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Slovakia_on_the_globe_%28Europe_centered%29.svg/330px-Slovakia_on_the_globe_%28Europe_centered%29.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Slovakia_on_the_globe_%28Europe_centered%29.svg/500px-Slovakia_on_the_globe_%28Europe_centered%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Slovakia_on_the_globe_%28Europe_centered%29.svg/960px-Slovakia_on_the_globe_%28Europe_centered%29.svg.png 2x\" width=\"290\"/></a></span><span class=\"switcher-label\" style=\"display:none\">Show globe</span></div><div><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:EU-Slovakia.svg\"><img class=\"mw-file-element\" data-file-height=\"1720\" data-file-width=\"2045\" decoding=\"async\" height=\"244\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/EU-Slovakia.svg/330px-EU-Slovakia.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/EU-Slovakia.svg/500px-EU-Slovakia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1d/EU-Slovakia.svg/960px-EU-Slovakia.svg.png 2x\" width=\"290\"/></a></span><span class=\"switcher-label\" data-switcher-default=\"\" style=\"display:none\">Show map of Europe</span></div></div><div class=\"ib-country-map-caption\"><div style=\"text-align:center;line-height:1.15em;\">Location of Slovakia (dark green)<p style=\"text-align:left;margin-left:1.2ex;margin-top:0px;margin-bottom:0px;line-height:1.15em;\">– in <a href=\"/wiki/Europe\" title=\"Europe\">Europe</a> (green &amp; dark grey)<br/>– in the <a href=\"/wiki/European_Union\" title=\"European Union\">European Union</a> (green)  –  [<a href=\"/wiki/File:EU-Slovakia.svg\" title=\"File:EU-Slovakia.svg\">Legend</a>]</p></div></div></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Capital<div class=\"ib-country-largest\">and largest city</div></th><td class=\"infobox-data\"><a href=\"/wiki/Bratislava\" title=\"Bratislava\">Bratislava</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Slovakia&amp;params=48_9_9_N_17_6_34_E_type:city\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">48°9′9″N</span> <span class=\"longitude\">17°6′34″E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">48.15250°N 17.10944°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">48.15250; 17.10944</span></span></span></a></span></span></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Official_language\" title=\"Official language\">Official language</a></th><td class=\"infobox-data\"><a href=\"/wiki/Slovak_language\" title=\"Slovak language\">Slovak</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Regional and minority languages</th><td class=\"infobox-data\"><a href=\"/wiki/Bulgarian_language\" title=\"Bulgarian language\">Bulgarian</a>, <a href=\"/wiki/Czech_language\" title=\"Czech language\">Czech</a>, <a href=\"/wiki/Croatian_language\" title=\"Croatian language\">Croatian</a>, <a href=\"/wiki/Hungarian_language\" title=\"Hungarian language\">Hungarian</a>, <a href=\"/wiki/German_language\" title=\"German language\">German</a>, <a href=\"/wiki/Polish_language\" title=\"Polish language\">Polish</a>, <a href=\"/wiki/Romani_language\" title=\"Romani language\">Romani</a>, <a href=\"/wiki/Russian_language\" title=\"Russian language\">Russian</a>, <a href=\"/wiki/Ruthenian_language\" title=\"Ruthenian language\">Ruthenian</a>, <a href=\"/wiki/Serbian_language\" title=\"Serbian language\">Serbian</a>, <a href=\"/wiki/Ukrainian_language\" title=\"Ukrainian language\">Ukrainian</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a class=\"mw-redirect\" href=\"/wiki/Ethnic_group\" title=\"Ethnic group\">Ethnic groups</a> <div class=\"ib-country-ethnic\"> (2021)</div></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li>88.6% <a href=\"/wiki/Slovaks\" title=\"Slovaks\">Slovaks</a></li><li>8.2% <a href=\"/wiki/Hungarians_in_Slovakia\" title=\"Hungarians in Slovakia\">Hungarians</a></li><li>1.3% <a href=\"/wiki/Romani_people_in_Slovakia\" title=\"Romani people in Slovakia\">Romani</a></li><li>1.9% others</li></ul></div></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Religion <div class=\"ib-country-religion\"> (2021)</div></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space:nowrap;\"><style data-mw-deduplicate=\"TemplateStyles:r1324795729\">.mw-parser-output .treeview ul{padding:0;margin:0}.mw-parser-output .treeview li{padding:0;margin:0;list-style-type:none;list-style-image:none}.mw-parser-output .treeview li li{background:url(\"https://upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png\")no-repeat 0 -2981px;padding-left:21px;text-indent:0.3em}.mw-parser-output .treeview li li:last-child{background-position:0 -5971px}.mw-parser-output .treeview li.emptyline>ul>.mw-empty-elt:first-child+.emptyline,.mw-parser-output .treeview li.emptyline>ul>li:first-child{background-position:0 9px}</style><div class=\"treeview\">\n<ul><li>68.8% <a href=\"/wiki/Christianity\" title=\"Christianity\">Christianity</a>\n<ul><li>59.8% <a href=\"/wiki/Catholic_Church_in_Slovakia\" title=\"Catholic Church in Slovakia\">Catholicism</a></li>\n<li>7.6% <a href=\"/wiki/Protestantism\" title=\"Protestantism\">Protestantism</a></li>\n<li>1.4% other <a href=\"/wiki/List_of_Christian_denominations\" title=\"List of Christian denominations\">Christian</a></li></ul></li></ul>\n</div></li><li style=\"white-space:nowrap;\">23.8% <a href=\"/wiki/Irreligion\" title=\"Irreligion\">no religion</a></li><li style=\"white-space:nowrap;\">0.9% other</li><li style=\"white-space:nowrap;\">6.5% unspecified</li></ul></div></link></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Demonym\" title=\"Demonym\">Demonym</a></th><td class=\"infobox-data\"><a href=\"/wiki/Slovaks\" title=\"Slovaks\">Slovak</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Politics_of_Slovakia\" title=\"Politics of Slovakia\">Government</a></th><td class=\"infobox-data\"><a href=\"/wiki/Unitary_parliamentary_republic\" title=\"Unitary parliamentary republic\">Unitary parliamentary republic</a></td></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/President_of_Slovakia\" title=\"President of Slovakia\">President</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Peter_Pellegrini\" title=\"Peter Pellegrini\">Peter Pellegrini</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Prime_Minister_of_Slovakia\" title=\"Prime Minister of Slovakia\">Prime Minister</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Robert_Fico\" title=\"Robert Fico\">Robert Fico</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/List_of_speakers_of_Slovak_parliaments\" title=\"List of speakers of Slovak parliaments\">Speaker of the National Council</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Richard_Ra%C5%A1i\" title=\"Richard Raši\">Richard Raši</a></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Legislature</th><td class=\"infobox-data\"><a href=\"/wiki/National_Council_of_Slovakia\" title=\"National Council of Slovakia\">National Council</a></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\">Establishment history</th></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Czechoslovak_declaration_of_independence\" title=\"Czechoslovak declaration of independence\">Independence</a> from <br/><a href=\"/wiki/Austria-Hungary\" title=\"Austria-Hungary\">Austria-Hungary</a><br/>(<a href=\"/wiki/First_Czechoslovak_Republic\" title=\"First Czechoslovak Republic\">First Czechoslovak Republic</a>) </div></th><td class=\"infobox-data\">28 October 1918</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Treaty_of_Trianon\" title=\"Treaty of Trianon\">Treaty of Trianon</a> </div></th><td class=\"infobox-data\">4 June 1920</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Second_Czechoslovak_Republic\" title=\"Second Czechoslovak Republic\">Second Czechoslovak Republic</a> </div></th><td class=\"infobox-data\">30 September 1938</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Slovak_Republic_(1939%E2%80%931945)\" title=\"Slovak Republic (1939–1945)\">First Slovak Republic</a> </div></th><td class=\"infobox-data\">14 March 1939</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Third_Czechoslovak_Republic\" title=\"Third Czechoslovak Republic\">Third Czechoslovak Republic</a> </div></th><td class=\"infobox-data\">24 October 1945</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a class=\"mw-redirect\" href=\"/wiki/Fourth_Czechoslovak_Republic\" title=\"Fourth Czechoslovak Republic\">Fourth Czechoslovak Republic</a> </div></th><td class=\"infobox-data\">25 February 1948</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Czechoslovak_Socialist_Republic\" title=\"Czechoslovak Socialist Republic\">Czechoslovak Socialist Republic</a> </div></th><td class=\"infobox-data\">11 July 1960</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Slovak_Socialist_Republic\" title=\"Slovak Socialist Republic\">Slovak Socialist Republic</a> (within Czechoslovak Socialist Republic, change of unitary Czechoslovak state into a <a href=\"/wiki/Constitutional_Act_on_the_Czechoslovak_Federation\" title=\"Constitutional Act on the Czechoslovak Federation\">federation</a>) </div></th><td class=\"infobox-data\">1 January 1969</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Slovak_Socialist_Republic\" title=\"Slovak Socialist Republic\">Slovak Republic</a> (change of name within established <a href=\"/wiki/Czech_and_Slovak_Federative_Republic\" title=\"Czech and Slovak Federative Republic\">Czech and Slovak Federative Republic</a>) </div></th><td class=\"infobox-data\">1 March 1990</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Dissolution_of_Czechoslovakia\" title=\"Dissolution of Czechoslovakia\">Dissolution</a> of<br/><a href=\"/wiki/Czech_and_Slovak_Federative_Republic\" title=\"Czech and Slovak Federative Republic\">Czechoslovakia</a> </div></th><td class=\"infobox-data\">1 January 1993</td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Geography_of_Slovakia\" title=\"Geography of Slovakia\">Area </a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\">49,035 km<sup>2</sup> (18,933 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">127th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Water (%)</div></th><td class=\"infobox-data\">0.72 (2015)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Demographics_of_Slovakia\" title=\"Demographics of Slovakia\">Population</a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• 30 June 2025 estimate</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral decrease\"><img alt=\"Neutral decrease\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/20px-Decrease_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/40px-Decrease_Neutral.svg.png 2x\" width=\"11\"/></span></span> 5,413,813 (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">120th</a>)</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• 2021 census</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 5,449,270</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Density</div></th><td class=\"infobox-data\">110/km<sup>2</sup> (284.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">103rd</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <style data-mw-deduplicate=\"TemplateStyles:r886047488\">.mw-parser-output .nobold{font-weight:normal}</style><span class=\"nobold\">(<a href=\"/wiki/Purchasing_power_parity\" title=\"Purchasing power parity\">PPP</a>)</span></th><td class=\"infobox-data\">2025 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $256.710 billion (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">70th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $47,440 (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">46th</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(nominal)</span></link></th><td class=\"infobox-data\">2025 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $152.480 billion (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">61st</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $28,180 (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">44th</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gini_coefficient\" title=\"Gini coefficient\">Gini</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2022)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Positive decrease\"><img alt=\"Positive decrease\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/20px-Decrease_Positive.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/40px-Decrease_Positive.svg.png 2x\" width=\"11\"/></span></span> 21.2<br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:forestgreen\">low inequality</span></span></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Human_Development_Index\" title=\"Human Development Index\">HDI</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2023)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.880<br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"><span class=\"tmp-color\" style=\"color:darkgreen\">very high</span></link></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">44th</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Currency</th><td class=\"infobox-data\"><a href=\"/wiki/Euro\" title=\"Euro\">Euro</a> (<a href=\"/wiki/Euro_sign\" title=\"Euro sign\">€</a>) (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">EUR</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\">Time zone</th><td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+1</span> (<a href=\"/wiki/Central_European_Time\" title=\"Central European Time\">CET</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Summer (<a href=\"/wiki/Daylight_saving_time\" title=\"Daylight saving time\">DST</a>)</div></th><td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+2</span> (<a href=\"/wiki/Central_European_Summer_Time\" title=\"Central European Summer Time\">CEST</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Date format</th><td class=\"infobox-data\">d. m. yyyy</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Telephone_numbers_in_Slovakia\" title=\"Telephone numbers in Slovakia\">Calling code</a></th><td class=\"infobox-data\"><a href=\"/wiki/Telephone_numbers_in_Slovakia\" title=\"Telephone numbers in Slovakia\">+421</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/ISO_3166\" title=\"ISO 3166\">ISO 3166 code</a></th><td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:SK\" title=\"ISO 3166-2:SK\">SK</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Country_code_top-level_domain\" title=\"Country code top-level domain\">Internet TLD</a></th><td class=\"infobox-data\"><a href=\"/wiki/.sk\" title=\".sk\">.sk</a> and <a href=\"/wiki/.eu\" title=\".eu\">.eu</a></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><div class=\"ib-country-website\"><b>Website</b><br/><a class=\"external text\" href=\"https://beta.slovensko.sk/\" rel=\"nofollow\">slovensko.sk</a></div></td></tr></tbody></table>",
+    "rows": [
+      {
+        "label": "Capital and largest city",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Bratislava\" title=\"Bratislava\">Bratislava</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Slovakia&amp;params=48_9_9_N_17_6_34_E_type:city\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">48°9′9″N</span> <span class=\"longitude\">17°6′34″E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">48.15250°N 17.10944°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">48.15250; 17.10944</span></span></span></a></span></span></td>",
+        "value_text": "Bratislava 48°9′9″N 17°6′34″E ﻿ / ﻿ 48.15250°N 17.10944°E ﻿ / 48.15250; 17.10944"
+      },
+      {
+        "label": "Official language",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Slovak_language\" title=\"Slovak language\">Slovak</a></td>",
+        "value_text": "Slovak"
+      },
+      {
+        "label": "Regional and minority languages",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Bulgarian_language\" title=\"Bulgarian language\">Bulgarian</a>, <a href=\"/wiki/Czech_language\" title=\"Czech language\">Czech</a>, <a href=\"/wiki/Croatian_language\" title=\"Croatian language\">Croatian</a>, <a href=\"/wiki/Hungarian_language\" title=\"Hungarian language\">Hungarian</a>, <a href=\"/wiki/German_language\" title=\"German language\">German</a>, <a href=\"/wiki/Polish_language\" title=\"Polish language\">Polish</a>, <a href=\"/wiki/Romani_language\" title=\"Romani language\">Romani</a>, <a href=\"/wiki/Russian_language\" title=\"Russian language\">Russian</a>, <a href=\"/wiki/Ruthenian_language\" title=\"Ruthenian language\">Ruthenian</a>, <a href=\"/wiki/Serbian_language\" title=\"Serbian language\">Serbian</a>, <a href=\"/wiki/Ukrainian_language\" title=\"Ukrainian language\">Ukrainian</a></td>",
+        "value_text": "Bulgarian , Czech , Croatian , Hungarian , German , Polish , Romani , Russian , Ruthenian , Serbian , Ukrainian"
+      },
+      {
+        "label": "Ethnic groups (2021)",
+        "value_html": "<td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li>88.6% <a href=\"/wiki/Slovaks\" title=\"Slovaks\">Slovaks</a></li><li>8.2% <a href=\"/wiki/Hungarians_in_Slovakia\" title=\"Hungarians in Slovakia\">Hungarians</a></li><li>1.3% <a href=\"/wiki/Romani_people_in_Slovakia\" title=\"Romani people in Slovakia\">Romani</a></li><li>1.9% others</li></ul></div></td>",
+        "value_text": "88.6% Slovaks 8.2% Hungarians 1.3% Romani 1.9% others"
+      },
+      {
+        "label": "Religion (2021)",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space:nowrap;\"><style data-mw-deduplicate=\"TemplateStyles:r1324795729\">.mw-parser-output .treeview ul{padding:0;margin:0}.mw-parser-output .treeview li{padding:0;margin:0;list-style-type:none;list-style-image:none}.mw-parser-output .treeview li li{background:url(\"https://upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png\")no-repeat 0 -2981px;padding-left:21px;text-indent:0.3em}.mw-parser-output .treeview li li:last-child{background-position:0 -5971px}.mw-parser-output .treeview li.emptyline>ul>.mw-empty-elt:first-child+.emptyline,.mw-parser-output .treeview li.emptyline>ul>li:first-child{background-position:0 9px}</style><div class=\"treeview\">\n<ul><li>68.8% <a href=\"/wiki/Christianity\" title=\"Christianity\">Christianity</a>\n<ul><li>59.8% <a href=\"/wiki/Catholic_Church_in_Slovakia\" title=\"Catholic Church in Slovakia\">Catholicism</a></li>\n<li>7.6% <a href=\"/wiki/Protestantism\" title=\"Protestantism\">Protestantism</a></li>\n<li>1.4% other <a href=\"/wiki/List_of_Christian_denominations\" title=\"List of Christian denominations\">Christian</a></li></ul></li></ul>\n</div></li><li style=\"white-space:nowrap;\">23.8% <a href=\"/wiki/Irreligion\" title=\"Irreligion\">no religion</a></li><li style=\"white-space:nowrap;\">0.9% other</li><li style=\"white-space:nowrap;\">6.5% unspecified</li></ul></div></link></td>",
+        "value_text": "68.8% Christianity 59.8% Catholicism 7.6% Protestantism 1.4% other Christian 23.8% no religion 0.9% other 6.5% unspecified"
+      },
+      {
+        "label": "Demonym",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Slovaks\" title=\"Slovaks\">Slovak</a></td>",
+        "value_text": "Slovak"
+      },
+      {
+        "label": "Government",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Unitary_parliamentary_republic\" title=\"Unitary parliamentary republic\">Unitary parliamentary republic</a></td>",
+        "value_text": "Unitary parliamentary republic"
+      },
+      {
+        "label": "• President",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Peter_Pellegrini\" title=\"Peter Pellegrini\">Peter Pellegrini</a></td>",
+        "value_text": "Peter Pellegrini"
+      },
+      {
+        "label": "• Prime Minister",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Robert_Fico\" title=\"Robert Fico\">Robert Fico</a></td>",
+        "value_text": "Robert Fico"
+      },
+      {
+        "label": "• Speaker of the National Council",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Richard_Ra%C5%A1i\" title=\"Richard Raši\">Richard Raši</a></td>",
+        "value_text": "Richard Raši"
+      },
+      {
+        "label": "Legislature",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/National_Council_of_Slovakia\" title=\"National Council of Slovakia\">National Council</a></td>",
+        "value_text": "National Council"
+      },
+      {
+        "label": "• Independence from Austria-Hungary ( First Czechoslovak Republic )",
+        "value_html": "<td class=\"infobox-data\">28 October 1918</td>",
+        "value_text": "28 October 1918"
+      },
+      {
+        "label": "• Treaty of Trianon",
+        "value_html": "<td class=\"infobox-data\">4 June 1920</td>",
+        "value_text": "4 June 1920"
+      },
+      {
+        "label": "• Second Czechoslovak Republic",
+        "value_html": "<td class=\"infobox-data\">30 September 1938</td>",
+        "value_text": "30 September 1938"
+      },
+      {
+        "label": "• First Slovak Republic",
+        "value_html": "<td class=\"infobox-data\">14 March 1939</td>",
+        "value_text": "14 March 1939"
+      },
+      {
+        "label": "• Third Czechoslovak Republic",
+        "value_html": "<td class=\"infobox-data\">24 October 1945</td>",
+        "value_text": "24 October 1945"
+      },
+      {
+        "label": "• Fourth Czechoslovak Republic",
+        "value_html": "<td class=\"infobox-data\">25 February 1948</td>",
+        "value_text": "25 February 1948"
+      },
+      {
+        "label": "• Czechoslovak Socialist Republic",
+        "value_html": "<td class=\"infobox-data\">11 July 1960</td>",
+        "value_text": "11 July 1960"
+      },
+      {
+        "label": "• Slovak Socialist Republic (within Czechoslovak Socialist Republic, change of unitary Czechoslovak state into a federation )",
+        "value_html": "<td class=\"infobox-data\">1 January 1969</td>",
+        "value_text": "1 January 1969"
+      },
+      {
+        "label": "• Slovak Republic (change of name within established Czech and Slovak Federative Republic )",
+        "value_html": "<td class=\"infobox-data\">1 March 1990</td>",
+        "value_text": "1 March 1990"
+      },
+      {
+        "label": "• Dissolution of Czechoslovakia",
+        "value_html": "<td class=\"infobox-data\">1 January 1993</td>",
+        "value_text": "1 January 1993"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\">49,035 km<sup>2</sup> (18,933 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">127th</a>)</td>",
+        "value_text": "49,035 km 2 (18,933 sq mi) ( 127th )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_html": "<td class=\"infobox-data\">0.72 (2015)<sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "0.72 (2015) [ 4 ]"
+      },
+      {
+        "label": "• 30 June 2025 estimate",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral decrease\"><img alt=\"Neutral decrease\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/20px-Decrease_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/40px-Decrease_Neutral.svg.png 2x\" width=\"11\"/></span></span> 5,413,813<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">120th</a>)</td>",
+        "value_text": "5,413,813 [ 5 ] ( 120th )"
+      },
+      {
+        "label": "• 2021 census",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 5,449,270<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "5,449,270 [ 6 ]"
+      },
+      {
+        "label": "• Density",
+        "value_html": "<td class=\"infobox-data\">110/km<sup>2</sup> (284.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">103rd</a>)</td>",
+        "value_text": "110/km 2 (284.9/sq mi) ( 103rd )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_html": "<td class=\"infobox-data\">2025 estimate</td>",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $256.710 billion<sup class=\"reference\" id=\"cite_ref-https://www.imf.org/external/datamapper/profile/SVK_8-0\"><a href=\"#cite_note-https://www.imf.org/external/datamapper/profile/SVK-8\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">70th</a>)</td>",
+        "value_text": "$256.710 billion [ 7 ] ( 70th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $47,440<sup class=\"reference\" id=\"cite_ref-https://www.imf.org/external/datamapper/profile/SVK_8-1\"><a href=\"#cite_note-https://www.imf.org/external/datamapper/profile/SVK-8\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">46th</a>)</td>",
+        "value_text": "$47,440 [ 7 ] ( 46th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_html": "<td class=\"infobox-data\">2025 estimate</td>",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $152.480 billion<sup class=\"reference\" id=\"cite_ref-https://www.imf.org/external/datamapper/profile/SVK_8-2\"><a href=\"#cite_note-https://www.imf.org/external/datamapper/profile/SVK-8\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">61st</a>)</td>",
+        "value_text": "$152.480 billion [ 7 ] ( 61st )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $28,180<sup class=\"reference\" id=\"cite_ref-https://www.imf.org/external/datamapper/profile/SVK_8-3\"><a href=\"#cite_note-https://www.imf.org/external/datamapper/profile/SVK-8\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">44th</a>)</td>",
+        "value_text": "$28,180 [ 7 ] ( 44th )"
+      },
+      {
+        "label": "Gini (2022)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Positive decrease\"><img alt=\"Positive decrease\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/20px-Decrease_Positive.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/40px-Decrease_Positive.svg.png 2x\" width=\"11\"/></span></span> 21.2<sup class=\"reference\" id=\"cite_ref-eurogini_9-0\"><a href=\"#cite_note-eurogini-9\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:forestgreen\">low inequality</span></span></td>",
+        "value_text": "21.2 [ 8 ] low inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.880<sup class=\"reference\" id=\"cite_ref-UNHDR_10-0\"><a href=\"#cite_note-UNHDR-10\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"><span class=\"tmp-color\" style=\"color:darkgreen\">very high</span></link></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">44th</a>)</td>",
+        "value_text": "0.880 [ 9 ] very high ( 44th )"
+      },
+      {
+        "label": "Currency",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Euro\" title=\"Euro\">Euro</a> (<a href=\"/wiki/Euro_sign\" title=\"Euro sign\">€</a>) (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">EUR</a>)</td>",
+        "value_text": "Euro ( € ) ( EUR )"
+      },
+      {
+        "label": "Time zone",
+        "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+1</span> (<a href=\"/wiki/Central_European_Time\" title=\"Central European Time\">CET</a>)</td>",
+        "value_text": "UTC +1 ( CET )"
+      },
+      {
+        "label": "• Summer ( DST )",
+        "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+2</span> (<a href=\"/wiki/Central_European_Summer_Time\" title=\"Central European Summer Time\">CEST</a>)</td>",
+        "value_text": "UTC +2 ( CEST )"
+      },
+      {
+        "label": "Date format",
+        "value_html": "<td class=\"infobox-data\">d. m. yyyy</td>",
+        "value_text": "d. m. yyyy"
+      },
+      {
+        "label": "Calling code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Telephone_numbers_in_Slovakia\" title=\"Telephone numbers in Slovakia\">+421</a></td>",
+        "value_text": "+421"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:SK\" title=\"ISO 3166-2:SK\">SK</a></td>",
+        "value_text": "SK"
+      },
+      {
+        "label": "Internet TLD",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/.sk\" title=\".sk\">.sk</a> and <a href=\"/wiki/.eu\" title=\".eu\">.eu</a></td>",
+        "value_text": ".sk and .eu"
+      }
+    ]
+  },
+  "cleaned": {
+    "rows": [
+      {
+        "label": "Capital and largest city",
+        "value_text": "Bratislava 48°9′9″N 17°6′34″E ﻿ / ﻿ 48.15250°N 17.10944°E ﻿ / 48.15250; 17.10944"
+      },
+      {
+        "label": "Official language",
+        "value_text": "Slovak"
+      },
+      {
+        "label": "Regional and minority languages",
+        "value_text": "Bulgarian , Czech , Croatian , Hungarian , German , Polish , Romani , Russian , Ruthenian , Serbian , Ukrainian"
+      },
+      {
+        "label": "Ethnic groups (2021)",
+        "value_text": "88.6% Slovaks 8.2% Hungarians 1.3% Romani 1.9% others"
+      },
+      {
+        "label": "Religion (2021)",
+        "value_text": "68.8% Christianity 59.8% Catholicism 7.6% Protestantism 1.4% other Christian 23.8% no religion 0.9% other 6.5% unspecified"
+      },
+      {
+        "label": "Demonym",
+        "value_text": "Slovak"
+      },
+      {
+        "label": "Government",
+        "value_text": "Unitary parliamentary republic"
+      },
+      {
+        "label": "• President",
+        "value_text": "Peter Pellegrini"
+      },
+      {
+        "label": "• Prime Minister",
+        "value_text": "Robert Fico"
+      },
+      {
+        "label": "• Speaker of the National Council",
+        "value_text": "Richard Raši"
+      },
+      {
+        "label": "Legislature",
+        "value_text": "National Council"
+      },
+      {
+        "label": "• Independence from Austria-Hungary ( First Czechoslovak Republic )",
+        "value_text": "28 October 1918"
+      },
+      {
+        "label": "• Treaty of Trianon",
+        "value_text": "4 June 1920"
+      },
+      {
+        "label": "• Second Czechoslovak Republic",
+        "value_text": "30 September 1938"
+      },
+      {
+        "label": "• First Slovak Republic",
+        "value_text": "14 March 1939"
+      },
+      {
+        "label": "• Third Czechoslovak Republic",
+        "value_text": "24 October 1945"
+      },
+      {
+        "label": "• Fourth Czechoslovak Republic",
+        "value_text": "25 February 1948"
+      },
+      {
+        "label": "• Czechoslovak Socialist Republic",
+        "value_text": "11 July 1960"
+      },
+      {
+        "label": "• Slovak Socialist Republic (within Czechoslovak Socialist Republic, change of unitary Czechoslovak state into a federation )",
+        "value_text": "1 January 1969"
+      },
+      {
+        "label": "• Slovak Republic (change of name within established Czech and Slovak Federative Republic )",
+        "value_text": "1 March 1990"
+      },
+      {
+        "label": "• Dissolution of Czechoslovakia",
+        "value_text": "1 January 1993"
+      },
+      {
+        "label": "• Total",
+        "value_text": "49,035 km 2 (18,933 sq mi) ( 127th )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_text": "0.72 (2015)"
+      },
+      {
+        "label": "• 30 June 2025 estimate",
+        "value_text": "5,413,813 ( 120th )"
+      },
+      {
+        "label": "• 2021 census",
+        "value_text": "5,449,270"
+      },
+      {
+        "label": "• Density",
+        "value_text": "110/km 2 (284.9/sq mi) ( 103rd )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$256.710 billion ( 70th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$47,440 ( 46th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$152.480 billion ( 61st )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$28,180 ( 44th )"
+      },
+      {
+        "label": "Gini (2022)",
+        "value_text": "21.2 low inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_text": "0.880 very high ( 44th )"
+      },
+      {
+        "label": "Currency",
+        "value_text": "Euro ( € ) ( EUR )"
+      },
+      {
+        "label": "Time zone",
+        "value_text": "UTC +1 ( CET )"
+      },
+      {
+        "label": "• Summer ( DST )",
+        "value_text": "UTC +2 ( CEST )"
+      },
+      {
+        "label": "Date format",
+        "value_text": "d. m. yyyy"
+      },
+      {
+        "label": "Calling code",
+        "value_text": "+421"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_text": "SK"
+      },
+      {
+        "label": "Internet TLD",
+        "value_text": ".sk and .eu"
+      }
+    ]
+  },
+  "normalized": {
+    "fields": {
+      "capital_and_largest_city": {
+        "raw_label": "Capital and largest city",
+        "text": "Bratislava 48°9′9″N 17°6′34″E ﻿ / ﻿ 48.15250°N 17.10944°E ﻿ / 48.15250; 17.10944",
+        "tokens": [
+          "Bratislava",
+          "48",
+          "9",
+          "9",
+          "N",
+          "17",
+          "6",
+          "34",
+          "E",
+          "48",
+          "15250",
+          "N",
+          "17",
+          "10944",
+          "E",
+          "48",
+          "15250",
+          "17",
+          "10944"
+        ],
+        "numbers": [
+          48,
+          9,
+          9,
+          17,
+          6,
+          34,
+          48.1525,
+          17.10944,
+          48.1525,
+          17.10944
+        ]
+      },
+      "official_language": {
+        "raw_label": "Official language",
+        "text": "Slovak",
+        "tokens": [
+          "Slovak"
+        ],
+        "numbers": []
+      },
+      "regional_and_minority_languages": {
+        "raw_label": "Regional and minority languages",
+        "text": "Bulgarian , Czech , Croatian , Hungarian , German , Polish , Romani , Russian , Ruthenian , Serbian , Ukrainian",
+        "tokens": [
+          "Bulgarian",
+          "Czech",
+          "Croatian",
+          "Hungarian",
+          "German",
+          "Polish",
+          "Romani",
+          "Russian",
+          "Ruthenian",
+          "Serbian",
+          "Ukrainian"
+        ],
+        "numbers": []
+      },
+      "ethnic_groups_2021": {
+        "raw_label": "Ethnic groups (2021)",
+        "text": "88.6% Slovaks 8.2% Hungarians 1.3% Romani 1.9% others",
+        "tokens": [
+          "88",
+          "6",
+          "Slovaks",
+          "8",
+          "2",
+          "Hungarians",
+          "1",
+          "3",
+          "Romani",
+          "1",
+          "9",
+          "others"
+        ],
+        "numbers": [
+          88.6,
+          8.2,
+          1.3,
+          1.9
+        ]
+      },
+      "religion_2021": {
+        "raw_label": "Religion (2021)",
+        "text": "68.8% Christianity 59.8% Catholicism 7.6% Protestantism 1.4% other Christian 23.8% no religion 0.9% other 6.5% unspecified",
+        "tokens": [
+          "68",
+          "8",
+          "Christianity",
+          "59",
+          "8",
+          "Catholicism",
+          "7",
+          "6",
+          "Protestantism",
+          "1",
+          "4",
+          "other",
+          "Christian",
+          "23",
+          "8",
+          "no",
+          "religion",
+          "0",
+          "9",
+          "other",
+          "6",
+          "5",
+          "unspecified"
+        ],
+        "numbers": [
+          68.8,
+          59.8,
+          7.6,
+          1.4,
+          23.8,
+          0.9,
+          6.5
+        ]
+      },
+      "demonym": {
+        "raw_label": "Demonym",
+        "text": "Slovak",
+        "tokens": [
+          "Slovak"
+        ],
+        "numbers": []
+      },
+      "government": {
+        "raw_label": "Government",
+        "text": "Unitary parliamentary republic",
+        "tokens": [
+          "Unitary",
+          "parliamentary",
+          "republic"
+        ],
+        "numbers": []
+      },
+      "president": {
+        "raw_label": "• President",
+        "text": "Peter Pellegrini",
+        "tokens": [
+          "Peter",
+          "Pellegrini"
+        ],
+        "numbers": []
+      },
+      "prime_minister": {
+        "raw_label": "• Prime Minister",
+        "text": "Robert Fico",
+        "tokens": [
+          "Robert",
+          "Fico"
+        ],
+        "numbers": []
+      },
+      "speaker_of_the_national_council": {
+        "raw_label": "• Speaker of the National Council",
+        "text": "Richard Raši",
+        "tokens": [
+          "Richard",
+          "Ra",
+          "i"
+        ],
+        "numbers": []
+      },
+      "legislature": {
+        "raw_label": "Legislature",
+        "text": "National Council",
+        "tokens": [
+          "National",
+          "Council"
+        ],
+        "numbers": []
+      },
+      "independence_from_austria_hungary_first_czechoslovak_republic": {
+        "raw_label": "• Independence from Austria-Hungary ( First Czechoslovak Republic )",
+        "text": "28 October 1918",
+        "tokens": [
+          "28",
+          "October",
+          "1918"
+        ],
+        "numbers": [
+          28,
+          1918
+        ]
+      },
+      "treaty_of_trianon": {
+        "raw_label": "• Treaty of Trianon",
+        "text": "4 June 1920",
+        "tokens": [
+          "4",
+          "June",
+          "1920"
+        ],
+        "numbers": [
+          4,
+          1920
+        ]
+      },
+      "second_czechoslovak_republic": {
+        "raw_label": "• Second Czechoslovak Republic",
+        "text": "30 September 1938",
+        "tokens": [
+          "30",
+          "September",
+          "1938"
+        ],
+        "numbers": [
+          30,
+          1938
+        ]
+      },
+      "first_slovak_republic": {
+        "raw_label": "• First Slovak Republic",
+        "text": "14 March 1939",
+        "tokens": [
+          "14",
+          "March",
+          "1939"
+        ],
+        "numbers": [
+          14,
+          1939
+        ]
+      },
+      "third_czechoslovak_republic": {
+        "raw_label": "• Third Czechoslovak Republic",
+        "text": "24 October 1945",
+        "tokens": [
+          "24",
+          "October",
+          "1945"
+        ],
+        "numbers": [
+          24,
+          1945
+        ]
+      },
+      "fourth_czechoslovak_republic": {
+        "raw_label": "• Fourth Czechoslovak Republic",
+        "text": "25 February 1948",
+        "tokens": [
+          "25",
+          "February",
+          "1948"
+        ],
+        "numbers": [
+          25,
+          1948
+        ]
+      },
+      "czechoslovak_socialist_republic": {
+        "raw_label": "• Czechoslovak Socialist Republic",
+        "text": "11 July 1960",
+        "tokens": [
+          "11",
+          "July",
+          "1960"
+        ],
+        "numbers": [
+          11,
+          1960
+        ]
+      },
+      "slovak_socialist_republic_within_czechoslovak_socialist_republic_change_of_unitary_czechoslovak_state_into_a_federation": {
+        "raw_label": "• Slovak Socialist Republic (within Czechoslovak Socialist Republic, change of unitary Czechoslovak state into a federation )",
+        "text": "1 January 1969",
+        "tokens": [
+          "1",
+          "January",
+          "1969"
+        ],
+        "numbers": [
+          1,
+          1969
+        ]
+      },
+      "slovak_republic_change_of_name_within_established_czech_and_slovak_federative_republic": {
+        "raw_label": "• Slovak Republic (change of name within established Czech and Slovak Federative Republic )",
+        "text": "1 March 1990",
+        "tokens": [
+          "1",
+          "March",
+          "1990"
+        ],
+        "numbers": [
+          1,
+          1990
+        ]
+      },
+      "dissolution_of_czechoslovakia": {
+        "raw_label": "• Dissolution of Czechoslovakia",
+        "text": "1 January 1993",
+        "tokens": [
+          "1",
+          "January",
+          "1993"
+        ],
+        "numbers": [
+          1,
+          1993
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$152.480 billion ( 61st )",
+        "tokens": [
+          "152",
+          "480",
+          "billion",
+          "61st"
+        ],
+        "numbers": [
+          152.48,
+          61
+        ]
+      },
+      "water": {
+        "raw_label": "• Water (%)",
+        "text": "0.72 (2015)",
+        "tokens": [
+          "0",
+          "72",
+          "2015"
+        ],
+        "numbers": [
+          0.72,
+          2015
+        ]
+      },
+      "30_june_2025_estimate": {
+        "raw_label": "• 30 June 2025 estimate",
+        "text": "5,413,813 ( 120th )",
+        "tokens": [
+          "5",
+          "413",
+          "813",
+          "120th"
+        ],
+        "numbers": [
+          5413813,
+          120
+        ]
+      },
+      "2021_census": {
+        "raw_label": "• 2021 census",
+        "text": "5,449,270",
+        "tokens": [
+          "5",
+          "449",
+          "270"
+        ],
+        "numbers": [
+          5449270
+        ]
+      },
+      "density": {
+        "raw_label": "• Density",
+        "text": "110/km 2 (284.9/sq mi) ( 103rd )",
+        "tokens": [
+          "110",
+          "km",
+          "2",
+          "284",
+          "9",
+          "sq",
+          "mi",
+          "103rd"
+        ],
+        "numbers": [
+          110,
+          2,
+          284.9,
+          103
+        ]
+      },
+      "gdp_ppp": {
+        "raw_label": "GDP ( PPP )",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$28,180 ( 44th )",
+        "tokens": [
+          "28",
+          "180",
+          "44th"
+        ],
+        "numbers": [
+          28180,
+          44
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gini_2022": {
+        "raw_label": "Gini (2022)",
+        "text": "21.2 low inequality",
+        "tokens": [
+          "21",
+          "2",
+          "low",
+          "inequality"
+        ],
+        "numbers": [
+          21.2
+        ]
+      },
+      "hdi_2023": {
+        "raw_label": "HDI (2023)",
+        "text": "0.880 very high ( 44th )",
+        "tokens": [
+          "0",
+          "880",
+          "very",
+          "high",
+          "44th"
+        ],
+        "numbers": [
+          0.88,
+          44
+        ]
+      },
+      "currency": {
+        "raw_label": "Currency",
+        "text": "Euro ( € ) ( EUR )",
+        "tokens": [
+          "Euro",
+          "EUR"
+        ],
+        "numbers": []
+      },
+      "time_zone": {
+        "raw_label": "Time zone",
+        "text": "UTC +1 ( CET )",
+        "tokens": [
+          "UTC",
+          "1",
+          "CET"
+        ],
+        "numbers": [
+          1
+        ]
+      },
+      "summer_dst": {
+        "raw_label": "• Summer ( DST )",
+        "text": "UTC +2 ( CEST )",
+        "tokens": [
+          "UTC",
+          "2",
+          "CEST"
+        ],
+        "numbers": [
+          2
+        ]
+      },
+      "date_format": {
+        "raw_label": "Date format",
+        "text": "d. m. yyyy",
+        "tokens": [
+          "d",
+          "m",
+          "yyyy"
+        ],
+        "numbers": []
+      },
+      "calling_code": {
+        "raw_label": "Calling code",
+        "text": "+421",
+        "tokens": [
+          "421"
+        ],
+        "numbers": [
+          421
+        ]
+      },
+      "iso_3166_code": {
+        "raw_label": "ISO 3166 code",
+        "text": "SK",
+        "tokens": [
+          "SK"
+        ],
+        "numbers": []
+      },
+      "internet_tld": {
+        "raw_label": "Internet TLD",
+        "text": ".sk and .eu",
+        "tokens": [
+          "sk",
+          "and",
+          "eu"
+        ],
+        "numbers": []
+      }
+    }
+  }
+}

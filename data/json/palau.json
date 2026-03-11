@@ -1,0 +1,819 @@
+{
+  "meta": {
+    "country_name": "Palau",
+    "slug": "palau",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Palau",
+    "retrieved_at": "2026-03-11T17:57:08+00:00",
+    "source": "wikipedia-infobox"
+  },
+  "raw": {
+    "infobox_html": "<table class=\"infobox ib-country vcard\"><tbody><tr><th class=\"infobox-above adr\" colspan=\"2\"><div class=\"fn org country-name\">Republic of Palau</div><div class=\"ib-country-names\"><span title=\"Palauan-language text\"><i lang=\"pau\">Beluu er a Belau</i></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(<a href=\"/wiki/Palauan_language\" title=\"Palauan language\">Palauan</a>)</span><span data-plural=\"0\" style=\"display:none\"></span></div></th></tr><tr><td class=\"infobox-image\" colspan=\"2\"><div class=\"noresize\" style=\"display:table; width:100%;\">\n<div style=\"display:table-cell; vertical-align:middle; padding-left:5px;\">\n<div style=\"padding-bottom:3px;\"><span class=\"mw-image-border\" typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Flag_of_Palau.svg\" title=\"Flag of Palau\"><img alt=\"Flag of Palau\" class=\"mw-file-element\" data-file-height=\"500\" data-file-width=\"800\" decoding=\"async\" height=\"78\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/250px-Flag_of_Palau.svg.png\" width=\"125\"/></a></span></div>\n<div><a href=\"/wiki/Flag_of_Palau\" title=\"Flag of Palau\">Flag</a></div>\n</div>\n<div style=\"display:table-cell; vertical-align:middle; padding: 0px 5px;\">\n<div style=\"padding-bottom:3px;\"><span typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Seal_of_Palau.svg\" title=\"Coat of arms of Palau\"><img alt=\"Coat of arms of Palau\" class=\"mw-file-element\" data-file-height=\"600\" data-file-width=\"600\" decoding=\"async\" height=\"85\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Seal_of_Palau.svg/120px-Seal_of_Palau.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Seal_of_Palau.svg/250px-Seal_of_Palau.svg.png 1.5x\" width=\"85\"/></a></span></div>\n<div><a class=\"mw-redirect\" href=\"/wiki/Coat_of_arms_of_Palau\" title=\"Coat of arms of Palau\"> Coat of arms</a></div>\n</div>\n</div></td></tr><tr><td class=\"infobox-full-data anthem\" colspan=\"2\"><b>Anthem:</b> <span title=\"Palauan-language text\"><i lang=\"pau\"><a href=\"/wiki/Belau_rekid\" title=\"Belau rekid\">Belau rekid</a></i></span><br/>\"Our Palau\"<div class=\"paragraphbreak\" style=\"margin-top:0.5em\"></div><div class=\"center\"><span class=\"mw-default-size\" typeof=\"mw:File\"><span><audio class=\"mw-file-element\" controls=\"\" data-durationhint=\"52\" data-mw-tmh=\"\" data-mwprovider=\"wikimediacommons\" data-mwtitle=\"Belau_rekid_(instrumental).oga\" id=\"mwe_player_0\" preload=\"none\" style=\"width:250px;\" width=\"250\"><source data-height=\"0\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/8/8b/Belau_rekid_%28instrumental%29.oga\" type='audio/ogg; codecs=\"vorbis\"'/><source data-height=\"0\" data-transcodekey=\"mp3\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/Belau_rekid_%28instrumental%29.oga/Belau_rekid_%28instrumental%29.oga.mp3\" type=\"audio/mpeg\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"English ‪(en)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ABelau_rekid_%28instrumental%29.oga&amp;lang=en&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"en\" type=\"text/vtt\"/><track data-dir=\"rtl\" kind=\"subtitles\" label=\"עברית ‪(he)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ABelau_rekid_%28instrumental%29.oga&amp;lang=he&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"he\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"한국어 ‪(ko)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ABelau_rekid_%28instrumental%29.oga&amp;lang=ko&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"ko\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"русский ‪(ru)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ABelau_rekid_%28instrumental%29.oga&amp;lang=ru&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"ru\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Tagalog ‪(tl)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ABelau_rekid_%28instrumental%29.oga&amp;lang=tl&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"tl\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Türkçe ‪(tr)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ABelau_rekid_%28instrumental%29.oga&amp;lang=tr&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"tr\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"українська ‪(uk)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ABelau_rekid_%28instrumental%29.oga&amp;lang=uk&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"uk\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"中文（繁體） ‪(zh-hant)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ABelau_rekid_%28instrumental%29.oga&amp;lang=zh-hant&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"zh-Hant\" type=\"text/vtt\"/></audio></span></span></div></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><div class=\"switcher-container\"><div><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:Palau_on_the_globe_(Southeast_Asia_centered)_(small_islands_magnified).svg\"><img class=\"mw-file-element\" data-file-height=\"897\" data-file-width=\"901\" decoding=\"async\" height=\"249\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Palau_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg/250px-Palau_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Palau_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg/500px-Palau_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg.png 1.5x\" width=\"250\"/></a></span> <span class=\"switcher-label\" data-switcher-default=\"\" style=\"display:none\">Show globe</span></div><div><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:Palau_-_Location_Map_(2013)_-_PLW_-_UNOCHA.svg\"><img class=\"mw-file-element\" data-file-height=\"250\" data-file-width=\"250\" decoding=\"async\" height=\"290\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Palau_-_Location_Map_%282013%29_-_PLW_-_UNOCHA.svg/330px-Palau_-_Location_Map_%282013%29_-_PLW_-_UNOCHA.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Palau_-_Location_Map_%282013%29_-_PLW_-_UNOCHA.svg/500px-Palau_-_Location_Map_%282013%29_-_PLW_-_UNOCHA.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Palau_-_Location_Map_%282013%29_-_PLW_-_UNOCHA.svg/960px-Palau_-_Location_Map_%282013%29_-_PLW_-_UNOCHA.svg.png 2x\" width=\"290\"/></a></span> <span class=\"switcher-label\" style=\"display:none\">Show map of Palau</span></div></div></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Status</th><td class=\"infobox-data\"><a href=\"/wiki/Member_states_of_the_United_Nations\" title=\"Member states of the United Nations\">UN member state</a> under a <a href=\"/wiki/Compact_of_Free_Association\" title=\"Compact of Free Association\">Compact of Free Association</a> with the <a href=\"/wiki/United_States\" title=\"United States\">United States</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Capital</th><td class=\"infobox-data\"><a href=\"/wiki/Ngerulmud\" title=\"Ngerulmud\">Ngerulmud</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Palau&amp;params=7_30_N_134_37_E_type:city\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">7°30′N</span> <span class=\"longitude\">134°37′E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">7.500°N 134.617°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">7.500; 134.617</span></span></span></a></span></span></td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\">Largest city</th><td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/Koror_City\" title=\"Koror City\">Koror</a><br/><span class=\"geo-inline\"><link href=\"mw-data:TemplateStyles:r1156832818\" rel=\"mw-deduplicated-inline-style\"><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Palau&amp;params=7_20_N_134_29_E_\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">7°20′N</span> <span class=\"longitude\">134°29′E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">7.333°N 134.483°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">7.333; 134.483</span></span></span></a></span></link></span></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\">Official languages</th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><a href=\"/wiki/Palauan_language\" title=\"Palauan language\">Palauan</a></li><li><a href=\"/wiki/English_language\" title=\"English language\">English</a></li></ul></div></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><span class=\"ib-country-lang\">Recognized regional languages</span></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li><a class=\"mw-redirect\" href=\"/wiki/Sonsorolese_language\" title=\"Sonsorolese language\">Sonsorolese</a></li><li><a href=\"/wiki/Tobian_language\" title=\"Tobian language\">Tobian</a></li><li><a href=\"/wiki/Japanese_language\" title=\"Japanese language\">Japanese</a><style data-mw-deduplicate=\"TemplateStyles:r1041539562\">.mw-parser-output .citation{word-wrap:break-word}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}</style><sup class=\"citation nobold\" id=\"ref_scs\"><a href=\"#endnote_scs\">[a]</a></sup></li></ul></div></link></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a class=\"mw-redirect\" href=\"/wiki/Ethnic_group\" title=\"Ethnic group\">Ethnic groups</a> <div class=\"ib-country-ethnic\"> (2020 census)</div></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li>65.2% <a href=\"/wiki/Demographics_of_Palau\" title=\"Demographics of Palau\">Palauan</a></li><li>31.6% <a href=\"/wiki/Asian_people\" title=\"Asian people\">Asian</a></li><li>1.2% <a href=\"/wiki/Carolinian_people\" title=\"Carolinian people\">Carolinian</a></li><li>1.0% <a href=\"/wiki/White_people\" title=\"White people\">European</a></li><li>0.9% other</li></ul></div></link></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Religion <div class=\"ib-country-religion\"> (2020 census)</div></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space:nowrap;\">78.7% <a class=\"mw-redirect\" href=\"/wiki/Christianity_in_Palau\" title=\"Christianity in Palau\">Christianity</a></li><li style=\"white-space:nowrap;\">10.1% <a href=\"/wiki/Irreligion\" title=\"Irreligion\">no religion</a></li><li style=\"white-space:nowrap;\">5.1% <a href=\"/wiki/Modekngei\" title=\"Modekngei\">Modekngei</a></li><li style=\"white-space:nowrap;\">4.9% <a href=\"/wiki/Islam_in_Palau\" title=\"Islam in Palau\">Islam</a></li><li style=\"white-space:nowrap;\">1.2% other</li></ul></div></link></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Demonym\" title=\"Demonym\">Demonym</a></th><td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/Palauan_people\" title=\"Palauan people\">Palauan</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Politics_of_Palau\" title=\"Politics of Palau\">Government</a></th><td class=\"infobox-data\">Unitary <a class=\"mw-redirect\" href=\"/wiki/Presidential_republic\" title=\"Presidential republic\">presidential republic</a> under a <a href=\"/wiki/Non-partisan_democracy\" title=\"Non-partisan democracy\">non-partisan democracy</a></td></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/President_of_Palau\" title=\"President of Palau\">President</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Surangel_Whipps_Jr.\" title=\"Surangel Whipps Jr.\">Surangel Whipps Jr.</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Vice_President_of_Palau\" title=\"Vice President of Palau\">Vice President</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Raynold_Oilouch\" title=\"Raynold Oilouch\">Raynold Oilouch</a></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Legislature</th><td class=\"infobox-data\"><a href=\"/wiki/Palau_National_Congress\" title=\"Palau National Congress\">Palau National Congress</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• <a href=\"/wiki/Upper_house\" title=\"Upper house\">Upper house</a></div></th><td class=\"infobox-data\"><a href=\"/wiki/Senate_of_Palau\" title=\"Senate of Palau\">Senate</a></td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• <a href=\"/wiki/Lower_house\" title=\"Lower house\">Lower house</a></div></th><td class=\"infobox-data\"><a href=\"/wiki/House_of_Delegates_of_Palau\" title=\"House of Delegates of Palau\">House of Delegates</a></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Independence\" title=\"Independence\">Independence</a> <div class=\"ib-country-sovereignty\">from the <a href=\"/wiki/United_States\" title=\"United States\">United States</a> and <a href=\"/wiki/Federated_States_of_Micronesia\" title=\"Federated States of Micronesia\">Micronesia</a></div></th></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Trust_Territory_of_the_Pacific_Islands\" title=\"Trust Territory of the Pacific Islands\">Trusteeship</a> </div></th><td class=\"infobox-data\">18 July 1947</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• Constitution </div></th><td class=\"infobox-data\">2 April 1979</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• Establishment of the Republic of Palau </div></th><td class=\"infobox-data\">1 January 1981</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Compact_of_Free_Association\" title=\"Compact of Free Association\">Compact of Free Association</a> </div></th><td class=\"infobox-data\">1 October 1994</td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Geography_of_Palau\" title=\"Geography of Palau\">Area </a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\">459 km<sup>2</sup> (177 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">180th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Water (%)</div></th><td class=\"infobox-data\">negligible</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Demographics_of_Palau\" title=\"Demographics of Palau\">Population</a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• As of August 2025 estimate</div></th><td class=\"infobox-data\">17,663 (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">221st</a>)</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• 2021 census</div></th><td class=\"infobox-data\">16,766</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Density</div></th><td class=\"infobox-data\">38.375/km<sup>2</sup> (99.4/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">182th</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <style data-mw-deduplicate=\"TemplateStyles:r886047488\">.mw-parser-output .nobold{font-weight:normal}</style><span class=\"nobold\">(<a href=\"/wiki/Purchasing_power_parity\" title=\"Purchasing power parity\">PPP</a>)</span></th><td class=\"infobox-data\">2024 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $308 million</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $18,209 (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">81st</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(nominal)</span></link></th><td class=\"infobox-data\">2024 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $322 million</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $17,448</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Human_Development_Index\" title=\"Human Development Index\">HDI</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2023)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Steady\"><img alt=\"Steady\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Steady2.svg/20px-Steady2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Steady2.svg/40px-Steady2.svg.png 2x\" width=\"11\"/></span></span> 0.786<br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:forestgreen\">high</span></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">84th</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Currency</th><td class=\"infobox-data\"><a href=\"/wiki/United_States_dollar\" title=\"United States dollar\">United States dollar</a> (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">USD</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Time zone</th><td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+9</span> (PWT)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Summer (<a href=\"/wiki/Daylight_saving_time\" title=\"Daylight saving time\">DST</a>)</div></th><td class=\"infobox-data\"><i>not observed</i></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Date format</th><td class=\"infobox-data\">mm/dd/yyyy</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Telephone_numbers_in_Palau\" title=\"Telephone numbers in Palau\">Calling code</a></th><td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/%2B680\" title=\"+680\">+680</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/ISO_3166\" title=\"ISO 3166\">ISO 3166 code</a></th><td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:PW\" title=\"ISO 3166-2:PW\">PW</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Country_code_top-level_domain\" title=\"Country code top-level domain\">Internet TLD</a></th><td class=\"infobox-data\"><a href=\"/wiki/.pw\" title=\".pw\">.pw</a></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><div class=\"ib-country-website\"><b>Website</b><br/><a class=\"external text\" href=\"http://palaugov.pw/\" rel=\"nofollow\">PalauGov.pw</a></div></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><div class=\"ib-country-fn\"><ol class=\"ib-country-fn-alpha\">\n<li value=\"1\"><link href=\"mw-data:TemplateStyles:r1041539562\" rel=\"mw-deduplicated-inline-style\"><span class=\"citation wikicite\" id=\"endnote_scs\"><b><a href=\"#ref_scs\">^</a></b></span>  Japanese is an official language per the 1982 constitution of <a href=\"/wiki/Angaur\" title=\"Angaur\">Angaur</a> Island. However, it is no longer spoken. Sonsorolese and Tobian are official in their respective states.</link></li><li value=\"2\">GDP estimate includes US subsidy (2004 estimate).</li>\n</ol></div></td></tr></tbody></table>",
+    "rows": [
+      {
+        "label": "Status",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Member_states_of_the_United_Nations\" title=\"Member states of the United Nations\">UN member state</a> under a <a href=\"/wiki/Compact_of_Free_Association\" title=\"Compact of Free Association\">Compact of Free Association</a> with the <a href=\"/wiki/United_States\" title=\"United States\">United States</a><sup class=\"reference\" id=\"cite_ref-1\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "UN member state under a Compact of Free Association with the United States [ 1 ]"
+      },
+      {
+        "label": "Capital",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Ngerulmud\" title=\"Ngerulmud\">Ngerulmud</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Palau&amp;params=7_30_N_134_37_E_type:city\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">7°30′N</span> <span class=\"longitude\">134°37′E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">7.500°N 134.617°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">7.500; 134.617</span></span></span></a></span></span></td>",
+        "value_text": "Ngerulmud 7°30′N 134°37′E ﻿ / ﻿ 7.500°N 134.617°E ﻿ / 7.500; 134.617"
+      },
+      {
+        "label": "Largest city",
+        "value_html": "<td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/Koror_City\" title=\"Koror City\">Koror</a><br/><span class=\"geo-inline\"><link href=\"mw-data:TemplateStyles:r1156832818\" rel=\"mw-deduplicated-inline-style\"><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Palau&amp;params=7_20_N_134_29_E_\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">7°20′N</span> <span class=\"longitude\">134°29′E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">7.333°N 134.483°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">7.333; 134.483</span></span></span></a></span></link></span></td>",
+        "value_text": "Koror 7°20′N 134°29′E ﻿ / ﻿ 7.333°N 134.483°E ﻿ / 7.333; 134.483"
+      },
+      {
+        "label": "Official languages",
+        "value_html": "<td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><a href=\"/wiki/Palauan_language\" title=\"Palauan language\">Palauan</a></li><li><a href=\"/wiki/English_language\" title=\"English language\">English</a></li></ul></div></td>",
+        "value_text": "Palauan English"
+      },
+      {
+        "label": "Recognized regional languages",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li><a class=\"mw-redirect\" href=\"/wiki/Sonsorolese_language\" title=\"Sonsorolese language\">Sonsorolese</a></li><li><a href=\"/wiki/Tobian_language\" title=\"Tobian language\">Tobian</a></li><li><a href=\"/wiki/Japanese_language\" title=\"Japanese language\">Japanese</a><style data-mw-deduplicate=\"TemplateStyles:r1041539562\">.mw-parser-output .citation{word-wrap:break-word}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}</style><sup class=\"citation nobold\" id=\"ref_scs\"><a href=\"#endnote_scs\">[a]</a></sup></li></ul></div></link></td>",
+        "value_text": "Sonsorolese Tobian Japanese [a]"
+      },
+      {
+        "label": "Ethnic groups (2020 census )",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li>65.2% <a href=\"/wiki/Demographics_of_Palau\" title=\"Demographics of Palau\">Palauan</a></li><li>31.6% <a href=\"/wiki/Asian_people\" title=\"Asian people\">Asian</a></li><li>1.2% <a href=\"/wiki/Carolinian_people\" title=\"Carolinian people\">Carolinian</a></li><li>1.0% <a href=\"/wiki/White_people\" title=\"White people\">European</a></li><li>0.9% other</li></ul></div></link></td>",
+        "value_text": "65.2% Palauan 31.6% Asian 1.2% Carolinian 1.0% European 0.9% other"
+      },
+      {
+        "label": "Religion (2020 census)",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space:nowrap;\">78.7% <a class=\"mw-redirect\" href=\"/wiki/Christianity_in_Palau\" title=\"Christianity in Palau\">Christianity</a></li><li style=\"white-space:nowrap;\">10.1% <a href=\"/wiki/Irreligion\" title=\"Irreligion\">no religion</a></li><li style=\"white-space:nowrap;\">5.1% <a href=\"/wiki/Modekngei\" title=\"Modekngei\">Modekngei</a></li><li style=\"white-space:nowrap;\">4.9% <a href=\"/wiki/Islam_in_Palau\" title=\"Islam in Palau\">Islam</a></li><li style=\"white-space:nowrap;\">1.2% other</li></ul></div></link></td>",
+        "value_text": "78.7% Christianity 10.1% no religion 5.1% Modekngei 4.9% Islam 1.2% other"
+      },
+      {
+        "label": "Demonym",
+        "value_html": "<td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/Palauan_people\" title=\"Palauan people\">Palauan</a></td>",
+        "value_text": "Palauan"
+      },
+      {
+        "label": "Government",
+        "value_html": "<td class=\"infobox-data\">Unitary <a class=\"mw-redirect\" href=\"/wiki/Presidential_republic\" title=\"Presidential republic\">presidential republic</a> under a <a href=\"/wiki/Non-partisan_democracy\" title=\"Non-partisan democracy\">non-partisan democracy</a></td>",
+        "value_text": "Unitary presidential republic under a non-partisan democracy"
+      },
+      {
+        "label": "• President",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Surangel_Whipps_Jr.\" title=\"Surangel Whipps Jr.\">Surangel Whipps Jr.</a></td>",
+        "value_text": "Surangel Whipps Jr."
+      },
+      {
+        "label": "• Vice President",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Raynold_Oilouch\" title=\"Raynold Oilouch\">Raynold Oilouch</a></td>",
+        "value_text": "Raynold Oilouch"
+      },
+      {
+        "label": "Legislature",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Palau_National_Congress\" title=\"Palau National Congress\">Palau National Congress</a></td>",
+        "value_text": "Palau National Congress"
+      },
+      {
+        "label": "• Upper house",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Senate_of_Palau\" title=\"Senate of Palau\">Senate</a></td>",
+        "value_text": "Senate"
+      },
+      {
+        "label": "• Lower house",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/House_of_Delegates_of_Palau\" title=\"House of Delegates of Palau\">House of Delegates</a></td>",
+        "value_text": "House of Delegates"
+      },
+      {
+        "label": "• Trusteeship",
+        "value_html": "<td class=\"infobox-data\">18 July 1947</td>",
+        "value_text": "18 July 1947"
+      },
+      {
+        "label": "• Constitution",
+        "value_html": "<td class=\"infobox-data\">2 April 1979</td>",
+        "value_text": "2 April 1979"
+      },
+      {
+        "label": "• Establishment of the Republic of Palau",
+        "value_html": "<td class=\"infobox-data\">1 January 1981</td>",
+        "value_text": "1 January 1981"
+      },
+      {
+        "label": "• Compact of Free Association",
+        "value_html": "<td class=\"infobox-data\">1 October 1994</td>",
+        "value_text": "1 October 1994"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\">459 km<sup>2</sup> (177 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">180th</a>)</td>",
+        "value_text": "459 km 2 (177 sq mi) ( 180th )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_html": "<td class=\"infobox-data\">negligible</td>",
+        "value_text": "negligible"
+      },
+      {
+        "label": "• As of August 2025 estimate",
+        "value_html": "<td class=\"infobox-data\">17,663<sup class=\"reference\" id=\"cite_ref-UN_WPP_3-0\"><a href=\"#cite_note-UN_WPP-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-UN_WPP_2022_4-0\"><a href=\"#cite_note-UN_WPP_2022-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">221st</a>)</td>",
+        "value_text": "17,663 [ 3 ] [ 4 ] ( 221st )"
+      },
+      {
+        "label": "• 2021 census",
+        "value_html": "<td class=\"infobox-data\">16,766</td>",
+        "value_text": "16,766"
+      },
+      {
+        "label": "• Density",
+        "value_html": "<td class=\"infobox-data\">38.375/km<sup>2</sup> (99.4/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">182th</a>)</td>",
+        "value_text": "38.375/km 2 (99.4/sq mi) ( 182th )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_html": "<td class=\"infobox-data\">2024 estimate</td>",
+        "value_text": "2024 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $308 million<sup class=\"reference\" id=\"cite_ref-imf_6-0\"><a href=\"#cite_note-imf-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "$308 million [ 6 ]"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $18,209<sup class=\"reference\" id=\"cite_ref-imf_6-1\"><a href=\"#cite_note-imf-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">81st</a>)</td>",
+        "value_text": "$18,209 [ 6 ] ( 81st )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_html": "<td class=\"infobox-data\">2024 estimate</td>",
+        "value_text": "2024 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $322 million<sup class=\"reference\" id=\"cite_ref-imf_6-2\"><a href=\"#cite_note-imf-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "$322 million [ 6 ]"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $17,448<sup class=\"reference\" id=\"cite_ref-imf_6-3\"><a href=\"#cite_note-imf-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "$17,448 [ 6 ]"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Steady\"><img alt=\"Steady\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Steady2.svg/20px-Steady2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Steady2.svg/40px-Steady2.svg.png 2x\" width=\"11\"/></span></span> 0.786<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:forestgreen\">high</span></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">84th</a>)</td>",
+        "value_text": "0.786 [ 7 ] high ( 84th )"
+      },
+      {
+        "label": "Currency",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/United_States_dollar\" title=\"United States dollar\">United States dollar</a> (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">USD</a>)</td>",
+        "value_text": "United States dollar ( USD )"
+      },
+      {
+        "label": "Time zone",
+        "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+9</span> (PWT)</td>",
+        "value_text": "UTC +9 (PWT)"
+      },
+      {
+        "label": "• Summer ( DST )",
+        "value_html": "<td class=\"infobox-data\"><i>not observed</i></td>",
+        "value_text": "not observed"
+      },
+      {
+        "label": "Date format",
+        "value_html": "<td class=\"infobox-data\">mm/dd/yyyy<sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "mm/dd/yyyy [ 8 ]"
+      },
+      {
+        "label": "Calling code",
+        "value_html": "<td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/%2B680\" title=\"+680\">+680</a></td>",
+        "value_text": "+680"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:PW\" title=\"ISO 3166-2:PW\">PW</a></td>",
+        "value_text": "PW"
+      },
+      {
+        "label": "Internet TLD",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/.pw\" title=\".pw\">.pw</a></td>",
+        "value_text": ".pw"
+      }
+    ]
+  },
+  "cleaned": {
+    "rows": [
+      {
+        "label": "Status",
+        "value_text": "UN member state under a Compact of Free Association with the United States"
+      },
+      {
+        "label": "Capital",
+        "value_text": "Ngerulmud 7°30′N 134°37′E ﻿ / ﻿ 7.500°N 134.617°E ﻿ / 7.500; 134.617"
+      },
+      {
+        "label": "Largest city",
+        "value_text": "Koror 7°20′N 134°29′E ﻿ / ﻿ 7.333°N 134.483°E ﻿ / 7.333; 134.483"
+      },
+      {
+        "label": "Official languages",
+        "value_text": "Palauan English"
+      },
+      {
+        "label": "Recognized regional languages",
+        "value_text": "Sonsorolese Tobian Japanese [a]"
+      },
+      {
+        "label": "Ethnic groups (2020 census )",
+        "value_text": "65.2% Palauan 31.6% Asian 1.2% Carolinian 1.0% European 0.9% other"
+      },
+      {
+        "label": "Religion (2020 census)",
+        "value_text": "78.7% Christianity 10.1% no religion 5.1% Modekngei 4.9% Islam 1.2% other"
+      },
+      {
+        "label": "Demonym",
+        "value_text": "Palauan"
+      },
+      {
+        "label": "Government",
+        "value_text": "Unitary presidential republic under a non-partisan democracy"
+      },
+      {
+        "label": "• President",
+        "value_text": "Surangel Whipps Jr."
+      },
+      {
+        "label": "• Vice President",
+        "value_text": "Raynold Oilouch"
+      },
+      {
+        "label": "Legislature",
+        "value_text": "Palau National Congress"
+      },
+      {
+        "label": "• Upper house",
+        "value_text": "Senate"
+      },
+      {
+        "label": "• Lower house",
+        "value_text": "House of Delegates"
+      },
+      {
+        "label": "• Trusteeship",
+        "value_text": "18 July 1947"
+      },
+      {
+        "label": "• Constitution",
+        "value_text": "2 April 1979"
+      },
+      {
+        "label": "• Establishment of the Republic of Palau",
+        "value_text": "1 January 1981"
+      },
+      {
+        "label": "• Compact of Free Association",
+        "value_text": "1 October 1994"
+      },
+      {
+        "label": "• Total",
+        "value_text": "459 km 2 (177 sq mi) ( 180th )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_text": "negligible"
+      },
+      {
+        "label": "• As of August 2025 estimate",
+        "value_text": "17,663 ( 221st )"
+      },
+      {
+        "label": "• 2021 census",
+        "value_text": "16,766"
+      },
+      {
+        "label": "• Density",
+        "value_text": "38.375/km 2 (99.4/sq mi) ( 182th )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_text": "2024 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$308 million"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$18,209 ( 81st )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_text": "2024 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$322 million"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$17,448"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_text": "0.786 high ( 84th )"
+      },
+      {
+        "label": "Currency",
+        "value_text": "United States dollar ( USD )"
+      },
+      {
+        "label": "Time zone",
+        "value_text": "UTC +9 (PWT)"
+      },
+      {
+        "label": "• Summer ( DST )",
+        "value_text": "not observed"
+      },
+      {
+        "label": "Date format",
+        "value_text": "mm/dd/yyyy"
+      },
+      {
+        "label": "Calling code",
+        "value_text": "+680"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_text": "PW"
+      },
+      {
+        "label": "Internet TLD",
+        "value_text": ".pw"
+      }
+    ]
+  },
+  "normalized": {
+    "fields": {
+      "status": {
+        "raw_label": "Status",
+        "text": "UN member state under a Compact of Free Association with the United States",
+        "tokens": [
+          "UN",
+          "member",
+          "state",
+          "under",
+          "a",
+          "Compact",
+          "of",
+          "Free",
+          "Association",
+          "with",
+          "the",
+          "United",
+          "States"
+        ],
+        "numbers": []
+      },
+      "capital": {
+        "raw_label": "Capital",
+        "text": "Ngerulmud 7°30′N 134°37′E ﻿ / ﻿ 7.500°N 134.617°E ﻿ / 7.500; 134.617",
+        "tokens": [
+          "Ngerulmud",
+          "7",
+          "30",
+          "N",
+          "134",
+          "37",
+          "E",
+          "7",
+          "500",
+          "N",
+          "134",
+          "617",
+          "E",
+          "7",
+          "500",
+          "134",
+          "617"
+        ],
+        "numbers": [
+          7,
+          30,
+          134,
+          37,
+          7.5,
+          134.617,
+          7.5,
+          134.617
+        ]
+      },
+      "largest_city": {
+        "raw_label": "Largest city",
+        "text": "Koror 7°20′N 134°29′E ﻿ / ﻿ 7.333°N 134.483°E ﻿ / 7.333; 134.483",
+        "tokens": [
+          "Koror",
+          "7",
+          "20",
+          "N",
+          "134",
+          "29",
+          "E",
+          "7",
+          "333",
+          "N",
+          "134",
+          "483",
+          "E",
+          "7",
+          "333",
+          "134",
+          "483"
+        ],
+        "numbers": [
+          7,
+          20,
+          134,
+          29,
+          7.333,
+          134.483,
+          7.333,
+          134.483
+        ]
+      },
+      "official_languages": {
+        "raw_label": "Official languages",
+        "text": "Palauan English",
+        "tokens": [
+          "Palauan",
+          "English"
+        ],
+        "numbers": []
+      },
+      "recognized_regional_languages": {
+        "raw_label": "Recognized regional languages",
+        "text": "Sonsorolese Tobian Japanese [a]",
+        "tokens": [
+          "Sonsorolese",
+          "Tobian",
+          "Japanese",
+          "a"
+        ],
+        "numbers": []
+      },
+      "ethnic_groups_2020_census": {
+        "raw_label": "Ethnic groups (2020 census )",
+        "text": "65.2% Palauan 31.6% Asian 1.2% Carolinian 1.0% European 0.9% other",
+        "tokens": [
+          "65",
+          "2",
+          "Palauan",
+          "31",
+          "6",
+          "Asian",
+          "1",
+          "2",
+          "Carolinian",
+          "1",
+          "0",
+          "European",
+          "0",
+          "9",
+          "other"
+        ],
+        "numbers": [
+          65.2,
+          31.6,
+          1.2,
+          1.0,
+          0.9
+        ]
+      },
+      "religion_2020_census": {
+        "raw_label": "Religion (2020 census)",
+        "text": "78.7% Christianity 10.1% no religion 5.1% Modekngei 4.9% Islam 1.2% other",
+        "tokens": [
+          "78",
+          "7",
+          "Christianity",
+          "10",
+          "1",
+          "no",
+          "religion",
+          "5",
+          "1",
+          "Modekngei",
+          "4",
+          "9",
+          "Islam",
+          "1",
+          "2",
+          "other"
+        ],
+        "numbers": [
+          78.7,
+          10.1,
+          5.1,
+          4.9,
+          1.2
+        ]
+      },
+      "demonym": {
+        "raw_label": "Demonym",
+        "text": "Palauan",
+        "tokens": [
+          "Palauan"
+        ],
+        "numbers": []
+      },
+      "government": {
+        "raw_label": "Government",
+        "text": "Unitary presidential republic under a non-partisan democracy",
+        "tokens": [
+          "Unitary",
+          "presidential",
+          "republic",
+          "under",
+          "a",
+          "non",
+          "partisan",
+          "democracy"
+        ],
+        "numbers": []
+      },
+      "president": {
+        "raw_label": "• President",
+        "text": "Surangel Whipps Jr.",
+        "tokens": [
+          "Surangel",
+          "Whipps",
+          "Jr"
+        ],
+        "numbers": []
+      },
+      "vice_president": {
+        "raw_label": "• Vice President",
+        "text": "Raynold Oilouch",
+        "tokens": [
+          "Raynold",
+          "Oilouch"
+        ],
+        "numbers": []
+      },
+      "legislature": {
+        "raw_label": "Legislature",
+        "text": "Palau National Congress",
+        "tokens": [
+          "Palau",
+          "National",
+          "Congress"
+        ],
+        "numbers": []
+      },
+      "upper_house": {
+        "raw_label": "• Upper house",
+        "text": "Senate",
+        "tokens": [
+          "Senate"
+        ],
+        "numbers": []
+      },
+      "lower_house": {
+        "raw_label": "• Lower house",
+        "text": "House of Delegates",
+        "tokens": [
+          "House",
+          "of",
+          "Delegates"
+        ],
+        "numbers": []
+      },
+      "trusteeship": {
+        "raw_label": "• Trusteeship",
+        "text": "18 July 1947",
+        "tokens": [
+          "18",
+          "July",
+          "1947"
+        ],
+        "numbers": [
+          18,
+          1947
+        ]
+      },
+      "constitution": {
+        "raw_label": "• Constitution",
+        "text": "2 April 1979",
+        "tokens": [
+          "2",
+          "April",
+          "1979"
+        ],
+        "numbers": [
+          2,
+          1979
+        ]
+      },
+      "establishment_of_the_republic_of_palau": {
+        "raw_label": "• Establishment of the Republic of Palau",
+        "text": "1 January 1981",
+        "tokens": [
+          "1",
+          "January",
+          "1981"
+        ],
+        "numbers": [
+          1,
+          1981
+        ]
+      },
+      "compact_of_free_association": {
+        "raw_label": "• Compact of Free Association",
+        "text": "1 October 1994",
+        "tokens": [
+          "1",
+          "October",
+          "1994"
+        ],
+        "numbers": [
+          1,
+          1994
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$322 million",
+        "tokens": [
+          "322",
+          "million"
+        ],
+        "numbers": [
+          322
+        ]
+      },
+      "water": {
+        "raw_label": "• Water (%)",
+        "text": "negligible",
+        "tokens": [
+          "negligible"
+        ],
+        "numbers": []
+      },
+      "as_of_august_2025_estimate": {
+        "raw_label": "• As of August 2025 estimate",
+        "text": "17,663 ( 221st )",
+        "tokens": [
+          "17",
+          "663",
+          "221st"
+        ],
+        "numbers": [
+          17663,
+          221
+        ]
+      },
+      "2021_census": {
+        "raw_label": "• 2021 census",
+        "text": "16,766",
+        "tokens": [
+          "16",
+          "766"
+        ],
+        "numbers": [
+          16766
+        ]
+      },
+      "density": {
+        "raw_label": "• Density",
+        "text": "38.375/km 2 (99.4/sq mi) ( 182th )",
+        "tokens": [
+          "38",
+          "375",
+          "km",
+          "2",
+          "99",
+          "4",
+          "sq",
+          "mi",
+          "182th"
+        ],
+        "numbers": [
+          38.375,
+          2,
+          99.4,
+          182
+        ]
+      },
+      "gdp_ppp": {
+        "raw_label": "GDP ( PPP )",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$17,448",
+        "tokens": [
+          "17",
+          "448"
+        ],
+        "numbers": [
+          17448
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "hdi_2023": {
+        "raw_label": "HDI (2023)",
+        "text": "0.786 high ( 84th )",
+        "tokens": [
+          "0",
+          "786",
+          "high",
+          "84th"
+        ],
+        "numbers": [
+          0.786,
+          84
+        ]
+      },
+      "currency": {
+        "raw_label": "Currency",
+        "text": "United States dollar ( USD )",
+        "tokens": [
+          "United",
+          "States",
+          "dollar",
+          "USD"
+        ],
+        "numbers": []
+      },
+      "time_zone": {
+        "raw_label": "Time zone",
+        "text": "UTC +9 (PWT)",
+        "tokens": [
+          "UTC",
+          "9",
+          "PWT"
+        ],
+        "numbers": [
+          9
+        ]
+      },
+      "summer_dst": {
+        "raw_label": "• Summer ( DST )",
+        "text": "not observed",
+        "tokens": [
+          "not",
+          "observed"
+        ],
+        "numbers": []
+      },
+      "date_format": {
+        "raw_label": "Date format",
+        "text": "mm/dd/yyyy",
+        "tokens": [
+          "mm",
+          "dd",
+          "yyyy"
+        ],
+        "numbers": []
+      },
+      "calling_code": {
+        "raw_label": "Calling code",
+        "text": "+680",
+        "tokens": [
+          "680"
+        ],
+        "numbers": [
+          680
+        ]
+      },
+      "iso_3166_code": {
+        "raw_label": "ISO 3166 code",
+        "text": "PW",
+        "tokens": [
+          "PW"
+        ],
+        "numbers": []
+      },
+      "internet_tld": {
+        "raw_label": "Internet TLD",
+        "text": ".pw",
+        "tokens": [
+          "pw"
+        ],
+        "numbers": []
+      }
+    }
+  }
+}

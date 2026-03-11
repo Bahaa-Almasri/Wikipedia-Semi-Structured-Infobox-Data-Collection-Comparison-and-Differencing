@@ -1,0 +1,849 @@
+{
+  "meta": {
+    "country_name": "Iceland",
+    "slug": "iceland",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Iceland",
+    "retrieved_at": "2026-03-11T17:56:00+00:00",
+    "source": "wikipedia-infobox"
+  },
+  "raw": {
+    "infobox_html": "<table class=\"infobox ib-country vcard\"><tbody><tr><th class=\"infobox-above adr\" colspan=\"2\"><div class=\"fn org country-name\">Iceland</div><div class=\"ib-country-names\"><span title=\"Icelandic-language text\"><i lang=\"is\">Ísland</i></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(<a href=\"/wiki/Icelandic_language\" title=\"Icelandic language\">Icelandic</a>)</span><span data-plural=\"0\" style=\"display:none\"></span></div></th></tr><tr><td class=\"infobox-image\" colspan=\"2\"><div class=\"noresize\" style=\"display:table; width:100%;\">\n<div style=\"display:table-cell; vertical-align:middle; padding-left:5px;\">\n<div style=\"padding-bottom:3px;\"><span class=\"mw-image-border\" typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Flag_of_Iceland.svg\" title=\"Flag of Iceland\"><img alt=\"Flag of Iceland\" class=\"mw-file-element\" data-file-height=\"900\" data-file-width=\"1250\" decoding=\"async\" height=\"90\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/250px-Flag_of_Iceland.svg.png\" width=\"125\"/></a></span></div>\n<div><a href=\"/wiki/Flag_of_Iceland\" title=\"Flag of Iceland\">Flag</a></div>\n</div>\n<div style=\"display:table-cell; vertical-align:middle; padding: 0px 5px;\">\n<div style=\"padding-bottom:3px;\"><span typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Coat_of_arms_of_Iceland.svg\" title=\"Coat of arms of Iceland\"><img alt=\"Coat of arms of Iceland\" class=\"mw-file-element\" data-file-height=\"870\" data-file-width=\"844\" decoding=\"async\" height=\"93\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/90/Coat_of_arms_of_Iceland.svg/120px-Coat_of_arms_of_Iceland.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/90/Coat_of_arms_of_Iceland.svg/250px-Coat_of_arms_of_Iceland.svg.png 1.5x\" width=\"90\"/></a></span></div>\n<div><a href=\"/wiki/Coat_of_arms_of_Iceland\" title=\"Coat of arms of Iceland\"> Coat of arms</a></div>\n</div>\n</div></td></tr><tr><td class=\"infobox-full-data anthem\" colspan=\"2\"><b>Anthem:</b> <span title=\"Icelandic-language text\"><i lang=\"is\"><a href=\"/wiki/Lofs%C3%B6ngur\" title=\"Lofsöngur\">Ó Guð vors lands</a></i></span><br/>\"O God of Our Land\"<div class=\"paragraphbreak\" style=\"margin-top:0.5em\"></div><span class=\"mw-default-size\" typeof=\"mw:File\"><span><audio class=\"mw-file-element\" controls=\"\" data-durationhint=\"100\" data-mw-tmh=\"\" data-mwprovider=\"wikimediacommons\" data-mwtitle=\"Lofsöngur.ogg\" id=\"mwe_player_0\" preload=\"none\" style=\"width:250px;\" width=\"250\"><source data-height=\"0\" data-transcodekey=\"mp3\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/transcoded/4/4b/Lofs%C3%B6ngur.ogg/Lofs%C3%B6ngur.ogg.mp3\" type=\"audio/mpeg\"/><source data-height=\"0\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/4/4b/Lofs%C3%B6ngur.ogg\" type='audio/ogg; codecs=\"vorbis\"'/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Batak Toba ‪(bbc-latn)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=bbc-latn&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"bbc-Latn\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Deutsch ‪(de)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=de&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"de\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"English ‪(en)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=en&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"en\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"føroyskt ‪(fo)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=fo&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"fo\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"français ‪(fr)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=fr&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"fr\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"हिन्दी ‪(hi)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=hi&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"hi\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Bahasa Indonesia ‪(id)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=id&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"id\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"íslenska ‪(is)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=is&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"is\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"日本語 ‪(ja)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=ja&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"ja\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"한국어 ‪(ko)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=ko&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"ko\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"português ‪(pt)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=pt&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"pt\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"українська ‪(uk)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=uk&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"uk\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Tiếng Việt ‪(vi)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=vi&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"vi\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"中文（臺灣） ‪(zh-tw)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALofs%C3%B6ngur.ogg&amp;lang=zh-tw&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"zh-Hant-TW\" type=\"text/vtt\"/></audio></span></span></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><div class=\"switcher-container\"><div><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:Iceland_(orthographic_projection).svg\"><img class=\"mw-file-element\" data-file-height=\"541\" data-file-width=\"541\" decoding=\"async\" height=\"290\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Iceland_%28orthographic_projection%29.svg/330px-Iceland_%28orthographic_projection%29.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Iceland_%28orthographic_projection%29.svg/500px-Iceland_%28orthographic_projection%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Iceland_%28orthographic_projection%29.svg/960px-Iceland_%28orthographic_projection%29.svg.png 2x\" width=\"290\"/></a></span><span class=\"switcher-label\" data-switcher-default=\"\" style=\"display:none\">Show globe</span></div><div><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:Europe-Iceland.svg\"><img class=\"mw-file-element\" data-file-height=\"1720\" data-file-width=\"2045\" decoding=\"async\" height=\"244\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Europe-Iceland.svg/330px-Europe-Iceland.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Europe-Iceland.svg/500px-Europe-Iceland.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/66/Europe-Iceland.svg/960px-Europe-Iceland.svg.png 2x\" width=\"290\"/></a></span><span class=\"switcher-label\" style=\"display:none\">Show map of Europe</span></div></div><div class=\"ib-country-map-caption\">Location of Iceland (dark green)</div></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Capital<div class=\"ib-country-largest\">and largest city</div></th><td class=\"infobox-data\"><a href=\"/wiki/Reykjav%C3%ADk\" title=\"Reykjavík\">Reykjavík</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Iceland&amp;params=64_08_N_21_56_W_type:city\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">64°08′N</span> <span class=\"longitude\">21°56′W</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">64.133°N 21.933°W</span><span style=\"display:none\">﻿ / <span class=\"geo\">64.133; -21.933</span></span></span></a></span></span></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Official language</th><td class=\"infobox-data\"><a href=\"/wiki/Icelandic_language\" title=\"Icelandic language\">Icelandic</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a class=\"mw-redirect\" href=\"/wiki/Ethnic_group\" title=\"Ethnic group\">Ethnic groups</a> <div class=\"ib-country-ethnic\"> (2021)</div></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li>86% <a href=\"/wiki/Icelanders\" title=\"Icelanders\">Icelandic</a></li><li>6% <a href=\"/wiki/Poles_in_Iceland\" title=\"Poles in Iceland\">Polish</a></li><li>1% <a href=\"/wiki/Lithuanians\" title=\"Lithuanians\">Lithuanian</a></li><li>0.8% <a href=\"/wiki/Filipinos\" title=\"Filipinos\">Filipino</a></li><li>7% other</li></ul></div></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Religion <div class=\"ib-country-religion\"> (2022)</div></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space;\"><style data-mw-deduplicate=\"TemplateStyles:r1324795729\">.mw-parser-output .treeview ul{padding:0;margin:0}.mw-parser-output .treeview li{padding:0;margin:0;list-style-type:none;list-style-image:none}.mw-parser-output .treeview li li{background:url(\"https://upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png\")no-repeat 0 -2981px;padding-left:21px;text-indent:0.3em}.mw-parser-output .treeview li li:last-child{background-position:0 -5971px}.mw-parser-output .treeview li.emptyline>ul>.mw-empty-elt:first-child+.emptyline,.mw-parser-output .treeview li.emptyline>ul>li:first-child{background-position:0 9px}</style><div class=\"treeview\">\n<ul><li>72.4% <a href=\"/wiki/Christianity\" title=\"Christianity\">Christianity</a>\n<ul><li>60.9% <a href=\"/wiki/Church_of_Iceland\" title=\"Church of Iceland\">Church of Iceland</a> (<a href=\"/wiki/State_religion\" title=\"State religion\">official</a>)</li>\n<li>11.5% other <a href=\"/wiki/List_of_Christian_denominations\" title=\"List of Christian denominations\">Christian</a></li></ul></li></ul>\n</div></li><li style=\"white-space;\">25.2% <a href=\"/wiki/Irreligion_in_Iceland\" title=\"Irreligion in Iceland\">no religion</a></li><li style=\"white-space;\">1.5% <a href=\"/wiki/%C3%81satr%C3%BAarf%C3%A9lagi%C3%B0\" title=\"Ásatrúarfélagið\">Ásatrúarfélagið</a></li><li style=\"white-space;\">0.9% other</li></ul></div></link></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Demonym\" title=\"Demonym\">Demonyms</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1333133064\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><div class=\"hlist\"><ul><li><a href=\"/wiki/Icelanders\" title=\"Icelanders\">Icelander</a></li><li>Icelandic</li></ul></div></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Politics_of_Iceland\" title=\"Politics of Iceland\">Government</a></th><td class=\"infobox-data\"><a href=\"/wiki/Unitary_parliamentary_republic\" title=\"Unitary parliamentary republic\">Unitary parliamentary republic</a></td></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/President_of_Iceland\" title=\"President of Iceland\">President</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Halla_T%C3%B3masd%C3%B3ttir\" title=\"Halla Tómasdóttir\">Halla Tómasdóttir</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Prime_Minister_of_Iceland\" title=\"Prime Minister of Iceland\">Prime Minister</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Kristr%C3%BAn_Frostad%C3%B3ttir\" title=\"Kristrún Frostadóttir\">Kristrún Frostadóttir</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/List_of_speakers_of_the_Parliament_of_Iceland\" title=\"List of speakers of the Parliament of Iceland\">Speaker of the Althing</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/%C3%9E%C3%B3runn_Sveinbjarnard%C3%B3ttir\" title=\"Þórunn Sveinbjarnardóttir\">Þórunn Sveinbjarnardóttir</a></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Legislature</th><td class=\"infobox-data\"><a href=\"/wiki/Althing\" title=\"Althing\">Althing</a></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/History_of_Iceland\" title=\"History of Iceland\">Formation</a></th></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Settlement_of_Iceland\" title=\"Settlement of Iceland\">Settlement</a> </div></th><td class=\"infobox-data\">9th century</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Icelandic_Commonwealth\" title=\"Icelandic Commonwealth\">Commonwealth</a> </div></th><td class=\"infobox-data\">930–1262</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Old_Covenant_(Iceland)\" title=\"Old Covenant (Iceland)\">Union</a> with <span class=\"nowrap\"><a href=\"/wiki/Kingdom_of_Norway_(872%E2%80%931397)\" title=\"Kingdom of Norway (872–1397)\">Norway</a></span> </div></th><td class=\"infobox-data\">1262–1397</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Kalmar_Union\" title=\"Kalmar Union\">Kalmar Union</a> </div></th><td class=\"infobox-data\">1397–1523</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Denmark%E2%80%93Norway\" title=\"Denmark–Norway\">Denmark–Norway</a> </div></th><td class=\"infobox-data\">1523–1814</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Treaty_of_Kiel\" title=\"Treaty of Kiel\">Ceded</a> to <a href=\"/wiki/Danish_Realm\" title=\"Danish Realm\">Denmark</a> </div></th><td class=\"infobox-data\">14 January 1814</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Constitution_of_Iceland\" title=\"Constitution of Iceland\">Constitution</a> and limited <a href=\"/wiki/Home_rule\" title=\"Home rule\">home rule</a> </div></th><td class=\"infobox-data\">5 January 1874</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• Extended home rule </div></th><td class=\"infobox-data\">1 February 1904</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Kingdom_of_Iceland\" title=\"Kingdom of Iceland\">Sovereignty</a> and <a href=\"/wiki/Danish%E2%80%93Icelandic_Act_of_Union\" title=\"Danish–Icelandic Act of Union\">personal union</a> with Denmark </div></th><td class=\"infobox-data\">1 December 1918</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/1944_Icelandic_constitutional_referendum\" title=\"1944 Icelandic constitutional referendum\">Republic</a> </div></th><td class=\"infobox-data\">17 June 1944<span class=\"noprint\">; 81 years ago</span><span style=\"display:none\"> (<span class=\"bday dtstart published updated\">17 June 1944</span>)</span></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Geography_of_Iceland\" title=\"Geography of Iceland\">Area </a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\">103,125 km<sup>2</sup> (39,817 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">106th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Water (%)</div></th><td class=\"infobox-data\">2.07 (as of 2015)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Demographics_of_Iceland\" title=\"Demographics of Iceland\">Population</a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• 2025 census</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 394,530 (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">172nd</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Density</div></th><td class=\"infobox-data\">3.78/km<sup>2</sup> (9.8/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">235th</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <style data-mw-deduplicate=\"TemplateStyles:r886047488\">.mw-parser-output .nobold{font-weight:normal}</style><span class=\"nobold\">(<a href=\"/wiki/Purchasing_power_parity\" title=\"Purchasing power parity\">PPP</a>)</span></th><td class=\"infobox-data\">2025 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $31.076 billion (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">153rd</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $81,220 (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">14th</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(nominal)</span></link></th><td class=\"infobox-data\">2025 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $35.310 billion (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">105th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $90,280 (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">5th</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gini_coefficient\" title=\"Gini coefficient\">Gini</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2018)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Positive decrease\"><img alt=\"Positive decrease\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/20px-Decrease_Positive.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/40px-Decrease_Positive.svg.png 2x\" width=\"11\"/></span></span> 23.2<br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:forestgreen\">low inequality</span></span></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Human_Development_Index\" title=\"Human Development Index\">HDI</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2023)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.972<br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"><span class=\"tmp-color\" style=\"color:darkgreen\">very high</span></link></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">1st</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Currency</th><td class=\"infobox-data\"><a href=\"/wiki/Icelandic_kr%C3%B3na\" title=\"Icelandic króna\">Icelandic króna</a> (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">ISK</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Time zone</th><td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>±00:00</span> (<a href=\"/wiki/Greenwich_Mean_Time\" title=\"Greenwich Mean Time\">GMT</a>/<a href=\"/wiki/Western_European_Time\" title=\"Western European Time\">WET</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Date format</th><td class=\"infobox-data\">dd.mm.yyyy</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Telephone_numbers_in_Iceland\" title=\"Telephone numbers in Iceland\">Calling code</a></th><td class=\"infobox-data\"><a href=\"/wiki/Telephone_numbers_in_Iceland\" title=\"Telephone numbers in Iceland\">+354</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/ISO_3166\" title=\"ISO 3166\">ISO 3166 code</a></th><td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:IS\" title=\"ISO 3166-2:IS\">IS</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Country_code_top-level_domain\" title=\"Country code top-level domain\">Internet TLD</a></th><td class=\"infobox-data\"><a href=\"/wiki/.is\" title=\".is\">.is</a></td></tr></tbody></table>",
+    "rows": [
+      {
+        "label": "Capital and largest city",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Reykjav%C3%ADk\" title=\"Reykjavík\">Reykjavík</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Iceland&amp;params=64_08_N_21_56_W_type:city\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">64°08′N</span> <span class=\"longitude\">21°56′W</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">64.133°N 21.933°W</span><span style=\"display:none\">﻿ / <span class=\"geo\">64.133; -21.933</span></span></span></a></span></span></td>",
+        "value_text": "Reykjavík 64°08′N 21°56′W ﻿ / ﻿ 64.133°N 21.933°W ﻿ / 64.133; -21.933"
+      },
+      {
+        "label": "Official language",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Icelandic_language\" title=\"Icelandic language\">Icelandic</a></td>",
+        "value_text": "Icelandic"
+      },
+      {
+        "label": "Ethnic groups (2021)",
+        "value_html": "<td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li>86% <a href=\"/wiki/Icelanders\" title=\"Icelanders\">Icelandic</a></li><li>6% <a href=\"/wiki/Poles_in_Iceland\" title=\"Poles in Iceland\">Polish</a></li><li>1% <a href=\"/wiki/Lithuanians\" title=\"Lithuanians\">Lithuanian</a></li><li>0.8% <a href=\"/wiki/Filipinos\" title=\"Filipinos\">Filipino</a></li><li>7% other</li></ul></div></td>",
+        "value_text": "86% Icelandic 6% Polish 1% Lithuanian 0.8% Filipino 7% other"
+      },
+      {
+        "label": "Religion (2022)",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space;\"><style data-mw-deduplicate=\"TemplateStyles:r1324795729\">.mw-parser-output .treeview ul{padding:0;margin:0}.mw-parser-output .treeview li{padding:0;margin:0;list-style-type:none;list-style-image:none}.mw-parser-output .treeview li li{background:url(\"https://upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png\")no-repeat 0 -2981px;padding-left:21px;text-indent:0.3em}.mw-parser-output .treeview li li:last-child{background-position:0 -5971px}.mw-parser-output .treeview li.emptyline>ul>.mw-empty-elt:first-child+.emptyline,.mw-parser-output .treeview li.emptyline>ul>li:first-child{background-position:0 9px}</style><div class=\"treeview\">\n<ul><li>72.4% <a href=\"/wiki/Christianity\" title=\"Christianity\">Christianity</a>\n<ul><li>60.9% <a href=\"/wiki/Church_of_Iceland\" title=\"Church of Iceland\">Church of Iceland</a> (<a href=\"/wiki/State_religion\" title=\"State religion\">official</a>)<sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>b<span class=\"cite-bracket\">]</span></a></sup></li>\n<li>11.5% other <a href=\"/wiki/List_of_Christian_denominations\" title=\"List of Christian denominations\">Christian</a></li></ul></li></ul>\n</div></li><li style=\"white-space;\">25.2% <a href=\"/wiki/Irreligion_in_Iceland\" title=\"Irreligion in Iceland\">no religion</a></li><li style=\"white-space;\">1.5% <a href=\"/wiki/%C3%81satr%C3%BAarf%C3%A9lagi%C3%B0\" title=\"Ásatrúarfélagið\">Ásatrúarfélagið</a></li><li style=\"white-space;\">0.9% other</li></ul></div></link></td>",
+        "value_text": "72.4% Christianity 60.9% Church of Iceland ( official ) [ b ] 11.5% other Christian 25.2% no religion 1.5% Ásatrúarfélagið 0.9% other"
+      },
+      {
+        "label": "Demonyms",
+        "value_html": "<td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1333133064\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><div class=\"hlist\"><ul><li><a href=\"/wiki/Icelanders\" title=\"Icelanders\">Icelander</a></li><li>Icelandic</li></ul></div></td>",
+        "value_text": "Icelander Icelandic"
+      },
+      {
+        "label": "Government",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Unitary_parliamentary_republic\" title=\"Unitary parliamentary republic\">Unitary parliamentary republic</a></td>",
+        "value_text": "Unitary parliamentary republic"
+      },
+      {
+        "label": "• President",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Halla_T%C3%B3masd%C3%B3ttir\" title=\"Halla Tómasdóttir\">Halla Tómasdóttir</a></td>",
+        "value_text": "Halla Tómasdóttir"
+      },
+      {
+        "label": "• Prime Minister",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Kristr%C3%BAn_Frostad%C3%B3ttir\" title=\"Kristrún Frostadóttir\">Kristrún Frostadóttir</a></td>",
+        "value_text": "Kristrún Frostadóttir"
+      },
+      {
+        "label": "• Speaker of the Althing",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/%C3%9E%C3%B3runn_Sveinbjarnard%C3%B3ttir\" title=\"Þórunn Sveinbjarnardóttir\">Þórunn Sveinbjarnardóttir</a></td>",
+        "value_text": "Þórunn Sveinbjarnardóttir"
+      },
+      {
+        "label": "Legislature",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Althing\" title=\"Althing\">Althing</a></td>",
+        "value_text": "Althing"
+      },
+      {
+        "label": "• Settlement",
+        "value_html": "<td class=\"infobox-data\">9th century</td>",
+        "value_text": "9th century"
+      },
+      {
+        "label": "• Commonwealth",
+        "value_html": "<td class=\"infobox-data\">930–1262</td>",
+        "value_text": "930–1262"
+      },
+      {
+        "label": "• Union with Norway",
+        "value_html": "<td class=\"infobox-data\">1262–1397</td>",
+        "value_text": "1262–1397"
+      },
+      {
+        "label": "• Kalmar Union",
+        "value_html": "<td class=\"infobox-data\">1397–1523</td>",
+        "value_text": "1397–1523"
+      },
+      {
+        "label": "• Denmark–Norway",
+        "value_html": "<td class=\"infobox-data\">1523–1814</td>",
+        "value_text": "1523–1814"
+      },
+      {
+        "label": "• Ceded to Denmark",
+        "value_html": "<td class=\"infobox-data\">14 January 1814</td>",
+        "value_text": "14 January 1814"
+      },
+      {
+        "label": "• Constitution and limited home rule",
+        "value_html": "<td class=\"infobox-data\">5 January 1874</td>",
+        "value_text": "5 January 1874"
+      },
+      {
+        "label": "• Extended home rule",
+        "value_html": "<td class=\"infobox-data\">1 February 1904</td>",
+        "value_text": "1 February 1904"
+      },
+      {
+        "label": "• Sovereignty and personal union with Denmark",
+        "value_html": "<td class=\"infobox-data\">1 December 1918</td>",
+        "value_text": "1 December 1918"
+      },
+      {
+        "label": "• Republic",
+        "value_html": "<td class=\"infobox-data\">17 June 1944<span class=\"noprint\">; 81 years ago</span><span style=\"display:none\"> (<span class=\"bday dtstart published updated\">17 June 1944</span>)</span></td>",
+        "value_text": "17 June 1944 ; 81 years ago ( 17 June 1944 )"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\">103,125<sup class=\"reference\" id=\"cite_ref-ruv20150226_6-0\"><a href=\"#cite_note-ruv20150226-6\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (39,817 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">106th</a>)</td>",
+        "value_text": "103,125 [ 4 ] km 2 (39,817 sq mi) ( 106th )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_html": "<td class=\"infobox-data\">2.07 (as of 2015)<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "2.07 (as of 2015) [ 5 ]"
+      },
+      {
+        "label": "• 2025 census",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 394,530<sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">172nd</a>)</td>",
+        "value_text": "394,530 [ 6 ] ( 172nd )"
+      },
+      {
+        "label": "• Density",
+        "value_html": "<td class=\"infobox-data\">3.78/km<sup>2</sup> (9.8/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">235th</a>)</td>",
+        "value_text": "3.78/km 2 (9.8/sq mi) ( 235th )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_html": "<td class=\"infobox-data\">2025 estimate</td>",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $31.076 billion<sup class=\"reference\" id=\"cite_ref-auto1_9-0\"><a href=\"#cite_note-auto1-9\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">153rd</a>)</td>",
+        "value_text": "$31.076 billion [ 7 ] ( 153rd )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $81,220<sup class=\"reference\" id=\"cite_ref-auto1_9-1\"><a href=\"#cite_note-auto1-9\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">14th</a>)</td>",
+        "value_text": "$81,220 [ 7 ] ( 14th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_html": "<td class=\"infobox-data\">2025 estimate</td>",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $35.310 billion<sup class=\"reference\" id=\"cite_ref-auto1_9-2\"><a href=\"#cite_note-auto1-9\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">105th</a>)</td>",
+        "value_text": "$35.310 billion [ 7 ] ( 105th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $90,280<sup class=\"reference\" id=\"cite_ref-auto1_9-3\"><a href=\"#cite_note-auto1-9\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">5th</a>)</td>",
+        "value_text": "$90,280 [ 7 ] ( 5th )"
+      },
+      {
+        "label": "Gini (2018)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Positive decrease\"><img alt=\"Positive decrease\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/20px-Decrease_Positive.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/40px-Decrease_Positive.svg.png 2x\" width=\"11\"/></span></span> 23.2<sup class=\"reference\" id=\"cite_ref-eurogini_10-0\"><a href=\"#cite_note-eurogini-10\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:forestgreen\">low inequality</span></span></td>",
+        "value_text": "23.2 [ 8 ] low inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.972<sup class=\"reference\" id=\"cite_ref-HDI_11-0\"><a href=\"#cite_note-HDI-11\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"><span class=\"tmp-color\" style=\"color:darkgreen\">very high</span></link></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">1st</a>)</td>",
+        "value_text": "0.972 [ 9 ] very high ( 1st )"
+      },
+      {
+        "label": "Currency",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Icelandic_kr%C3%B3na\" title=\"Icelandic króna\">Icelandic króna</a> (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">ISK</a>)</td>",
+        "value_text": "Icelandic króna ( ISK )"
+      },
+      {
+        "label": "Time zone",
+        "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>±00:00</span> (<a href=\"/wiki/Greenwich_Mean_Time\" title=\"Greenwich Mean Time\">GMT</a>/<a href=\"/wiki/Western_European_Time\" title=\"Western European Time\">WET</a>)</td>",
+        "value_text": "UTC ±00:00 ( GMT / WET )"
+      },
+      {
+        "label": "Date format",
+        "value_html": "<td class=\"infobox-data\">dd.mm.yyyy</td>",
+        "value_text": "dd.mm.yyyy"
+      },
+      {
+        "label": "Calling code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Telephone_numbers_in_Iceland\" title=\"Telephone numbers in Iceland\">+354</a></td>",
+        "value_text": "+354"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:IS\" title=\"ISO 3166-2:IS\">IS</a></td>",
+        "value_text": "IS"
+      },
+      {
+        "label": "Internet TLD",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/.is\" title=\".is\">.is</a></td>",
+        "value_text": ".is"
+      }
+    ]
+  },
+  "cleaned": {
+    "rows": [
+      {
+        "label": "Capital and largest city",
+        "value_text": "Reykjavík 64°08′N 21°56′W ﻿ / ﻿ 64.133°N 21.933°W ﻿ / 64.133; -21.933"
+      },
+      {
+        "label": "Official language",
+        "value_text": "Icelandic"
+      },
+      {
+        "label": "Ethnic groups (2021)",
+        "value_text": "86% Icelandic 6% Polish 1% Lithuanian 0.8% Filipino 7% other"
+      },
+      {
+        "label": "Religion (2022)",
+        "value_text": "72.4% Christianity 60.9% Church of Iceland ( official ) 11.5% other Christian 25.2% no religion 1.5% Ásatrúarfélagið 0.9% other"
+      },
+      {
+        "label": "Demonyms",
+        "value_text": "Icelander Icelandic"
+      },
+      {
+        "label": "Government",
+        "value_text": "Unitary parliamentary republic"
+      },
+      {
+        "label": "• President",
+        "value_text": "Halla Tómasdóttir"
+      },
+      {
+        "label": "• Prime Minister",
+        "value_text": "Kristrún Frostadóttir"
+      },
+      {
+        "label": "• Speaker of the Althing",
+        "value_text": "Þórunn Sveinbjarnardóttir"
+      },
+      {
+        "label": "Legislature",
+        "value_text": "Althing"
+      },
+      {
+        "label": "• Settlement",
+        "value_text": "9th century"
+      },
+      {
+        "label": "• Commonwealth",
+        "value_text": "930–1262"
+      },
+      {
+        "label": "• Union with Norway",
+        "value_text": "1262–1397"
+      },
+      {
+        "label": "• Kalmar Union",
+        "value_text": "1397–1523"
+      },
+      {
+        "label": "• Denmark–Norway",
+        "value_text": "1523–1814"
+      },
+      {
+        "label": "• Ceded to Denmark",
+        "value_text": "14 January 1814"
+      },
+      {
+        "label": "• Constitution and limited home rule",
+        "value_text": "5 January 1874"
+      },
+      {
+        "label": "• Extended home rule",
+        "value_text": "1 February 1904"
+      },
+      {
+        "label": "• Sovereignty and personal union with Denmark",
+        "value_text": "1 December 1918"
+      },
+      {
+        "label": "• Republic",
+        "value_text": "17 June 1944 ; 81 years ago ( 17 June 1944 )"
+      },
+      {
+        "label": "• Total",
+        "value_text": "103,125 km 2 (39,817 sq mi) ( 106th )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_text": "2.07 (as of 2015)"
+      },
+      {
+        "label": "• 2025 census",
+        "value_text": "394,530 ( 172nd )"
+      },
+      {
+        "label": "• Density",
+        "value_text": "3.78/km 2 (9.8/sq mi) ( 235th )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$31.076 billion ( 153rd )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$81,220 ( 14th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$35.310 billion ( 105th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$90,280 ( 5th )"
+      },
+      {
+        "label": "Gini (2018)",
+        "value_text": "23.2 low inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_text": "0.972 very high ( 1st )"
+      },
+      {
+        "label": "Currency",
+        "value_text": "Icelandic króna ( ISK )"
+      },
+      {
+        "label": "Time zone",
+        "value_text": "UTC ±00:00 ( GMT / WET )"
+      },
+      {
+        "label": "Date format",
+        "value_text": "dd.mm.yyyy"
+      },
+      {
+        "label": "Calling code",
+        "value_text": "+354"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_text": "IS"
+      },
+      {
+        "label": "Internet TLD",
+        "value_text": ".is"
+      }
+    ]
+  },
+  "normalized": {
+    "fields": {
+      "capital_and_largest_city": {
+        "raw_label": "Capital and largest city",
+        "text": "Reykjavík 64°08′N 21°56′W ﻿ / ﻿ 64.133°N 21.933°W ﻿ / 64.133; -21.933",
+        "tokens": [
+          "Reykjav",
+          "k",
+          "64",
+          "08",
+          "N",
+          "21",
+          "56",
+          "W",
+          "64",
+          "133",
+          "N",
+          "21",
+          "933",
+          "W",
+          "64",
+          "133",
+          "21",
+          "933"
+        ],
+        "numbers": [
+          64,
+          8,
+          21,
+          56,
+          64.133,
+          21.933,
+          64.133,
+          -21.933
+        ]
+      },
+      "official_language": {
+        "raw_label": "Official language",
+        "text": "Icelandic",
+        "tokens": [
+          "Icelandic"
+        ],
+        "numbers": []
+      },
+      "ethnic_groups_2021": {
+        "raw_label": "Ethnic groups (2021)",
+        "text": "86% Icelandic 6% Polish 1% Lithuanian 0.8% Filipino 7% other",
+        "tokens": [
+          "86",
+          "Icelandic",
+          "6",
+          "Polish",
+          "1",
+          "Lithuanian",
+          "0",
+          "8",
+          "Filipino",
+          "7",
+          "other"
+        ],
+        "numbers": [
+          86,
+          6,
+          1,
+          0.8,
+          7
+        ]
+      },
+      "religion_2022": {
+        "raw_label": "Religion (2022)",
+        "text": "72.4% Christianity 60.9% Church of Iceland ( official ) 11.5% other Christian 25.2% no religion 1.5% Ásatrúarfélagið 0.9% other",
+        "tokens": [
+          "72",
+          "4",
+          "Christianity",
+          "60",
+          "9",
+          "Church",
+          "of",
+          "Iceland",
+          "official",
+          "11",
+          "5",
+          "other",
+          "Christian",
+          "25",
+          "2",
+          "no",
+          "religion",
+          "1",
+          "5",
+          "satr",
+          "arf",
+          "lagi",
+          "0",
+          "9",
+          "other"
+        ],
+        "numbers": [
+          72.4,
+          60.9,
+          11.5,
+          25.2,
+          1.5,
+          0.9
+        ]
+      },
+      "demonyms": {
+        "raw_label": "Demonyms",
+        "text": "Icelander Icelandic",
+        "tokens": [
+          "Icelander",
+          "Icelandic"
+        ],
+        "numbers": []
+      },
+      "government": {
+        "raw_label": "Government",
+        "text": "Unitary parliamentary republic",
+        "tokens": [
+          "Unitary",
+          "parliamentary",
+          "republic"
+        ],
+        "numbers": []
+      },
+      "president": {
+        "raw_label": "• President",
+        "text": "Halla Tómasdóttir",
+        "tokens": [
+          "Halla",
+          "T",
+          "masd",
+          "ttir"
+        ],
+        "numbers": []
+      },
+      "prime_minister": {
+        "raw_label": "• Prime Minister",
+        "text": "Kristrún Frostadóttir",
+        "tokens": [
+          "Kristr",
+          "n",
+          "Frostad",
+          "ttir"
+        ],
+        "numbers": []
+      },
+      "speaker_of_the_althing": {
+        "raw_label": "• Speaker of the Althing",
+        "text": "Þórunn Sveinbjarnardóttir",
+        "tokens": [
+          "runn",
+          "Sveinbjarnard",
+          "ttir"
+        ],
+        "numbers": []
+      },
+      "legislature": {
+        "raw_label": "Legislature",
+        "text": "Althing",
+        "tokens": [
+          "Althing"
+        ],
+        "numbers": []
+      },
+      "settlement": {
+        "raw_label": "• Settlement",
+        "text": "9th century",
+        "tokens": [
+          "9th",
+          "century"
+        ],
+        "numbers": [
+          9
+        ]
+      },
+      "commonwealth": {
+        "raw_label": "• Commonwealth",
+        "text": "930–1262",
+        "tokens": [
+          "930",
+          "1262"
+        ],
+        "numbers": [
+          930,
+          1262
+        ]
+      },
+      "union_with_norway": {
+        "raw_label": "• Union with Norway",
+        "text": "1262–1397",
+        "tokens": [
+          "1262",
+          "1397"
+        ],
+        "numbers": [
+          1262,
+          1397
+        ]
+      },
+      "kalmar_union": {
+        "raw_label": "• Kalmar Union",
+        "text": "1397–1523",
+        "tokens": [
+          "1397",
+          "1523"
+        ],
+        "numbers": [
+          1397,
+          1523
+        ]
+      },
+      "denmark_norway": {
+        "raw_label": "• Denmark–Norway",
+        "text": "1523–1814",
+        "tokens": [
+          "1523",
+          "1814"
+        ],
+        "numbers": [
+          1523,
+          1814
+        ]
+      },
+      "ceded_to_denmark": {
+        "raw_label": "• Ceded to Denmark",
+        "text": "14 January 1814",
+        "tokens": [
+          "14",
+          "January",
+          "1814"
+        ],
+        "numbers": [
+          14,
+          1814
+        ]
+      },
+      "constitution_and_limited_home_rule": {
+        "raw_label": "• Constitution and limited home rule",
+        "text": "5 January 1874",
+        "tokens": [
+          "5",
+          "January",
+          "1874"
+        ],
+        "numbers": [
+          5,
+          1874
+        ]
+      },
+      "extended_home_rule": {
+        "raw_label": "• Extended home rule",
+        "text": "1 February 1904",
+        "tokens": [
+          "1",
+          "February",
+          "1904"
+        ],
+        "numbers": [
+          1,
+          1904
+        ]
+      },
+      "sovereignty_and_personal_union_with_denmark": {
+        "raw_label": "• Sovereignty and personal union with Denmark",
+        "text": "1 December 1918",
+        "tokens": [
+          "1",
+          "December",
+          "1918"
+        ],
+        "numbers": [
+          1,
+          1918
+        ]
+      },
+      "republic": {
+        "raw_label": "• Republic",
+        "text": "17 June 1944 ; 81 years ago ( 17 June 1944 )",
+        "tokens": [
+          "17",
+          "June",
+          "1944",
+          "81",
+          "years",
+          "ago",
+          "17",
+          "June",
+          "1944"
+        ],
+        "numbers": [
+          17,
+          1944,
+          81,
+          17,
+          1944
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$35.310 billion ( 105th )",
+        "tokens": [
+          "35",
+          "310",
+          "billion",
+          "105th"
+        ],
+        "numbers": [
+          35.31,
+          105
+        ]
+      },
+      "water": {
+        "raw_label": "• Water (%)",
+        "text": "2.07 (as of 2015)",
+        "tokens": [
+          "2",
+          "07",
+          "as",
+          "of",
+          "2015"
+        ],
+        "numbers": [
+          2.07,
+          2015
+        ]
+      },
+      "2025_census": {
+        "raw_label": "• 2025 census",
+        "text": "394,530 ( 172nd )",
+        "tokens": [
+          "394",
+          "530",
+          "172nd"
+        ],
+        "numbers": [
+          394530,
+          172
+        ]
+      },
+      "density": {
+        "raw_label": "• Density",
+        "text": "3.78/km 2 (9.8/sq mi) ( 235th )",
+        "tokens": [
+          "3",
+          "78",
+          "km",
+          "2",
+          "9",
+          "8",
+          "sq",
+          "mi",
+          "235th"
+        ],
+        "numbers": [
+          3.78,
+          2,
+          9.8,
+          235
+        ]
+      },
+      "gdp_ppp": {
+        "raw_label": "GDP ( PPP )",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$90,280 ( 5th )",
+        "tokens": [
+          "90",
+          "280",
+          "5th"
+        ],
+        "numbers": [
+          90280,
+          5
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gini_2018": {
+        "raw_label": "Gini (2018)",
+        "text": "23.2 low inequality",
+        "tokens": [
+          "23",
+          "2",
+          "low",
+          "inequality"
+        ],
+        "numbers": [
+          23.2
+        ]
+      },
+      "hdi_2023": {
+        "raw_label": "HDI (2023)",
+        "text": "0.972 very high ( 1st )",
+        "tokens": [
+          "0",
+          "972",
+          "very",
+          "high",
+          "1st"
+        ],
+        "numbers": [
+          0.972,
+          1
+        ]
+      },
+      "currency": {
+        "raw_label": "Currency",
+        "text": "Icelandic króna ( ISK )",
+        "tokens": [
+          "Icelandic",
+          "kr",
+          "na",
+          "ISK"
+        ],
+        "numbers": []
+      },
+      "time_zone": {
+        "raw_label": "Time zone",
+        "text": "UTC ±00:00 ( GMT / WET )",
+        "tokens": [
+          "UTC",
+          "00",
+          "00",
+          "GMT",
+          "WET"
+        ],
+        "numbers": [
+          0,
+          0
+        ]
+      },
+      "date_format": {
+        "raw_label": "Date format",
+        "text": "dd.mm.yyyy",
+        "tokens": [
+          "dd",
+          "mm",
+          "yyyy"
+        ],
+        "numbers": []
+      },
+      "calling_code": {
+        "raw_label": "Calling code",
+        "text": "+354",
+        "tokens": [
+          "354"
+        ],
+        "numbers": [
+          354
+        ]
+      },
+      "iso_3166_code": {
+        "raw_label": "ISO 3166 code",
+        "text": "IS",
+        "tokens": [
+          "IS"
+        ],
+        "numbers": []
+      },
+      "internet_tld": {
+        "raw_label": "Internet TLD",
+        "text": ".is",
+        "tokens": [
+          "is"
+        ],
+        "numbers": []
+      }
+    }
+  }
+}

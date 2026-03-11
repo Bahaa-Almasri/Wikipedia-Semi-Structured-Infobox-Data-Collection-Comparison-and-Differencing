@@ -1,0 +1,878 @@
+{
+  "meta": {
+    "country_name": "Lebanon",
+    "slug": "lebanon",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lebanon",
+    "retrieved_at": "2026-03-11T17:56:23+00:00",
+    "source": "wikipedia-infobox"
+  },
+  "raw": {
+    "infobox_html": "<table class=\"infobox ib-country vcard\"><tbody><tr><th class=\"infobox-above adr\" colspan=\"2\"><div class=\"fn org country-name\">Lebanese Republic</div><div class=\"ib-country-names\"><span title=\"Arabic-language text\"><span dir=\"rtl\" lang=\"ar\">الجمهورية اللبنانية</span></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(<a class=\"mw-redirect\" href=\"/wiki/Arabic_language\" title=\"Arabic language\">Arabic</a>)</span><br/><span title=\"Arabic-language romanization\"><i lang=\"ar-Latn\">al-Jumhūriyyah al-Lubnāniyyah</i></span><span data-plural=\"0\" style=\"display:none\"></span></div></th></tr><tr><td class=\"infobox-image\" colspan=\"2\"><div class=\"noresize\" style=\"display:table; width:100%;\">\n<div style=\"display:table-cell; vertical-align:middle; padding: 0px 5px 3px;\"><span class=\"mw-image-border\" typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Flag_of_Lebanon.svg\" title=\"Flag of Lebanon\"><img alt=\"Flag of Lebanon\" class=\"mw-file-element\" data-file-height=\"1920\" data-file-width=\"2880\" decoding=\"async\" height=\"83\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/250px-Flag_of_Lebanon.svg.png\" width=\"125\"/></a></span></div>\n</div>\n<div><a href=\"/wiki/Flag_of_Lebanon\" title=\"Flag of Lebanon\">Flag</a></div></td></tr><tr><td class=\"infobox-full-data anthem\" colspan=\"2\"><b>Anthem:</b> <style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><span title=\"Arabic-language text\"><span dir=\"rtl\" lang=\"ar\"><style data-mw-deduplicate=\"TemplateStyles:r1331184868\">.mw-parser-output .script-arabic{font-family:\"Scheherazade New\",Lateef,LateefGR,\"Noto Naskh Arabic\",\"Microsoft Uighur\",\"Noto Sans Arabic\",\"Arabic Typesetting\",Amiri,\"Sakkal Majalla\",\"Harmattan\",\"SF Arabic\",\"Arabic Transparent\",\"Times New Roman\",Arial,Parastoo,Calibri,\"Segoe UI\",\"Microsoft Sans Serif\",\"Droid Arabic Naskh\",serif,sans-serif;font-weight:normal}</style><span class=\"script-arabic script-Arab\" dir=\"rtl\" style=\"font-size: 125%;\">كلّنا للوطن</span>‎</span></span></li><li><span title=\"Arabic-language romanization\"><i lang=\"ar-Latn\"><a href=\"/wiki/National_Anthem_of_Lebanon\" title=\"National Anthem of Lebanon\">Kullunā li-l-waṭan</a></i></span></li><li>\"All of us, for our country!\"<div class=\"paragraphbreak\" style=\"margin-top:0.5em\"></div><div class=\"center\"><span class=\"mw-default-size\" typeof=\"mw:File\"><span><audio class=\"mw-file-element\" controls=\"\" data-durationhint=\"51\" data-mw-tmh=\"\" data-mwprovider=\"wikimediacommons\" data-mwtitle=\"Lebanese_national_anthem.ogg\" id=\"mwe_player_0\" preload=\"none\" style=\"width:250px;\" width=\"250\"><source data-height=\"0\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/9/97/Lebanese_national_anthem.ogg\" type='audio/ogg; codecs=\"vorbis\"'/><source data-height=\"0\" data-transcodekey=\"mp3\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/transcoded/9/97/Lebanese_national_anthem.ogg/Lebanese_national_anthem.ogg.mp3\" type=\"audio/mpeg\"/><track data-dir=\"rtl\" kind=\"subtitles\" label=\"العربية ‪(ar)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALebanese_national_anthem.ogg&amp;lang=ar&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"ar\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"English ‪(en)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALebanese_national_anthem.ogg&amp;lang=en&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"en\" type=\"text/vtt\"/><track data-dir=\"rtl\" kind=\"subtitles\" label=\"فارسی ‪(fa)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALebanese_national_anthem.ogg&amp;lang=fa&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"fa\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"français ‪(fr)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALebanese_national_anthem.ogg&amp;lang=fr&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"fr\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"हिन्दी ‪(hi)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALebanese_national_anthem.ogg&amp;lang=hi&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"hi\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Bahasa Indonesia ‪(id)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALebanese_national_anthem.ogg&amp;lang=id&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"id\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"日本語 ‪(ja)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALebanese_national_anthem.ogg&amp;lang=ja&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"ja\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"русский ‪(ru)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALebanese_national_anthem.ogg&amp;lang=ru&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"ru\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Tiếng Việt ‪(vi)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALebanese_national_anthem.ogg&amp;lang=vi&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"vi\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"中文（臺灣） ‪(zh-tw)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALebanese_national_anthem.ogg&amp;lang=zh-tw&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"zh-Hant-TW\" type=\"text/vtt\"/></audio></span></span></div></li></ul></div></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:Lebanon_(orthographic_projection).svg\" title=\"Location of Lebanon (in green)\"><img alt=\"Location of Lebanon (in green)\" class=\"mw-file-element\" data-file-height=\"553\" data-file-width=\"553\" decoding=\"async\" height=\"250\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lebanon_%28orthographic_projection%29.svg/250px-Lebanon_%28orthographic_projection%29.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lebanon_%28orthographic_projection%29.svg/500px-Lebanon_%28orthographic_projection%29.svg.png 1.5x\" width=\"250\"/></a></span><div class=\"ib-country-map-caption\">Location of Lebanon (in green)</div></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:Lebanon_-_Location_Map_(2012)_-_LBN_-_UNOCHA.svg\" title=\"Location of Lebanon\"><img alt=\"Location of Lebanon\" class=\"mw-file-element\" data-file-height=\"254\" data-file-width=\"254\" decoding=\"async\" height=\"250\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Lebanon_-_Location_Map_%282012%29_-_LBN_-_UNOCHA.svg/250px-Lebanon_-_Location_Map_%282012%29_-_LBN_-_UNOCHA.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Lebanon_-_Location_Map_%282012%29_-_LBN_-_UNOCHA.svg/500px-Lebanon_-_Location_Map_%282012%29_-_LBN_-_UNOCHA.svg.png 1.5x\" width=\"250\"/></a></span></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Capital<div class=\"ib-country-largest\">and largest city</div></th><td class=\"infobox-data\"><a href=\"/wiki/Beirut\" title=\"Beirut\">Beirut</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Lebanon&amp;params=33_54_N_35_32_E_type:city\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">33°54′N</span> <span class=\"longitude\">35°32′E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">33.900°N 35.533°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">33.900; 35.533</span></span></span></a></span></span></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\">Official languages</th><td class=\"infobox-data\"><a href=\"/wiki/Arabic\" title=\"Arabic\">Arabic</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Local vernacular</th><td class=\"infobox-data\"><a href=\"/wiki/Lebanese_Arabic\" title=\"Lebanese Arabic\">Lebanese Arabic</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Recognised minority language</th><td class=\"infobox-data\"><a href=\"/wiki/French_language\" title=\"French language\">French</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a class=\"mw-redirect\" href=\"/wiki/Ethnic_group\" title=\"Ethnic group\">Ethnic groups</a> <div class=\"ib-country-ethnic\"> (2021)</div></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li>95% <a href=\"/wiki/Arabs\" title=\"Arabs\">Arab</a></li><li>4% <a href=\"/wiki/Armenians_in_Lebanon\" title=\"Armenians in Lebanon\">Armenian</a></li><li>1% <a href=\"/wiki/Demographics_of_Lebanon\" title=\"Demographics of Lebanon\">others</a></li></ul></div></link></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Religion <div class=\"ib-country-religion\"> (2024)</div></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li><style data-mw-deduplicate=\"TemplateStyles:r1324795729\">.mw-parser-output .treeview ul{padding:0;margin:0}.mw-parser-output .treeview li{padding:0;margin:0;list-style-type:none;list-style-image:none}.mw-parser-output .treeview li li{background:url(\"https://upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png\")no-repeat 0 -2981px;padding-left:21px;text-indent:0.3em}.mw-parser-output .treeview li li:last-child{background-position:0 -5971px}.mw-parser-output .treeview li.emptyline>ul>.mw-empty-elt:first-child+.emptyline,.mw-parser-output .treeview li.emptyline>ul>li:first-child{background-position:0 9px}</style><div class=\"treeview\">\n<ul><li>53.31% <a href=\"/wiki/Islam_in_Lebanon\" title=\"Islam in Lebanon\">Islam</a>\n<ul><li>26.84% <a href=\"/wiki/Lebanese_Shia_Muslims\" title=\"Lebanese Shia Muslims\">Shia</a>\n<ul><li>0.64% <a class=\"mw-redirect\" href=\"/wiki/Alawite\" title=\"Alawite\">Alawite</a></li></ul></li>\n<li>26.55% <a href=\"/wiki/Lebanese_Sunni_Muslims\" title=\"Lebanese Sunni Muslims\">Sunni</a></li></ul></li></ul>\n</div></li><li><link href=\"mw-data:TemplateStyles:r1324795729\" rel=\"mw-deduplicated-inline-style\"><div class=\"treeview\">\n<ul><li>41.40% <a href=\"/wiki/Christianity_in_Lebanon\" title=\"Christianity in Lebanon\">Christianity</a>\n<ul><li>28.11% <a href=\"/wiki/Catholic_Church_in_Lebanon\" title=\"Catholic Church in Lebanon\">Catholic</a></li>\n<li>8.30% <a href=\"/wiki/Lebanese_Greek_Orthodox_Christians\" title=\"Lebanese Greek Orthodox Christians\">Orthodox</a></li>\n<li>2.92% <a href=\"/wiki/Armenian_Apostolic_Church\" title=\"Armenian Apostolic Church\">Armenian Apostolic</a></li>\n<li>0.53% <a href=\"/wiki/Lebanese_Protestant_Christians\" title=\"Lebanese Protestant Christians\">Protestant</a></li>\n<li>1.64% Other <a href=\"/wiki/Christians\" title=\"Christians\">Christians</a></li></ul></li></ul>\n</div></link></li><li>5.21% <a href=\"/wiki/Lebanese_Druze\" title=\"Lebanese Druze\">Druze</a></li><li>0.08% <a href=\"/wiki/Irreligion_in_Lebanon\" title=\"Irreligion in Lebanon\">No religion</a></li></ul></div></link></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Demonym\" title=\"Demonym\">Demonym</a></th><td class=\"infobox-data\"><a href=\"/wiki/Lebanese_people\" title=\"Lebanese people\">Lebanese</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Politics_of_Lebanon\" title=\"Politics of Lebanon\">Government</a></th><td class=\"infobox-data\"><a href=\"/wiki/Unitary_parliamentary_republic\" title=\"Unitary parliamentary republic\">Unitary parliamentary republic</a> under <a href=\"/wiki/Confessionalism_(politics)\" title=\"Confessionalism (politics)\">confessionalism</a></td></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/President_of_Lebanon\" title=\"President of Lebanon\">President</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Joseph_Aoun\" title=\"Joseph Aoun\">Joseph Aoun</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Prime_Minister_of_Lebanon\" title=\"Prime Minister of Lebanon\">Prime Minister</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Nawaf_Salam\" title=\"Nawaf Salam\">Nawaf Salam</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a class=\"mw-redirect\" href=\"/wiki/Legislative_Speaker_of_Lebanon\" title=\"Legislative Speaker of Lebanon\">Speaker of the Parliament</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Nabih_Berri\" title=\"Nabih Berri\">Nabih Berri</a></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Legislature</th><td class=\"infobox-data\"><a href=\"/wiki/Parliament_of_Lebanon\" title=\"Parliament of Lebanon\">Parliament</a></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\">Establishment</th></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Emirate_of_Mount_Lebanon\" title=\"Emirate of Mount Lebanon\">Emirate of Mount Lebanon</a> </div></th><td class=\"infobox-data\">1516</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Double_Qaim-Maqamate_of_Mount_Lebanon\" title=\"Double Qaim-Maqamate of Mount Lebanon\">Double Qaim-Maqamate of Mount Lebanon</a> </div></th><td class=\"infobox-data\">1 December 1843</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Mount_Lebanon_Mutasarrifate\" title=\"Mount Lebanon Mutasarrifate\">Mount Lebanon Mutasarrifate</a> </div></th><td class=\"infobox-data\">9 June 1861</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Greater_Lebanon\" title=\"Greater Lebanon\">Greater Lebanon</a> </div></th><td class=\"infobox-data\">1 September 1920</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Constitution_of_Lebanon\" title=\"Constitution of Lebanon\">Constitution</a> </div></th><td class=\"infobox-data\">23 May 1926</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• Independence declared </div></th><td class=\"infobox-data\">22 November 1943</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Mandate_for_Syria_and_the_Lebanon\" title=\"Mandate for Syria and the Lebanon\">French mandate</a> ended </div></th><td class=\"infobox-data\">24 October 1945</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• Withdrawal of <a href=\"/wiki/Allies_of_World_War_II\" title=\"Allies of World War II\">French forces</a> </div></th><td class=\"infobox-data\">17 April 1946</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Israeli_occupation_of_Southern_Lebanon#Withdrawal_from_South_Lebanon_(1999–2000)\" title=\"Israeli occupation of Southern Lebanon\">Israeli troops withdrawn</a> </div></th><td class=\"infobox-data\">24 May 2000</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Cedar_Revolution#Withdrawal_of_Syrian_troops\" title=\"Cedar Revolution\">Syrian troops withdrawn</a> </div></th><td class=\"infobox-data\">30 April 2005</td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Geography_of_Lebanon\" title=\"Geography of Lebanon\">Area </a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\">10,452 km<sup>2</sup> (4,036 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">161st</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Water (%)</div></th><td class=\"infobox-data\">1.8</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Demographics_of_Lebanon\" title=\"Demographics of Lebanon\">Population</a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• 2024 estimate</div></th><td class=\"infobox-data\">5,364,482 (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">117th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Density</div></th><td class=\"infobox-data\">513/km<sup>2</sup> (1,328.7/sq mi)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <style data-mw-deduplicate=\"TemplateStyles:r886047488\">.mw-parser-output .nobold{font-weight:normal}</style><span class=\"nobold\">(<a href=\"/wiki/Purchasing_power_parity\" title=\"Purchasing power parity\">PPP</a>)</span></th><td class=\"infobox-data\">2022 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $78.233 billion (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">108th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $11,793 (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">114th</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(nominal)</span></link></th><td class=\"infobox-data\">2022 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $21.780 billion (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">103rd</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $3,283 (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">133rd</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gini_coefficient\" title=\"Gini coefficient\">Gini</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2011)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Positive decrease\"><img alt=\"Positive decrease\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/20px-Decrease_Positive.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/40px-Decrease_Positive.svg.png 2x\" width=\"11\"/></span></span> 31.8<br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:#707070\">medium inequality</span></span></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Human_Development_Index\" title=\"Human Development Index\">HDI</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2023)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.752<br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"><span class=\"tmp-color\" style=\"color:forestgreen\">high</span></link></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">102nd</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Currency</th><td class=\"infobox-data\"><a href=\"/wiki/Lebanese_pound\" title=\"Lebanese pound\">Lebanese pound</a> (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">LBP</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\">Time zone</th><td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+2</span> (<a href=\"/wiki/Eastern_European_Time\" title=\"Eastern European Time\">EET</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Summer (<a href=\"/wiki/Daylight_saving_time\" title=\"Daylight saving time\">DST</a>)</div></th><td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+3</span> (<a href=\"/wiki/Eastern_European_Summer_Time\" title=\"Eastern European Summer Time\">EEST</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Telephone_numbers_in_Lebanon\" title=\"Telephone numbers in Lebanon\">Calling code</a></th><td class=\"infobox-data\"><a href=\"/wiki/Telephone_numbers_in_Lebanon\" title=\"Telephone numbers in Lebanon\">+961</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/ISO_3166\" title=\"ISO 3166\">ISO 3166 code</a></th><td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:LB\" title=\"ISO 3166-2:LB\">LB</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Country_code_top-level_domain\" title=\"Country code top-level domain\">Internet TLD</a></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"/><div class=\"plainlist\"><ul><li><a href=\"/wiki/.lb\" title=\".lb\">.lb</a></li><li><span title=\"Arabic-language text\"><span lang=\"ar\"><a href=\"/wiki/Internationalized_country_code_top-level_domain\" title=\"Internationalized country code top-level domain\">.لبنان</a></span></span></li></ul></div></td></tr></tbody></table>",
+    "rows": [
+      {
+        "label": "Capital and largest city",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Beirut\" title=\"Beirut\">Beirut</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Lebanon&amp;params=33_54_N_35_32_E_type:city\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">33°54′N</span> <span class=\"longitude\">35°32′E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">33.900°N 35.533°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">33.900; 35.533</span></span></span></a></span></span></td>",
+        "value_text": "Beirut 33°54′N 35°32′E ﻿ / ﻿ 33.900°N 35.533°E ﻿ / 33.900; 35.533"
+      },
+      {
+        "label": "Official languages",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Arabic\" title=\"Arabic\">Arabic</a><sup class=\"reference\" id=\"cite_ref-article_11_1-0\"><a href=\"#cite_note-article_11-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "Arabic [ 1 ]"
+      },
+      {
+        "label": "Local vernacular",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Lebanese_Arabic\" title=\"Lebanese Arabic\">Lebanese Arabic</a><sup class=\"reference\" id=\"cite_ref-2\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "Lebanese Arabic [ 2 ]"
+      },
+      {
+        "label": "Recognised minority language",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/French_language\" title=\"French language\">French</a><sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>a<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "French [ a ]"
+      },
+      {
+        "label": "Ethnic groups (2021)",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li>95% <a href=\"/wiki/Arabs\" title=\"Arabs\">Arab</a><sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>b<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-Khashan_723–744_6-0\"><a href=\"#cite_note-Khashan_723–744-6\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup></li><li>4% <a href=\"/wiki/Armenians_in_Lebanon\" title=\"Armenians in Lebanon\">Armenian</a></li><li>1% <a href=\"/wiki/Demographics_of_Lebanon\" title=\"Demographics of Lebanon\">others</a></li></ul></div></link></td>",
+        "value_text": "95% Arab [ b ] [ 4 ] 4% Armenian 1% others"
+      },
+      {
+        "label": "Religion (2024)",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li><style data-mw-deduplicate=\"TemplateStyles:r1324795729\">.mw-parser-output .treeview ul{padding:0;margin:0}.mw-parser-output .treeview li{padding:0;margin:0;list-style-type:none;list-style-image:none}.mw-parser-output .treeview li li{background:url(\"https://upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png\")no-repeat 0 -2981px;padding-left:21px;text-indent:0.3em}.mw-parser-output .treeview li li:last-child{background-position:0 -5971px}.mw-parser-output .treeview li.emptyline>ul>.mw-empty-elt:first-child+.emptyline,.mw-parser-output .treeview li.emptyline>ul>li:first-child{background-position:0 9px}</style><div class=\"treeview\">\n<ul><li>53.31% <a href=\"/wiki/Islam_in_Lebanon\" title=\"Islam in Lebanon\">Islam</a>\n<ul><li>26.84% <a href=\"/wiki/Lebanese_Shia_Muslims\" title=\"Lebanese Shia Muslims\">Shia</a>\n<ul><li>0.64% <a class=\"mw-redirect\" href=\"/wiki/Alawite\" title=\"Alawite\">Alawite</a></li></ul></li>\n<li>26.55% <a href=\"/wiki/Lebanese_Sunni_Muslims\" title=\"Lebanese Sunni Muslims\">Sunni</a></li></ul></li></ul>\n</div></li><li><link href=\"mw-data:TemplateStyles:r1324795729\" rel=\"mw-deduplicated-inline-style\"><div class=\"treeview\">\n<ul><li>41.40% <a href=\"/wiki/Christianity_in_Lebanon\" title=\"Christianity in Lebanon\">Christianity</a>\n<ul><li>28.11% <a href=\"/wiki/Catholic_Church_in_Lebanon\" title=\"Catholic Church in Lebanon\">Catholic</a></li>\n<li>8.30% <a href=\"/wiki/Lebanese_Greek_Orthodox_Christians\" title=\"Lebanese Greek Orthodox Christians\">Orthodox</a></li>\n<li>2.92% <a href=\"/wiki/Armenian_Apostolic_Church\" title=\"Armenian Apostolic Church\">Armenian Apostolic</a></li>\n<li>0.53% <a href=\"/wiki/Lebanese_Protestant_Christians\" title=\"Lebanese Protestant Christians\">Protestant</a></li>\n<li>1.64% Other <a href=\"/wiki/Christians\" title=\"Christians\">Christians</a></li></ul></li></ul>\n</div></link></li><li>5.21% <a href=\"/wiki/Lebanese_Druze\" title=\"Lebanese Druze\">Druze</a></li><li>0.08% <a href=\"/wiki/Irreligion_in_Lebanon\" title=\"Irreligion in Lebanon\">No religion</a></li></ul></div></link></td>",
+        "value_text": "53.31% Islam 26.84% Shia 0.64% Alawite 26.55% Sunni 41.40% Christianity 28.11% Catholic 8.30% Orthodox 2.92% Armenian Apostolic 0.53% Protestant 1.64% Other Christians 5.21% Druze 0.08% No religion"
+      },
+      {
+        "label": "Demonym",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Lebanese_people\" title=\"Lebanese people\">Lebanese</a></td>",
+        "value_text": "Lebanese"
+      },
+      {
+        "label": "Government",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Unitary_parliamentary_republic\" title=\"Unitary parliamentary republic\">Unitary parliamentary republic</a> under <a href=\"/wiki/Confessionalism_(politics)\" title=\"Confessionalism (politics)\">confessionalism</a><sup class=\"reference\" id=\"cite_ref-constitution_9-0\"><a href=\"#cite_note-constitution-9\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "Unitary parliamentary republic under confessionalism [ 7 ]"
+      },
+      {
+        "label": "• President",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Joseph_Aoun\" title=\"Joseph Aoun\">Joseph Aoun</a></td>",
+        "value_text": "Joseph Aoun"
+      },
+      {
+        "label": "• Prime Minister",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Nawaf_Salam\" title=\"Nawaf Salam\">Nawaf Salam</a></td>",
+        "value_text": "Nawaf Salam"
+      },
+      {
+        "label": "• Speaker of the Parliament",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Nabih_Berri\" title=\"Nabih Berri\">Nabih Berri</a></td>",
+        "value_text": "Nabih Berri"
+      },
+      {
+        "label": "Legislature",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Parliament_of_Lebanon\" title=\"Parliament of Lebanon\">Parliament</a></td>",
+        "value_text": "Parliament"
+      },
+      {
+        "label": "• Emirate of Mount Lebanon",
+        "value_html": "<td class=\"infobox-data\">1516</td>",
+        "value_text": "1516"
+      },
+      {
+        "label": "• Double Qaim-Maqamate of Mount Lebanon",
+        "value_html": "<td class=\"infobox-data\">1 December 1843</td>",
+        "value_text": "1 December 1843"
+      },
+      {
+        "label": "• Mount Lebanon Mutasarrifate",
+        "value_html": "<td class=\"infobox-data\">9 June 1861</td>",
+        "value_text": "9 June 1861"
+      },
+      {
+        "label": "• Greater Lebanon",
+        "value_html": "<td class=\"infobox-data\">1 September 1920</td>",
+        "value_text": "1 September 1920"
+      },
+      {
+        "label": "• Constitution",
+        "value_html": "<td class=\"infobox-data\">23 May 1926</td>",
+        "value_text": "23 May 1926"
+      },
+      {
+        "label": "• Independence declared",
+        "value_html": "<td class=\"infobox-data\">22 November 1943</td>",
+        "value_text": "22 November 1943"
+      },
+      {
+        "label": "• French mandate ended",
+        "value_html": "<td class=\"infobox-data\">24 October 1945</td>",
+        "value_text": "24 October 1945"
+      },
+      {
+        "label": "• Withdrawal of French forces",
+        "value_html": "<td class=\"infobox-data\">17 April 1946</td>",
+        "value_text": "17 April 1946"
+      },
+      {
+        "label": "• Israeli troops withdrawn",
+        "value_html": "<td class=\"infobox-data\">24 May 2000</td>",
+        "value_text": "24 May 2000"
+      },
+      {
+        "label": "• Syrian troops withdrawn",
+        "value_html": "<td class=\"infobox-data\">30 April 2005</td>",
+        "value_text": "30 April 2005"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\">10,452 km<sup>2</sup> (4,036 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">161st</a>)</td>",
+        "value_text": "10,452 km 2 (4,036 sq mi) ( 161st )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_html": "<td class=\"infobox-data\">1.8</td>",
+        "value_text": "1.8"
+      },
+      {
+        "label": "• 2024 estimate",
+        "value_html": "<td class=\"infobox-data\">5,364,482<sup class=\"reference\" id=\"cite_ref-10\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">117th</a>)</td>",
+        "value_text": "5,364,482 [ 8 ] ( 117th )"
+      },
+      {
+        "label": "• Density",
+        "value_html": "<td class=\"infobox-data\">513/km<sup>2</sup> (1,328.7/sq mi)</td>",
+        "value_text": "513/km 2 (1,328.7/sq mi)"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_html": "<td class=\"infobox-data\">2022 estimate</td>",
+        "value_text": "2022 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $78.233 billion<sup class=\"reference\" id=\"cite_ref-IMFWEO.LB_11-0\"><a href=\"#cite_note-IMFWEO.LB-11\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">108th</a>)</td>",
+        "value_text": "$78.233 billion [ 9 ] ( 108th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $11,793<sup class=\"reference\" id=\"cite_ref-IMFWEO.LB_11-1\"><a href=\"#cite_note-IMFWEO.LB-11\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">114th</a>)</td>",
+        "value_text": "$11,793 [ 9 ] ( 114th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_html": "<td class=\"infobox-data\">2022 estimate</td>",
+        "value_text": "2022 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $21.780 billion<sup class=\"reference\" id=\"cite_ref-IMFWEO.LB_11-2\"><a href=\"#cite_note-IMFWEO.LB-11\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">103rd</a>)</td>",
+        "value_text": "$21.780 billion [ 9 ] ( 103rd )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $3,283<sup class=\"reference\" id=\"cite_ref-IMFWEO.LB_11-3\"><a href=\"#cite_note-IMFWEO.LB-11\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">133rd</a>)</td>",
+        "value_text": "$3,283 [ 9 ] ( 133rd )"
+      },
+      {
+        "label": "Gini (2011)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Positive decrease\"><img alt=\"Positive decrease\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/20px-Decrease_Positive.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/40px-Decrease_Positive.svg.png 2x\" width=\"11\"/></span></span> 31.8<sup class=\"reference\" id=\"cite_ref-wb-gini_12-0\"><a href=\"#cite_note-wb-gini-12\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:#707070\">medium inequality</span></span></td>",
+        "value_text": "31.8 [ 10 ] medium inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.752<sup class=\"reference\" id=\"cite_ref-UNHDR_13-0\"><a href=\"#cite_note-UNHDR-13\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"><span class=\"tmp-color\" style=\"color:forestgreen\">high</span></link></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">102nd</a>)</td>",
+        "value_text": "0.752 [ 11 ] high ( 102nd )"
+      },
+      {
+        "label": "Currency",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Lebanese_pound\" title=\"Lebanese pound\">Lebanese pound</a> (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">LBP</a>)</td>",
+        "value_text": "Lebanese pound ( LBP )"
+      },
+      {
+        "label": "Time zone",
+        "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+2</span> (<a href=\"/wiki/Eastern_European_Time\" title=\"Eastern European Time\">EET</a>)</td>",
+        "value_text": "UTC +2 ( EET )"
+      },
+      {
+        "label": "• Summer ( DST )",
+        "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+3</span> (<a href=\"/wiki/Eastern_European_Summer_Time\" title=\"Eastern European Summer Time\">EEST</a>)</td>",
+        "value_text": "UTC +3 ( EEST )"
+      },
+      {
+        "label": "Calling code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Telephone_numbers_in_Lebanon\" title=\"Telephone numbers in Lebanon\">+961</a><sup class=\"reference\" id=\"cite_ref-cia2_4-1\"><a href=\"#cite_note-cia2-4\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "+961 [ 3 ]"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:LB\" title=\"ISO 3166-2:LB\">LB</a></td>",
+        "value_text": "LB"
+      },
+      {
+        "label": "Internet TLD",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"/><div class=\"plainlist\"><ul><li><a href=\"/wiki/.lb\" title=\".lb\">.lb</a></li><li><span title=\"Arabic-language text\"><span lang=\"ar\"><a href=\"/wiki/Internationalized_country_code_top-level_domain\" title=\"Internationalized country code top-level domain\">.لبنان</a></span></span></li></ul></div></td>",
+        "value_text": ".lb .لبنان"
+      }
+    ]
+  },
+  "cleaned": {
+    "rows": [
+      {
+        "label": "Capital and largest city",
+        "value_text": "Beirut 33°54′N 35°32′E ﻿ / ﻿ 33.900°N 35.533°E ﻿ / 33.900; 35.533"
+      },
+      {
+        "label": "Official languages",
+        "value_text": "Arabic"
+      },
+      {
+        "label": "Local vernacular",
+        "value_text": "Lebanese Arabic"
+      },
+      {
+        "label": "Recognised minority language",
+        "value_text": "French"
+      },
+      {
+        "label": "Ethnic groups (2021)",
+        "value_text": "95% Arab 4% Armenian 1% others"
+      },
+      {
+        "label": "Religion (2024)",
+        "value_text": "53.31% Islam 26.84% Shia 0.64% Alawite 26.55% Sunni 41.40% Christianity 28.11% Catholic 8.30% Orthodox 2.92% Armenian Apostolic 0.53% Protestant 1.64% Other Christians 5.21% Druze 0.08% No religion"
+      },
+      {
+        "label": "Demonym",
+        "value_text": "Lebanese"
+      },
+      {
+        "label": "Government",
+        "value_text": "Unitary parliamentary republic under confessionalism"
+      },
+      {
+        "label": "• President",
+        "value_text": "Joseph Aoun"
+      },
+      {
+        "label": "• Prime Minister",
+        "value_text": "Nawaf Salam"
+      },
+      {
+        "label": "• Speaker of the Parliament",
+        "value_text": "Nabih Berri"
+      },
+      {
+        "label": "Legislature",
+        "value_text": "Parliament"
+      },
+      {
+        "label": "• Emirate of Mount Lebanon",
+        "value_text": "1516"
+      },
+      {
+        "label": "• Double Qaim-Maqamate of Mount Lebanon",
+        "value_text": "1 December 1843"
+      },
+      {
+        "label": "• Mount Lebanon Mutasarrifate",
+        "value_text": "9 June 1861"
+      },
+      {
+        "label": "• Greater Lebanon",
+        "value_text": "1 September 1920"
+      },
+      {
+        "label": "• Constitution",
+        "value_text": "23 May 1926"
+      },
+      {
+        "label": "• Independence declared",
+        "value_text": "22 November 1943"
+      },
+      {
+        "label": "• French mandate ended",
+        "value_text": "24 October 1945"
+      },
+      {
+        "label": "• Withdrawal of French forces",
+        "value_text": "17 April 1946"
+      },
+      {
+        "label": "• Israeli troops withdrawn",
+        "value_text": "24 May 2000"
+      },
+      {
+        "label": "• Syrian troops withdrawn",
+        "value_text": "30 April 2005"
+      },
+      {
+        "label": "• Total",
+        "value_text": "10,452 km 2 (4,036 sq mi) ( 161st )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_text": "1.8"
+      },
+      {
+        "label": "• 2024 estimate",
+        "value_text": "5,364,482 ( 117th )"
+      },
+      {
+        "label": "• Density",
+        "value_text": "513/km 2 (1,328.7/sq mi)"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_text": "2022 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$78.233 billion ( 108th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$11,793 ( 114th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_text": "2022 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$21.780 billion ( 103rd )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$3,283 ( 133rd )"
+      },
+      {
+        "label": "Gini (2011)",
+        "value_text": "31.8 medium inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_text": "0.752 high ( 102nd )"
+      },
+      {
+        "label": "Currency",
+        "value_text": "Lebanese pound ( LBP )"
+      },
+      {
+        "label": "Time zone",
+        "value_text": "UTC +2 ( EET )"
+      },
+      {
+        "label": "• Summer ( DST )",
+        "value_text": "UTC +3 ( EEST )"
+      },
+      {
+        "label": "Calling code",
+        "value_text": "+961"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_text": "LB"
+      },
+      {
+        "label": "Internet TLD",
+        "value_text": ".lb .لبنان"
+      }
+    ]
+  },
+  "normalized": {
+    "fields": {
+      "capital_and_largest_city": {
+        "raw_label": "Capital and largest city",
+        "text": "Beirut 33°54′N 35°32′E ﻿ / ﻿ 33.900°N 35.533°E ﻿ / 33.900; 35.533",
+        "tokens": [
+          "Beirut",
+          "33",
+          "54",
+          "N",
+          "35",
+          "32",
+          "E",
+          "33",
+          "900",
+          "N",
+          "35",
+          "533",
+          "E",
+          "33",
+          "900",
+          "35",
+          "533"
+        ],
+        "numbers": [
+          33,
+          54,
+          35,
+          32,
+          33.9,
+          35.533,
+          33.9,
+          35.533
+        ]
+      },
+      "official_languages": {
+        "raw_label": "Official languages",
+        "text": "Arabic",
+        "tokens": [
+          "Arabic"
+        ],
+        "numbers": []
+      },
+      "local_vernacular": {
+        "raw_label": "Local vernacular",
+        "text": "Lebanese Arabic",
+        "tokens": [
+          "Lebanese",
+          "Arabic"
+        ],
+        "numbers": []
+      },
+      "recognised_minority_language": {
+        "raw_label": "Recognised minority language",
+        "text": "French",
+        "tokens": [
+          "French"
+        ],
+        "numbers": []
+      },
+      "ethnic_groups_2021": {
+        "raw_label": "Ethnic groups (2021)",
+        "text": "95% Arab 4% Armenian 1% others",
+        "tokens": [
+          "95",
+          "Arab",
+          "4",
+          "Armenian",
+          "1",
+          "others"
+        ],
+        "numbers": [
+          95,
+          4,
+          1
+        ]
+      },
+      "religion_2024": {
+        "raw_label": "Religion (2024)",
+        "text": "53.31% Islam 26.84% Shia 0.64% Alawite 26.55% Sunni 41.40% Christianity 28.11% Catholic 8.30% Orthodox 2.92% Armenian Apostolic 0.53% Protestant 1.64% Other Christians 5.21% Druze 0.08% No religion",
+        "tokens": [
+          "53",
+          "31",
+          "Islam",
+          "26",
+          "84",
+          "Shia",
+          "0",
+          "64",
+          "Alawite",
+          "26",
+          "55",
+          "Sunni",
+          "41",
+          "40",
+          "Christianity",
+          "28",
+          "11",
+          "Catholic",
+          "8",
+          "30",
+          "Orthodox",
+          "2",
+          "92",
+          "Armenian",
+          "Apostolic",
+          "0",
+          "53",
+          "Protestant",
+          "1",
+          "64",
+          "Other",
+          "Christians",
+          "5",
+          "21",
+          "Druze",
+          "0",
+          "08",
+          "No",
+          "religion"
+        ],
+        "numbers": [
+          53.31,
+          26.84,
+          0.64,
+          26.55,
+          41.4,
+          28.11,
+          8.3,
+          2.92,
+          0.53,
+          1.64,
+          5.21,
+          0.08
+        ]
+      },
+      "demonym": {
+        "raw_label": "Demonym",
+        "text": "Lebanese",
+        "tokens": [
+          "Lebanese"
+        ],
+        "numbers": []
+      },
+      "government": {
+        "raw_label": "Government",
+        "text": "Unitary parliamentary republic under confessionalism",
+        "tokens": [
+          "Unitary",
+          "parliamentary",
+          "republic",
+          "under",
+          "confessionalism"
+        ],
+        "numbers": []
+      },
+      "president": {
+        "raw_label": "• President",
+        "text": "Joseph Aoun",
+        "tokens": [
+          "Joseph",
+          "Aoun"
+        ],
+        "numbers": []
+      },
+      "prime_minister": {
+        "raw_label": "• Prime Minister",
+        "text": "Nawaf Salam",
+        "tokens": [
+          "Nawaf",
+          "Salam"
+        ],
+        "numbers": []
+      },
+      "speaker_of_the_parliament": {
+        "raw_label": "• Speaker of the Parliament",
+        "text": "Nabih Berri",
+        "tokens": [
+          "Nabih",
+          "Berri"
+        ],
+        "numbers": []
+      },
+      "legislature": {
+        "raw_label": "Legislature",
+        "text": "Parliament",
+        "tokens": [
+          "Parliament"
+        ],
+        "numbers": []
+      },
+      "emirate_of_mount_lebanon": {
+        "raw_label": "• Emirate of Mount Lebanon",
+        "text": "1516",
+        "tokens": [
+          "1516"
+        ],
+        "numbers": [
+          1516
+        ]
+      },
+      "double_qaim_maqamate_of_mount_lebanon": {
+        "raw_label": "• Double Qaim-Maqamate of Mount Lebanon",
+        "text": "1 December 1843",
+        "tokens": [
+          "1",
+          "December",
+          "1843"
+        ],
+        "numbers": [
+          1,
+          1843
+        ]
+      },
+      "mount_lebanon_mutasarrifate": {
+        "raw_label": "• Mount Lebanon Mutasarrifate",
+        "text": "9 June 1861",
+        "tokens": [
+          "9",
+          "June",
+          "1861"
+        ],
+        "numbers": [
+          9,
+          1861
+        ]
+      },
+      "greater_lebanon": {
+        "raw_label": "• Greater Lebanon",
+        "text": "1 September 1920",
+        "tokens": [
+          "1",
+          "September",
+          "1920"
+        ],
+        "numbers": [
+          1,
+          1920
+        ]
+      },
+      "constitution": {
+        "raw_label": "• Constitution",
+        "text": "23 May 1926",
+        "tokens": [
+          "23",
+          "May",
+          "1926"
+        ],
+        "numbers": [
+          23,
+          1926
+        ]
+      },
+      "independence_declared": {
+        "raw_label": "• Independence declared",
+        "text": "22 November 1943",
+        "tokens": [
+          "22",
+          "November",
+          "1943"
+        ],
+        "numbers": [
+          22,
+          1943
+        ]
+      },
+      "french_mandate_ended": {
+        "raw_label": "• French mandate ended",
+        "text": "24 October 1945",
+        "tokens": [
+          "24",
+          "October",
+          "1945"
+        ],
+        "numbers": [
+          24,
+          1945
+        ]
+      },
+      "withdrawal_of_french_forces": {
+        "raw_label": "• Withdrawal of French forces",
+        "text": "17 April 1946",
+        "tokens": [
+          "17",
+          "April",
+          "1946"
+        ],
+        "numbers": [
+          17,
+          1946
+        ]
+      },
+      "israeli_troops_withdrawn": {
+        "raw_label": "• Israeli troops withdrawn",
+        "text": "24 May 2000",
+        "tokens": [
+          "24",
+          "May",
+          "2000"
+        ],
+        "numbers": [
+          24,
+          2000
+        ]
+      },
+      "syrian_troops_withdrawn": {
+        "raw_label": "• Syrian troops withdrawn",
+        "text": "30 April 2005",
+        "tokens": [
+          "30",
+          "April",
+          "2005"
+        ],
+        "numbers": [
+          30,
+          2005
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$21.780 billion ( 103rd )",
+        "tokens": [
+          "21",
+          "780",
+          "billion",
+          "103rd"
+        ],
+        "numbers": [
+          21.78,
+          103
+        ]
+      },
+      "water": {
+        "raw_label": "• Water (%)",
+        "text": "1.8",
+        "tokens": [
+          "1",
+          "8"
+        ],
+        "numbers": [
+          1.8
+        ]
+      },
+      "2024_estimate": {
+        "raw_label": "• 2024 estimate",
+        "text": "5,364,482 ( 117th )",
+        "tokens": [
+          "5",
+          "364",
+          "482",
+          "117th"
+        ],
+        "numbers": [
+          5364482,
+          117
+        ]
+      },
+      "density": {
+        "raw_label": "• Density",
+        "text": "513/km 2 (1,328.7/sq mi)",
+        "tokens": [
+          "513",
+          "km",
+          "2",
+          "1",
+          "328",
+          "7",
+          "sq",
+          "mi"
+        ],
+        "numbers": [
+          513,
+          2,
+          1328.7
+        ]
+      },
+      "gdp_ppp": {
+        "raw_label": "GDP ( PPP )",
+        "text": "2022 estimate",
+        "tokens": [
+          "2022",
+          "estimate"
+        ],
+        "numbers": [
+          2022
+        ]
+      },
+      "per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$3,283 ( 133rd )",
+        "tokens": [
+          "3",
+          "283",
+          "133rd"
+        ],
+        "numbers": [
+          3283,
+          133
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2022 estimate",
+        "tokens": [
+          "2022",
+          "estimate"
+        ],
+        "numbers": [
+          2022
+        ]
+      },
+      "gini_2011": {
+        "raw_label": "Gini (2011)",
+        "text": "31.8 medium inequality",
+        "tokens": [
+          "31",
+          "8",
+          "medium",
+          "inequality"
+        ],
+        "numbers": [
+          31.8
+        ]
+      },
+      "hdi_2023": {
+        "raw_label": "HDI (2023)",
+        "text": "0.752 high ( 102nd )",
+        "tokens": [
+          "0",
+          "752",
+          "high",
+          "102nd"
+        ],
+        "numbers": [
+          0.752,
+          102
+        ]
+      },
+      "currency": {
+        "raw_label": "Currency",
+        "text": "Lebanese pound ( LBP )",
+        "tokens": [
+          "Lebanese",
+          "pound",
+          "LBP"
+        ],
+        "numbers": []
+      },
+      "time_zone": {
+        "raw_label": "Time zone",
+        "text": "UTC +2 ( EET )",
+        "tokens": [
+          "UTC",
+          "2",
+          "EET"
+        ],
+        "numbers": [
+          2
+        ]
+      },
+      "summer_dst": {
+        "raw_label": "• Summer ( DST )",
+        "text": "UTC +3 ( EEST )",
+        "tokens": [
+          "UTC",
+          "3",
+          "EEST"
+        ],
+        "numbers": [
+          3
+        ]
+      },
+      "calling_code": {
+        "raw_label": "Calling code",
+        "text": "+961",
+        "tokens": [
+          "961"
+        ],
+        "numbers": [
+          961
+        ]
+      },
+      "iso_3166_code": {
+        "raw_label": "ISO 3166 code",
+        "text": "LB",
+        "tokens": [
+          "LB"
+        ],
+        "numbers": []
+      },
+      "internet_tld": {
+        "raw_label": "Internet TLD",
+        "text": ".lb .لبنان",
+        "tokens": [
+          "lb"
+        ],
+        "numbers": []
+      }
+    }
+  }
+}

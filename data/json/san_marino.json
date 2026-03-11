@@ -1,0 +1,696 @@
+{
+  "meta": {
+    "country_name": "San Marino",
+    "slug": "san_marino",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/San_Marino",
+    "retrieved_at": "2026-03-11T17:57:30+00:00",
+    "source": "wikipedia-infobox"
+  },
+  "raw": {
+    "infobox_html": "<table class=\"infobox ib-country vcard\"><tbody><tr><th class=\"infobox-above adr\" colspan=\"2\"><div class=\"fn org country-name\">Republic of San Marino</div><div class=\"ib-country-names\"><span title=\"Italian-language text\"><i lang=\"it\">Repubblica di San Marino</i></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(<a href=\"/wiki/Italian_language\" title=\"Italian language\">Italian</a>)</span>\n<i>Ripóbblica d' San Marein</i> (<a href=\"/wiki/Romagnol\" title=\"Romagnol\">Romagnol</a>)<span data-plural=\"0\" style=\"display:none\"></span></div></th></tr><tr><td class=\"infobox-image\" colspan=\"2\"><div class=\"noresize\" style=\"display:table; width:100%;\">\n<div style=\"display:table-cell; vertical-align:middle; padding-left:5px;\">\n<div style=\"padding-bottom:3px;\"><span class=\"mw-image-border\" typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Flag_of_San_Marino.svg\" title=\"Flag of San Marino\"><img alt=\"Flag of San Marino\" class=\"mw-file-element\" data-file-height=\"600\" data-file-width=\"800\" decoding=\"async\" height=\"94\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/250px-Flag_of_San_Marino.svg.png\" width=\"125\"/></a></span></div>\n<div><a href=\"/wiki/Flag_of_San_Marino\" title=\"Flag of San Marino\">Flag</a></div>\n</div>\n<div style=\"display:table-cell; vertical-align:middle; padding: 0px 5px;\">\n<div style=\"padding-bottom:3px;\"><span typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Coat_of_arms_of_San_Marino.svg\" title=\"Coat of arms of San Marino\"><img alt=\"Coat of arms of San Marino\" class=\"mw-file-element\" data-file-height=\"731\" data-file-width=\"610\" decoding=\"async\" height=\"96\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Coat_of_arms_of_San_Marino.svg/120px-Coat_of_arms_of_San_Marino.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Coat_of_arms_of_San_Marino.svg/250px-Coat_of_arms_of_San_Marino.svg.png 2x\" width=\"80\"/></a></span></div>\n<div><a href=\"/wiki/Coat_of_arms_of_San_Marino\" title=\"Coat of arms of San Marino\"> Coat of arms</a></div>\n</div>\n</div></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><b>Motto: </b><i>Libertas</i> (<a href=\"/wiki/Latin\" title=\"Latin\">Latin</a>)<br/>\"Freedom\"</td></tr><tr><td class=\"infobox-full-data anthem\" colspan=\"2\"><b>Anthem:</b> <br/>\"<a href=\"/wiki/Terra_di_Libert%C3%A0\" title=\"Terra di Libertà\">Terra di Libertà</a>\"<br/><div class=\"center\">(English: <span lang=\"en\">\"Land of Liberty\"</span>)</div><div style=\"padding-top:0.5em;\"> </div><span class=\"mw-default-size\" typeof=\"mw:File\"><span><audio class=\"mw-file-element\" controls=\"\" data-durationhint=\"95\" data-mw-tmh=\"\" data-mwprovider=\"wikimediacommons\" data-mwtitle=\"Inno_Nazionale_della_Repubblica.ogg\" id=\"mwe_player_0\" preload=\"none\" style=\"width:250px;\" width=\"250\"><source data-height=\"0\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/d/d9/Inno_Nazionale_della_Repubblica.ogg\" type='audio/ogg; codecs=\"vorbis\"'/><source data-height=\"0\" data-transcodekey=\"mp3\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/transcoded/d/d9/Inno_Nazionale_della_Repubblica.ogg/Inno_Nazionale_della_Repubblica.ogg.mp3\" type=\"audio/mpeg\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"British English ‪(en-gb)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AInno_Nazionale_della_Repubblica.ogg&amp;lang=en-gb&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"en-GB\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"English ‪(en)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AInno_Nazionale_della_Repubblica.ogg&amp;lang=en&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"en\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"español ‪(es)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AInno_Nazionale_della_Repubblica.ogg&amp;lang=es&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"es\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"magyar ‪(hu)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AInno_Nazionale_della_Repubblica.ogg&amp;lang=hu&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"hu\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"italiano ‪(it)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AInno_Nazionale_della_Repubblica.ogg&amp;lang=it&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"it\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"português ‪(pt)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AInno_Nazionale_della_Repubblica.ogg&amp;lang=pt&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"pt\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"中文（臺灣） ‪(zh-tw)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3AInno_Nazionale_della_Repubblica.ogg&amp;lang=zh-tw&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"zh-Hant-TW\" type=\"text/vtt\"/></audio></span></span></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:San_Marino_Europe_Location.svg\" title=\"Location of San Marino (green) in Europe (dark grey)\"><img alt=\"Location of San Marino in Europe\" class=\"mw-file-element\" data-file-height=\"540\" data-file-width=\"680\" decoding=\"async\" height=\"199\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/6/67/San_Marino_Europe_Location.svg/250px-San_Marino_Europe_Location.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/6/67/San_Marino_Europe_Location.svg/500px-San_Marino_Europe_Location.svg.png 1.5x\" width=\"250\"/></a></span><div class=\"ib-country-map-caption\"><div style=\"text-align:center;line-height:1.15em;\">Location of San Marino (green)<p style=\"text-align:center;margin-top:0px;margin-bottom:0px;line-height:1.15em;\">in <a href=\"/wiki/Europe\" title=\"Europe\">Europe</a> (dark grey)</p></div></div></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Capital</th><td class=\"infobox-data\"><a href=\"/wiki/City_of_San_Marino\" title=\"City of San Marino\">City of San Marino</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=San_Marino&amp;params=43_56_N_12_26_E_type:city_region:SM\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">43°56′N</span> <span class=\"longitude\">12°26′E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">43.933°N 12.433°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">43.933; 12.433</span></span></span></a></span></span></td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\">Largest settlement</th><td class=\"infobox-data\"><a href=\"/wiki/Dogana\" title=\"Dogana\">Dogana</a><br/><span class=\"geo-inline\"><link href=\"mw-data:TemplateStyles:r1156832818\" rel=\"mw-deduplicated-inline-style\"><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=San_Marino&amp;params=43_58_53_N_12_29_22_E_type:city_region:SM\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">43°58′53″N</span> <span class=\"longitude\">12°29′22″E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">43.98139°N 12.48944°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">43.98139; 12.48944</span></span></span></a></span></link></span></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\">Official languages</th><td class=\"infobox-data\"><a href=\"/wiki/Italian_language\" title=\"Italian language\">Italian</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Other languages</th><td class=\"infobox-data\"><a href=\"/wiki/Romagnol\" title=\"Romagnol\">Romagnol</a> (<a href=\"/wiki/Sammarinese_dialect\" title=\"Sammarinese dialect\">Sammarinese</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Religion <div class=\"ib-country-religion\"></div></th><td class=\"infobox-data\">90.3% <a class=\"mw-redirect\" href=\"/wiki/Catholicism\" title=\"Catholicism\">Catholicism</a> (2022)<br/>7.5% <a href=\"/wiki/Irreligion\" title=\"Irreligion\">no religion</a><br/>1.1% Other <a class=\"mw-redirect\" href=\"/wiki/Christian_denominations\" title=\"Christian denominations\">Christian denominations</a> (2022)<br/>0.1% <a href=\"/wiki/Judaism\" title=\"Judaism\">Judaism</a><br/>0.46% <a href=\"/wiki/Islam\" title=\"Islam\">Islam</a> (2015)<br/>0.34% <a href=\"/wiki/Religion_in_San_Marino\" title=\"Religion in San Marino\">other</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Demonym\" title=\"Demonym\">Demonym</a></th><td class=\"infobox-data\"><a href=\"/wiki/Sammarinese\" title=\"Sammarinese\">Sammarinese</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Politics_of_San_Marino\" title=\"Politics of San Marino\">Government</a></th><td class=\"infobox-data\">Unitary parliamentary diarchic <a href=\"/wiki/Directorial_system\" title=\"Directorial system\">directorial republic</a></td></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Captains_Regent\" title=\"Captains Regent\">Captains Regent</a> </div></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><a href=\"/wiki/Matteo_Rossi_(politician)\" title=\"Matteo Rossi (politician)\">Matteo Rossi</a></li><li><a href=\"/wiki/Lorenzo_Bugli\" title=\"Lorenzo Bugli\">Lorenzo Bugli</a></li></ul></div></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a class=\"mw-redirect\" href=\"/wiki/San_Marino_Secretary_for_Foreign_and_Political_Affairs\" title=\"San Marino Secretary for Foreign and Political Affairs\">Secretary of State for Foreign and Political Affairs</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Luca_Beccari\" title=\"Luca Beccari\">Luca Beccari</a></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Legislature</th><td class=\"infobox-data\"><a href=\"/wiki/Grand_and_General_Council\" title=\"Grand and General Council\">Grand and General Council</a></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Independence\" title=\"Independence\">Independence</a></th></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• From the <a href=\"/wiki/Roman_Empire\" title=\"Roman Empire\">Roman Empire</a> </div></th><td class=\"infobox-data\">3 September 301 (traditional)</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• From the <a href=\"/wiki/Papal_States\" title=\"Papal States\">Papal States</a> </div></th><td class=\"infobox-data\">1291</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Constitution_of_San_Marino\" title=\"Constitution of San Marino\">Constitution</a> </div></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space:nowrap;\">8 October 1600<br/>(Statutes)</li><li style=\"white-space:nowrap;\">8 July 1974<br/>(Declaration of Citizen Rights)</li></ul></div></link></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Geography_of_San_Marino\" title=\"Geography of San Marino\">Area </a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\">61.19 km<sup>2</sup> (23.63 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">191st</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Water (%)</div></th><td class=\"infobox-data\">0.0059%</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Demographics_of_San_Marino\" title=\"Demographics of San Marino\">Population</a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• 2026 estimate</div></th><td class=\"infobox-data\">34,172 (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">191st</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Density</div></th><td class=\"infobox-data\">579/km<sup>2</sup> (1,499.6/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">24th</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <style data-mw-deduplicate=\"TemplateStyles:r886047488\">.mw-parser-output .nobold{font-weight:normal}</style><span class=\"nobold\">(<a href=\"/wiki/Purchasing_power_parity\" title=\"Purchasing power parity\">PPP</a>)</span></th><td class=\"infobox-data\">2024 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $2.978 billion (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">176th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $86,989 (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">12th</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(nominal)</span></link></th><td class=\"infobox-data\">2024 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $2.034 billion (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">171st</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $59,405 (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">12th</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Human_Development_Index\" title=\"Human Development Index\">HDI</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2023)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.915<br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:darkgreen\">very high</span></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">29th</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Currency</th><td class=\"infobox-data\"><a href=\"/wiki/Euro\" title=\"Euro\">Euro</a> (<a href=\"/wiki/Euro_sign\" title=\"Euro sign\">€</a>) (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">EUR</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\">Time zone</th><td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+01</span> (<a href=\"/wiki/Central_European_Time\" title=\"Central European Time\">CET</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Summer (<a href=\"/wiki/Daylight_saving_time\" title=\"Daylight saving time\">DST</a>)</div></th><td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+02</span> (<a href=\"/wiki/Central_European_Summer_Time\" title=\"Central European Summer Time\">CEST</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Telephone_numbers_in_San_Marino\" title=\"Telephone numbers in San Marino\">Calling code</a></th><td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/%2B378\" title=\"+378\">+378</a> (+39 0549 calling via Italy)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/ISO_3166\" title=\"ISO 3166\">ISO 3166 code</a></th><td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:SM\" title=\"ISO 3166-2:SM\">SM</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Country_code_top-level_domain\" title=\"Country code top-level domain\">Internet TLD</a></th><td class=\"infobox-data\"><a href=\"/wiki/.sm\" title=\".sm\">.sm</a></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><div class=\"ib-country-fn\">Sources: <span style=\"position: relative; top: 0.4em;\"><span style=\"font-size:120%\"><sup class=\"reference\" id=\"cite_ref-cia_5-1\"><a href=\"#cite_note-cia-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-unece_9-0\"><a href=\"#cite_note-unece-9\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup></span></span></div></td></tr></tbody></table>",
+    "rows": [
+      {
+        "label": "Capital",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/City_of_San_Marino\" title=\"City of San Marino\">City of San Marino</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=San_Marino&amp;params=43_56_N_12_26_E_type:city_region:SM\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">43°56′N</span> <span class=\"longitude\">12°26′E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">43.933°N 12.433°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">43.933; 12.433</span></span></span></a></span></span></td>",
+        "value_text": "City of San Marino 43°56′N 12°26′E ﻿ / ﻿ 43.933°N 12.433°E ﻿ / 43.933; 12.433"
+      },
+      {
+        "label": "Largest settlement",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Dogana\" title=\"Dogana\">Dogana</a><br/><span class=\"geo-inline\"><link href=\"mw-data:TemplateStyles:r1156832818\" rel=\"mw-deduplicated-inline-style\"><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=San_Marino&amp;params=43_58_53_N_12_29_22_E_type:city_region:SM\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">43°58′53″N</span> <span class=\"longitude\">12°29′22″E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">43.98139°N 12.48944°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">43.98139; 12.48944</span></span></span></a></span></link></span></td>",
+        "value_text": "Dogana 43°58′53″N 12°29′22″E ﻿ / ﻿ 43.98139°N 12.48944°E ﻿ / 43.98139; 12.48944"
+      },
+      {
+        "label": "Official languages",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Italian_language\" title=\"Italian language\">Italian</a><sup class=\"reference\" id=\"cite_ref-1\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "Italian [ 1 ]"
+      },
+      {
+        "label": "Other languages",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Romagnol\" title=\"Romagnol\">Romagnol</a> (<a href=\"/wiki/Sammarinese_dialect\" title=\"Sammarinese dialect\">Sammarinese</a>)</td>",
+        "value_text": "Romagnol ( Sammarinese )"
+      },
+      {
+        "label": "Religion",
+        "value_html": "<td class=\"infobox-data\">90.3% <a class=\"mw-redirect\" href=\"/wiki/Catholicism\" title=\"Catholicism\">Catholicism</a> (2022)<sup class=\"reference\" id=\"cite_ref-auto_2-0\"><a href=\"#cite_note-auto-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup><br/>7.5% <a href=\"/wiki/Irreligion\" title=\"Irreligion\">no religion</a><br/>1.1% Other <a class=\"mw-redirect\" href=\"/wiki/Christian_denominations\" title=\"Christian denominations\">Christian denominations</a> (2022)<sup class=\"reference\" id=\"cite_ref-auto_2-1\"><a href=\"#cite_note-auto-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup><br/>0.1% <a href=\"/wiki/Judaism\" title=\"Judaism\">Judaism</a><br/>0.46% <a href=\"/wiki/Islam\" title=\"Islam\">Islam</a> (2015)<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup><br/>0.34% <a href=\"/wiki/Religion_in_San_Marino\" title=\"Religion in San Marino\">other</a></td>",
+        "value_text": "90.3% Catholicism (2022) [ 2 ] 7.5% no religion 1.1% Other Christian denominations (2022) [ 2 ] 0.1% Judaism 0.46% Islam (2015) [ 3 ] 0.34% other"
+      },
+      {
+        "label": "Demonym",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Sammarinese\" title=\"Sammarinese\">Sammarinese</a></td>",
+        "value_text": "Sammarinese"
+      },
+      {
+        "label": "Government",
+        "value_html": "<td class=\"infobox-data\">Unitary parliamentary diarchic <a href=\"/wiki/Directorial_system\" title=\"Directorial system\">directorial republic</a></td>",
+        "value_text": "Unitary parliamentary diarchic directorial republic"
+      },
+      {
+        "label": "• Captains Regent",
+        "value_html": "<td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li><a href=\"/wiki/Matteo_Rossi_(politician)\" title=\"Matteo Rossi (politician)\">Matteo Rossi</a></li><li><a href=\"/wiki/Lorenzo_Bugli\" title=\"Lorenzo Bugli\">Lorenzo Bugli</a></li></ul></div></td>",
+        "value_text": "Matteo Rossi Lorenzo Bugli"
+      },
+      {
+        "label": "• Secretary of State for Foreign and Political Affairs",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Luca_Beccari\" title=\"Luca Beccari\">Luca Beccari</a></td>",
+        "value_text": "Luca Beccari"
+      },
+      {
+        "label": "Legislature",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Grand_and_General_Council\" title=\"Grand and General Council\">Grand and General Council</a></td>",
+        "value_text": "Grand and General Council"
+      },
+      {
+        "label": "• From the Roman Empire",
+        "value_html": "<td class=\"infobox-data\">3 September 301 (traditional)</td>",
+        "value_text": "3 September 301 (traditional)"
+      },
+      {
+        "label": "• From the Papal States",
+        "value_html": "<td class=\"infobox-data\">1291</td>",
+        "value_text": "1291"
+      },
+      {
+        "label": "• Constitution",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space:nowrap;\">8 October 1600<br/>(Statutes)</li><li style=\"white-space:nowrap;\">8 July 1974<br/>(Declaration of Citizen Rights)</li></ul></div></link></td>",
+        "value_text": "8 October 1600 (Statutes) 8 July 1974 (Declaration of Citizen Rights)"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\">61.19 km<sup>2</sup> (23.63 sq mi)<sup class=\"reference\" id=\"cite_ref-cia_5-0\"><a href=\"#cite_note-cia-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">191st</a>)</td>",
+        "value_text": "61.19 km 2 (23.63 sq mi) [ 5 ] ( 191st )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_html": "<td class=\"infobox-data\">0.0059%<sup class=\"reference\" id=\"cite_ref-4\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "0.0059% [ 4 ]"
+      },
+      {
+        "label": "• 2026 estimate",
+        "value_html": "<td class=\"infobox-data\">34,172<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">191st</a>)</td>",
+        "value_text": "34,172 [ 6 ] ( 191st )"
+      },
+      {
+        "label": "• Density",
+        "value_html": "<td class=\"infobox-data\">579/km<sup>2</sup> (1,499.6/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">24th</a>)</td>",
+        "value_text": "579/km 2 (1,499.6/sq mi) ( 24th )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_html": "<td class=\"infobox-data\">2024 estimate</td>",
+        "value_text": "2024 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $2.978 billion<sup class=\"reference\" id=\"cite_ref-IMFWEO.SM_7-0\"><a href=\"#cite_note-IMFWEO.SM-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">176th</a>)</td>",
+        "value_text": "$2.978 billion [ 7 ] ( 176th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $86,989<sup class=\"reference\" id=\"cite_ref-IMFWEO.SM_7-1\"><a href=\"#cite_note-IMFWEO.SM-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">12th</a>)</td>",
+        "value_text": "$86,989 [ 7 ] ( 12th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_html": "<td class=\"infobox-data\">2024 estimate</td>",
+        "value_text": "2024 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $2.034 billion<sup class=\"reference\" id=\"cite_ref-IMFWEO.SM_7-2\"><a href=\"#cite_note-IMFWEO.SM-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">171st</a>)</td>",
+        "value_text": "$2.034 billion [ 7 ] ( 171st )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $59,405<sup class=\"reference\" id=\"cite_ref-IMFWEO.SM_7-3\"><a href=\"#cite_note-IMFWEO.SM-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">12th</a>)</td>",
+        "value_text": "$59,405 [ 7 ] ( 12th )"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.915<sup class=\"reference\" id=\"cite_ref-UNHDR_8-0\"><a href=\"#cite_note-UNHDR-8\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:darkgreen\">very high</span></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">29th</a>)</td>",
+        "value_text": "0.915 [ 8 ] very high ( 29th )"
+      },
+      {
+        "label": "Currency",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Euro\" title=\"Euro\">Euro</a> (<a href=\"/wiki/Euro_sign\" title=\"Euro sign\">€</a>) (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">EUR</a>)</td>",
+        "value_text": "Euro ( € ) ( EUR )"
+      },
+      {
+        "label": "Time zone",
+        "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+01</span> (<a href=\"/wiki/Central_European_Time\" title=\"Central European Time\">CET</a>)</td>",
+        "value_text": "UTC +01 ( CET )"
+      },
+      {
+        "label": "• Summer ( DST )",
+        "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+02</span> (<a href=\"/wiki/Central_European_Summer_Time\" title=\"Central European Summer Time\">CEST</a>)</td>",
+        "value_text": "UTC +02 ( CEST )"
+      },
+      {
+        "label": "Calling code",
+        "value_html": "<td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/%2B378\" title=\"+378\">+378</a> (+39 0549 calling via Italy)</td>",
+        "value_text": "+378 (+39 0549 calling via Italy)"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:SM\" title=\"ISO 3166-2:SM\">SM</a></td>",
+        "value_text": "SM"
+      },
+      {
+        "label": "Internet TLD",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/.sm\" title=\".sm\">.sm</a></td>",
+        "value_text": ".sm"
+      }
+    ]
+  },
+  "cleaned": {
+    "rows": [
+      {
+        "label": "Capital",
+        "value_text": "City of San Marino 43°56′N 12°26′E ﻿ / ﻿ 43.933°N 12.433°E ﻿ / 43.933; 12.433"
+      },
+      {
+        "label": "Largest settlement",
+        "value_text": "Dogana 43°58′53″N 12°29′22″E ﻿ / ﻿ 43.98139°N 12.48944°E ﻿ / 43.98139; 12.48944"
+      },
+      {
+        "label": "Official languages",
+        "value_text": "Italian"
+      },
+      {
+        "label": "Other languages",
+        "value_text": "Romagnol ( Sammarinese )"
+      },
+      {
+        "label": "Religion",
+        "value_text": "90.3% Catholicism (2022) 7.5% no religion 1.1% Other Christian denominations (2022) 0.1% Judaism 0.46% Islam (2015) 0.34% other"
+      },
+      {
+        "label": "Demonym",
+        "value_text": "Sammarinese"
+      },
+      {
+        "label": "Government",
+        "value_text": "Unitary parliamentary diarchic directorial republic"
+      },
+      {
+        "label": "• Captains Regent",
+        "value_text": "Matteo Rossi Lorenzo Bugli"
+      },
+      {
+        "label": "• Secretary of State for Foreign and Political Affairs",
+        "value_text": "Luca Beccari"
+      },
+      {
+        "label": "Legislature",
+        "value_text": "Grand and General Council"
+      },
+      {
+        "label": "• From the Roman Empire",
+        "value_text": "3 September 301 (traditional)"
+      },
+      {
+        "label": "• From the Papal States",
+        "value_text": "1291"
+      },
+      {
+        "label": "• Constitution",
+        "value_text": "8 October 1600 (Statutes) 8 July 1974 (Declaration of Citizen Rights)"
+      },
+      {
+        "label": "• Total",
+        "value_text": "61.19 km 2 (23.63 sq mi) ( 191st )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_text": "0.0059%"
+      },
+      {
+        "label": "• 2026 estimate",
+        "value_text": "34,172 ( 191st )"
+      },
+      {
+        "label": "• Density",
+        "value_text": "579/km 2 (1,499.6/sq mi) ( 24th )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_text": "2024 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$2.978 billion ( 176th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$86,989 ( 12th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_text": "2024 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$2.034 billion ( 171st )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$59,405 ( 12th )"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_text": "0.915 very high ( 29th )"
+      },
+      {
+        "label": "Currency",
+        "value_text": "Euro ( € ) ( EUR )"
+      },
+      {
+        "label": "Time zone",
+        "value_text": "UTC +01 ( CET )"
+      },
+      {
+        "label": "• Summer ( DST )",
+        "value_text": "UTC +02 ( CEST )"
+      },
+      {
+        "label": "Calling code",
+        "value_text": "+378 (+39 0549 calling via Italy)"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_text": "SM"
+      },
+      {
+        "label": "Internet TLD",
+        "value_text": ".sm"
+      }
+    ]
+  },
+  "normalized": {
+    "fields": {
+      "capital": {
+        "raw_label": "Capital",
+        "text": "City of San Marino 43°56′N 12°26′E ﻿ / ﻿ 43.933°N 12.433°E ﻿ / 43.933; 12.433",
+        "tokens": [
+          "City",
+          "of",
+          "San",
+          "Marino",
+          "43",
+          "56",
+          "N",
+          "12",
+          "26",
+          "E",
+          "43",
+          "933",
+          "N",
+          "12",
+          "433",
+          "E",
+          "43",
+          "933",
+          "12",
+          "433"
+        ],
+        "numbers": [
+          43,
+          56,
+          12,
+          26,
+          43.933,
+          12.433,
+          43.933,
+          12.433
+        ]
+      },
+      "largest_settlement": {
+        "raw_label": "Largest settlement",
+        "text": "Dogana 43°58′53″N 12°29′22″E ﻿ / ﻿ 43.98139°N 12.48944°E ﻿ / 43.98139; 12.48944",
+        "tokens": [
+          "Dogana",
+          "43",
+          "58",
+          "53",
+          "N",
+          "12",
+          "29",
+          "22",
+          "E",
+          "43",
+          "98139",
+          "N",
+          "12",
+          "48944",
+          "E",
+          "43",
+          "98139",
+          "12",
+          "48944"
+        ],
+        "numbers": [
+          43,
+          58,
+          53,
+          12,
+          29,
+          22,
+          43.98139,
+          12.48944,
+          43.98139,
+          12.48944
+        ]
+      },
+      "official_languages": {
+        "raw_label": "Official languages",
+        "text": "Italian",
+        "tokens": [
+          "Italian"
+        ],
+        "numbers": []
+      },
+      "other_languages": {
+        "raw_label": "Other languages",
+        "text": "Romagnol ( Sammarinese )",
+        "tokens": [
+          "Romagnol",
+          "Sammarinese"
+        ],
+        "numbers": []
+      },
+      "religion": {
+        "raw_label": "Religion",
+        "text": "90.3% Catholicism (2022) 7.5% no religion 1.1% Other Christian denominations (2022) 0.1% Judaism 0.46% Islam (2015) 0.34% other",
+        "tokens": [
+          "90",
+          "3",
+          "Catholicism",
+          "2022",
+          "7",
+          "5",
+          "no",
+          "religion",
+          "1",
+          "1",
+          "Other",
+          "Christian",
+          "denominations",
+          "2022",
+          "0",
+          "1",
+          "Judaism",
+          "0",
+          "46",
+          "Islam",
+          "2015",
+          "0",
+          "34",
+          "other"
+        ],
+        "numbers": [
+          90.3,
+          2022,
+          7.5,
+          1.1,
+          2022,
+          0.1,
+          0.46,
+          2015,
+          0.34
+        ]
+      },
+      "demonym": {
+        "raw_label": "Demonym",
+        "text": "Sammarinese",
+        "tokens": [
+          "Sammarinese"
+        ],
+        "numbers": []
+      },
+      "government": {
+        "raw_label": "Government",
+        "text": "Unitary parliamentary diarchic directorial republic",
+        "tokens": [
+          "Unitary",
+          "parliamentary",
+          "diarchic",
+          "directorial",
+          "republic"
+        ],
+        "numbers": []
+      },
+      "captains_regent": {
+        "raw_label": "• Captains Regent",
+        "text": "Matteo Rossi Lorenzo Bugli",
+        "tokens": [
+          "Matteo",
+          "Rossi",
+          "Lorenzo",
+          "Bugli"
+        ],
+        "numbers": []
+      },
+      "secretary_of_state_for_foreign_and_political_affairs": {
+        "raw_label": "• Secretary of State for Foreign and Political Affairs",
+        "text": "Luca Beccari",
+        "tokens": [
+          "Luca",
+          "Beccari"
+        ],
+        "numbers": []
+      },
+      "legislature": {
+        "raw_label": "Legislature",
+        "text": "Grand and General Council",
+        "tokens": [
+          "Grand",
+          "and",
+          "General",
+          "Council"
+        ],
+        "numbers": []
+      },
+      "from_the_roman_empire": {
+        "raw_label": "• From the Roman Empire",
+        "text": "3 September 301 (traditional)",
+        "tokens": [
+          "3",
+          "September",
+          "301",
+          "traditional"
+        ],
+        "numbers": [
+          3,
+          301
+        ]
+      },
+      "from_the_papal_states": {
+        "raw_label": "• From the Papal States",
+        "text": "1291",
+        "tokens": [
+          "1291"
+        ],
+        "numbers": [
+          1291
+        ]
+      },
+      "constitution": {
+        "raw_label": "• Constitution",
+        "text": "8 October 1600 (Statutes) 8 July 1974 (Declaration of Citizen Rights)",
+        "tokens": [
+          "8",
+          "October",
+          "1600",
+          "Statutes",
+          "8",
+          "July",
+          "1974",
+          "Declaration",
+          "of",
+          "Citizen",
+          "Rights"
+        ],
+        "numbers": [
+          8,
+          1600,
+          8,
+          1974
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$2.034 billion ( 171st )",
+        "tokens": [
+          "2",
+          "034",
+          "billion",
+          "171st"
+        ],
+        "numbers": [
+          2.034,
+          171
+        ]
+      },
+      "water": {
+        "raw_label": "• Water (%)",
+        "text": "0.0059%",
+        "tokens": [
+          "0",
+          "0059"
+        ],
+        "numbers": [
+          0.0059
+        ]
+      },
+      "2026_estimate": {
+        "raw_label": "• 2026 estimate",
+        "text": "34,172 ( 191st )",
+        "tokens": [
+          "34",
+          "172",
+          "191st"
+        ],
+        "numbers": [
+          34172,
+          191
+        ]
+      },
+      "density": {
+        "raw_label": "• Density",
+        "text": "579/km 2 (1,499.6/sq mi) ( 24th )",
+        "tokens": [
+          "579",
+          "km",
+          "2",
+          "1",
+          "499",
+          "6",
+          "sq",
+          "mi",
+          "24th"
+        ],
+        "numbers": [
+          579,
+          2,
+          1499.6,
+          24
+        ]
+      },
+      "gdp_ppp": {
+        "raw_label": "GDP ( PPP )",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$59,405 ( 12th )",
+        "tokens": [
+          "59",
+          "405",
+          "12th"
+        ],
+        "numbers": [
+          59405,
+          12
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "hdi_2023": {
+        "raw_label": "HDI (2023)",
+        "text": "0.915 very high ( 29th )",
+        "tokens": [
+          "0",
+          "915",
+          "very",
+          "high",
+          "29th"
+        ],
+        "numbers": [
+          0.915,
+          29
+        ]
+      },
+      "currency": {
+        "raw_label": "Currency",
+        "text": "Euro ( € ) ( EUR )",
+        "tokens": [
+          "Euro",
+          "EUR"
+        ],
+        "numbers": []
+      },
+      "time_zone": {
+        "raw_label": "Time zone",
+        "text": "UTC +01 ( CET )",
+        "tokens": [
+          "UTC",
+          "01",
+          "CET"
+        ],
+        "numbers": [
+          1
+        ]
+      },
+      "summer_dst": {
+        "raw_label": "• Summer ( DST )",
+        "text": "UTC +02 ( CEST )",
+        "tokens": [
+          "UTC",
+          "02",
+          "CEST"
+        ],
+        "numbers": [
+          2
+        ]
+      },
+      "calling_code": {
+        "raw_label": "Calling code",
+        "text": "+378 (+39 0549 calling via Italy)",
+        "tokens": [
+          "378",
+          "39",
+          "0549",
+          "calling",
+          "via",
+          "Italy"
+        ],
+        "numbers": [
+          378,
+          39,
+          549
+        ]
+      },
+      "iso_3166_code": {
+        "raw_label": "ISO 3166 code",
+        "text": "SM",
+        "tokens": [
+          "SM"
+        ],
+        "numbers": []
+      },
+      "internet_tld": {
+        "raw_label": "Internet TLD",
+        "text": ".sm",
+        "tokens": [
+          "sm"
+        ],
+        "numbers": []
+      }
+    }
+  }
+}

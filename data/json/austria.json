@@ -1,0 +1,890 @@
+{
+  "meta": {
+    "country_name": "Austria",
+    "slug": "austria",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Austria",
+    "retrieved_at": "2026-03-11T17:52:39+00:00",
+    "source": "wikipedia-infobox"
+  },
+  "raw": {
+    "infobox_html": "<table class=\"infobox ib-country vcard\"><tbody><tr><th class=\"infobox-above adr\" colspan=\"2\"><div class=\"fn org country-name\">Republic of Austria</div><div class=\"ib-country-names\"><span title=\"German-language text\"><i lang=\"de\">Republik Österreich</i></span> <span class=\"languageicon\" style=\"font-size:100%; font-weight:normal\">(<a href=\"/wiki/German_language\" title=\"German language\">German</a>)</span><span data-plural=\"0\" style=\"display:none\"></span></div></th></tr><tr><td class=\"infobox-image\" colspan=\"2\"><div class=\"noresize\" style=\"display:table; width:100%;\">\n<div style=\"display:table-cell; vertical-align:middle; padding-left:5px;\">\n<div style=\"padding-bottom:3px;\"><span class=\"mw-image-border\" typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Flag_of_Austria.svg\" title=\"Flag of Austria\"><img alt=\"Flag of Austria\" class=\"mw-file-element\" data-file-height=\"600\" data-file-width=\"900\" decoding=\"async\" height=\"83\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/250px-Flag_of_Austria.svg.png\" width=\"125\"/></a></span></div>\n<div><a href=\"/wiki/Flag_of_Austria\" title=\"Flag of Austria\">Flag</a></div>\n</div>\n<div style=\"display:table-cell; vertical-align:middle; padding: 0px 5px;\">\n<div style=\"padding-bottom:3px;\"><span typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Coat_of_arms_of_Austria.svg\" title=\"Coat of arms of Austria\"><img alt=\"Coat of arms of Austria\" class=\"mw-file-element\" data-file-height=\"762\" data-file-width=\"720\" decoding=\"async\" height=\"90\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Coat_of_arms_of_Austria.svg/120px-Coat_of_arms_of_Austria.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Coat_of_arms_of_Austria.svg/250px-Coat_of_arms_of_Austria.svg.png 1.5x\" width=\"85\"/></a></span></div>\n<div><a href=\"/wiki/Coat_of_arms_of_Austria\" title=\"Coat of arms of Austria\"> Coat of arms</a></div>\n</div>\n</div></td></tr><tr><td class=\"infobox-full-data anthem\" colspan=\"2\"><b>Anthem:</b> \"<span title=\"German-language text\"><span lang=\"de\" style=\"font-style: normal;\">Bundeshymne der Republik Österreich</span></span>\"<br/><i><a href=\"/wiki/National_anthem_of_Austria\" title=\"National anthem of Austria\">National Anthem of the Republic of Austria</a></i>\n<br/><div style=\"display:inline-block;margin-top:0.4em;\"><span class=\"mw-default-size\" typeof=\"mw:File\"><span><audio class=\"mw-file-element\" controls=\"\" data-durationhint=\"90\" data-mw-tmh=\"\" data-mwprovider=\"wikimediacommons\" data-mwtitle=\"Land_der_Berge_Land_am_Strome_instrumental.ogg\" id=\"mwe_player_0\" preload=\"none\" style=\"width:250px;\" width=\"250\"><source data-height=\"0\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/7/7c/Land_der_Berge_Land_am_Strome_instrumental.ogg\" type='audio/ogg; codecs=\"vorbis\"'/><source data-height=\"0\" data-transcodekey=\"mp3\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Land_der_Berge_Land_am_Strome_instrumental.ogg/Land_der_Berge_Land_am_Strome_instrumental.ogg.mp3\" type=\"audio/mpeg\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Deutsch ‪(de)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=de&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"de\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"English ‪(en)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=en&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"en\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"español ‪(es)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=es&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"es\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"français ‪(fr)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=fr&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"fr\" type=\"text/vtt\"/><track data-dir=\"rtl\" kind=\"subtitles\" label=\"עברית ‪(he)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=he&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"he\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"हिन्दी ‪(hi)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=hi&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"hi\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"hrvatski ‪(hr)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=hr&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"hr\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"magyar ‪(hu)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=hu&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"hu\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Bahasa Indonesia ‪(id)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=id&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"id\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"日本語 ‪(ja)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=ja&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"ja\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"한국어 ‪(ko)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=ko&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"ko\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"polski ‪(pl)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=pl&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"pl\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"português do Brasil ‪(pt-br)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=pt-br&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"pt-BR\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"português ‪(pt)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=pt&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"pt\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"Tiếng Việt ‪(vi)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=vi&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"vi\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"中文（臺灣） ‪(zh-tw)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ALand_der_Berge_Land_am_Strome_instrumental.ogg&amp;lang=zh-tw&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"zh-Hant-TW\" type=\"text/vtt\"/></audio></span></span></div></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><div class=\"switcher-container\"><div><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:EU-Austria_(orthographic_projection).svg\"><img class=\"mw-file-element\" data-file-height=\"2000\" data-file-width=\"2000\" decoding=\"async\" height=\"290\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/3/38/EU-Austria_%28orthographic_projection%29.svg/330px-EU-Austria_%28orthographic_projection%29.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/3/38/EU-Austria_%28orthographic_projection%29.svg/500px-EU-Austria_%28orthographic_projection%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/38/EU-Austria_%28orthographic_projection%29.svg/960px-EU-Austria_%28orthographic_projection%29.svg.png 2x\" width=\"290\"/></a></span><span class=\"switcher-label\" data-switcher-default=\"\" style=\"display:none\">Show globe</span></div><div><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:EU-Austria.svg\"><img class=\"mw-file-element\" data-file-height=\"1720\" data-file-width=\"2045\" decoding=\"async\" height=\"244\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/EU-Austria.svg/330px-EU-Austria.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/EU-Austria.svg/500px-EU-Austria.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9d/EU-Austria.svg/960px-EU-Austria.svg.png 2x\" width=\"290\"/></a></span><span class=\"switcher-label\" style=\"display:none\">Show map of the <a href=\"/wiki/European_Union\" title=\"European Union\">European Union</a></span></div></div></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Capital<div class=\"ib-country-largest\">and largest city</div></th><td class=\"infobox-data\"><a href=\"/wiki/Vienna\" title=\"Vienna\">Vienna</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Austria&amp;params=48_12_N_16_21_E_type:city(2,000,000)_region:AT-9\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">48°12′N</span> <span class=\"longitude\">16°21′E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">48.200°N 16.350°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">48.200; 16.350</span></span></span></a></span></span></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Official <a href=\"/wiki/National_language\" title=\"National language\">national language</a></th><td class=\"infobox-data\"><a href=\"/wiki/Austrian_German\" title=\"Austrian German\">German</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Official <a class=\"mw-redirect\" href=\"/wiki/Regional_languages\" title=\"Regional languages\">regional languages</a></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1333133064\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><div class=\"hlist\"><ul><li><a href=\"/wiki/Hungarian_language\" title=\"Hungarian language\">Hungarian</a></li><li><a href=\"/wiki/Slovene_language\" title=\"Slovene language\">Slovene</a></li><li><a href=\"/wiki/Burgenland_Croatian\" title=\"Burgenland Croatian\">Burgenland Croatian</a></li></ul></div></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a class=\"mw-redirect\" href=\"/wiki/Ethnic_group\" title=\"Ethnic group\">Ethnic groups</a> <div class=\"ib-country-ethnic\"> (2024)</div></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li>72.2% <a class=\"mw-redirect\" href=\"/wiki/Austrian_Germans\" title=\"Austrian Germans\">Germans</a></li><li>27.8% <a href=\"/wiki/Demographics_of_Austria#Ethnic_groups\" title=\"Demographics of Austria\">other</a></li></ul></div></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Religion <div class=\"ib-country-religion\"> (2021)</div></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space:nowrap;\"><style data-mw-deduplicate=\"TemplateStyles:r1324795729\">.mw-parser-output .treeview ul{padding:0;margin:0}.mw-parser-output .treeview li{padding:0;margin:0;list-style-type:none;list-style-image:none}.mw-parser-output .treeview li li{background:url(\"https://upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png\")no-repeat 0 -2981px;padding-left:21px;text-indent:0.3em}.mw-parser-output .treeview li li:last-child{background-position:0 -5971px}.mw-parser-output .treeview li.emptyline>ul>.mw-empty-elt:first-child+.emptyline,.mw-parser-output .treeview li.emptyline>ul>li:first-child{background-position:0 9px}</style><div class=\"treeview\">\n<ul><li>68.2% <a href=\"/wiki/Christianity\" title=\"Christianity\">Christianity</a>\n<ul><li>55.2% <a href=\"/wiki/Catholic_Church_in_Austria\" title=\"Catholic Church in Austria\">Catholicism</a></li>\n<li>4.9% <a href=\"/wiki/Eastern_Orthodoxy_in_Austria\" title=\"Eastern Orthodoxy in Austria\">Orthodoxy</a></li>\n<li>3.8% <a href=\"/wiki/Protestantism\" title=\"Protestantism\">Protestantism</a></li>\n<li>4.3% <a href=\"/wiki/Christian_denomination\" title=\"Christian denomination\">other Christian</a></li></ul></li></ul>\n</div></li><li style=\"white-space:nowrap;\">22.4% <a href=\"/wiki/Irreligion\" title=\"Irreligion\">no religion</a></li><li style=\"white-space:nowrap;\">8.3% <a href=\"/wiki/Islam_in_Austria\" title=\"Islam in Austria\">Islam</a></li><li style=\"white-space:nowrap;\">1.1% <a href=\"/wiki/Religion_in_Austria\" title=\"Religion in Austria\">other</a></li></ul></div></link></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Demonym\" title=\"Demonym\">Demonym</a></th><td class=\"infobox-data\"><a href=\"/wiki/Austrians\" title=\"Austrians\">Austrian</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Politics_of_Austria\" title=\"Politics of Austria\">Government</a></th><td class=\"infobox-data\">Federal <a class=\"mw-redirect\" href=\"/wiki/Semi-presidential_republic\" title=\"Semi-presidential republic\">semi-presidential republic</a></td></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/President_of_Austria\" title=\"President of Austria\">President</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Alexander_Van_der_Bellen\" title=\"Alexander Van der Bellen\">Alexander Van der Bellen</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Chancellor_of_Austria\" title=\"Chancellor of Austria\">Chancellor</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Christian_Stocker\" title=\"Christian Stocker\">Christian Stocker</a></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Legislature</th><td class=\"infobox-data\"><a href=\"/wiki/Austrian_Parliament\" title=\"Austrian Parliament\">Parliament</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• <a href=\"/wiki/Upper_house\" title=\"Upper house\">Upper house</a></div></th><td class=\"infobox-data\"><a href=\"/wiki/Federal_Council_(Austria)\" title=\"Federal Council (Austria)\">Federal Council</a></td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• <a href=\"/wiki/Lower_house\" title=\"Lower house\">Lower house</a></div></th><td class=\"infobox-data\"><a href=\"/wiki/National_Council_(Austria)\" title=\"National Council (Austria)\">National Council</a></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/History_of_Austria\" title=\"History of Austria\">Formation</a></th></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Margraviate_of_Austria\" title=\"Margraviate of Austria\">Margraviate</a><br/>(<a href=\"/wiki/Name_of_Austria\" title=\"Name of Austria\">oldest naming</a>) </div></th><td class=\"infobox-data\">1 November 996</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Duchy_of_Austria\" title=\"Duchy of Austria\">Duchy</a> </div></th><td class=\"infobox-data\">17 September 1156</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Archduchy_of_Austria\" title=\"Archduchy of Austria\">Archduchy</a> </div></th><td class=\"infobox-data\">6 January 1453</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Austrian_Circle\" title=\"Austrian Circle\">Imperial circle</a> </div></th><td class=\"infobox-data\">1512</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Austrian_Empire\" title=\"Austrian Empire\">Empire</a> </div></th><td class=\"infobox-data\">11 August 1804</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Austria-Hungary\" title=\"Austria-Hungary\">Austria-Hungary</a> </div></th><td class=\"infobox-data\">30 March 1867</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/First_Austrian_Republic\" title=\"First Austrian Republic\">First Republic</a> </div></th><td class=\"infobox-data\">10 September 1919</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Federal_State_of_Austria\" title=\"Federal State of Austria\">Federal State</a> </div></th><td class=\"infobox-data\">1 May 1934</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Anschluss\" title=\"Anschluss\">Anschluss</a> </div></th><td class=\"infobox-data\">13 March 1938</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/History_of_Austria#The_Second_Republic_(since_1945)\" title=\"History of Austria\">Second Republic</a> </div></th><td class=\"infobox-data\">27 April 1945</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Austrian_State_Treaty\" title=\"Austrian State Treaty\">State Treaty</a> </div></th><td class=\"infobox-data\">27 July 1955</td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Geography_of_Austria\" title=\"Geography of Austria\">Area </a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\">83,879 km<sup>2</sup> (32,386 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">113th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Water (%)</div></th><td class=\"infobox-data\">0.84 (2015)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Demographics_of_Austria\" title=\"Demographics of Austria\">Population</a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• 2024 estimate</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 9,110,079 (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">99th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Density</div></th><td class=\"infobox-data\">107.6/km<sup>2</sup> (278.7/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">106th</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <style data-mw-deduplicate=\"TemplateStyles:r886047488\">.mw-parser-output .nobold{font-weight:normal}</style><span class=\"nobold\">(<a href=\"/wiki/Purchasing_power_parity\" title=\"Purchasing power parity\">PPP</a>)</span></th><td class=\"infobox-data\">2025 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $682.86 billion (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">46th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $74,370 (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">18th</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(nominal)</span></link></th><td class=\"infobox-data\">2025 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $534.30 billion (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">30th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $58,190 (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">13th</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gini_coefficient\" title=\"Gini coefficient\">Gini</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2023)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Negative increase\"><img alt=\"Negative increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Increase_Negative.svg/20px-Increase_Negative.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Increase_Negative.svg/40px-Increase_Negative.svg.png 2x\" width=\"11\"/></span></span> 28.1<br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:forestgreen\">low inequality</span></span></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Human_Development_Index\" title=\"Human Development Index\">HDI</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2023)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.930<br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"><span class=\"tmp-color\" style=\"color:darkgreen\">very high</span></link></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">22nd</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Currency</th><td class=\"infobox-data\"><a href=\"/wiki/Euro\" title=\"Euro\">Euro</a> (<a href=\"/wiki/Euro_sign\" title=\"Euro sign\">€</a>) (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">EUR</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\">Time zone</th><td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+1</span> (<a href=\"/wiki/Central_European_Time\" title=\"Central European Time\">CET</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Summer (<a href=\"/wiki/Daylight_saving_time\" title=\"Daylight saving time\">DST</a>)</div></th><td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+2</span> (<a href=\"/wiki/Central_European_Summer_Time\" title=\"Central European Summer Time\">CEST</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Telephone_numbers_in_Austria\" title=\"Telephone numbers in Austria\">Calling code</a></th><td class=\"infobox-data\"><a href=\"/wiki/Telephone_numbers_in_Austria\" title=\"Telephone numbers in Austria\">+43</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/ISO_3166\" title=\"ISO 3166\">ISO 3166 code</a></th><td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:AT\" title=\"ISO 3166-2:AT\">AT</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Country_code_top-level_domain\" title=\"Country code top-level domain\">Internet TLD</a></th><td class=\"infobox-data\"><a href=\"/wiki/.at\" title=\".at\">.at</a></td></tr></tbody></table>",
+    "rows": [
+      {
+        "label": "Capital and largest city",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Vienna\" title=\"Vienna\">Vienna</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Austria&amp;params=48_12_N_16_21_E_type:city(2,000,000)_region:AT-9\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">48°12′N</span> <span class=\"longitude\">16°21′E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">48.200°N 16.350°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">48.200; 16.350</span></span></span></a></span></span></td>",
+        "value_text": "Vienna 48°12′N 16°21′E ﻿ / ﻿ 48.200°N 16.350°E ﻿ / 48.200; 16.350"
+      },
+      {
+        "label": "Official national language",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Austrian_German\" title=\"Austrian German\">German</a><sup class=\"reference\" id=\"cite_ref-1\"><a href=\"#cite_note-1\"><span class=\"cite-bracket\">[</span>a<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-2\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>b<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>c<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "German [ a ] [ b ] [ c ]"
+      },
+      {
+        "label": "Official regional languages",
+        "value_html": "<td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1333133064\">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\": \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"\\a0 · \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0 \"}</style><div class=\"hlist\"><ul><li><a href=\"/wiki/Hungarian_language\" title=\"Hungarian language\">Hungarian</a></li><li><a href=\"/wiki/Slovene_language\" title=\"Slovene language\">Slovene</a></li><li><a href=\"/wiki/Burgenland_Croatian\" title=\"Burgenland Croatian\">Burgenland Croatian</a><sup class=\"reference\" id=\"cite_ref-demokratiewebstatt.at_4-0\"><a href=\"#cite_note-demokratiewebstatt.at-4\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-Regional_Languages_of_Austria_5-0\"><a href=\"#cite_note-Regional_Languages_of_Austria-5\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup></li></ul></div></td>",
+        "value_text": "Hungarian Slovene Burgenland Croatian [ 1 ] [ 2 ]"
+      },
+      {
+        "label": "Ethnic groups (2024)",
+        "value_html": "<td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li>72.2% <a class=\"mw-redirect\" href=\"/wiki/Austrian_Germans\" title=\"Austrian Germans\">Germans</a></li><li>27.8% <a href=\"/wiki/Demographics_of_Austria#Ethnic_groups\" title=\"Demographics of Austria\">other</a></li></ul></div></td>",
+        "value_text": "72.2% Germans 27.8% other"
+      },
+      {
+        "label": "Religion (2021)",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space:nowrap;\"><style data-mw-deduplicate=\"TemplateStyles:r1324795729\">.mw-parser-output .treeview ul{padding:0;margin:0}.mw-parser-output .treeview li{padding:0;margin:0;list-style-type:none;list-style-image:none}.mw-parser-output .treeview li li{background:url(\"https://upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png\")no-repeat 0 -2981px;padding-left:21px;text-indent:0.3em}.mw-parser-output .treeview li li:last-child{background-position:0 -5971px}.mw-parser-output .treeview li.emptyline>ul>.mw-empty-elt:first-child+.emptyline,.mw-parser-output .treeview li.emptyline>ul>li:first-child{background-position:0 9px}</style><div class=\"treeview\">\n<ul><li>68.2% <a href=\"/wiki/Christianity\" title=\"Christianity\">Christianity</a>\n<ul><li>55.2% <a href=\"/wiki/Catholic_Church_in_Austria\" title=\"Catholic Church in Austria\">Catholicism</a></li>\n<li>4.9% <a href=\"/wiki/Eastern_Orthodoxy_in_Austria\" title=\"Eastern Orthodoxy in Austria\">Orthodoxy</a></li>\n<li>3.8% <a href=\"/wiki/Protestantism\" title=\"Protestantism\">Protestantism</a></li>\n<li>4.3% <a href=\"/wiki/Christian_denomination\" title=\"Christian denomination\">other Christian</a></li></ul></li></ul>\n</div></li><li style=\"white-space:nowrap;\">22.4% <a href=\"/wiki/Irreligion\" title=\"Irreligion\">no religion</a></li><li style=\"white-space:nowrap;\">8.3% <a href=\"/wiki/Islam_in_Austria\" title=\"Islam in Austria\">Islam</a></li><li style=\"white-space:nowrap;\">1.1% <a href=\"/wiki/Religion_in_Austria\" title=\"Religion in Austria\">other</a></li></ul></div></link></td>",
+        "value_text": "68.2% Christianity 55.2% Catholicism 4.9% Orthodoxy 3.8% Protestantism 4.3% other Christian 22.4% no religion 8.3% Islam 1.1% other"
+      },
+      {
+        "label": "Demonym",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Austrians\" title=\"Austrians\">Austrian</a></td>",
+        "value_text": "Austrian"
+      },
+      {
+        "label": "Government",
+        "value_html": "<td class=\"infobox-data\">Federal <a class=\"mw-redirect\" href=\"/wiki/Semi-presidential_republic\" title=\"Semi-presidential republic\">semi-presidential republic</a><sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-system_11-0\"><a href=\"#cite_note-system-11\"><span class=\"cite-bracket\">[</span>d<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "Federal semi-presidential republic [ 5 ] [ d ]"
+      },
+      {
+        "label": "• President",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Alexander_Van_der_Bellen\" title=\"Alexander Van der Bellen\">Alexander Van der Bellen</a></td>",
+        "value_text": "Alexander Van der Bellen"
+      },
+      {
+        "label": "• Chancellor",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Christian_Stocker\" title=\"Christian Stocker\">Christian Stocker</a></td>",
+        "value_text": "Christian Stocker"
+      },
+      {
+        "label": "Legislature",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Austrian_Parliament\" title=\"Austrian Parliament\">Parliament</a></td>",
+        "value_text": "Parliament"
+      },
+      {
+        "label": "• Upper house",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Federal_Council_(Austria)\" title=\"Federal Council (Austria)\">Federal Council</a></td>",
+        "value_text": "Federal Council"
+      },
+      {
+        "label": "• Lower house",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/National_Council_(Austria)\" title=\"National Council (Austria)\">National Council</a></td>",
+        "value_text": "National Council"
+      },
+      {
+        "label": "• Margraviate ( oldest naming )",
+        "value_html": "<td class=\"infobox-data\">1 November 996</td>",
+        "value_text": "1 November 996"
+      },
+      {
+        "label": "• Duchy",
+        "value_html": "<td class=\"infobox-data\">17 September 1156</td>",
+        "value_text": "17 September 1156"
+      },
+      {
+        "label": "• Archduchy",
+        "value_html": "<td class=\"infobox-data\">6 January 1453</td>",
+        "value_text": "6 January 1453"
+      },
+      {
+        "label": "• Imperial circle",
+        "value_html": "<td class=\"infobox-data\">1512</td>",
+        "value_text": "1512"
+      },
+      {
+        "label": "• Empire",
+        "value_html": "<td class=\"infobox-data\">11 August 1804</td>",
+        "value_text": "11 August 1804"
+      },
+      {
+        "label": "• Austria-Hungary",
+        "value_html": "<td class=\"infobox-data\">30 March 1867</td>",
+        "value_text": "30 March 1867"
+      },
+      {
+        "label": "• First Republic",
+        "value_html": "<td class=\"infobox-data\">10 September 1919</td>",
+        "value_text": "10 September 1919"
+      },
+      {
+        "label": "• Federal State",
+        "value_html": "<td class=\"infobox-data\">1 May 1934</td>",
+        "value_text": "1 May 1934"
+      },
+      {
+        "label": "• Anschluss",
+        "value_html": "<td class=\"infobox-data\">13 March 1938</td>",
+        "value_text": "13 March 1938"
+      },
+      {
+        "label": "• Second Republic",
+        "value_html": "<td class=\"infobox-data\">27 April 1945</td>",
+        "value_text": "27 April 1945"
+      },
+      {
+        "label": "• State Treaty",
+        "value_html": "<td class=\"infobox-data\">27 July 1955</td>",
+        "value_text": "27 July 1955"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\">83,879<sup class=\"reference\" id=\"cite_ref-12\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (32,386 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">113th</a>)</td>",
+        "value_text": "83,879 [ 8 ] km 2 (32,386 sq mi) ( 113th )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_html": "<td class=\"infobox-data\">0.84 (2015)<sup class=\"reference\" id=\"cite_ref-13\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "0.84 (2015) [ 9 ]"
+      },
+      {
+        "label": "• 2024 estimate",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 9,110,079<sup class=\"reference\" id=\"cite_ref-statistik-population_14-0\"><a href=\"#cite_note-statistik-population-14\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">99th</a>)</td>",
+        "value_text": "9,110,079 [ 10 ] ( 99th )"
+      },
+      {
+        "label": "• Density",
+        "value_html": "<td class=\"infobox-data\">107.6/km<sup>2</sup> (278.7/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">106th</a>)</td>",
+        "value_text": "107.6/km 2 (278.7/sq mi) ( 106th )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_html": "<td class=\"infobox-data\">2025 estimate</td>",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $682.86 billion<sup class=\"reference\" id=\"cite_ref-WEOD2504_15-0\"><a href=\"#cite_note-WEOD2504-15\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">46th</a>)</td>",
+        "value_text": "$682.86 billion [ 11 ] ( 46th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $74,370<sup class=\"reference\" id=\"cite_ref-WEOD2504_15-1\"><a href=\"#cite_note-WEOD2504-15\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">18th</a>)</td>",
+        "value_text": "$74,370 [ 11 ] ( 18th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_html": "<td class=\"infobox-data\">2025 estimate</td>",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $534.30 billion<sup class=\"reference\" id=\"cite_ref-WEOD2504_15-2\"><a href=\"#cite_note-WEOD2504-15\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">30th</a>)</td>",
+        "value_text": "$534.30 billion [ 11 ] ( 30th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $58,190<sup class=\"reference\" id=\"cite_ref-WEOD2504_15-3\"><a href=\"#cite_note-WEOD2504-15\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">13th</a>)</td>",
+        "value_text": "$58,190 [ 11 ] ( 13th )"
+      },
+      {
+        "label": "Gini (2023)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Negative increase\"><img alt=\"Negative increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Increase_Negative.svg/20px-Increase_Negative.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Increase_Negative.svg/40px-Increase_Negative.svg.png 2x\" width=\"11\"/></span></span> 28.1<sup class=\"reference\" id=\"cite_ref-eurogini_16-0\"><a href=\"#cite_note-eurogini-16\"><span class=\"cite-bracket\">[</span>12<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:forestgreen\">low inequality</span></span></td>",
+        "value_text": "28.1 [ 12 ] low inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.930<sup class=\"reference\" id=\"cite_ref-UNHDR_17-0\"><a href=\"#cite_note-UNHDR-17\"><span class=\"cite-bracket\">[</span>13<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"><span class=\"tmp-color\" style=\"color:darkgreen\">very high</span></link></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">22nd</a>)</td>",
+        "value_text": "0.930 [ 13 ] very high ( 22nd )"
+      },
+      {
+        "label": "Currency",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Euro\" title=\"Euro\">Euro</a> (<a href=\"/wiki/Euro_sign\" title=\"Euro sign\">€</a>) (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">EUR</a>)</td>",
+        "value_text": "Euro ( € ) ( EUR )"
+      },
+      {
+        "label": "Time zone",
+        "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+1</span> (<a href=\"/wiki/Central_European_Time\" title=\"Central European Time\">CET</a>)</td>",
+        "value_text": "UTC +1 ( CET )"
+      },
+      {
+        "label": "• Summer ( DST )",
+        "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+2</span> (<a href=\"/wiki/Central_European_Summer_Time\" title=\"Central European Summer Time\">CEST</a>)</td>",
+        "value_text": "UTC +2 ( CEST )"
+      },
+      {
+        "label": "Calling code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Telephone_numbers_in_Austria\" title=\"Telephone numbers in Austria\">+43</a></td>",
+        "value_text": "+43"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:AT\" title=\"ISO 3166-2:AT\">AT</a></td>",
+        "value_text": "AT"
+      },
+      {
+        "label": "Internet TLD",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/.at\" title=\".at\">.at</a></td>",
+        "value_text": ".at"
+      }
+    ]
+  },
+  "cleaned": {
+    "rows": [
+      {
+        "label": "Capital and largest city",
+        "value_text": "Vienna 48°12′N 16°21′E ﻿ / ﻿ 48.200°N 16.350°E ﻿ / 48.200; 16.350"
+      },
+      {
+        "label": "Official national language",
+        "value_text": "German"
+      },
+      {
+        "label": "Official regional languages",
+        "value_text": "Hungarian Slovene Burgenland Croatian"
+      },
+      {
+        "label": "Ethnic groups (2024)",
+        "value_text": "72.2% Germans 27.8% other"
+      },
+      {
+        "label": "Religion (2021)",
+        "value_text": "68.2% Christianity 55.2% Catholicism 4.9% Orthodoxy 3.8% Protestantism 4.3% other Christian 22.4% no religion 8.3% Islam 1.1% other"
+      },
+      {
+        "label": "Demonym",
+        "value_text": "Austrian"
+      },
+      {
+        "label": "Government",
+        "value_text": "Federal semi-presidential republic"
+      },
+      {
+        "label": "• President",
+        "value_text": "Alexander Van der Bellen"
+      },
+      {
+        "label": "• Chancellor",
+        "value_text": "Christian Stocker"
+      },
+      {
+        "label": "Legislature",
+        "value_text": "Parliament"
+      },
+      {
+        "label": "• Upper house",
+        "value_text": "Federal Council"
+      },
+      {
+        "label": "• Lower house",
+        "value_text": "National Council"
+      },
+      {
+        "label": "• Margraviate ( oldest naming )",
+        "value_text": "1 November 996"
+      },
+      {
+        "label": "• Duchy",
+        "value_text": "17 September 1156"
+      },
+      {
+        "label": "• Archduchy",
+        "value_text": "6 January 1453"
+      },
+      {
+        "label": "• Imperial circle",
+        "value_text": "1512"
+      },
+      {
+        "label": "• Empire",
+        "value_text": "11 August 1804"
+      },
+      {
+        "label": "• Austria-Hungary",
+        "value_text": "30 March 1867"
+      },
+      {
+        "label": "• First Republic",
+        "value_text": "10 September 1919"
+      },
+      {
+        "label": "• Federal State",
+        "value_text": "1 May 1934"
+      },
+      {
+        "label": "• Anschluss",
+        "value_text": "13 March 1938"
+      },
+      {
+        "label": "• Second Republic",
+        "value_text": "27 April 1945"
+      },
+      {
+        "label": "• State Treaty",
+        "value_text": "27 July 1955"
+      },
+      {
+        "label": "• Total",
+        "value_text": "83,879 km 2 (32,386 sq mi) ( 113th )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_text": "0.84 (2015)"
+      },
+      {
+        "label": "• 2024 estimate",
+        "value_text": "9,110,079 ( 99th )"
+      },
+      {
+        "label": "• Density",
+        "value_text": "107.6/km 2 (278.7/sq mi) ( 106th )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$682.86 billion ( 46th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$74,370 ( 18th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$534.30 billion ( 30th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$58,190 ( 13th )"
+      },
+      {
+        "label": "Gini (2023)",
+        "value_text": "28.1 low inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_text": "0.930 very high ( 22nd )"
+      },
+      {
+        "label": "Currency",
+        "value_text": "Euro ( € ) ( EUR )"
+      },
+      {
+        "label": "Time zone",
+        "value_text": "UTC +1 ( CET )"
+      },
+      {
+        "label": "• Summer ( DST )",
+        "value_text": "UTC +2 ( CEST )"
+      },
+      {
+        "label": "Calling code",
+        "value_text": "+43"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_text": "AT"
+      },
+      {
+        "label": "Internet TLD",
+        "value_text": ".at"
+      }
+    ]
+  },
+  "normalized": {
+    "fields": {
+      "capital_and_largest_city": {
+        "raw_label": "Capital and largest city",
+        "text": "Vienna 48°12′N 16°21′E ﻿ / ﻿ 48.200°N 16.350°E ﻿ / 48.200; 16.350",
+        "tokens": [
+          "Vienna",
+          "48",
+          "12",
+          "N",
+          "16",
+          "21",
+          "E",
+          "48",
+          "200",
+          "N",
+          "16",
+          "350",
+          "E",
+          "48",
+          "200",
+          "16",
+          "350"
+        ],
+        "numbers": [
+          48,
+          12,
+          16,
+          21,
+          48.2,
+          16.35,
+          48.2,
+          16.35
+        ]
+      },
+      "official_national_language": {
+        "raw_label": "Official national language",
+        "text": "German",
+        "tokens": [
+          "German"
+        ],
+        "numbers": []
+      },
+      "official_regional_languages": {
+        "raw_label": "Official regional languages",
+        "text": "Hungarian Slovene Burgenland Croatian",
+        "tokens": [
+          "Hungarian",
+          "Slovene",
+          "Burgenland",
+          "Croatian"
+        ],
+        "numbers": []
+      },
+      "ethnic_groups_2024": {
+        "raw_label": "Ethnic groups (2024)",
+        "text": "72.2% Germans 27.8% other",
+        "tokens": [
+          "72",
+          "2",
+          "Germans",
+          "27",
+          "8",
+          "other"
+        ],
+        "numbers": [
+          72.2,
+          27.8
+        ]
+      },
+      "religion_2021": {
+        "raw_label": "Religion (2021)",
+        "text": "68.2% Christianity 55.2% Catholicism 4.9% Orthodoxy 3.8% Protestantism 4.3% other Christian 22.4% no religion 8.3% Islam 1.1% other",
+        "tokens": [
+          "68",
+          "2",
+          "Christianity",
+          "55",
+          "2",
+          "Catholicism",
+          "4",
+          "9",
+          "Orthodoxy",
+          "3",
+          "8",
+          "Protestantism",
+          "4",
+          "3",
+          "other",
+          "Christian",
+          "22",
+          "4",
+          "no",
+          "religion",
+          "8",
+          "3",
+          "Islam",
+          "1",
+          "1",
+          "other"
+        ],
+        "numbers": [
+          68.2,
+          55.2,
+          4.9,
+          3.8,
+          4.3,
+          22.4,
+          8.3,
+          1.1
+        ]
+      },
+      "demonym": {
+        "raw_label": "Demonym",
+        "text": "Austrian",
+        "tokens": [
+          "Austrian"
+        ],
+        "numbers": []
+      },
+      "government": {
+        "raw_label": "Government",
+        "text": "Federal semi-presidential republic",
+        "tokens": [
+          "Federal",
+          "semi",
+          "presidential",
+          "republic"
+        ],
+        "numbers": []
+      },
+      "president": {
+        "raw_label": "• President",
+        "text": "Alexander Van der Bellen",
+        "tokens": [
+          "Alexander",
+          "Van",
+          "der",
+          "Bellen"
+        ],
+        "numbers": []
+      },
+      "chancellor": {
+        "raw_label": "• Chancellor",
+        "text": "Christian Stocker",
+        "tokens": [
+          "Christian",
+          "Stocker"
+        ],
+        "numbers": []
+      },
+      "legislature": {
+        "raw_label": "Legislature",
+        "text": "Parliament",
+        "tokens": [
+          "Parliament"
+        ],
+        "numbers": []
+      },
+      "upper_house": {
+        "raw_label": "• Upper house",
+        "text": "Federal Council",
+        "tokens": [
+          "Federal",
+          "Council"
+        ],
+        "numbers": []
+      },
+      "lower_house": {
+        "raw_label": "• Lower house",
+        "text": "National Council",
+        "tokens": [
+          "National",
+          "Council"
+        ],
+        "numbers": []
+      },
+      "margraviate_oldest_naming": {
+        "raw_label": "• Margraviate ( oldest naming )",
+        "text": "1 November 996",
+        "tokens": [
+          "1",
+          "November",
+          "996"
+        ],
+        "numbers": [
+          1,
+          996
+        ]
+      },
+      "duchy": {
+        "raw_label": "• Duchy",
+        "text": "17 September 1156",
+        "tokens": [
+          "17",
+          "September",
+          "1156"
+        ],
+        "numbers": [
+          17,
+          1156
+        ]
+      },
+      "archduchy": {
+        "raw_label": "• Archduchy",
+        "text": "6 January 1453",
+        "tokens": [
+          "6",
+          "January",
+          "1453"
+        ],
+        "numbers": [
+          6,
+          1453
+        ]
+      },
+      "imperial_circle": {
+        "raw_label": "• Imperial circle",
+        "text": "1512",
+        "tokens": [
+          "1512"
+        ],
+        "numbers": [
+          1512
+        ]
+      },
+      "empire": {
+        "raw_label": "• Empire",
+        "text": "11 August 1804",
+        "tokens": [
+          "11",
+          "August",
+          "1804"
+        ],
+        "numbers": [
+          11,
+          1804
+        ]
+      },
+      "austria_hungary": {
+        "raw_label": "• Austria-Hungary",
+        "text": "30 March 1867",
+        "tokens": [
+          "30",
+          "March",
+          "1867"
+        ],
+        "numbers": [
+          30,
+          1867
+        ]
+      },
+      "first_republic": {
+        "raw_label": "• First Republic",
+        "text": "10 September 1919",
+        "tokens": [
+          "10",
+          "September",
+          "1919"
+        ],
+        "numbers": [
+          10,
+          1919
+        ]
+      },
+      "federal_state": {
+        "raw_label": "• Federal State",
+        "text": "1 May 1934",
+        "tokens": [
+          "1",
+          "May",
+          "1934"
+        ],
+        "numbers": [
+          1,
+          1934
+        ]
+      },
+      "anschluss": {
+        "raw_label": "• Anschluss",
+        "text": "13 March 1938",
+        "tokens": [
+          "13",
+          "March",
+          "1938"
+        ],
+        "numbers": [
+          13,
+          1938
+        ]
+      },
+      "second_republic": {
+        "raw_label": "• Second Republic",
+        "text": "27 April 1945",
+        "tokens": [
+          "27",
+          "April",
+          "1945"
+        ],
+        "numbers": [
+          27,
+          1945
+        ]
+      },
+      "state_treaty": {
+        "raw_label": "• State Treaty",
+        "text": "27 July 1955",
+        "tokens": [
+          "27",
+          "July",
+          "1955"
+        ],
+        "numbers": [
+          27,
+          1955
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$534.30 billion ( 30th )",
+        "tokens": [
+          "534",
+          "30",
+          "billion",
+          "30th"
+        ],
+        "numbers": [
+          534.3,
+          30
+        ]
+      },
+      "water": {
+        "raw_label": "• Water (%)",
+        "text": "0.84 (2015)",
+        "tokens": [
+          "0",
+          "84",
+          "2015"
+        ],
+        "numbers": [
+          0.84,
+          2015
+        ]
+      },
+      "2024_estimate": {
+        "raw_label": "• 2024 estimate",
+        "text": "9,110,079 ( 99th )",
+        "tokens": [
+          "9",
+          "110",
+          "079",
+          "99th"
+        ],
+        "numbers": [
+          9110079,
+          99
+        ]
+      },
+      "density": {
+        "raw_label": "• Density",
+        "text": "107.6/km 2 (278.7/sq mi) ( 106th )",
+        "tokens": [
+          "107",
+          "6",
+          "km",
+          "2",
+          "278",
+          "7",
+          "sq",
+          "mi",
+          "106th"
+        ],
+        "numbers": [
+          107.6,
+          2,
+          278.7,
+          106
+        ]
+      },
+      "gdp_ppp": {
+        "raw_label": "GDP ( PPP )",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$58,190 ( 13th )",
+        "tokens": [
+          "58",
+          "190",
+          "13th"
+        ],
+        "numbers": [
+          58190,
+          13
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gini_2023": {
+        "raw_label": "Gini (2023)",
+        "text": "28.1 low inequality",
+        "tokens": [
+          "28",
+          "1",
+          "low",
+          "inequality"
+        ],
+        "numbers": [
+          28.1
+        ]
+      },
+      "hdi_2023": {
+        "raw_label": "HDI (2023)",
+        "text": "0.930 very high ( 22nd )",
+        "tokens": [
+          "0",
+          "930",
+          "very",
+          "high",
+          "22nd"
+        ],
+        "numbers": [
+          0.93,
+          22
+        ]
+      },
+      "currency": {
+        "raw_label": "Currency",
+        "text": "Euro ( € ) ( EUR )",
+        "tokens": [
+          "Euro",
+          "EUR"
+        ],
+        "numbers": []
+      },
+      "time_zone": {
+        "raw_label": "Time zone",
+        "text": "UTC +1 ( CET )",
+        "tokens": [
+          "UTC",
+          "1",
+          "CET"
+        ],
+        "numbers": [
+          1
+        ]
+      },
+      "summer_dst": {
+        "raw_label": "• Summer ( DST )",
+        "text": "UTC +2 ( CEST )",
+        "tokens": [
+          "UTC",
+          "2",
+          "CEST"
+        ],
+        "numbers": [
+          2
+        ]
+      },
+      "calling_code": {
+        "raw_label": "Calling code",
+        "text": "+43",
+        "tokens": [
+          "43"
+        ],
+        "numbers": [
+          43
+        ]
+      },
+      "iso_3166_code": {
+        "raw_label": "ISO 3166 code",
+        "text": "AT",
+        "tokens": [
+          "AT"
+        ],
+        "numbers": []
+      },
+      "internet_tld": {
+        "raw_label": "Internet TLD",
+        "text": ".at",
+        "tokens": [
+          "at"
+        ],
+        "numbers": []
+      }
+    }
+  }
+}

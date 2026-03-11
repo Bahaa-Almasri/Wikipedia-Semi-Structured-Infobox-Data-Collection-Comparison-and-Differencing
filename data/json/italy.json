@@ -1,0 +1,832 @@
+{
+  "meta": {
+    "country_name": "Italy",
+    "slug": "italy",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Italy",
+    "retrieved_at": "2026-03-11T17:56:13+00:00",
+    "source": "wikipedia-infobox"
+  },
+  "raw": {
+    "infobox_html": "<table class=\"infobox ib-country vcard\"><tbody><tr><th class=\"infobox-above adr\" colspan=\"2\"><div class=\"fn org country-name\">Italian Republic</div><div class=\"ib-country-names\"><span title=\"Italian-language text\"><i lang=\"it\">Repubblica Italiana</i></span><span data-plural=\"0\" style=\"display:none\"></span></div></th></tr><tr><td class=\"infobox-image\" colspan=\"2\"><div class=\"noresize\" style=\"display:table; width:100%;\">\n<div style=\"display:table-cell; vertical-align:middle; padding-left:5px;\">\n<div style=\"padding-bottom:3px;\"><span class=\"mw-image-border\" typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Flag_of_Italy.svg\" title=\"Flag of Italy\"><img alt=\"Flag of Italy\" class=\"mw-file-element\" data-file-height=\"1000\" data-file-width=\"1500\" decoding=\"async\" height=\"83\" src=\"//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/250px-Flag_of_Italy.svg.png\" width=\"125\"/></a></span></div>\n<div><a href=\"/wiki/Flag_of_Italy\" title=\"Flag of Italy\">Flag</a></div>\n</div>\n<div style=\"display:table-cell; vertical-align:middle; padding: 0px 5px;\">\n<div style=\"padding-bottom:3px;\"><span typeof=\"mw:File\"><a class=\"mw-file-description\" href=\"/wiki/File:Emblem_of_Italy.svg\" title=\"Emblem of Italy\"><img alt=\"Emblem of Italy\" class=\"mw-file-element\" data-file-height=\"808\" data-file-width=\"710\" decoding=\"async\" height=\"97\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Emblem_of_Italy.svg/120px-Emblem_of_Italy.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Emblem_of_Italy.svg/250px-Emblem_of_Italy.svg.png 1.5x\" width=\"85\"/></a></span></div>\n<div><a href=\"/wiki/Emblem_of_Italy\" title=\"Emblem of Italy\"> Emblem</a></div>\n</div>\n</div></td></tr><tr><td class=\"infobox-full-data anthem\" colspan=\"2\"><b>Anthem:</b> \"<span title=\"Italian-language text\"><span lang=\"it\" style=\"font-style: normal;\"><a href=\"/wiki/Il_Canto_degli_Italiani\" title=\"Il Canto degli Italiani\">Il Canto degli Italiani</a></span></span>\"<br/>\"The \nSong of the Italians\"<div style=\"padding-top:0.5em;\"><div class=\"center\"><span class=\"mw-default-size\" typeof=\"mw:File\"><span><audio class=\"mw-file-element\" controls=\"\" data-durationhint=\"97\" data-mw-tmh=\"\" data-mwprovider=\"wikimediacommons\" data-mwtitle=\"Canto_degli_Italiani_-_Marina_Militare_(strumentale).wav\" id=\"mwe_player_0\" preload=\"none\" style=\"width:250px;\" width=\"250\"><source data-height=\"0\" data-transcodekey=\"ogg\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/transcoded/4/47/Canto_degli_Italiani_-_Marina_Militare_%28strumentale%29.wav/Canto_degli_Italiani_-_Marina_Militare_%28strumentale%29.wav.ogg\" type='audio/ogg; codecs=\"vorbis\"'/><source data-height=\"0\" data-transcodekey=\"mp3\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/transcoded/4/47/Canto_degli_Italiani_-_Marina_Militare_%28strumentale%29.wav/Canto_degli_Italiani_-_Marina_Militare_%28strumentale%29.wav.mp3\" type=\"audio/mpeg\"/><source data-height=\"0\" data-width=\"0\" src=\"//upload.wikimedia.org/wikipedia/commons/4/47/Canto_degli_Italiani_-_Marina_Militare_%28strumentale%29.wav\" type=\"audio/wav\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"English ‪(en)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ACanto_degli_Italiani_-_Marina_Militare_%28strumentale%29.wav&amp;lang=en&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"en\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"español ‪(es)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ACanto_degli_Italiani_-_Marina_Militare_%28strumentale%29.wav&amp;lang=es&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"es\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"हिन्दी ‪(hi)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ACanto_degli_Italiani_-_Marina_Militare_%28strumentale%29.wav&amp;lang=hi&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"hi\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"italiano ‪(it)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ACanto_degli_Italiani_-_Marina_Militare_%28strumentale%29.wav&amp;lang=it&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"it\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"日本語 ‪(ja)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ACanto_degli_Italiani_-_Marina_Militare_%28strumentale%29.wav&amp;lang=ja&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"ja\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"polski ‪(pl)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ACanto_degli_Italiani_-_Marina_Militare_%28strumentale%29.wav&amp;lang=pl&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"pl\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"português do Brasil ‪(pt-br)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ACanto_degli_Italiani_-_Marina_Militare_%28strumentale%29.wav&amp;lang=pt-br&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"pt-BR\" type=\"text/vtt\"/><track data-dir=\"ltr\" kind=\"subtitles\" label=\"shqip ‪(sq)‬\" src=\"https://commons.wikimedia.org/w/api.php?action=timedtext&amp;title=File%3ACanto_degli_Italiani_-_Marina_Militare_%28strumentale%29.wav&amp;lang=sq&amp;trackformat=vtt&amp;origin=%2A\" srclang=\"sq\" type=\"text/vtt\"/></audio></span></span></div></div></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><div class=\"switcher-container\"><div><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:EU-Italy_(orthographic_projection).svg\"><img class=\"mw-file-element\" data-file-height=\"2000\" data-file-width=\"2000\" decoding=\"async\" height=\"250\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/EU-Italy_%28orthographic_projection%29.svg/250px-EU-Italy_%28orthographic_projection%29.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/EU-Italy_%28orthographic_projection%29.svg/500px-EU-Italy_%28orthographic_projection%29.svg.png 1.5x\" width=\"250\"/></a></span><span class=\"switcher-label\" data-switcher-default=\"\" style=\"display:none\">Show globe</span></div><div><span class=\"mw-default-size\" typeof=\"mw:File/Frameless\"><a class=\"mw-file-description\" href=\"/wiki/File:EU-Italy.svg\"><img class=\"mw-file-element\" data-file-height=\"1720\" data-file-width=\"2045\" decoding=\"async\" height=\"244\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/EU-Italy.svg/330px-EU-Italy.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/EU-Italy.svg/500px-EU-Italy.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/ba/EU-Italy.svg/960px-EU-Italy.svg.png 2x\" width=\"290\"/></a></span><span class=\"switcher-label\" style=\"display:none\">Show map of the European Union</span></div></div></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Capital<div class=\"ib-country-largest\">and largest city</div></th><td class=\"infobox-data\"><a href=\"/wiki/Rome\" title=\"Rome\">Rome</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Italy&amp;params=41_54_N_12_29_E_type:city\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">41°54′N</span> <span class=\"longitude\">12°29′E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">41.900°N 12.483°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">41.900; 12.483</span></span></span></a></span></span></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\">Official languages</th><td class=\"infobox-data\"><a href=\"/wiki/Italian_language\" title=\"Italian language\">Italian</a><sup>a</sup>\n<link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Immigration_to_Italy\" title=\"Immigration to Italy\">Nationality</a> <style data-mw-deduplicate=\"TemplateStyles:r886047488\">.mw-parser-output .nobold{font-weight:normal}</style><span class=\"nobold\">(2021)</span></th><td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li>91% Italian</li><li>9% other</li></ul></div></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Native languages</th><td class=\"infobox-data\">See <a href=\"/wiki/Languages_of_Italy\" title=\"Languages of Italy\">main article</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\">Religion <div class=\"ib-country-religion\"> (2020)</div></th><td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space:nowrap;\">84% <a href=\"/wiki/Christianity_in_Italy\" title=\"Christianity in Italy\">Christianity</a></li><li style=\"white-space:nowrap;\">12% <a href=\"/wiki/Irreligion_in_Italy\" title=\"Irreligion in Italy\">irreligion</a></li><li style=\"white-space:nowrap;\">4% <a href=\"/wiki/Religion_in_Italy\" title=\"Religion in Italy\">other</a></li></ul></div></link></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Demonym\" title=\"Demonym\">Demonym</a></th><td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/Italian_people\" title=\"Italian people\">Italian</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Politics_of_Italy\" title=\"Politics of Italy\">Government</a></th><td class=\"infobox-data\"><a href=\"/wiki/Unitary_parliamentary_republic\" title=\"Unitary parliamentary republic\">Unitary parliamentary republic</a></td></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/President_of_Italy\" title=\"President of Italy\">President</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Sergio_Mattarella\" title=\"Sergio Mattarella\">Sergio Mattarella</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Prime_Minister_of_Italy\" title=\"Prime Minister of Italy\">Prime Minister</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Giorgia_Meloni\" title=\"Giorgia Meloni\">Giorgia Meloni</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/President_of_the_Senate_of_the_Republic_(Italy)\" title=\"President of the Senate of the Republic (Italy)\">President of the Senate</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Ignazio_La_Russa\" title=\"Ignazio La Russa\">Ignazio La Russa</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/President_of_the_Chamber_of_Deputies_(Italy)\" title=\"President of the Chamber of Deputies (Italy)\">President of the Chamber of Deputies</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Lorenzo_Fontana\" title=\"Lorenzo Fontana\">Lorenzo Fontana</a></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Legislature</th><td class=\"infobox-data\"><a href=\"/wiki/Italian_Parliament\" title=\"Italian Parliament\">Parliament</a></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• <a href=\"/wiki/Upper_house\" title=\"Upper house\">Upper house</a></div></th><td class=\"infobox-data\"><a href=\"/wiki/Senate_of_the_Republic_(Italy)\" title=\"Senate of the Republic (Italy)\">Senate of the Republic</a></td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• <a href=\"/wiki/Lower_house\" title=\"Lower house\">Lower house</a></div></th><td class=\"infobox-data\"><a href=\"/wiki/Chamber_of_Deputies_(Italy)\" title=\"Chamber of Deputies (Italy)\">Chamber of Deputies</a></td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/History_of_Italy\" title=\"History of Italy\">Historical polities</a></th></tr><tr class=\"mergedrow\"><td class=\"infobox-full-data\" colspan=\"2\"><link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a class=\"mw-redirect\" href=\"/wiki/Ancient_peoples_of_Italy\" title=\"Ancient peoples of Italy\">Italic peoples</a> </div></th><td class=\"infobox-data\">Antiquity</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Ancient_Rome\" title=\"Ancient Rome\">Ancient Rome</a><br/><a href=\"/wiki/Roman_Italy\" title=\"Roman Italy\">Roman Italy</a> </div></th><td class=\"infobox-data\">753 BC–476 AD</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Barbarian_kingdoms\" title=\"Barbarian kingdoms\">Roman-Barbarian kingdoms</a><br/><a href=\"/wiki/Byzantine_Italy\" title=\"Byzantine Italy\">Byzantine Italy</a> </div></th><td class=\"infobox-data\">Early Middle Ages</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/List_of_historical_states_of_Italy\" title=\"List of historical states of Italy\">Italian city-states and regional polities</a> </div></th><td class=\"infobox-data\"><a href=\"/wiki/Italy_in_the_Middle_Ages\" title=\"Italy in the Middle Ages\">Middle Ages</a> and Modern period</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Kingdom_of_Italy\" title=\"Kingdom of Italy\">Kingdom of Italy</a> </div></th><td class=\"infobox-data\">1861–1946<br/>17 March 1861<span class=\"noprint\">; 164 years ago</span><span style=\"display:none\"> (<span class=\"bday dtstart published updated\">1861-03-17</span>)</span></td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/Italian_Empire\" title=\"Italian Empire\">Italian Empire</a> </div></th><td class=\"infobox-data\">1882–1960</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div style=\"text-indent:-0.9em;margin-left:1.2em;font-weight:normal;\">• <a href=\"/wiki/1946_Italian_institutional_referendum\" title=\"1946 Italian institutional referendum\">Italian Republic</a> </div></th><td class=\"infobox-data\">2 June 1946<span class=\"noprint\">; 79 years ago</span><span style=\"display:none\"> (<span class=\"bday dtstart published updated\">1946-06-02</span>)</span></td></tr><tr style=\"display:none\"><td colspan=\"2\">\n</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Geography_of_Italy\" title=\"Geography of Italy\">Area </a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\">301,340 km<sup>2</sup> (116,350 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">71st</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Water (%)</div></th><td class=\"infobox-data\">1.24 (2015)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-header\" colspan=\"2\"><a href=\"/wiki/Demographics_of_Italy\" title=\"Demographics of Italy\">Population</a></th></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• 2025 estimate</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral decrease\"><img alt=\"Neutral decrease\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/20px-Decrease_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/40px-Decrease_Neutral.svg.png 2x\" width=\"11\"/></span></span> 58,915,561 (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">25th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Density</div></th><td class=\"infobox-data\">195.5/km<sup>2</sup> (506.3/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">72nd</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(<a href=\"/wiki/Purchasing_power_parity\" title=\"Purchasing power parity\">PPP</a>)</span></link></th><td class=\"infobox-data\">2025 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $3.719 trillion (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">11th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $63,076 (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">29th</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gross_domestic_product\" title=\"Gross domestic product\">GDP</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(nominal)</span></link></th><td class=\"infobox-data\">2025 estimate</td></tr><tr class=\"mergedrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Total</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $2.423 trillion (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">8th</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Per capita</div></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $41,091 (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">27th</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Gini_coefficient\" title=\"Gini coefficient\">Gini</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2020)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Positive decrease\"><img alt=\"Positive decrease\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/20px-Decrease_Positive.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/40px-Decrease_Positive.svg.png 2x\" width=\"11\"/></span></span> 32.5<br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:#707070\">medium inequality</span></span></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Human_Development_Index\" title=\"Human Development Index\">HDI</a> <link href=\"mw-data:TemplateStyles:r886047488\" rel=\"mw-deduplicated-inline-style\"><span class=\"nobold\">(2023)</span></link></th><td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.915<br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"><span class=\"tmp-color\" style=\"color:darkgreen\">very high</span></link></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">29th</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\">Currency</th><td class=\"infobox-data\"><a href=\"/wiki/Euro\" title=\"Euro\">Euro</a> (€)<sup>b</sup> (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">EUR</a>)</td></tr><tr class=\"mergedtoprow\"><th class=\"infobox-label\" scope=\"row\">Time zone</th><td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+1</span> (<a href=\"/wiki/Central_European_Time\" title=\"Central European Time\">CET</a>)</td></tr><tr class=\"mergedbottomrow\"><th class=\"infobox-label\" scope=\"row\"><div class=\"ib-country-fake-li\">• Summer (<a href=\"/wiki/Daylight_saving_time\" title=\"Daylight saving time\">DST</a>)</div></th><td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+2</span> (<a href=\"/wiki/Central_European_Summer_Time\" title=\"Central European Summer Time\">CEST</a>)</td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Telephone_numbers_in_Italy\" title=\"Telephone numbers in Italy\">Calling code</a></th><td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/%2B39\" title=\"+39\">+39</a> <sup>c</sup></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/ISO_3166\" title=\"ISO 3166\">ISO 3166 code</a></th><td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:IT\" title=\"ISO 3166-2:IT\">IT</a></td></tr><tr><th class=\"infobox-label\" scope=\"row\"><a href=\"/wiki/Country_code_top-level_domain\" title=\"Country code top-level domain\">Internet TLD</a></th><td class=\"infobox-data\"><a href=\"/wiki/.it\" title=\".it\">.it</a></td></tr><tr><td class=\"infobox-full-data\" colspan=\"2\"><div class=\"ib-country-fn\"><ol class=\"ib-country-fn-alpha\">\n<li value=\"1\"><span style=\"font-size:100%;\">German is co-official in <a href=\"/wiki/South_Tyrol\" title=\"South Tyrol\">South Tyrol</a> and <a href=\"/wiki/Friuli-Venezia_Giulia\" title=\"Friuli-Venezia Giulia\">Friuli-Venezia Giulia</a>; French is co-official in the <a href=\"/wiki/Aosta_Valley\" title=\"Aosta Valley\">Aosta Valley</a>; <a href=\"/wiki/Slovene_language\" title=\"Slovene language\">Slovene</a> is co-official in the <a href=\"/wiki/Province_of_Trieste\" title=\"Province of Trieste\">province of Trieste</a>, the <a href=\"/wiki/Province_of_Gorizia\" title=\"Province of Gorizia\">province of Gorizia</a>, and Friuli-Venezia Giulia; <a href=\"/wiki/Ladin_language\" title=\"Ladin language\">Ladin</a> is co-official in South Tyrol, in <a href=\"/wiki/Trentino\" title=\"Trentino\">Trentino</a> and in other northern areas; <a href=\"/wiki/Friulian_language\" title=\"Friulian language\">Friulian</a> is co-official in Friuli-Venezia Giulia; <a href=\"/wiki/Sardinian_language\" title=\"Sardinian language\">Sardinian</a> is co-official in <a href=\"/wiki/Sardinia\" title=\"Sardinia\">Sardinia</a>.<sup class=\"reference\" id=\"cite_ref-10\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup></span></li><li value=\"2\"><span style=\"font-size:100%;\">Before 2002, the <a href=\"/wiki/Italian_lira\" title=\"Italian lira\">Italian lira</a>. The euro is accepted in <a href=\"/wiki/Campione_d%27Italia\" title=\"Campione d'Italia\">Campione d'Italia</a>, but its official currency is the <a href=\"/wiki/Swiss_franc\" title=\"Swiss franc\">Swiss franc</a>.<sup class=\"reference\" id=\"cite_ref-11\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup></span></li><li value=\"3\"><span style=\"font-size:100%;\">To call Campione d'Italia, it is necessary to use the Swiss code <a class=\"mw-redirect\" href=\"/wiki/%2B41\" title=\"+41\">+41</a>.</span></li>\n</ol></div></td></tr></tbody></table>",
+    "rows": [
+      {
+        "label": "Capital and largest city",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Rome\" title=\"Rome\">Rome</a><br/><span class=\"geo-inline\"><style data-mw-deduplicate=\"TemplateStyles:r1156832818\">.mw-parser-output .geo-default,.mw-parser-output .geo-dms,.mw-parser-output .geo-dec{display:inline}.mw-parser-output .geo-nondefault,.mw-parser-output .geo-multi-punct,.mw-parser-output .geo-inline-hidden{display:none}.mw-parser-output .longitude,.mw-parser-output .latitude{white-space:nowrap}</style><span class=\"plainlinks nourlexpansion\"><a class=\"external text\" href=\"https://geohack.toolforge.org/geohack.php?pagename=Italy&amp;params=41_54_N_12_29_E_type:city\"><span class=\"geo-default\"><span class=\"geo-dms\" title=\"Maps, aerial photos, and other data for this location\"><span class=\"latitude\">41°54′N</span> <span class=\"longitude\">12°29′E</span></span></span><span class=\"geo-multi-punct\">﻿ / ﻿</span><span class=\"geo-nondefault\"><span class=\"geo-dec\" title=\"Maps, aerial photos, and other data for this location\">41.900°N 12.483°E</span><span style=\"display:none\">﻿ / <span class=\"geo\">41.900; 12.483</span></span></span></a></span></span></td>",
+        "value_text": "Rome 41°54′N 12°29′E ﻿ / ﻿ 41.900°N 12.483°E ﻿ / 41.900; 12.483"
+      },
+      {
+        "label": "Official languages",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Italian_language\" title=\"Italian language\">Italian</a><sup>a</sup>\n<link href=\"mw-data:TemplateStyles:r1316064257\" rel=\"mw-deduplicated-inline-style\"/></td>",
+        "value_text": "Italian a"
+      },
+      {
+        "label": "Nationality (2021)",
+        "value_html": "<td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1126788409\">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style><div class=\"plainlist\"><ul><li>91% Italian</li><li>9% other</li></ul></div></td>",
+        "value_text": "91% Italian 9% other"
+      },
+      {
+        "label": "Native languages",
+        "value_html": "<td class=\"infobox-data\">See <a href=\"/wiki/Languages_of_Italy\" title=\"Languages of Italy\">main article</a></td>",
+        "value_text": "See main article"
+      },
+      {
+        "label": "Religion (2020)",
+        "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space:nowrap;\">84% <a href=\"/wiki/Christianity_in_Italy\" title=\"Christianity in Italy\">Christianity</a></li><li style=\"white-space:nowrap;\">12% <a href=\"/wiki/Irreligion_in_Italy\" title=\"Irreligion in Italy\">irreligion</a></li><li style=\"white-space:nowrap;\">4% <a href=\"/wiki/Religion_in_Italy\" title=\"Religion in Italy\">other</a></li></ul></div></link></td>",
+        "value_text": "84% Christianity 12% irreligion 4% other"
+      },
+      {
+        "label": "Demonym",
+        "value_html": "<td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/Italian_people\" title=\"Italian people\">Italian</a></td>",
+        "value_text": "Italian"
+      },
+      {
+        "label": "Government",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Unitary_parliamentary_republic\" title=\"Unitary parliamentary republic\">Unitary parliamentary republic</a></td>",
+        "value_text": "Unitary parliamentary republic"
+      },
+      {
+        "label": "• President",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Sergio_Mattarella\" title=\"Sergio Mattarella\">Sergio Mattarella</a></td>",
+        "value_text": "Sergio Mattarella"
+      },
+      {
+        "label": "• Prime Minister",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Giorgia_Meloni\" title=\"Giorgia Meloni\">Giorgia Meloni</a></td>",
+        "value_text": "Giorgia Meloni"
+      },
+      {
+        "label": "• President of the Senate",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Ignazio_La_Russa\" title=\"Ignazio La Russa\">Ignazio La Russa</a></td>",
+        "value_text": "Ignazio La Russa"
+      },
+      {
+        "label": "• President of the Chamber of Deputies",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Lorenzo_Fontana\" title=\"Lorenzo Fontana\">Lorenzo Fontana</a></td>",
+        "value_text": "Lorenzo Fontana"
+      },
+      {
+        "label": "Legislature",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Italian_Parliament\" title=\"Italian Parliament\">Parliament</a></td>",
+        "value_text": "Parliament"
+      },
+      {
+        "label": "• Upper house",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Senate_of_the_Republic_(Italy)\" title=\"Senate of the Republic (Italy)\">Senate of the Republic</a></td>",
+        "value_text": "Senate of the Republic"
+      },
+      {
+        "label": "• Lower house",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Chamber_of_Deputies_(Italy)\" title=\"Chamber of Deputies (Italy)\">Chamber of Deputies</a></td>",
+        "value_text": "Chamber of Deputies"
+      },
+      {
+        "label": "• Italic peoples",
+        "value_html": "<td class=\"infobox-data\">Antiquity</td>",
+        "value_text": "Antiquity"
+      },
+      {
+        "label": "• Ancient Rome Roman Italy",
+        "value_html": "<td class=\"infobox-data\">753 BC–476 AD</td>",
+        "value_text": "753 BC–476 AD"
+      },
+      {
+        "label": "• Roman-Barbarian kingdoms Byzantine Italy",
+        "value_html": "<td class=\"infobox-data\">Early Middle Ages</td>",
+        "value_text": "Early Middle Ages"
+      },
+      {
+        "label": "• Italian city-states and regional polities",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Italy_in_the_Middle_Ages\" title=\"Italy in the Middle Ages\">Middle Ages</a> and Modern period</td>",
+        "value_text": "Middle Ages and Modern period"
+      },
+      {
+        "label": "• Kingdom of Italy",
+        "value_html": "<td class=\"infobox-data\">1861–1946<br/>17 March 1861<span class=\"noprint\">; 164 years ago</span><span style=\"display:none\"> (<span class=\"bday dtstart published updated\">1861-03-17</span>)</span></td>",
+        "value_text": "1861–1946 17 March 1861 ; 164 years ago ( 1861-03-17 )"
+      },
+      {
+        "label": "• Italian Empire",
+        "value_html": "<td class=\"infobox-data\">1882–1960</td>",
+        "value_text": "1882–1960"
+      },
+      {
+        "label": "• Italian Republic",
+        "value_html": "<td class=\"infobox-data\">2 June 1946<span class=\"noprint\">; 79 years ago</span><span style=\"display:none\"> (<span class=\"bday dtstart published updated\">1946-06-02</span>)</span></td>",
+        "value_text": "2 June 1946 ; 79 years ago ( 1946-06-02 )"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\">301,340 km<sup>2</sup> (116,350 sq mi)<sup class=\"reference\" id=\"cite_ref-Central_Intelligence_Agency-2023_4-0\"><a href=\"#cite_note-Central_Intelligence_Agency-2023-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">71st</a>)</td>",
+        "value_text": "301,340 km 2 (116,350 sq mi) [ 4 ] [ 5 ] ( 71st )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_html": "<td class=\"infobox-data\">1.24 (2015)<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup></td>",
+        "value_text": "1.24 (2015) [ 3 ]"
+      },
+      {
+        "label": "• 2025 estimate",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral decrease\"><img alt=\"Neutral decrease\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/20px-Decrease_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/40px-Decrease_Neutral.svg.png 2x\" width=\"11\"/></span></span> 58,915,561<sup class=\"reference\" id=\"cite_ref-population_6-0\"><a href=\"#cite_note-population-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">25th</a>)</td>",
+        "value_text": "58,915,561 [ 6 ] ( 25th )"
+      },
+      {
+        "label": "• Density",
+        "value_html": "<td class=\"infobox-data\">195.5/km<sup>2</sup> (506.3/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">72nd</a>)</td>",
+        "value_text": "195.5/km 2 (506.3/sq mi) ( 72nd )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_html": "<td class=\"infobox-data\">2025 estimate</td>",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $3.719 trillion<sup class=\"reference\" id=\"cite_ref-IMFWEO.IT_7-0\"><a href=\"#cite_note-IMFWEO.IT-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)\" title=\"List of countries by GDP (PPP)\">11th</a>)</td>",
+        "value_text": "$3.719 trillion [ 7 ] ( 11th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $63,076<sup class=\"reference\" id=\"cite_ref-IMFWEO.IT_7-1\"><a href=\"#cite_note-IMFWEO.IT-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(PPP)_per_capita\" title=\"List of countries by GDP (PPP) per capita\">29th</a>)</td>",
+        "value_text": "$63,076 [ 7 ] ( 29th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_html": "<td class=\"infobox-data\">2025 estimate</td>",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $2.423 trillion<sup class=\"reference\" id=\"cite_ref-IMFWEO.IT_7-2\"><a href=\"#cite_note-IMFWEO.IT-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)\" title=\"List of countries by GDP (nominal)\">8th</a>)</td>",
+        "value_text": "$2.423 trillion [ 7 ] ( 8th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> $41,091<sup class=\"reference\" id=\"cite_ref-IMFWEO.IT_7-3\"><a href=\"#cite_note-IMFWEO.IT-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_by_GDP_(nominal)_per_capita\" title=\"List of countries by GDP (nominal) per capita\">27th</a>)</td>",
+        "value_text": "$41,091 [ 7 ] ( 27th )"
+      },
+      {
+        "label": "Gini (2020)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Positive decrease\"><img alt=\"Positive decrease\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/20px-Decrease_Positive.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Decrease_Positive.svg/40px-Decrease_Positive.svg.png 2x\" width=\"11\"/></span></span> 32.5<sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:#707070\">medium inequality</span></span></td>",
+        "value_text": "32.5 [ 8 ] medium inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 0.915<sup class=\"reference\" id=\"cite_ref-UNHDR_9-0\"><a href=\"#cite_note-UNHDR-9\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup><br/><span class=\"nowrap\"><link href=\"mw-data:TemplateStyles:r1239334494\" rel=\"mw-deduplicated-inline-style\"><span class=\"tmp-color\" style=\"color:darkgreen\">very high</span></link></span> (<a href=\"/wiki/List_of_countries_by_Human_Development_Index\" title=\"List of countries by Human Development Index\">29th</a>)</td>",
+        "value_text": "0.915 [ 9 ] very high ( 29th )"
+      },
+      {
+        "label": "Currency",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Euro\" title=\"Euro\">Euro</a> (€)<sup>b</sup> (<a href=\"/wiki/ISO_4217\" title=\"ISO 4217\">EUR</a>)</td>",
+        "value_text": "Euro (€) b ( EUR )"
+      },
+      {
+        "label": "Time zone",
+        "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+1</span> (<a href=\"/wiki/Central_European_Time\" title=\"Central European Time\">CET</a>)</td>",
+        "value_text": "UTC +1 ( CET )"
+      },
+      {
+        "label": "• Summer ( DST )",
+        "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\"><a href=\"/wiki/Coordinated_Universal_Time\" title=\"Coordinated Universal Time\">UTC</a>+2</span> (<a href=\"/wiki/Central_European_Summer_Time\" title=\"Central European Summer Time\">CEST</a>)</td>",
+        "value_text": "UTC +2 ( CEST )"
+      },
+      {
+        "label": "Calling code",
+        "value_html": "<td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/%2B39\" title=\"+39\">+39</a> <sup>c</sup></td>",
+        "value_text": "+39 c"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/ISO_3166-2:IT\" title=\"ISO 3166-2:IT\">IT</a></td>",
+        "value_text": "IT"
+      },
+      {
+        "label": "Internet TLD",
+        "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/.it\" title=\".it\">.it</a></td>",
+        "value_text": ".it"
+      }
+    ]
+  },
+  "cleaned": {
+    "rows": [
+      {
+        "label": "Capital and largest city",
+        "value_text": "Rome 41°54′N 12°29′E ﻿ / ﻿ 41.900°N 12.483°E ﻿ / 41.900; 12.483"
+      },
+      {
+        "label": "Official languages",
+        "value_text": "Italian a"
+      },
+      {
+        "label": "Nationality (2021)",
+        "value_text": "91% Italian 9% other"
+      },
+      {
+        "label": "Native languages",
+        "value_text": "See main article"
+      },
+      {
+        "label": "Religion (2020)",
+        "value_text": "84% Christianity 12% irreligion 4% other"
+      },
+      {
+        "label": "Demonym",
+        "value_text": "Italian"
+      },
+      {
+        "label": "Government",
+        "value_text": "Unitary parliamentary republic"
+      },
+      {
+        "label": "• President",
+        "value_text": "Sergio Mattarella"
+      },
+      {
+        "label": "• Prime Minister",
+        "value_text": "Giorgia Meloni"
+      },
+      {
+        "label": "• President of the Senate",
+        "value_text": "Ignazio La Russa"
+      },
+      {
+        "label": "• President of the Chamber of Deputies",
+        "value_text": "Lorenzo Fontana"
+      },
+      {
+        "label": "Legislature",
+        "value_text": "Parliament"
+      },
+      {
+        "label": "• Upper house",
+        "value_text": "Senate of the Republic"
+      },
+      {
+        "label": "• Lower house",
+        "value_text": "Chamber of Deputies"
+      },
+      {
+        "label": "• Italic peoples",
+        "value_text": "Antiquity"
+      },
+      {
+        "label": "• Ancient Rome Roman Italy",
+        "value_text": "753 BC–476 AD"
+      },
+      {
+        "label": "• Roman-Barbarian kingdoms Byzantine Italy",
+        "value_text": "Early Middle Ages"
+      },
+      {
+        "label": "• Italian city-states and regional polities",
+        "value_text": "Middle Ages and Modern period"
+      },
+      {
+        "label": "• Kingdom of Italy",
+        "value_text": "1861–1946 17 March 1861 ; 164 years ago ( 1861-03-17 )"
+      },
+      {
+        "label": "• Italian Empire",
+        "value_text": "1882–1960"
+      },
+      {
+        "label": "• Italian Republic",
+        "value_text": "2 June 1946 ; 79 years ago ( 1946-06-02 )"
+      },
+      {
+        "label": "• Total",
+        "value_text": "301,340 km 2 (116,350 sq mi) ( 71st )"
+      },
+      {
+        "label": "• Water (%)",
+        "value_text": "1.24 (2015)"
+      },
+      {
+        "label": "• 2025 estimate",
+        "value_text": "58,915,561 ( 25th )"
+      },
+      {
+        "label": "• Density",
+        "value_text": "195.5/km 2 (506.3/sq mi) ( 72nd )"
+      },
+      {
+        "label": "GDP ( PPP )",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$3.719 trillion ( 11th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$63,076 ( 29th )"
+      },
+      {
+        "label": "GDP (nominal)",
+        "value_text": "2025 estimate"
+      },
+      {
+        "label": "• Total",
+        "value_text": "$2.423 trillion ( 8th )"
+      },
+      {
+        "label": "• Per capita",
+        "value_text": "$41,091 ( 27th )"
+      },
+      {
+        "label": "Gini (2020)",
+        "value_text": "32.5 medium inequality"
+      },
+      {
+        "label": "HDI (2023)",
+        "value_text": "0.915 very high ( 29th )"
+      },
+      {
+        "label": "Currency",
+        "value_text": "Euro (€) b ( EUR )"
+      },
+      {
+        "label": "Time zone",
+        "value_text": "UTC +1 ( CET )"
+      },
+      {
+        "label": "• Summer ( DST )",
+        "value_text": "UTC +2 ( CEST )"
+      },
+      {
+        "label": "Calling code",
+        "value_text": "+39 c"
+      },
+      {
+        "label": "ISO 3166 code",
+        "value_text": "IT"
+      },
+      {
+        "label": "Internet TLD",
+        "value_text": ".it"
+      }
+    ]
+  },
+  "normalized": {
+    "fields": {
+      "capital_and_largest_city": {
+        "raw_label": "Capital and largest city",
+        "text": "Rome 41°54′N 12°29′E ﻿ / ﻿ 41.900°N 12.483°E ﻿ / 41.900; 12.483",
+        "tokens": [
+          "Rome",
+          "41",
+          "54",
+          "N",
+          "12",
+          "29",
+          "E",
+          "41",
+          "900",
+          "N",
+          "12",
+          "483",
+          "E",
+          "41",
+          "900",
+          "12",
+          "483"
+        ],
+        "numbers": [
+          41,
+          54,
+          12,
+          29,
+          41.9,
+          12.483,
+          41.9,
+          12.483
+        ]
+      },
+      "official_languages": {
+        "raw_label": "Official languages",
+        "text": "Italian a",
+        "tokens": [
+          "Italian",
+          "a"
+        ],
+        "numbers": []
+      },
+      "nationality_2021": {
+        "raw_label": "Nationality (2021)",
+        "text": "91% Italian 9% other",
+        "tokens": [
+          "91",
+          "Italian",
+          "9",
+          "other"
+        ],
+        "numbers": [
+          91,
+          9
+        ]
+      },
+      "native_languages": {
+        "raw_label": "Native languages",
+        "text": "See main article",
+        "tokens": [
+          "See",
+          "main",
+          "article"
+        ],
+        "numbers": []
+      },
+      "religion_2020": {
+        "raw_label": "Religion (2020)",
+        "text": "84% Christianity 12% irreligion 4% other",
+        "tokens": [
+          "84",
+          "Christianity",
+          "12",
+          "irreligion",
+          "4",
+          "other"
+        ],
+        "numbers": [
+          84,
+          12,
+          4
+        ]
+      },
+      "demonym": {
+        "raw_label": "Demonym",
+        "text": "Italian",
+        "tokens": [
+          "Italian"
+        ],
+        "numbers": []
+      },
+      "government": {
+        "raw_label": "Government",
+        "text": "Unitary parliamentary republic",
+        "tokens": [
+          "Unitary",
+          "parliamentary",
+          "republic"
+        ],
+        "numbers": []
+      },
+      "president": {
+        "raw_label": "• President",
+        "text": "Sergio Mattarella",
+        "tokens": [
+          "Sergio",
+          "Mattarella"
+        ],
+        "numbers": []
+      },
+      "prime_minister": {
+        "raw_label": "• Prime Minister",
+        "text": "Giorgia Meloni",
+        "tokens": [
+          "Giorgia",
+          "Meloni"
+        ],
+        "numbers": []
+      },
+      "president_of_the_senate": {
+        "raw_label": "• President of the Senate",
+        "text": "Ignazio La Russa",
+        "tokens": [
+          "Ignazio",
+          "La",
+          "Russa"
+        ],
+        "numbers": []
+      },
+      "president_of_the_chamber_of_deputies": {
+        "raw_label": "• President of the Chamber of Deputies",
+        "text": "Lorenzo Fontana",
+        "tokens": [
+          "Lorenzo",
+          "Fontana"
+        ],
+        "numbers": []
+      },
+      "legislature": {
+        "raw_label": "Legislature",
+        "text": "Parliament",
+        "tokens": [
+          "Parliament"
+        ],
+        "numbers": []
+      },
+      "upper_house": {
+        "raw_label": "• Upper house",
+        "text": "Senate of the Republic",
+        "tokens": [
+          "Senate",
+          "of",
+          "the",
+          "Republic"
+        ],
+        "numbers": []
+      },
+      "lower_house": {
+        "raw_label": "• Lower house",
+        "text": "Chamber of Deputies",
+        "tokens": [
+          "Chamber",
+          "of",
+          "Deputies"
+        ],
+        "numbers": []
+      },
+      "italic_peoples": {
+        "raw_label": "• Italic peoples",
+        "text": "Antiquity",
+        "tokens": [
+          "Antiquity"
+        ],
+        "numbers": []
+      },
+      "ancient_rome_roman_italy": {
+        "raw_label": "• Ancient Rome Roman Italy",
+        "text": "753 BC–476 AD",
+        "tokens": [
+          "753",
+          "BC",
+          "476",
+          "AD"
+        ],
+        "numbers": [
+          753,
+          476
+        ]
+      },
+      "roman_barbarian_kingdoms_byzantine_italy": {
+        "raw_label": "• Roman-Barbarian kingdoms Byzantine Italy",
+        "text": "Early Middle Ages",
+        "tokens": [
+          "Early",
+          "Middle",
+          "Ages"
+        ],
+        "numbers": []
+      },
+      "italian_city_states_and_regional_polities": {
+        "raw_label": "• Italian city-states and regional polities",
+        "text": "Middle Ages and Modern period",
+        "tokens": [
+          "Middle",
+          "Ages",
+          "and",
+          "Modern",
+          "period"
+        ],
+        "numbers": []
+      },
+      "kingdom_of_italy": {
+        "raw_label": "• Kingdom of Italy",
+        "text": "1861–1946 17 March 1861 ; 164 years ago ( 1861-03-17 )",
+        "tokens": [
+          "1861",
+          "1946",
+          "17",
+          "March",
+          "1861",
+          "164",
+          "years",
+          "ago",
+          "1861",
+          "03",
+          "17"
+        ],
+        "numbers": [
+          1861,
+          1946,
+          17,
+          1861,
+          164,
+          1861,
+          -3,
+          -17
+        ]
+      },
+      "italian_empire": {
+        "raw_label": "• Italian Empire",
+        "text": "1882–1960",
+        "tokens": [
+          "1882",
+          "1960"
+        ],
+        "numbers": [
+          1882,
+          1960
+        ]
+      },
+      "italian_republic": {
+        "raw_label": "• Italian Republic",
+        "text": "2 June 1946 ; 79 years ago ( 1946-06-02 )",
+        "tokens": [
+          "2",
+          "June",
+          "1946",
+          "79",
+          "years",
+          "ago",
+          "1946",
+          "06",
+          "02"
+        ],
+        "numbers": [
+          2,
+          1946,
+          79,
+          1946,
+          -6,
+          -2
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$2.423 trillion ( 8th )",
+        "tokens": [
+          "2",
+          "423",
+          "trillion",
+          "8th"
+        ],
+        "numbers": [
+          2.423,
+          8
+        ]
+      },
+      "water": {
+        "raw_label": "• Water (%)",
+        "text": "1.24 (2015)",
+        "tokens": [
+          "1",
+          "24",
+          "2015"
+        ],
+        "numbers": [
+          1.24,
+          2015
+        ]
+      },
+      "2025_estimate": {
+        "raw_label": "• 2025 estimate",
+        "text": "58,915,561 ( 25th )",
+        "tokens": [
+          "58",
+          "915",
+          "561",
+          "25th"
+        ],
+        "numbers": [
+          58915561,
+          25
+        ]
+      },
+      "density": {
+        "raw_label": "• Density",
+        "text": "195.5/km 2 (506.3/sq mi) ( 72nd )",
+        "tokens": [
+          "195",
+          "5",
+          "km",
+          "2",
+          "506",
+          "3",
+          "sq",
+          "mi",
+          "72nd"
+        ],
+        "numbers": [
+          195.5,
+          2,
+          506.3,
+          72
+        ]
+      },
+      "gdp_ppp": {
+        "raw_label": "GDP ( PPP )",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$41,091 ( 27th )",
+        "tokens": [
+          "41",
+          "091",
+          "27th"
+        ],
+        "numbers": [
+          41091,
+          27
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gini_2020": {
+        "raw_label": "Gini (2020)",
+        "text": "32.5 medium inequality",
+        "tokens": [
+          "32",
+          "5",
+          "medium",
+          "inequality"
+        ],
+        "numbers": [
+          32.5
+        ]
+      },
+      "hdi_2023": {
+        "raw_label": "HDI (2023)",
+        "text": "0.915 very high ( 29th )",
+        "tokens": [
+          "0",
+          "915",
+          "very",
+          "high",
+          "29th"
+        ],
+        "numbers": [
+          0.915,
+          29
+        ]
+      },
+      "currency": {
+        "raw_label": "Currency",
+        "text": "Euro (€) b ( EUR )",
+        "tokens": [
+          "Euro",
+          "b",
+          "EUR"
+        ],
+        "numbers": []
+      },
+      "time_zone": {
+        "raw_label": "Time zone",
+        "text": "UTC +1 ( CET )",
+        "tokens": [
+          "UTC",
+          "1",
+          "CET"
+        ],
+        "numbers": [
+          1
+        ]
+      },
+      "summer_dst": {
+        "raw_label": "• Summer ( DST )",
+        "text": "UTC +2 ( CEST )",
+        "tokens": [
+          "UTC",
+          "2",
+          "CEST"
+        ],
+        "numbers": [
+          2
+        ]
+      },
+      "calling_code": {
+        "raw_label": "Calling code",
+        "text": "+39 c",
+        "tokens": [
+          "39",
+          "c"
+        ],
+        "numbers": [
+          39
+        ]
+      },
+      "iso_3166_code": {
+        "raw_label": "ISO 3166 code",
+        "text": "IT",
+        "tokens": [
+          "IT"
+        ],
+        "numbers": []
+      },
+      "internet_tld": {
+        "raw_label": "Internet TLD",
+        "text": ".it",
+        "tokens": [
+          "it"
+        ],
+        "numbers": []
+      }
+    }
+  }
+}
