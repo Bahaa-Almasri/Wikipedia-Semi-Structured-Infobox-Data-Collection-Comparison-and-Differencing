@@ -4,9 +4,24 @@ import argparse
 import json
 
 from .config import PATHS
-from .storage import tree_path_for_slug
+from .storage import json_path_for_slug, tree_path_for_slug
 from .tree import TreeNode, pretty_print
 from .tree_builder import build_and_save_tree_for_slug, build_and_save_trees_for_all
+
+
+def _describe_tree_source(slug: str) -> str:
+    json_path = json_path_for_slug(slug)
+    if not json_path.exists():
+        return "unknown"
+
+    data = json.loads(json_path.read_text(encoding="utf-8"))
+    normalized = data.get("normalized", {}) or {}
+
+    if normalized.get("comparison_fields"):
+        return "normalized.comparison_fields"
+    if normalized.get("fields"):
+        return "normalized.fields (fallback)"
+    return "no usable fields found"
 
 
 def main() -> None:
@@ -30,7 +45,10 @@ def main() -> None:
         if path is None:
             print(f"No JSON document found for slug '{slug}'.")
             return
+
+        source_used = _describe_tree_source(slug)
         print(f"Tree saved to {path}")
+        print(f"Tree source: {source_used}")
 
         tree_json = json.loads(tree_path_for_slug(slug).read_text(encoding="utf-8"))
         tree_root = TreeNode.from_dict(tree_json)
@@ -44,10 +62,11 @@ def main() -> None:
         if path is None:
             print(f"No JSON document found for slug '{slug}'.")
         else:
+            source_used = _describe_tree_source(slug)
             print(f"Tree saved to {path}")
+            print(f"Tree source: {source_used}")
         return
 
-    # Default: build trees for all countries.
     paths = build_and_save_trees_for_all()
     print(f"Built trees for {len(paths)} countries. Output directory: {PATHS.trees_dir}")
 

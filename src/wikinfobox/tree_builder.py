@@ -40,19 +40,43 @@ def _build_subtree(label: str, value: Any) -> TreeNode:
     return TreeNode(label=label, value=str(value))
 
 
+def _select_comparison_fields(document: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Select the best field section for building the comparison tree.
+
+    Preferred:
+    - normalized.comparison_fields
+
+    Fallback:
+    - normalized.fields
+
+    This lets us keep backward compatibility while moving toward a
+    cleaner, TED-friendly canonical representation.
+    """
+    normalized = document.get("normalized", {}) or {}
+
+    comparison_fields = normalized.get("comparison_fields", {}) or {}
+    if comparison_fields:
+        return comparison_fields
+
+    fallback_fields = normalized.get("fields", {}) or {}
+    return fallback_fields
+
+
 def build_country_tree(document: Dict[str, Any]) -> TreeNode:
     """
     Build a rooted, ordered, labeled tree from a country JSON document.
 
-    We only use:
-    - meta section (identification info)
-    - normalized.fields (cleaned infobox fields)
+    Preferred comparison source:
+    - normalized.comparison_fields
 
-    Raw HTML and raw rows are intentionally ignored.
+    Fallback:
+    - normalized.fields
+
+    Raw HTML is intentionally ignored.
     """
     meta = document.get("meta", {}) or {}
-    normalized = document.get("normalized", {}) or {}
-    fields = normalized.get("fields", {}) or {}
+    fields = _select_comparison_fields(document)
 
     root_label = meta.get("slug") or meta.get("country_name") or "country"
     root = TreeNode(label=str(root_label))
