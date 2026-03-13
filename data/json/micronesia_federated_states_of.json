@@ -3,7 +3,7 @@
     "country_name": "Micronesia (Federated States of)",
     "slug": "micronesia_federated_states_of",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Federated_States_of_Micronesia",
-    "retrieved_at": "2026-03-13T10:09:09+00:00",
+    "retrieved_at": "2026-03-13T11:37:34+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -615,26 +615,26 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$500 million",
+        "text": "$451 million",
         "tokens": [
-          "500",
+          "451",
           "million"
         ],
         "numbers": [
-          500
+          451
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$5,291",
+        "text": "$4,768",
         "tokens": [
-          "5",
-          "291"
+          "4",
+          "768"
         ],
         "numbers": [
-          5291
+          4768
         ]
       },
       "gdp_nominal": {
@@ -646,6 +646,28 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$500 million",
+        "tokens": [
+          "500",
+          "million"
+        ],
+        "numbers": [
+          500
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$5,291",
+        "tokens": [
+          "5",
+          "291"
+        ],
+        "numbers": [
+          5291
         ]
       },
       "gini_2013": {
@@ -761,7 +783,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$451 million",
+        "gdp_ppp_per_capita": "$4,768",
+        "gdp_nominal_total": "$500 million",
+        "gdp_nominal_per_capita": "$5,291"
       },
       "development": {
         "hdi": {
@@ -780,8 +806,12 @@
       },
       "calling_code": "691",
       "iso_3166_code": "FM",
-      "internet_tld": ".fm",
-      "time_zone": "UTC+10",
+      "internet_tld": [
+        ".fm"
+      ],
+      "time_zone": {
+        "standard": "UTC+10"
+      },
       "demonym": "Micronesian"
     }
   }

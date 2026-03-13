@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:09:21+00:00",
+          "value": "2026-03-13T11:37:41+00:00",
           "children": []
         },
         {
@@ -110,8 +110,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$73,091",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$1.326 trillion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2026",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$87,173",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$1.581 trillion",
               "children": []
             },
             {
@@ -144,13 +164,111 @@
         },
         {
           "label": "internet_tld",
-          "value": "6 TLDs .nl (Netherlands) .frl (Fryslân) .aw (Aruba) .cw (Curaçao) .sx (Sint Maarten) .bq (Caribbean Netherlands)",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": "6",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "TLDs",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".nl",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "(Netherlands)",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".frl",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "(Fryslân)",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".aw",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "(Aruba)",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".cw",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "(Curaçao)",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".sx",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "(Sint",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "Maarten)",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".bq",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "(Caribbean",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "Netherlands)",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "NL",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Dutch",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -185,8 +303,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+1",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC+1",
+              "children": []
+            }
+          ]
         }
       ]
     }

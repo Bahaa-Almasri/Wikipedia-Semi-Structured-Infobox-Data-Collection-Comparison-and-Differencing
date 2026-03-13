@@ -3,7 +3,7 @@
     "country_name": "Thailand",
     "slug": "thailand",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Thailand",
-    "retrieved_at": "2026-03-13T10:10:38+00:00",
+    "retrieved_at": "2026-03-13T11:38:22+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -714,7 +714,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$1.853 trillion ( 23rd )",
+        "tokens": [
+          "1",
+          "853",
+          "trillion",
+          "23rd"
+        ],
+        "numbers": [
+          1.853,
+          23
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$26,358 ( 75th )",
+        "tokens": [
+          "26",
+          "358",
+          "75th"
+        ],
+        "numbers": [
+          26358,
+          75
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$558.573 billion ( 31rd )",
         "tokens": [
@@ -728,7 +766,7 @@
           31
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$7,942 ( 97th )",
         "tokens": [
@@ -739,17 +777,6 @@
         "numbers": [
           7942,
           97
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -847,6 +874,11 @@
         "latitude": "13°48′N",
         "longitude": "100°33′E"
       },
+      "languages": {
+        "official": [
+          "Thai"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_state": "Vajiralongkorn (Rama X)",
@@ -865,7 +897,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$1.853 trillion",
+        "gdp_ppp_per_capita": "$26,358",
+        "gdp_nominal_total": "$558.573 billion",
+        "gdp_nominal_per_capita": "$7,942"
       },
       "development": {
         "hdi": {
@@ -883,8 +919,13 @@
       },
       "calling_code": "66",
       "iso_3166_code": "TH",
-      "internet_tld": ".th .ไทย",
-      "time_zone": "UTC+7",
+      "internet_tld": [
+        ".th",
+        ".ไทย"
+      ],
+      "time_zone": {
+        "standard": "UTC+7"
+      },
       "demonym": "Thai"
     }
   }

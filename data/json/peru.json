@@ -3,7 +3,7 @@
     "country_name": "Peru",
     "slug": "peru",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Peru",
-    "retrieved_at": "2026-03-13T10:09:40+00:00",
+    "retrieved_at": "2026-03-13T11:37:51+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -641,7 +641,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$653.090 billion ( 47th )",
+        "tokens": [
+          "653",
+          "090",
+          "billion",
+          "47th"
+        ],
+        "numbers": [
+          653.09,
+          47
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$18,980 ( 99th )",
+        "tokens": [
+          "18",
+          "980",
+          "99th"
+        ],
+        "numbers": [
+          18980,
+          99
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$318.480 billion ( 47th )",
         "tokens": [
@@ -655,7 +693,7 @@
           47
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$9,260 ( 86th )",
         "tokens": [
@@ -666,17 +704,6 @@
         "numbers": [
           9260,
           86
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -772,6 +799,11 @@
       "country_name": "Peru",
       "capital": "Lima",
       "largest_city": "Lima",
+      "languages": {
+        "official": [
+          "Spanish"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic",
         "head_of_state": "José María Balcázar",
@@ -790,7 +822,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$653.090 billion",
+        "gdp_ppp_per_capita": "$18,980",
+        "gdp_nominal_total": "$318.480 billion",
+        "gdp_nominal_per_capita": "$9,260"
       },
       "development": {
         "hdi": {
@@ -809,8 +845,12 @@
       },
       "calling_code": "51",
       "iso_3166_code": "PE",
-      "internet_tld": ".pe",
-      "time_zone": "UTC −05:00 ( PET )",
+      "internet_tld": [
+        ".pe"
+      ],
+      "time_zone": {
+        "standard": "UTC −05:00 ( PET )"
+      },
       "demonym": "Peruvian"
     }
   }

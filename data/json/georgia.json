@@ -3,7 +3,7 @@
     "country_name": "Georgia",
     "slug": "georgia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Georgia_(country)",
-    "retrieved_at": "2026-03-13T10:08:01+00:00",
+    "retrieved_at": "2026-03-13T11:36:55+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -725,7 +725,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$123,049 billion ( 98th )",
+        "tokens": [
+          "123",
+          "049",
+          "billion",
+          "98th"
+        ],
+        "numbers": [
+          123049,
+          98
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$33,340 ( 67th )",
+        "tokens": [
+          "33",
+          "340",
+          "67th"
+        ],
+        "numbers": [
+          33340,
+          67
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$35.350 billion ( 103th )",
         "tokens": [
@@ -739,7 +777,7 @@
           103
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$10,886 ( 83rd )",
         "tokens": [
@@ -750,17 +788,6 @@
         "numbers": [
           10886,
           83
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2021": {
@@ -860,6 +887,11 @@
         "latitude": "41°43′N",
         "longitude": "44°47′E"
       },
+      "languages": {
+        "official": [
+          "Georgian"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Mikheil Kavelashvili",
@@ -877,7 +909,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$123,049 billion",
+        "gdp_ppp_per_capita": "$33,340",
+        "gdp_nominal_total": "$35.350 billion",
+        "gdp_nominal_per_capita": "$10,886"
       },
       "development": {
         "hdi": {
@@ -895,8 +931,13 @@
       },
       "calling_code": "995",
       "iso_3166_code": "GE",
-      "internet_tld": ".ge , .გე",
-      "time_zone": "UTC+4",
+      "internet_tld": [
+        ".ge",
+        ".გე"
+      ],
+      "time_zone": {
+        "standard": "UTC+4"
+      },
       "demonym": "Georgian"
     }
   }

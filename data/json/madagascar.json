@@ -3,7 +3,7 @@
     "country_name": "Madagascar",
     "slug": "madagascar",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Madagascar",
-    "retrieved_at": "2026-03-13T10:08:55+00:00",
+    "retrieved_at": "2026-03-13T11:37:26+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -809,7 +809,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$68.110 billion ( 117th )",
+        "tokens": [
+          "68",
+          "110",
+          "billion",
+          "117th"
+        ],
+        "numbers": [
+          68.11,
+          117
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$2,110 ( 182nd )",
+        "tokens": [
+          "2",
+          "110",
+          "182nd"
+        ],
+        "numbers": [
+          2110,
+          182
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$21.090 billion ( 139th )",
         "tokens": [
@@ -823,7 +861,7 @@
           139
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$652 ( 188th )",
         "tokens": [
@@ -833,17 +871,6 @@
         "numbers": [
           652,
           188
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2012": {
@@ -939,6 +966,11 @@
         "latitude": "18°55′S",
         "longitude": "47°31′E"
       },
+      "languages": {
+        "official": [
+          "Malagasy French"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic under a transitional government",
         "head_of_state": "Michael Randrianirina",
@@ -957,7 +989,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$68.110 billion",
+        "gdp_ppp_per_capita": "$2,110",
+        "gdp_nominal_total": "$21.090 billion",
+        "gdp_nominal_per_capita": "$652"
       },
       "development": {
         "hdi": {
@@ -976,8 +1012,12 @@
       },
       "calling_code": "261",
       "iso_3166_code": "MG",
-      "internet_tld": ".mg",
-      "time_zone": "UTC+3",
+      "internet_tld": [
+        ".mg"
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      },
       "demonym": "Malagasy"
     }
   }

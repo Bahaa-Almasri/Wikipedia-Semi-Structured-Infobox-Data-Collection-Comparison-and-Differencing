@@ -3,7 +3,7 @@
     "country_name": "Bolivia",
     "slug": "bolivia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Bolivia",
-    "retrieved_at": "2026-03-13T10:07:03+00:00",
+    "retrieved_at": "2026-03-13T11:36:00+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -630,7 +630,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$144.098 billion ( 94th )",
+        "tokens": [
+          "144",
+          "098",
+          "billion",
+          "94th"
+        ],
+        "numbers": [
+          144.098,
+          94
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$11,574 ( 120th )",
+        "tokens": [
+          "11",
+          "574",
+          "120th"
+        ],
+        "numbers": [
+          11574,
+          120
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$56.339 billion ( 94th )",
         "tokens": [
@@ -644,7 +682,7 @@
           94
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$4,525 ( 126th )",
         "tokens": [
@@ -655,17 +693,6 @@
         "numbers": [
           4525,
           126
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2021": {
@@ -759,6 +786,11 @@
       "country_name": "Bolivia",
       "capital": "Sucre",
       "largest_city": "Santa Cruz",
+      "languages": {
+        "official": [
+          "Spanish Quechua Aymara Guarani Other indigenous languages"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Rodrigo Paz"
@@ -776,7 +808,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$144.098 billion",
+        "gdp_ppp_per_capita": "$11,574",
+        "gdp_nominal_total": "$56.339 billion",
+        "gdp_nominal_per_capita": "$4,525"
       },
       "development": {
         "hdi": {
@@ -795,8 +831,12 @@
       },
       "calling_code": "591",
       "iso_3166_code": "BO",
-      "internet_tld": ".bo",
-      "time_zone": "UTC −04:00 ( BOT )",
+      "internet_tld": [
+        ".bo"
+      ],
+      "time_zone": {
+        "standard": "UTC −04:00 ( BOT )"
+      },
       "demonym": "Bolivian"
     }
   }

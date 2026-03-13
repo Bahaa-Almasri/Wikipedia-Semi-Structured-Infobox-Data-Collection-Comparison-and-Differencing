@@ -3,7 +3,7 @@
     "country_name": "Equatorial Guinea",
     "slug": "equatorial_guinea",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Equatorial_Guinea",
-    "retrieved_at": "2026-03-13T10:07:48+00:00",
+    "retrieved_at": "2026-03-13T11:36:47+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -644,7 +644,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$33.001 billion ( 149th )",
+        "tokens": [
+          "33",
+          "001",
+          "billion",
+          "149th"
+        ],
+        "numbers": [
+          33.001,
+          149
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$20,017 ( 92nd )",
+        "tokens": [
+          "20",
+          "017",
+          "92nd"
+        ],
+        "numbers": [
+          20017,
+          92
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$12.680 billion ( 149th )",
         "tokens": [
@@ -658,7 +696,7 @@
           149
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$7,750 ( 95th )",
         "tokens": [
@@ -669,17 +707,6 @@
         "numbers": [
           7750,
           95
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "hdi_2023": {
@@ -751,6 +778,11 @@
       "country_name": "Equatorial Guinea",
       "capital": "Ciudad de la Paz",
       "largest_city": "Bata",
+      "languages": {
+        "official": [
+          "Spanish French Portuguese"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic under an authoritarian hereditary dictatorship",
         "head_of_state": "Teodoro Obiang Nguema Mbasogo",
@@ -768,7 +800,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$33.001 billion",
+        "gdp_ppp_per_capita": "$20,017",
+        "gdp_nominal_total": "$12.680 billion",
+        "gdp_nominal_per_capita": "$7,750"
       },
       "development": {
         "hdi": {
@@ -783,8 +819,12 @@
       },
       "calling_code": "240",
       "iso_3166_code": "GQ",
-      "internet_tld": ".gq",
-      "time_zone": "UTC+1"
+      "internet_tld": [
+        ".gq"
+      ],
+      "time_zone": {
+        "standard": "UTC+1"
+      }
     }
   }
 }

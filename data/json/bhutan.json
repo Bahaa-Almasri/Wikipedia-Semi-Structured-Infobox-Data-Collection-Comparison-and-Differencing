@@ -3,7 +3,7 @@
     "country_name": "Bhutan",
     "slug": "bhutan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Bhutan",
-    "retrieved_at": "2026-03-13T10:07:02+00:00",
+    "retrieved_at": "2026-03-13T11:35:59+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -598,7 +598,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$14.110 billion ( 160th )",
+        "tokens": [
+          "14",
+          "110",
+          "billion",
+          "160th"
+        ],
+        "numbers": [
+          14.11,
+          160
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$17,774 ( 102nd )",
+        "tokens": [
+          "17",
+          "774",
+          "102nd"
+        ],
+        "numbers": [
+          17774,
+          102
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$3.420 billion ( 166th )",
         "tokens": [
@@ -612,7 +650,7 @@
           166
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$4,300 ( 127th )",
         "tokens": [
@@ -623,17 +661,6 @@
         "numbers": [
           4300,
           127
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -717,6 +744,11 @@
       "country_name": "Bhutan",
       "capital": "Thimphu",
       "largest_city": "Thimphu",
+      "languages": {
+        "official": [
+          "Dzongkha"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary semi-constitutional monarchy",
         "head_of_government": "Tshering Tobgay"
@@ -734,7 +766,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$14.110 billion",
+        "gdp_ppp_per_capita": "$17,774",
+        "gdp_nominal_total": "$3.420 billion",
+        "gdp_nominal_per_capita": "$4,300"
       },
       "development": {
         "hdi": {
@@ -753,8 +789,12 @@
       },
       "calling_code": "975",
       "iso_3166_code": "BT",
-      "internet_tld": ".bt",
-      "time_zone": "UTC+06",
+      "internet_tld": [
+        ".bt"
+      ],
+      "time_zone": {
+        "standard": "UTC+06"
+      },
       "demonym": "Bhutanese"
     }
   }

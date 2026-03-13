@@ -3,7 +3,7 @@
     "country_name": "United States of America",
     "slug": "united_states_of_america",
     "wikipedia_url": "https://en.wikipedia.org/wiki/United_States",
-    "retrieved_at": "2026-03-13T10:10:51+00:00",
+    "retrieved_at": "2026-03-13T11:38:37+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -817,7 +817,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$30.616 trillion ( 2nd )",
+        "tokens": [
+          "30",
+          "616",
+          "trillion",
+          "2nd"
+        ],
+        "numbers": [
+          30.616,
+          2
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$89,599 ( 10th )",
+        "tokens": [
+          "89",
+          "599",
+          "10th"
+        ],
+        "numbers": [
+          89599,
+          10
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$30.616 trillion ( 1st )",
         "tokens": [
@@ -831,7 +869,7 @@
           1
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$89,599 ( 8th )",
         "tokens": [
@@ -842,17 +880,6 @@
         "numbers": [
           89599,
           8
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2024": {
@@ -972,6 +999,11 @@
         "latitude": "38°53′N",
         "longitude": "77°1′W"
       },
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Federal presidential republic",
         "head_of_state": "Donald Trump"
@@ -987,7 +1019,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$30.616 trillion",
+        "gdp_ppp_per_capita": "$89,599",
+        "gdp_nominal_total": "$30.616 trillion",
+        "gdp_nominal_per_capita": "$89,599"
       },
       "development": {
         "hdi": {
@@ -1005,8 +1041,14 @@
       },
       "calling_code": "1",
       "iso_3166_code": "US",
-      "internet_tld": ".com , .us",
-      "time_zone": "UTC −4 to −12 , +10 , +11",
+      "internet_tld": [
+        ".com",
+        ".us"
+      ],
+      "time_zone": {
+        "standard": "UTC −4 to −12 , +10 , +11",
+        "dst": "UTC −4 to −10"
+      },
       "demonym": "American"
     }
   }

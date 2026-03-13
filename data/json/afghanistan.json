@@ -3,7 +3,7 @@
     "country_name": "Afghanistan",
     "slug": "afghanistan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Afghanistan",
-    "retrieved_at": "2026-03-13T10:06:29+00:00",
+    "retrieved_at": "2026-03-13T11:35:43+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -729,28 +729,29 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$17.329 billion",
+        "text": "$91.668 billion",
         "tokens": [
-          "17",
-          "329",
+          "91",
+          "668",
           "billion"
         ],
         "numbers": [
-          17.329
+          91.668
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$411 ( 190th )",
+        "text": "$2,174 ( 179th )",
         "tokens": [
-          "411",
-          "190th"
+          "2",
+          "174",
+          "179th"
         ],
         "numbers": [
-          411,
-          190
+          2174,
+          179
         ]
       },
       "gdp_nominal": {
@@ -762,6 +763,30 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$17.329 billion",
+        "tokens": [
+          "17",
+          "329",
+          "billion"
+        ],
+        "numbers": [
+          17.329
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$411 ( 190th )",
+        "tokens": [
+          "411",
+          "190th"
+        ],
+        "numbers": [
+          411,
+          190
         ]
       },
       "hdi_2023": {
@@ -830,6 +855,11 @@
         "latitude": "34°31′N",
         "longitude": "69°11′E"
       },
+      "languages": {
+        "official": [
+          "Pashto Dari"
+        ]
+      },
       "government": {
         "type": "Unitary totalitarian theocratic Islamic emirate",
         "head_of_state": "Hibatullah Akhundzada",
@@ -846,7 +876,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$91.668 billion",
+        "gdp_ppp_per_capita": "$2,174",
+        "gdp_nominal_total": "$17.329 billion",
+        "gdp_nominal_per_capita": "$411"
       },
       "development": {
         "hdi": {
@@ -859,8 +893,12 @@
         "name": "Afghani"
       },
       "iso_3166_code": "AF",
-      "internet_tld": ".af",
-      "time_zone": "UTC+4:30",
+      "internet_tld": [
+        ".af"
+      ],
+      "time_zone": {
+        "standard": "UTC+4:30"
+      },
       "demonym": "Afghan"
     }
   }

@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:07:53+00:00",
+          "value": "2026-03-13T11:36:50+00:00",
           "children": []
         },
         {
@@ -153,8 +153,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$1,350",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$145.03 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2024",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$4,050",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$434.44 billion",
               "children": []
             },
             {
@@ -187,13 +207,36 @@
         },
         {
           "label": "internet_tld",
-          "value": ".et",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".et",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "ET",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Afar Amharic Oromo Somali Tigrinya",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -233,8 +276,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+3",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC+3",
+              "children": []
+            }
+          ]
         }
       ]
     }

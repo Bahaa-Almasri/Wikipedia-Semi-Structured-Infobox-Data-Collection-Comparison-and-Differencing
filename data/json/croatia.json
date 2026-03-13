@@ -3,7 +3,7 @@
     "country_name": "Croatia",
     "slug": "croatia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Croatia",
-    "retrieved_at": "2026-03-13T10:07:32+00:00",
+    "retrieved_at": "2026-03-13T11:36:27+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -715,7 +715,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$207.40 billion ( 79th )",
+        "tokens": [
+          "207",
+          "40",
+          "billion",
+          "79th"
+        ],
+        "numbers": [
+          207.4,
+          79
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$53,840 ( 39th )",
+        "tokens": [
+          "53",
+          "840",
+          "39th"
+        ],
+        "numbers": [
+          53840,
+          39
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$113.13 billion ( 74th )",
         "tokens": [
@@ -729,7 +767,7 @@
           74
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$29,370 ( 47th )",
         "tokens": [
@@ -740,17 +778,6 @@
         "numbers": [
           29370,
           47
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2026": {
@@ -847,6 +874,11 @@
       "country_name": "Croatia",
       "capital": "Zagreb",
       "largest_city": "Zagreb",
+      "languages": {
+        "official": [
+          "Croatian"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Zoran Milanović",
@@ -865,7 +897,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$207.40 billion",
+        "gdp_ppp_per_capita": "$53,840",
+        "gdp_nominal_total": "$113.13 billion",
+        "gdp_nominal_per_capita": "$29,370"
       },
       "development": {
         "hdi": {
@@ -883,8 +919,15 @@
       },
       "calling_code": "385",
       "iso_3166_code": "HR",
-      "internet_tld": ".hr and .eu",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".hr",
+        "and",
+        ".eu"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "Croatian"
     }
   }

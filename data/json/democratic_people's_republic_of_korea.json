@@ -3,7 +3,7 @@
     "country_name": "Democratic People's Republic of Korea",
     "slug": "democratic_people's_republic_of_korea",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Democratic_People%27s_Republic_of_Korea",
-    "retrieved_at": "2026-03-13T10:07:37+00:00",
+    "retrieved_at": "2026-03-13T11:36:37+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -625,27 +625,26 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$32.036 billion",
+        "text": "$15.416 billion",
         "tokens": [
-          "32",
-          "036",
+          "15",
+          "416",
           "billion"
         ],
         "numbers": [
-          32.036
+          15.416
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$1,261",
+        "text": "$600",
         "tokens": [
-          "1",
-          "261"
+          "600"
         ],
         "numbers": [
-          1261
+          600
         ]
       },
       "gdp_nominal": {
@@ -657,6 +656,29 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$32.036 billion",
+        "tokens": [
+          "32",
+          "036",
+          "billion"
+        ],
+        "numbers": [
+          32.036
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$1,261",
+        "tokens": [
+          "1",
+          "261"
+        ],
+        "numbers": [
+          1261
         ]
       },
       "gini_2020": {
@@ -749,6 +771,11 @@
         "latitude": "39°2′N",
         "longitude": "125°45′E"
       },
+      "languages": {
+        "official": [
+          "Korean ( Munhwaŏ )"
+        ]
+      },
       "government": {
         "type": "Unitary communist state",
         "head_of_government": "Pak Thae-song"
@@ -766,7 +793,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$15.416 billion",
+        "gdp_ppp_per_capita": "$600",
+        "gdp_nominal_total": "$32.036 billion",
+        "gdp_nominal_per_capita": "$1,261"
       },
       "development": {
         "gini": {
@@ -779,8 +810,12 @@
       },
       "calling_code": "850",
       "iso_3166_code": "KP",
-      "internet_tld": ".kp",
-      "time_zone": "UTC+09:00"
+      "internet_tld": [
+        ".kp"
+      ],
+      "time_zone": {
+        "standard": "UTC+09:00"
+      }
     }
   }
 }

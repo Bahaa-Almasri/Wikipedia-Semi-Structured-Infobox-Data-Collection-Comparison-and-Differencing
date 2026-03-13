@@ -13,6 +13,7 @@ _year_re = re.compile(r"\b(19|20)\d{2}\b")
 _rank_re = re.compile(r"\b(\d+)(st|nd|rd|th)\b", re.IGNORECASE)
 _coord_re = re.compile(r"\b(\d{1,2}°\d{1,2}′[NS])\b|\b(\d{1,3}°\d{1,2}′[EW])\b")
 _currency_code_re = re.compile(r"\b([A-Z]{3})\b")
+_rank_paren_re = re.compile(r"\s*\(\s*\d+(st|nd|rd|th)\s*\)\s*$", re.IGNORECASE)
 
 
 @dataclass(frozen=True)
@@ -61,8 +62,49 @@ def normalize_rows(rows: List[InfoboxRow]) -> Mapping[str, NormalizedField]:
     """
     result: Dict[str, NormalizedField] = {}
 
+    # Some infobox sections (notably GDP) are expressed as a contextual
+    # header row ("GDP ( PPP )", "GDP (nominal)") followed by generic
+    # bullet rows ("• Total", "• Per capita"). If we normalize purely
+    # by label text, the bullet rows collide under keys like "total"
+    # and "per_capita", causing one GDP block to overwrite the other.
+    #
+    # To avoid this, track a lightweight GDP context as we walk the rows
+    # in order and specialise the keys for bullet rows, e.g.:
+    #   "GDP ( PPP )"   -> key "gdp_ppp"
+    #   "• Total"       -> key "gdp_ppp_total"
+    #   "• Per capita"  -> key "gdp_ppp_per_capita"
+    #   "GDP (nominal)" -> key "gdp_nominal"
+    #   "• Total"       -> key "gdp_nominal_total"
+    #   "• Per capita"  -> key "gdp_nominal_per_capita"
+    current_gdp_context: Optional[str] = None
+
     for row in rows:
-        key = normalize_key(row.label)
+        base_key = normalize_key(row.label)
+
+        # Detect GDP context rows.
+        if base_key in {"gdp_ppp", "gdp_nominal"}:
+            current_gdp_context = base_key
+            key = base_key
+        else:
+            label_stripped = row.label.strip()
+            is_bullet = label_stripped.startswith("•")
+
+            # Specialise GDP bullet rows based on the active context.
+            if current_gdp_context and is_bullet:
+                bullet_key = normalize_key(label_stripped.lstrip("•").strip())
+                if bullet_key in {"total", "per_capita"}:
+                    key = f"{current_gdp_context}_{bullet_key}"
+                else:
+                    key = base_key
+            else:
+                key = base_key
+
+            # Once we leave the GDP block (non-bullet, non-GDP row),
+            # clear the context so other sections' bullets aren't
+            # accidentally attached to GDP.
+            if not is_bullet and base_key not in {"gdp_ppp", "gdp_nominal"}:
+                current_gdp_context = None
+
         text = row.value_text.strip()
         tokens = _tokenize(text)
         numbers = _parse_numbers(text)
@@ -153,6 +195,48 @@ def _digits_only(text: str) -> Optional[str]:
     return digits or None
 
 
+def _split_languages(text: str) -> List[str]:
+    """
+    Split language lists into a compact list of names.
+
+    Heuristics:
+    - First split on common separators: ',', ';', '·', ' / '
+    - If none are present, treat the whole text as a single language
+      to avoid breaking multi-word names like "Lebanese Arabic".
+    """
+    if not text:
+        return []
+
+    # Normalize spacing
+    s = re.sub(r"\s+", " ", text).strip()
+
+    # If we have obvious separators, split on them.
+    if any(sep in s for sep in [",", ";", "·", " / "]):
+        parts = re.split(r"\s*[;,·]|\s+/\s+", s)
+    else:
+        parts = [s]
+
+    langs = [p.strip() for p in parts if p.strip()]
+    return langs
+
+
+def _split_tlds(text: str) -> List[str]:
+    """
+    Split TLDs into a list, e.g. ".lb .لبنان" -> [".lb", ".لبنان"].
+    """
+    if not text:
+        return []
+    tokens = re.split(r"\s+|[,;]", text.strip())
+    return [t for t in tokens if t]
+
+
+def _strip_rank_paren(text: str) -> str:
+    """
+    Strip trailing rank parentheses like "(6th)" from a value string.
+    """
+    return _rank_paren_re.sub("", text or "").strip()
+
+
 def build_comparison_fields(
     fields: Mapping[str, NormalizedField],
     *,
@@ -189,6 +273,18 @@ def build_comparison_fields(
         lat, lon = _extract_coords(cap_text)
         if lat or lon:
             out["coordinates"] = {"latitude": lat, "longitude": lon}
+
+    # Languages (official and recognised minority), when available.
+    langs: Dict[str, Any] = {}
+    if "official_languages" in fields:
+        langs["official"] = _split_languages(fields["official_languages"].text)
+    # Some infoboxes use singular/plural for recognised minority languages.
+    for k in ("recognised_minority_language", "recognised_minority_languages"):
+        if k in fields:
+            langs["recognized_minority"] = _split_languages(fields[k].text)
+            break
+    if langs:
+        out["languages"] = langs
 
     # Government / legislature
     gov: Dict[str, Any] = {}
@@ -275,15 +371,40 @@ def build_comparison_fields(
         economy["gdp_nominal_year"] = _first_year(fields["gdp_nominal"].text) or _first_year(fields["gdp_nominal"].raw_label)
     if "gdp_ppp" in fields:
         economy["gdp_ppp_year"] = _first_year(fields["gdp_ppp"].text) or _first_year(fields["gdp_ppp"].raw_label)
-    # Totals / per capita (section-aware keys like gdp_ppp_total, gdp_ppp_per_capita)
+
+    # Totals / per capita (section-aware keys like gdp_ppp_total, gdp_ppp_per_capita).
+    # Fall back to raw_label heuristics when only generic "Total"/"Per capita" rows exist.
     if "gdp_ppp_total" in fields:
-        economy["gdp_ppp_total"] = fields["gdp_ppp_total"].text
+        economy["gdp_ppp_total"] = _strip_rank_paren(fields["gdp_ppp_total"].text)
+    else:
+        for f in fields.values():
+            if "GDP ( PPP" in f.raw_label and "Total" in f.raw_label:
+                economy["gdp_ppp_total"] = _strip_rank_paren(f.text)
+                break
+
     if "gdp_ppp_per_capita" in fields:
-        economy["gdp_ppp_per_capita"] = fields["gdp_ppp_per_capita"].text
+        economy["gdp_ppp_per_capita"] = _strip_rank_paren(fields["gdp_ppp_per_capita"].text)
+    else:
+        for f in fields.values():
+            if "GDP ( PPP" in f.raw_label and "Per capita" in f.raw_label:
+                economy["gdp_ppp_per_capita"] = _strip_rank_paren(f.text)
+                break
+
     if "gdp_nominal_total" in fields:
-        economy["gdp_nominal_total"] = fields["gdp_nominal_total"].text
+        economy["gdp_nominal_total"] = _strip_rank_paren(fields["gdp_nominal_total"].text)
+    else:
+        for f in fields.values():
+            if "GDP (nominal" in f.raw_label and "Total" in f.raw_label:
+                economy["gdp_nominal_total"] = _strip_rank_paren(f.text)
+                break
+
     if "gdp_nominal_per_capita" in fields:
-        economy["gdp_nominal_per_capita"] = fields["gdp_nominal_per_capita"].text
+        economy["gdp_nominal_per_capita"] = _strip_rank_paren(fields["gdp_nominal_per_capita"].text)
+    else:
+        for f in fields.values():
+            if "GDP (nominal" in f.raw_label and "Per capita" in f.raw_label:
+                economy["gdp_nominal_per_capita"] = _strip_rank_paren(f.text)
+                break
     if economy:
         out["economy"] = economy
 
@@ -319,12 +440,24 @@ def build_comparison_fields(
     if "iso_3166_code" in fields:
         out["iso_3166_code"] = fields["iso_3166_code"].text
     if "internet_tld" in fields:
-        out["internet_tld"] = fields["internet_tld"].text
+        out["internet_tld"] = _split_tlds(fields["internet_tld"].text)
+
     if "time_zone" in fields:
         # Prefer a compact UTC offset if present
-        tz = fields["time_zone"].text
-        m = re.search(r"UTC\s*[+-]?\d+(?::\d+)?", tz)
-        out["time_zone"] = m.group(0).replace(" ", "") if m else tz
+        tz_text = fields["time_zone"].text
+        m = re.search(r"UTC\s*[+-]?\d+(?::\d+)?", tz_text)
+        standard = m.group(0).replace(" ", "") if m else tz_text
+        tz_dict: Dict[str, Any] = {"standard": standard}
+
+        # Optional DST row, commonly normalised under a summer/dst key.
+        for k in ("summer_dst", "time_zone_dst"):
+            if k in fields:
+                dst_text = fields[k].text
+                m2 = re.search(r"UTC\s*[+-]?\d+(?::\d+)?", dst_text)
+                tz_dict["dst"] = m2.group(0).replace(" ", "") if m2 else dst_text
+                break
+
+        out["time_zone"] = tz_dict
     if "demonym" in fields:
         out["demonym"] = fields["demonym"].text
 

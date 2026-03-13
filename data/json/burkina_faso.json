@@ -3,7 +3,7 @@
     "country_name": "Burkina Faso",
     "slug": "burkina_faso",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Burkina_Faso",
-    "retrieved_at": "2026-03-13T10:07:14+00:00",
+    "retrieved_at": "2026-03-13T11:36:15+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -672,7 +672,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$72.820 billion ( 114th )",
+        "tokens": [
+          "72",
+          "820",
+          "billion",
+          "114th"
+        ],
+        "numbers": [
+          72.82,
+          114
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$2,980 ( 172nd )",
+        "tokens": [
+          "2",
+          "980",
+          "172nd"
+        ],
+        "numbers": [
+          2980,
+          172
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$27.06 billion ( 114th )",
         "tokens": [
@@ -686,7 +724,7 @@
           114
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,110 ( 166th )",
         "tokens": [
@@ -697,17 +735,6 @@
         "numbers": [
           1110,
           166
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2021": {
@@ -798,6 +825,13 @@
         "latitude": "12°22′N",
         "longitude": "1°32′W"
       },
+      "languages": {
+        "official": [
+          "Mooré",
+          "Dyula and Fula",
+          "alongside any other languages so recognized by law"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic under a military junta",
         "head_of_state": "Ibrahim Traoré (interim)",
@@ -816,7 +850,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$72.820 billion",
+        "gdp_ppp_per_capita": "$2,980",
+        "gdp_nominal_total": "$27.06 billion",
+        "gdp_nominal_per_capita": "$1,110"
       },
       "development": {
         "hdi": {
@@ -835,8 +873,12 @@
       },
       "calling_code": "226",
       "iso_3166_code": "BF",
-      "internet_tld": ".bf",
-      "time_zone": "UTC ±00:00 ( GMT )",
+      "internet_tld": [
+        ".bf"
+      ],
+      "time_zone": {
+        "standard": "UTC ±00:00 ( GMT )"
+      },
       "demonym": "Burkinabé"
     }
   }

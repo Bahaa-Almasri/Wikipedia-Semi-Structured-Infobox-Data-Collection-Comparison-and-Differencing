@@ -3,7 +3,7 @@
     "country_name": "Tonga",
     "slug": "tonga",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tonga",
-    "retrieved_at": "2026-03-13T10:10:41+00:00",
+    "retrieved_at": "2026-03-13T11:38:25+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -562,26 +562,26 @@
           2019
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$493 million",
+        "text": "$655 million",
         "tokens": [
-          "493",
+          "655",
           "million"
         ],
         "numbers": [
-          493
+          655
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$4,888",
+        "text": "$6,496",
         "tokens": [
-          "4",
-          "888"
+          "6",
+          "496"
         ],
         "numbers": [
-          4888
+          6496
         ]
       },
       "gdp_nominal": {
@@ -593,6 +593,28 @@
         ],
         "numbers": [
           2019
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$493 million",
+        "tokens": [
+          "493",
+          "million"
+        ],
+        "numbers": [
+          493
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$4,888",
+        "tokens": [
+          "4",
+          "888"
+        ],
+        "numbers": [
+          4888
         ]
       },
       "gini_2021": {
@@ -688,6 +710,11 @@
         "latitude": "21°8′S",
         "longitude": "175°12′W"
       },
+      "languages": {
+        "official": [
+          "Tongan English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary semi-constitutional monarchy",
         "head_of_state": "Tupou VI",
@@ -706,7 +733,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2019,
-        "gdp_ppp_year": 2019
+        "gdp_ppp_year": 2019,
+        "gdp_ppp_total": "$655 million",
+        "gdp_ppp_per_capita": "$6,496",
+        "gdp_nominal_total": "$493 million",
+        "gdp_nominal_per_capita": "$4,888"
       },
       "development": {
         "hdi": {
@@ -725,8 +756,12 @@
       },
       "calling_code": "676",
       "iso_3166_code": "TO",
-      "internet_tld": ".to",
-      "time_zone": "UTC+13",
+      "internet_tld": [
+        ".to"
+      ],
+      "time_zone": {
+        "standard": "UTC+13"
+      },
       "demonym": "Tongan"
     }
   }

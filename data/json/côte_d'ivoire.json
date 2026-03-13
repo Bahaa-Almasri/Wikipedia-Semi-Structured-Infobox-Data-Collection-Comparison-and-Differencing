@@ -3,7 +3,7 @@
     "country_name": "Côte d'Ivoire",
     "slug": "côte_d'ivoire",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ivory_Coast",
-    "retrieved_at": "2026-03-13T10:07:31+00:00",
+    "retrieved_at": "2026-03-13T11:36:26+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -698,7 +698,45 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$202.647 billion ( 78th )",
+        "tokens": [
+          "202",
+          "647",
+          "billion",
+          "78th"
+        ],
+        "numbers": [
+          202.647,
+          78
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$6,960 ( 138th )",
+        "tokens": [
+          "6",
+          "960",
+          "138th"
+        ],
+        "numbers": [
+          6960,
+          138
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2023 estimate",
+        "tokens": [
+          "2023",
+          "estimate"
+        ],
+        "numbers": [
+          2023
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$79.430 billion ( 84th )",
         "tokens": [
@@ -712,7 +750,7 @@
           84
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,728 ( 141st )",
         "tokens": [
@@ -723,17 +761,6 @@
         "numbers": [
           2728,
           141
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2023 estimate",
-        "tokens": [
-          "2023",
-          "estimate"
-        ],
-        "numbers": [
-          2023
         ]
       },
       "gini_2021": {
@@ -834,6 +861,11 @@
         "latitude": "6°51′N",
         "longitude": "5°18′W"
       },
+      "languages": {
+        "official": [
+          "French"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic under an authoritarian regime",
         "head_of_state": "Alassane Ouattara",
@@ -852,7 +884,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$202.647 billion",
+        "gdp_ppp_per_capita": "$6,960",
+        "gdp_nominal_total": "$79.430 billion",
+        "gdp_nominal_per_capita": "$2,728"
       },
       "development": {
         "hdi": {
@@ -871,8 +907,12 @@
       },
       "calling_code": "225",
       "iso_3166_code": "CI",
-      "internet_tld": ".ci",
-      "time_zone": "UTC ±00:00 ( GMT )"
+      "internet_tld": [
+        ".ci"
+      ],
+      "time_zone": {
+        "standard": "UTC ±00:00 ( GMT )"
+      }
     }
   }
 }

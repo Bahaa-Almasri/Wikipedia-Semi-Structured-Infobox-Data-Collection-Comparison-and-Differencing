@@ -3,7 +3,7 @@
     "country_name": "Malawi",
     "slug": "malawi",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Malawi",
-    "retrieved_at": "2026-03-13T10:08:57+00:00",
+    "retrieved_at": "2026-03-13T11:37:27+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -684,7 +684,45 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$37.919 billion ( 137th )",
+        "tokens": [
+          "37",
+          "919",
+          "billion",
+          "137th"
+        ],
+        "numbers": [
+          37.919,
+          137
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$1,668 ( 186th )",
+        "tokens": [
+          "1",
+          "668",
+          "186th"
+        ],
+        "numbers": [
+          1668,
+          186
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2023 estimate",
+        "tokens": [
+          "2023",
+          "estimate"
+        ],
+        "numbers": [
+          2023
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$13.176 billion ( 149th )",
         "tokens": [
@@ -698,7 +736,7 @@
           149
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$579 ( 190th )",
         "tokens": [
@@ -708,17 +746,6 @@
         "numbers": [
           579,
           190
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2023 estimate",
-        "tokens": [
-          "2023",
-          "estimate"
-        ],
-        "numbers": [
-          2023
         ]
       },
       "gini_2016": {
@@ -816,6 +843,11 @@
         "latitude": "13°57′S",
         "longitude": "33°42′E"
       },
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Peter Mutharika"
@@ -833,7 +865,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$37.919 billion",
+        "gdp_ppp_per_capita": "$1,668",
+        "gdp_nominal_total": "$13.176 billion",
+        "gdp_nominal_per_capita": "$579"
       },
       "development": {
         "hdi": {
@@ -851,8 +887,12 @@
       },
       "calling_code": "265",
       "iso_3166_code": "MW",
-      "internet_tld": ".mw",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".mw"
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      },
       "demonym": "Malawian"
     }
   }

@@ -3,7 +3,7 @@
     "country_name": "Argentina",
     "slug": "argentina",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Argentina",
-    "retrieved_at": "2026-03-13T10:06:43+00:00",
+    "retrieved_at": "2026-03-13T11:35:48+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -662,7 +662,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$1.493 trillion ( 28th )",
+        "tokens": [
+          "1",
+          "493",
+          "trillion",
+          "28th"
+        ],
+        "numbers": [
+          1.493,
+          28
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$31,379 ( 68th )",
+        "tokens": [
+          "31",
+          "379",
+          "68th"
+        ],
+        "numbers": [
+          31379,
+          68
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$683.533 billion ( 23rd )",
         "tokens": [
@@ -676,7 +714,7 @@
           23
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$14,362 ( 66th )",
         "tokens": [
@@ -687,17 +725,6 @@
         "numbers": [
           14362,
           66
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -815,7 +842,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$1.493 trillion",
+        "gdp_ppp_per_capita": "$31,379",
+        "gdp_nominal_total": "$683.533 billion",
+        "gdp_nominal_per_capita": "$14,362"
       },
       "development": {
         "hdi": {
@@ -833,8 +864,12 @@
       },
       "calling_code": "54",
       "iso_3166_code": "AR",
-      "internet_tld": ".ar",
-      "time_zone": "UTC – 03:00 ( ART )"
+      "internet_tld": [
+        ".ar"
+      ],
+      "time_zone": {
+        "standard": "UTC – 03:00 ( ART )"
+      }
     }
   }
 }

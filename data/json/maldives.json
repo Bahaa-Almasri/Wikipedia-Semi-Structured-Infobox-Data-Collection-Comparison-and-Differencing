@@ -3,7 +3,7 @@
     "country_name": "Maldives",
     "slug": "maldives",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Maldives",
-    "retrieved_at": "2026-03-13T10:09:00+00:00",
+    "retrieved_at": "2026-03-13T11:37:29+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -551,7 +551,45 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$13.867 billion ( 157th )",
+        "tokens": [
+          "13",
+          "867",
+          "billion",
+          "157th"
+        ],
+        "numbers": [
+          13.867,
+          157
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$34,322 ( 54th )",
+        "tokens": [
+          "34",
+          "322",
+          "54th"
+        ],
+        "numbers": [
+          34322,
+          54
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$6.984 billion ( 161st )",
         "tokens": [
@@ -565,7 +603,7 @@
           161
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$17,287 ( 58th )",
         "tokens": [
@@ -576,17 +614,6 @@
         "numbers": [
           17287,
           58
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "gini_2024": {
@@ -694,7 +721,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$13.867 billion",
+        "gdp_ppp_per_capita": "$34,322",
+        "gdp_nominal_total": "$6.984 billion",
+        "gdp_nominal_per_capita": "$17,287"
       },
       "development": {
         "hdi": {
@@ -713,8 +744,12 @@
       },
       "calling_code": "960",
       "iso_3166_code": "MV",
-      "internet_tld": ".mv",
-      "time_zone": "UTC+5",
+      "internet_tld": [
+        ".mv"
+      ],
+      "time_zone": {
+        "standard": "UTC+5"
+      },
       "demonym": "Maldivian"
     }
   }

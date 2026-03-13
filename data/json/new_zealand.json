@@ -3,7 +3,7 @@
     "country_name": "New Zealand",
     "slug": "new_zealand",
     "wikipedia_url": "https://en.wikipedia.org/wiki/New_Zealand",
-    "retrieved_at": "2026-03-13T10:09:22+00:00",
+    "retrieved_at": "2026-03-13T11:37:42+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -697,7 +697,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$298.93 billion ( 67th )",
+        "tokens": [
+          "298",
+          "93",
+          "billion",
+          "67th"
+        ],
+        "numbers": [
+          298.93,
+          67
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$55,450 ( 36th )",
+        "tokens": [
+          "55",
+          "450",
+          "36th"
+        ],
+        "numbers": [
+          55450,
+          36
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$248.67 billion ( 52nd )",
         "tokens": [
@@ -711,7 +749,7 @@
           52
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$46,013 ( 23rd )",
         "tokens": [
@@ -722,17 +760,6 @@
         "numbers": [
           46013,
           23
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -843,6 +870,11 @@
         "latitude": "41°18′S",
         "longitude": "174°47′E"
       },
+      "languages": {
+        "official": [
+          "English Māori NZ Sign Language"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_state": "Charles III",
@@ -861,7 +893,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$298.93 billion",
+        "gdp_ppp_per_capita": "$55,450",
+        "gdp_nominal_total": "$248.67 billion",
+        "gdp_nominal_per_capita": "$46,013"
       },
       "development": {
         "hdi": {
@@ -879,8 +915,13 @@
       },
       "calling_code": "64",
       "iso_3166_code": "NZ",
-      "internet_tld": ".nz",
-      "time_zone": "UTC+12"
+      "internet_tld": [
+        ".nz"
+      ],
+      "time_zone": {
+        "standard": "UTC+12",
+        "dst": "UTC+13"
+      }
     }
   }
 }

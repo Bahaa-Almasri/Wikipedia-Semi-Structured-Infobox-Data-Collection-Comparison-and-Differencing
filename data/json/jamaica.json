@@ -3,7 +3,7 @@
     "country_name": "Jamaica",
     "slug": "jamaica",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Jamaica",
-    "retrieved_at": "2026-03-13T10:08:33+00:00",
+    "retrieved_at": "2026-03-13T11:37:12+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -601,7 +601,45 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$33.775 billion ( 143rd )",
+        "tokens": [
+          "33",
+          "775",
+          "billion",
+          "143rd"
+        ],
+        "numbers": [
+          33.775,
+          143
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$12,283 ( 134th )",
+        "tokens": [
+          "12",
+          "283",
+          "134th"
+        ],
+        "numbers": [
+          12283,
+          134
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$20.586 billion ( 119th )",
         "tokens": [
@@ -615,7 +653,7 @@
           119
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$7,487 ( 95th )",
         "tokens": [
@@ -626,17 +664,6 @@
         "numbers": [
           7487,
           95
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "gini_2021": {
@@ -721,6 +748,11 @@
       "country_name": "Jamaica",
       "capital": "Kingston",
       "largest_city": "Kingston",
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_state": "Charles III",
@@ -738,7 +770,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$33.775 billion",
+        "gdp_ppp_per_capita": "$12,283",
+        "gdp_nominal_total": "$20.586 billion",
+        "gdp_nominal_per_capita": "$7,487"
       },
       "development": {
         "hdi": {
@@ -757,8 +793,12 @@
       },
       "calling_code": "1",
       "iso_3166_code": "JM",
-      "internet_tld": ".jm",
-      "time_zone": "UTC-5:00",
+      "internet_tld": [
+        ".jm"
+      ],
+      "time_zone": {
+        "standard": "UTC-5:00"
+      },
       "demonym": "Jamaican"
     }
   }

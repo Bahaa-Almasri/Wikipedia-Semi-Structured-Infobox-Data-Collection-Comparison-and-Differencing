@@ -3,7 +3,7 @@
     "country_name": "Tuvalu",
     "slug": "tuvalu",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tuvalu",
-    "retrieved_at": "2026-03-13T10:10:45+00:00",
+    "retrieved_at": "2026-03-13T11:38:29+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -497,26 +497,27 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$63 million",
+        "text": "$68.603 million",
         "tokens": [
-          "63",
+          "68",
+          "603",
           "million"
         ],
         "numbers": [
-          63
+          68.603
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$6,113",
+        "text": "$6,076",
         "tokens": [
           "6",
-          "113"
+          "076"
         ],
         "numbers": [
-          6113
+          6076
         ]
       },
       "gdp_nominal": {
@@ -528,6 +529,28 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$63 million",
+        "tokens": [
+          "63",
+          "million"
+        ],
+        "numbers": [
+          63
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$6,113",
+        "tokens": [
+          "6",
+          "113"
+        ],
+        "numbers": [
+          6113
         ]
       },
       "gini_2022": {
@@ -614,6 +637,11 @@
         "latitude": "8°31′S",
         "longitude": "179°12′E"
       },
+      "languages": {
+        "official": [
+          "Tuvaluan English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_state": "Charles III",
@@ -631,7 +659,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$68.603 million",
+        "gdp_ppp_per_capita": "$6,076",
+        "gdp_nominal_total": "$63 million",
+        "gdp_nominal_per_capita": "$6,113"
       },
       "development": {
         "hdi": {
@@ -650,8 +682,12 @@
       },
       "calling_code": "688",
       "iso_3166_code": "TV",
-      "internet_tld": ".tv",
-      "time_zone": "UTC+12",
+      "internet_tld": [
+        ".tv"
+      ],
+      "time_zone": {
+        "standard": "UTC+12"
+      },
       "demonym": "Tuvaluan"
     }
   }

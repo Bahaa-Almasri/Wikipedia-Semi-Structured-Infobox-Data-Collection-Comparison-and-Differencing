@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:10:24+00:00",
+          "value": "2026-03-13T11:38:15+00:00",
           "children": []
         },
         {
@@ -137,8 +137,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$6,830",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$443.64 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2026",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$16,280",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$1.060 trillion",
               "children": []
             },
             {
@@ -166,13 +186,36 @@
         },
         {
           "label": "internet_tld",
-          "value": ".za",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".za",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "ZA",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "12 languages Afrikaans English Ndebele Sepedi Sesotho Setswana South African Sign Language Swazi Tshivenda Xhosa Xitsonga Zulu Languages with special status Khoe languages Nama Khoisan languages German Greek Gujarati Hindi Portuguese Telugu Tamil Urdu Arabic Hebrew Sanskrit",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -212,8 +255,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+2",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC+2",
+              "children": []
+            }
+          ]
         }
       ]
     }

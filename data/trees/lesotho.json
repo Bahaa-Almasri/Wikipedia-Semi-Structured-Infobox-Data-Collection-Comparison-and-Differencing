@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:08:48+00:00",
+          "value": "2026-03-13T11:37:21+00:00",
           "children": []
         },
         {
@@ -127,8 +127,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$1,110",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$2.373 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2023",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$3,234",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$6.915 billion",
               "children": []
             },
             {
@@ -161,13 +181,36 @@
         },
         {
           "label": "internet_tld",
-          "value": ".ls",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".ls",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "LS",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Sesotho English",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -207,8 +250,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+02:00",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC+02:00",
+              "children": []
+            }
+          ]
         }
       ]
     }

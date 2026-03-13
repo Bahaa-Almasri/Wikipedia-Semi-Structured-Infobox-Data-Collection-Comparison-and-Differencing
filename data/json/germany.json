@@ -3,7 +3,7 @@
     "country_name": "Germany",
     "slug": "germany",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Germany",
-    "retrieved_at": "2026-03-13T10:08:03+00:00",
+    "retrieved_at": "2026-03-13T11:36:56+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -436,7 +436,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$6.154 trillion ( 6th )",
+        "tokens": [
+          "6",
+          "154",
+          "trillion",
+          "6th"
+        ],
+        "numbers": [
+          6.154,
+          6
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$73,553 ( 23rd )",
+        "tokens": [
+          "73",
+          "553",
+          "23rd"
+        ],
+        "numbers": [
+          73553,
+          23
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$5.014 trillion ( 3rd )",
         "tokens": [
@@ -450,7 +488,7 @@
           3
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$59,925 ( 19th )",
         "tokens": [
@@ -461,17 +499,6 @@
         "numbers": [
           59925,
           19
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -583,6 +610,11 @@
         "latitude": "52°31′N",
         "longitude": "13°23′E"
       },
+      "languages": {
+        "official": [
+          "German"
+        ]
+      },
       "government": {
         "type": "Federal parliamentary republic",
         "head_of_state": "Frank-Walter Steinmeier",
@@ -600,7 +632,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$6.154 trillion",
+        "gdp_ppp_per_capita": "$73,553",
+        "gdp_nominal_total": "$5.014 trillion",
+        "gdp_nominal_per_capita": "$59,925"
       },
       "development": {
         "hdi": {
@@ -618,8 +654,13 @@
       },
       "calling_code": "49",
       "iso_3166_code": "DE",
-      "internet_tld": ".de",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".de"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "German"
     }
   }

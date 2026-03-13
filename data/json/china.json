@@ -3,7 +3,7 @@
     "country_name": "China",
     "slug": "china",
     "wikipedia_url": "https://en.wikipedia.org/wiki/China",
-    "retrieved_at": "2026-03-13T10:07:25+00:00",
+    "retrieved_at": "2026-03-13T11:36:23+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -683,7 +683,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$41.016 trillion ( 1st )",
+        "tokens": [
+          "41",
+          "016",
+          "trillion",
+          "1st"
+        ],
+        "numbers": [
+          41.016,
+          1
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$29,191 ( 74th )",
+        "tokens": [
+          "29",
+          "191",
+          "74th"
+        ],
+        "numbers": [
+          29191,
+          74
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$19.399 trillion ( 2nd )",
         "tokens": [
@@ -697,7 +735,7 @@
           2
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$13,806 ( 75th )",
         "tokens": [
@@ -708,17 +746,6 @@
         "numbers": [
           13806,
           75
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -818,6 +845,11 @@
         "latitude": "39°55′N",
         "longitude": "116°23′E"
       },
+      "languages": {
+        "official": [
+          "Standard Chinese (de facto)"
+        ]
+      },
       "government": {
         "type": "Unitary communist state",
         "head_of_government": "Li Qiang"
@@ -835,7 +867,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$41.016 trillion",
+        "gdp_ppp_per_capita": "$29,191",
+        "gdp_nominal_total": "$19.399 trillion",
+        "gdp_nominal_per_capita": "$13,806"
       },
       "development": {
         "hdi": {
@@ -853,8 +889,23 @@
       },
       "calling_code": "86852853",
       "iso_3166_code": "CN",
-      "internet_tld": ".cn .中国 .中國 (Mainland) .hk .香港 (Hong Kong) .mo .澳门 .澳門 (Macau)",
-      "time_zone": "UTC+8",
+      "internet_tld": [
+        ".cn",
+        ".中国",
+        ".中國",
+        "(Mainland)",
+        ".hk",
+        ".香港",
+        "(Hong",
+        "Kong)",
+        ".mo",
+        ".澳门",
+        ".澳門",
+        "(Macau)"
+      ],
+      "time_zone": {
+        "standard": "UTC+8"
+      },
       "demonym": "Chinese"
     }
   }

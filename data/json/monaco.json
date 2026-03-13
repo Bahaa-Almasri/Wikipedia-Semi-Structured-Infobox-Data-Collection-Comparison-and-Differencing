@@ -3,7 +3,7 @@
     "country_name": "Monaco",
     "slug": "monaco",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Monaco",
-    "retrieved_at": "2026-03-13T10:09:10+00:00",
+    "retrieved_at": "2026-03-13T11:37:34+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -621,27 +621,29 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$10.434 billion",
+        "text": "$8.924 billion ( 165th )",
         "tokens": [
-          "10",
-          "434",
-          "billion"
+          "8",
+          "924",
+          "billion",
+          "165th"
         ],
         "numbers": [
-          10.434
+          8.924,
+          165
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$315,800",
+        "text": "$270,100",
         "tokens": [
-          "315",
-          "800"
+          "270",
+          "100"
         ],
         "numbers": [
-          315800
+          270100
         ]
       },
       "gdp_nominal": {
@@ -653,6 +655,29 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$10.434 billion",
+        "tokens": [
+          "10",
+          "434",
+          "billion"
+        ],
+        "numbers": [
+          10.434
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$315,800",
+        "tokens": [
+          "315",
+          "800"
+        ],
+        "numbers": [
+          315800
         ]
       },
       "currency": {
@@ -729,6 +754,11 @@
       "country_name": "Monaco",
       "capital": "Monaco ( city-state )",
       "largest_city": "Monaco ( city-state )",
+      "languages": {
+        "official": [
+          "French ( Meridional )"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary semi- constitutional monarchy",
         "head_of_state": "Albert II"
@@ -745,15 +775,24 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$8.924 billion",
+        "gdp_ppp_per_capita": "$270,100",
+        "gdp_nominal_total": "$10.434 billion",
+        "gdp_nominal_per_capita": "$315,800"
       },
       "currency": {
         "name": "Euro"
       },
       "calling_code": "377",
       "iso_3166_code": "MC",
-      "internet_tld": ".mc",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".mc"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "Monégasque"
     }
   }

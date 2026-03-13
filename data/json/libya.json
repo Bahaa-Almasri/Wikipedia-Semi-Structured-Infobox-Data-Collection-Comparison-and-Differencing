@@ -3,7 +3,7 @@
     "country_name": "Libya",
     "slug": "libya",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Libya",
-    "retrieved_at": "2026-03-13T10:08:50+00:00",
+    "retrieved_at": "2026-03-13T11:37:23+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -723,7 +723,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$123.990 billion ( 96th )",
+        "tokens": [
+          "123",
+          "990",
+          "billion",
+          "96th"
+        ],
+        "numbers": [
+          123.99,
+          96
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$17,760 ( 101th )",
+        "tokens": [
+          "17",
+          "760",
+          "101th"
+        ],
+        "numbers": [
+          17760,
+          101
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$47.480 billion ( 95th )",
         "tokens": [
@@ -737,7 +775,7 @@
           95
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$6,800 ( 102th )",
         "tokens": [
@@ -748,17 +786,6 @@
         "numbers": [
           6800,
           102
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "hdi_2023": {
@@ -832,6 +859,11 @@
         "latitude": "32°52′N",
         "longitude": "13°11′E"
       },
+      "languages": {
+        "official": [
+          "Arabic [b]"
+        ]
+      },
       "government": {
         "type": "Unitary republic under a provisional government ( GNU )",
         "head_of_government": "Abdul Hamid Dbeibeh"
@@ -848,7 +880,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$123.990 billion",
+        "gdp_ppp_per_capita": "$17,760",
+        "gdp_nominal_total": "$47.480 billion",
+        "gdp_nominal_per_capita": "$6,800"
       },
       "development": {
         "hdi": {
@@ -863,8 +899,13 @@
       },
       "calling_code": "218",
       "iso_3166_code": "LY",
-      "internet_tld": ".ly ليبيا.",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".ly",
+        "ليبيا."
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      },
       "demonym": "Libyan"
     }
   }

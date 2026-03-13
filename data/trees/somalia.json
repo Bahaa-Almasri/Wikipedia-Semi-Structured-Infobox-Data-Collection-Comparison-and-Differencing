@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:10:22+00:00",
+          "value": "2026-03-13T11:38:14+00:00",
           "children": []
         },
         {
@@ -148,8 +148,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$766",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$12.990 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$1,920",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$32.500 billion",
               "children": []
             },
             {
@@ -182,13 +202,36 @@
         },
         {
           "label": "internet_tld",
-          "value": ".so",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".so",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "SO",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Somali",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -228,8 +271,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+3",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC+3",
+              "children": []
+            }
+          ]
         }
       ]
     }

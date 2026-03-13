@@ -3,7 +3,7 @@
     "country_name": "Panama",
     "slug": "panama",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Panama",
-    "retrieved_at": "2026-03-13T10:09:36+00:00",
+    "retrieved_at": "2026-03-13T11:37:49+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -604,7 +604,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$195.279 billion ( 80th )",
+        "tokens": [
+          "195",
+          "279",
+          "billion",
+          "80th"
+        ],
+        "numbers": [
+          195.279,
+          80
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$42,772 ( 50th )",
+        "tokens": [
+          "42",
+          "772",
+          "50th"
+        ],
+        "numbers": [
+          42772,
+          50
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$91.731 billion ( 77th )",
         "tokens": [
@@ -618,7 +656,7 @@
           77
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$20,092 ( 55th )",
         "tokens": [
@@ -629,17 +667,6 @@
         "numbers": [
           20092,
           55
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -743,6 +770,11 @@
         "latitude": "8°58′N",
         "longitude": "79°32′W"
       },
+      "languages": {
+        "official": [
+          "Spanish"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "José Raúl Mulino"
@@ -760,7 +792,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$195.279 billion",
+        "gdp_ppp_per_capita": "$42,772",
+        "gdp_nominal_total": "$91.731 billion",
+        "gdp_nominal_per_capita": "$20,092"
       },
       "development": {
         "hdi": {
@@ -779,8 +815,12 @@
       },
       "calling_code": "507",
       "iso_3166_code": "PA",
-      "internet_tld": ".pa",
-      "time_zone": "UTC −5 ( EST )",
+      "internet_tld": [
+        ".pa"
+      ],
+      "time_zone": {
+        "standard": "UTC −5 ( EST )"
+      },
       "demonym": "Panamanian"
     }
   }

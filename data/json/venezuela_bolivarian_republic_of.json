@@ -3,7 +3,7 @@
     "country_name": "Venezuela (Bolivarian Republic of)",
     "slug": "venezuela_bolivarian_republic_of",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Venezuela",
-    "retrieved_at": "2026-03-13T10:10:54+00:00",
+    "retrieved_at": "2026-03-13T11:38:42+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -642,7 +642,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$234.340 billion ( 77th )",
+        "tokens": [
+          "234",
+          "340",
+          "billion",
+          "77th"
+        ],
+        "numbers": [
+          234.34,
+          77
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$8,790 ( 133rd )",
+        "tokens": [
+          "8",
+          "790",
+          "133rd"
+        ],
+        "numbers": [
+          8790,
+          133
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$82.770 billion ( 69th )",
         "tokens": [
@@ -656,7 +694,7 @@
           69
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$3,100 ( 127th )",
         "tokens": [
@@ -667,17 +705,6 @@
         "numbers": [
           3100,
           127
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2013": {
@@ -775,6 +802,11 @@
       "country_name": "Venezuela (Bolivarian Republic of)",
       "capital": "Caracas",
       "largest_city": "Caracas",
+      "languages": {
+        "official": [
+          "Spanish [b]"
+        ]
+      },
       "government": {
         "type": "Federal presidential republic under an authoritarian dictatorship",
         "head_of_state": "Delcy Rodríguez (acting) Nicolás Maduro (de jure)"
@@ -792,7 +824,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$234.340 billion",
+        "gdp_ppp_per_capita": "$8,790",
+        "gdp_nominal_total": "$82.770 billion",
+        "gdp_nominal_per_capita": "$3,100"
       },
       "development": {
         "hdi": {
@@ -811,8 +847,12 @@
       },
       "calling_code": "58",
       "iso_3166_code": "VE",
-      "internet_tld": ".ve",
-      "time_zone": "UTC −04:00 ( VET )",
+      "internet_tld": [
+        ".ve"
+      ],
+      "time_zone": {
+        "standard": "UTC −04:00 ( VET )"
+      },
       "demonym": "Venezuelan"
     }
   }

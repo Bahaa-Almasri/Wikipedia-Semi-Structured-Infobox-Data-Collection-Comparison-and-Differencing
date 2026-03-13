@@ -3,7 +3,7 @@
     "country_name": "Tunisia",
     "slug": "tunisia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tunisia",
-    "retrieved_at": "2026-03-13T10:10:42+00:00",
+    "retrieved_at": "2026-03-13T11:38:26+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -682,7 +682,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$183.73 billion ( 84th )",
+        "tokens": [
+          "183",
+          "73",
+          "billion",
+          "84th"
+        ],
+        "numbers": [
+          183.73,
+          84
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$14,780 ( 111th )",
+        "tokens": [
+          "14",
+          "780",
+          "111th"
+        ],
+        "numbers": [
+          14780,
+          111
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$56.290 billion ( 90th )",
         "tokens": [
@@ -696,7 +734,7 @@
           90
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$4,530 ( 121st )",
         "tokens": [
@@ -707,17 +745,6 @@
         "numbers": [
           4530,
           121
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2021": {
@@ -814,6 +841,11 @@
         "latitude": "36°49′N",
         "longitude": "10°11′E"
       },
+      "languages": {
+        "official": [
+          "Arabic"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Kais Saied",
@@ -831,7 +863,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$183.73 billion",
+        "gdp_ppp_per_capita": "$14,780",
+        "gdp_nominal_total": "$56.290 billion",
+        "gdp_nominal_per_capita": "$4,530"
       },
       "development": {
         "hdi": {
@@ -850,8 +886,13 @@
       },
       "calling_code": "216",
       "iso_3166_code": "TN",
-      "internet_tld": ".tn .تونس",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".tn",
+        ".تونس"
+      ],
+      "time_zone": {
+        "standard": "UTC+1"
+      },
       "demonym": "Tunisian"
     }
   }

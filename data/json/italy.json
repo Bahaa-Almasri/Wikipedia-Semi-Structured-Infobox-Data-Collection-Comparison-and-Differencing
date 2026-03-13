@@ -3,7 +3,7 @@
     "country_name": "Italy",
     "slug": "italy",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Italy",
-    "retrieved_at": "2026-03-13T10:08:32+00:00",
+    "retrieved_at": "2026-03-13T11:37:12+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -721,7 +721,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$3.719 trillion ( 11th )",
+        "tokens": [
+          "3",
+          "719",
+          "trillion",
+          "11th"
+        ],
+        "numbers": [
+          3.719,
+          11
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$63,076 ( 29th )",
+        "tokens": [
+          "63",
+          "076",
+          "29th"
+        ],
+        "numbers": [
+          63076,
+          29
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$2.423 trillion ( 8th )",
         "tokens": [
@@ -735,7 +773,7 @@
           8
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$41,091 ( 27th )",
         "tokens": [
@@ -746,17 +784,6 @@
         "numbers": [
           41091,
           27
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2020": {
@@ -857,6 +884,11 @@
         "latitude": "41°54′N",
         "longitude": "12°29′E"
       },
+      "languages": {
+        "official": [
+          "Italian a"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Sergio Mattarella",
@@ -875,7 +907,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$3.719 trillion",
+        "gdp_ppp_per_capita": "$63,076",
+        "gdp_nominal_total": "$2.423 trillion",
+        "gdp_nominal_per_capita": "$41,091"
       },
       "development": {
         "hdi": {
@@ -893,8 +929,13 @@
       },
       "calling_code": "39",
       "iso_3166_code": "IT",
-      "internet_tld": ".it",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".it"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "Italian"
     }
   }

@@ -3,7 +3,7 @@
     "country_name": "Bahrain",
     "slug": "bahrain",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Bahrain",
-    "retrieved_at": "2026-03-13T10:06:53+00:00",
+    "retrieved_at": "2026-03-13T11:35:54+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -606,7 +606,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$118.060 billion ( 98th )",
+        "tokens": [
+          "118",
+          "060",
+          "billion",
+          "98th"
+        ],
+        "numbers": [
+          118.06,
+          98
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$71,460 ( 23rd )",
+        "tokens": [
+          "71",
+          "460",
+          "23rd"
+        ],
+        "numbers": [
+          71460,
+          23
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$49.190 billion ( 95th )",
         "tokens": [
@@ -620,7 +658,7 @@
           95
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$29,780 ( 40th )",
         "tokens": [
@@ -631,17 +669,6 @@
         "numbers": [
           29780,
           40
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "hdi_2023": {
@@ -732,7 +759,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$118.060 billion",
+        "gdp_ppp_per_capita": "$71,460",
+        "gdp_nominal_total": "$49.190 billion",
+        "gdp_nominal_per_capita": "$29,780"
       },
       "development": {
         "hdi": {
@@ -747,8 +778,12 @@
       },
       "calling_code": "973",
       "iso_3166_code": "BH",
-      "internet_tld": ".bh",
-      "time_zone": "UTC+3",
+      "internet_tld": [
+        ".bh"
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      },
       "demonym": "Bahraini"
     }
   }

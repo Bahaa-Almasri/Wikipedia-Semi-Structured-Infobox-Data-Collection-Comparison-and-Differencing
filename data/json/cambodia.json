@@ -3,7 +3,7 @@
     "country_name": "Cambodia",
     "slug": "cambodia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cambodia",
-    "retrieved_at": "2026-03-13T10:07:19+00:00",
+    "retrieved_at": "2026-03-13T11:36:17+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -820,7 +820,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$150.050 billion ( 89th )",
+        "tokens": [
+          "150",
+          "050",
+          "billion",
+          "89th"
+        ],
+        "numbers": [
+          150.05,
+          89
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$8,650 ( 131st )",
+        "tokens": [
+          "8",
+          "650",
+          "131st"
+        ],
+        "numbers": [
+          8650,
+          131
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$49.800 billion ( 93rd )",
         "tokens": [
@@ -834,7 +872,7 @@
           93
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,870 ( 140th )",
         "tokens": [
@@ -845,17 +883,6 @@
         "numbers": [
           2870,
           140
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2024": {
@@ -950,6 +977,11 @@
       "country_name": "Cambodia",
       "capital": "Phnom Penh",
       "largest_city": "Phnom Penh",
+      "languages": {
+        "official": [
+          "Khmer"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional elective monarchy under a hereditary dictatorship",
         "head_of_state": "Norodom Sihamoni",
@@ -968,7 +1000,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$150.050 billion",
+        "gdp_ppp_per_capita": "$8,650",
+        "gdp_nominal_total": "$49.800 billion",
+        "gdp_nominal_per_capita": "$2,870"
       },
       "development": {
         "hdi": {
@@ -986,8 +1022,12 @@
       },
       "calling_code": "855",
       "iso_3166_code": "KH",
-      "internet_tld": ".kh",
-      "time_zone": "UTC+07:00",
+      "internet_tld": [
+        ".kh"
+      ],
+      "time_zone": {
+        "standard": "UTC+07:00"
+      },
       "demonym": "Cambodian"
     }
   }

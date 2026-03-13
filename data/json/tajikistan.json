@@ -3,7 +3,7 @@
     "country_name": "Tajikistan",
     "slug": "tajikistan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tajikistan",
-    "retrieved_at": "2026-03-13T10:10:37+00:00",
+    "retrieved_at": "2026-03-13T11:38:21+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -568,7 +568,45 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$59.415 billion ( 119th )",
+        "tokens": [
+          "59",
+          "415",
+          "billion",
+          "119th"
+        ],
+        "numbers": [
+          59.415,
+          119
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$5,832 ( 145th )",
+        "tokens": [
+          "5",
+          "832",
+          "145th"
+        ],
+        "numbers": [
+          5832,
+          145
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$12.953 billion ( 141st )",
         "tokens": [
@@ -582,7 +620,7 @@
           141
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,176 ( 163rd )",
         "tokens": [
@@ -593,17 +631,6 @@
         "numbers": [
           1176,
           163
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "gini_2015": {
@@ -698,6 +725,11 @@
         "latitude": "38°33′N",
         "longitude": "68°48′E"
       },
+      "languages": {
+        "official": [
+          "Tajik Russian"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic under an authoritarian dictatorship",
         "head_of_state": "Emomali Rahmon",
@@ -715,7 +747,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$59.415 billion",
+        "gdp_ppp_per_capita": "$5,832",
+        "gdp_nominal_total": "$12.953 billion",
+        "gdp_nominal_per_capita": "$1,176"
       },
       "development": {
         "hdi": {
@@ -734,8 +770,12 @@
       },
       "calling_code": "992",
       "iso_3166_code": "TJ",
-      "internet_tld": ".tj",
-      "time_zone": "UTC+5"
+      "internet_tld": [
+        ".tj"
+      ],
+      "time_zone": {
+        "standard": "UTC+5"
+      }
     }
   }
 }

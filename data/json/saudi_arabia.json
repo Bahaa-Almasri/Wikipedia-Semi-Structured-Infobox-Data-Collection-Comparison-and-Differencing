@@ -3,7 +3,7 @@
     "country_name": "Saudi Arabia",
     "slug": "saudi_arabia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saudi_Arabia",
-    "retrieved_at": "2026-03-13T10:10:05+00:00",
+    "retrieved_at": "2026-03-13T11:38:07+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -592,7 +592,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$2.690 trillion ( 17th )",
+        "tokens": [
+          "2",
+          "690",
+          "trillion",
+          "17th"
+        ],
+        "numbers": [
+          2.69,
+          17
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$74.670 ( 19th )",
+        "tokens": [
+          "74",
+          "670",
+          "19th"
+        ],
+        "numbers": [
+          74.67,
+          19
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$1.270 trillion ( 19th )",
         "tokens": [
@@ -606,7 +644,7 @@
           19
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$35,230 ( 37th )",
         "tokens": [
@@ -617,17 +655,6 @@
         "numbers": [
           35230,
           37
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2013": {
@@ -716,6 +743,11 @@
         "latitude": "24°39′N",
         "longitude": "46°46′E"
       },
+      "languages": {
+        "official": [
+          "Arabic"
+        ]
+      },
       "government": {
         "type": "Unitary Islamic absolute monarchy",
         "head_of_state": "Salman"
@@ -733,7 +765,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$2.690 trillion",
+        "gdp_ppp_per_capita": "$74.670",
+        "gdp_nominal_total": "$1.270 trillion",
+        "gdp_nominal_per_capita": "$35,230"
       },
       "development": {
         "hdi": {
@@ -751,8 +787,13 @@
       },
       "calling_code": "966",
       "iso_3166_code": "SA",
-      "internet_tld": ".sa السعودية.",
-      "time_zone": "UTC+3"
+      "internet_tld": [
+        ".sa",
+        "السعودية."
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      }
     }
   }
 }

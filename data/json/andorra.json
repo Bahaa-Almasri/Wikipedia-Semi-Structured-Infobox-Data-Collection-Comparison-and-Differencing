@@ -3,7 +3,7 @@
     "country_name": "Andorra",
     "slug": "andorra",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Andorra",
-    "retrieved_at": "2026-03-13T10:06:35+00:00",
+    "retrieved_at": "2026-03-13T11:35:45+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -707,7 +707,45 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$6.001 billion ( 168th )",
+        "tokens": [
+          "6",
+          "001",
+          "billion",
+          "168th"
+        ],
+        "numbers": [
+          6.001,
+          168
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$69,146 ( 18th )",
+        "tokens": [
+          "69",
+          "146",
+          "18th"
+        ],
+        "numbers": [
+          69146,
+          18
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$3.897 billion ( 159th )",
         "tokens": [
@@ -721,7 +759,7 @@
           159
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$44,900 ( 24th )",
         "tokens": [
@@ -732,17 +770,6 @@
         "numbers": [
           44900,
           24
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "gini_2023": {
@@ -851,6 +878,11 @@
       "country_name": "Andorra",
       "capital": "Andorra la Vella",
       "largest_city": "Andorra la Vella",
+      "languages": {
+        "official": [
+          "Catalan 44.1%"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional co-principality",
         "head_of_government": "Xavier Espot Zamora"
@@ -868,7 +900,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$6.001 billion",
+        "gdp_ppp_per_capita": "$69,146",
+        "gdp_nominal_total": "$3.897 billion",
+        "gdp_nominal_per_capita": "$44,900"
       },
       "development": {
         "hdi": {
@@ -886,8 +922,13 @@
       },
       "calling_code": "376",
       "iso_3166_code": "AD",
-      "internet_tld": ".ad",
-      "time_zone": "UTC+01:00"
+      "internet_tld": [
+        ".ad"
+      ],
+      "time_zone": {
+        "standard": "UTC+01:00",
+        "dst": "UTC+02:00"
+      }
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Armenia",
     "slug": "armenia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Armenia",
-    "retrieved_at": "2026-03-13T10:06:44+00:00",
+    "retrieved_at": "2026-03-13T11:35:49+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -782,7 +782,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$74.407 billion ( 111th )",
+        "tokens": [
+          "74",
+          "407",
+          "billion",
+          "111th"
+        ],
+        "numbers": [
+          74.407,
+          111
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$23,954 ( 78th )",
+        "tokens": [
+          "23",
+          "954",
+          "78th"
+        ],
+        "numbers": [
+          23954,
+          78
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$27.859 billion ( 118th )",
         "tokens": [
@@ -796,7 +834,7 @@
           118
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$8,969 ( 88th )",
         "tokens": [
@@ -807,17 +845,6 @@
         "numbers": [
           8969,
           88
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -914,6 +941,11 @@
         "latitude": "40°11′N",
         "longitude": "44°31′E"
       },
+      "languages": {
+        "official": [
+          "Armenian"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Vahagn Khachaturyan",
@@ -932,7 +964,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$74.407 billion",
+        "gdp_ppp_per_capita": "$23,954",
+        "gdp_nominal_total": "$27.859 billion",
+        "gdp_nominal_per_capita": "$8,969"
       },
       "development": {
         "hdi": {
@@ -950,8 +986,13 @@
       },
       "calling_code": "374",
       "iso_3166_code": "AM",
-      "internet_tld": ".am .հայ",
-      "time_zone": "UTC+4",
+      "internet_tld": [
+        ".am",
+        ".հայ"
+      ],
+      "time_zone": {
+        "standard": "UTC+4"
+      },
       "demonym": "Armenian"
     }
   }

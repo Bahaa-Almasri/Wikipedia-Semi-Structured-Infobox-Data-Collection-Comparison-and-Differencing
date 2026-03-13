@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:07:25+00:00",
+          "value": "2026-03-13T11:36:23+00:00",
           "children": []
         },
         {
@@ -148,8 +148,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$13,806",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$19.399 trillion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$29,191",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$41.016 trillion",
               "children": []
             },
             {
@@ -177,13 +197,91 @@
         },
         {
           "label": "internet_tld",
-          "value": ".cn .中国 .中國 (Mainland) .hk .香港 (Hong Kong) .mo .澳门 .澳門 (Macau)",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".cn",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".中国",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".中國",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "(Mainland)",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".hk",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".香港",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "(Hong",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "Kong)",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".mo",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".澳门",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".澳門",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "(Macau)",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "CN",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Standard Chinese (de facto)",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -223,8 +321,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+8",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC+8",
+              "children": []
+            }
+          ]
         }
       ]
     }

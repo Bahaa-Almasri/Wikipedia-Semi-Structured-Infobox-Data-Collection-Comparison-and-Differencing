@@ -3,7 +3,7 @@
     "country_name": "Eswatini",
     "slug": "eswatini",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Eswatini",
-    "retrieved_at": "2026-03-13T10:07:52+00:00",
+    "retrieved_at": "2026-03-13T11:36:49+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -670,7 +670,45 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$13.797 billion ( 158th )",
+        "tokens": [
+          "13",
+          "797",
+          "billion",
+          "158th"
+        ],
+        "numbers": [
+          13.797,
+          158
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$11,858 ( 113th )",
+        "tokens": [
+          "11",
+          "858",
+          "113th"
+        ],
+        "numbers": [
+          11858,
+          113
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2023 estimate",
+        "tokens": [
+          "2023",
+          "estimate"
+        ],
+        "numbers": [
+          2023
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$4.648 billion ( 168th )",
         "tokens": [
@@ -684,7 +722,7 @@
           168
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$3,995 ( 122nd )",
         "tokens": [
@@ -695,17 +733,6 @@
         "numbers": [
           3995,
           122
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2023 estimate",
-        "tokens": [
-          "2023",
-          "estimate"
-        ],
-        "numbers": [
-          2023
         ]
       },
       "gini_2016": {
@@ -795,6 +822,11 @@
         "latitude": "26°30′S",
         "longitude": "31°30′E"
       },
+      "languages": {
+        "official": [
+          "Swazi English"
+        ]
+      },
       "government": {
         "type": "Unitary diarchic absolute monarchy",
         "head_of_state": "Mswati III",
@@ -813,7 +845,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$13.797 billion",
+        "gdp_ppp_per_capita": "$11,858",
+        "gdp_nominal_total": "$4.648 billion",
+        "gdp_nominal_per_capita": "$3,995"
       },
       "development": {
         "hdi": {
@@ -832,8 +868,12 @@
       },
       "calling_code": "268",
       "iso_3166_code": "SZ",
-      "internet_tld": ".sz",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".sz"
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      },
       "demonym": "Swazi"
     }
   }

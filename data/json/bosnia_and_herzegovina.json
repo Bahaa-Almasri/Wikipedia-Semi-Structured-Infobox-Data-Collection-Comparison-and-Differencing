@@ -3,7 +3,7 @@
     "country_name": "Bosnia and Herzegovina",
     "slug": "bosnia_and_herzegovina",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina",
-    "retrieved_at": "2026-03-13T10:07:05+00:00",
+    "retrieved_at": "2026-03-13T11:36:12+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -773,7 +773,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$82.23 billion ( 108th )",
+        "tokens": [
+          "82",
+          "23",
+          "billion",
+          "108th"
+        ],
+        "numbers": [
+          82.23,
+          108
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$23,930 ( 84th )",
+        "tokens": [
+          "23",
+          "930",
+          "84th"
+        ],
+        "numbers": [
+          23930,
+          84
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$36.24 billion ( 107th )",
         "tokens": [
@@ -787,7 +825,7 @@
           107
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$10,546 ( 85th )",
         "tokens": [
@@ -798,17 +836,6 @@
         "numbers": [
           10546,
           85
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2022": {
@@ -924,7 +951,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$82.23 billion",
+        "gdp_ppp_per_capita": "$23,930",
+        "gdp_nominal_total": "$36.24 billion",
+        "gdp_nominal_per_capita": "$10,546"
       },
       "development": {
         "hdi": {
@@ -943,8 +974,13 @@
       },
       "calling_code": "387",
       "iso_3166_code": "BA",
-      "internet_tld": ".ba",
-      "time_zone": "UTC+01"
+      "internet_tld": [
+        ".ba"
+      ],
+      "time_zone": {
+        "standard": "UTC+01",
+        "dst": "UTC+02"
+      }
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Zambia",
     "slug": "zambia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Zambia",
-    "retrieved_at": "2026-03-13T10:10:56+00:00",
+    "retrieved_at": "2026-03-13T11:38:45+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -765,7 +765,45 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$83.687 billion ( 100th )",
+        "tokens": [
+          "83",
+          "687",
+          "billion",
+          "100th"
+        ],
+        "numbers": [
+          83.687,
+          100
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$4,068 ( 155th )",
+        "tokens": [
+          "4",
+          "068",
+          "155th"
+        ],
+        "numbers": [
+          4068,
+          155
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2023 estimate",
+        "tokens": [
+          "2023",
+          "estimate"
+        ],
+        "numbers": [
+          2023
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$29.536 billion ( 113th )",
         "tokens": [
@@ -779,7 +817,7 @@
           113
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,435 ( 159th )",
         "tokens": [
@@ -790,17 +828,6 @@
         "numbers": [
           1435,
           159
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2023 estimate",
-        "tokens": [
-          "2023",
-          "estimate"
-        ],
-        "numbers": [
-          2023
         ]
       },
       "gini_2022": {
@@ -897,6 +924,11 @@
         "latitude": "15°25′S",
         "longitude": "28°17′E"
       },
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Hakainde Hichilema"
@@ -914,7 +946,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$83.687 billion",
+        "gdp_ppp_per_capita": "$4,068",
+        "gdp_nominal_total": "$29.536 billion",
+        "gdp_nominal_per_capita": "$1,435"
       },
       "development": {
         "hdi": {
@@ -933,8 +969,12 @@
       },
       "calling_code": "260",
       "iso_3166_code": "ZM",
-      "internet_tld": ".zm",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".zm"
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      },
       "demonym": "Zambian"
     }
   }

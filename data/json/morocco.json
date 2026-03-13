@@ -3,7 +3,7 @@
     "country_name": "Morocco",
     "slug": "morocco",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Morocco",
-    "retrieved_at": "2026-03-13T10:09:14+00:00",
+    "retrieved_at": "2026-03-13T11:37:37+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -722,7 +722,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$424.870 billion ( 57th )",
+        "tokens": [
+          "424",
+          "870",
+          "billion",
+          "57th"
+        ],
+        "numbers": [
+          424.87,
+          57
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$11,270 ( 122nd )",
+        "tokens": [
+          "11",
+          "270",
+          "122nd"
+        ],
+        "numbers": [
+          11270,
+          122
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$165.840 billion ( 58th )",
         "tokens": [
@@ -736,7 +774,7 @@
           58
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$4,440 ( 123rd )",
         "tokens": [
@@ -747,17 +785,6 @@
         "numbers": [
           4440,
           123
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2015": {
@@ -848,6 +875,11 @@
         "latitude": "34°02′N",
         "longitude": "6°51′W"
       },
+      "languages": {
+        "official": [
+          "Arabic Tamazight"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary semi-constitutional monarchy",
         "head_of_state": "Mohammed VI",
@@ -866,7 +898,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$424.870 billion",
+        "gdp_ppp_per_capita": "$11,270",
+        "gdp_nominal_total": "$165.840 billion",
+        "gdp_nominal_per_capita": "$4,440"
       },
       "development": {
         "hdi": {
@@ -885,8 +921,13 @@
       },
       "calling_code": "212",
       "iso_3166_code": "MA",
-      "internet_tld": ".ma .المغرب",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".ma",
+        ".المغرب"
+      ],
+      "time_zone": {
+        "standard": "UTC+1"
+      },
       "demonym": "Moroccan"
     }
   }

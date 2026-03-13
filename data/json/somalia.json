@@ -3,7 +3,7 @@
     "country_name": "Somalia",
     "slug": "somalia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Somalia",
-    "retrieved_at": "2026-03-13T10:10:22+00:00",
+    "retrieved_at": "2026-03-13T11:38:14+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -825,7 +825,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$32.500 billion ( 151st )",
+        "tokens": [
+          "32",
+          "500",
+          "billion",
+          "151st"
+        ],
+        "numbers": [
+          32.5,
+          151
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$1,920 ( 179th )",
+        "tokens": [
+          "1",
+          "920",
+          "179th"
+        ],
+        "numbers": [
+          1920,
+          179
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$12.990 billion ( 147th )",
         "tokens": [
@@ -839,7 +877,7 @@
           147
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$766 ( 177th )",
         "tokens": [
@@ -849,17 +887,6 @@
         "numbers": [
           766,
           177
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022_last_available_data": {
@@ -946,6 +973,11 @@
         "latitude": "2°2′N",
         "longitude": "45°21′E"
       },
+      "languages": {
+        "official": [
+          "Somali"
+        ]
+      },
       "government": {
         "type": "Federal parliamentary republic",
         "head_of_state": "Hassan Sheikh Mohamud",
@@ -963,7 +995,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$32.500 billion",
+        "gdp_ppp_per_capita": "$1,920",
+        "gdp_nominal_total": "$12.990 billion",
+        "gdp_nominal_per_capita": "$766"
       },
       "development": {
         "hdi": {
@@ -982,8 +1018,12 @@
       },
       "calling_code": "252",
       "iso_3166_code": "SO",
-      "internet_tld": ".so",
-      "time_zone": "UTC+3",
+      "internet_tld": [
+        ".so"
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      },
       "demonym": "Somali"
     }
   }

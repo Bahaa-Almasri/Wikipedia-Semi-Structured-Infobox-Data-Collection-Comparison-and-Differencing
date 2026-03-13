@@ -3,7 +3,7 @@
     "country_name": "Türkiye",
     "slug": "türkiye",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Turkey",
-    "retrieved_at": "2026-03-13T10:10:43+00:00",
+    "retrieved_at": "2026-03-13T11:38:27+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -662,7 +662,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$3.77 trillion ( 11th )",
+        "tokens": [
+          "3",
+          "77",
+          "trillion",
+          "11th"
+        ],
+        "numbers": [
+          3.77,
+          11
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$43,790 ( 51st )",
+        "tokens": [
+          "43",
+          "790",
+          "51st"
+        ],
+        "numbers": [
+          43790,
+          51
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$1.57 trillion ( 16th )",
         "tokens": [
@@ -676,7 +714,7 @@
           16
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$18,200 ( 62nd )",
         "tokens": [
@@ -687,17 +725,6 @@
         "numbers": [
           18200,
           62
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -785,6 +812,11 @@
         "latitude": "39°55′N",
         "longitude": "32°51′E"
       },
+      "languages": {
+        "official": [
+          "Turkish"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Recep Tayyip Erdoğan"
@@ -802,7 +834,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$3.77 trillion",
+        "gdp_ppp_per_capita": "$43,790",
+        "gdp_nominal_total": "$1.57 trillion",
+        "gdp_nominal_per_capita": "$18,200"
       },
       "development": {
         "hdi": {
@@ -820,8 +856,12 @@
       },
       "calling_code": "90",
       "iso_3166_code": "TR",
-      "internet_tld": ".tr",
-      "time_zone": "UTC+3"
+      "internet_tld": [
+        ".tr"
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      }
     }
   }
 }

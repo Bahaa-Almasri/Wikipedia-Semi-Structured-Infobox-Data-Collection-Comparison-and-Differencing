@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:07:28+00:00",
+          "value": "2026-03-13T11:36:25+00:00",
           "children": []
         },
         {
@@ -143,8 +143,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$1,377",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$1.364 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2023",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$3,463",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$3.432 billion",
               "children": []
             },
             {
@@ -172,13 +192,36 @@
         },
         {
           "label": "internet_tld",
-          "value": ".km",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".km",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "KM",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Comorian French Arabic",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -218,8 +261,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+3",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC+3",
+              "children": []
+            }
+          ]
         }
       ]
     }

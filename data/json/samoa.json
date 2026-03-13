@@ -3,7 +3,7 @@
     "country_name": "Samoa",
     "slug": "samoa",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Samoa",
-    "retrieved_at": "2026-03-13T10:10:01+00:00",
+    "retrieved_at": "2026-03-13T11:38:04+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -669,27 +669,27 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$908.561 million",
+        "text": "$1.225 billion",
         "tokens": [
-          "908",
-          "561",
-          "million"
+          "1",
+          "225",
+          "billion"
         ],
         "numbers": [
-          908.561
+          1.225
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$4,420",
+        "text": "$5,962",
         "tokens": [
-          "4",
-          "420"
+          "5",
+          "962"
         ],
         "numbers": [
-          4420
+          5962
         ]
       },
       "gdp_nominal": {
@@ -701,6 +701,29 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$908.561 million",
+        "tokens": [
+          "908",
+          "561",
+          "million"
+        ],
+        "numbers": [
+          908.561
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$4,420",
+        "tokens": [
+          "4",
+          "420"
+        ],
+        "numbers": [
+          4420
         ]
       },
       "gini_2013": {
@@ -794,6 +817,12 @@
       "country_name": "Samoa",
       "capital": "Apia",
       "largest_city": "Apia",
+      "languages": {
+        "official": [
+          "Samoan",
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_government": "Laʻauli Leuatea Schmidt"
@@ -811,7 +840,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$1.225 billion",
+        "gdp_ppp_per_capita": "$5,962",
+        "gdp_nominal_total": "$908.561 million",
+        "gdp_nominal_per_capita": "$4,420"
       },
       "development": {
         "hdi": {
@@ -829,8 +862,12 @@
       },
       "calling_code": "685",
       "iso_3166_code": "WS",
-      "internet_tld": ".ws",
-      "time_zone": "UTC+13",
+      "internet_tld": [
+        ".ws"
+      ],
+      "time_zone": {
+        "standard": "UTC+13"
+      },
       "demonym": "Samoan"
     }
   }

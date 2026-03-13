@@ -3,7 +3,7 @@
     "country_name": "San Marino",
     "slug": "san_marino",
     "wikipedia_url": "https://en.wikipedia.org/wiki/San_Marino",
-    "retrieved_at": "2026-03-13T10:10:02+00:00",
+    "retrieved_at": "2026-03-13T11:38:05+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -593,7 +593,45 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$2.978 billion ( 176th )",
+        "tokens": [
+          "2",
+          "978",
+          "billion",
+          "176th"
+        ],
+        "numbers": [
+          2.978,
+          176
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$86,989 ( 12th )",
+        "tokens": [
+          "86",
+          "989",
+          "12th"
+        ],
+        "numbers": [
+          86989,
+          12
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$2.034 billion ( 171st )",
         "tokens": [
@@ -607,7 +645,7 @@
           171
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$59,405 ( 12th )",
         "tokens": [
@@ -618,17 +656,6 @@
         "numbers": [
           59405,
           12
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "hdi_2023": {
@@ -721,6 +748,11 @@
         "latitude": "43°56′N",
         "longitude": "12°26′E"
       },
+      "languages": {
+        "official": [
+          "Italian"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary diarchic directorial republic"
       },
@@ -737,7 +769,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$2.978 billion",
+        "gdp_ppp_per_capita": "$86,989",
+        "gdp_nominal_total": "$2.034 billion",
+        "gdp_nominal_per_capita": "$59,405"
       },
       "development": {
         "hdi": {
@@ -751,8 +787,13 @@
       },
       "calling_code": "378390549",
       "iso_3166_code": "SM",
-      "internet_tld": ".sm",
-      "time_zone": "UTC+01",
+      "internet_tld": [
+        ".sm"
+      ],
+      "time_zone": {
+        "standard": "UTC+01",
+        "dst": "UTC+02"
+      },
       "demonym": "Sammarinese"
     }
   }

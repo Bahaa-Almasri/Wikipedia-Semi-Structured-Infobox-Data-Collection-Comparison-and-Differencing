@@ -3,7 +3,7 @@
     "country_name": "Yemen",
     "slug": "yemen",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Yemen",
-    "retrieved_at": "2026-03-13T10:10:55+00:00",
+    "retrieved_at": "2026-03-13T11:38:45+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -613,7 +613,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$69.960 billion ( 117th )",
+        "tokens": [
+          "69",
+          "960",
+          "billion",
+          "117th"
+        ],
+        "numbers": [
+          69.96,
+          117
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$1,670 ( 183rd )",
+        "tokens": [
+          "1",
+          "670",
+          "183rd"
+        ],
+        "numbers": [
+          1670,
+          183
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$17.400 billion ( 135th )",
         "tokens": [
@@ -627,7 +665,7 @@
           135
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$416 ( 190th )",
         "tokens": [
@@ -637,17 +675,6 @@
         "numbers": [
           416,
           190
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2014": {
@@ -747,7 +774,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$69.960 billion",
+        "gdp_ppp_per_capita": "$1,670",
+        "gdp_nominal_total": "$17.400 billion",
+        "gdp_nominal_per_capita": "$416"
       },
       "development": {
         "hdi": {
@@ -766,8 +797,14 @@
       },
       "calling_code": "967",
       "iso_3166_code": "YE",
-      "internet_tld": "List .ye اليمن.",
-      "time_zone": "UTC+3"
+      "internet_tld": [
+        "List",
+        ".ye",
+        "اليمن."
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      }
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "North Macedonia",
     "slug": "north_macedonia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/North_Macedonia",
-    "retrieved_at": "2026-03-13T10:09:27+00:00",
+    "retrieved_at": "2026-03-13T11:37:45+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -608,7 +608,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$53.345 billion ( 134th )",
+        "tokens": [
+          "53",
+          "345",
+          "billion",
+          "134th"
+        ],
+        "numbers": [
+          53.345,
+          134
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$29,475 ( 71st )",
+        "tokens": [
+          "29",
+          "475",
+          "71st"
+        ],
+        "numbers": [
+          29475,
+          71
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$17.885 billion ( 137th )",
         "tokens": [
@@ -622,7 +660,7 @@
           137
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$9,882 ( 81st )",
         "tokens": [
@@ -633,17 +671,6 @@
         "numbers": [
           9882,
           81
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -743,6 +770,11 @@
         "latitude": "42°0′N",
         "longitude": "21°26′E"
       },
+      "languages": {
+        "official": [
+          "Macedonian Albanian"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Gordana Siljanovska-Davkova",
@@ -760,7 +792,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$53.345 billion",
+        "gdp_ppp_per_capita": "$29,475",
+        "gdp_nominal_total": "$17.885 billion",
+        "gdp_nominal_per_capita": "$9,882"
       },
       "development": {
         "hdi": {
@@ -779,8 +815,14 @@
       },
       "calling_code": "389",
       "iso_3166_code": "MK",
-      "internet_tld": ".mk .мкд",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".mk",
+        ".мкд"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "Macedonian"
     }
   }

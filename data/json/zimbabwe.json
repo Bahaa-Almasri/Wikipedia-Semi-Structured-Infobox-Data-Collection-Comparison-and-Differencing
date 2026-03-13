@@ -3,7 +3,7 @@
     "country_name": "Zimbabwe",
     "slug": "zimbabwe",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Zimbabwe",
-    "retrieved_at": "2026-03-13T10:10:57+00:00",
+    "retrieved_at": "2026-03-13T11:38:46+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -710,7 +710,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$93.870 billion ( 104th )",
+        "tokens": [
+          "93",
+          "870",
+          "billion",
+          "104th"
+        ],
+        "numbers": [
+          93.87,
+          104
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$5,410 ( 151st )",
+        "tokens": [
+          "5",
+          "410",
+          "151st"
+        ],
+        "numbers": [
+          5410,
+          151
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$53.310 billion ( 101st )",
         "tokens": [
@@ -724,7 +762,7 @@
           101
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$3,070 ( 152nd )",
         "tokens": [
@@ -735,17 +773,6 @@
         "numbers": [
           3070,
           152
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2019": {
@@ -852,6 +879,11 @@
       "country_name": "Zimbabwe",
       "capital": "Harare",
       "largest_city": "Harare",
+      "languages": {
+        "official": [
+          "16 languages : Chewa Chibarwe English Kalanga Khoisan Nambya Ndau Ndebele Shangani Shona Sotho Tonga Tswana Venda Xhosa Zimbabwean sign language"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Emmerson Mnangagwa"
@@ -869,7 +901,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$93.870 billion",
+        "gdp_ppp_per_capita": "$5,410",
+        "gdp_nominal_total": "$53.310 billion",
+        "gdp_nominal_per_capita": "$3,070"
       },
       "development": {
         "hdi": {
@@ -888,8 +924,12 @@
       },
       "calling_code": "263",
       "iso_3166_code": "ZW",
-      "internet_tld": ".zw",
-      "time_zone": "UTC+2"
+      "internet_tld": [
+        ".zw"
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      }
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Mali",
     "slug": "mali",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mali",
-    "retrieved_at": "2026-03-13T10:09:01+00:00",
+    "retrieved_at": "2026-03-13T11:37:29+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -688,7 +688,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$72.74 billion ( 115th )",
+        "tokens": [
+          "72",
+          "74",
+          "billion",
+          "115th"
+        ],
+        "numbers": [
+          72.74,
+          115
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$2,930 ( 173rd )",
+        "tokens": [
+          "2",
+          "930",
+          "173rd"
+        ],
+        "numbers": [
+          2930,
+          173
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$23.21 billion ( 121st )",
         "tokens": [
@@ -702,7 +740,7 @@
           121
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$936 ( 175th )",
         "tokens": [
@@ -712,17 +750,6 @@
         "numbers": [
           936,
           175
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2010": {
@@ -813,6 +840,14 @@
         "latitude": "12°39′N",
         "longitude": "8°0′W"
       },
+      "languages": {
+        "official": [
+          "13 national languages Bambara Bobo Hassaniya Arabic Bozo Dogon",
+          "Toro So Fula Kassonke Maninke Minyanka Senufo",
+          "Senara Songhay",
+          "Koyraboro Senni Soninke Tamasheq"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic under a military junta",
         "head_of_state": "Assimi Goïta",
@@ -831,7 +866,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$72.74 billion",
+        "gdp_ppp_per_capita": "$2,930",
+        "gdp_nominal_total": "$23.21 billion",
+        "gdp_nominal_per_capita": "$936"
       },
       "development": {
         "hdi": {
@@ -850,8 +889,12 @@
       },
       "calling_code": "223",
       "iso_3166_code": "ML",
-      "internet_tld": ".ml",
-      "time_zone": "UTC ±00:00 ( GMT )",
+      "internet_tld": [
+        ".ml"
+      ],
+      "time_zone": {
+        "standard": "UTC ±00:00 ( GMT )"
+      },
       "demonym": "Malian"
     }
   }

@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:09:10+00:00",
+          "value": "2026-03-13T11:37:34+00:00",
           "children": []
         },
         {
@@ -84,8 +84,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$315,800",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$10.434 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2024",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$270,100",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$8.924 billion",
               "children": []
             },
             {
@@ -113,13 +133,36 @@
         },
         {
           "label": "internet_tld",
-          "value": ".mc",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".mc",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "MC",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "French ( Meridional )",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -159,8 +202,19 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+1",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "dst",
+              "value": "UTC+2",
+              "children": []
+            },
+            {
+              "label": "standard",
+              "value": "UTC+1",
+              "children": []
+            }
+          ]
         }
       ]
     }

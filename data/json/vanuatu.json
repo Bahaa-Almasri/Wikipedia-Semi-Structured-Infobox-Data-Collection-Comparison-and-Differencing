@@ -3,7 +3,7 @@
     "country_name": "Vanuatu",
     "slug": "vanuatu",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Vanuatu",
-    "retrieved_at": "2026-03-13T10:10:53+00:00",
+    "retrieved_at": "2026-03-13T11:38:40+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -490,27 +490,27 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$1.064 billion",
+        "text": "$1.002 billion",
         "tokens": [
           "1",
-          "064",
+          "002",
           "billion"
         ],
         "numbers": [
-          1.064
+          1.002
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$3,188",
+        "text": "$3,001",
         "tokens": [
           "3",
-          "188"
+          "001"
         ],
         "numbers": [
-          3188
+          3001
         ]
       },
       "gdp_nominal": {
@@ -522,6 +522,29 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$1.064 billion",
+        "tokens": [
+          "1",
+          "064",
+          "billion"
+        ],
+        "numbers": [
+          1.064
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$3,188",
+        "tokens": [
+          "3",
+          "188"
+        ],
+        "numbers": [
+          3188
         ]
       },
       "gini_2019": {
@@ -605,6 +628,11 @@
       "country_name": "Vanuatu",
       "capital": "Port Vila",
       "largest_city": "Port Vila",
+      "languages": {
+        "official": [
+          "Bislama English French"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Nikenike Vurobaravu",
@@ -622,7 +650,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$1.002 billion",
+        "gdp_ppp_per_capita": "$3,001",
+        "gdp_nominal_total": "$1.064 billion",
+        "gdp_nominal_per_capita": "$3,188"
       },
       "development": {
         "hdi": {
@@ -641,8 +673,12 @@
       },
       "calling_code": "678",
       "iso_3166_code": "VU",
-      "internet_tld": ".vu",
-      "time_zone": "UTC+11",
+      "internet_tld": [
+        ".vu"
+      ],
+      "time_zone": {
+        "standard": "UTC+11"
+      },
       "demonym": "Ni-Vanuatu (or rarely: Vanuatuan )"
     }
   }

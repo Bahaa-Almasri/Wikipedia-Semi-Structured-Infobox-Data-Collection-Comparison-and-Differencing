@@ -3,7 +3,7 @@
     "country_name": "Russian Federation",
     "slug": "russian_federation",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Russia",
-    "retrieved_at": "2026-03-13T10:09:55+00:00",
+    "retrieved_at": "2026-03-13T11:38:01+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -730,7 +730,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$7.143 trillion ( 4th )",
+        "tokens": [
+          "7",
+          "143",
+          "trillion",
+          "4th"
+        ],
+        "numbers": [
+          7.143,
+          4
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$49,049 ( 49th )",
+        "tokens": [
+          "49",
+          "049",
+          "49th"
+        ],
+        "numbers": [
+          49049,
+          49
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$2.541 trillion ( 9th )",
         "tokens": [
@@ -744,7 +782,7 @@
           9
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$17,446 ( 68th )",
         "tokens": [
@@ -755,17 +793,6 @@
         "numbers": [
           17446,
           68
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2020": {
@@ -869,7 +896,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$7.143 trillion",
+        "gdp_ppp_per_capita": "$49,049",
+        "gdp_nominal_total": "$2.541 trillion",
+        "gdp_nominal_per_capita": "$17,446"
       },
       "development": {
         "hdi": {
@@ -887,8 +918,13 @@
       },
       "calling_code": "7",
       "iso_3166_code": "RU",
-      "internet_tld": ".ru .рф",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".ru",
+        ".рф"
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      },
       "demonym": "Russian"
     }
   }

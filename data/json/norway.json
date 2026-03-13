@@ -3,7 +3,7 @@
     "country_name": "Norway",
     "slug": "norway",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Norway",
-    "retrieved_at": "2026-03-13T10:09:29+00:00",
+    "retrieved_at": "2026-03-13T11:37:46+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -734,7 +734,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$606.590 billion ( 49th )",
+        "tokens": [
+          "606",
+          "590",
+          "billion",
+          "49th"
+        ],
+        "numbers": [
+          606.59,
+          49
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$107,890 ( 5th )",
+        "tokens": [
+          "107",
+          "890",
+          "5th"
+        ],
+        "numbers": [
+          107890,
+          5
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$504.280 billion ( 31st )",
         "tokens": [
@@ -748,7 +786,7 @@
           31
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$89,690 ( 6th )",
         "tokens": [
@@ -759,17 +797,6 @@
         "numbers": [
           89690,
           6
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2020": {
@@ -880,6 +907,11 @@
         "latitude": "59°56′N",
         "longitude": "10°41′E"
       },
+      "languages": {
+        "official": [
+          "Norwegian Sámi"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_state": "Harald V",
@@ -898,7 +930,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$606.590 billion",
+        "gdp_ppp_per_capita": "$107,890",
+        "gdp_nominal_total": "$504.280 billion",
+        "gdp_nominal_per_capita": "$89,690"
       },
       "development": {
         "hdi": {
@@ -917,8 +953,14 @@
       },
       "calling_code": "47",
       "iso_3166_code": "NO",
-      "internet_tld": ".no d",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".no",
+        "d"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "Norwegian"
     }
   }

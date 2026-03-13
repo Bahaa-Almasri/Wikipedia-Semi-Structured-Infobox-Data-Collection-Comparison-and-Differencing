@@ -3,7 +3,7 @@
     "country_name": "Seychelles",
     "slug": "seychelles",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Seychelles",
-    "retrieved_at": "2026-03-13T10:10:11+00:00",
+    "retrieved_at": "2026-03-13T11:38:09+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -517,7 +517,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$4.490 billion ( 177th )",
+        "tokens": [
+          "4",
+          "490",
+          "billion",
+          "177th"
+        ],
+        "numbers": [
+          4.49,
+          177
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$43,850 ( 49th )",
+        "tokens": [
+          "43",
+          "850",
+          "49th"
+        ],
+        "numbers": [
+          43850,
+          49
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$2.250 billion ( 186th )",
         "tokens": [
@@ -531,7 +569,7 @@
           186
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$21,940 ( 50th )",
         "tokens": [
@@ -542,17 +580,6 @@
         "numbers": [
           21940,
           50
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2019": {
@@ -642,6 +669,11 @@
         "latitude": "4°37′S",
         "longitude": "55°27′E"
       },
+      "languages": {
+        "official": [
+          "Seychellois Creole (national language) English French"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Patrick Herminie"
@@ -658,7 +690,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$4.490 billion",
+        "gdp_ppp_per_capita": "$43,850",
+        "gdp_nominal_total": "$2.250 billion",
+        "gdp_nominal_per_capita": "$21,940"
       },
       "development": {
         "hdi": {
@@ -677,8 +713,12 @@
       },
       "calling_code": "248",
       "iso_3166_code": "SC",
-      "internet_tld": ".sc",
-      "time_zone": "UTC+04:00"
+      "internet_tld": [
+        ".sc"
+      ],
+      "time_zone": {
+        "standard": "UTC+04:00"
+      }
     }
   }
 }

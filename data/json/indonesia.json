@@ -3,7 +3,7 @@
     "country_name": "Indonesia",
     "slug": "indonesia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Indonesia",
-    "retrieved_at": "2026-03-13T10:08:22+00:00",
+    "retrieved_at": "2026-03-13T11:37:07+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -706,7 +706,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$5.009 trillion ( 7th )",
+        "tokens": [
+          "5",
+          "009",
+          "trillion",
+          "7th"
+        ],
+        "numbers": [
+          5.009,
+          7
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$17,612 ( 103rd )",
+        "tokens": [
+          "17",
+          "612",
+          "103rd"
+        ],
+        "numbers": [
+          17612,
+          103
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$1.430 trillion ( 17th )",
         "tokens": [
@@ -720,7 +758,7 @@
           17
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$5,027 ( 116th )",
         "tokens": [
@@ -731,17 +769,6 @@
         "numbers": [
           5027,
           116
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2024": {
@@ -845,6 +872,11 @@
         "latitude": "6°10′S",
         "longitude": "106°49′E"
       },
+      "languages": {
+        "official": [
+          "Indonesian"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Prabowo Subianto"
@@ -861,7 +893,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$5.009 trillion",
+        "gdp_ppp_per_capita": "$17,612",
+        "gdp_nominal_total": "$1.430 trillion",
+        "gdp_nominal_per_capita": "$5,027"
       },
       "development": {
         "hdi": {
@@ -879,8 +915,12 @@
       },
       "calling_code": "62",
       "iso_3166_code": "ID",
-      "internet_tld": ".id",
-      "time_zone": "UTC+7",
+      "internet_tld": [
+        ".id"
+      ],
+      "time_zone": {
+        "standard": "UTC+7"
+      },
       "demonym": "Indonesian"
     }
   }

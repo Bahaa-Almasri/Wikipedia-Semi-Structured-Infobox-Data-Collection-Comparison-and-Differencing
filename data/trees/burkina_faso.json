@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:07:14+00:00",
+          "value": "2026-03-13T11:36:15+00:00",
           "children": []
         },
         {
@@ -153,8 +153,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$1,110",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$27.06 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$2,980",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$72.820 billion",
               "children": []
             },
             {
@@ -187,13 +207,46 @@
         },
         {
           "label": "internet_tld",
-          "value": ".bf",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".bf",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "BF",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Mooré",
+                  "children": []
+                },
+                {
+                  "label": "official_item",
+                  "value": "Dyula and Fula",
+                  "children": []
+                },
+                {
+                  "label": "official_item",
+                  "value": "alongside any other languages so recognized by law",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -233,8 +286,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC ±00:00 ( GMT )",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC ±00:00 ( GMT )",
+              "children": []
+            }
+          ]
         }
       ]
     }

@@ -3,7 +3,7 @@
     "country_name": "Sierra Leone",
     "slug": "sierra_leone",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sierra_Leone",
-    "retrieved_at": "2026-03-13T10:10:12+00:00",
+    "retrieved_at": "2026-03-13T11:38:10+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -609,7 +609,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$32.510 billion ( 150th )",
+        "tokens": [
+          "32",
+          "510",
+          "billion",
+          "150th"
+        ],
+        "numbers": [
+          32.51,
+          150
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$3,550 ( 165th )",
+        "tokens": [
+          "3",
+          "550",
+          "165th"
+        ],
+        "numbers": [
+          3550,
+          165
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$8.390 billion ( 154th )",
         "tokens": [
@@ -623,7 +661,7 @@
           154
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$915 ( 176th )",
         "tokens": [
@@ -633,17 +671,6 @@
         "numbers": [
           915,
           176
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2024": {
@@ -727,6 +754,11 @@
       "country_name": "Sierra Leone",
       "capital": "Freetown",
       "largest_city": "Freetown",
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Julius Maada Bio",
@@ -745,7 +777,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$32.510 billion",
+        "gdp_ppp_per_capita": "$3,550",
+        "gdp_nominal_total": "$8.390 billion",
+        "gdp_nominal_per_capita": "$915"
       },
       "development": {
         "hdi": {
@@ -764,8 +800,12 @@
       },
       "calling_code": "232",
       "iso_3166_code": "SL",
-      "internet_tld": ".sl",
-      "time_zone": "UTC ±00:00 ( GMT )",
+      "internet_tld": [
+        ".sl"
+      ],
+      "time_zone": {
+        "standard": "UTC ±00:00 ( GMT )"
+      },
       "demonym": "Sierra Leonean"
     }
   }

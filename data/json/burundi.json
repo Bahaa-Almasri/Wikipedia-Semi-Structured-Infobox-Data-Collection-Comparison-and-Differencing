@@ -3,7 +3,7 @@
     "country_name": "Burundi",
     "slug": "burundi",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Burundi",
-    "retrieved_at": "2026-03-13T10:07:17+00:00",
+    "retrieved_at": "2026-03-13T11:36:16+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -726,7 +726,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$13.980 billion ( 161th )",
+        "tokens": [
+          "13",
+          "980",
+          "billion",
+          "161th"
+        ],
+        "numbers": [
+          13.98,
+          161
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$1,020 ( 185th )",
+        "tokens": [
+          "1",
+          "020",
+          "185th"
+        ],
+        "numbers": [
+          1020,
+          185
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$6.750 billion ( 157th )",
         "tokens": [
@@ -740,7 +778,7 @@
           157
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$489 ( 186th )",
         "tokens": [
@@ -750,17 +788,6 @@
         "numbers": [
           489,
           186
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2020": {
@@ -848,6 +875,11 @@
         "latitude": "3°30′S",
         "longitude": "30°00′E"
       },
+      "languages": {
+        "official": [
+          "Kirundi French English"
+        ]
+      },
       "government": {
         "type": "Unitary dominant-party presidential republic under an authoritarian dictatorship",
         "head_of_state": "Évariste Ndayishimiye",
@@ -866,7 +898,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$13.980 billion",
+        "gdp_ppp_per_capita": "$1,020",
+        "gdp_nominal_total": "$6.750 billion",
+        "gdp_nominal_per_capita": "$489"
       },
       "development": {
         "hdi": {
@@ -884,8 +920,12 @@
       },
       "calling_code": "257",
       "iso_3166_code": "BI",
-      "internet_tld": ".bi",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".bi"
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      },
       "demonym": "Burundian"
     }
   }

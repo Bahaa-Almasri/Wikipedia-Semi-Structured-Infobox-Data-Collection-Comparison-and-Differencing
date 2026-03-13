@@ -3,7 +3,7 @@
     "country_name": "Trinidad and Tobago",
     "slug": "trinidad_and_tobago",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Trinidad_and_Tobago",
-    "retrieved_at": "2026-03-13T10:10:42+00:00",
+    "retrieved_at": "2026-03-13T11:38:25+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -693,7 +693,45 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$43.658 billion ( 126th )",
+        "tokens": [
+          "43",
+          "658",
+          "billion",
+          "126th"
+        ],
+        "numbers": [
+          43.658,
+          126
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$30,718 ( 58th )",
+        "tokens": [
+          "30",
+          "718",
+          "58th"
+        ],
+        "numbers": [
+          30718,
+          58
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2023 estimate",
+        "tokens": [
+          "2023",
+          "estimate"
+        ],
+        "numbers": [
+          2023
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$27.887 billion ( 107th )",
         "tokens": [
@@ -707,7 +745,7 @@
           107
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$19,621 ( 47th )",
         "tokens": [
@@ -718,17 +756,6 @@
         "numbers": [
           19621,
           47
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2023 estimate",
-        "tokens": [
-          "2023",
-          "estimate"
-        ],
-        "numbers": [
-          2023
         ]
       },
       "gini_2012": {
@@ -824,6 +851,11 @@
       "country_name": "Trinidad and Tobago",
       "capital": "Port of Spain",
       "largest_city": "Port of Spain",
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Christine Kangaloo",
@@ -841,7 +873,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$43.658 billion",
+        "gdp_ppp_per_capita": "$30,718",
+        "gdp_nominal_total": "$27.887 billion",
+        "gdp_nominal_per_capita": "$19,621"
       },
       "development": {
         "hdi": {
@@ -860,8 +896,12 @@
       },
       "calling_code": "1",
       "iso_3166_code": "TT",
-      "internet_tld": ".tt",
-      "time_zone": "UTC-4"
+      "internet_tld": [
+        ".tt"
+      ],
+      "time_zone": {
+        "standard": "UTC-4"
+      }
     }
   }
 }

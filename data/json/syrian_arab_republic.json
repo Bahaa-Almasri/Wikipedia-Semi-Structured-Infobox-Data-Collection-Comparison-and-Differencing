@@ -3,7 +3,7 @@
     "country_name": "Syrian Arab Republic",
     "slug": "syrian_arab_republic",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Syria",
-    "retrieved_at": "2026-03-13T10:10:37+00:00",
+    "retrieved_at": "2026-03-13T11:38:21+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -670,26 +670,27 @@
           2021
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$9.8 billion",
+        "text": "$50.28 billion",
         "tokens": [
-          "9",
-          "8",
+          "50",
+          "28",
           "billion"
         ],
         "numbers": [
-          9.8
+          50.28
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$800",
+        "text": "$3,300",
         "tokens": [
-          "800"
+          "3",
+          "300"
         ],
         "numbers": [
-          800
+          3300
         ]
       },
       "gdp_nominal": {
@@ -701,6 +702,28 @@
         ],
         "numbers": [
           2022
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$9.8 billion",
+        "tokens": [
+          "9",
+          "8",
+          "billion"
+        ],
+        "numbers": [
+          9.8
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$800",
+        "tokens": [
+          "800"
+        ],
+        "numbers": [
+          800
         ]
       },
       "gini_2022": {
@@ -786,6 +809,11 @@
         "latitude": "33°30′N",
         "longitude": "36°18′E"
       },
+      "languages": {
+        "official": [
+          "Arabic"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic under a provisional government",
         "head_of_state": "Ahmed al-Sharaa"
@@ -803,7 +831,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2022,
-        "gdp_ppp_year": 2021
+        "gdp_ppp_year": 2021,
+        "gdp_ppp_total": "$50.28 billion",
+        "gdp_ppp_per_capita": "$3,300",
+        "gdp_nominal_total": "$9.8 billion",
+        "gdp_nominal_per_capita": "$800"
       },
       "development": {
         "gini": {
@@ -817,8 +849,13 @@
       },
       "calling_code": "963",
       "iso_3166_code": "SY",
-      "internet_tld": ".sy سوريا.",
-      "time_zone": "UTC+03:00",
+      "internet_tld": [
+        ".sy",
+        "سوريا."
+      ],
+      "time_zone": {
+        "standard": "UTC+03:00"
+      },
       "demonym": "Syrian"
     }
   }

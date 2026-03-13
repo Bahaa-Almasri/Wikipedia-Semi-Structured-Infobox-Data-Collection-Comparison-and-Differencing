@@ -3,7 +3,7 @@
     "country_name": "Lao People's Democratic Republic",
     "slug": "lao_people's_democratic_republic",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Laos",
-    "retrieved_at": "2026-03-13T10:08:44+00:00",
+    "retrieved_at": "2026-03-13T11:37:19+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -738,7 +738,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$78.850 billion ( 108th )",
+        "tokens": [
+          "78",
+          "850",
+          "billion",
+          "108th"
+        ],
+        "numbers": [
+          78.85,
+          108
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$10,120 ( 126th )",
+        "tokens": [
+          "10",
+          "120",
+          "126th"
+        ],
+        "numbers": [
+          10120,
+          126
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$16.320 billion ( 138th )",
         "tokens": [
@@ -752,7 +790,7 @@
           138
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,100 ( 150th )",
         "tokens": [
@@ -763,17 +801,6 @@
         "numbers": [
           2100,
           150
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2012": {
@@ -859,6 +886,11 @@
         "latitude": "17°58′N",
         "longitude": "102°36′E"
       },
+      "languages": {
+        "official": [
+          "Lao"
+        ]
+      },
       "government": {
         "type": "Unitary communist state",
         "head_of_government": "Sonexay Siphandone"
@@ -876,7 +908,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$78.850 billion",
+        "gdp_ppp_per_capita": "$10,120",
+        "gdp_nominal_total": "$16.320 billion",
+        "gdp_nominal_per_capita": "$2,100"
       },
       "development": {
         "hdi": {
@@ -894,8 +930,12 @@
       },
       "calling_code": "856",
       "iso_3166_code": "LA",
-      "internet_tld": ".la",
-      "time_zone": "UTC+7",
+      "internet_tld": [
+        ".la"
+      ],
+      "time_zone": {
+        "standard": "UTC+7"
+      },
       "demonym": "Laotian"
     }
   }

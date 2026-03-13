@@ -3,7 +3,7 @@
     "country_name": "Netherlands (Kingdom of the)",
     "slug": "netherlands_kingdom_of_the",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands",
-    "retrieved_at": "2026-03-13T10:09:21+00:00",
+    "retrieved_at": "2026-03-13T11:37:41+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -700,7 +700,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$1.581 trillion ( 28th )",
+        "tokens": [
+          "1",
+          "581",
+          "trillion",
+          "28th"
+        ],
+        "numbers": [
+          1.581,
+          28
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$87,173 ( 10th )",
+        "tokens": [
+          "87",
+          "173",
+          "10th"
+        ],
+        "numbers": [
+          87173,
+          10
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$1.326 trillion ( 18th )",
         "tokens": [
@@ -714,7 +752,7 @@
           18
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$73,091 ( 10th )",
         "tokens": [
@@ -725,17 +763,6 @@
         "numbers": [
           73091,
           10
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "currency": {
@@ -878,6 +905,11 @@
         "latitude": "52°22′N",
         "longitude": "4°53′E"
       },
+      "languages": {
+        "official": [
+          "Dutch"
+        ]
+      },
       "government": {
         "type": "Devolved unitary parliamentary constitutional monarchy",
         "head_of_state": "Willem-Alexander",
@@ -895,7 +927,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$1.581 trillion",
+        "gdp_ppp_per_capita": "$87,173",
+        "gdp_nominal_total": "$1.326 trillion",
+        "gdp_nominal_per_capita": "$73,091"
       },
       "currency": {
         "name": "4 currencies Euro",
@@ -903,8 +939,27 @@
       },
       "calling_code": "4312975991721",
       "iso_3166_code": "NL",
-      "internet_tld": "6 TLDs .nl (Netherlands) .frl (Fryslân) .aw (Aruba) .cw (Curaçao) .sx (Sint Maarten) .bq (Caribbean Netherlands)",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        "6",
+        "TLDs",
+        ".nl",
+        "(Netherlands)",
+        ".frl",
+        "(Fryslân)",
+        ".aw",
+        "(Aruba)",
+        ".cw",
+        "(Curaçao)",
+        ".sx",
+        "(Sint",
+        "Maarten)",
+        ".bq",
+        "(Caribbean",
+        "Netherlands)"
+      ],
+      "time_zone": {
+        "standard": "UTC+1"
+      },
       "demonym": "Dutch"
     }
   }

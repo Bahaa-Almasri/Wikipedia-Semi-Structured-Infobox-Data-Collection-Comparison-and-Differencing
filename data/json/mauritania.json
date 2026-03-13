@@ -3,7 +3,7 @@
     "country_name": "Mauritania",
     "slug": "mauritania",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mauritania",
-    "retrieved_at": "2026-03-13T10:09:05+00:00",
+    "retrieved_at": "2026-03-13T11:37:31+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -534,7 +534,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$40.060 billion ( 143rd )",
+        "tokens": [
+          "40",
+          "060",
+          "billion",
+          "143rd"
+        ],
+        "numbers": [
+          40.06,
+          143
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$8,650 ( 130th )",
+        "tokens": [
+          "8",
+          "650",
+          "130th"
+        ],
+        "numbers": [
+          8650,
+          130
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$11.470 billion ( 149th )",
         "tokens": [
@@ -548,7 +586,7 @@
           149
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,480 ( 144th )",
         "tokens": [
@@ -559,17 +597,6 @@
         "numbers": [
           2480,
           144
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2014": {
@@ -657,6 +684,11 @@
         "latitude": "18°09′N",
         "longitude": "15°58′W"
       },
+      "languages": {
+        "official": [
+          "Arabic"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential Islamic republic",
         "head_of_state": "Mohamed Ould Ghazouani",
@@ -674,7 +706,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$40.060 billion",
+        "gdp_ppp_per_capita": "$8,650",
+        "gdp_nominal_total": "$11.470 billion",
+        "gdp_nominal_per_capita": "$2,480"
       },
       "development": {
         "hdi": {
@@ -693,8 +729,12 @@
       },
       "calling_code": "222",
       "iso_3166_code": "MR",
-      "internet_tld": ".mr",
-      "time_zone": "UTC ±00:00 ( GMT )",
+      "internet_tld": [
+        ".mr"
+      ],
+      "time_zone": {
+        "standard": "UTC ±00:00 ( GMT )"
+      },
       "demonym": "Mauritanian"
     }
   }

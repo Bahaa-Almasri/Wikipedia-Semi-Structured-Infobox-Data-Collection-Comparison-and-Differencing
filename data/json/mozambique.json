@@ -3,7 +3,7 @@
     "country_name": "Mozambique",
     "slug": "mozambique",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mozambique",
-    "retrieved_at": "2026-03-13T10:09:15+00:00",
+    "retrieved_at": "2026-03-13T11:37:37+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -565,7 +565,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$61.950 billion ( 126th )",
+        "tokens": [
+          "61",
+          "950",
+          "billion",
+          "126th"
+        ],
+        "numbers": [
+          61.95,
+          126
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$1,730 ( 182nd )",
+        "tokens": [
+          "1",
+          "730",
+          "182nd"
+        ],
+        "numbers": [
+          1730,
+          182
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$23.770 billion ( 120th )",
         "tokens": [
@@ -579,7 +617,7 @@
           120
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$663 ( 183rd )",
         "tokens": [
@@ -589,17 +627,6 @@
         "numbers": [
           663,
           183
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2019": {
@@ -685,6 +712,11 @@
         "latitude": "25°57′S",
         "longitude": "32°35′E"
       },
+      "languages": {
+        "official": [
+          "Portuguese"
+        ]
+      },
       "government": {
         "type": "Unitary dominant-party semi-presidential republic under an authoritarian government",
         "head_of_state": "Daniel Chapo",
@@ -703,7 +735,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$61.950 billion",
+        "gdp_ppp_per_capita": "$1,730",
+        "gdp_nominal_total": "$23.770 billion",
+        "gdp_nominal_per_capita": "$663"
       },
       "development": {
         "hdi": {
@@ -722,8 +758,12 @@
       },
       "calling_code": "258",
       "iso_3166_code": "MZ",
-      "internet_tld": ".mz",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".mz"
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      },
       "demonym": "Mozambican"
     }
   }

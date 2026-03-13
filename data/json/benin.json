@@ -3,7 +3,7 @@
     "country_name": "Benin",
     "slug": "benin",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Benin",
-    "retrieved_at": "2026-03-13T10:07:01+00:00",
+    "retrieved_at": "2026-03-13T11:35:58+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -595,7 +595,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$76.510 billion ( 137th )",
+        "tokens": [
+          "76",
+          "510",
+          "billion",
+          "137th"
+        ],
+        "numbers": [
+          76.51,
+          137
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$4,980 ( 163rd )",
+        "tokens": [
+          "4",
+          "980",
+          "163rd"
+        ],
+        "numbers": [
+          4980,
+          163
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$27.450 billion ( 141st )",
         "tokens": [
@@ -609,7 +647,7 @@
           141
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,790 ( 163rd )",
         "tokens": [
@@ -620,17 +658,6 @@
         "numbers": [
           1790,
           163
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2021": {
@@ -725,6 +752,11 @@
       "country_name": "Benin",
       "capital": "Porto-Novo",
       "largest_city": "Cotonou",
+      "languages": {
+        "official": [
+          "French"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Patrice Talon"
@@ -742,7 +774,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$76.510 billion",
+        "gdp_ppp_per_capita": "$4,980",
+        "gdp_nominal_total": "$27.450 billion",
+        "gdp_nominal_per_capita": "$1,790"
       },
       "development": {
         "hdi": {
@@ -761,8 +797,12 @@
       },
       "calling_code": "229",
       "iso_3166_code": "BJ",
-      "internet_tld": ".bj",
-      "time_zone": "UTC+1"
+      "internet_tld": [
+        ".bj"
+      ],
+      "time_zone": {
+        "standard": "UTC+1"
+      }
     }
   }
 }

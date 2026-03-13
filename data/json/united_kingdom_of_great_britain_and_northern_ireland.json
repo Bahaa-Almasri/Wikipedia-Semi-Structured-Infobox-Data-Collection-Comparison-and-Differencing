@@ -3,7 +3,7 @@
     "country_name": "United Kingdom of Great Britain and Northern Ireland",
     "slug": "united_kingdom_of_great_britain_and_northern_ireland",
     "wikipedia_url": "https://en.wikipedia.org/wiki/United_Kingdom",
-    "retrieved_at": "2026-03-13T10:10:49+00:00",
+    "retrieved_at": "2026-03-13T11:38:34+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -735,7 +735,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$4.455 trillion ( 10th )",
+        "tokens": [
+          "4",
+          "455",
+          "trillion",
+          "10th"
+        ],
+        "numbers": [
+          4.455,
+          10
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$63,759 ( 33rd )",
+        "tokens": [
+          "63",
+          "759",
+          "33rd"
+        ],
+        "numbers": [
+          63759,
+          33
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$3.959 trillion ( 6th )",
         "tokens": [
@@ -749,7 +787,7 @@
           6
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$56,661 ( 21st )",
         "tokens": [
@@ -760,17 +798,6 @@
         "numbers": [
           56661,
           21
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2021": {
@@ -898,7 +925,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$4.455 trillion",
+        "gdp_ppp_per_capita": "$63,759",
+        "gdp_nominal_total": "$3.959 trillion",
+        "gdp_nominal_per_capita": "$56,661"
       },
       "development": {
         "hdi": {
@@ -916,8 +947,13 @@
       },
       "calling_code": "44",
       "iso_3166_code": "GB",
-      "internet_tld": ".uk",
-      "time_zone": "UTC+0"
+      "internet_tld": [
+        ".uk"
+      ],
+      "time_zone": {
+        "standard": "UTC+0",
+        "dst": "UTC+1"
+      }
     }
   }
 }

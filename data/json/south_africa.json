@@ -3,7 +3,7 @@
     "country_name": "South Africa",
     "slug": "south_africa",
     "wikipedia_url": "https://en.wikipedia.org/wiki/South_Africa",
-    "retrieved_at": "2026-03-13T10:10:24+00:00",
+    "retrieved_at": "2026-03-13T11:38:15+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -753,7 +753,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$1.060 trillion ( 33rd )",
+        "tokens": [
+          "1",
+          "060",
+          "trillion",
+          "33rd"
+        ],
+        "numbers": [
+          1.06,
+          33
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$16,280 ( 107th )",
+        "tokens": [
+          "16",
+          "280",
+          "107th"
+        ],
+        "numbers": [
+          16280,
+          107
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$443.64 billion ( 38th )",
         "tokens": [
@@ -767,7 +805,7 @@
           38
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$6,830 ( 107th )",
         "tokens": [
@@ -778,17 +816,6 @@
         "numbers": [
           6830,
           107
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2023": {
@@ -888,6 +915,11 @@
       "country_name": "South Africa",
       "capital": "Pretoria (executive) Cape Town (legislative) Bloemfontein (judicial)",
       "largest_city": "Johannesburg",
+      "languages": {
+        "official": [
+          "12 languages Afrikaans English Ndebele Sepedi Sesotho Setswana South African Sign Language Swazi Tshivenda Xhosa Xitsonga Zulu Languages with special status Khoe languages Nama Khoisan languages German Greek Gujarati Hindi Portuguese Telugu Tamil Urdu Arabic Hebrew Sanskrit"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic with an executive presidency",
         "head_of_state": "Cyril Ramaphosa"
@@ -905,7 +937,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$1.060 trillion",
+        "gdp_ppp_per_capita": "$16,280",
+        "gdp_nominal_total": "$443.64 billion",
+        "gdp_nominal_per_capita": "$6,830"
       },
       "development": {
         "hdi": {
@@ -924,8 +960,12 @@
       },
       "calling_code": "27",
       "iso_3166_code": "ZA",
-      "internet_tld": ".za",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".za"
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      },
       "demonym": "South African"
     }
   }

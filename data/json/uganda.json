@@ -3,7 +3,7 @@
     "country_name": "Uganda",
     "slug": "uganda",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Uganda",
-    "retrieved_at": "2026-03-13T10:10:46+00:00",
+    "retrieved_at": "2026-03-13T11:38:30+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -615,7 +615,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$187.11 billion ( 82th )",
+        "tokens": [
+          "187",
+          "11",
+          "billion",
+          "82th"
+        ],
+        "numbers": [
+          187.11,
+          82
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$3,900 ( 161st )",
+        "tokens": [
+          "3",
+          "900",
+          "161st"
+        ],
+        "numbers": [
+          3900,
+          161
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$64.280\tbillion ( 88th )",
         "tokens": [
@@ -629,7 +667,7 @@
           88
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,340 ( 160th )",
         "tokens": [
@@ -640,17 +678,6 @@
         "numbers": [
           1340,
           160
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2016": {
@@ -733,6 +760,11 @@
       "country_name": "Uganda",
       "capital": "Kampala",
       "largest_city": "Kampala",
+      "languages": {
+        "official": [
+          "English Swahili"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic under a dictatorship",
         "head_of_state": "Yoweri Museveni",
@@ -750,7 +782,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$187.11 billion",
+        "gdp_ppp_per_capita": "$3,900",
+        "gdp_nominal_total": "$64.280\tbillion",
+        "gdp_nominal_per_capita": "$1,340"
       },
       "development": {
         "hdi": {
@@ -769,8 +805,12 @@
       },
       "calling_code": "256",
       "iso_3166_code": "UG",
-      "internet_tld": ".ug",
-      "time_zone": "UTC+3",
+      "internet_tld": [
+        ".ug"
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      },
       "demonym": "Ugandan"
     }
   }

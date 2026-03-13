@@ -3,7 +3,7 @@
     "country_name": "Namibia",
     "slug": "namibia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Namibia",
-    "retrieved_at": "2026-03-13T10:09:17+00:00",
+    "retrieved_at": "2026-03-13T11:37:39+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -683,7 +683,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$37.73 billion ( 145th )",
+        "tokens": [
+          "37",
+          "73",
+          "billion",
+          "145th"
+        ],
+        "numbers": [
+          37.73,
+          145
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$12,370 ( 117th )",
+        "tokens": [
+          "12",
+          "370",
+          "117th"
+        ],
+        "numbers": [
+          12370,
+          117
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$14.21 billion ( 145th )",
         "tokens": [
@@ -697,7 +735,7 @@
           145
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$4,660 ( 120th )",
         "tokens": [
@@ -708,17 +746,6 @@
         "numbers": [
           4660,
           120
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2015": {
@@ -819,6 +846,11 @@
         "latitude": "22°34′S",
         "longitude": "17°5′E"
       },
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic [ needs update ]",
         "head_of_state": "Netumbo Nandi-Ndaitwah",
@@ -836,7 +868,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$37.73 billion",
+        "gdp_ppp_per_capita": "$12,370",
+        "gdp_nominal_total": "$14.21 billion",
+        "gdp_nominal_per_capita": "$4,660"
       },
       "development": {
         "hdi": {
@@ -855,8 +891,12 @@
       },
       "calling_code": "264",
       "iso_3166_code": "NA",
-      "internet_tld": ".na",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".na"
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      },
       "demonym": "Namibian"
     }
   }

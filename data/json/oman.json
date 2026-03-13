@@ -3,7 +3,7 @@
     "country_name": "Oman",
     "slug": "oman",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Oman",
-    "retrieved_at": "2026-03-13T10:09:31+00:00",
+    "retrieved_at": "2026-03-13T11:37:47+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -725,7 +725,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$231.16 billion ( 76th )",
+        "tokens": [
+          "231",
+          "16",
+          "billion",
+          "76th"
+        ],
+        "numbers": [
+          231.16,
+          76
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$42,010 ( 53rd )",
+        "tokens": [
+          "42",
+          "010",
+          "53rd"
+        ],
+        "numbers": [
+          42010,
+          53
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$104.35 billion ( 70th )",
         "tokens": [
@@ -739,7 +777,7 @@
           70
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$18,097 ( 55th )",
         "tokens": [
@@ -750,17 +788,6 @@
         "numbers": [
           18097,
           55
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2018": {
@@ -854,6 +881,11 @@
       "country_name": "Oman",
       "capital": "Muscat",
       "largest_city": "Muscat",
+      "languages": {
+        "official": [
+          "Arabic"
+        ]
+      },
       "government": {
         "type": "Unitary Islamic absolute monarchy"
       },
@@ -869,7 +901,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$231.16 billion",
+        "gdp_ppp_per_capita": "$42,010",
+        "gdp_nominal_total": "$104.35 billion",
+        "gdp_nominal_per_capita": "$18,097"
       },
       "development": {
         "hdi": {
@@ -888,8 +924,13 @@
       },
       "calling_code": "968",
       "iso_3166_code": "OM",
-      "internet_tld": ".om , عمان.",
-      "time_zone": "UTC+4",
+      "internet_tld": [
+        ".om",
+        "عمان."
+      ],
+      "time_zone": {
+        "standard": "UTC+4"
+      },
       "demonym": "Omani"
     }
   }

@@ -3,7 +3,7 @@
     "country_name": "Lebanon",
     "slug": "lebanon",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Lebanon",
-    "retrieved_at": "2026-03-13T10:08:47+00:00",
+    "retrieved_at": "2026-03-13T11:37:20+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -769,7 +769,45 @@
           2022
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$78.233 billion ( 108th )",
+        "tokens": [
+          "78",
+          "233",
+          "billion",
+          "108th"
+        ],
+        "numbers": [
+          78.233,
+          108
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$11,793 ( 114th )",
+        "tokens": [
+          "11",
+          "793",
+          "114th"
+        ],
+        "numbers": [
+          11793,
+          114
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2022 estimate",
+        "tokens": [
+          "2022",
+          "estimate"
+        ],
+        "numbers": [
+          2022
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$21.780 billion ( 103rd )",
         "tokens": [
@@ -783,7 +821,7 @@
           103
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$3,283 ( 133rd )",
         "tokens": [
@@ -794,17 +832,6 @@
         "numbers": [
           3283,
           133
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2022 estimate",
-        "tokens": [
-          "2022",
-          "estimate"
-        ],
-        "numbers": [
-          2022
         ]
       },
       "gini_2011": {
@@ -903,6 +930,14 @@
         "latitude": "33°54′N",
         "longitude": "35°32′E"
       },
+      "languages": {
+        "official": [
+          "Arabic"
+        ],
+        "recognized_minority": [
+          "French"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic under confessionalism",
         "head_of_state": "Joseph Aoun",
@@ -921,7 +956,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2022,
-        "gdp_ppp_year": 2022
+        "gdp_ppp_year": 2022,
+        "gdp_ppp_total": "$78.233 billion",
+        "gdp_ppp_per_capita": "$11,793",
+        "gdp_nominal_total": "$21.780 billion",
+        "gdp_nominal_per_capita": "$3,283"
       },
       "development": {
         "hdi": {
@@ -940,8 +979,14 @@
       },
       "calling_code": "961",
       "iso_3166_code": "LB",
-      "internet_tld": ".lb .لبنان",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".lb",
+        ".لبنان"
+      ],
+      "time_zone": {
+        "standard": "UTC+2",
+        "dst": "UTC+3"
+      },
       "demonym": "Lebanese"
     }
   }

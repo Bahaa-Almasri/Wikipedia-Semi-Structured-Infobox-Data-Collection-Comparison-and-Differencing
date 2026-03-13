@@ -3,7 +3,7 @@
     "country_name": "Sudan",
     "slug": "sudan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sudan",
-    "retrieved_at": "2026-03-13T10:10:31+00:00",
+    "retrieved_at": "2026-03-13T11:38:18+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -677,7 +677,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$117.77 billion ( 98th )",
+        "tokens": [
+          "117",
+          "77",
+          "billion",
+          "98th"
+        ],
+        "numbers": [
+          117.77,
+          98
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$2,034 ( 175th )",
+        "tokens": [
+          "2",
+          "034",
+          "175th"
+        ],
+        "numbers": [
+          2034,
+          175
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$31.510 billion ( 109th )",
         "tokens": [
@@ -691,7 +729,7 @@
           109
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$624 ( 182nd )",
         "tokens": [
@@ -701,17 +739,6 @@
         "numbers": [
           624,
           182
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2014": {
@@ -798,6 +825,11 @@
         "latitude": "15°38′N",
         "longitude": "32°32′E"
       },
+      "languages": {
+        "official": [
+          "Arabic English"
+        ]
+      },
       "government": {
         "type": "Federal republic under a military junta",
         "head_of_government": "Kamil Idris"
@@ -814,7 +846,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$117.77 billion",
+        "gdp_ppp_per_capita": "$2,034",
+        "gdp_nominal_total": "$31.510 billion",
+        "gdp_nominal_per_capita": "$624"
       },
       "development": {
         "hdi": {
@@ -833,8 +869,13 @@
       },
       "calling_code": "249",
       "iso_3166_code": "SD",
-      "internet_tld": ".sd .السودان",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".sd",
+        ".السودان"
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      },
       "demonym": "Sudanese"
     }
   }

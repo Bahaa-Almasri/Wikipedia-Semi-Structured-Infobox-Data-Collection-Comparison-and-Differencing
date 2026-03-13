@@ -3,7 +3,7 @@
     "country_name": "Belgium",
     "slug": "belgium",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Belgium",
-    "retrieved_at": "2026-03-13T10:06:59+00:00",
+    "retrieved_at": "2026-03-13T11:35:57+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -600,7 +600,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$889.833 billion ( 37th )",
+        "tokens": [
+          "889",
+          "833",
+          "billion",
+          "37th"
+        ],
+        "numbers": [
+          889.833,
+          37
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$75,187 ( 20th )",
+        "tokens": [
+          "75",
+          "187",
+          "20th"
+        ],
+        "numbers": [
+          75187,
+          20
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$689.364 billion ( 23rd )",
         "tokens": [
@@ -614,7 +652,7 @@
           23
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$58,248 ( 16th )",
         "tokens": [
@@ -625,17 +663,6 @@
         "numbers": [
           58248,
           16
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -734,6 +761,11 @@
         "latitude": "50°51′N",
         "longitude": "4°21′E"
       },
+      "languages": {
+        "official": [
+          "Dutch French German"
+        ]
+      },
       "government": {
         "type": "Federal parliamentary constitutional monarchy",
         "head_of_state": "Philippe",
@@ -751,7 +783,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$889.833 billion",
+        "gdp_ppp_per_capita": "$75,187",
+        "gdp_nominal_total": "$689.364 billion",
+        "gdp_nominal_per_capita": "$58,248"
       },
       "development": {
         "hdi": {
@@ -769,8 +805,13 @@
       },
       "calling_code": "32",
       "iso_3166_code": "BE",
-      "internet_tld": ".be",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".be"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "Belgian"
     }
   }

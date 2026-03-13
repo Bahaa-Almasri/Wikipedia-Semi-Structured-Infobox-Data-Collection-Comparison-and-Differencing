@@ -3,7 +3,7 @@
     "country_name": "Slovakia",
     "slug": "slovakia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Slovakia",
-    "retrieved_at": "2026-03-13T10:10:16+00:00",
+    "retrieved_at": "2026-03-13T11:38:11+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -787,7 +787,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$256.710 billion ( 70th )",
+        "tokens": [
+          "256",
+          "710",
+          "billion",
+          "70th"
+        ],
+        "numbers": [
+          256.71,
+          70
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$47,440 ( 46th )",
+        "tokens": [
+          "47",
+          "440",
+          "46th"
+        ],
+        "numbers": [
+          47440,
+          46
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$152.480 billion ( 61st )",
         "tokens": [
@@ -801,7 +839,7 @@
           61
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$28,180 ( 44th )",
         "tokens": [
@@ -812,17 +850,6 @@
         "numbers": [
           28180,
           44
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -947,7 +974,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$256.710 billion",
+        "gdp_ppp_per_capita": "$47,440",
+        "gdp_nominal_total": "$152.480 billion",
+        "gdp_nominal_per_capita": "$28,180"
       },
       "development": {
         "hdi": {
@@ -965,8 +996,15 @@
       },
       "calling_code": "421",
       "iso_3166_code": "SK",
-      "internet_tld": ".sk and .eu",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".sk",
+        "and",
+        ".eu"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "Slovak"
     }
   }

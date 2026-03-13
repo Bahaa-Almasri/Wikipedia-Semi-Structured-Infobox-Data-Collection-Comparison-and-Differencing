@@ -3,7 +3,7 @@
     "country_name": "Timor-Leste",
     "slug": "timor-leste",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Timor-Leste",
-    "retrieved_at": "2026-03-13T10:10:39+00:00",
+    "retrieved_at": "2026-03-13T11:38:23+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -610,7 +610,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$6.970 billion ( 169th )",
+        "tokens": [
+          "6",
+          "970",
+          "billion",
+          "169th"
+        ],
+        "numbers": [
+          6.97,
+          169
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$4,920 ( 152nd )",
+        "tokens": [
+          "4",
+          "920",
+          "152nd"
+        ],
+        "numbers": [
+          4920,
+          152
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$2.120 billion ( 176th )",
         "tokens": [
@@ -624,7 +662,7 @@
           176
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,490 ( 157th )",
         "tokens": [
@@ -635,17 +673,6 @@
         "numbers": [
           1490,
           157
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2014": {
@@ -738,6 +765,11 @@
         "latitude": "8°33′S",
         "longitude": "125°34′E"
       },
+      "languages": {
+        "official": [
+          "Portuguese Tetum"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic",
         "head_of_state": "José Ramos-Horta",
@@ -755,7 +787,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$6.970 billion",
+        "gdp_ppp_per_capita": "$4,920",
+        "gdp_nominal_total": "$2.120 billion",
+        "gdp_nominal_per_capita": "$1,490"
       },
       "development": {
         "hdi": {
@@ -774,8 +810,12 @@
       },
       "calling_code": "670",
       "iso_3166_code": "TL",
-      "internet_tld": ".tl",
-      "time_zone": "UTC+9"
+      "internet_tld": [
+        ".tl"
+      ],
+      "time_zone": {
+        "standard": "UTC+9"
+      }
     }
   }
 }

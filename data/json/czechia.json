@@ -3,7 +3,7 @@
     "country_name": "Czechia",
     "slug": "czechia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Czech_Republic",
-    "retrieved_at": "2026-03-13T10:07:36+00:00",
+    "retrieved_at": "2026-03-13T11:36:36+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -677,7 +677,45 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$619.881 billion ( 46th )",
+        "tokens": [
+          "619",
+          "881",
+          "billion",
+          "46th"
+        ],
+        "numbers": [
+          619.881,
+          46
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$56,686 ( 38th )",
+        "tokens": [
+          "56",
+          "686",
+          "38th"
+        ],
+        "numbers": [
+          56686,
+          38
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$342.992 billion ( 47th )",
         "tokens": [
@@ -691,7 +729,7 @@
           47
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$31,365 ( 38th )",
         "tokens": [
@@ -702,17 +740,6 @@
         "numbers": [
           31365,
           38
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "gini_2023": {
@@ -822,6 +849,11 @@
         "latitude": "50°05′N",
         "longitude": "14°28′E"
       },
+      "languages": {
+        "official": [
+          "Czech"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Petr Pavel",
@@ -840,7 +872,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$619.881 billion",
+        "gdp_ppp_per_capita": "$56,686",
+        "gdp_nominal_total": "$342.992 billion",
+        "gdp_nominal_per_capita": "$31,365"
       },
       "development": {
         "hdi": {
@@ -859,8 +895,13 @@
       },
       "calling_code": "420",
       "iso_3166_code": "CZ",
-      "internet_tld": ".cz",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".cz"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "Czech"
     }
   }

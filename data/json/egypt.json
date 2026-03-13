@@ -3,7 +3,7 @@
     "country_name": "Egypt",
     "slug": "egypt",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Egypt",
-    "retrieved_at": "2026-03-13T10:07:46+00:00",
+    "retrieved_at": "2026-03-13T11:36:45+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -699,7 +699,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$2.372 trillion ( 18th )",
+        "tokens": [
+          "2",
+          "372",
+          "trillion",
+          "18th"
+        ],
+        "numbers": [
+          2.372,
+          18
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$21,668 ( 87th )",
+        "tokens": [
+          "21",
+          "668",
+          "87th"
+        ],
+        "numbers": [
+          21668,
+          87
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$347.342 billion ( 44th )",
         "tokens": [
@@ -713,7 +751,7 @@
           44
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$3,174 ( 138th )",
         "tokens": [
@@ -724,17 +762,6 @@
         "numbers": [
           3174,
           138
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2021": {
@@ -836,6 +863,11 @@
         "latitude": "30°2′N",
         "longitude": "31°13′E"
       },
+      "languages": {
+        "official": [
+          "Arabic"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic under an authoritarian government",
         "head_of_state": "Abdel Fattah el-Sisi",
@@ -854,7 +886,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$2.372 trillion",
+        "gdp_ppp_per_capita": "$21,668",
+        "gdp_nominal_total": "$347.342 billion",
+        "gdp_nominal_per_capita": "$3,174"
       },
       "development": {
         "hdi": {
@@ -872,8 +908,14 @@
       },
       "calling_code": "20",
       "iso_3166_code": "EG",
-      "internet_tld": ".eg مصر.",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".eg",
+        "مصر."
+      ],
+      "time_zone": {
+        "standard": "UTC+2",
+        "dst": "UTC+3"
+      },
       "demonym": "Egyptian"
     }
   }

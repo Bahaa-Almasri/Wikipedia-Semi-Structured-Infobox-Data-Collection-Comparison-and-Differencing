@@ -3,7 +3,7 @@
     "country_name": "Dominica",
     "slug": "dominica",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Dominica",
-    "retrieved_at": "2026-03-13T10:07:41+00:00",
+    "retrieved_at": "2026-03-13T11:36:43+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -573,26 +573,26 @@
           2018
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$485 million",
+        "text": "$688 million",
         "tokens": [
-          "485",
+          "688",
           "million"
         ],
         "numbers": [
-          485
+          688
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$7,860",
+        "text": "$9,726",
         "tokens": [
-          "7",
-          "860"
+          "9",
+          "726"
         ],
         "numbers": [
-          7860
+          9726
         ]
       },
       "gdp_nominal": {
@@ -604,6 +604,28 @@
         ],
         "numbers": [
           2018
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$485 million",
+        "tokens": [
+          "485",
+          "million"
+        ],
+        "numbers": [
+          485
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$7,860",
+        "tokens": [
+          "7",
+          "860"
+        ],
+        "numbers": [
+          7860
         ]
       },
       "hdi_2023": {
@@ -688,6 +710,11 @@
         "latitude": "15°18′N",
         "longitude": "61°23′W"
       },
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Sylvanie Burton",
@@ -706,7 +733,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2018,
-        "gdp_ppp_year": 2018
+        "gdp_ppp_year": 2018,
+        "gdp_ppp_total": "$688 million",
+        "gdp_ppp_per_capita": "$9,726",
+        "gdp_nominal_total": "$485 million",
+        "gdp_nominal_per_capita": "$7,860"
       },
       "development": {
         "hdi": {
@@ -721,8 +752,12 @@
       },
       "calling_code": "1",
       "iso_3166_code": "DM",
-      "internet_tld": ".dm",
-      "time_zone": "UTC –4 ( AST )"
+      "internet_tld": [
+        ".dm"
+      ],
+      "time_zone": {
+        "standard": "UTC –4 ( AST )"
+      }
     }
   }
 }

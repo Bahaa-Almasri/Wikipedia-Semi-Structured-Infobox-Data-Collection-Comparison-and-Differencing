@@ -3,7 +3,7 @@
     "country_name": "Iceland",
     "slug": "iceland",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Iceland",
-    "retrieved_at": "2026-03-13T10:08:18+00:00",
+    "retrieved_at": "2026-03-13T11:37:05+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -737,7 +737,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$31.076 billion ( 153rd )",
+        "tokens": [
+          "31",
+          "076",
+          "billion",
+          "153rd"
+        ],
+        "numbers": [
+          31.076,
+          153
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$81,220 ( 14th )",
+        "tokens": [
+          "81",
+          "220",
+          "14th"
+        ],
+        "numbers": [
+          81220,
+          14
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$35.310 billion ( 105th )",
         "tokens": [
@@ -751,7 +789,7 @@
           105
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$90,280 ( 5th )",
         "tokens": [
@@ -762,17 +800,6 @@
         "numbers": [
           90280,
           5
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2018": {
@@ -892,7 +919,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$31.076 billion",
+        "gdp_ppp_per_capita": "$81,220",
+        "gdp_nominal_total": "$35.310 billion",
+        "gdp_nominal_per_capita": "$90,280"
       },
       "development": {
         "hdi": {
@@ -911,8 +942,12 @@
       },
       "calling_code": "354",
       "iso_3166_code": "IS",
-      "internet_tld": ".is",
-      "time_zone": "UTC ±00:00 ( GMT / WET )"
+      "internet_tld": [
+        ".is"
+      ],
+      "time_zone": {
+        "standard": "UTC ±00:00 ( GMT / WET )"
+      }
     }
   }
 }

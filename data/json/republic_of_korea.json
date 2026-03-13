@@ -3,7 +3,7 @@
     "country_name": "Republic of Korea",
     "slug": "republic_of_korea",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Republic_of_Korea",
-    "retrieved_at": "2026-03-13T10:09:49+00:00",
+    "retrieved_at": "2026-03-13T11:37:58+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -626,7 +626,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$3.363 trillion ( 14th )",
+        "tokens": [
+          "3",
+          "363",
+          "trillion",
+          "14th"
+        ],
+        "numbers": [
+          3.363,
+          14
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$65,080 ( 29th )",
+        "tokens": [
+          "65",
+          "080",
+          "29th"
+        ],
+        "numbers": [
+          65080,
+          29
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$1.859 trillion ( 14th )",
         "tokens": [
@@ -640,7 +678,7 @@
           14
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$35,962 ( 33rd )",
         "tokens": [
@@ -651,17 +689,6 @@
         "numbers": [
           35962,
           33
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2021": {
@@ -752,6 +779,11 @@
         "latitude": "37°33′N",
         "longitude": "126°58′E"
       },
+      "languages": {
+        "official": [
+          "Korean Korean Sign Language"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Lee Jae Myung",
@@ -770,7 +802,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$3.363 trillion",
+        "gdp_ppp_per_capita": "$65,080",
+        "gdp_nominal_total": "$1.859 trillion",
+        "gdp_nominal_per_capita": "$35,962"
       },
       "development": {
         "hdi": {
@@ -788,8 +824,13 @@
       },
       "calling_code": "82",
       "iso_3166_code": "KR",
-      "internet_tld": ".kr .한국",
-      "time_zone": "UTC+9"
+      "internet_tld": [
+        ".kr",
+        ".한국"
+      ],
+      "time_zone": {
+        "standard": "UTC+9"
+      }
     }
   }
 }

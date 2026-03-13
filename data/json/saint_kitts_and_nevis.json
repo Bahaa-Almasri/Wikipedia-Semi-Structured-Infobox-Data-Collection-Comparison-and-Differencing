@@ -3,7 +3,7 @@
     "country_name": "Saint Kitts and Nevis",
     "slug": "saint_kitts_and_nevis",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis",
-    "retrieved_at": "2026-03-13T10:09:58+00:00",
+    "retrieved_at": "2026-03-13T11:38:03+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -578,26 +578,27 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$1 billion",
+        "text": "$1.8 billion",
         "tokens": [
           "1",
+          "8",
           "billion"
         ],
         "numbers": [
-          1
+          1.8
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$18,158",
+        "text": "$29,893",
         "tokens": [
-          "18",
-          "158"
+          "29",
+          "893"
         ],
         "numbers": [
-          18158
+          29893
         ]
       },
       "gdp_nominal": {
@@ -609,6 +610,28 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$1 billion",
+        "tokens": [
+          "1",
+          "billion"
+        ],
+        "numbers": [
+          1
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$18,158",
+        "tokens": [
+          "18",
+          "158"
+        ],
+        "numbers": [
+          18158
         ]
       },
       "hdi_2023": {
@@ -695,6 +718,11 @@
         "latitude": "17°18′N",
         "longitude": "62°44′W"
       },
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Federal parliamentary constitutional monarchy",
         "head_of_state": "Charles III",
@@ -712,7 +740,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$1.8 billion",
+        "gdp_ppp_per_capita": "$29,893",
+        "gdp_nominal_total": "$1 billion",
+        "gdp_nominal_per_capita": "$18,158"
       },
       "development": {
         "hdi": {
@@ -726,8 +758,12 @@
       },
       "calling_code": "1",
       "iso_3166_code": "KN",
-      "internet_tld": ".kn",
-      "time_zone": "UTC-4"
+      "internet_tld": [
+        ".kn"
+      ],
+      "time_zone": {
+        "standard": "UTC-4"
+      }
     }
   }
 }

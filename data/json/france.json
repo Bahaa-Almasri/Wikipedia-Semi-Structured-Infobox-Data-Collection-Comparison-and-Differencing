@@ -3,7 +3,7 @@
     "country_name": "France",
     "slug": "france",
     "wikipedia_url": "https://en.wikipedia.org/wiki/France",
-    "retrieved_at": "2026-03-13T10:07:57+00:00",
+    "retrieved_at": "2026-03-13T11:36:53+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -636,7 +636,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$4.504 trillion ( 9th )",
+        "tokens": [
+          "4",
+          "504",
+          "trillion",
+          "9th"
+        ],
+        "numbers": [
+          4.504,
+          9
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$65,626 ( 25th )",
+        "tokens": [
+          "65",
+          "626",
+          "25th"
+        ],
+        "numbers": [
+          65626,
+          25
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$3.211 trillion ( 7th )",
         "tokens": [
@@ -650,7 +688,7 @@
           7
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$46,792 ( 22nd )",
         "tokens": [
@@ -661,17 +699,6 @@
         "numbers": [
           46792,
           22
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -791,7 +818,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$4.504 trillion",
+        "gdp_ppp_per_capita": "$65,626",
+        "gdp_nominal_total": "$3.211 trillion",
+        "gdp_nominal_per_capita": "$46,792"
       },
       "development": {
         "hdi": {
@@ -809,8 +840,13 @@
       },
       "calling_code": "33",
       "iso_3166_code": "FR",
-      "internet_tld": ".fr",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".fr"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "French"
     }
   }

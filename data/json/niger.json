@@ -3,7 +3,7 @@
     "country_name": "Niger",
     "slug": "niger",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Niger",
-    "retrieved_at": "2026-03-13T10:09:24+00:00",
+    "retrieved_at": "2026-03-13T11:37:43+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -655,7 +655,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$61.040 billion ( 128th )",
+        "tokens": [
+          "61",
+          "040",
+          "billion",
+          "128th"
+        ],
+        "numbers": [
+          61.04,
+          128
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$2,100 ( 176th )",
+        "tokens": [
+          "2",
+          "100",
+          "176th"
+        ],
+        "numbers": [
+          2100,
+          176
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$21.870 billion ( 123rd )",
         "tokens": [
@@ -669,7 +707,7 @@
           123
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$751 ( 181st )",
         "tokens": [
@@ -679,17 +717,6 @@
         "numbers": [
           751,
           181
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2021": {
@@ -774,6 +801,11 @@
       "country_name": "Niger",
       "capital": "Niamey",
       "largest_city": "Niamey",
+      "languages": {
+        "official": [
+          "Hausa"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic under a military junta",
         "head_of_state": "Abdourahamane Tchiani",
@@ -792,7 +824,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$61.040 billion",
+        "gdp_ppp_per_capita": "$2,100",
+        "gdp_nominal_total": "$21.870 billion",
+        "gdp_nominal_per_capita": "$751"
       },
       "development": {
         "hdi": {
@@ -811,8 +847,12 @@
       },
       "calling_code": "227",
       "iso_3166_code": "NE",
-      "internet_tld": ".ne",
-      "time_zone": "UTC+1"
+      "internet_tld": [
+        ".ne"
+      ],
+      "time_zone": {
+        "standard": "UTC+1"
+      }
     }
   }
 }

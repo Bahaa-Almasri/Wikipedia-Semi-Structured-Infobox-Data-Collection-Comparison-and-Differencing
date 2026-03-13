@@ -3,7 +3,7 @@
     "country_name": "India",
     "slug": "india",
     "wikipedia_url": "https://en.wikipedia.org/wiki/India",
-    "retrieved_at": "2026-03-13T10:08:20+00:00",
+    "retrieved_at": "2026-03-13T11:37:06+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -705,7 +705,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$17.647 trillion ( 3rd )",
+        "tokens": [
+          "17",
+          "647",
+          "trillion",
+          "3rd"
+        ],
+        "numbers": [
+          17.647,
+          3
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$12,132 ( 119th )",
+        "tokens": [
+          "12",
+          "132",
+          "119th"
+        ],
+        "numbers": [
+          12132,
+          119
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$4.187 trillion ( 4th )",
         "tokens": [
@@ -719,7 +757,7 @@
           4
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,878 ( 136th )",
         "tokens": [
@@ -730,17 +768,6 @@
         "numbers": [
           2878,
           136
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -836,6 +863,11 @@
       "country_name": "India",
       "capital": "New Delhi",
       "largest_city": "New Delhi",
+      "languages": {
+        "official": [
+          "Hindi English"
+        ]
+      },
       "government": {
         "type": "Federal parliamentary republic",
         "head_of_state": "Droupadi Murmu",
@@ -854,7 +886,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$17.647 trillion",
+        "gdp_ppp_per_capita": "$12,132",
+        "gdp_nominal_total": "$4.187 trillion",
+        "gdp_nominal_per_capita": "$2,878"
       },
       "development": {
         "hdi": {
@@ -872,8 +908,15 @@
       },
       "calling_code": "91",
       "iso_3166_code": "IN",
-      "internet_tld": ".in ( others )",
-      "time_zone": "UTC+05:30"
+      "internet_tld": [
+        ".in",
+        "(",
+        "others",
+        ")"
+      ],
+      "time_zone": {
+        "standard": "UTC+05:30"
+      }
     }
   }
 }

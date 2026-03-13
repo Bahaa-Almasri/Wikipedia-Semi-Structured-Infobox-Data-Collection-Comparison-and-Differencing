@@ -3,7 +3,7 @@
     "country_name": "Ecuador",
     "slug": "ecuador",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ecuador",
-    "retrieved_at": "2026-03-13T10:07:44+00:00",
+    "retrieved_at": "2026-03-13T11:36:45+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -721,7 +721,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$304.230 billion ( 66th )",
+        "tokens": [
+          "304",
+          "230",
+          "billion",
+          "66th"
+        ],
+        "numbers": [
+          304.23,
+          66
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$16,180 ( 109th )",
+        "tokens": [
+          "16",
+          "180",
+          "109th"
+        ],
+        "numbers": [
+          16180,
+          109
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$130.530 billion ( 63rd )",
         "tokens": [
@@ -735,7 +773,7 @@
           63
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$7,210 ( 95th )",
         "tokens": [
@@ -746,17 +784,6 @@
         "numbers": [
           7210,
           95
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2024": {
@@ -854,6 +881,11 @@
       "country_name": "Ecuador",
       "capital": "Quito",
       "largest_city": "Guayaquil",
+      "languages": {
+        "official": [
+          "Spanish"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Daniel Noboa"
@@ -869,7 +901,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$304.230 billion",
+        "gdp_ppp_per_capita": "$16,180",
+        "gdp_nominal_total": "$130.530 billion",
+        "gdp_nominal_per_capita": "$7,210"
       },
       "development": {
         "hdi": {
@@ -888,8 +924,12 @@
       },
       "calling_code": "593",
       "iso_3166_code": "EC",
-      "internet_tld": ".ec",
-      "time_zone": "UTC −5 / −6 ( ECT / GALT )",
+      "internet_tld": [
+        ".ec"
+      ],
+      "time_zone": {
+        "standard": "UTC −5 / −6 ( ECT / GALT )"
+      },
       "demonym": "Ecuadorian"
     }
   }

@@ -3,7 +3,7 @@
     "country_name": "Uruguay",
     "slug": "uruguay",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Uruguay",
-    "retrieved_at": "2026-03-13T10:10:51+00:00",
+    "retrieved_at": "2026-03-13T11:38:39+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -549,7 +549,45 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$107.946 billion ( 98th )",
+        "tokens": [
+          "107",
+          "946",
+          "billion",
+          "98th"
+        ],
+        "numbers": [
+          107.946,
+          98
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$36,014 ( 59th )",
+        "tokens": [
+          "36",
+          "014",
+          "59th"
+        ],
+        "numbers": [
+          36014,
+          59
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$82.605 billion ( 77th )",
         "tokens": [
@@ -563,7 +601,7 @@
           77
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$23,088 ( 49th )",
         "tokens": [
@@ -574,17 +612,6 @@
         "numbers": [
           23088,
           49
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "gini_2022": {
@@ -684,6 +711,11 @@
         "latitude": "34°53′S",
         "longitude": "56°10′W"
       },
+      "languages": {
+        "official": [
+          "Spanish Uruguayan Sign Language"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Yamandú Orsi"
@@ -701,7 +733,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$107.946 billion",
+        "gdp_ppp_per_capita": "$36,014",
+        "gdp_nominal_total": "$82.605 billion",
+        "gdp_nominal_per_capita": "$23,088"
       },
       "development": {
         "hdi": {
@@ -720,8 +756,12 @@
       },
       "calling_code": "598",
       "iso_3166_code": "UY",
-      "internet_tld": ".uy",
-      "time_zone": "UTC −03:00 ( UYT )",
+      "internet_tld": [
+        ".uy"
+      ],
+      "time_zone": {
+        "standard": "UTC −03:00 ( UYT )"
+      },
       "demonym": "Uruguayan"
     }
   }

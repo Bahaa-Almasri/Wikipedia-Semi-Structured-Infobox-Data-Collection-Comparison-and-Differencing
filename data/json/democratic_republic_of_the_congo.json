@@ -3,7 +3,7 @@
     "country_name": "Democratic Republic of the Congo",
     "slug": "democratic_republic_of_the_congo",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
-    "retrieved_at": "2026-03-13T10:07:38+00:00",
+    "retrieved_at": "2026-03-13T11:36:39+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -715,7 +715,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$200.76 billion ( 79th )",
+        "tokens": [
+          "200",
+          "76",
+          "billion",
+          "79th"
+        ],
+        "numbers": [
+          200.76,
+          79
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$1,881 ( 180th )",
+        "tokens": [
+          "1",
+          "881",
+          "180th"
+        ],
+        "numbers": [
+          1881,
+          180
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$79.120\tbillion ( 83rd )",
         "tokens": [
@@ -729,7 +767,7 @@
           83
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$742 ( 182nd )",
         "tokens": [
@@ -739,17 +777,6 @@
         "numbers": [
           742,
           182
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2012": {
@@ -851,6 +878,11 @@
         "latitude": "4°19′S",
         "longitude": "15°19′E"
       },
+      "languages": {
+        "official": [
+          "French"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic",
         "head_of_state": "Félix Tshisekedi",
@@ -869,7 +901,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$200.76 billion",
+        "gdp_ppp_per_capita": "$1,881",
+        "gdp_nominal_total": "$79.120\tbillion",
+        "gdp_nominal_per_capita": "$742"
       },
       "development": {
         "hdi": {
@@ -888,8 +924,12 @@
       },
       "calling_code": "243",
       "iso_3166_code": "CD",
-      "internet_tld": ".cd",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".cd"
+      ],
+      "time_zone": {
+        "standard": "UTC+1"
+      },
       "demonym": "Congolese"
     }
   }

@@ -3,7 +3,7 @@
     "country_name": "Haiti",
     "slug": "haiti",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Haiti",
-    "retrieved_at": "2026-03-13T10:08:14+00:00",
+    "retrieved_at": "2026-03-13T11:37:03+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -812,7 +812,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$38.200 billion ( 144th )",
+        "tokens": [
+          "38",
+          "200",
+          "billion",
+          "144th"
+        ],
+        "numbers": [
+          38.2,
+          144
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$3,040 ( 169th )",
+        "tokens": [
+          "3",
+          "040",
+          "169th"
+        ],
+        "numbers": [
+          3040,
+          169
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$33.550 billion ( 107th )",
         "tokens": [
@@ -826,7 +864,7 @@
           107
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,670 ( 141st )",
         "tokens": [
@@ -837,17 +875,6 @@
         "numbers": [
           2670,
           141
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -955,6 +982,11 @@
       "country_name": "Haiti",
       "capital": "Port-au-Prince",
       "largest_city": "Port-au-Prince",
+      "languages": {
+        "official": [
+          "Haitian Creole French"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic",
         "head_of_state": "Vacant",
@@ -973,7 +1005,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$38.200 billion",
+        "gdp_ppp_per_capita": "$3,040",
+        "gdp_nominal_total": "$33.550 billion",
+        "gdp_nominal_per_capita": "$2,670"
       },
       "development": {
         "hdi": {
@@ -991,8 +1027,13 @@
       },
       "calling_code": "509",
       "iso_3166_code": "HT",
-      "internet_tld": ".ht",
-      "time_zone": "UTC −05:00 ( EST )",
+      "internet_tld": [
+        ".ht"
+      ],
+      "time_zone": {
+        "standard": "UTC −05:00 ( EST )",
+        "dst": "UTC −04:00 ( EDT )"
+      },
       "demonym": "Haitian"
     }
   }

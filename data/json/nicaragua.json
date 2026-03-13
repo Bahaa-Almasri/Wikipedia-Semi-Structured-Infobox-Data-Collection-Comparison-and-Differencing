@@ -3,7 +3,7 @@
     "country_name": "Nicaragua",
     "slug": "nicaragua",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Nicaragua",
-    "retrieved_at": "2026-03-13T10:09:23+00:00",
+    "retrieved_at": "2026-03-13T11:37:43+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -671,7 +671,45 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$56.697 billion ( 115th )",
+        "tokens": [
+          "56",
+          "697",
+          "billion",
+          "115th"
+        ],
+        "numbers": [
+          56.697,
+          115
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$8,492 ( 129th )",
+        "tokens": [
+          "8",
+          "492",
+          "129th"
+        ],
+        "numbers": [
+          8492,
+          129
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$17.843 billion ( 127th )",
         "tokens": [
@@ -685,7 +723,7 @@
           127
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,673 ( 134th )",
         "tokens": [
@@ -696,17 +734,6 @@
         "numbers": [
           2673,
           134
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "gini_2014": {
@@ -803,6 +830,11 @@
         "latitude": "12°6′N",
         "longitude": "86°14′W"
       },
+      "languages": {
+        "official": [
+          "Spanish"
+        ]
+      },
       "government": {
         "type": "Unitary diarchic presidential socialist republic under an authoritarian dictatorship"
       },
@@ -819,7 +851,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$56.697 billion",
+        "gdp_ppp_per_capita": "$8,492",
+        "gdp_nominal_total": "$17.843 billion",
+        "gdp_nominal_per_capita": "$2,673"
       },
       "development": {
         "hdi": {
@@ -838,8 +874,12 @@
       },
       "calling_code": "505",
       "iso_3166_code": "NI",
-      "internet_tld": ".ni",
-      "time_zone": "UTC −6 ( CST )"
+      "internet_tld": [
+        ".ni"
+      ],
+      "time_zone": {
+        "standard": "UTC −6 ( CST )"
+      }
     }
   }
 }

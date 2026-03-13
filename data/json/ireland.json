@@ -3,7 +3,7 @@
     "country_name": "Ireland",
     "slug": "ireland",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Republic_of_Ireland",
-    "retrieved_at": "2026-03-13T10:08:27+00:00",
+    "retrieved_at": "2026-03-13T11:37:09+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -735,7 +735,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$736.73 billion ( 42nd )",
+        "tokens": [
+          "736",
+          "73",
+          "billion",
+          "42nd"
+        ],
+        "numbers": [
+          736.73,
+          42
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$134,000 ( 3rd )",
+        "tokens": [
+          "134",
+          "000",
+          "3rd"
+        ],
+        "numbers": [
+          134000,
+          3
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$598.84 billion ( 25th )",
         "tokens": [
@@ -749,7 +787,7 @@
           25
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$108,920 ( 2nd )",
         "tokens": [
@@ -760,17 +798,6 @@
         "numbers": [
           108920,
           2
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -872,6 +899,11 @@
       "country_name": "Ireland",
       "capital": "Dublin",
       "largest_city": "Dublin",
+      "languages": {
+        "official": [
+          "Irish English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Catherine Connolly"
@@ -889,7 +921,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$736.73 billion",
+        "gdp_ppp_per_capita": "$134,000",
+        "gdp_nominal_total": "$598.84 billion",
+        "gdp_nominal_per_capita": "$108,920"
       },
       "development": {
         "hdi": {
@@ -907,8 +943,13 @@
       },
       "calling_code": "353",
       "iso_3166_code": "IE",
-      "internet_tld": ".ie",
-      "time_zone": "UTC ( GMT )",
+      "internet_tld": [
+        ".ie"
+      ],
+      "time_zone": {
+        "standard": "UTC ( GMT )",
+        "dst": "UTC+1"
+      },
       "demonym": "Irish"
     }
   }

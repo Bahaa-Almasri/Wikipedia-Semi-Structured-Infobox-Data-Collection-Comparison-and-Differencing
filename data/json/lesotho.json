@@ -3,7 +3,7 @@
     "country_name": "Lesotho",
     "slug": "lesotho",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Lesotho",
-    "retrieved_at": "2026-03-13T10:08:48+00:00",
+    "retrieved_at": "2026-03-13T11:37:21+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -541,7 +541,45 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$6.915 billion ( 168th )",
+        "tokens": [
+          "6",
+          "915",
+          "billion",
+          "168th"
+        ],
+        "numbers": [
+          6.915,
+          168
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$3,234 ( 164th )",
+        "tokens": [
+          "3",
+          "234",
+          "164th"
+        ],
+        "numbers": [
+          3234,
+          164
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2023 estimate",
+        "tokens": [
+          "2023",
+          "estimate"
+        ],
+        "numbers": [
+          2023
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$2.373 billion ( 184th )",
         "tokens": [
@@ -555,7 +593,7 @@
           184
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,110 ( 169th )",
         "tokens": [
@@ -566,17 +604,6 @@
         "numbers": [
           1110,
           169
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2023 estimate",
-        "tokens": [
-          "2023",
-          "estimate"
-        ],
-        "numbers": [
-          2023
         ]
       },
       "gini_2017": {
@@ -665,6 +692,11 @@
       "country_name": "Lesotho",
       "capital": "Maseru",
       "largest_city": "Maseru",
+      "languages": {
+        "official": [
+          "Sesotho English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_state": "Letsie III",
@@ -682,7 +714,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$6.915 billion",
+        "gdp_ppp_per_capita": "$3,234",
+        "gdp_nominal_total": "$2.373 billion",
+        "gdp_nominal_per_capita": "$1,110"
       },
       "development": {
         "hdi": {
@@ -701,8 +737,12 @@
       },
       "calling_code": "266",
       "iso_3166_code": "LS",
-      "internet_tld": ".ls",
-      "time_zone": "UTC+02:00"
+      "internet_tld": [
+        ".ls"
+      ],
+      "time_zone": {
+        "standard": "UTC+02:00"
+      }
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Montenegro",
     "slug": "montenegro",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Montenegro",
-    "retrieved_at": "2026-03-13T10:09:12+00:00",
+    "retrieved_at": "2026-03-13T11:37:36+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -772,7 +772,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$21.480 billion ( 149th )",
+        "tokens": [
+          "21",
+          "480",
+          "billion",
+          "149th"
+        ],
+        "numbers": [
+          21.48,
+          149
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$34,410 ( 63rd )",
+        "tokens": [
+          "34",
+          "410",
+          "63rd"
+        ],
+        "numbers": [
+          34410,
+          63
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$9.350 billion ( 153rd )",
         "tokens": [
@@ -786,7 +824,7 @@
           153
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$14,990 ( 73rd )",
         "tokens": [
@@ -797,17 +835,6 @@
         "numbers": [
           14990,
           73
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -907,6 +934,11 @@
         "latitude": "42°47′N",
         "longitude": "19°28′E"
       },
+      "languages": {
+        "official": [
+          "Montenegrin"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Jakov Milatović",
@@ -925,7 +957,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$21.480 billion",
+        "gdp_ppp_per_capita": "$34,410",
+        "gdp_nominal_total": "$9.350 billion",
+        "gdp_nominal_per_capita": "$14,990"
       },
       "development": {
         "hdi": {
@@ -943,8 +979,13 @@
       },
       "calling_code": "382",
       "iso_3166_code": "ME",
-      "internet_tld": ".me",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".me"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "Montenegrin"
     }
   }

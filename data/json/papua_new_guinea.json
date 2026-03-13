@@ -3,7 +3,7 @@
     "country_name": "Papua New Guinea",
     "slug": "papua_new_guinea",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Papua_New_Guinea",
-    "retrieved_at": "2026-03-13T10:09:37+00:00",
+    "retrieved_at": "2026-03-13T11:37:50+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -558,7 +558,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$41.810 billion ( 135th )",
+        "tokens": [
+          "41",
+          "810",
+          "billion",
+          "135th"
+        ],
+        "numbers": [
+          41.81,
+          135
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$3,760 ( 162th )",
+        "tokens": [
+          "3",
+          "760",
+          "162th"
+        ],
+        "numbers": [
+          3760,
+          162
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$32.840 billion ( 108th )",
         "tokens": [
@@ -572,7 +610,7 @@
           108
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,560 ( 142th )",
         "tokens": [
@@ -583,17 +621,6 @@
         "numbers": [
           2560,
           142
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2009": {
@@ -677,6 +704,11 @@
       "country_name": "Papua New Guinea",
       "capital": "Port Moresby",
       "largest_city": "Port Moresby",
+      "languages": {
+        "official": [
+          "English Hiri Motu PNG Sign Language Tok Pisin"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_state": "Charles III",
@@ -695,7 +727,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$41.810 billion",
+        "gdp_ppp_per_capita": "$3,760",
+        "gdp_nominal_total": "$32.840 billion",
+        "gdp_nominal_per_capita": "$2,560"
       },
       "development": {
         "hdi": {
@@ -714,8 +750,12 @@
       },
       "calling_code": "675",
       "iso_3166_code": "PG",
-      "internet_tld": ".pg",
-      "time_zone": "UTC+10",
+      "internet_tld": [
+        ".pg"
+      ],
+      "time_zone": {
+        "standard": "UTC+10"
+      },
       "demonym": "Papua New Guinean"
     }
   }

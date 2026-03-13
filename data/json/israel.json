@@ -3,7 +3,7 @@
     "country_name": "Israel",
     "slug": "israel",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Israel",
-    "retrieved_at": "2026-03-13T10:08:30+00:00",
+    "retrieved_at": "2026-03-13T11:37:11+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -577,7 +577,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$567.55 billion ( 48th )",
+        "tokens": [
+          "567",
+          "55",
+          "billion",
+          "48th"
+        ],
+        "numbers": [
+          567.55,
+          48
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$55,770 ( 35th )",
+        "tokens": [
+          "55",
+          "770",
+          "35th"
+        ],
+        "numbers": [
+          55770,
+          35
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$610.75 billion ( 26th )",
         "tokens": [
@@ -591,7 +629,7 @@
           26
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$60,010 ( 14th )",
         "tokens": [
@@ -602,17 +640,6 @@
         "numbers": [
           60010,
           14
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2021": {
@@ -734,7 +761,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$567.55 billion",
+        "gdp_ppp_per_capita": "$55,770",
+        "gdp_nominal_total": "$610.75 billion",
+        "gdp_nominal_per_capita": "$60,010"
       },
       "development": {
         "hdi": {
@@ -752,8 +783,13 @@
       },
       "calling_code": "972",
       "iso_3166_code": "IL",
-      "internet_tld": ".il",
-      "time_zone": "UTC+2:00",
+      "internet_tld": [
+        ".il"
+      ],
+      "time_zone": {
+        "standard": "UTC+2:00",
+        "dst": "UTC+3:00"
+      },
       "demonym": "Israeli"
     }
   }

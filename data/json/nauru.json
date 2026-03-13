@@ -3,7 +3,7 @@
     "country_name": "Nauru",
     "slug": "nauru",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Nauru",
-    "retrieved_at": "2026-03-13T10:09:18+00:00",
+    "retrieved_at": "2026-03-13T11:37:40+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -490,26 +490,30 @@
           2021
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$150 million",
+        "text": "$132 million ( 192nd )",
         "tokens": [
-          "150",
-          "million"
+          "132",
+          "million",
+          "192nd"
         ],
         "numbers": [
-          150
+          132,
+          192
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$10,125",
+        "text": "$9,995 ( 94th )",
         "tokens": [
-          "10",
-          "125"
+          "9",
+          "995",
+          "94th"
         ],
         "numbers": [
-          10125
+          9995,
+          94
         ]
       },
       "gdp_nominal": {
@@ -521,6 +525,28 @@
         ],
         "numbers": [
           2022
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$150 million",
+        "tokens": [
+          "150",
+          "million"
+        ],
+        "numbers": [
+          150
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$10,125",
+        "tokens": [
+          "10",
+          "125"
+        ],
+        "numbers": [
+          10125
         ]
       },
       "hdi_2023": {
@@ -589,6 +615,11 @@
       "country_name": "Nauru",
       "capital": "Yaren ( de facto )",
       "largest_city": "Denigomodu",
+      "languages": {
+        "official": [
+          "Nauruan English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic with an executive presidency under a non-partisan democracy",
         "head_of_state": "David Adeang"
@@ -606,7 +637,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2022,
-        "gdp_ppp_year": 2021
+        "gdp_ppp_year": 2021,
+        "gdp_ppp_total": "$132 million",
+        "gdp_ppp_per_capita": "$9,995",
+        "gdp_nominal_total": "$150 million",
+        "gdp_nominal_per_capita": "$10,125"
       },
       "development": {
         "hdi": {
@@ -621,8 +656,12 @@
       },
       "calling_code": "674",
       "iso_3166_code": "NR",
-      "internet_tld": ".nr",
-      "time_zone": "UTC+12",
+      "internet_tld": [
+        ".nr"
+      ],
+      "time_zone": {
+        "standard": "UTC+12"
+      },
       "demonym": "Nauruan"
     }
   }

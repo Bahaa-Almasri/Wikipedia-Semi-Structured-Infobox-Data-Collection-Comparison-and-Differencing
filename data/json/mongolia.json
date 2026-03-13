@@ -3,7 +3,7 @@
     "country_name": "Mongolia",
     "slug": "mongolia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mongolia",
-    "retrieved_at": "2026-03-13T10:09:11+00:00",
+    "retrieved_at": "2026-03-13T11:37:35+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -709,7 +709,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$73.280 billion ( 113th )",
+        "tokens": [
+          "73",
+          "280",
+          "billion",
+          "113th"
+        ],
+        "numbers": [
+          73.28,
+          113
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$20,450 ( 90th )",
+        "tokens": [
+          "20",
+          "450",
+          "90th"
+        ],
+        "numbers": [
+          20450,
+          90
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$25.800 billion ( 118th )",
         "tokens": [
@@ -723,7 +761,7 @@
           118
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$7,200 ( 97th )",
         "tokens": [
@@ -734,17 +772,6 @@
         "numbers": [
           7200,
           97
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2018": {
@@ -829,6 +856,11 @@
       "country_name": "Mongolia",
       "capital": "Ulaanbaatar",
       "largest_city": "Ulaanbaatar",
+      "languages": {
+        "official": [
+          "Mongolian ( Buriat Khalkha Oirat )"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic",
         "head_of_state": "Ukhnaagiin Khürelsükh",
@@ -847,7 +879,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$73.280 billion",
+        "gdp_ppp_per_capita": "$20,450",
+        "gdp_nominal_total": "$25.800 billion",
+        "gdp_nominal_per_capita": "$7,200"
       },
       "development": {
         "hdi": {
@@ -866,8 +902,13 @@
       },
       "calling_code": "976",
       "iso_3166_code": "MN",
-      "internet_tld": ".mn , .мон",
-      "time_zone": "UTC+7"
+      "internet_tld": [
+        ".mn",
+        ".мон"
+      ],
+      "time_zone": {
+        "standard": "UTC+7"
+      }
     }
   }
 }

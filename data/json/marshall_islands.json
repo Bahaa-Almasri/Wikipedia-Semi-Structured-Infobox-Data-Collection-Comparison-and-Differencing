@@ -3,7 +3,7 @@
     "country_name": "Marshall Islands",
     "slug": "marshall_islands",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Marshall_Islands",
-    "retrieved_at": "2026-03-13T10:09:04+00:00",
+    "retrieved_at": "2026-03-13T11:37:31+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -563,26 +563,26 @@
           2019
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$220 million",
+        "text": "$215 million",
         "tokens": [
-          "220",
+          "215",
           "million"
         ],
         "numbers": [
-          220
+          215
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$3,866",
+        "text": "$3,789",
         "tokens": [
           "3",
-          "866"
+          "789"
         ],
         "numbers": [
-          3866
+          3789
         ]
       },
       "gdp_nominal": {
@@ -594,6 +594,28 @@
         ],
         "numbers": [
           2019
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$220 million",
+        "tokens": [
+          "220",
+          "million"
+        ],
+        "numbers": [
+          220
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$3,866",
+        "tokens": [
+          "3",
+          "866"
+        ],
+        "numbers": [
+          3866
         ]
       },
       "hdi_2023": {
@@ -687,6 +709,11 @@
         "latitude": "7°7′N",
         "longitude": "171°4′E"
       },
+      "languages": {
+        "official": [
+          "Marshallese English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic with an executive president",
         "head_of_state": "Hilda Heine"
@@ -702,7 +729,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2019,
-        "gdp_ppp_year": 2019
+        "gdp_ppp_year": 2019,
+        "gdp_ppp_total": "$215 million",
+        "gdp_ppp_per_capita": "$3,789",
+        "gdp_nominal_total": "$220 million",
+        "gdp_nominal_per_capita": "$3,866"
       },
       "development": {
         "hdi": {
@@ -716,8 +747,13 @@
       },
       "calling_code": "692",
       "iso_3166_code": "MH",
-      "internet_tld": ".mh",
-      "time_zone": "UTC+12",
+      "internet_tld": [
+        ".mh"
+      ],
+      "time_zone": {
+        "standard": "UTC+12",
+        "dst": "Not observed"
+      },
       "demonym": "Marshallese"
     }
   }

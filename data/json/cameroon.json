@@ -3,7 +3,7 @@
     "country_name": "Cameroon",
     "slug": "cameroon",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cameroon",
-    "retrieved_at": "2026-03-13T10:07:19+00:00",
+    "retrieved_at": "2026-03-13T11:36:18+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -770,7 +770,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$183.320 billion ( 86th )",
+        "tokens": [
+          "183",
+          "320",
+          "billion",
+          "86th"
+        ],
+        "numbers": [
+          183.32,
+          86
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$5.960 ( 147th )",
+        "tokens": [
+          "5",
+          "960",
+          "147th"
+        ],
+        "numbers": [
+          5.96,
+          147
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$67.520 billion ( 91st )",
         "tokens": [
@@ -784,7 +822,7 @@
           91
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,200 ( 152nd )",
         "tokens": [
@@ -795,17 +833,6 @@
         "numbers": [
           2200,
           152
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2021": {
@@ -890,6 +917,11 @@
       "country_name": "Cameroon",
       "capital": "Yaoundé",
       "largest_city": "Douala",
+      "languages": {
+        "official": [
+          "French • English"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic under a dictatorship",
         "head_of_state": "Paul Biya",
@@ -908,7 +940,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$183.320 billion",
+        "gdp_ppp_per_capita": "$5.960",
+        "gdp_nominal_total": "$67.520 billion",
+        "gdp_nominal_per_capita": "$2,200"
       },
       "development": {
         "hdi": {
@@ -927,8 +963,12 @@
       },
       "calling_code": "237",
       "iso_3166_code": "CM",
-      "internet_tld": ".cm",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".cm"
+      ],
+      "time_zone": {
+        "standard": "UTC+1"
+      },
       "demonym": "Cameroonian"
     }
   }

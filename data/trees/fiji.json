@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:07:54+00:00",
+          "value": "2026-03-13T11:36:51+00:00",
           "children": []
         },
         {
@@ -148,8 +148,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$6,024",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$5.511 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2023",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$16,563",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$15.152 billion",
               "children": []
             },
             {
@@ -187,8 +207,14 @@
         },
         {
           "label": "internet_tld",
-          "value": ".fj",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".fj",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
@@ -233,8 +259,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+12",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC+12",
+              "children": []
+            }
+          ]
         }
       ]
     }

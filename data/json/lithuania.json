@@ -3,7 +3,7 @@
     "country_name": "Lithuania",
     "slug": "lithuania",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Lithuania",
-    "retrieved_at": "2026-03-13T10:08:52+00:00",
+    "retrieved_at": "2026-03-13T11:37:25+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -715,7 +715,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$165.23 billion ( 88th )",
+        "tokens": [
+          "165",
+          "23",
+          "billion",
+          "88th"
+        ],
+        "numbers": [
+          165.23,
+          88
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$57,201 ( 39th )",
+        "tokens": [
+          "57",
+          "201",
+          "39th"
+        ],
+        "numbers": [
+          57201,
+          39
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$95.27 billion ( 78th )",
         "tokens": [
@@ -729,7 +767,7 @@
           78
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$32,982 ( 40th )",
         "tokens": [
@@ -740,17 +778,6 @@
         "numbers": [
           32982,
           40
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -859,6 +886,11 @@
         "latitude": "54°41′N",
         "longitude": "25°19′E"
       },
+      "languages": {
+        "official": [
+          "Lithuanian"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic",
         "head_of_state": "Gitanas Nausėda",
@@ -877,7 +909,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$165.23 billion",
+        "gdp_ppp_per_capita": "$57,201",
+        "gdp_nominal_total": "$95.27 billion",
+        "gdp_nominal_per_capita": "$32,982"
       },
       "development": {
         "hdi": {
@@ -895,8 +931,13 @@
       },
       "calling_code": "370",
       "iso_3166_code": "LT",
-      "internet_tld": ".lt",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".lt"
+      ],
+      "time_zone": {
+        "standard": "UTC+2",
+        "dst": "UTC+3"
+      },
       "demonym": "Lithuanian"
     }
   }

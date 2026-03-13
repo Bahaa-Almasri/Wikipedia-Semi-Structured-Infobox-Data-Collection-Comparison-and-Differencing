@@ -3,7 +3,7 @@
     "country_name": "Palau",
     "slug": "palau",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Palau",
-    "retrieved_at": "2026-03-13T10:09:35+00:00",
+    "retrieved_at": "2026-03-13T11:37:48+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -718,26 +718,28 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$322 million",
+        "text": "$308 million",
         "tokens": [
-          "322",
+          "308",
           "million"
         ],
         "numbers": [
-          322
+          308
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$17,448",
+        "text": "$18,209 ( 81st )",
         "tokens": [
-          "17",
-          "448"
+          "18",
+          "209",
+          "81st"
         ],
         "numbers": [
-          17448
+          18209,
+          81
         ]
       },
       "gdp_nominal": {
@@ -749,6 +751,28 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$322 million",
+        "tokens": [
+          "322",
+          "million"
+        ],
+        "numbers": [
+          322
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$17,448",
+        "tokens": [
+          "17",
+          "448"
+        ],
+        "numbers": [
+          17448
         ]
       },
       "hdi_2023": {
@@ -842,6 +866,11 @@
         "latitude": "7°30′N",
         "longitude": "134°37′E"
       },
+      "languages": {
+        "official": [
+          "Palauan English"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic under a non-partisan democracy",
         "head_of_state": "Surangel Whipps Jr."
@@ -858,7 +887,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$308 million",
+        "gdp_ppp_per_capita": "$18,209",
+        "gdp_nominal_total": "$322 million",
+        "gdp_nominal_per_capita": "$17,448"
       },
       "development": {
         "hdi": {
@@ -873,8 +906,13 @@
       },
       "calling_code": "680",
       "iso_3166_code": "PW",
-      "internet_tld": ".pw",
-      "time_zone": "UTC+9",
+      "internet_tld": [
+        ".pw"
+      ],
+      "time_zone": {
+        "standard": "UTC+9",
+        "dst": "not observed"
+      },
       "demonym": "Palauan"
     }
   }

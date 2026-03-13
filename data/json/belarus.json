@@ -3,7 +3,7 @@
     "country_name": "Belarus",
     "slug": "belarus",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Belarus",
-    "retrieved_at": "2026-03-13T10:06:57+00:00",
+    "retrieved_at": "2026-03-13T11:35:56+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -687,7 +687,45 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$221.186 billion ( 73rd )",
+        "tokens": [
+          "221",
+          "186",
+          "billion",
+          "73rd"
+        ],
+        "numbers": [
+          221.186,
+          73
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$24,016 ( 71st )",
+        "tokens": [
+          "24",
+          "016",
+          "71st"
+        ],
+        "numbers": [
+          24016,
+          71
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2023 estimate",
+        "tokens": [
+          "2023",
+          "estimate"
+        ],
+        "numbers": [
+          2023
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$68.864 billion ( 74th )",
         "tokens": [
@@ -701,7 +739,7 @@
           74
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$7,477 ( 82nd )",
         "tokens": [
@@ -712,17 +750,6 @@
         "numbers": [
           7477,
           82
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2023 estimate",
-        "tokens": [
-          "2023",
-          "estimate"
-        ],
-        "numbers": [
-          2023
         ]
       },
       "gini_2019": {
@@ -820,6 +847,11 @@
         "latitude": "53°55′N",
         "longitude": "27°33′E"
       },
+      "languages": {
+        "official": [
+          "Belarusian Russian a"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic under an authoritarian dictatorship",
         "head_of_state": "Alexander Lukashenko",
@@ -838,7 +870,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$221.186 billion",
+        "gdp_ppp_per_capita": "$24,016",
+        "gdp_nominal_total": "$68.864 billion",
+        "gdp_nominal_per_capita": "$7,477"
       },
       "development": {
         "hdi": {
@@ -857,8 +893,13 @@
       },
       "calling_code": "375",
       "iso_3166_code": "BY",
-      "internet_tld": ".by .бел",
-      "time_zone": "UTC+3",
+      "internet_tld": [
+        ".by",
+        ".бел"
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      },
       "demonym": "Belarusian"
     }
   }

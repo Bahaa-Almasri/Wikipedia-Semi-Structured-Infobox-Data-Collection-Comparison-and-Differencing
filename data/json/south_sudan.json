@@ -3,7 +3,7 @@
     "country_name": "South Sudan",
     "slug": "south_sudan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/South_Sudan",
-    "retrieved_at": "2026-03-13T10:10:26+00:00",
+    "retrieved_at": "2026-03-13T11:38:15+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -547,7 +547,44 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$15.160 billion ( 157th )",
+        "tokens": [
+          "15",
+          "160",
+          "billion",
+          "157th"
+        ],
+        "numbers": [
+          15.16,
+          157
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$953 ( 191st )",
+        "tokens": [
+          "953",
+          "191st"
+        ],
+        "numbers": [
+          953,
+          191
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$4.980 billion ( 164th )",
         "tokens": [
@@ -561,7 +598,7 @@
           164
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$313 ( 194th )",
         "tokens": [
@@ -571,17 +608,6 @@
         "numbers": [
           313,
           194
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2016": {
@@ -669,6 +695,11 @@
         "latitude": "04°51′N",
         "longitude": "31°34′E"
       },
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Federal presidential republic",
         "head_of_state": "Salva Kiir Mayardit"
@@ -685,7 +716,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$15.160 billion",
+        "gdp_ppp_per_capita": "$953",
+        "gdp_nominal_total": "$4.980 billion",
+        "gdp_nominal_per_capita": "$313"
       },
       "development": {
         "hdi": {
@@ -704,8 +739,12 @@
       },
       "calling_code": "211",
       "iso_3166_code": "SS",
-      "internet_tld": ".ss",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".ss"
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      },
       "demonym": "South Sudanese"
     }
   }

@@ -3,7 +3,7 @@
     "country_name": "Malaysia",
     "slug": "malaysia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Malaysia",
-    "retrieved_at": "2026-03-13T10:08:58+00:00",
+    "retrieved_at": "2026-03-13T11:37:28+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -698,7 +698,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$1.478 trillion ( 30th )",
+        "tokens": [
+          "1",
+          "478",
+          "trillion",
+          "30th"
+        ],
+        "numbers": [
+          1.478,
+          30
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$43,665 ( 52nd )",
+        "tokens": [
+          "43",
+          "665",
+          "52nd"
+        ],
+        "numbers": [
+          43665,
+          52
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$470,572 billion ( 35th )",
         "tokens": [
@@ -712,7 +750,7 @@
           35
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$13,901 ( 76th )",
         "tokens": [
@@ -723,17 +761,6 @@
         "numbers": [
           13901,
           76
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2024": {
@@ -850,7 +877,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$1.478 trillion",
+        "gdp_ppp_per_capita": "$43,665",
+        "gdp_nominal_total": "$470,572 billion",
+        "gdp_nominal_per_capita": "$13,901"
       },
       "development": {
         "hdi": {
@@ -868,8 +899,12 @@
       },
       "calling_code": "60",
       "iso_3166_code": "MY",
-      "internet_tld": ".my",
-      "time_zone": "UTC+8",
+      "internet_tld": [
+        ".my"
+      ],
+      "time_zone": {
+        "standard": "UTC+8"
+      },
       "demonym": "Malaysian"
     }
   }

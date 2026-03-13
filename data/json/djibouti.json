@@ -3,7 +3,7 @@
     "country_name": "Djibouti",
     "slug": "djibouti",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Djibouti",
-    "retrieved_at": "2026-03-13T10:07:41+00:00",
+    "retrieved_at": "2026-03-13T11:36:41+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -539,7 +539,45 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$7.193 billion ( 167th )",
+        "tokens": [
+          "7",
+          "193",
+          "billion",
+          "167th"
+        ],
+        "numbers": [
+          7.193,
+          167
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$6,985 ( 137th )",
+        "tokens": [
+          "6",
+          "985",
+          "137th"
+        ],
+        "numbers": [
+          6985,
+          137
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2023 estimate",
+        "tokens": [
+          "2023",
+          "estimate"
+        ],
+        "numbers": [
+          2023
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$3.873 billion ( 172nd )",
         "tokens": [
@@ -553,7 +591,7 @@
           172
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$3,761 ( 126th )",
         "tokens": [
@@ -564,17 +602,6 @@
         "numbers": [
           3761,
           126
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2023 estimate",
-        "tokens": [
-          "2023",
-          "estimate"
-        ],
-        "numbers": [
-          2023
         ]
       },
       "gini_2017": {
@@ -661,6 +688,11 @@
         "latitude": "11°36′N",
         "longitude": "43°10′E"
       },
+      "languages": {
+        "official": [
+          "Arabic French"
+        ]
+      },
       "government": {
         "type": "Unitary dominant-party presidential republic under a hereditary dictatorship",
         "head_of_state": "Ismaïl Omar Guelleh",
@@ -678,7 +710,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$7.193 billion",
+        "gdp_ppp_per_capita": "$6,985",
+        "gdp_nominal_total": "$3.873 billion",
+        "gdp_nominal_per_capita": "$3,761"
       },
       "development": {
         "hdi": {
@@ -697,8 +733,12 @@
       },
       "calling_code": "253",
       "iso_3166_code": "DJ",
-      "internet_tld": ".dj",
-      "time_zone": "UTC+3",
+      "internet_tld": [
+        ".dj"
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      },
       "demonym": "Djiboutian"
     }
   }

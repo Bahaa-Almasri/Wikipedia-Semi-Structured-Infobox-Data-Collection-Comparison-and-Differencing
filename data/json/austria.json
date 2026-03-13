@@ -3,7 +3,7 @@
     "country_name": "Austria",
     "slug": "austria",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Austria",
-    "retrieved_at": "2026-03-13T10:06:47+00:00",
+    "retrieved_at": "2026-03-13T11:35:51+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -781,7 +781,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$682.86 billion ( 46th )",
+        "tokens": [
+          "682",
+          "86",
+          "billion",
+          "46th"
+        ],
+        "numbers": [
+          682.86,
+          46
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$74,370 ( 18th )",
+        "tokens": [
+          "74",
+          "370",
+          "18th"
+        ],
+        "numbers": [
+          74370,
+          18
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$534.30 billion ( 30th )",
         "tokens": [
@@ -795,7 +833,7 @@
           30
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$58,190 ( 13th )",
         "tokens": [
@@ -806,17 +844,6 @@
         "numbers": [
           58190,
           13
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -933,7 +960,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$682.86 billion",
+        "gdp_ppp_per_capita": "$74,370",
+        "gdp_nominal_total": "$534.30 billion",
+        "gdp_nominal_per_capita": "$58,190"
       },
       "development": {
         "hdi": {
@@ -951,8 +982,13 @@
       },
       "calling_code": "43",
       "iso_3166_code": "AT",
-      "internet_tld": ".at",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".at"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "Austrian"
     }
   }

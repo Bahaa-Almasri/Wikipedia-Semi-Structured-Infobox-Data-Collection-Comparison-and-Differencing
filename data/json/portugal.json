@@ -3,7 +3,7 @@
     "country_name": "Portugal",
     "slug": "portugal",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Portugal",
-    "retrieved_at": "2026-03-13T10:09:46+00:00",
+    "retrieved_at": "2026-03-13T11:37:56+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -754,7 +754,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$556.383 billion ( 50th )",
+        "tokens": [
+          "556",
+          "383",
+          "billion",
+          "50th"
+        ],
+        "numbers": [
+          556.383,
+          50
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$51,853 ( 42nd )",
+        "tokens": [
+          "51",
+          "853",
+          "42nd"
+        ],
+        "numbers": [
+          51853,
+          42
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$364.527 billion ( 44th )",
         "tokens": [
@@ -768,7 +806,7 @@
           44
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$33,972 ( 41st )",
         "tokens": [
@@ -779,17 +817,6 @@
         "numbers": [
           33972,
           41
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2024": {
@@ -902,6 +929,11 @@
         "latitude": "38°46′N",
         "longitude": "9°9′W"
       },
+      "languages": {
+        "official": [
+          "Portuguese"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic",
         "head_of_state": "António José Seguro",
@@ -920,7 +952,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$556.383 billion",
+        "gdp_ppp_per_capita": "$51,853",
+        "gdp_nominal_total": "$364.527 billion",
+        "gdp_nominal_per_capita": "$33,972"
       },
       "development": {
         "hdi": {
@@ -938,8 +974,13 @@
       },
       "calling_code": "351",
       "iso_3166_code": "PT",
-      "internet_tld": ".pt",
-      "time_zone": "UTC+0",
+      "internet_tld": [
+        ".pt"
+      ],
+      "time_zone": {
+        "standard": "UTC+0",
+        "dst": "UTC+1"
+      },
       "demonym": "Portuguese"
     }
   }

@@ -3,7 +3,7 @@
     "country_name": "Rwanda",
     "slug": "rwanda",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Rwanda",
-    "retrieved_at": "2026-03-13T10:09:57+00:00",
+    "retrieved_at": "2026-03-13T11:38:02+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -761,7 +761,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$58.120 billion ( 129th )",
+        "tokens": [
+          "58",
+          "120",
+          "billion",
+          "129th"
+        ],
+        "numbers": [
+          58.12,
+          129
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$4,100 ( 159th )",
+        "tokens": [
+          "4",
+          "100",
+          "159th"
+        ],
+        "numbers": [
+          4100,
+          159
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$14.789 billion ( 144th )",
         "tokens": [
@@ -775,7 +813,7 @@
           144
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,040 ( 170th )",
         "tokens": [
@@ -786,17 +824,6 @@
         "numbers": [
           1040,
           170
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -890,6 +917,11 @@
       "country_name": "Rwanda",
       "capital": "Kigali",
       "largest_city": "Kigali",
+      "languages": {
+        "official": [
+          "Kinyarwanda English French Swahili"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic under an authoritarian dictatorship",
         "head_of_state": "Paul Kagame",
@@ -908,7 +940,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$58.120 billion",
+        "gdp_ppp_per_capita": "$4,100",
+        "gdp_nominal_total": "$14.789 billion",
+        "gdp_nominal_per_capita": "$1,040"
       },
       "development": {
         "hdi": {
@@ -927,8 +963,12 @@
       },
       "calling_code": "250",
       "iso_3166_code": "RW",
-      "internet_tld": ".rw",
-      "time_zone": "UTC+2"
+      "internet_tld": [
+        ".rw"
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      }
     }
   }
 }

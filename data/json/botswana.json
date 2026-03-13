@@ -3,7 +3,7 @@
     "country_name": "Botswana",
     "slug": "botswana",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Botswana",
-    "retrieved_at": "2026-03-13T10:07:06+00:00",
+    "retrieved_at": "2026-03-13T11:36:12+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -549,7 +549,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$54.820 billion ( 124th )",
+        "tokens": [
+          "54",
+          "820",
+          "billion",
+          "124th"
+        ],
+        "numbers": [
+          54.82,
+          124
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$19,540 ( 83rd )",
+        "tokens": [
+          "19",
+          "540",
+          "83rd"
+        ],
+        "numbers": [
+          19540,
+          83
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$20.710 billion ( 122nd )",
         "tokens": [
@@ -563,7 +601,7 @@
           122
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$7,380 ( 87th )",
         "tokens": [
@@ -574,17 +612,6 @@
         "numbers": [
           7380,
           87
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2016": {
@@ -678,6 +705,11 @@
       "country_name": "Botswana",
       "capital": "Gaborone",
       "largest_city": "Gaborone",
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic with an executive presidency",
         "head_of_state": "Duma Boko"
@@ -695,7 +727,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$54.820 billion",
+        "gdp_ppp_per_capita": "$19,540",
+        "gdp_nominal_total": "$20.710 billion",
+        "gdp_nominal_per_capita": "$7,380"
       },
       "development": {
         "hdi": {
@@ -714,8 +750,12 @@
       },
       "calling_code": "267",
       "iso_3166_code": "BW",
-      "internet_tld": ".bw",
-      "time_zone": "UTC+2"
+      "internet_tld": [
+        ".bw"
+      ],
+      "time_zone": {
+        "standard": "UTC+2"
+      }
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Qatar",
     "slug": "qatar",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Qatar",
-    "retrieved_at": "2026-03-13T10:09:47+00:00",
+    "retrieved_at": "2026-03-13T11:37:57+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -585,7 +585,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$378.080 billion ( 60th )",
+        "tokens": [
+          "378",
+          "080",
+          "billion",
+          "60th"
+        ],
+        "numbers": [
+          378.08,
+          60
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$121,610 ( 4th )",
+        "tokens": [
+          "121",
+          "610",
+          "4th"
+        ],
+        "numbers": [
+          121610,
+          4
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$222.780 billion ( 54th )",
         "tokens": [
@@ -599,7 +637,7 @@
           54
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$71,650 ( 9th )",
         "tokens": [
@@ -610,17 +648,6 @@
         "numbers": [
           71650,
           9
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2017": {
@@ -710,6 +737,11 @@
         "latitude": "25°18′N",
         "longitude": "51°31′E"
       },
+      "languages": {
+        "official": [
+          "Arabic"
+        ]
+      },
       "government": {
         "type": "Unitary authoritarian semi-constitutional monarchy",
         "head_of_state": "Tamim bin Hamad",
@@ -727,7 +759,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$378.080 billion",
+        "gdp_ppp_per_capita": "$121,610",
+        "gdp_nominal_total": "$222.780 billion",
+        "gdp_nominal_per_capita": "$71,650"
       },
       "development": {
         "hdi": {
@@ -746,8 +782,13 @@
       },
       "calling_code": "974",
       "iso_3166_code": "QA",
-      "internet_tld": ".qa قطر.",
-      "time_zone": "UTC+3:00",
+      "internet_tld": [
+        ".qa",
+        "قطر."
+      ],
+      "time_zone": {
+        "standard": "UTC+3:00"
+      },
       "demonym": "Qatari"
     }
   }

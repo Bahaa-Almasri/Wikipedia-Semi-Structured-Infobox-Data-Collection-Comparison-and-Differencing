@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:07:32+00:00",
+          "value": "2026-03-13T11:36:27+00:00",
           "children": []
         },
         {
@@ -132,8 +132,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$29,370",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$113.13 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2026",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$53,840",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$207.40 billion",
               "children": []
             },
             {
@@ -166,13 +186,46 @@
         },
         {
           "label": "internet_tld",
-          "value": ".hr and .eu",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".hr",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "and",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".eu",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "HR",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Croatian",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -212,8 +265,19 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+1",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "dst",
+              "value": "UTC+2",
+              "children": []
+            },
+            {
+              "label": "standard",
+              "value": "UTC+1",
+              "children": []
+            }
+          ]
         }
       ]
     }

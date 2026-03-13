@@ -3,7 +3,7 @@
     "country_name": "Mexico",
     "slug": "mexico",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mexico",
-    "retrieved_at": "2026-03-13T10:09:08+00:00",
+    "retrieved_at": "2026-03-13T11:37:33+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -735,7 +735,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$3.396 trillion ( 13th )",
+        "tokens": [
+          "3",
+          "396",
+          "trillion",
+          "13th"
+        ],
+        "numbers": [
+          3.396,
+          13
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$25,463 ( 77th )",
+        "tokens": [
+          "25",
+          "463",
+          "77th"
+        ],
+        "numbers": [
+          25463,
+          77
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$1.693 trillion ( 13th )",
         "tokens": [
@@ -749,7 +787,7 @@
           13
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$12,692 ( 75th )",
         "tokens": [
@@ -760,17 +798,6 @@
         "numbers": [
           12692,
           75
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -905,7 +932,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$3.396 trillion",
+        "gdp_ppp_per_capita": "$25,463",
+        "gdp_nominal_total": "$1.693 trillion",
+        "gdp_nominal_per_capita": "$12,692"
       },
       "development": {
         "hdi": {
@@ -924,8 +955,13 @@
       },
       "calling_code": "52",
       "iso_3166_code": "MX",
-      "internet_tld": ".mx",
-      "time_zone": "UTC −8 to −5 ( See Time in Mexico )",
+      "internet_tld": [
+        ".mx"
+      ],
+      "time_zone": {
+        "standard": "UTC −8 to −5 ( See Time in Mexico )",
+        "dst": "UTC −7 to −5 (varies)"
+      },
       "demonym": "Mexican"
     }
   }

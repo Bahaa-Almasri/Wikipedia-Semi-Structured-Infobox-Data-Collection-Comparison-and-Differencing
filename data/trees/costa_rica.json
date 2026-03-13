@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:07:30+00:00",
+          "value": "2026-03-13T11:36:26+00:00",
           "children": []
         },
         {
@@ -148,8 +148,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$19,095",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$102.591 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$31,462",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$169.034 billion",
               "children": []
             },
             {
@@ -177,13 +197,41 @@
         },
         {
           "label": "internet_tld",
-          "value": ".cr .co.cr",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".cr",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".co.cr",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "CR",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Spanish",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -223,8 +271,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC −6 ( CST )",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC −6 ( CST )",
+              "children": []
+            }
+          ]
         }
       ]
     }

@@ -3,7 +3,7 @@
     "country_name": "Guinea Bissau",
     "slug": "guinea_bissau",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guinea-Bissau",
-    "retrieved_at": "2026-03-13T10:08:11+00:00",
+    "retrieved_at": "2026-03-13T11:37:01+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -608,7 +608,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$6.620 billion ( 172th )",
+        "tokens": [
+          "6",
+          "620",
+          "billion",
+          "172th"
+        ],
+        "numbers": [
+          6.62,
+          172
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$3,280 ( 168th )",
+        "tokens": [
+          "3",
+          "280",
+          "168th"
+        ],
+        "numbers": [
+          3280,
+          168
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$2.270 billion ( 174th )",
         "tokens": [
@@ -622,7 +660,7 @@
           174
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,130 ( 165th )",
         "tokens": [
@@ -633,17 +671,6 @@
         "numbers": [
           1130,
           165
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2021": {
@@ -734,6 +761,11 @@
         "latitude": "11°52′N",
         "longitude": "15°36′W"
       },
+      "languages": {
+        "official": [
+          "Portuguese"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic under a military junta",
         "head_of_government": "Ilídio Vieira Té"
@@ -751,7 +783,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$6.620 billion",
+        "gdp_ppp_per_capita": "$3,280",
+        "gdp_nominal_total": "$2.270 billion",
+        "gdp_nominal_per_capita": "$1,130"
       },
       "development": {
         "hdi": {
@@ -770,8 +806,12 @@
       },
       "calling_code": "245",
       "iso_3166_code": "GW",
-      "internet_tld": ".gw",
-      "time_zone": "UTC ±00:00 ( GMT )"
+      "internet_tld": [
+        ".gw"
+      ],
+      "time_zone": {
+        "standard": "UTC ±00:00 ( GMT )"
+      }
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Costa Rica",
     "slug": "costa_rica",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Costa_Rica",
-    "retrieved_at": "2026-03-13T10:07:30+00:00",
+    "retrieved_at": "2026-03-13T11:36:26+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -669,7 +669,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$169.034 billion ( 90th )",
+        "tokens": [
+          "169",
+          "034",
+          "billion",
+          "90th"
+        ],
+        "numbers": [
+          169.034,
+          90
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$31,462 ( 66th )",
+        "tokens": [
+          "31",
+          "462",
+          "66th"
+        ],
+        "numbers": [
+          31462,
+          66
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$102.591 billion ( 85th )",
         "tokens": [
@@ -683,7 +721,7 @@
           85
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$19,095 ( 64th )",
         "tokens": [
@@ -694,17 +732,6 @@
         "numbers": [
           19095,
           64
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -806,6 +833,11 @@
         "latitude": "9°56′N",
         "longitude": "84°5′W"
       },
+      "languages": {
+        "official": [
+          "Spanish"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Rodrigo Chaves"
@@ -823,7 +855,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$169.034 billion",
+        "gdp_ppp_per_capita": "$31,462",
+        "gdp_nominal_total": "$102.591 billion",
+        "gdp_nominal_per_capita": "$19,095"
       },
       "development": {
         "hdi": {
@@ -842,8 +878,13 @@
       },
       "calling_code": "506",
       "iso_3166_code": "CR",
-      "internet_tld": ".cr .co.cr",
-      "time_zone": "UTC −6 ( CST )"
+      "internet_tld": [
+        ".cr",
+        ".co.cr"
+      ],
+      "time_zone": {
+        "standard": "UTC −6 ( CST )"
+      }
     }
   }
 }

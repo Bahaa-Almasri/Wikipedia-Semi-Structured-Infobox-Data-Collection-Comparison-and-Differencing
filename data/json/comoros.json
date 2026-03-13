@@ -3,7 +3,7 @@
     "country_name": "Comoros",
     "slug": "comoros",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Comoros",
-    "retrieved_at": "2026-03-13T10:07:28+00:00",
+    "retrieved_at": "2026-03-13T11:36:25+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -640,27 +640,27 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$1.364 billion",
+        "text": "$3.432 billion",
         "tokens": [
-          "1",
-          "364",
+          "3",
+          "432",
           "billion"
         ],
         "numbers": [
-          1.364
+          3.432
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$1,377",
+        "text": "$3,463",
         "tokens": [
-          "1",
-          "377"
+          "3",
+          "463"
         ],
         "numbers": [
-          1377
+          3463
         ]
       },
       "gdp_nominal": {
@@ -672,6 +672,29 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$1.364 billion",
+        "tokens": [
+          "1",
+          "364",
+          "billion"
+        ],
+        "numbers": [
+          1.364
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$1,377",
+        "tokens": [
+          "1",
+          "377"
+        ],
+        "numbers": [
+          1377
         ]
       },
       "gini_2014": {
@@ -758,6 +781,11 @@
         "latitude": "11°41′S",
         "longitude": "43°16′E"
       },
+      "languages": {
+        "official": [
+          "Comorian French Arabic"
+        ]
+      },
       "government": {
         "type": "Federal presidential republic",
         "head_of_state": "Azali Assoumani"
@@ -774,7 +802,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$3.432 billion",
+        "gdp_ppp_per_capita": "$3,463",
+        "gdp_nominal_total": "$1.364 billion",
+        "gdp_nominal_per_capita": "$1,377"
       },
       "development": {
         "hdi": {
@@ -793,8 +825,12 @@
       },
       "calling_code": "269",
       "iso_3166_code": "KM",
-      "internet_tld": ".km",
-      "time_zone": "UTC+3"
+      "internet_tld": [
+        ".km"
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      }
     }
   }
 }

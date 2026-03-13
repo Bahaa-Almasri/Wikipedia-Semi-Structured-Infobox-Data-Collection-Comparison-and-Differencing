@@ -3,7 +3,7 @@
     "country_name": "Malta",
     "slug": "malta",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Malta",
-    "retrieved_at": "2026-03-13T10:09:03+00:00",
+    "retrieved_at": "2026-03-13T11:37:30+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -544,7 +544,45 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$36.870 billion ( 140th )",
+        "tokens": [
+          "36",
+          "870",
+          "billion",
+          "140th"
+        ],
+        "numbers": [
+          36.87,
+          140
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$67,682 ( 20th )",
+        "tokens": [
+          "67",
+          "682",
+          "20th"
+        ],
+        "numbers": [
+          67682,
+          20
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$22.737 billion ( 118th )",
         "tokens": [
@@ -558,7 +596,7 @@
           118
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$41,738 ( 25th )",
         "tokens": [
@@ -569,17 +607,6 @@
         "numbers": [
           41738,
           25
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "gini_2020": {
@@ -679,6 +706,11 @@
         "latitude": "35°54′N",
         "longitude": "14°31′E"
       },
+      "languages": {
+        "official": [
+          "Maltese English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Myriam Spiteri Debono",
@@ -696,7 +728,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$36.870 billion",
+        "gdp_ppp_per_capita": "$67,682",
+        "gdp_nominal_total": "$22.737 billion",
+        "gdp_nominal_per_capita": "$41,738"
       },
       "development": {
         "hdi": {
@@ -714,8 +750,14 @@
       },
       "calling_code": "356",
       "iso_3166_code": "MT",
-      "internet_tld": ".mt [b]",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".mt",
+        "[b]"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "Maltese"
     }
   }

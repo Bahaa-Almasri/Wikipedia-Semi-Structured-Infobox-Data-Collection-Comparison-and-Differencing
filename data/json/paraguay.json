@@ -3,7 +3,7 @@
     "country_name": "Paraguay",
     "slug": "paraguay",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Paraguay",
-    "retrieved_at": "2026-03-13T10:09:38+00:00",
+    "retrieved_at": "2026-03-13T11:37:51+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -624,7 +624,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$145.110 billion ( 92th )",
+        "tokens": [
+          "145",
+          "110",
+          "billion",
+          "92th"
+        ],
+        "numbers": [
+          145.11,
+          92
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$22,462 ( 84th )",
+        "tokens": [
+          "22",
+          "462",
+          "84th"
+        ],
+        "numbers": [
+          22462,
+          84
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$51.670 billion ( 99th )",
         "tokens": [
@@ -638,7 +676,7 @@
           99
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$7,990 ( 93rd )",
         "tokens": [
@@ -649,17 +687,6 @@
         "numbers": [
           7990,
           93
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2023": {
@@ -757,6 +784,11 @@
         "latitude": "25°16′S",
         "longitude": "57°40′W"
       },
+      "languages": {
+        "official": [
+          "Spanish Guarani"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Santiago Peña"
@@ -774,7 +806,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$145.110 billion",
+        "gdp_ppp_per_capita": "$22,462",
+        "gdp_nominal_total": "$51.670 billion",
+        "gdp_nominal_per_capita": "$7,990"
       },
       "development": {
         "hdi": {
@@ -793,8 +829,12 @@
       },
       "calling_code": "595",
       "iso_3166_code": "PY",
-      "internet_tld": ".py",
-      "time_zone": "UTC –03:00 ( PYT )",
+      "internet_tld": [
+        ".py"
+      ],
+      "time_zone": {
+        "standard": "UTC –03:00 ( PYT )"
+      },
       "demonym": "Paraguayan"
     }
   }

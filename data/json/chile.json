@@ -3,7 +3,7 @@
     "country_name": "Chile",
     "slug": "chile",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Chile",
-    "retrieved_at": "2026-03-13T10:07:23+00:00",
+    "retrieved_at": "2026-03-13T11:36:22+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -639,7 +639,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$713.030 billion ( 45th )",
+        "tokens": [
+          "713",
+          "030",
+          "billion",
+          "45th"
+        ],
+        "numbers": [
+          713.03,
+          45
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$35,290 ( 61st )",
+        "tokens": [
+          "35",
+          "290",
+          "61st"
+        ],
+        "numbers": [
+          35290,
+          61
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$347.170 billion ( 45th )",
         "tokens": [
@@ -653,7 +691,7 @@
           45
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$17,180 ( 66th )",
         "tokens": [
@@ -664,17 +702,6 @@
         "numbers": [
           17180,
           66
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -810,7 +837,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$713.030 billion",
+        "gdp_ppp_per_capita": "$35,290",
+        "gdp_nominal_total": "$347.170 billion",
+        "gdp_nominal_per_capita": "$17,180"
       },
       "development": {
         "hdi": {
@@ -829,8 +860,13 @@
       },
       "calling_code": "56",
       "iso_3166_code": "CL",
-      "internet_tld": ".cl",
-      "time_zone": "UTC −3, −4, −6 ( CLST, CLT, EAST )",
+      "internet_tld": [
+        ".cl"
+      ],
+      "time_zone": {
+        "standard": "UTC −3, −4, −6 ( CLST, CLT, EAST )",
+        "dst": "UTC −3, −5 ( CLST, EASST )"
+      },
       "demonym": "Chilean"
     }
   }

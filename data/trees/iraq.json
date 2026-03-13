@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:08:26+00:00",
+          "value": "2026-03-13T11:37:09+00:00",
           "children": []
         },
         {
@@ -153,8 +153,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$5,670",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$258.020 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$15,180",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$690.090 billion",
               "children": []
             },
             {
@@ -187,13 +207,41 @@
         },
         {
           "label": "internet_tld",
-          "value": ".iq .العراق",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".iq",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".العراق",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "IQ",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Arabic Kurdish",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -233,8 +281,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+3",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC+3",
+              "children": []
+            }
+          ]
         }
       ]
     }

@@ -3,7 +3,7 @@
     "country_name": "Algeria",
     "slug": "algeria",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Algeria",
-    "retrieved_at": "2026-03-13T10:06:33+00:00",
+    "retrieved_at": "2026-03-13T11:35:45+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -617,7 +617,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$875.330 billion ( 40th )",
+        "tokens": [
+          "875",
+          "330",
+          "billion",
+          "40th"
+        ],
+        "numbers": [
+          875.33,
+          40
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$18,530 ( 100th )",
+        "tokens": [
+          "18",
+          "530",
+          "100th"
+        ],
+        "numbers": [
+          18530,
+          100
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$268.890 billion ( 49th )",
         "tokens": [
@@ -631,7 +669,7 @@
           49
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$5,690 ( 111th )",
         "tokens": [
@@ -642,17 +680,6 @@
         "numbers": [
           5690,
           111
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2011": {
@@ -739,6 +766,11 @@
         "latitude": "36°42′N",
         "longitude": "3°13′E"
       },
+      "languages": {
+        "official": [
+          "Arabic Berber"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic",
         "head_of_state": "Abdelmadjid Tebboune",
@@ -756,7 +788,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$875.330 billion",
+        "gdp_ppp_per_capita": "$18,530",
+        "gdp_nominal_total": "$268.890 billion",
+        "gdp_nominal_per_capita": "$5,690"
       },
       "development": {
         "hdi": {
@@ -775,8 +811,13 @@
       },
       "calling_code": "213",
       "iso_3166_code": "DZ",
-      "internet_tld": ".dz .الجزائر",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".dz",
+        ".الجزائر"
+      ],
+      "time_zone": {
+        "standard": "UTC+1"
+      },
       "demonym": "Algerian"
     }
   }

@@ -3,7 +3,7 @@
     "country_name": "Antigua and Barbuda",
     "slug": "antigua_and_barbuda",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Antigua_and_Barbuda",
-    "retrieved_at": "2026-03-13T10:06:39+00:00",
+    "retrieved_at": "2026-03-13T11:35:47+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -671,7 +671,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$3.3 billion ( 180th )",
+        "tokens": [
+          "3",
+          "3",
+          "billion",
+          "180th"
+        ],
+        "numbers": [
+          3.3,
+          180
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$31,781 ( 66th )",
+        "tokens": [
+          "31",
+          "781",
+          "66th"
+        ],
+        "numbers": [
+          31781,
+          66
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$2.37 billion ( 171st )",
         "tokens": [
@@ -685,7 +723,7 @@
           171
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$22,630 ( 51st )",
         "tokens": [
@@ -696,17 +734,6 @@
         "numbers": [
           22630,
           51
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "hdi_2023": {
@@ -794,6 +821,11 @@
         "latitude": "17°7′N",
         "longitude": "61°51′W"
       },
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_state": "Charles III",
@@ -811,7 +843,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$3.3 billion",
+        "gdp_ppp_per_capita": "$31,781",
+        "gdp_nominal_total": "$2.37 billion",
+        "gdp_nominal_per_capita": "$22,630"
       },
       "development": {
         "hdi": {
@@ -826,8 +862,12 @@
       },
       "calling_code": "1",
       "iso_3166_code": "AG",
-      "internet_tld": ".ag",
-      "time_zone": "UTC-04:00",
+      "internet_tld": [
+        ".ag"
+      ],
+      "time_zone": {
+        "standard": "UTC-04:00"
+      },
       "demonym": "Antiguan and Barbudan"
     }
   }

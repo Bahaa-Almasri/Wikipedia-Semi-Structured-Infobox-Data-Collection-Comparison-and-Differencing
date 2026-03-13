@@ -3,7 +3,7 @@
     "country_name": "Romania",
     "slug": "romania",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Romania",
-    "retrieved_at": "2026-03-13T10:09:52+00:00",
+    "retrieved_at": "2026-03-13T11:38:00+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -763,7 +763,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$949.332 billion ( 35th )",
+        "tokens": [
+          "949",
+          "332",
+          "billion",
+          "35th"
+        ],
+        "numbers": [
+          949.332,
+          35
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$50,726 ( 44th )",
+        "tokens": [
+          "50",
+          "726",
+          "44th"
+        ],
+        "numbers": [
+          50726,
+          44
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$444.807 billion ( 38th )",
         "tokens": [
@@ -777,7 +815,7 @@
           38
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$23,767 ( 54th )",
         "tokens": [
@@ -788,17 +826,6 @@
         "numbers": [
           23767,
           54
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2025": {
@@ -909,6 +936,11 @@
         "latitude": "44°25′N",
         "longitude": "26°06′E"
       },
+      "languages": {
+        "official": [
+          "Romanian"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic",
         "head_of_state": "Nicușor Dan",
@@ -927,7 +959,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$949.332 billion",
+        "gdp_ppp_per_capita": "$50,726",
+        "gdp_nominal_total": "$444.807 billion",
+        "gdp_nominal_per_capita": "$23,767"
       },
       "development": {
         "hdi": {
@@ -946,8 +982,13 @@
       },
       "calling_code": "40",
       "iso_3166_code": "RO",
-      "internet_tld": ".ro",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".ro"
+      ],
+      "time_zone": {
+        "standard": "UTC+2",
+        "dst": "UTC+3"
+      },
       "demonym": "Romanian"
     }
   }

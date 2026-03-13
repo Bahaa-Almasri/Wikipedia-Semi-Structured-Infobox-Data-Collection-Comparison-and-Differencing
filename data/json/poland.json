@@ -3,7 +3,7 @@
     "country_name": "Poland",
     "slug": "poland",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Poland",
-    "retrieved_at": "2026-03-13T10:09:44+00:00",
+    "retrieved_at": "2026-03-13T11:37:56+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -685,7 +685,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$2.019 trillion ( 19th )",
+        "tokens": [
+          "2",
+          "019",
+          "trillion",
+          "19th"
+        ],
+        "numbers": [
+          2.019,
+          19
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$55,340 ( 37th )",
+        "tokens": [
+          "55",
+          "340",
+          "37th"
+        ],
+        "numbers": [
+          55340,
+          37
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$1.039 trillion ( 20th )",
         "tokens": [
@@ -699,7 +737,7 @@
           20
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$28,484 ( 44th )",
         "tokens": [
@@ -710,17 +748,6 @@
         "numbers": [
           28484,
           44
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -849,7 +876,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$2.019 trillion",
+        "gdp_ppp_per_capita": "$55,340",
+        "gdp_nominal_total": "$1.039 trillion",
+        "gdp_nominal_per_capita": "$28,484"
       },
       "development": {
         "hdi": {
@@ -868,8 +899,13 @@
       },
       "calling_code": "48",
       "iso_3166_code": "PL",
-      "internet_tld": ".pl",
-      "time_zone": "UTC+1"
+      "internet_tld": [
+        ".pl"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      }
     }
   }
 }

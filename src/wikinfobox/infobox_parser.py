@@ -98,7 +98,8 @@ def parse_infobox(html: str) -> Optional[ParsedInfobox]:
 
         # Some sections (GDP, Time zone) are represented as a mergedtoprow label+value row
         # followed by bullet sub-rows ("• Total", "• Per capita", "• Summer (DST)").
-        if "mergedtoprow" in tr_classes and (label_text.startswith("GDP") or label_text == "Time zone"):
+        # On some pages the GDP rows are not marked mergedtoprow, so fall back to label_text.
+        if label_text.startswith("GDP") or label_text == "Time zone":
             current_section = label_text
             current_section_source = "inline"
 

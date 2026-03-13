@@ -3,7 +3,7 @@
     "country_name": "Azerbaijan",
     "slug": "azerbaijan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Azerbaijan",
-    "retrieved_at": "2026-03-13T10:06:49+00:00",
+    "retrieved_at": "2026-03-13T11:35:52+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -587,7 +587,44 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$272 billion ( 78th )",
+        "tokens": [
+          "272",
+          "billion",
+          "78th"
+        ],
+        "numbers": [
+          272,
+          78
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$26,235 ( 88th )",
+        "tokens": [
+          "26",
+          "235",
+          "88th"
+        ],
+        "numbers": [
+          26235,
+          88
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "79 billion ( 82nd )",
         "tokens": [
@@ -600,7 +637,7 @@
           82
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$7,604 ( 90th )",
         "tokens": [
@@ -611,17 +648,6 @@
         "numbers": [
           7604,
           90
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "gini_2008": {
@@ -707,6 +733,11 @@
         "latitude": "40°23′N",
         "longitude": "49°50′E"
       },
+      "languages": {
+        "official": [
+          "Azerbaijani"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic under an authoritarian hereditary dictatorship",
         "head_of_state": "Ilham Aliyev",
@@ -725,7 +756,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$272 billion",
+        "gdp_ppp_per_capita": "$26,235",
+        "gdp_nominal_total": "79 billion",
+        "gdp_nominal_per_capita": "$7,604"
       },
       "development": {
         "hdi": {
@@ -743,8 +778,12 @@
       },
       "calling_code": "994",
       "iso_3166_code": "AZ",
-      "internet_tld": ".az",
-      "time_zone": "UTC+4"
+      "internet_tld": [
+        ".az"
+      ],
+      "time_zone": {
+        "standard": "UTC+4"
+      }
     }
   }
 }

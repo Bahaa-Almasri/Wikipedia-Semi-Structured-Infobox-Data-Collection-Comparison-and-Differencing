@@ -3,7 +3,7 @@
     "country_name": "Japan",
     "slug": "japan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Japan",
-    "retrieved_at": "2026-03-13T10:08:34+00:00",
+    "retrieved_at": "2026-03-13T11:37:13+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -476,7 +476,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$6.758 trillion ( 5th )",
+        "tokens": [
+          "6",
+          "758",
+          "trillion",
+          "5th"
+        ],
+        "numbers": [
+          6.758,
+          5
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$54,815 ( 39th )",
+        "tokens": [
+          "54",
+          "815",
+          "39th"
+        ],
+        "numbers": [
+          54815,
+          39
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$4.230 trillion ( 4th )",
         "tokens": [
@@ -490,7 +528,7 @@
           4
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$34,713 ( 36th )",
         "tokens": [
@@ -501,17 +539,6 @@
         "numbers": [
           34713,
           36
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2020": {
@@ -617,7 +644,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$6.758 trillion",
+        "gdp_ppp_per_capita": "$54,815",
+        "gdp_nominal_total": "$4.230 trillion",
+        "gdp_nominal_per_capita": "$34,713"
       },
       "development": {
         "hdi": {
@@ -635,8 +666,12 @@
       },
       "calling_code": "81",
       "iso_3166_code": "JP",
-      "internet_tld": ".jp",
-      "time_zone": "UTC+09:00",
+      "internet_tld": [
+        ".jp"
+      ],
+      "time_zone": {
+        "standard": "UTC+09:00"
+      },
       "demonym": "Japanese"
     }
   }

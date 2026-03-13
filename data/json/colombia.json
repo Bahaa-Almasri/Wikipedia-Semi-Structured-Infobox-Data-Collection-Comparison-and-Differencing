@@ -3,7 +3,7 @@
     "country_name": "Colombia",
     "slug": "colombia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Colombia",
-    "retrieved_at": "2026-03-13T10:07:27+00:00",
+    "retrieved_at": "2026-03-13T11:36:24+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -658,7 +658,45 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$1.042 trillion ( 32nd )",
+        "tokens": [
+          "1",
+          "042",
+          "trillion",
+          "32nd"
+        ],
+        "numbers": [
+          1.042,
+          32
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$19,770 ( 82nd )",
+        "tokens": [
+          "19",
+          "770",
+          "82nd"
+        ],
+        "numbers": [
+          19770,
+          82
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$386.076 billion ( 46th )",
         "tokens": [
@@ -672,7 +710,7 @@
           46
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$7,327 ( 97th )",
         "tokens": [
@@ -683,17 +721,6 @@
         "numbers": [
           7327,
           97
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "gini_2023": {
@@ -789,6 +816,11 @@
         "latitude": "4°35′N",
         "longitude": "74°4′W"
       },
+      "languages": {
+        "official": [
+          "Spanish"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Gustavo Petro"
@@ -806,7 +838,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$1.042 trillion",
+        "gdp_ppp_per_capita": "$19,770",
+        "gdp_nominal_total": "$386.076 billion",
+        "gdp_nominal_per_capita": "$7,327"
       },
       "development": {
         "hdi": {
@@ -825,8 +861,12 @@
       },
       "calling_code": "57",
       "iso_3166_code": "CO",
-      "internet_tld": ".co",
-      "time_zone": "UTC −5 [b] ( COT )",
+      "internet_tld": [
+        ".co"
+      ],
+      "time_zone": {
+        "standard": "UTC −5 [b] ( COT )"
+      },
       "demonym": "Colombian"
     }
   }

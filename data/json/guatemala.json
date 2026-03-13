@@ -3,7 +3,7 @@
     "country_name": "Guatemala",
     "slug": "guatemala",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guatemala",
-    "retrieved_at": "2026-03-13T10:08:09+00:00",
+    "retrieved_at": "2026-03-13T11:37:00+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -629,7 +629,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$278.508 billion ( 77th )",
+        "tokens": [
+          "278",
+          "508",
+          "billion",
+          "77th"
+        ],
+        "numbers": [
+          278.508,
+          77
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$15,386 ( 121nd )",
+        "tokens": [
+          "15",
+          "386",
+          "121nd"
+        ],
+        "numbers": [
+          15386,
+          121
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$120.964 billion ( 70th )",
         "tokens": [
@@ -643,7 +681,7 @@
           70
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$6,682 ( 108th )",
         "tokens": [
@@ -654,17 +692,6 @@
         "numbers": [
           6682,
           108
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -760,6 +787,11 @@
         "latitude": "14°38′N",
         "longitude": "90°30′W"
       },
+      "languages": {
+        "official": [
+          "Spanish"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Bernardo Arévalo"
@@ -777,7 +809,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$278.508 billion",
+        "gdp_ppp_per_capita": "$15,386",
+        "gdp_nominal_total": "$120.964 billion",
+        "gdp_nominal_per_capita": "$6,682"
       },
       "development": {
         "hdi": {
@@ -796,8 +832,12 @@
       },
       "calling_code": "502",
       "iso_3166_code": "GT",
-      "internet_tld": ".gt",
-      "time_zone": "UTC −6 ( CST )",
+      "internet_tld": [
+        ".gt"
+      ],
+      "time_zone": {
+        "standard": "UTC −6 ( CST )"
+      },
       "demonym": "Guatemalan"
     }
   }

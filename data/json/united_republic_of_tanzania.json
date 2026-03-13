@@ -3,7 +3,7 @@
     "country_name": "United Republic of Tanzania",
     "slug": "united_republic_of_tanzania",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tanzania",
-    "retrieved_at": "2026-03-13T10:10:49+00:00",
+    "retrieved_at": "2026-03-13T11:38:35+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -704,7 +704,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$293.59 billion ( 69th )",
+        "tokens": [
+          "293",
+          "59",
+          "billion",
+          "69th"
+        ],
+        "numbers": [
+          293.59,
+          69
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$4,370 ( 158th )",
+        "tokens": [
+          "4",
+          "370",
+          "158th"
+        ],
+        "numbers": [
+          4370,
+          158
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$88.980 billion ( 80th )",
         "tokens": [
@@ -718,7 +756,7 @@
           80
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,280 ( 162nd )",
         "tokens": [
@@ -729,17 +767,6 @@
         "numbers": [
           1280,
           162
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2017": {
@@ -828,6 +855,11 @@
         "latitude": "6°10′S",
         "longitude": "35°44′E"
       },
+      "languages": {
+        "official": [
+          "Swahili English"
+        ]
+      },
       "government": {
         "type": "Unitary dominant-party presidential republic",
         "head_of_state": "Samia Suluhu Hassan",
@@ -846,7 +878,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$293.59 billion",
+        "gdp_ppp_per_capita": "$4,370",
+        "gdp_nominal_total": "$88.980 billion",
+        "gdp_nominal_per_capita": "$1,280"
       },
       "development": {
         "hdi": {
@@ -865,8 +901,12 @@
       },
       "calling_code": "255",
       "iso_3166_code": "TZ",
-      "internet_tld": ".tz",
-      "time_zone": "UTC+3",
+      "internet_tld": [
+        ".tz"
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      },
       "demonym": "Tanzanian"
     }
   }

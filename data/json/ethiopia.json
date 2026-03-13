@@ -3,7 +3,7 @@
     "country_name": "Ethiopia",
     "slug": "ethiopia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ethiopia",
-    "retrieved_at": "2026-03-13T10:07:53+00:00",
+    "retrieved_at": "2026-03-13T11:36:50+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -793,7 +793,45 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$434.44 billion ( 55th )",
+        "tokens": [
+          "434",
+          "44",
+          "billion",
+          "55th"
+        ],
+        "numbers": [
+          434.44,
+          55
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$4,050 ( 159th )",
+        "tokens": [
+          "4",
+          "050",
+          "159th"
+        ],
+        "numbers": [
+          4050,
+          159
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$145.03 billion ( 59th )",
         "tokens": [
@@ -807,7 +845,7 @@
           59
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,350 ( 159th )",
         "tokens": [
@@ -818,17 +856,6 @@
         "numbers": [
           1350,
           159
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "gini_2015": {
@@ -924,6 +951,11 @@
         "latitude": "9°1′N",
         "longitude": "38°45′E"
       },
+      "languages": {
+        "official": [
+          "Afar Amharic Oromo Somali Tigrinya"
+        ]
+      },
       "government": {
         "type": "Federal parliamentary republic under an authoritarian government",
         "head_of_state": "Taye Atske Selassie",
@@ -942,7 +974,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$434.44 billion",
+        "gdp_ppp_per_capita": "$4,050",
+        "gdp_nominal_total": "$145.03 billion",
+        "gdp_nominal_per_capita": "$1,350"
       },
       "development": {
         "hdi": {
@@ -961,8 +997,12 @@
       },
       "calling_code": "251",
       "iso_3166_code": "ET",
-      "internet_tld": ".et",
-      "time_zone": "UTC+3",
+      "internet_tld": [
+        ".et"
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      },
       "demonym": "Ethiopian"
     }
   }

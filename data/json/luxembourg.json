@@ -3,7 +3,7 @@
     "country_name": "Luxembourg",
     "slug": "luxembourg",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Luxembourg",
-    "retrieved_at": "2026-03-13T10:08:54+00:00",
+    "retrieved_at": "2026-03-13T11:37:25+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -583,7 +583,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$106.505 billion ( 100th )",
+        "tokens": [
+          "106",
+          "505",
+          "billion",
+          "100th"
+        ],
+        "numbers": [
+          106.505,
+          100
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$154,914 ( 1st )",
+        "tokens": [
+          "154",
+          "914",
+          "1st"
+        ],
+        "numbers": [
+          154914,
+          1
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$96.993 billion ( 73rd )",
         "tokens": [
@@ -597,7 +635,7 @@
           73
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$141,079 ( 1st )",
         "tokens": [
@@ -608,17 +646,6 @@
         "numbers": [
           141079,
           1
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -690,6 +717,11 @@
       "country_name": "Luxembourg",
       "capital": "Luxembourg",
       "largest_city": "Luxembourg",
+      "languages": {
+        "official": [
+          "National language: Luxembourgish Administrative languages: Luxembourgish German French"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_government": "Luc Frieden"
@@ -707,7 +739,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$106.505 billion",
+        "gdp_ppp_per_capita": "$154,914",
+        "gdp_nominal_total": "$96.993 billion",
+        "gdp_nominal_per_capita": "$141,079"
       },
       "development": {
         "hdi": {
@@ -725,7 +761,10 @@
       },
       "calling_code": "352",
       "iso_3166_code": "LU",
-      "internet_tld": ".lu b"
+      "internet_tld": [
+        ".lu",
+        "b"
+      ]
     }
   }
 }

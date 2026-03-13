@@ -3,7 +3,7 @@
     "country_name": "Bahamas, The",
     "slug": "bahamas_the",
     "wikipedia_url": "https://en.wikipedia.org/wiki/The_Bahamas",
-    "retrieved_at": "2026-03-13T10:06:51+00:00",
+    "retrieved_at": "2026-03-13T11:35:53+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -565,7 +565,45 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$18.989 billion ( 153rd )",
+        "tokens": [
+          "18",
+          "989",
+          "billion",
+          "153rd"
+        ],
+        "numbers": [
+          18.989,
+          153
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$46,524 ( 46th )",
+        "tokens": [
+          "46",
+          "524",
+          "46th"
+        ],
+        "numbers": [
+          46524,
+          46
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$14.390 billion ( 146th )",
         "tokens": [
@@ -579,7 +617,7 @@
           146
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$35,257 ( 29th )",
         "tokens": [
@@ -590,17 +628,6 @@
         "numbers": [
           35257,
           29
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "hdi_2023": {
@@ -698,6 +725,11 @@
       "country_name": "Bahamas, The",
       "capital": "Nassau",
       "largest_city": "Nassau",
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_state": "Charles III",
@@ -715,7 +747,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$18.989 billion",
+        "gdp_ppp_per_capita": "$46,524",
+        "gdp_nominal_total": "$14.390 billion",
+        "gdp_nominal_per_capita": "$35,257"
       },
       "development": {
         "hdi": {
@@ -730,8 +766,13 @@
       },
       "calling_code": "1",
       "iso_3166_code": "BS",
-      "internet_tld": ".bs",
-      "time_zone": "UTC −05:00 ( EST )",
+      "internet_tld": [
+        ".bs"
+      ],
+      "time_zone": {
+        "standard": "UTC −05:00 ( EST )",
+        "dst": "UTC −04:00 ( EDT )"
+      },
       "demonym": "Bahamian"
     }
   }

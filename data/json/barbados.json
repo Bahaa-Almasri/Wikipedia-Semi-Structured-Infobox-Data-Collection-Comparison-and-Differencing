@@ -3,7 +3,7 @@
     "country_name": "Barbados",
     "slug": "barbados",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Barbados",
-    "retrieved_at": "2026-03-13T10:06:56+00:00",
+    "retrieved_at": "2026-03-13T11:35:55+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -671,7 +671,45 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$5.436 billion ( 175th )",
+        "tokens": [
+          "5",
+          "436",
+          "billion",
+          "175th"
+        ],
+        "numbers": [
+          5.436,
+          175
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$18,738 ( 90th )",
+        "tokens": [
+          "18",
+          "738",
+          "90th"
+        ],
+        "numbers": [
+          18738,
+          90
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2023 estimate",
+        "tokens": [
+          "2023",
+          "estimate"
+        ],
+        "numbers": [
+          2023
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$6.220 billion ( 165th )",
         "tokens": [
@@ -685,7 +723,7 @@
           165
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$21,442 ( 50th )",
         "tokens": [
@@ -696,17 +734,6 @@
         "numbers": [
           21442,
           50
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2023 estimate",
-        "tokens": [
-          "2023",
-          "estimate"
-        ],
-        "numbers": [
-          2023
         ]
       },
       "gini_2016": {
@@ -802,6 +829,11 @@
       "country_name": "Barbados",
       "capital": "Bridgetown",
       "largest_city": "Bridgetown",
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Jeffrey Bostic",
@@ -819,7 +851,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$5.436 billion",
+        "gdp_ppp_per_capita": "$18,738",
+        "gdp_nominal_total": "$6.220 billion",
+        "gdp_nominal_per_capita": "$21,442"
       },
       "development": {
         "hdi": {
@@ -837,8 +873,12 @@
       },
       "calling_code": "1",
       "iso_3166_code": "BB",
-      "internet_tld": ".bb",
-      "time_zone": "UTC −04:00 ( AST )"
+      "internet_tld": [
+        ".bb"
+      ],
+      "time_zone": {
+        "standard": "UTC −04:00 ( AST )"
+      }
     }
   }
 }

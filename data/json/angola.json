@@ -3,7 +3,7 @@
     "country_name": "Angola",
     "slug": "angola",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Angola",
-    "retrieved_at": "2026-03-13T10:06:37+00:00",
+    "retrieved_at": "2026-03-13T11:35:46+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -608,7 +608,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$402.160 billion ( 58th )",
+        "tokens": [
+          "402",
+          "160",
+          "billion",
+          "58th"
+        ],
+        "numbers": [
+          402.16,
+          58
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$10,230 ( 125th )",
+        "tokens": [
+          "10",
+          "230",
+          "125th"
+        ],
+        "numbers": [
+          10230,
+          125
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$113.34\tbillion ( 68th )",
         "tokens": [
@@ -622,7 +660,7 @@
           68
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,880 ( 137th )",
         "tokens": [
@@ -633,17 +671,6 @@
         "numbers": [
           2880,
           137
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2018": {
@@ -730,6 +757,11 @@
         "latitude": "8°50′S",
         "longitude": "13°20′E"
       },
+      "languages": {
+        "official": [
+          "Portuguese"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "João Lourenço"
@@ -746,7 +778,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$402.160 billion",
+        "gdp_ppp_per_capita": "$10,230",
+        "gdp_nominal_total": "$113.34\tbillion",
+        "gdp_nominal_per_capita": "$2,880"
       },
       "development": {
         "hdi": {
@@ -765,8 +801,12 @@
       },
       "calling_code": "244",
       "iso_3166_code": "AO",
-      "internet_tld": ".ao",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".ao"
+      ],
+      "time_zone": {
+        "standard": "UTC+1"
+      },
       "demonym": "Angolan"
     }
   }

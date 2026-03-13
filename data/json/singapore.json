@@ -3,7 +3,7 @@
     "country_name": "Singapore",
     "slug": "singapore",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Singapore",
-    "retrieved_at": "2026-03-13T10:10:14+00:00",
+    "retrieved_at": "2026-03-13T11:38:11+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -594,7 +594,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$952.600 billion ( 34th )",
+        "tokens": [
+          "952",
+          "600",
+          "billion",
+          "34th"
+        ],
+        "numbers": [
+          952.6,
+          34
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$156,755 ( 1st )",
+        "tokens": [
+          "156",
+          "755",
+          "1st"
+        ],
+        "numbers": [
+          156755,
+          1
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$564.700 billion ( 27th )",
         "tokens": [
@@ -608,7 +646,7 @@
           27
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$93,956 ( 4th )",
         "tokens": [
@@ -619,17 +657,6 @@
         "numbers": [
           93956,
           4
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -729,6 +756,11 @@
         "latitude": "1°17′N",
         "longitude": "103°50′E"
       },
+      "languages": {
+        "official": [
+          "English Malay Mandarin Tamil"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Tharman Shanmugaratnam",
@@ -747,7 +779,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$952.600 billion",
+        "gdp_ppp_per_capita": "$156,755",
+        "gdp_nominal_total": "$564.700 billion",
+        "gdp_nominal_per_capita": "$93,956"
       },
       "development": {
         "hdi": {
@@ -765,8 +801,12 @@
       },
       "calling_code": "65",
       "iso_3166_code": "SG",
-      "internet_tld": ".sg",
-      "time_zone": "UTC+8",
+      "internet_tld": [
+        ".sg"
+      ],
+      "time_zone": {
+        "standard": "UTC+8"
+      },
       "demonym": "Singaporean"
     }
   }

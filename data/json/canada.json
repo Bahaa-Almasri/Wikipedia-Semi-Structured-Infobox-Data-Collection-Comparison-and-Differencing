@@ -3,7 +3,7 @@
     "country_name": "Canada",
     "slug": "canada",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Canada",
-    "retrieved_at": "2026-03-13T10:07:20+00:00",
+    "retrieved_at": "2026-03-13T11:36:19+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -621,7 +621,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$2.723 trillion ( 16th )",
+        "tokens": [
+          "2",
+          "723",
+          "trillion",
+          "16th"
+        ],
+        "numbers": [
+          2.723,
+          16
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$65,500 ( 30th )",
+        "tokens": [
+          "65",
+          "500",
+          "30th"
+        ],
+        "numbers": [
+          65500,
+          30
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$2.284 trillion ( 10th )",
         "tokens": [
@@ -635,7 +673,7 @@
           10
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$54,935 ( 23rd )",
         "tokens": [
@@ -646,17 +684,6 @@
         "numbers": [
           54935,
           23
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2024": {
@@ -762,6 +789,11 @@
         "latitude": "45°24′N",
         "longitude": "75°40′W"
       },
+      "languages": {
+        "official": [
+          "English French"
+        ]
+      },
       "government": {
         "type": "Federal parliamentary constitutional monarchy",
         "head_of_state": "Charles III",
@@ -779,7 +811,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$2.723 trillion",
+        "gdp_ppp_per_capita": "$65,500",
+        "gdp_nominal_total": "$2.284 trillion",
+        "gdp_nominal_per_capita": "$54,935"
       },
       "development": {
         "hdi": {
@@ -797,8 +833,13 @@
       },
       "calling_code": "1",
       "iso_3166_code": "CA",
-      "internet_tld": ".ca",
-      "time_zone": "UTC −3.5 to −8",
+      "internet_tld": [
+        ".ca"
+      ],
+      "time_zone": {
+        "standard": "UTC −3.5 to −8",
+        "dst": "UTC −2.5 to −7"
+      },
       "demonym": "Canadian"
     }
   }

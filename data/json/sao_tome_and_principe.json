@@ -3,7 +3,7 @@
     "country_name": "Sao Tome and Principe",
     "slug": "sao_tome_and_principe",
     "wikipedia_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
-    "retrieved_at": "2026-03-13T10:10:03+00:00",
+    "retrieved_at": "2026-03-13T11:38:06+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -532,26 +532,26 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$751 million",
+        "text": "$1 billion",
         "tokens": [
-          "751",
-          "million"
+          "1",
+          "billion"
         ],
         "numbers": [
-          751
+          1
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$3,167",
+        "text": "$4,238",
         "tokens": [
-          "3",
-          "167"
+          "4",
+          "238"
         ],
         "numbers": [
-          3167
+          4238
         ]
       },
       "gdp_nominal": {
@@ -563,6 +563,28 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$751 million",
+        "tokens": [
+          "751",
+          "million"
+        ],
+        "numbers": [
+          751
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$3,167",
+        "tokens": [
+          "3",
+          "167"
+        ],
+        "numbers": [
+          3167
         ]
       },
       "gini_2017": {
@@ -675,7 +697,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$1 billion",
+        "gdp_ppp_per_capita": "$4,238",
+        "gdp_nominal_total": "$751 million",
+        "gdp_nominal_per_capita": "$3,167"
       },
       "development": {
         "hdi": {
@@ -694,8 +720,12 @@
       },
       "calling_code": "239",
       "iso_3166_code": "ST",
-      "internet_tld": ".st",
-      "time_zone": "UTC+0"
+      "internet_tld": [
+        ".st"
+      ],
+      "time_zone": {
+        "standard": "UTC+0"
+      }
     }
   }
 }

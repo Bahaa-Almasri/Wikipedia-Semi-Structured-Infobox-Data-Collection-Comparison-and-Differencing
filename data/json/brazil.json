@@ -3,7 +3,7 @@
     "country_name": "Brazil",
     "slug": "brazil",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Brazil",
-    "retrieved_at": "2026-03-13T10:07:08+00:00",
+    "retrieved_at": "2026-03-13T11:36:13+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -770,7 +770,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$5.161 trillion ( 8th )",
+        "tokens": [
+          "5",
+          "161",
+          "trillion",
+          "8th"
+        ],
+        "numbers": [
+          5.161,
+          8
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$24,108 ( 82th )",
+        "tokens": [
+          "24",
+          "108",
+          "82th"
+        ],
+        "numbers": [
+          24108,
+          82
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$2.292 trillion ( 10th )",
         "tokens": [
@@ -784,7 +822,7 @@
           10
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$10,709 ( 84th )",
         "tokens": [
@@ -795,17 +833,6 @@
         "numbers": [
           10709,
           84
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2023": {
@@ -927,7 +954,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$5.161 trillion",
+        "gdp_ppp_per_capita": "$24,108",
+        "gdp_nominal_total": "$2.292 trillion",
+        "gdp_nominal_per_capita": "$10,709"
       },
       "development": {
         "hdi": {
@@ -945,8 +976,12 @@
       },
       "calling_code": "55",
       "iso_3166_code": "BR",
-      "internet_tld": ".br",
-      "time_zone": "UTC −02:00 to −05:00 ( BT )",
+      "internet_tld": [
+        ".br"
+      ],
+      "time_zone": {
+        "standard": "UTC −02:00 to −05:00 ( BT )"
+      },
       "demonym": "Brazilian"
     }
   }

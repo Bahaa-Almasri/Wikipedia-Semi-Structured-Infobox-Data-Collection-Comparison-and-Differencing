@@ -3,7 +3,7 @@
     "country_name": "Cyprus",
     "slug": "cyprus",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cyprus",
-    "retrieved_at": "2026-03-13T10:07:35+00:00",
+    "retrieved_at": "2026-03-13T11:36:34+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -585,7 +585,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$61.501 billion ( 126th )",
+        "tokens": [
+          "61",
+          "501",
+          "billion",
+          "126th"
+        ],
+        "numbers": [
+          61.501,
+          126
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$65,304 ( 28th )",
+        "tokens": [
+          "65",
+          "304",
+          "28th"
+        ],
+        "numbers": [
+          65304,
+          28
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$39.943 billion ( 102nd )",
         "tokens": [
@@ -599,7 +637,7 @@
           102
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$42,413 ( 28th )",
         "tokens": [
@@ -610,17 +648,6 @@
         "numbers": [
           42413,
           28
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -723,6 +750,11 @@
         "latitude": "35°10′N",
         "longitude": "33°22′E"
       },
+      "languages": {
+        "official": [
+          "Greek Turkish"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Nikos Christodoulides"
@@ -739,7 +771,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$61.501 billion",
+        "gdp_ppp_per_capita": "$65,304",
+        "gdp_nominal_total": "$39.943 billion",
+        "gdp_nominal_per_capita": "$42,413"
       },
       "development": {
         "hdi": {
@@ -757,8 +793,13 @@
       },
       "calling_code": "357",
       "iso_3166_code": "CY",
-      "internet_tld": ".cy",
-      "time_zone": "UTC+02:00",
+      "internet_tld": [
+        ".cy"
+      ],
+      "time_zone": {
+        "standard": "UTC+02:00",
+        "dst": "UTC+03:00"
+      },
       "demonym": "Cypriot"
     }
   }

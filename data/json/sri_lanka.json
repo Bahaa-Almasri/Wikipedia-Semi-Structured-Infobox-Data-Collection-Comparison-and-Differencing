@@ -3,7 +3,7 @@
     "country_name": "Sri Lanka",
     "slug": "sri_lanka",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sri_Lanka",
-    "retrieved_at": "2026-03-13T10:10:30+00:00",
+    "retrieved_at": "2026-03-13T11:38:17+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -798,7 +798,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$342.6 billion ( 62nd )",
+        "tokens": [
+          "342",
+          "6",
+          "billion",
+          "62nd"
+        ],
+        "numbers": [
+          342.6,
+          62
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$15,632 ( 111th )",
+        "tokens": [
+          "15",
+          "632",
+          "111th"
+        ],
+        "numbers": [
+          15632,
+          111
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$98.9 billion ( 71st )",
         "tokens": [
@@ -812,7 +850,7 @@
           71
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$4,516 ( 120th )",
         "tokens": [
@@ -823,17 +861,6 @@
         "numbers": [
           4516,
           120
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -942,7 +969,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$342.6 billion",
+        "gdp_ppp_per_capita": "$15,632",
+        "gdp_nominal_total": "$98.9 billion",
+        "gdp_nominal_per_capita": "$4,516"
       },
       "development": {
         "hdi": {
@@ -960,8 +991,14 @@
       },
       "calling_code": "94",
       "iso_3166_code": "LK",
-      "internet_tld": ".lk .ලංකා .இலங்கை",
-      "time_zone": "UTC+5:30",
+      "internet_tld": [
+        ".lk",
+        ".ලංකා",
+        ".இலங்கை"
+      ],
+      "time_zone": {
+        "standard": "UTC+5:30"
+      },
       "demonym": "Sri Lankan"
     }
   }

@@ -3,7 +3,7 @@
     "country_name": "Ghana",
     "slug": "ghana",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ghana",
-    "retrieved_at": "2026-03-13T10:08:04+00:00",
+    "retrieved_at": "2026-03-13T11:36:57+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -639,7 +639,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$295.12 billion ( 68th )",
+        "tokens": [
+          "295",
+          "12",
+          "billion",
+          "68th"
+        ],
+        "numbers": [
+          295.12,
+          68
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$8,042 ( 132nd )",
+        "tokens": [
+          "8",
+          "042",
+          "132nd"
+        ],
+        "numbers": [
+          8042,
+          132
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$88.033 billion ( 79th )",
         "tokens": [
@@ -653,7 +691,7 @@
           79
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,520 ( 143rd )",
         "tokens": [
@@ -664,17 +702,6 @@
         "numbers": [
           2520,
           143
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2024": {
@@ -757,6 +784,11 @@
       "country_name": "Ghana",
       "capital": "Accra",
       "largest_city": "Accra",
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "John Mahama",
@@ -775,7 +807,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$295.12 billion",
+        "gdp_ppp_per_capita": "$8,042",
+        "gdp_nominal_total": "$88.033 billion",
+        "gdp_nominal_per_capita": "$2,520"
       },
       "development": {
         "hdi": {
@@ -794,8 +830,12 @@
       },
       "calling_code": "233",
       "iso_3166_code": "GH",
-      "internet_tld": ".gh",
-      "time_zone": "UTC ±00:00 ( GMT )",
+      "internet_tld": [
+        ".gh"
+      ],
+      "time_zone": {
+        "standard": "UTC ±00:00 ( GMT )"
+      },
       "demonym": "Ghanaian"
     }
   }

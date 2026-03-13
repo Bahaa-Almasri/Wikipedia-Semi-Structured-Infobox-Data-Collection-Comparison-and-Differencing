@@ -3,7 +3,7 @@
     "country_name": "Belize",
     "slug": "belize",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Belize",
-    "retrieved_at": "2026-03-13T10:07:00+00:00",
+    "retrieved_at": "2026-03-13T11:35:58+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -650,7 +650,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$6.414 billion ( 180th )",
+        "tokens": [
+          "6",
+          "414",
+          "billion",
+          "180th"
+        ],
+        "numbers": [
+          6.414,
+          180
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$15,363 ( 123rd )",
+        "tokens": [
+          "15",
+          "363",
+          "123rd"
+        ],
+        "numbers": [
+          15363,
+          123
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$3.488 billion ( 179th )",
         "tokens": [
@@ -664,7 +702,7 @@
           179
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$8,355 ( 98th )",
         "tokens": [
@@ -675,17 +713,6 @@
         "numbers": [
           8355,
           98
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2013": {
@@ -785,6 +812,11 @@
         "latitude": "17°15′N",
         "longitude": "88°46′W"
       },
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_state": "Charles III",
@@ -802,7 +834,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$6.414 billion",
+        "gdp_ppp_per_capita": "$15,363",
+        "gdp_nominal_total": "$3.488 billion",
+        "gdp_nominal_per_capita": "$8,355"
       },
       "development": {
         "hdi": {
@@ -820,8 +856,12 @@
       },
       "calling_code": "501",
       "iso_3166_code": "BZ",
-      "internet_tld": ".bz",
-      "time_zone": "UTC −06:00 ( CST )",
+      "internet_tld": [
+        ".bz"
+      ],
+      "time_zone": {
+        "standard": "UTC −06:00 ( CST )"
+      },
       "demonym": "Belizean"
     }
   }

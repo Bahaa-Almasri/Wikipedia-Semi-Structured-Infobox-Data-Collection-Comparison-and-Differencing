@@ -3,7 +3,7 @@
     "country_name": "Greece",
     "slug": "greece",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Greece",
-    "retrieved_at": "2026-03-13T10:08:06+00:00",
+    "retrieved_at": "2026-03-13T11:36:58+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -605,7 +605,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$466.945 billion ( 54th )",
+        "tokens": [
+          "466",
+          "945",
+          "billion",
+          "54th"
+        ],
+        "numbers": [
+          466.945,
+          54
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$44,985 ( 48th )",
+        "tokens": [
+          "44",
+          "985",
+          "48th"
+        ],
+        "numbers": [
+          44985,
+          48
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$282.019 billion ( 50th )",
         "tokens": [
@@ -619,7 +657,7 @@
           50
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$27,170 ( 45th )",
         "tokens": [
@@ -630,17 +668,6 @@
         "numbers": [
           27170,
           45
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2024": {
@@ -761,7 +788,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$466.945 billion",
+        "gdp_ppp_per_capita": "$44,985",
+        "gdp_nominal_total": "$282.019 billion",
+        "gdp_nominal_per_capita": "$27,170"
       },
       "development": {
         "hdi": {
@@ -779,8 +810,14 @@
       },
       "calling_code": "30",
       "iso_3166_code": "GR",
-      "internet_tld": ".gr .ελ",
-      "time_zone": "UTC+02:00"
+      "internet_tld": [
+        ".gr",
+        ".ελ"
+      ],
+      "time_zone": {
+        "standard": "UTC+02:00",
+        "dst": "UTC+03:00"
+      }
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Kuwait",
     "slug": "kuwait",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kuwait",
-    "retrieved_at": "2026-03-13T10:08:42+00:00",
+    "retrieved_at": "2026-03-13T11:37:17+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -608,7 +608,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$260.500 billion ( 74th )",
+        "tokens": [
+          "260",
+          "500",
+          "billion",
+          "74th"
+        ],
+        "numbers": [
+          260.5,
+          74
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$50,960 ( 40th )",
+        "tokens": [
+          "50",
+          "960",
+          "40th"
+        ],
+        "numbers": [
+          50960,
+          40
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$153.100 billion ( 59th )",
         "tokens": [
@@ -622,7 +660,7 @@
           59
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$29,950 ( 41st )",
         "tokens": [
@@ -633,17 +671,6 @@
         "numbers": [
           29950,
           41
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "hdi_2023": {
@@ -714,6 +741,11 @@
       "country_name": "Kuwait",
       "capital": "Kuwait City",
       "largest_city": "Kuwait City",
+      "languages": {
+        "official": [
+          "Arabic"
+        ]
+      },
       "government": {
         "type": "Unitary semi-constitutional monarchy",
         "head_of_state": "Mishal Al-Ahmad Al-Jaber Al-Sabah",
@@ -731,7 +763,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$260.500 billion",
+        "gdp_ppp_per_capita": "$50,960",
+        "gdp_nominal_total": "$153.100 billion",
+        "gdp_nominal_per_capita": "$29,950"
       },
       "development": {
         "hdi": {
@@ -746,8 +782,12 @@
       },
       "calling_code": "965",
       "iso_3166_code": "KW",
-      "internet_tld": ".kw",
-      "time_zone": "UTC+3",
+      "internet_tld": [
+        ".kw"
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      },
       "demonym": "Kuwaiti"
     }
   }

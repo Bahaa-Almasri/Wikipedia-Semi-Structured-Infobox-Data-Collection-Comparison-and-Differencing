@@ -3,7 +3,7 @@
     "country_name": "Jordan",
     "slug": "jordan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Jordan",
-    "retrieved_at": "2026-03-13T10:08:36+00:00",
+    "retrieved_at": "2026-03-13T11:37:14+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -579,7 +579,45 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$132.092 billion ( 91st )",
+        "tokens": [
+          "132",
+          "092",
+          "billion",
+          "91st"
+        ],
+        "numbers": [
+          132.092,
+          91
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$12,809 ( 112th )",
+        "tokens": [
+          "12",
+          "809",
+          "112th"
+        ],
+        "numbers": [
+          12809,
+          112
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2023 estimate",
+        "tokens": [
+          "2023",
+          "estimate"
+        ],
+        "numbers": [
+          2023
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$50.022\tbillion ( 93rd )",
         "tokens": [
@@ -593,7 +631,7 @@
           93
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$4,850 ( 114th )",
         "tokens": [
@@ -604,17 +642,6 @@
         "numbers": [
           4850,
           114
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2023 estimate",
-        "tokens": [
-          "2023",
-          "estimate"
-        ],
-        "numbers": [
-          2023
         ]
       },
       "gini_2011": {
@@ -703,6 +730,11 @@
         "latitude": "31°57′N",
         "longitude": "35°56′E"
       },
+      "languages": {
+        "official": [
+          "Arabic"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_state": "Abdullah II",
@@ -721,7 +753,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$132.092 billion",
+        "gdp_ppp_per_capita": "$12,809",
+        "gdp_nominal_total": "$50.022\tbillion",
+        "gdp_nominal_per_capita": "$4,850"
       },
       "development": {
         "hdi": {
@@ -740,8 +776,13 @@
       },
       "calling_code": "962",
       "iso_3166_code": "JO",
-      "internet_tld": ".jo .الاردن",
-      "time_zone": "UTC+03:00",
+      "internet_tld": [
+        ".jo",
+        ".الاردن"
+      ],
+      "time_zone": {
+        "standard": "UTC+03:00"
+      },
       "demonym": "Jordanian"
     }
   }

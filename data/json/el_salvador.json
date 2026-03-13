@@ -3,7 +3,7 @@
     "country_name": "El Salvador",
     "slug": "el_salvador",
     "wikipedia_url": "https://en.wikipedia.org/wiki/El_Salvador",
-    "retrieved_at": "2026-03-13T10:07:47+00:00",
+    "retrieved_at": "2026-03-13T11:36:46+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -596,7 +596,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$88.323 billion ( 107th )",
+        "tokens": [
+          "88",
+          "323",
+          "billion",
+          "107th"
+        ],
+        "numbers": [
+          88.323,
+          107
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$13,753 ( 114th )",
+        "tokens": [
+          "13",
+          "753",
+          "114th"
+        ],
+        "numbers": [
+          13753,
+          114
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$37.843 billion ( 104th )",
         "tokens": [
@@ -610,7 +648,7 @@
           104
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$5,893 ( 108th )",
         "tokens": [
@@ -621,17 +659,6 @@
         "numbers": [
           5893,
           108
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -742,6 +769,11 @@
         "latitude": "13°42′N",
         "longitude": "89°12′W"
       },
+      "languages": {
+        "official": [
+          "Spanish"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Nayib Bukele"
@@ -759,7 +791,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$88.323 billion",
+        "gdp_ppp_per_capita": "$13,753",
+        "gdp_nominal_total": "$37.843 billion",
+        "gdp_nominal_per_capita": "$5,893"
       },
       "development": {
         "hdi": {
@@ -778,8 +814,12 @@
       },
       "calling_code": "503",
       "iso_3166_code": "SV",
-      "internet_tld": ".sv",
-      "time_zone": "UTC −6 ( CST )",
+      "internet_tld": [
+        ".sv"
+      ],
+      "time_zone": {
+        "standard": "UTC −6 ( CST )"
+      },
       "demonym": "Salvadoran"
     }
   }

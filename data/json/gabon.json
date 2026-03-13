@@ -3,7 +3,7 @@
     "country_name": "Gabon",
     "slug": "gabon",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Gabon",
-    "retrieved_at": "2026-03-13T10:07:58+00:00",
+    "retrieved_at": "2026-03-13T11:36:53+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -680,7 +680,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$57.054 billion ( 130th )",
+        "tokens": [
+          "57",
+          "054",
+          "billion",
+          "130th"
+        ],
+        "numbers": [
+          57.054,
+          130
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$24,739 ( 79th )",
+        "tokens": [
+          "24",
+          "739",
+          "79th"
+        ],
+        "numbers": [
+          24739,
+          79
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$21.455 billion ( 131st )",
         "tokens": [
@@ -694,7 +732,7 @@
           131
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$9,303 ( 90th )",
         "tokens": [
@@ -705,17 +743,6 @@
         "numbers": [
           9303,
           90
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2017": {
@@ -803,6 +830,11 @@
         "latitude": "0°23′N",
         "longitude": "9°27′E"
       },
+      "languages": {
+        "official": [
+          "French"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Brice Oligui Nguema"
@@ -820,7 +852,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$57.054 billion",
+        "gdp_ppp_per_capita": "$24,739",
+        "gdp_nominal_total": "$21.455 billion",
+        "gdp_nominal_per_capita": "$9,303"
       },
       "development": {
         "hdi": {
@@ -839,8 +875,12 @@
       },
       "calling_code": "241",
       "iso_3166_code": "GA",
-      "internet_tld": ".ga",
-      "time_zone": "UTC+1"
+      "internet_tld": [
+        ".ga"
+      ],
+      "time_zone": {
+        "standard": "UTC+1"
+      }
     }
   }
 }

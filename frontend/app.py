@@ -134,7 +134,7 @@ def main() -> None:
     html_data = load_html(selected_slug)
 
     # Tabs for different views
-    tabs = st.tabs(["Tree", "JSON", "HTML Source", "HTML Preview"])
+    tabs = st.tabs(["Tree", "JSON", "HTML Source", "HTML Preview", "Compare Trees"])
 
     with tabs[0]:
         st.markdown("### Tree View")
@@ -175,6 +175,80 @@ def main() -> None:
                 height=600,
                 scrolling=True,
             )
+
+    with tabs[4]:
+        st.markdown("### Compare Trees")
+        st.caption("Select two countries and view their trees side by side.")
+
+        all_index = load_country_index()
+        if not all_index:
+            st.warning("No country JSON files found in `data/json` for comparison.")
+        else:
+            all_display_names = [name for _, name in all_index]
+
+            # Try to keep the currently selected country as the default for A.
+            try:
+                default_a_idx = all_display_names.index(selected_name)
+            except ValueError:
+                default_a_idx = 0
+
+            default_b_idx = 0 if default_a_idx != 0 else (1 if len(all_display_names) > 1 else 0)
+
+            col_select_a, col_select_b = st.columns(2)
+            with col_select_a:
+                country_a_name = st.selectbox(
+                    "Country A",
+                    all_display_names,
+                    index=default_a_idx,
+                    key="compare_country_a",
+                )
+            with col_select_b:
+                country_b_name = st.selectbox(
+                    "Country B",
+                    all_display_names,
+                    index=default_b_idx,
+                    key="compare_country_b",
+                )
+
+            slug_for_name = {name: slug for slug, name in all_index}
+            slug_a = slug_for_name.get(country_a_name)
+            slug_b = slug_for_name.get(country_b_name)
+
+            col_a, col_b = st.columns(2)
+
+            with col_a:
+                st.markdown(f"#### {country_a_name}")
+                if not slug_a:
+                    st.warning("Could not resolve Country A slug.")
+                else:
+                    tree_a = load_tree(slug_a)
+                    if tree_a is None:
+                        st.warning(f"No tree file found for `{slug_a}` in `data/trees`.")
+                    else:
+                        root_label_a = tree_a.get("label", "")
+                        st.markdown(f"**Root:** `{root_label_a}`")
+                        children_a = tree_a.get("children") or []
+                        for child in children_a:
+                            child_label_a = child.get("label", "")
+                            with st.expander(child_label_a, expanded=False):
+                                render_tree_branch_inline(child, level=1)
+
+            with col_b:
+                st.markdown(f"#### {country_b_name}")
+                if not slug_b:
+                    st.warning("Could not resolve Country B slug.")
+                else:
+                    tree_b = load_tree(slug_b)
+                    if tree_b is None:
+                        st.warning(f"No tree file found for `{slug_b}` in `data/trees`.")
+                    else:
+                        root_label_b = tree_b.get("label", "")
+                        st.markdown(f"**Root:** `{root_label_b}`")
+                        children_b = tree_b.get("children") or []
+                        for child in children_b:
+                            child_label_b = child.get("label", "")
+                            with st.expander(child_label_b, expanded=False):
+                                render_tree_branch_inline(child, level=1)
 
 
 if __name__ == "__main__":

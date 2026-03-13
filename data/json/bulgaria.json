@@ -3,7 +3,7 @@
     "country_name": "Bulgaria",
     "slug": "bulgaria",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Bulgaria",
-    "retrieved_at": "2026-03-13T10:07:13+00:00",
+    "retrieved_at": "2026-03-13T11:36:15+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -679,7 +679,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$264.699 billion ( 73rd )",
+        "tokens": [
+          "264",
+          "699",
+          "billion",
+          "73rd"
+        ],
+        "numbers": [
+          264.699,
+          73
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$41,901 ( 55th )",
+        "tokens": [
+          "41",
+          "901",
+          "55th"
+        ],
+        "numbers": [
+          41901,
+          55
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$117.007 billion ( 68th )",
         "tokens": [
@@ -693,7 +731,7 @@
           68
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$18,522 ( 59th )",
         "tokens": [
@@ -704,17 +742,6 @@
         "numbers": [
           18522,
           59
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -809,6 +836,11 @@
       "country_name": "Bulgaria",
       "capital": "Sofia",
       "largest_city": "Sofia",
+      "languages": {
+        "official": [
+          "Bulgarian"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Iliana Iotova",
@@ -827,7 +859,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$264.699 billion",
+        "gdp_ppp_per_capita": "$41,901",
+        "gdp_nominal_total": "$117.007 billion",
+        "gdp_nominal_per_capita": "$18,522"
       },
       "development": {
         "hdi": {
@@ -845,8 +881,14 @@
       },
       "calling_code": "359",
       "iso_3166_code": "BG",
-      "internet_tld": ".bg .бг",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".bg",
+        ".бг"
+      ],
+      "time_zone": {
+        "standard": "UTC+2",
+        "dst": "UTC+3"
+      },
       "demonym": "Bulgarian"
     }
   }

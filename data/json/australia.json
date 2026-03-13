@@ -3,7 +3,7 @@
     "country_name": "Australia",
     "slug": "australia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Australia",
-    "retrieved_at": "2026-03-13T10:06:46+00:00",
+    "retrieved_at": "2026-03-13T11:35:50+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -654,7 +654,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$1.982 trillion ( 22nd )",
+        "tokens": [
+          "1",
+          "982",
+          "trillion",
+          "22nd"
+        ],
+        "numbers": [
+          1.982,
+          22
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$71,431 ( 26th )",
+        "tokens": [
+          "71",
+          "431",
+          "26th"
+        ],
+        "numbers": [
+          71431,
+          26
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$1.830 trillion ( 15th )",
         "tokens": [
@@ -668,7 +706,7 @@
           15
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$65,946 ( 13th )",
         "tokens": [
@@ -679,17 +717,6 @@
         "numbers": [
           65946,
           13
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2020": {
@@ -824,7 +851,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$1.982 trillion",
+        "gdp_ppp_per_capita": "$71,431",
+        "gdp_nominal_total": "$1.830 trillion",
+        "gdp_nominal_per_capita": "$65,946"
       },
       "development": {
         "hdi": {
@@ -842,8 +873,13 @@
       },
       "calling_code": "61",
       "iso_3166_code": "AU",
-      "internet_tld": ".au",
-      "time_zone": "UTC+8"
+      "internet_tld": [
+        ".au"
+      ],
+      "time_zone": {
+        "standard": "UTC+8",
+        "dst": "UTC+10"
+      }
     }
   }
 }

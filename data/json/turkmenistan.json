@@ -3,7 +3,7 @@
     "country_name": "Turkmenistan",
     "slug": "turkmenistan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Turkmenistan",
-    "retrieved_at": "2026-03-13T10:10:44+00:00",
+    "retrieved_at": "2026-03-13T11:38:28+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -585,7 +585,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$186.11 billion ( 83rd )",
+        "tokens": [
+          "186",
+          "11",
+          "billion",
+          "83rd"
+        ],
+        "numbers": [
+          186.11,
+          83
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$27,887 ( 74th )",
+        "tokens": [
+          "27",
+          "887",
+          "74th"
+        ],
+        "numbers": [
+          27887,
+          74
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$89.05 billion ( 78th )",
         "tokens": [
@@ -599,7 +637,7 @@
           78
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$13,334 ( 72nd )",
         "tokens": [
@@ -610,17 +648,6 @@
         "numbers": [
           13334,
           72
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_1998": {
@@ -708,6 +735,11 @@
         "latitude": "37°58′N",
         "longitude": "58°20′E"
       },
+      "languages": {
+        "official": [
+          "Turkmen"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic under a totalitarian hereditary dictatorship",
         "head_of_state": "Serdar Berdimuhamedow"
@@ -725,7 +757,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$186.11 billion",
+        "gdp_ppp_per_capita": "$27,887",
+        "gdp_nominal_total": "$89.05 billion",
+        "gdp_nominal_per_capita": "$13,334"
       },
       "development": {
         "hdi": {
@@ -744,8 +780,12 @@
       },
       "calling_code": "993",
       "iso_3166_code": "TM",
-      "internet_tld": ".tm",
-      "time_zone": "UTC+05:00"
+      "internet_tld": [
+        ".tm"
+      ],
+      "time_zone": {
+        "standard": "UTC+05:00"
+      }
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Fiji",
     "slug": "fiji",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Fiji",
-    "retrieved_at": "2026-03-13T10:07:54+00:00",
+    "retrieved_at": "2026-03-13T11:36:51+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -641,7 +641,45 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$15.152 billion ( 158th )",
+        "tokens": [
+          "15",
+          "152",
+          "billion",
+          "158th"
+        ],
+        "numbers": [
+          15.152,
+          158
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$16,563 ( 102nd )",
+        "tokens": [
+          "16",
+          "563",
+          "102nd"
+        ],
+        "numbers": [
+          16563,
+          102
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2023 estimate",
+        "tokens": [
+          "2023",
+          "estimate"
+        ],
+        "numbers": [
+          2023
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$5.511 billion ( 164th )",
         "tokens": [
@@ -655,7 +693,7 @@
           164
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$6,024 ( 106th )",
         "tokens": [
@@ -666,17 +704,6 @@
         "numbers": [
           6024,
           106
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2023 estimate",
-        "tokens": [
-          "2023",
-          "estimate"
-        ],
-        "numbers": [
-          2023
         ]
       },
       "gini_2019": {
@@ -791,7 +818,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$15.152 billion",
+        "gdp_ppp_per_capita": "$16,563",
+        "gdp_nominal_total": "$5.511 billion",
+        "gdp_nominal_per_capita": "$6,024"
       },
       "development": {
         "hdi": {
@@ -810,8 +841,12 @@
       },
       "calling_code": "679",
       "iso_3166_code": "FJ",
-      "internet_tld": ".fj",
-      "time_zone": "UTC+12",
+      "internet_tld": [
+        ".fj"
+      ],
+      "time_zone": {
+        "standard": "UTC+12"
+      },
       "demonym": "Fijian"
     }
   }

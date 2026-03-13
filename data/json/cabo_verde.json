@@ -3,7 +3,7 @@
     "country_name": "Cabo Verde",
     "slug": "cabo_verde",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cape_Verde",
-    "retrieved_at": "2026-03-13T10:07:18+00:00",
+    "retrieved_at": "2026-03-13T11:36:17+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -497,7 +497,45 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$5.717 billion ( 170th )",
+        "tokens": [
+          "5",
+          "717",
+          "billion",
+          "170th"
+        ],
+        "numbers": [
+          5.717,
+          170
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$9,909 ( 125th )",
+        "tokens": [
+          "9",
+          "909",
+          "125th"
+        ],
+        "numbers": [
+          9909,
+          125
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2023 estimate",
+        "tokens": [
+          "2023",
+          "estimate"
+        ],
+        "numbers": [
+          2023
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$2.598 billion ( 181st )",
         "tokens": [
@@ -511,7 +549,7 @@
           181
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$4,502 ( 117th )",
         "tokens": [
@@ -522,17 +560,6 @@
         "numbers": [
           4502,
           117
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2023 estimate",
-        "tokens": [
-          "2023",
-          "estimate"
-        ],
-        "numbers": [
-          2023
         ]
       },
       "gini_2015": {
@@ -628,6 +655,11 @@
       "country_name": "Cabo Verde",
       "capital": "Praia",
       "largest_city": "Praia",
+      "languages": {
+        "official": [
+          "Portuguese"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic",
         "head_of_state": "José Maria Neves",
@@ -645,7 +677,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$5.717 billion",
+        "gdp_ppp_per_capita": "$9,909",
+        "gdp_nominal_total": "$2.598 billion",
+        "gdp_nominal_per_capita": "$4,502"
       },
       "development": {
         "hdi": {
@@ -664,8 +700,12 @@
       },
       "calling_code": "238",
       "iso_3166_code": "CV",
-      "internet_tld": ".cv",
-      "time_zone": "UTC –01:00 ( CVT )",
+      "internet_tld": [
+        ".cv"
+      ],
+      "time_zone": {
+        "standard": "UTC –01:00 ( CVT )"
+      },
       "demonym": "Cape Verdean or Cabo Verdean"
     }
   }

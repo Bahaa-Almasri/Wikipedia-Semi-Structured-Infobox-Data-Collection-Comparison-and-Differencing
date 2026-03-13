@@ -3,7 +3,7 @@
     "country_name": "Myanmar",
     "slug": "myanmar",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Myanmar",
-    "retrieved_at": "2026-03-13T10:09:16+00:00",
+    "retrieved_at": "2026-03-13T11:37:38+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -791,7 +791,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$273.200 billion ( 64th )",
+        "tokens": [
+          "273",
+          "200",
+          "billion",
+          "64th"
+        ],
+        "numbers": [
+          273.2,
+          64
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$4,950 ( 146th )",
+        "tokens": [
+          "4",
+          "950",
+          "146th"
+        ],
+        "numbers": [
+          4950,
+          146
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$60.560 billion ( 87th )",
         "tokens": [
@@ -805,7 +843,7 @@
           87
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,110 ( 164th )",
         "tokens": [
@@ -816,17 +854,6 @@
         "numbers": [
           1110,
           164
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2017": {
@@ -916,6 +943,11 @@
         "latitude": "21°00′N",
         "longitude": "96°00′E"
       },
+      "languages": {
+        "official": [
+          "Burmese"
+        ]
+      },
       "government": {
         "type": "Unitary assembly-independent republic under a military junta",
         "head_of_state": "Vacant ( Min Aung Hlaing serving Pro Tem On Duty)",
@@ -934,7 +966,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$273.200 billion",
+        "gdp_ppp_per_capita": "$4,950",
+        "gdp_nominal_total": "$60.560 billion",
+        "gdp_nominal_per_capita": "$1,110"
       },
       "development": {
         "hdi": {
@@ -952,8 +988,12 @@
       },
       "calling_code": "95",
       "iso_3166_code": "MM",
-      "internet_tld": ".mm",
-      "time_zone": "UTC+06:30"
+      "internet_tld": [
+        ".mm"
+      ],
+      "time_zone": {
+        "standard": "UTC+06:30"
+      }
     }
   }
 }

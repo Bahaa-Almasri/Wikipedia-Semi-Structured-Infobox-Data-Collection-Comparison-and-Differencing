@@ -3,7 +3,7 @@
     "country_name": "Iran (Islamic Republic of)",
     "slug": "iran_islamic_republic_of",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Iran",
-    "retrieved_at": "2026-03-13T10:08:24+00:00",
+    "retrieved_at": "2026-03-13T11:37:08+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -762,7 +762,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$1.879 trillion ( 22nd )",
+        "tokens": [
+          "1",
+          "879",
+          "trillion",
+          "22nd"
+        ],
+        "numbers": [
+          1.879,
+          22
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$21,473 ( 88th )",
+        "tokens": [
+          "21",
+          "473",
+          "88th"
+        ],
+        "numbers": [
+          21473,
+          88
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$356.513 billion ( 42nd )",
         "tokens": [
@@ -776,7 +814,7 @@
           42
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$4,074 ( 132nd )",
         "tokens": [
@@ -787,17 +825,6 @@
         "numbers": [
           4074,
           132
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -886,6 +913,11 @@
         "latitude": "35°41′N",
         "longitude": "51°25′E"
       },
+      "languages": {
+        "official": [
+          "Persian"
+        ]
+      },
       "government": {
         "type": "Unitary presidential theocratic Islamic republic under an authoritarian dictatorship",
         "head_of_state": "Masoud Pezeshkian"
@@ -903,7 +935,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$1.879 trillion",
+        "gdp_ppp_per_capita": "$21,473",
+        "gdp_nominal_total": "$356.513 billion",
+        "gdp_nominal_per_capita": "$4,074"
       },
       "development": {
         "hdi": {
@@ -921,8 +957,13 @@
       },
       "calling_code": "98",
       "iso_3166_code": "IR",
-      "internet_tld": ".ir ایران.",
-      "time_zone": "UTC+3:30",
+      "internet_tld": [
+        ".ir",
+        "ایران."
+      ],
+      "time_zone": {
+        "standard": "UTC+3:30"
+      },
       "demonym": "Iranian"
     }
   }

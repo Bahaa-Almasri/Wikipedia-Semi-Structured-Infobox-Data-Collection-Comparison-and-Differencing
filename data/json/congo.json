@@ -3,7 +3,7 @@
     "country_name": "Congo",
     "slug": "congo",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Republic_of_the_Congo",
-    "retrieved_at": "2026-03-13T10:07:29+00:00",
+    "retrieved_at": "2026-03-13T11:36:25+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -633,7 +633,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$42.760 billion ( 140th )",
+        "tokens": [
+          "42",
+          "760",
+          "billion",
+          "140th"
+        ],
+        "numbers": [
+          42.76,
+          140
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$6,590 ( 143rd )",
+        "tokens": [
+          "6",
+          "590",
+          "143rd"
+        ],
+        "numbers": [
+          6590,
+          143
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$15.281 billion ( 141st )",
         "tokens": [
@@ -647,7 +685,7 @@
           141
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,360 ( 151st )",
         "tokens": [
@@ -658,17 +696,6 @@
         "numbers": [
           2360,
           151
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2011": {
@@ -757,6 +784,11 @@
         "latitude": "4°16′S",
         "longitude": "15°17′E"
       },
+      "languages": {
+        "official": [
+          "French"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic under a dictatorship",
         "head_of_state": "Denis Sassou Nguesso",
@@ -775,7 +807,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$42.760 billion",
+        "gdp_ppp_per_capita": "$6,590",
+        "gdp_nominal_total": "$15.281 billion",
+        "gdp_nominal_per_capita": "$2,360"
       },
       "development": {
         "hdi": {
@@ -794,8 +830,12 @@
       },
       "calling_code": "242",
       "iso_3166_code": "CG",
-      "internet_tld": ".cg",
-      "time_zone": "UTC+1"
+      "internet_tld": [
+        ".cg"
+      ],
+      "time_zone": {
+        "standard": "UTC+1"
+      }
     }
   }
 }

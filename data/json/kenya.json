@@ -3,7 +3,7 @@
     "country_name": "Kenya",
     "slug": "kenya",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kenya",
-    "retrieved_at": "2026-03-13T10:08:39+00:00",
+    "retrieved_at": "2026-03-13T11:37:16+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -710,7 +710,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$430.22 billion ( 59th )",
+        "tokens": [
+          "430",
+          "22",
+          "billion",
+          "59th"
+        ],
+        "numbers": [
+          430.22,
+          59
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$7,930 ( 142nd )",
+        "tokens": [
+          "7",
+          "930",
+          "142nd"
+        ],
+        "numbers": [
+          7930,
+          142
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$140.87 billion ( 59th )",
         "tokens": [
@@ -724,7 +762,7 @@
           59
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,600 ( 150th )",
         "tokens": [
@@ -735,17 +773,6 @@
         "numbers": [
           2600,
           150
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2021": {
@@ -845,6 +872,11 @@
         "latitude": "1°16′S",
         "longitude": "36°48′E"
       },
+      "languages": {
+        "official": [
+          "Swahili English"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "William Ruto"
@@ -862,7 +894,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$430.22 billion",
+        "gdp_ppp_per_capita": "$7,930",
+        "gdp_nominal_total": "$140.87 billion",
+        "gdp_nominal_per_capita": "$2,600"
       },
       "development": {
         "hdi": {
@@ -881,8 +917,12 @@
       },
       "calling_code": "254",
       "iso_3166_code": "KE",
-      "internet_tld": ".ke",
-      "time_zone": "UTC+3",
+      "internet_tld": [
+        ".ke"
+      ],
+      "time_zone": {
+        "standard": "UTC+3"
+      },
       "demonym": "Kenyan"
     }
   }

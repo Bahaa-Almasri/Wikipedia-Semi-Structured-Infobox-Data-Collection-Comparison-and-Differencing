@@ -3,7 +3,7 @@
     "country_name": "Suriname",
     "slug": "suriname",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Suriname",
-    "retrieved_at": "2026-03-13T10:10:33+00:00",
+    "retrieved_at": "2026-03-13T11:38:18+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -713,7 +713,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$14.743 billion ( 160th )",
+        "tokens": [
+          "14",
+          "743",
+          "billion",
+          "160th"
+        ],
+        "numbers": [
+          14.743,
+          160
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$22,439 ( 91st )",
+        "tokens": [
+          "22",
+          "439",
+          "91st"
+        ],
+        "numbers": [
+          22439,
+          91
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$4.506 billion ( 173rd )",
         "tokens": [
@@ -727,7 +765,7 @@
           173
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$6,858 ( 106th )",
         "tokens": [
@@ -738,17 +776,6 @@
         "numbers": [
           6858,
           106
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "hdi_2023": {
@@ -834,6 +861,11 @@
         "latitude": "5°50′N",
         "longitude": "55°10′W"
       },
+      "languages": {
+        "official": [
+          "Dutch"
+        ]
+      },
       "government": {
         "type": "Unitary assembly-independent republic",
         "head_of_state": "Jennifer Geerlings-Simons"
@@ -851,7 +883,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$14.743 billion",
+        "gdp_ppp_per_capita": "$22,439",
+        "gdp_nominal_total": "$4.506 billion",
+        "gdp_nominal_per_capita": "$6,858"
       },
       "development": {
         "hdi": {
@@ -866,8 +902,12 @@
       },
       "calling_code": "597",
       "iso_3166_code": "SR",
-      "internet_tld": ".sr",
-      "time_zone": "UTC-03:00",
+      "internet_tld": [
+        ".sr"
+      ],
+      "time_zone": {
+        "standard": "UTC-03:00"
+      },
       "demonym": "Surinamese"
     }
   }

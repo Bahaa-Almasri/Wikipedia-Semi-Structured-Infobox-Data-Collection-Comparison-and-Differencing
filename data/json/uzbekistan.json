@@ -3,7 +3,7 @@
     "country_name": "Uzbekistan",
     "slug": "uzbekistan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Uzbekistan",
-    "retrieved_at": "2026-03-13T10:10:52+00:00",
+    "retrieved_at": "2026-03-13T11:38:39+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -644,7 +644,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$507.8 billion ( 53th )",
+        "tokens": [
+          "507",
+          "8",
+          "billion",
+          "53th"
+        ],
+        "numbers": [
+          507.8,
+          53
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$12,596 ( 114th )",
+        "tokens": [
+          "12",
+          "596",
+          "114th"
+        ],
+        "numbers": [
+          12596,
+          114
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$140.480 billion ( 60th )",
         "tokens": [
@@ -658,7 +696,7 @@
           60
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$3,945 ( 134th )",
         "tokens": [
@@ -669,17 +707,6 @@
         "numbers": [
           3945,
           134
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -777,6 +804,11 @@
         "latitude": "41°19′N",
         "longitude": "69°16′E"
       },
+      "languages": {
+        "official": [
+          "Uzbek"
+        ]
+      },
       "government": {
         "type": "Unitary semi-presidential republic",
         "head_of_state": "Shavkat Mirziyoyev",
@@ -795,7 +827,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$507.8 billion",
+        "gdp_ppp_per_capita": "$12,596",
+        "gdp_nominal_total": "$140.480 billion",
+        "gdp_nominal_per_capita": "$3,945"
       },
       "development": {
         "hdi": {
@@ -814,8 +850,12 @@
       },
       "calling_code": "998",
       "iso_3166_code": "UZ",
-      "internet_tld": ".uz",
-      "time_zone": "UTC+5",
+      "internet_tld": [
+        ".uz"
+      ],
+      "time_zone": {
+        "standard": "UTC+5"
+      },
       "demonym": "Uzbek • Uzbekistani"
     }
   }

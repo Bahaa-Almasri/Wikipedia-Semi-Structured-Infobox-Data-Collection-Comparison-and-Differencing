@@ -3,7 +3,7 @@
     "country_name": "Kiribati",
     "slug": "kiribati",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kiribati",
-    "retrieved_at": "2026-03-13T10:08:40+00:00",
+    "retrieved_at": "2026-03-13T11:37:16+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -534,26 +534,26 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$248 million",
+        "text": "$297 million",
         "tokens": [
-          "248",
+          "297",
           "million"
         ],
         "numbers": [
-          248
+          297
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$1,989",
+        "text": "$2,381",
         "tokens": [
-          "1",
-          "989"
+          "2",
+          "381"
         ],
         "numbers": [
-          1989
+          2381
         ]
       },
       "gdp_nominal": {
@@ -565,6 +565,28 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$248 million",
+        "tokens": [
+          "248",
+          "million"
+        ],
+        "numbers": [
+          248
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$1,989",
+        "tokens": [
+          "1",
+          "989"
+        ],
+        "numbers": [
+          1989
         ]
       },
       "gini_2019": {
@@ -654,6 +676,11 @@
         "latitude": "1°28′N",
         "longitude": "173°2′E"
       },
+      "languages": {
+        "official": [
+          "English Gilbertese"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic with an executive president",
         "head_of_state": "Taneti Maamau"
@@ -670,7 +697,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$297 million",
+        "gdp_ppp_per_capita": "$2,381",
+        "gdp_nominal_total": "$248 million",
+        "gdp_nominal_per_capita": "$1,989"
       },
       "development": {
         "hdi": {
@@ -688,8 +719,12 @@
       },
       "calling_code": "686",
       "iso_3166_code": "KI",
-      "internet_tld": ".ki",
-      "time_zone": "UTC+12",
+      "internet_tld": [
+        ".ki"
+      ],
+      "time_zone": {
+        "standard": "UTC+12"
+      },
       "demonym": "I-Kiribati"
     }
   }

@@ -3,7 +3,7 @@
     "country_name": "Saint Lucia",
     "slug": "saint_lucia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Lucia",
-    "retrieved_at": "2026-03-13T10:09:59+00:00",
+    "retrieved_at": "2026-03-13T11:38:03+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -619,7 +619,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$3.769 billion ( 177nd )",
+        "tokens": [
+          "3",
+          "769",
+          "billion",
+          "177nd"
+        ],
+        "numbers": [
+          3.769,
+          177
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$29,258 ( 73th )",
+        "tokens": [
+          "29",
+          "258",
+          "73th"
+        ],
+        "numbers": [
+          29258,
+          73
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$2.715 billion ( 168th )",
         "tokens": [
@@ -633,7 +671,7 @@
           168
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$14,647 ( 72th )",
         "tokens": [
@@ -644,17 +682,6 @@
         "numbers": [
           14647,
           72
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2016": {
@@ -748,6 +775,11 @@
       "country_name": "Saint Lucia",
       "capital": "Castries",
       "largest_city": "Castries",
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_state": "Charles III",
@@ -766,7 +798,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$3.769 billion",
+        "gdp_ppp_per_capita": "$29,258",
+        "gdp_nominal_total": "$2.715 billion",
+        "gdp_nominal_per_capita": "$14,647"
       },
       "development": {
         "hdi": {
@@ -785,8 +821,12 @@
       },
       "calling_code": "1",
       "iso_3166_code": "LC",
-      "internet_tld": ".lc",
-      "time_zone": "UTC −4 ( AST )",
+      "internet_tld": [
+        ".lc"
+      ],
+      "time_zone": {
+        "standard": "UTC −4 ( AST )"
+      },
       "demonym": "Saint Lucian"
     }
   }

@@ -3,7 +3,7 @@
     "country_name": "Finland",
     "slug": "finland",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Finland",
-    "retrieved_at": "2026-03-13T10:07:56+00:00",
+    "retrieved_at": "2026-03-13T11:36:52+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -604,7 +604,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$373.16 billion ( 61st )",
+        "tokens": [
+          "373",
+          "16",
+          "billion",
+          "61st"
+        ],
+        "numbers": [
+          373.16,
+          61
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$66,500 ( 23rd )",
+        "tokens": [
+          "66",
+          "500",
+          "23rd"
+        ],
+        "numbers": [
+          66500,
+          23
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$303.95 billion ( 46th )",
         "tokens": [
@@ -618,7 +656,7 @@
           46
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$54,160 ( 19th )",
         "tokens": [
@@ -629,17 +667,6 @@
         "numbers": [
           54160,
           19
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -746,6 +773,11 @@
       "country_name": "Finland",
       "capital": "Helsinki",
       "largest_city": "Helsinki",
+      "languages": {
+        "official": [
+          "Finnish Swedish"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Alexander Stubb",
@@ -763,7 +795,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$373.16 billion",
+        "gdp_ppp_per_capita": "$66,500",
+        "gdp_nominal_total": "$303.95 billion",
+        "gdp_nominal_per_capita": "$54,160"
       },
       "development": {
         "hdi": {
@@ -781,8 +817,15 @@
       },
       "calling_code": "358",
       "iso_3166_code": "FI",
-      "internet_tld": ".fi , .ax a",
-      "time_zone": "UTC+2"
+      "internet_tld": [
+        ".fi",
+        ".ax",
+        "a"
+      ],
+      "time_zone": {
+        "standard": "UTC+2",
+        "dst": "UTC+3"
+      }
     }
   }
 }

@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:08:09+00:00",
+          "value": "2026-03-13T11:37:00+00:00",
           "children": []
         },
         {
@@ -153,8 +153,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$6,682",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$120.964 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$15,386",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$278.508 billion",
               "children": []
             },
             {
@@ -182,13 +202,36 @@
         },
         {
           "label": "internet_tld",
-          "value": ".gt",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".gt",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "GT",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Spanish",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -228,8 +271,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC −6 ( CST )",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC −6 ( CST )",
+              "children": []
+            }
+          ]
         }
       ]
     }

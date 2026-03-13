@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:10:05+00:00",
+          "value": "2026-03-13T11:38:07+00:00",
           "children": []
         },
         {
@@ -143,8 +143,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$35,230",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$1.270 trillion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$74.670",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$2.690 trillion",
               "children": []
             },
             {
@@ -172,13 +192,41 @@
         },
         {
           "label": "internet_tld",
-          "value": ".sa السعودية.",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".sa",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": "السعودية.",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "SA",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Arabic",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -218,8 +266,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+3",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC+3",
+              "children": []
+            }
+          ]
         }
       ]
     }

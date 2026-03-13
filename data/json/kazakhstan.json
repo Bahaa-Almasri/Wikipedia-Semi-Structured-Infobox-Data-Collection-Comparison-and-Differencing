@@ -3,7 +3,7 @@
     "country_name": "Kazakhstan",
     "slug": "kazakhstan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kazakhstan",
-    "retrieved_at": "2026-03-13T10:08:38+00:00",
+    "retrieved_at": "2026-03-13T11:37:15+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -699,7 +699,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$904.500 billion ( 37th )",
+        "tokens": [
+          "904",
+          "500",
+          "billion",
+          "37th"
+        ],
+        "numbers": [
+          904.5,
+          37
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$44,450 ( 49th )",
+        "tokens": [
+          "44",
+          "450",
+          "49th"
+        ],
+        "numbers": [
+          44450,
+          49
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$300.540 billion ( 48th )",
         "tokens": [
@@ -713,7 +751,7 @@
           48
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$14,770 ( 64th )",
         "tokens": [
@@ -724,17 +762,6 @@
         "numbers": [
           14770,
           64
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2018": {
@@ -820,6 +847,11 @@
         "latitude": "51°8′N",
         "longitude": "71°26′E"
       },
+      "languages": {
+        "official": [
+          "Kazakh Russian"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic under an authoritarian government",
         "head_of_state": "Kassym-Jomart Tokayev",
@@ -838,7 +870,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$904.500 billion",
+        "gdp_ppp_per_capita": "$44,450",
+        "gdp_nominal_total": "$300.540 billion",
+        "gdp_nominal_per_capita": "$14,770"
       },
       "development": {
         "hdi": {
@@ -856,8 +892,13 @@
       },
       "calling_code": "7",
       "iso_3166_code": "KZ",
-      "internet_tld": ".kz .қаз",
-      "time_zone": "UTC+5"
+      "internet_tld": [
+        ".kz",
+        ".қаз"
+      ],
+      "time_zone": {
+        "standard": "UTC+5"
+      }
     }
   }
 }

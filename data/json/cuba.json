@@ -3,7 +3,7 @@
     "country_name": "Cuba",
     "slug": "cuba",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cuba",
-    "retrieved_at": "2026-03-13T10:07:33+00:00",
+    "retrieved_at": "2026-03-13T11:36:30+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -684,7 +684,41 @@
           2015
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$254.865 billion",
+        "tokens": [
+          "254",
+          "865",
+          "billion"
+        ],
+        "numbers": [
+          254.865
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$22,237",
+        "tokens": [
+          "22",
+          "237"
+        ],
+        "numbers": [
+          22237
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2024 estimate",
+        "tokens": [
+          "2024",
+          "estimate"
+        ],
+        "numbers": [
+          2024
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$252.063 billion ( 59th )",
         "tokens": [
@@ -698,7 +732,7 @@
           59
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$22,957 ( 60th )",
         "tokens": [
@@ -709,17 +743,6 @@
         "numbers": [
           22957,
           60
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2024 estimate",
-        "tokens": [
-          "2024",
-          "estimate"
-        ],
-        "numbers": [
-          2024
         ]
       },
       "gini_2000": {
@@ -832,6 +855,11 @@
         "latitude": "23°8′N",
         "longitude": "82°23′W"
       },
+      "languages": {
+        "official": [
+          "Spanish"
+        ]
+      },
       "government": {
         "type": "Unitary communist republic",
         "head_of_government": "Manuel Marrero Cruz"
@@ -849,7 +877,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2015
+        "gdp_ppp_year": 2015,
+        "gdp_ppp_total": "$254.865 billion",
+        "gdp_ppp_per_capita": "$22,237",
+        "gdp_nominal_total": "$252.063 billion",
+        "gdp_nominal_per_capita": "$22,957"
       },
       "development": {
         "hdi": {
@@ -868,8 +900,13 @@
       },
       "calling_code": "53",
       "iso_3166_code": "CU",
-      "internet_tld": ".cu",
-      "time_zone": "UTC −05:00 ( CST )",
+      "internet_tld": [
+        ".cu"
+      ],
+      "time_zone": {
+        "standard": "UTC −05:00 ( CST )",
+        "dst": "UTC −04:00 ( CDT )"
+      },
       "demonym": "Cuban"
     }
   }

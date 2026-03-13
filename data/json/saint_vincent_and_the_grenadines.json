@@ -3,7 +3,7 @@
     "country_name": "Saint Vincent and the Grenadines",
     "slug": "saint_vincent_and_the_grenadines",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines",
-    "retrieved_at": "2026-03-13T10:10:00+00:00",
+    "retrieved_at": "2026-03-13T11:38:04+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -588,26 +588,26 @@
           2023
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$1 billion",
+        "text": "$2 billion",
         "tokens": [
-          "1",
+          "2",
           "billion"
         ],
         "numbers": [
-          1
+          2
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$9,360",
+        "text": "$17,840",
         "tokens": [
-          "9",
-          "360"
+          "17",
+          "840"
         ],
         "numbers": [
-          9360
+          17840
         ]
       },
       "gdp_nominal": {
@@ -619,6 +619,28 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$1 billion",
+        "tokens": [
+          "1",
+          "billion"
+        ],
+        "numbers": [
+          1
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$9,360",
+        "tokens": [
+          "9",
+          "360"
+        ],
+        "numbers": [
+          9360
         ]
       },
       "hdi_2023": {
@@ -703,6 +725,11 @@
         "latitude": "13°10′N",
         "longitude": "61°14′W"
       },
+      "languages": {
+        "official": [
+          "English"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary constitutional monarchy",
         "head_of_state": "Charles III",
@@ -720,7 +747,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2023
+        "gdp_ppp_year": 2023,
+        "gdp_ppp_total": "$2 billion",
+        "gdp_ppp_per_capita": "$17,840",
+        "gdp_nominal_total": "$1 billion",
+        "gdp_nominal_per_capita": "$9,360"
       },
       "development": {
         "hdi": {
@@ -735,8 +766,12 @@
       },
       "calling_code": "1",
       "iso_3166_code": "VC",
-      "internet_tld": ".vc",
-      "time_zone": "UTC-4"
+      "internet_tld": [
+        ".vc"
+      ],
+      "time_zone": {
+        "standard": "UTC-4"
+      }
     }
   }
 }

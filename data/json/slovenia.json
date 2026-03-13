@@ -3,7 +3,7 @@
     "country_name": "Slovenia",
     "slug": "slovenia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Slovenia",
-    "retrieved_at": "2026-03-13T10:10:18+00:00",
+    "retrieved_at": "2026-03-13T11:38:12+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -692,7 +692,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$122,985 billion ( 99th )",
+        "tokens": [
+          "122",
+          "985",
+          "billion",
+          "99th"
+        ],
+        "numbers": [
+          122985,
+          99
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$57,716 ( 36th )",
+        "tokens": [
+          "57",
+          "716",
+          "36th"
+        ],
+        "numbers": [
+          57716,
+          36
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$79,222 billion ( 86th )",
         "tokens": [
@@ -706,7 +744,7 @@
           86
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$37,178 ( 36th )",
         "tokens": [
@@ -717,17 +755,6 @@
         "numbers": [
           37178,
           36
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -841,6 +868,11 @@
       "country_name": "Slovenia",
       "capital": "Ljubljana",
       "largest_city": "Ljubljana",
+      "languages": {
+        "official": [
+          "Slovene"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Nataša Pirc Musar",
@@ -859,7 +891,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$122,985 billion",
+        "gdp_ppp_per_capita": "$57,716",
+        "gdp_nominal_total": "$79,222 billion",
+        "gdp_nominal_per_capita": "$37,178"
       },
       "development": {
         "hdi": {
@@ -877,8 +913,13 @@
       },
       "calling_code": "386",
       "iso_3166_code": "SI",
-      "internet_tld": ".si",
-      "time_zone": "UTC+1"
+      "internet_tld": [
+        ".si"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      }
     }
   }
 }

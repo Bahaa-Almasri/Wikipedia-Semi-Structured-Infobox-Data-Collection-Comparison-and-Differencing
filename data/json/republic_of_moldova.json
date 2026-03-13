@@ -3,7 +3,7 @@
     "country_name": "Republic of Moldova",
     "slug": "republic_of_moldova",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Moldova",
-    "retrieved_at": "2026-03-13T10:09:50+00:00",
+    "retrieved_at": "2026-03-13T11:37:59+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -783,7 +783,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$48.511 billion ( 135th )",
+        "tokens": [
+          "48",
+          "511",
+          "billion",
+          "135th"
+        ],
+        "numbers": [
+          48.511,
+          135
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$20,731 ( 93th )",
+        "tokens": [
+          "20",
+          "731",
+          "93th"
+        ],
+        "numbers": [
+          20731,
+          93
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$21.024 billion ( 129th )",
         "tokens": [
@@ -797,7 +835,7 @@
           129
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$8,984 ( 89th )",
         "tokens": [
@@ -808,17 +846,6 @@
         "numbers": [
           8984,
           89
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2021": {
@@ -917,6 +944,11 @@
         "latitude": "47°0′N",
         "longitude": "28°55′E"
       },
+      "languages": {
+        "recognized_minority": [
+          "See list Belarusian Bulgarian Gagauz German Hebrew Polish Romani Russian Ukrainian"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Maia Sandu",
@@ -934,7 +966,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$48.511 billion",
+        "gdp_ppp_per_capita": "$20,731",
+        "gdp_nominal_total": "$21.024 billion",
+        "gdp_nominal_per_capita": "$8,984"
       },
       "development": {
         "hdi": {
@@ -953,8 +989,13 @@
       },
       "calling_code": "373",
       "iso_3166_code": "MD",
-      "internet_tld": ".md",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".md"
+      ],
+      "time_zone": {
+        "standard": "UTC+2",
+        "dst": "UTC+3"
+      },
       "demonym": "Moldovan"
     }
   }

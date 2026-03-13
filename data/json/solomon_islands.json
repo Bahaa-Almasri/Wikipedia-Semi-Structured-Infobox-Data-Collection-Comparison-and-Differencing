@@ -3,7 +3,7 @@
     "country_name": "Solomon Islands",
     "slug": "solomon_islands",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Solomon_Islands",
-    "retrieved_at": "2026-03-13T10:10:20+00:00",
+    "retrieved_at": "2026-03-13T11:38:13+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -567,19 +567,19 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$1.681 billion",
+        "text": "$1.68 billion",
         "tokens": [
           "1",
-          "681",
+          "68",
           "billion"
         ],
         "numbers": [
-          1.681
+          1.68
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,205.25",
         "tokens": [
@@ -600,6 +600,30 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$1.681 billion",
+        "tokens": [
+          "1",
+          "681",
+          "billion"
+        ],
+        "numbers": [
+          1.681
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$2,205.25",
+        "tokens": [
+          "2",
+          "205",
+          "25"
+        ],
+        "numbers": [
+          2205.25
         ]
       },
       "gini_2013": {
@@ -712,7 +736,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2024,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$1.68 billion",
+        "gdp_ppp_per_capita": "$2,205.25",
+        "gdp_nominal_total": "$1.681 billion",
+        "gdp_nominal_per_capita": "$2,205.25"
       },
       "development": {
         "hdi": {
@@ -731,8 +759,13 @@
       },
       "calling_code": "677",
       "iso_3166_code": "SB",
-      "internet_tld": ".sb",
-      "time_zone": "UTC+11"
+      "internet_tld": [
+        ".sb"
+      ],
+      "time_zone": {
+        "standard": "UTC+11",
+        "dst": "Not observed"
+      }
     }
   }
 }

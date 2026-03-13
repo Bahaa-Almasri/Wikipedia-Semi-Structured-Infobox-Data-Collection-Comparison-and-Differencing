@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:07:35+00:00",
+          "value": "2026-03-13T11:36:34+00:00",
           "children": []
         },
         {
@@ -148,8 +148,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$42,413",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$39.943 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$65,304",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$61.501 billion",
               "children": []
             },
             {
@@ -177,13 +197,36 @@
         },
         {
           "label": "internet_tld",
-          "value": ".cy",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".cy",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "CY",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Greek Turkish",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -218,8 +261,19 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+02:00",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "dst",
+              "value": "UTC+03:00",
+              "children": []
+            },
+            {
+              "label": "standard",
+              "value": "UTC+02:00",
+              "children": []
+            }
+          ]
         }
       ]
     }

@@ -3,7 +3,7 @@
     "country_name": "Pakistan",
     "slug": "pakistan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Pakistan",
-    "retrieved_at": "2026-03-13T10:09:33+00:00",
+    "retrieved_at": "2026-03-13T11:37:48+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -680,7 +680,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$1.67 trillion ( 27th )",
+        "tokens": [
+          "1",
+          "67",
+          "trillion",
+          "27th"
+        ],
+        "numbers": [
+          1.67,
+          27
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$6,950 ( 148th )",
+        "tokens": [
+          "6",
+          "950",
+          "148th"
+        ],
+        "numbers": [
+          6950,
+          148
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$410.5 billion ( 42nd )",
         "tokens": [
@@ -694,7 +732,7 @@
           42
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,710 ( 160th )",
         "tokens": [
@@ -705,17 +743,6 @@
         "numbers": [
           1710,
           160
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2018": {
@@ -808,6 +835,11 @@
       "country_name": "Pakistan",
       "capital": "Islamabad",
       "largest_city": "Karachi",
+      "languages": {
+        "official": [
+          "Urdu English"
+        ]
+      },
       "government": {
         "type": "Federal parliamentary Islamic republic",
         "head_of_state": "Asif Ali Zardari",
@@ -826,7 +858,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$1.67 trillion",
+        "gdp_ppp_per_capita": "$6,950",
+        "gdp_nominal_total": "$410.5 billion",
+        "gdp_nominal_per_capita": "$1,710"
       },
       "development": {
         "hdi": {
@@ -844,8 +880,13 @@
       },
       "calling_code": "92",
       "iso_3166_code": "PK",
-      "internet_tld": ".pk پاکستان.",
-      "time_zone": "UTC+5",
+      "internet_tld": [
+        ".pk",
+        "پاکستان."
+      ],
+      "time_zone": {
+        "standard": "UTC+5"
+      },
       "demonym": "Pakistani"
     }
   }

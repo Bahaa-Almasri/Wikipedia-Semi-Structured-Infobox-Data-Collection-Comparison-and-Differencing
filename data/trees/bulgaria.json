@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:07:13+00:00",
+          "value": "2026-03-13T11:36:15+00:00",
           "children": []
         },
         {
@@ -132,8 +132,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$18,522",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$117.007 billion",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$41,901",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$264.699 billion",
               "children": []
             },
             {
@@ -166,13 +186,41 @@
         },
         {
           "label": "internet_tld",
-          "value": ".bg .бг",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".bg",
+              "children": []
+            },
+            {
+              "label": "internet_tld_item",
+              "value": ".бг",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "BG",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Bulgarian",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -212,8 +260,19 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+2",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "dst",
+              "value": "UTC+3",
+              "children": []
+            },
+            {
+              "label": "standard",
+              "value": "UTC+2",
+              "children": []
+            }
+          ]
         }
       ]
     }

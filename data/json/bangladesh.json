@@ -3,7 +3,7 @@
     "country_name": "Bangladesh",
     "slug": "bangladesh",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Bangladesh",
-    "retrieved_at": "2026-03-13T10:06:55+00:00",
+    "retrieved_at": "2026-03-13T11:35:55+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -741,7 +741,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$1.9 trillion ( 25th )",
+        "tokens": [
+          "1",
+          "9",
+          "trillion",
+          "25th"
+        ],
+        "numbers": [
+          1.9,
+          25
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$10,260 ( 125th )",
+        "tokens": [
+          "10",
+          "260",
+          "125th"
+        ],
+        "numbers": [
+          10260,
+          125
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$519.024 billion ( 34th )",
         "tokens": [
@@ -755,7 +793,7 @@
           34
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$2,960 ( 145th )",
         "tokens": [
@@ -766,17 +804,6 @@
         "numbers": [
           2960,
           145
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2025": {
@@ -886,7 +913,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$1.9 trillion",
+        "gdp_ppp_per_capita": "$10,260",
+        "gdp_nominal_total": "$519.024 billion",
+        "gdp_nominal_per_capita": "$2,960"
       },
       "development": {
         "hdi": {
@@ -904,8 +935,13 @@
       },
       "calling_code": "880",
       "iso_3166_code": "BD",
-      "internet_tld": ".bd .বাংলা",
-      "time_zone": "UTC+6",
+      "internet_tld": [
+        ".bd",
+        ".বাংলা"
+      ],
+      "time_zone": {
+        "standard": "UTC+6"
+      },
       "demonym": "Bangladeshi"
     }
   }

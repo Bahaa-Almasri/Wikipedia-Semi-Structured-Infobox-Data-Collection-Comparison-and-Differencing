@@ -3,7 +3,7 @@
     "country_name": "Estonia",
     "slug": "estonia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Estonia",
-    "retrieved_at": "2026-03-13T10:07:51+00:00",
+    "retrieved_at": "2026-03-13T11:36:49+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -574,7 +574,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$68.240 billion ( 119th )",
+        "tokens": [
+          "68",
+          "240",
+          "billion",
+          "119th"
+        ],
+        "numbers": [
+          68.24,
+          119
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$50,758 ( 42nd )",
+        "tokens": [
+          "50",
+          "758",
+          "42nd"
+        ],
+        "numbers": [
+          50758,
+          42
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$45.00 billion ( 99th )",
         "tokens": [
@@ -588,7 +626,7 @@
           99
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$37,195 ( 37th )",
         "tokens": [
@@ -599,17 +637,6 @@
         "numbers": [
           37195,
           37
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2021": {
@@ -729,7 +756,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$68.240 billion",
+        "gdp_ppp_per_capita": "$50,758",
+        "gdp_nominal_total": "$45.00 billion",
+        "gdp_nominal_per_capita": "$37,195"
       },
       "development": {
         "hdi": {
@@ -747,8 +778,13 @@
       },
       "calling_code": "372",
       "iso_3166_code": "EE",
-      "internet_tld": ".ee",
-      "time_zone": "UTC+02:00",
+      "internet_tld": [
+        ".ee"
+      ],
+      "time_zone": {
+        "standard": "UTC+02:00",
+        "dst": "UTC+03:00"
+      },
       "demonym": "Estonian"
     }
   }

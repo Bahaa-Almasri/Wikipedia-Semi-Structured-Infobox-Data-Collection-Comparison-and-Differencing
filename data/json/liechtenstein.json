@@ -3,7 +3,7 @@
     "country_name": "Liechtenstein",
     "slug": "liechtenstein",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Liechtenstein",
-    "retrieved_at": "2026-03-13T10:08:51+00:00",
+    "retrieved_at": "2026-03-13T11:37:23+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -626,7 +626,43 @@
           2024
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$7.172 billion ( 169th )",
+        "tokens": [
+          "7",
+          "172",
+          "billion",
+          "169th"
+        ],
+        "numbers": [
+          7.172,
+          169
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$210,600",
+        "tokens": [
+          "210",
+          "600"
+        ],
+        "numbers": [
+          210600
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2023 estimate",
+        "tokens": [
+          "2023",
+          "estimate"
+        ],
+        "numbers": [
+          2023
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$8.288 billion ( 155th )",
         "tokens": [
@@ -640,7 +676,7 @@
           155
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$207,974",
         "tokens": [
@@ -649,17 +685,6 @@
         ],
         "numbers": [
           207974
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2023 estimate",
-        "tokens": [
-          "2023",
-          "estimate"
-        ],
-        "numbers": [
-          2023
         ]
       },
       "hdi_2023": {
@@ -746,6 +771,11 @@
       "country_name": "Liechtenstein",
       "capital": "Vaduz",
       "largest_city": "Vaduz",
+      "languages": {
+        "official": [
+          "German"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy",
         "head_of_state": "Hans-Adam II",
@@ -764,7 +794,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2023,
-        "gdp_ppp_year": 2024
+        "gdp_ppp_year": 2024,
+        "gdp_ppp_total": "$7.172 billion",
+        "gdp_ppp_per_capita": "$210,600",
+        "gdp_nominal_total": "$8.288 billion",
+        "gdp_nominal_per_capita": "$207,974"
       },
       "development": {
         "hdi": {
@@ -779,8 +813,13 @@
       },
       "calling_code": "423",
       "iso_3166_code": "LI",
-      "internet_tld": ".li",
-      "time_zone": "UTC+01:00",
+      "internet_tld": [
+        ".li"
+      ],
+      "time_zone": {
+        "standard": "UTC+01:00",
+        "dst": "UTC+02:00"
+      },
       "demonym": "Liechtensteiner"
     }
   }

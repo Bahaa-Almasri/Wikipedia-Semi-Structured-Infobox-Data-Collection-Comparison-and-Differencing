@@ -3,7 +3,7 @@
     "country_name": "Eritrea",
     "slug": "eritrea",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Eritrea",
-    "retrieved_at": "2026-03-13T10:07:49+00:00",
+    "retrieved_at": "2026-03-13T11:36:48+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -529,26 +529,27 @@
           2019
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$1.982 billion",
+        "text": "$6.369 billion",
         "tokens": [
-          "1",
-          "982",
+          "6",
+          "369",
           "billion"
         ],
         "numbers": [
-          1.982
+          6.369
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$567",
+        "text": "$1,821",
         "tokens": [
-          "567"
+          "1",
+          "821"
         ],
         "numbers": [
-          567
+          1821
         ]
       },
       "gdp_nominal": {
@@ -560,6 +561,28 @@
         ],
         "numbers": [
           2019
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$1.982 billion",
+        "tokens": [
+          "1",
+          "982",
+          "billion"
+        ],
+        "numbers": [
+          1.982
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$567",
+        "tokens": [
+          "567"
+        ],
+        "numbers": [
+          567
         ]
       },
       "hdi_2023": {
@@ -634,6 +657,11 @@
         "latitude": "15°20′N",
         "longitude": "38°55′E"
       },
+      "languages": {
+        "official": [
+          "None"
+        ]
+      },
       "government": {
         "type": "Unitary one-party presidential republic under a totalitarian dictatorship",
         "head_of_state": "Isaias Afwerki"
@@ -648,7 +676,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2019,
-        "gdp_ppp_year": 2019
+        "gdp_ppp_year": 2019,
+        "gdp_ppp_total": "$6.369 billion",
+        "gdp_ppp_per_capita": "$1,821",
+        "gdp_nominal_total": "$1.982 billion",
+        "gdp_nominal_per_capita": "$567"
       },
       "development": {
         "hdi": {
@@ -663,8 +695,12 @@
       },
       "calling_code": "291",
       "iso_3166_code": "ER",
-      "internet_tld": ".er",
-      "time_zone": "UTC+03:00",
+      "internet_tld": [
+        ".er"
+      ],
+      "time_zone": {
+        "standard": "UTC+03:00"
+      },
       "demonym": "Eritrean"
     }
   }

@@ -3,7 +3,7 @@
     "country_name": "Honduras",
     "slug": "honduras",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Honduras",
-    "retrieved_at": "2026-03-13T10:08:14+00:00",
+    "retrieved_at": "2026-03-13T11:37:04+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -516,27 +516,27 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
         "raw_label": "• Total",
-        "text": "$39.450 billion",
+        "text": "$86.290 billion",
         "tokens": [
-          "39",
-          "450",
+          "86",
+          "290",
           "billion"
         ],
         "numbers": [
-          39.45
+          86.29
         ]
       },
-      "per_capita": {
+      "gdp_ppp_per_capita": {
         "raw_label": "• Per capita",
-        "text": "$3,640",
+        "text": "$7,960",
         "tokens": [
-          "3",
-          "640"
+          "7",
+          "960"
         ],
         "numbers": [
-          3640
+          7960
         ]
       },
       "gdp_nominal": {
@@ -548,6 +548,29 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "gdp_nominal_total": {
+        "raw_label": "• Total",
+        "text": "$39.450 billion",
+        "tokens": [
+          "39",
+          "450",
+          "billion"
+        ],
+        "numbers": [
+          39.45
+        ]
+      },
+      "gdp_nominal_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$3,640",
+        "tokens": [
+          "3",
+          "640"
+        ],
+        "numbers": [
+          3640
         ]
       },
       "gini_2018": {
@@ -643,6 +666,11 @@
         "latitude": "14°6′N",
         "longitude": "87°13′W"
       },
+      "languages": {
+        "official": [
+          "Spanish"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Nasry Asfura"
@@ -659,7 +687,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$86.290 billion",
+        "gdp_ppp_per_capita": "$7,960",
+        "gdp_nominal_total": "$39.450 billion",
+        "gdp_nominal_per_capita": "$3,640"
       },
       "development": {
         "hdi": {
@@ -678,8 +710,12 @@
       },
       "calling_code": "504",
       "iso_3166_code": "HN",
-      "internet_tld": ".hn",
-      "time_zone": "UTC −6 ( CST )"
+      "internet_tld": [
+        ".hn"
+      ],
+      "time_zone": {
+        "standard": "UTC −6 ( CST )"
+      }
     }
   }
 }

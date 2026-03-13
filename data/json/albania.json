@@ -3,7 +3,7 @@
     "country_name": "Albania",
     "slug": "albania",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Albania",
-    "retrieved_at": "2026-03-13T10:06:31+00:00",
+    "retrieved_at": "2026-03-13T11:35:44+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -849,7 +849,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$66.290  billion ( 118th )",
+        "tokens": [
+          "66",
+          "290",
+          "billion",
+          "118th"
+        ],
+        "numbers": [
+          66.29,
+          118
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$24,840 ( 80th )",
+        "tokens": [
+          "24",
+          "840",
+          "80th"
+        ],
+        "numbers": [
+          24840,
+          80
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$32.410 billion ( 125th )",
         "tokens": [
@@ -863,7 +901,7 @@
           125
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$12,150 ( 79th )",
         "tokens": [
@@ -874,17 +912,6 @@
         "numbers": [
           12150,
           79
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2021": {
@@ -983,6 +1010,14 @@
         "latitude": "41°19′N",
         "longitude": "19°49′E"
       },
+      "languages": {
+        "official": [
+          "Albanian"
+        ],
+        "recognized_minority": [
+          "Greek Aromanian Macedonian"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Bajram Begaj",
@@ -1002,7 +1037,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$66.290  billion",
+        "gdp_ppp_per_capita": "$24,840",
+        "gdp_nominal_total": "$32.410 billion",
+        "gdp_nominal_per_capita": "$12,150"
       },
       "development": {
         "hdi": {
@@ -1021,8 +1060,13 @@
       },
       "calling_code": "355",
       "iso_3166_code": "AL",
-      "internet_tld": ".al",
-      "time_zone": "UTC+1",
+      "internet_tld": [
+        ".al"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      },
       "demonym": "Albanian"
     }
   }

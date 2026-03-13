@@ -3,7 +3,7 @@
     "country_name": "Central African Republic",
     "slug": "central_african_republic",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Central_African_Republic",
-    "retrieved_at": "2026-03-13T10:07:21+00:00",
+    "retrieved_at": "2026-03-13T11:36:19+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -602,7 +602,45 @@
           2026
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$7.940 billion ( 170th )",
+        "tokens": [
+          "7",
+          "940",
+          "billion",
+          "170th"
+        ],
+        "numbers": [
+          7.94,
+          170
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$1,390 ( 190th )",
+        "tokens": [
+          "1",
+          "390",
+          "190th"
+        ],
+        "numbers": [
+          1390,
+          190
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2026 estimate",
+        "tokens": [
+          "2026",
+          "estimate"
+        ],
+        "numbers": [
+          2026
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$3.710 billion ( 182nd )",
         "tokens": [
@@ -616,7 +654,7 @@
           182
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$650 ( 191st )",
         "tokens": [
@@ -626,17 +664,6 @@
         "numbers": [
           650,
           191
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2026 estimate",
-        "tokens": [
-          "2026",
-          "estimate"
-        ],
-        "numbers": [
-          2026
         ]
       },
       "gini_2021": {
@@ -726,6 +753,11 @@
         "latitude": "4°22′N",
         "longitude": "18°35′E"
       },
+      "languages": {
+        "official": [
+          "French Sango (co-official)"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Faustin-Archange Touadéra",
@@ -743,7 +775,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2026,
-        "gdp_ppp_year": 2026
+        "gdp_ppp_year": 2026,
+        "gdp_ppp_total": "$7.940 billion",
+        "gdp_ppp_per_capita": "$1,390",
+        "gdp_nominal_total": "$3.710 billion",
+        "gdp_nominal_per_capita": "$650"
       },
       "development": {
         "hdi": {
@@ -762,8 +798,12 @@
       },
       "calling_code": "236",
       "iso_3166_code": "CF",
-      "internet_tld": ".cf",
-      "time_zone": "UTC+01:00",
+      "internet_tld": [
+        ".cf"
+      ],
+      "time_zone": {
+        "standard": "UTC+01:00"
+      },
       "demonym": "Central African"
     }
   }

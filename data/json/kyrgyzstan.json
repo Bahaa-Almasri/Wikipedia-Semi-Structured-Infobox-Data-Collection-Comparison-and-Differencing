@@ -3,7 +3,7 @@
     "country_name": "Kyrgyzstan",
     "slug": "kyrgyzstan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kyrgyzstan",
-    "retrieved_at": "2026-03-13T10:08:43+00:00",
+    "retrieved_at": "2026-03-13T11:37:18+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -733,7 +733,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$64.110 billion ( 128th )",
+        "tokens": [
+          "64",
+          "110",
+          "billion",
+          "128th"
+        ],
+        "numbers": [
+          64.11,
+          128
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$8,870 ( 136th )",
+        "tokens": [
+          "8",
+          "870",
+          "136th"
+        ],
+        "numbers": [
+          8870,
+          136
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$22.587 billion ( 126th )",
         "tokens": [
@@ -747,7 +785,7 @@
           126
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$3,101 ( 139th )",
         "tokens": [
@@ -758,17 +796,6 @@
         "numbers": [
           3101,
           139
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2022": {
@@ -866,6 +893,11 @@
         "latitude": "42°52′N",
         "longitude": "74°36′E"
       },
+      "languages": {
+        "official": [
+          "Kyrgyz (state) Russian (official)"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Sadyr Japarov"
@@ -882,7 +914,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$64.110 billion",
+        "gdp_ppp_per_capita": "$8,870",
+        "gdp_nominal_total": "$22.587 billion",
+        "gdp_nominal_per_capita": "$3,101"
       },
       "development": {
         "hdi": {
@@ -900,8 +936,12 @@
       },
       "calling_code": "996",
       "iso_3166_code": "KG",
-      "internet_tld": ".kg",
-      "time_zone": "UTC+6"
+      "internet_tld": [
+        ".kg"
+      ],
+      "time_zone": {
+        "standard": "UTC+6"
+      }
     }
   }
 }

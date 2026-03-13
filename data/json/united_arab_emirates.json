@@ -3,7 +3,7 @@
     "country_name": "United Arab Emirates",
     "slug": "united_arab_emirates",
     "wikipedia_url": "https://en.wikipedia.org/wiki/United_Arab_Emirates",
-    "retrieved_at": "2026-03-13T10:10:48+00:00",
+    "retrieved_at": "2026-03-13T11:38:33+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -666,7 +666,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$905.23 billion ( 36th )",
+        "tokens": [
+          "905",
+          "23",
+          "billion",
+          "36th"
+        ],
+        "numbers": [
+          905.23,
+          36
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$81,680 ( 13th )",
+        "tokens": [
+          "81",
+          "680",
+          "13th"
+        ],
+        "numbers": [
+          81680,
+          13
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$548.60 billion ( 28th )",
         "tokens": [
@@ -680,7 +718,7 @@
           28
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$49,550 ( 21st )",
         "tokens": [
@@ -691,17 +729,6 @@
         "numbers": [
           49550,
           21
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2018": {
@@ -790,6 +817,11 @@
         "latitude": "24°28′N",
         "longitude": "54°22′E"
       },
+      "languages": {
+        "official": [
+          "Arabic"
+        ]
+      },
       "government": {
         "type": "Federal semi-presidential elective semi-constitutional monarchy",
         "head_of_state": "Mohamed bin Zayed Al Nahyan",
@@ -806,7 +838,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$905.23 billion",
+        "gdp_ppp_per_capita": "$81,680",
+        "gdp_nominal_total": "$548.60 billion",
+        "gdp_nominal_per_capita": "$49,550"
       },
       "development": {
         "hdi": {
@@ -825,8 +861,13 @@
       },
       "calling_code": "971",
       "iso_3166_code": "AE",
-      "internet_tld": ".ae امارات.",
-      "time_zone": "UTC+04:00",
+      "internet_tld": [
+        ".ae",
+        "امارات."
+      ],
+      "time_zone": {
+        "standard": "UTC+04:00"
+      },
       "demonym": "Emirati"
     }
   }

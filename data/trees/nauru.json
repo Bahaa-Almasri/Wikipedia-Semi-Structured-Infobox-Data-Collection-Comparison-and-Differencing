@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-13T10:09:18+00:00",
+          "value": "2026-03-13T11:37:40+00:00",
           "children": []
         },
         {
@@ -121,8 +121,28 @@
           "value": null,
           "children": [
             {
+              "label": "gdp_nominal_per_capita",
+              "value": "$10,125",
+              "children": []
+            },
+            {
+              "label": "gdp_nominal_total",
+              "value": "$150 million",
+              "children": []
+            },
+            {
               "label": "gdp_nominal_year",
               "value": "2022",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_per_capita",
+              "value": "$9,995",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_total",
+              "value": "$132 million",
               "children": []
             },
             {
@@ -150,13 +170,36 @@
         },
         {
           "label": "internet_tld",
-          "value": ".nr",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "internet_tld_item",
+              "value": ".nr",
+              "children": []
+            }
+          ]
         },
         {
           "label": "iso_3166_code",
           "value": "NR",
           "children": []
+        },
+        {
+          "label": "languages",
+          "value": null,
+          "children": [
+            {
+              "label": "official",
+              "value": null,
+              "children": [
+                {
+                  "label": "official_item",
+                  "value": "Nauruan English",
+                  "children": []
+                }
+              ]
+            }
+          ]
         },
         {
           "label": "largest_city",
@@ -196,8 +239,14 @@
         },
         {
           "label": "time_zone",
-          "value": "UTC+12",
-          "children": []
+          "value": null,
+          "children": [
+            {
+              "label": "standard",
+              "value": "UTC+12",
+              "children": []
+            }
+          ]
         }
       ]
     }

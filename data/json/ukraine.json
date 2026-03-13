@@ -3,7 +3,7 @@
     "country_name": "Ukraine",
     "slug": "ukraine",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ukraine",
-    "retrieved_at": "2026-03-13T10:10:47+00:00",
+    "retrieved_at": "2026-03-13T11:38:31+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -693,7 +693,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$690.059 billion ( 45th )",
+        "tokens": [
+          "690",
+          "059",
+          "billion",
+          "45th"
+        ],
+        "numbers": [
+          690.059,
+          45
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$20,999 ( 89th )",
+        "tokens": [
+          "20",
+          "999",
+          "89th"
+        ],
+        "numbers": [
+          20999,
+          89
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$205.742 billion ( 58th )",
         "tokens": [
@@ -707,7 +745,7 @@
           58
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$6,261 ( 112th )",
         "tokens": [
@@ -718,17 +756,6 @@
         "numbers": [
           6261,
           112
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2020": {
@@ -855,7 +882,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$690.059 billion",
+        "gdp_ppp_per_capita": "$20,999",
+        "gdp_nominal_total": "$205.742 billion",
+        "gdp_nominal_per_capita": "$6,261"
       },
       "development": {
         "hdi": {
@@ -873,8 +904,14 @@
       },
       "calling_code": "380",
       "iso_3166_code": "UA",
-      "internet_tld": ".ua .укр",
-      "time_zone": "UTC+2",
+      "internet_tld": [
+        ".ua",
+        ".укр"
+      ],
+      "time_zone": {
+        "standard": "UTC+2",
+        "dst": "UTC+3"
+      },
       "demonym": "Ukrainian"
     }
   }

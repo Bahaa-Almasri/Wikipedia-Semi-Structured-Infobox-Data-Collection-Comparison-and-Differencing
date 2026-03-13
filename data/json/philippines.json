@@ -3,7 +3,7 @@
     "country_name": "Philippines",
     "slug": "philippines",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Philippines",
-    "retrieved_at": "2026-03-13T10:09:42+00:00",
+    "retrieved_at": "2026-03-13T11:37:53+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -786,7 +786,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$1.488 trillion ( 30th )",
+        "tokens": [
+          "1",
+          "488",
+          "trillion",
+          "30th"
+        ],
+        "numbers": [
+          1.488,
+          30
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$12,930 ( 114th )",
+        "tokens": [
+          "12",
+          "930",
+          "114th"
+        ],
+        "numbers": [
+          12930,
+          114
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$497.05 billion ( 32nd )",
         "tokens": [
@@ -800,7 +838,7 @@
           32
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$4,350 ( 125th )",
         "tokens": [
@@ -811,17 +849,6 @@
         "numbers": [
           4350,
           125
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -904,6 +931,11 @@
       "country_name": "Philippines",
       "capital": "Manila ( de jure ) Metro Manila ( de facto )",
       "largest_city": "Quezon City",
+      "languages": {
+        "official": [
+          "Filipino English"
+        ]
+      },
       "government": {
         "type": "Unitary presidential republic",
         "head_of_state": "Bongbong Marcos"
@@ -920,7 +952,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$1.488 trillion",
+        "gdp_ppp_per_capita": "$12,930",
+        "gdp_nominal_total": "$497.05 billion",
+        "gdp_nominal_per_capita": "$4,350"
       },
       "development": {
         "hdi": {
@@ -938,8 +974,12 @@
       },
       "calling_code": "63",
       "iso_3166_code": "PH",
-      "internet_tld": ".ph",
-      "time_zone": "UTC+8"
+      "internet_tld": [
+        ".ph"
+      ],
+      "time_zone": {
+        "standard": "UTC+8"
+      }
     }
   }
 }

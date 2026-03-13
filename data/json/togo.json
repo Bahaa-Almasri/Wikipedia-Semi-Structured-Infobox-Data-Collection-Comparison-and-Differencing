@@ -3,7 +3,7 @@
     "country_name": "Togo",
     "slug": "togo",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Togo",
-    "retrieved_at": "2026-03-13T10:10:40+00:00",
+    "retrieved_at": "2026-03-13T11:38:24+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -700,7 +700,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$33.050 billion ( 147th )",
+        "tokens": [
+          "33",
+          "050",
+          "billion",
+          "147th"
+        ],
+        "numbers": [
+          33.05,
+          147
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$3,470 ( 166th )",
+        "tokens": [
+          "3",
+          "470",
+          "166th"
+        ],
+        "numbers": [
+          3470,
+          166
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$10.020 billion ( 151st )",
         "tokens": [
@@ -714,7 +752,7 @@
           151
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$1,050 ( 171st )",
         "tokens": [
@@ -725,17 +763,6 @@
         "numbers": [
           1050,
           171
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2015": {
@@ -836,6 +863,11 @@
         "latitude": "6°8′N",
         "longitude": "1°13′E"
       },
+      "languages": {
+        "official": [
+          "French"
+        ]
+      },
       "government": {
         "type": "Unitary parliamentary republic",
         "head_of_state": "Jean-Lucien Savi de Tové",
@@ -854,7 +886,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$33.050 billion",
+        "gdp_ppp_per_capita": "$3,470",
+        "gdp_nominal_total": "$10.020 billion",
+        "gdp_nominal_per_capita": "$1,050"
       },
       "development": {
         "hdi": {
@@ -873,8 +909,12 @@
       },
       "calling_code": "228",
       "iso_3166_code": "TG",
-      "internet_tld": ".tg",
-      "time_zone": "UTC+00:00",
+      "internet_tld": [
+        ".tg"
+      ],
+      "time_zone": {
+        "standard": "UTC+00:00"
+      },
       "demonym": "Togolese"
     }
   }

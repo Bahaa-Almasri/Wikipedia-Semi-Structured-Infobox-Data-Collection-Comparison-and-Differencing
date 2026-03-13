@@ -3,7 +3,7 @@
     "country_name": "Switzerland",
     "slug": "switzerland",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Switzerland",
-    "retrieved_at": "2026-03-13T10:10:36+00:00",
+    "retrieved_at": "2026-03-13T11:38:20+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -712,7 +712,45 @@
           2025
         ]
       },
-      "total": {
+      "gdp_ppp_total": {
+        "raw_label": "• Total",
+        "text": "$881.083 billion ( 35th )",
+        "tokens": [
+          "881",
+          "083",
+          "billion",
+          "35th"
+        ],
+        "numbers": [
+          881.083,
+          35
+        ]
+      },
+      "gdp_ppp_per_capita": {
+        "raw_label": "• Per capita",
+        "text": "$97,660 ( 6th )",
+        "tokens": [
+          "97",
+          "660",
+          "6th"
+        ],
+        "numbers": [
+          97660,
+          6
+        ]
+      },
+      "gdp_nominal": {
+        "raw_label": "GDP (nominal)",
+        "text": "2025 estimate",
+        "tokens": [
+          "2025",
+          "estimate"
+        ],
+        "numbers": [
+          2025
+        ]
+      },
+      "gdp_nominal_total": {
         "raw_label": "• Total",
         "text": "$1.003 trillion ( 20th )",
         "tokens": [
@@ -726,7 +764,7 @@
           20
         ]
       },
-      "per_capita": {
+      "gdp_nominal_per_capita": {
         "raw_label": "• Per capita",
         "text": "$111,047 ( 3rd )",
         "tokens": [
@@ -737,17 +775,6 @@
         "numbers": [
           111047,
           3
-        ]
-      },
-      "gdp_nominal": {
-        "raw_label": "GDP (nominal)",
-        "text": "2025 estimate",
-        "tokens": [
-          "2025",
-          "estimate"
-        ],
-        "numbers": [
-          2025
         ]
       },
       "gini_2023": {
@@ -855,6 +882,14 @@
       "country_name": "Switzerland",
       "capital": "Bern ( de facto )",
       "largest_city": "Zurich",
+      "languages": {
+        "official": [
+          "German (62%)",
+          "French (23%)",
+          "Italian (8%)",
+          "Romansh (0.5%)"
+        ]
+      },
       "government": {
         "type": "Federal assembly-independent directorial republic"
       },
@@ -871,7 +906,11 @@
       },
       "economy": {
         "gdp_nominal_year": 2025,
-        "gdp_ppp_year": 2025
+        "gdp_ppp_year": 2025,
+        "gdp_ppp_total": "$881.083 billion",
+        "gdp_ppp_per_capita": "$97,660",
+        "gdp_nominal_total": "$1.003 trillion",
+        "gdp_nominal_per_capita": "$111,047"
       },
       "development": {
         "hdi": {
@@ -890,8 +929,14 @@
       },
       "calling_code": "41",
       "iso_3166_code": "CH",
-      "internet_tld": ".ch , .swiss",
-      "time_zone": "UTC+1"
+      "internet_tld": [
+        ".ch",
+        ".swiss"
+      ],
+      "time_zone": {
+        "standard": "UTC+1",
+        "dst": "UTC+2"
+      }
     }
   }
 }
