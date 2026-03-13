@@ -10,7 +10,7 @@ from .config import WIKIPEDIA
 from .country_list import CountryInfo, fetch_un_member_states
 from .fetch import get
 from .infobox_parser import ParsedInfobox, parse_infobox
-from .normalization import normalize_rows, normalized_fields_to_dict
+from .normalization import build_comparison_fields, normalize_rows, normalized_fields_to_dict
 from .storage import (
     ensure_data_dirs,
     iso_now,
@@ -37,6 +37,7 @@ def _build_document(
 ) -> Dict:
     normalized = normalize_rows(parsed.rows)
     normalized_dict = normalized_fields_to_dict(normalized)
+    comparison_fields = build_comparison_fields(normalized, country_name=country.name)
 
     raw_rows = [
         {
@@ -72,6 +73,7 @@ def _build_document(
         },
         "normalized": {
             "fields": normalized_dict,
+            "comparison_fields": comparison_fields,
         },
     }
     return document
