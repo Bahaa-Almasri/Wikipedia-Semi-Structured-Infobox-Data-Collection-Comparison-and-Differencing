@@ -3,7 +3,7 @@
     "country_name": "Angola",
     "slug": "angola",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Angola",
-    "retrieved_at": "2026-03-11T17:52:32+00:00",
+    "retrieved_at": "2026-03-13T10:06:37+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,37 +70,37 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Granted",
+        "label": "Independence from Portugal • Granted",
         "value_html": "<td class=\"infobox-data\">11 November 1975</td>",
         "value_text": "11 November 1975"
       },
       {
-        "label": "• United Nations full membership",
+        "label": "Independence from Portugal • United Nations full membership",
         "value_html": "<td class=\"infobox-data\">22 November 1976</td>",
         "value_text": "22 November 1976"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from Portugal • Current constitution",
         "value_html": "<td class=\"infobox-data\">21 January 2010</td>",
         "value_text": "21 January 2010"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">1,246,700 km<sup>2</sup> (481,400 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">22nd</a>)</td>",
         "value_text": "1,246,700 km 2 (481,400 sq mi) ( 22nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">negligible</td>",
         "value_text": "negligible"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 36,604,681<sup class=\"reference\" id=\"cite_ref-censoAO_2-1\"><a href=\"#cite_note-censoAO-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">41st</a>)</td>",
         "value_text": "36,604,681 [ 2 ] ( 41st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">29.4/km<sup>2</sup> (76.1/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">189th</a>)</td>",
         "value_text": "29.4/km 2 (76.1/sq mi) ( 189th )"
       },
@@ -222,31 +222,31 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Granted",
+        "label": "Independence from Portugal • Granted",
         "value_text": "11 November 1975"
       },
       {
-        "label": "• United Nations full membership",
+        "label": "Independence from Portugal • United Nations full membership",
         "value_text": "22 November 1976"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from Portugal • Current constitution",
         "value_text": "21 January 2010"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "1,246,700 km 2 (481,400 sq mi) ( 22nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "negligible"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_text": "36,604,681 ( 41st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "29.4/km 2 (76.1/sq mi) ( 189th )"
       },
       {
@@ -493,8 +493,8 @@
         ],
         "numbers": []
       },
-      "granted": {
-        "raw_label": "• Granted",
+      "independence_from_portugal_granted": {
+        "raw_label": "Independence from Portugal • Granted",
         "text": "11 November 1975",
         "tokens": [
           "11",
@@ -506,8 +506,8 @@
           1975
         ]
       },
-      "united_nations_full_membership": {
-        "raw_label": "• United Nations full membership",
+      "independence_from_portugal_united_nations_full_membership": {
+        "raw_label": "Independence from Portugal • United Nations full membership",
         "text": "22 November 1976",
         "tokens": [
           "22",
@@ -519,8 +519,8 @@
           1976
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_portugal_current_constitution": {
+        "raw_label": "Independence from Portugal • Current constitution",
         "text": "21 January 2010",
         "tokens": [
           "21",
@@ -532,30 +532,38 @@
           2010
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$113.34\tbillion ( 68th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "1,246,700 km 2 (481,400 sq mi) ( 22nd )",
         "tokens": [
-          "113",
-          "34",
-          "billion",
-          "68th"
+          "1",
+          "246",
+          "700",
+          "km",
+          "2",
+          "481",
+          "400",
+          "sq",
+          "mi",
+          "22nd"
         ],
         "numbers": [
-          113.34,
-          68
+          1246700,
+          2,
+          481400,
+          22
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "negligible",
         "tokens": [
           "negligible"
         ],
         "numbers": []
       },
-      "2024_census": {
-        "raw_label": "• 2024 census",
+      "population_2024_census": {
+        "raw_label": "Population • 2024 census",
         "text": "36,604,681 ( 41st )",
         "tokens": [
           "36",
@@ -568,8 +576,8 @@
           41
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "29.4/km 2 (76.1/sq mi) ( 189th )",
         "tokens": [
           "29",
@@ -598,6 +606,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$113.34\tbillion ( 68th )",
+        "tokens": [
+          "113",
+          "34",
+          "billion",
+          "68th"
+        ],
+        "numbers": [
+          113.34,
+          68
         ]
       },
       "per_capita": {
@@ -699,6 +721,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Angola",
+      "capital": "Luanda",
+      "largest_city": "Luanda",
+      "coordinates": {
+        "latitude": "8°50′S",
+        "longitude": "13°20′E"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "João Lourenço"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 1246700
+      },
+      "population": {
+        "year": 2024,
+        "total": 36604681,
+        "rank": 41,
+        "density_per_km2": 29.4
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.616,
+          "rank": 148
+        },
+        "gini": {
+          "year": 2018,
+          "value": 51.3
+        }
+      },
+      "currency": {
+        "name": "Angolan kwanza",
+        "code": "AOA"
+      },
+      "calling_code": "244",
+      "iso_3166_code": "AO",
+      "internet_tld": ".ao",
+      "time_zone": "UTC+1",
+      "demonym": "Angolan"
     }
   }
 }

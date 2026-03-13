@@ -3,7 +3,7 @@
     "country_name": "Chad",
     "slug": "chad",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Chad",
-    "retrieved_at": "2026-03-11T17:53:22+00:00",
+    "retrieved_at": "2026-03-13T10:07:22+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,37 +60,37 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Colony established",
+        "label": "Independence from France • Colony established",
         "value_html": "<td class=\"infobox-data\">5 September 1900</td>",
         "value_text": "5 September 1900"
       },
       {
-        "label": "• Autonomy granted",
+        "label": "Independence from France • Autonomy granted",
         "value_html": "<td class=\"infobox-data\">28 November 1958</td>",
         "value_text": "28 November 1958"
       },
       {
-        "label": "• Sovereign state",
+        "label": "Independence from France • Sovereign state",
         "value_html": "<td class=\"infobox-data\">11 August 1960</td>",
         "value_text": "11 August 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">1,280,000<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (490,000 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">20th</a>)</td>",
         "value_text": "1,280,000 [ 3 ] km 2 (490,000 sq mi) ( 20th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.9</td>",
         "value_text": "1.9"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 19,093,595<sup class=\"reference\" id=\"cite_ref-4\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">66th</a>)</td>",
         "value_text": "19,093,595 [ 4 ] ( 66th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">14.4/km<sup>2</sup> (37.3/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">218th</a>)</td>",
         "value_text": "14.4/km 2 (37.3/sq mi) ( 218th )"
       },
@@ -204,31 +204,31 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Colony established",
+        "label": "Independence from France • Colony established",
         "value_text": "5 September 1900"
       },
       {
-        "label": "• Autonomy granted",
+        "label": "Independence from France • Autonomy granted",
         "value_text": "28 November 1958"
       },
       {
-        "label": "• Sovereign state",
+        "label": "Independence from France • Sovereign state",
         "value_text": "11 August 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "1,280,000 km 2 (490,000 sq mi) ( 20th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.9"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "19,093,595 ( 66th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "14.4/km 2 (37.3/sq mi) ( 218th )"
       },
       {
@@ -431,8 +431,8 @@
         ],
         "numbers": []
       },
-      "colony_established": {
-        "raw_label": "• Colony established",
+      "independence_from_france_colony_established": {
+        "raw_label": "Independence from France • Colony established",
         "text": "5 September 1900",
         "tokens": [
           "5",
@@ -444,8 +444,8 @@
           1900
         ]
       },
-      "autonomy_granted": {
-        "raw_label": "• Autonomy granted",
+      "independence_from_france_autonomy_granted": {
+        "raw_label": "Independence from France • Autonomy granted",
         "text": "28 November 1958",
         "tokens": [
           "28",
@@ -457,8 +457,8 @@
           1958
         ]
       },
-      "sovereign_state": {
-        "raw_label": "• Sovereign state",
+      "independence_from_france_sovereign_state": {
+        "raw_label": "Independence from France • Sovereign state",
         "text": "11 August 1960",
         "tokens": [
           "11",
@@ -470,22 +470,30 @@
           1960
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$23.560 billion ( 145th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "1,280,000 km 2 (490,000 sq mi) ( 20th )",
         "tokens": [
-          "23",
-          "560",
-          "billion",
-          "145th"
+          "1",
+          "280",
+          "000",
+          "km",
+          "2",
+          "490",
+          "000",
+          "sq",
+          "mi",
+          "20th"
         ],
         "numbers": [
-          23.56,
-          145
+          1280000,
+          2,
+          490000,
+          20
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.9",
         "tokens": [
           "1",
@@ -495,8 +503,8 @@
           1.9
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "19,093,595 ( 66th )",
         "tokens": [
           "19",
@@ -509,8 +517,8 @@
           66
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "14.4/km 2 (37.3/sq mi) ( 218th )",
         "tokens": [
           "14",
@@ -539,6 +547,20 @@
         ],
         "numbers": [
           2026
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$23.560 billion ( 145th )",
+        "tokens": [
+          "23",
+          "560",
+          "billion",
+          "145th"
+        ],
+        "numbers": [
+          23.56,
+          145
         ]
       },
       "per_capita": {
@@ -644,6 +666,51 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Chad",
+      "capital": "N'Djamena",
+      "largest_city": "N'Djamena",
+      "government": {
+        "type": "Unitary semi-presidential republic under a hereditary dictatorship",
+        "head_of_state": "Mahamat Déby",
+        "head_of_government": "Allamaye Halina"
+      },
+      "legislature": "Bicameral parliament",
+      "area": {
+        "total_km2": 1280000,
+        "water_percent": 1.9
+      },
+      "population": {
+        "year": 2024,
+        "total": 19093595,
+        "rank": 66,
+        "density_per_km2": 14.4
+      },
+      "economy": {
+        "gdp_nominal_year": 2026,
+        "gdp_ppp_year": 2026
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.416,
+          "rank": 190
+        },
+        "gini": {
+          "year": 2022,
+          "value": 37.4
+        }
+      },
+      "currency": {
+        "name": "Central African CFA franc",
+        "code": "XAF"
+      },
+      "calling_code": "235",
+      "iso_3166_code": "TD",
+      "internet_tld": ".td",
+      "time_zone": "UTC+01:00",
+      "demonym": "Chadian"
     }
   }
 }

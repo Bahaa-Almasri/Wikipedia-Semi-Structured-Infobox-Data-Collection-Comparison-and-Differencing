@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-11T17:52:30+00:00",
+          "value": "2026-03-13T10:06:33+00:00",
           "children": []
         },
         {
@@ -38,758 +38,124 @@
       "value": null,
       "children": [
         {
-          "label": "2025_estimate",
+          "label": "area",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "47400000",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "32",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 2025 estimate",
+              "label": "total_km2",
+              "value": "2381741",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "47,400,000 ( 32nd )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "47",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "400",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "000",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "32nd",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "assembly_president",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Assembly President",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Ibrahim Boughali",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Ibrahim",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Boughali",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "calling_code",
+          "value": "213",
+          "children": []
+        },
+        {
+          "label": "capital",
+          "value": "Algiers",
+          "children": []
+        },
+        {
+          "label": "coordinates",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "213",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Calling code",
+              "label": "latitude",
+              "value": "36°42′N",
               "children": []
             },
             {
-              "label": "text",
-              "value": "+213",
+              "label": "longitude",
+              "value": "3°13′E",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "213",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
-          "label": "capital_and_largest_city",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "36",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "42",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "13",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "36.7",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "3.217",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "36.7",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "3.217",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Capital and largest city",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Algiers 36°42′N 3°13′E ﻿ / ﻿ 36.700°N 3.217°E ﻿ / 36.700; 3.217",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Algiers",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "36",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "42",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "13",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "E",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "36",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "700",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "217",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "E",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "36",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "700",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "217",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "council_president",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Council President",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Azouz Nasri",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Azouz",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Nasri",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "country_name",
+          "value": "Algeria",
+          "children": []
         },
         {
           "label": "currency",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "code",
+              "value": "DZD",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Currency",
+              "label": "name",
+              "value": "Algerian dinar",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "Algerian dinar ( DZD )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Algerian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "dinar",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "DZD",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "demonym",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Demonym",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Algerian",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Algerian",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "Algerian",
+          "children": []
         },
         {
-          "label": "density",
+          "label": "development",
           "value": null,
           "children": [
             {
-              "label": "numbers",
+              "label": "gini",
               "value": null,
               "children": [
                 {
-                  "label": "numbers_item",
-                  "value": "19",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "49.2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "206",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Density",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "19/km 2 (49.2/sq mi) ( 206th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "19",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "km",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "49",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sq",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "206th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "ethnic_groups",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Ethnic groups",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "See Ethnic groups",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "See",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Ethnic",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "groups",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "foreign_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Foreign languages",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "French English",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "French",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "English",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "french_algeria",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1830",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• French Algeria",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "5 July 1830",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "July",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1830",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_nominal",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP (nominal)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_ppp",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP ( PPP )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gini_2011",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
+                  "label": "value",
                   "value": "27.6",
                   "children": []
+                },
+                {
+                  "label": "year",
+                  "value": "2011",
+                  "children": []
                 }
               ]
             },
             {
-              "label": "raw_label",
-              "value": "Gini (2011)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "27.6 low inequality",
-              "children": []
-            },
-            {
-              "label": "tokens",
+              "label": "hdi",
               "value": null,
               "children": [
                 {
-                  "label": "tokens_item",
-                  "value": "27",
+                  "label": "rank",
+                  "value": "96",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "6",
+                  "label": "value",
+                  "value": "0.763",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "low",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "inequality",
+                  "label": "year",
+                  "value": "2023",
                   "children": []
                 }
               ]
+            }
+          ]
+        },
+        {
+          "label": "economy",
+          "value": null,
+          "children": [
+            {
+              "label": "gdp_nominal_year",
+              "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_year",
+              "value": "2025",
+              "children": []
             }
           ]
         },
@@ -798,804 +164,72 @@
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "head_of_government",
+              "value": "Sifi Ghrieb",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Government",
+              "label": "head_of_state",
+              "value": "Abdelmadjid Tebboune",
               "children": []
             },
             {
-              "label": "text",
+              "label": "type",
               "value": "Unitary semi-presidential republic",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Unitary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "semi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "presidential",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "republic",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "hdi_2023",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0.763",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "96",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "HDI (2023)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "0.763 high ( 96th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "763",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "high",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "96th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "independence",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1962",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Independence",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "5 July 1962",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "July",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1962",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "internet_tld",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Internet TLD",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": ".dz .الجزائر",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "dz",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": ".dz .الجزائر",
+          "children": []
         },
         {
           "label": "iso_3166_code",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "ISO 3166 code",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "DZ",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "DZ",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "DZ",
+          "children": []
+        },
+        {
+          "label": "largest_city",
+          "value": "Algiers",
+          "children": []
         },
         {
           "label": "legislature",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Legislature",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Parliament",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Parliament",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "Parliament",
+          "children": []
         },
         {
-          "label": "lower_house",
+          "label": "population",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "density_per_km2",
+              "value": "19.0",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "• Lower house",
+              "label": "rank",
+              "value": "32",
               "children": []
             },
             {
-              "label": "text",
-              "value": "People's National Assembly",
+              "label": "total",
+              "value": "47400000",
               "children": []
             },
             {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "People",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "s",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "National",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Assembly",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "national_vernacular",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
+              "label": "year",
+              "value": "2025",
               "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "National vernacular",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Algerian Arabic",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Algerian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Arabic",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "numidia",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "202",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Numidia",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "202 BC",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "202",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "BC",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "official_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Official languages",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Arabic Berber",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Arabic",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Berber",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "per_capita",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "5690",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "111",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Per capita",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$5,690 ( 111th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "690",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "111th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Abdelmadjid Tebboune",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Abdelmadjid",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Tebboune",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "prime_minister",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Prime Minister",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Sifi Ghrieb",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Sifi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Ghrieb",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "regency_of_algiers",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1516",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Regency of Algiers",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "1516",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1516",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "religion_2012",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "99",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Religion (2012)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "99% Sunni Islam ( official ) <1% others",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "99",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Sunni",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Islam",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "official",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "others",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "time_zone",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Time zone",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC +1 ( CET )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CET",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "total",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "268.89",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "49",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Total",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$268.890 billion ( 49th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "268",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "890",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "billion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "49th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "upper_house",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Upper house",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Council of the Nation",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Council",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "of",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "the",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Nation",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "UTC+1",
+          "children": []
         }
       ]
     }

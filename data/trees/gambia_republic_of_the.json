@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-11T17:55:29+00:00",
+          "value": "2026-03-13T10:08:00+00:00",
           "children": []
         },
         {
@@ -38,888 +38,113 @@
       "value": null,
       "children": [
         {
-          "label": "2024_census",
+          "label": "area",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2422712",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "142",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 2024 census",
+              "label": "total_km2",
+              "value": "11300",
               "children": []
             },
             {
-              "label": "text",
-              "value": "2,422,712 ( 142th )",
+              "label": "water_percent",
+              "value": "11.5",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "422",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "712",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "142th",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "calling_code",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "220",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Calling code",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "+220",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "220",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "220",
+          "children": []
         },
         {
           "label": "capital",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "13",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "27",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "16",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "34",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "30",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "13.45",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "16.575",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "13.45",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "-16.575",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Capital",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Banjul 13°27′00″N 16°34′30″W ﻿ / ﻿ 13.45000°N 16.57500°W ﻿ / 13.45000; -16.57500",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Banjul",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "13",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "27",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "00",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "16",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "34",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "30",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "W",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "13",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "45000",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "16",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "57500",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "W",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "13",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "45000",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "16",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "57500",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "Banjul",
+          "children": []
         },
         {
-          "label": "chief_justice",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Chief Justice",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Hassan Bubacar Jallow",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Hassan",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bubacar",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Jallow",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "country_name",
+          "value": "Gambia (Republic of The)",
+          "children": []
         },
         {
           "label": "currency",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "code",
+              "value": "GMD",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Currency",
+              "label": "name",
+              "value": "Gambian dalasi",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "Gambian dalasi ( GMD )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Gambian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "dalasi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "GMD",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "demonym",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Demonym",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Gambian",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Gambian",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "Gambian",
+          "children": []
         },
         {
-          "label": "density",
+          "label": "development",
           "value": null,
           "children": [
             {
-              "label": "numbers",
+              "label": "gini",
               "value": null,
               "children": [
                 {
-                  "label": "numbers_item",
-                  "value": "227",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "587.9",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "51",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Density",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "227/km 2 (587.9/sq mi) ( 51th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "227",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "km",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "587",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sq",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "51th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "dissolution_of_the_senegambia_confederation",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "30",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1989",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• dissolution of the Senegambia Confederation",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "30 September 1989",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "30",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "September",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1989",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "ethnic_groups_2024_population_and_housing_census",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "34.4",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "25.0",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "15.4",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "9.5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "8.2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2.9",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "4.6",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Ethnic groups (2024 Population and Housing Census)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "34.4% Mandinka 25.0% Fula 15.4% Wolof 9.5% Jola 8.2% Soninke 2.9% Serer 4.6% other",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "34",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Mandinka",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "25",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Fula",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "15",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Wolof",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Jola",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Soninke",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Serer",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "from_the_united_kingdom",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "18",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1965",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• from the United Kingdom",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "18 February 1965",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "18",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "February",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1965",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_nominal",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2026",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP (nominal)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2026 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2026",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_ppp",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2026",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP ( PPP )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2026 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2026",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gini_2015",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
+                  "label": "value",
                   "value": "35.9",
                   "children": []
+                },
+                {
+                  "label": "year",
+                  "value": "2015",
+                  "children": []
                 }
               ]
             },
             {
-              "label": "raw_label",
-              "value": "Gini (2015)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "35.9 medium inequality",
-              "children": []
-            },
-            {
-              "label": "tokens",
+              "label": "hdi",
               "value": null,
               "children": [
                 {
-                  "label": "tokens_item",
-                  "value": "35",
+                  "label": "rank",
+                  "value": "170",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "9",
+                  "label": "value",
+                  "value": "0.524",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "medium",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "inequality",
+                  "label": "year",
+                  "value": "2023",
                   "children": []
                 }
               ]
+            }
+          ]
+        },
+        {
+          "label": "economy",
+          "value": null,
+          "children": [
+            {
+              "label": "gdp_nominal_year",
+              "value": "2026",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_year",
+              "value": "2026",
+              "children": []
             }
           ]
         },
@@ -928,828 +153,67 @@
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "head_of_state",
+              "value": "Adama Barrow",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Government",
-              "children": []
-            },
-            {
-              "label": "text",
+              "label": "type",
               "value": "Unitary presidential republic",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Unitary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "presidential",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "republic",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "hdi_2023",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0.524",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "170",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "HDI (2023)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "0.524 low ( 170th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "524",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "low",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "170th",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "internet_tld",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Internet TLD",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": ".gm",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "gm",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": ".gm",
+          "children": []
         },
         {
           "label": "iso_3166_code",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "ISO 3166 code",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "GM",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "GM",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "GM",
+          "children": []
         },
         {
-          "label": "largest_metropolitan_area",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Largest metropolitan area",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Serrekunda",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Serrekunda",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "largest_city",
+          "value": "Banjul",
+          "children": []
         },
         {
           "label": "legislature",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Legislature",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "National Assembly",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "National",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Assembly",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "National Assembly",
+          "children": []
         },
         {
-          "label": "national_languages",
+          "label": "population",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "density_per_km2",
+              "value": "227.0",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "National languages",
+              "label": "rank",
+              "value": "142",
               "children": []
             },
             {
-              "label": "text",
-              "value": "List: Mandinka Pulaar Wolof Serer Jola English Balanta Arabic Jola-Fonyi Mandjak Mankanya Noon Dyula Soninke Fula Karon Kassonke Cangin Gambian Sign Language",
+              "label": "total",
+              "value": "2422712",
               "children": []
             },
             {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "List",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Mandinka",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Pulaar",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Wolof",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Serer",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Jola",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "English",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Balanta",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Arabic",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Jola",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Fonyi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Mandjak",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Mankanya",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Noon",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Dyula",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Soninke",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Fula",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Karon",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Kassonke",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Cangin",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Gambian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Sign",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Language",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "official_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
+              "label": "year",
+              "value": "2024",
               "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Official languages",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "English",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "English",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "per_capita",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "924",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "180",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Per capita",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$924 ( 180th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "924",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "180th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Adama Barrow",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Adama",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Barrow",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "religion_2024",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "95.7",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "4.2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0.1",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Religion (2024)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "95.7% Islam 4.2% Christianity 0.1% others",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "95",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Islam",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Christianity",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "others",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "speaker_of_the_national_assembly",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Speaker of the National Assembly",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Fabakary Tombong Jatta",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Fabakary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Tombong",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Jatta",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "time_zone",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Time zone",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC ±00:00 ( GMT )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "00",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "00",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "GMT",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "total",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2.67",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "185",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Total",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$2.670 billion ( 185th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "670",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "billion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "185th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "vice_president",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Vice President",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Muhammad B. S. Jallow",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Muhammad",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "B",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "S",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Jallow",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "water",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "11.5",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Water (%)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "11.5",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "11",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "UTC ±00:00 ( GMT )",
+          "children": []
         }
       ]
     }

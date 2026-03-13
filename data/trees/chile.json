@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-11T17:53:26+00:00",
+          "value": "2026-03-13T10:07:23+00:00",
           "children": []
         },
         {
@@ -38,700 +38,129 @@
       "value": null,
       "children": [
         {
-          "label": "2023_estimate",
+          "label": "area",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "19629588",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "63",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 2023 estimate",
+              "label": "total_km2",
+              "value": "756101",
               "children": []
             },
             {
-              "label": "text",
-              "value": "19,629,588 ( 63rd )",
+              "label": "water_percent",
+              "value": "2.1",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "19",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "629",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "588",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "63rd",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "calling_code",
+          "value": "56",
+          "children": []
+        },
+        {
+          "label": "capital",
+          "value": "Santiago",
+          "children": []
+        },
+        {
+          "label": "coordinates",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "56",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Calling code",
+              "label": "latitude",
+              "value": "33°26′S",
               "children": []
             },
             {
-              "label": "text",
-              "value": "+56",
+              "label": "longitude",
+              "value": "70°40′W",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "56",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
-          "label": "capital_and_largest_city",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "33",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "26",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "70",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "40",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "33.433",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "70.667",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "-33.433",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "-70.667",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Capital and largest city",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Santiago 33°26′S 70°40′W ﻿ / ﻿ 33.433°S 70.667°W ﻿ / -33.433; -70.667",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Santiago",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "33",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "26",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "S",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "70",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "40",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "W",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "33",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "433",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "S",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "70",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "667",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "W",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "33",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "433",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "70",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "667",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "country_name",
+          "value": "Chile",
+          "children": []
         },
         {
           "label": "currency",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "code",
+              "value": "CLP",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Currency",
+              "label": "name",
+              "value": "Chilean peso",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "Chilean peso ( CLP )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Chilean",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "peso",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CLP",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "current_constitution",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "11",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1981",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Current constitution",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "11 March 1981",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "11",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "March",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1981",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "date_format",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Date format",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "dd/mm/yyyy",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "dd",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mm",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "yyyy",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "declared",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1818",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Declared",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "12 February 1818",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "February",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1818",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "demonym",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Demonym",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Chilean",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Chilean",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "Chilean",
+          "children": []
         },
         {
-          "label": "density",
+          "label": "development",
           "value": null,
           "children": [
             {
-              "label": "numbers",
+              "label": "gini",
               "value": null,
               "children": [
                 {
-                  "label": "numbers_item",
-                  "value": "24",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "62.2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "198",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Density",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "24/km 2 (62.2/sq mi) ( 198th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "24",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "km",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "62",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sq",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "198th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_nominal",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP (nominal)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_ppp",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP ( PPP )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gini_2022",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
+                  "label": "value",
                   "value": "44.8",
                   "children": []
+                },
+                {
+                  "label": "year",
+                  "value": "2022",
+                  "children": []
                 }
               ]
             },
             {
-              "label": "raw_label",
-              "value": "Gini (2022)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "44.8 medium inequality",
-              "children": []
-            },
-            {
-              "label": "tokens",
+              "label": "hdi",
               "value": null,
               "children": [
                 {
-                  "label": "tokens_item",
-                  "value": "44",
+                  "label": "rank",
+                  "value": "45",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "8",
+                  "label": "value",
+                  "value": "0.878",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "medium",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "inequality",
+                  "label": "year",
+                  "value": "2023",
                   "children": []
                 }
               ]
+            }
+          ]
+        },
+        {
+          "label": "economy",
+          "value": null,
+          "children": [
+            {
+              "label": "gdp_nominal_year",
+              "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_year",
+              "value": "2025",
+              "children": []
             }
           ]
         },
@@ -740,1076 +169,67 @@
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "head_of_state",
+              "value": "José Antonio Kast",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Government",
-              "children": []
-            },
-            {
-              "label": "text",
+              "label": "type",
               "value": "Unitary presidential republic",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Unitary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "presidential",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "republic",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "government_junta",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "18",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1810",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Government Junta",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "18 September 1810",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "18",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "September",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1810",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "hdi_2023",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0.878",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "45",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "HDI (2023)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "0.878 very high ( 45th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "878",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "very",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "high",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "45th",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "internet_tld",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Internet TLD",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": ".cl",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "cl",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": ".cl",
+          "children": []
         },
         {
           "label": "iso_3166_code",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "ISO 3166 code",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "CL",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "CL",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "CL",
+          "children": []
+        },
+        {
+          "label": "largest_city",
+          "value": "Santiago",
+          "children": []
         },
         {
           "label": "legislature",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Legislature",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "National Congress",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "National",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Congress",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "National Congress",
+          "children": []
         },
         {
-          "label": "lower_house",
+          "label": "population",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "density_per_km2",
+              "value": "24.0",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "• Lower house",
+              "label": "rank",
+              "value": "63",
               "children": []
             },
             {
-              "label": "text",
-              "value": "Chamber of Deputies",
+              "label": "total",
+              "value": "19629588",
               "children": []
             },
             {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Chamber",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "of",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Deputies",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "official_language_and_national_language",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
+              "label": "year",
+              "value": "2023",
               "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Official language and national language",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Spanish",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Spanish",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "other_spoken_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Other spoken languages",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Aymara Kawésqar Mapudungun Quechua Rapa Nui",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Aymara",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Kaw",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sqar",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Mapudungun",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Quechua",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Rapa",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Nui",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "per_capita",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "17180",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "66",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Per capita",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$17,180 ( 66th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "17",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "180",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "66th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "José Antonio Kast",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Jos",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Antonio",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Kast",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president_of_supreme_court",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President of Supreme Court",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Juan Fuentes Belmar",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Juan",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Fuentes",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Belmar",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president_of_the_chamber_of_deputies",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President of the Chamber of Deputies",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "José Miguel Castro",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Jos",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Miguel",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Castro",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president_of_the_senate",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President of the Senate",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Manuel José Ossandón",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Manuel",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Jos",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Ossand",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "n",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "recognized",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "25",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1844",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Recognized",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "25 April 1844",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "25",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "April",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1844",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "religion_2024",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "70",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "54",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "16",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "26",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "4",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Religion (2024)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "70% Christianity 54% Catholicism 16% Protestantism 26% no religion 4% other",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "70",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Christianity",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "54",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Catholicism",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "16",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Protestantism",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "26",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "no",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "religion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "summer_dst",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "5",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Summer ( DST )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC −3, −5 ( CLST, EASST )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CLST",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "EASST",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "time_zone",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "6",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Time zone",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC −3, −4, −6 ( CLST, CLT, EAST )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CLST",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CLT",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "EAST",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "total",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "347.17",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "45",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Total",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$347.170 billion ( 45th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "347",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "170",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "billion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "45th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "upper_house",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Upper house",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Senate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Senate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "water",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2.1",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2015",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Water (%)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2.1 (as of 2015)",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "as",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "of",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2015",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "UTC −3, −4, −6 ( CLST, CLT, EAST )",
+          "children": []
         }
       ]
     }

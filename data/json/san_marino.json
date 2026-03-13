@@ -3,7 +3,7 @@
     "country_name": "San Marino",
     "slug": "san_marino",
     "wikipedia_url": "https://en.wikipedia.org/wiki/San_Marino",
-    "retrieved_at": "2026-03-11T17:57:30+00:00",
+    "retrieved_at": "2026-03-13T10:10:02+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,37 +60,37 @@
         "value_text": "Grand and General Council"
       },
       {
-        "label": "• From the Roman Empire",
+        "label": "Independence • From the Roman Empire",
         "value_html": "<td class=\"infobox-data\">3 September 301 (traditional)</td>",
         "value_text": "3 September 301 (traditional)"
       },
       {
-        "label": "• From the Papal States",
+        "label": "Independence • From the Papal States",
         "value_html": "<td class=\"infobox-data\">1291</td>",
         "value_text": "1291"
       },
       {
-        "label": "• Constitution",
+        "label": "Independence • Constitution",
         "value_html": "<td class=\"infobox-data\"><link href=\"mw-data:TemplateStyles:r1126788409\" rel=\"mw-deduplicated-inline-style\"><div class=\"plainlist\"><ul><li style=\"white-space:nowrap;\">8 October 1600<br/>(Statutes)</li><li style=\"white-space:nowrap;\">8 July 1974<br/>(Declaration of Citizen Rights)</li></ul></div></link></td>",
         "value_text": "8 October 1600 (Statutes) 8 July 1974 (Declaration of Citizen Rights)"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">61.19 km<sup>2</sup> (23.63 sq mi)<sup class=\"reference\" id=\"cite_ref-cia_5-0\"><a href=\"#cite_note-cia-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">191st</a>)</td>",
         "value_text": "61.19 km 2 (23.63 sq mi) [ 5 ] ( 191st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.0059%<sup class=\"reference\" id=\"cite_ref-4\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "0.0059% [ 4 ]"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_html": "<td class=\"infobox-data\">34,172<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">191st</a>)</td>",
         "value_text": "34,172 [ 6 ] ( 191st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">579/km<sup>2</sup> (1,499.6/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">24th</a>)</td>",
         "value_text": "579/km 2 (1,499.6/sq mi) ( 24th )"
       },
@@ -204,31 +204,31 @@
         "value_text": "Grand and General Council"
       },
       {
-        "label": "• From the Roman Empire",
+        "label": "Independence • From the Roman Empire",
         "value_text": "3 September 301 (traditional)"
       },
       {
-        "label": "• From the Papal States",
+        "label": "Independence • From the Papal States",
         "value_text": "1291"
       },
       {
-        "label": "• Constitution",
+        "label": "Independence • Constitution",
         "value_text": "8 October 1600 (Statutes) 8 July 1974 (Declaration of Citizen Rights)"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "61.19 km 2 (23.63 sq mi) ( 191st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.0059%"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_text": "34,172 ( 191st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "579/km 2 (1,499.6/sq mi) ( 24th )"
       },
       {
@@ -469,8 +469,8 @@
         ],
         "numbers": []
       },
-      "from_the_roman_empire": {
-        "raw_label": "• From the Roman Empire",
+      "independence_from_the_roman_empire": {
+        "raw_label": "Independence • From the Roman Empire",
         "text": "3 September 301 (traditional)",
         "tokens": [
           "3",
@@ -483,8 +483,8 @@
           301
         ]
       },
-      "from_the_papal_states": {
-        "raw_label": "• From the Papal States",
+      "independence_from_the_papal_states": {
+        "raw_label": "Independence • From the Papal States",
         "text": "1291",
         "tokens": [
           "1291"
@@ -493,8 +493,8 @@
           1291
         ]
       },
-      "constitution": {
-        "raw_label": "• Constitution",
+      "independence_constitution": {
+        "raw_label": "Independence • Constitution",
         "text": "8 October 1600 (Statutes) 8 July 1974 (Declaration of Citizen Rights)",
         "tokens": [
           "8",
@@ -516,22 +516,29 @@
           1974
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$2.034 billion ( 171st )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "61.19 km 2 (23.63 sq mi) ( 191st )",
         "tokens": [
+          "61",
+          "19",
+          "km",
           "2",
-          "034",
-          "billion",
-          "171st"
+          "23",
+          "63",
+          "sq",
+          "mi",
+          "191st"
         ],
         "numbers": [
-          2.034,
-          171
+          61.19,
+          2,
+          23.63,
+          191
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.0059%",
         "tokens": [
           "0",
@@ -541,8 +548,8 @@
           0.0059
         ]
       },
-      "2026_estimate": {
-        "raw_label": "• 2026 estimate",
+      "population_2026_estimate": {
+        "raw_label": "Population • 2026 estimate",
         "text": "34,172 ( 191st )",
         "tokens": [
           "34",
@@ -554,8 +561,8 @@
           191
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "579/km 2 (1,499.6/sq mi) ( 24th )",
         "tokens": [
           "579",
@@ -584,6 +591,20 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$2.034 billion ( 171st )",
+        "tokens": [
+          "2",
+          "034",
+          "billion",
+          "171st"
+        ],
+        "numbers": [
+          2.034,
+          171
         ]
       },
       "per_capita": {
@@ -691,6 +712,48 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "San Marino",
+      "capital": "City of San Marino",
+      "largest_city": "City of San Marino",
+      "coordinates": {
+        "latitude": "43°56′N",
+        "longitude": "12°26′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary diarchic directorial republic"
+      },
+      "legislature": "Grand and General Council",
+      "area": {
+        "total_km2": 61,
+        "water_percent": 0.0059
+      },
+      "population": {
+        "year": 2026,
+        "total": 34172,
+        "rank": 191,
+        "density_per_km2": 579.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2024,
+        "gdp_ppp_year": 2024
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.915,
+          "rank": 29
+        }
+      },
+      "currency": {
+        "name": "Euro"
+      },
+      "calling_code": "378390549",
+      "iso_3166_code": "SM",
+      "internet_tld": ".sm",
+      "time_zone": "UTC+01",
+      "demonym": "Sammarinese"
     }
   }
 }

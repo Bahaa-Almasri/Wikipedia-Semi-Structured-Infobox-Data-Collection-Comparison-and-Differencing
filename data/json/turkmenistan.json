@@ -3,7 +3,7 @@
     "country_name": "Turkmenistan",
     "slug": "turkmenistan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Turkmenistan",
-    "retrieved_at": "2026-03-11T17:58:20+00:00",
+    "retrieved_at": "2026-03-13T10:10:44+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,37 +70,37 @@
         "value_text": "Assembly"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from the Soviet Union • Declared",
         "value_html": "<td class=\"infobox-data\">22 August 1990</td>",
         "value_text": "22 August 1990"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from the Soviet Union • Recognized",
         "value_html": "<td class=\"infobox-data\">26 December 1991</td>",
         "value_text": "26 December 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">491,210 km<sup>2</sup> (189,660 sq mi)<sup class=\"reference\" id=\"cite_ref-10\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">52nd</a>)</td>",
         "value_text": "491,210 km 2 (189,660 sq mi) [ 10 ] ( 52nd )"
       },
       {
-        "label": "• Water",
+        "label": "Area • Water",
         "value_html": "<td class=\"infobox-data\">24,069 km<sup>2</sup> (9,293 sq mi)</td>",
         "value_text": "24,069 km 2 (9,293 sq mi)"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">4.9</td>",
         "value_text": "4.9"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_html": "<td class=\"infobox-data\">7,057,841 (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">105th</a>)</td>",
         "value_text": "7,057,841 ( 105th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">14.4/km<sup>2</sup> (37.3/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">221st</a>)</td>",
         "value_text": "14.4/km 2 (37.3/sq mi) ( 221st )"
       },
@@ -222,31 +222,31 @@
         "value_text": "Assembly"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from the Soviet Union • Declared",
         "value_text": "22 August 1990"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from the Soviet Union • Recognized",
         "value_text": "26 December 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "491,210 km 2 (189,660 sq mi) ( 52nd )"
       },
       {
-        "label": "• Water",
+        "label": "Area • Water",
         "value_text": "24,069 km 2 (9,293 sq mi)"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "4.9"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_text": "7,057,841 ( 105th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "14.4/km 2 (37.3/sq mi) ( 221st )"
       },
       {
@@ -481,8 +481,8 @@
         ],
         "numbers": []
       },
-      "declared": {
-        "raw_label": "• Declared",
+      "independence_from_the_soviet_union_declared": {
+        "raw_label": "Independence from the Soviet Union • Declared",
         "text": "22 August 1990",
         "tokens": [
           "22",
@@ -494,8 +494,8 @@
           1990
         ]
       },
-      "recognized": {
-        "raw_label": "• Recognized",
+      "independence_from_the_soviet_union_recognized": {
+        "raw_label": "Independence from the Soviet Union • Recognized",
         "text": "26 December 1991",
         "tokens": [
           "26",
@@ -507,22 +507,29 @@
           1991
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$89.05 billion ( 78th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "491,210 km 2 (189,660 sq mi) ( 52nd )",
         "tokens": [
-          "89",
-          "05",
-          "billion",
-          "78th"
+          "491",
+          "210",
+          "km",
+          "2",
+          "189",
+          "660",
+          "sq",
+          "mi",
+          "52nd"
         ],
         "numbers": [
-          89.05,
-          78
+          491210,
+          2,
+          189660,
+          52
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "4.9",
         "tokens": [
           "4",
@@ -532,8 +539,8 @@
           4.9
         ]
       },
-      "2022_census": {
-        "raw_label": "• 2022 census",
+      "population_2022_census": {
+        "raw_label": "Population • 2022 census",
         "text": "7,057,841 ( 105th )",
         "tokens": [
           "7",
@@ -546,8 +553,8 @@
           105
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "14.4/km 2 (37.3/sq mi) ( 221st )",
         "tokens": [
           "14",
@@ -576,6 +583,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$89.05 billion ( 78th )",
+        "tokens": [
+          "89",
+          "05",
+          "billion",
+          "78th"
+        ],
+        "numbers": [
+          89.05,
+          78
         ]
       },
       "per_capita": {
@@ -678,6 +699,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Turkmenistan",
+      "capital": "Ashgabat",
+      "largest_city": "Ashgabat",
+      "coordinates": {
+        "latitude": "37°58′N",
+        "longitude": "58°20′E"
+      },
+      "government": {
+        "type": "Unitary presidential republic under a totalitarian hereditary dictatorship",
+        "head_of_state": "Serdar Berdimuhamedow"
+      },
+      "legislature": "Assembly",
+      "area": {
+        "total_km2": 491210,
+        "water_percent": 4.9
+      },
+      "population": {
+        "year": 2022,
+        "total": 7057841,
+        "rank": 105,
+        "density_per_km2": 14.4
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.764,
+          "rank": 95
+        },
+        "gini": {
+          "year": 1998,
+          "value": 40.8
+        }
+      },
+      "currency": {
+        "name": "Manat",
+        "code": "TMT"
+      },
+      "calling_code": "993",
+      "iso_3166_code": "TM",
+      "internet_tld": ".tm",
+      "time_zone": "UTC+05:00"
     }
   }
 }

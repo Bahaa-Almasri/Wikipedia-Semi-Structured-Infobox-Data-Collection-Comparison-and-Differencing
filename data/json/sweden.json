@@ -3,7 +3,7 @@
     "country_name": "Sweden",
     "slug": "sweden",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sweden",
-    "retrieved_at": "2026-03-11T17:58:02+00:00",
+    "retrieved_at": "2026-03-13T10:10:34+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -55,37 +55,37 @@
         "value_text": "Riksdag"
       },
       {
-        "label": "• A unified Swedish kingdom established",
+        "label": "History • A unified Swedish kingdom established",
         "value_html": "<td class=\"infobox-data\">By the late 10th century</td>",
         "value_text": "By the late 10th century"
       },
       {
-        "label": "• Part of the Kalmar Union",
+        "label": "History • Part of the Kalmar Union",
         "value_html": "<td class=\"infobox-data\">17 June 1397 – 6 June 1523</td>",
         "value_text": "17 June 1397 – 6 June 1523"
       },
       {
-        "label": "• Swedish Empire",
+        "label": "History • Swedish Empire",
         "value_html": "<td class=\"infobox-data\">1611–1721</td>",
         "value_text": "1611–1721"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">450,295<sup class=\"reference\" id=\"cite_ref-auto_7-0\"><a href=\"#cite_note-auto-7\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (173,860 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">55th</a>)</td>",
         "value_text": "450,295 [ 4 ] km 2 (173,860 sq mi) ( 55th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">8.97 (2022)<sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "8.97 (2022) [ 5 ]"
       },
       {
-        "label": "• October 2025 estimate",
+        "label": "Population • October 2025 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 10,610,485<sup class=\"reference\" id=\"cite_ref-l988_9-0\"><a href=\"#cite_note-l988-9\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">90th</a>)</td>",
         "value_text": "10,610,485 [ 6 ] ( 90th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">25/km<sup>2</sup> (64.7/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">198th</a>)</td>",
         "value_text": "25/km 2 (64.7/sq mi) ( 198th )"
       },
@@ -200,31 +200,31 @@
         "value_text": "Riksdag"
       },
       {
-        "label": "• A unified Swedish kingdom established",
+        "label": "History • A unified Swedish kingdom established",
         "value_text": "By the late 10th century"
       },
       {
-        "label": "• Part of the Kalmar Union",
+        "label": "History • Part of the Kalmar Union",
         "value_text": "17 June 1397 – 6 June 1523"
       },
       {
-        "label": "• Swedish Empire",
+        "label": "History • Swedish Empire",
         "value_text": "1611–1721"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "450,295 km 2 (173,860 sq mi) ( 55th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "8.97 (2022)"
       },
       {
-        "label": "• October 2025 estimate",
+        "label": "Population • October 2025 estimate",
         "value_text": "10,610,485 ( 90th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "25/km 2 (64.7/sq mi) ( 198th )"
       },
       {
@@ -399,8 +399,8 @@
         ],
         "numbers": []
       },
-      "a_unified_swedish_kingdom_established": {
-        "raw_label": "• A unified Swedish kingdom established",
+      "history_a_unified_swedish_kingdom_established": {
+        "raw_label": "History • A unified Swedish kingdom established",
         "text": "By the late 10th century",
         "tokens": [
           "By",
@@ -413,8 +413,8 @@
           10
         ]
       },
-      "part_of_the_kalmar_union": {
-        "raw_label": "• Part of the Kalmar Union",
+      "history_part_of_the_kalmar_union": {
+        "raw_label": "History • Part of the Kalmar Union",
         "text": "17 June 1397 – 6 June 1523",
         "tokens": [
           "17",
@@ -431,8 +431,8 @@
           1523
         ]
       },
-      "swedish_empire": {
-        "raw_label": "• Swedish Empire",
+      "history_swedish_empire": {
+        "raw_label": "History • Swedish Empire",
         "text": "1611–1721",
         "tokens": [
           "1611",
@@ -443,22 +443,29 @@
           1721
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$620.30 billion ( 24th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "450,295 km 2 (173,860 sq mi) ( 55th )",
         "tokens": [
-          "620",
-          "30",
-          "billion",
-          "24th"
+          "450",
+          "295",
+          "km",
+          "2",
+          "173",
+          "860",
+          "sq",
+          "mi",
+          "55th"
         ],
         "numbers": [
-          620.3,
-          24
+          450295,
+          2,
+          173860,
+          55
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "8.97 (2022)",
         "tokens": [
           "8",
@@ -470,8 +477,8 @@
           2022
         ]
       },
-      "october_2025_estimate": {
-        "raw_label": "• October 2025 estimate",
+      "population_october_2025_estimate": {
+        "raw_label": "Population • October 2025 estimate",
         "text": "10,610,485 ( 90th )",
         "tokens": [
           "10",
@@ -484,8 +491,8 @@
           90
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "25/km 2 (64.7/sq mi) ( 198th )",
         "tokens": [
           "25",
@@ -513,6 +520,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$620.30 billion ( 24th )",
+        "tokens": [
+          "620",
+          "30",
+          "billion",
+          "24th"
+        ],
+        "numbers": [
+          620.3,
+          24
         ]
       },
       "per_capita": {
@@ -627,6 +648,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Sweden",
+      "capital": "Stockholm",
+      "largest_city": "Stockholm",
+      "coordinates": {
+        "latitude": "59°21′N",
+        "longitude": "18°4′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary constitutional monarchy",
+        "head_of_state": "Carl XVI Gustaf",
+        "head_of_government": "Ulf Kristersson"
+      },
+      "legislature": "Riksdag",
+      "area": {
+        "total_km2": 450295,
+        "water_percent": 8.97
+      },
+      "population": {
+        "year": 2025,
+        "total": 10610485,
+        "rank": 90,
+        "density_per_km2": 25.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.959,
+          "rank": 5
+        },
+        "gini": {
+          "year": 2022,
+          "value": 27.6
+        }
+      },
+      "currency": {
+        "name": "Swedish krona",
+        "code": "SEK"
+      },
+      "calling_code": "46",
+      "iso_3166_code": "SE",
+      "internet_tld": ".se",
+      "time_zone": "UTC+1"
     }
   }
 }

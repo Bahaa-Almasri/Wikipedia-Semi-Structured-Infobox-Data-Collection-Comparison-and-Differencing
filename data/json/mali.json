@@ -3,7 +3,7 @@
     "country_name": "Mali",
     "slug": "mali",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mali",
-    "retrieved_at": "2026-03-11T17:56:34+00:00",
+    "retrieved_at": "2026-03-13T10:09:01+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,47 +70,47 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Establishment of the Sudanese Republic",
+        "label": "Formation • Establishment of the Sudanese Republic",
         "value_html": "<td class=\"infobox-data\">24 November 1958</td>",
         "value_text": "24 November 1958"
       },
       {
-        "label": "• Merger with Senegal to create the Mali Federation",
+        "label": "Formation • Merger with Senegal to create the Mali Federation",
         "value_html": "<td class=\"infobox-data\">4 April 1959</td>",
         "value_text": "4 April 1959"
       },
       {
-        "label": "• Independence from France",
+        "label": "Formation • Independence from France",
         "value_html": "<td class=\"infobox-data\">20 June 1960</td>",
         "value_text": "20 June 1960"
       },
       {
-        "label": "• Dissolution of the Mali Federation",
+        "label": "Formation • Dissolution of the Mali Federation",
         "value_html": "<td class=\"infobox-data\">20 August 1960</td>",
         "value_text": "20 August 1960"
       },
       {
-        "label": "• Declaration of the Republic of Mali",
+        "label": "Formation • Declaration of the Republic of Mali",
         "value_html": "<td class=\"infobox-data\">22 September 1960</td>",
         "value_text": "22 September 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">1,240,192 km<sup>2</sup> (478,841 sq mi)<sup class=\"reference\" id=\"cite_ref-bbc_com_11-0\"><a href=\"#cite_note-bbc_com-11\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">23rd</a>)</td>",
         "value_text": "1,240,192 km 2 (478,841 sq mi) [ 9 ] ( 23rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.6</td>",
         "value_text": "1.6"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 21,990,607<sup class=\"reference\" id=\"cite_ref-12\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">61st</a>)</td>",
         "value_text": "21,990,607 [ 10 ] ( 61st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">11.7/km<sup>2</sup> (30.3/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">215th</a>)</td>",
         "value_text": "11.7/km 2 (30.3/sq mi) ( 215th )"
       },
@@ -232,39 +232,39 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Establishment of the Sudanese Republic",
+        "label": "Formation • Establishment of the Sudanese Republic",
         "value_text": "24 November 1958"
       },
       {
-        "label": "• Merger with Senegal to create the Mali Federation",
+        "label": "Formation • Merger with Senegal to create the Mali Federation",
         "value_text": "4 April 1959"
       },
       {
-        "label": "• Independence from France",
+        "label": "Formation • Independence from France",
         "value_text": "20 June 1960"
       },
       {
-        "label": "• Dissolution of the Mali Federation",
+        "label": "Formation • Dissolution of the Mali Federation",
         "value_text": "20 August 1960"
       },
       {
-        "label": "• Declaration of the Republic of Mali",
+        "label": "Formation • Declaration of the Republic of Mali",
         "value_text": "22 September 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "1,240,192 km 2 (478,841 sq mi) ( 23rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.6"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "21,990,607 ( 61st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "11.7/km 2 (30.3/sq mi) ( 215th )"
       },
       {
@@ -544,8 +544,8 @@
         ],
         "numbers": []
       },
-      "establishment_of_the_sudanese_republic": {
-        "raw_label": "• Establishment of the Sudanese Republic",
+      "formation_establishment_of_the_sudanese_republic": {
+        "raw_label": "Formation • Establishment of the Sudanese Republic",
         "text": "24 November 1958",
         "tokens": [
           "24",
@@ -557,8 +557,8 @@
           1958
         ]
       },
-      "merger_with_senegal_to_create_the_mali_federation": {
-        "raw_label": "• Merger with Senegal to create the Mali Federation",
+      "formation_merger_with_senegal_to_create_the_mali_federation": {
+        "raw_label": "Formation • Merger with Senegal to create the Mali Federation",
         "text": "4 April 1959",
         "tokens": [
           "4",
@@ -570,8 +570,8 @@
           1959
         ]
       },
-      "independence_from_france": {
-        "raw_label": "• Independence from France",
+      "formation_independence_from_france": {
+        "raw_label": "Formation • Independence from France",
         "text": "20 June 1960",
         "tokens": [
           "20",
@@ -583,8 +583,8 @@
           1960
         ]
       },
-      "dissolution_of_the_mali_federation": {
-        "raw_label": "• Dissolution of the Mali Federation",
+      "formation_dissolution_of_the_mali_federation": {
+        "raw_label": "Formation • Dissolution of the Mali Federation",
         "text": "20 August 1960",
         "tokens": [
           "20",
@@ -596,8 +596,8 @@
           1960
         ]
       },
-      "declaration_of_the_republic_of_mali": {
-        "raw_label": "• Declaration of the Republic of Mali",
+      "formation_declaration_of_the_republic_of_mali": {
+        "raw_label": "Formation • Declaration of the Republic of Mali",
         "text": "22 September 1960",
         "tokens": [
           "22",
@@ -609,22 +609,30 @@
           1960
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$23.21 billion ( 121st )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "1,240,192 km 2 (478,841 sq mi) ( 23rd )",
         "tokens": [
-          "23",
-          "21",
-          "billion",
-          "121st"
+          "1",
+          "240",
+          "192",
+          "km",
+          "2",
+          "478",
+          "841",
+          "sq",
+          "mi",
+          "23rd"
         ],
         "numbers": [
-          23.21,
-          121
+          1240192,
+          2,
+          478841,
+          23
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.6",
         "tokens": [
           "1",
@@ -634,8 +642,8 @@
           1.6
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "21,990,607 ( 61st )",
         "tokens": [
           "21",
@@ -648,8 +656,8 @@
           61
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "11.7/km 2 (30.3/sq mi) ( 215th )",
         "tokens": [
           "11",
@@ -678,6 +686,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$23.21 billion ( 121st )",
+        "tokens": [
+          "23",
+          "21",
+          "billion",
+          "121st"
+        ],
+        "numbers": [
+          23.21,
+          121
         ]
       },
       "per_capita": {
@@ -782,6 +804,55 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Mali",
+      "capital": "Bamako",
+      "largest_city": "Bamako",
+      "coordinates": {
+        "latitude": "12°39′N",
+        "longitude": "8°0′W"
+      },
+      "government": {
+        "type": "Unitary presidential republic under a military junta",
+        "head_of_state": "Assimi Goïta",
+        "head_of_government": "Abdoulaye Maïga (interim)"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 1240192,
+        "water_percent": 1.6
+      },
+      "population": {
+        "year": 2024,
+        "total": 21990607,
+        "rank": 61,
+        "density_per_km2": 11.7
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.419,
+          "rank": 188
+        },
+        "gini": {
+          "year": 2010,
+          "value": 33.0
+        }
+      },
+      "currency": {
+        "name": "West African CFA franc",
+        "code": "XOF"
+      },
+      "calling_code": "223",
+      "iso_3166_code": "ML",
+      "internet_tld": ".ml",
+      "time_zone": "UTC ±00:00 ( GMT )",
+      "demonym": "Malian"
     }
   }
 }

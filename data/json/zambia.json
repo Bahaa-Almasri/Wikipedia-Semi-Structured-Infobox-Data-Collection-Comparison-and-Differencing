@@ -3,7 +3,7 @@
     "country_name": "Zambia",
     "slug": "zambia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Zambia",
-    "retrieved_at": "2026-03-11T17:58:41+00:00",
+    "retrieved_at": "2026-03-13T10:10:56+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,27 +70,27 @@
         "value_text": "National Assembly of Zambia"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from the United Kingdom • Declared",
         "value_html": "<td class=\"infobox-data\">24 October 1964</td>",
         "value_text": "24 October 1964"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">752,617 km<sup>2</sup> (290,587 sq mi)<sup class=\"reference\" id=\"cite_ref-area_5-0\"><a href=\"#cite_note-area-5\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">38th</a>)</td>",
         "value_text": "752,617 km 2 (290,587 sq mi) [ 4 ] ( 38th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1</td>",
         "value_text": "1"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 20,216,029<sup class=\"reference\" id=\"cite_ref-WorldFactbook2023_6-0\"><a href=\"#cite_note-WorldFactbook2023-6\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">64th</a>)</td>",
         "value_text": "20,216,029 [ 5 ] ( 64th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">17.2/km<sup>2</sup> (44.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">191st</a>)</td>",
         "value_text": "17.2/km 2 (44.5/sq mi) ( 191st )"
       },
@@ -217,23 +217,23 @@
         "value_text": "National Assembly of Zambia"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from the United Kingdom • Declared",
         "value_text": "24 October 1964"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "752,617 km 2 (290,587 sq mi) ( 38th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "20,216,029 ( 64th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "17.2/km 2 (44.5/sq mi) ( 191st )"
       },
       {
@@ -675,8 +675,8 @@
         ],
         "numbers": []
       },
-      "declared": {
-        "raw_label": "• Declared",
+      "independence_from_the_united_kingdom_declared": {
+        "raw_label": "Independence from the United Kingdom • Declared",
         "text": "24 October 1964",
         "tokens": [
           "24",
@@ -688,22 +688,29 @@
           1964
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$29.536 billion ( 113th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "752,617 km 2 (290,587 sq mi) ( 38th )",
         "tokens": [
-          "29",
-          "536",
-          "billion",
-          "113th"
+          "752",
+          "617",
+          "km",
+          "2",
+          "290",
+          "587",
+          "sq",
+          "mi",
+          "38th"
         ],
         "numbers": [
-          29.536,
-          113
+          752617,
+          2,
+          290587,
+          38
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1",
         "tokens": [
           "1"
@@ -712,8 +719,8 @@
           1
         ]
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "20,216,029 ( 64th )",
         "tokens": [
           "20",
@@ -726,8 +733,8 @@
           64
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "17.2/km 2 (44.5/sq mi) ( 191st )",
         "tokens": [
           "17",
@@ -756,6 +763,20 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$29.536 billion ( 113th )",
+        "tokens": [
+          "29",
+          "536",
+          "billion",
+          "113th"
+        ],
+        "numbers": [
+          29.536,
+          113
         ]
       },
       "per_capita": {
@@ -867,6 +888,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Zambia",
+      "capital": "Lusaka",
+      "largest_city": "Lusaka",
+      "coordinates": {
+        "latitude": "15°25′S",
+        "longitude": "28°17′E"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Hakainde Hichilema"
+      },
+      "legislature": "National Assembly of Zambia",
+      "area": {
+        "total_km2": 752617,
+        "water_percent": 1.0
+      },
+      "population": {
+        "year": 2023,
+        "total": 20216029,
+        "rank": 64,
+        "density_per_km2": 17.2
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.595,
+          "rank": 154
+        },
+        "gini": {
+          "year": 2022,
+          "value": 51.5
+        }
+      },
+      "currency": {
+        "name": "Zambian kwacha",
+        "code": "ZMW"
+      },
+      "calling_code": "260",
+      "iso_3166_code": "ZM",
+      "internet_tld": ".zm",
+      "time_zone": "UTC+2",
+      "demonym": "Zambian"
     }
   }
 }

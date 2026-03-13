@@ -3,7 +3,7 @@
     "country_name": "Belgium",
     "slug": "belgium",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Belgium",
-    "retrieved_at": "2026-03-11T17:52:47+00:00",
+    "retrieved_at": "2026-03-13T10:06:59+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,37 +70,37 @@
         "value_text": "Chamber of Representatives"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from the Netherlands • Declared",
         "value_html": "<td class=\"infobox-data\">4 October 1830</td>",
         "value_text": "4 October 1830"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from the Netherlands • Recognized",
         "value_html": "<td class=\"infobox-data\">19 April 1839</td>",
         "value_text": "19 April 1839"
       },
       {
-        "label": "• Federal state",
+        "label": "Independence from the Netherlands • Federal state",
         "value_html": "<td class=\"infobox-data\">1970</td>",
         "value_text": "1970"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">30,689<sup class=\"reference\" id=\"cite_ref-area_5-0\"><a href=\"#cite_note-area-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (11,849 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">136th</a>)</td>",
         "value_text": "30,689 [ 5 ] km 2 (11,849 sq mi) ( 136th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.64 (2022)<sup class=\"reference\" id=\"cite_ref-land_6-0\"><a href=\"#cite_note-land-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-cn5oK_7-0\"><a href=\"#cite_note-cn5oK-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "0.64 (2022) [ 6 ] [ 7 ]"
       },
       {
-        "label": "• 2025 census",
+        "label": "Population • 2025 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 11,825,551<sup class=\"reference\" id=\"cite_ref-population_8-0\"><a href=\"#cite_note-population-8\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "11,825,551 [ 8 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">385<sup class=\"reference\" id=\"cite_ref-population_density_9-0\"><a href=\"#cite_note-population_density-9\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup>/km<sup>2</sup> (997.1/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">35th</a>)</td>",
         "value_text": "385 [ 9 ] /km 2 (997.1/sq mi) ( 35th )"
       },
@@ -227,31 +227,31 @@
         "value_text": "Chamber of Representatives"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from the Netherlands • Declared",
         "value_text": "4 October 1830"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from the Netherlands • Recognized",
         "value_text": "19 April 1839"
       },
       {
-        "label": "• Federal state",
+        "label": "Independence from the Netherlands • Federal state",
         "value_text": "1970"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "30,689 km 2 (11,849 sq mi) ( 136th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.64 (2022)"
       },
       {
-        "label": "• 2025 census",
+        "label": "Population • 2025 census",
         "value_text": "11,825,551"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "385 /km 2 (997.1/sq mi) ( 35th )"
       },
       {
@@ -487,8 +487,8 @@
         ],
         "numbers": []
       },
-      "declared": {
-        "raw_label": "• Declared",
+      "independence_from_the_netherlands_declared": {
+        "raw_label": "Independence from the Netherlands • Declared",
         "text": "4 October 1830",
         "tokens": [
           "4",
@@ -500,8 +500,8 @@
           1830
         ]
       },
-      "recognized": {
-        "raw_label": "• Recognized",
+      "independence_from_the_netherlands_recognized": {
+        "raw_label": "Independence from the Netherlands • Recognized",
         "text": "19 April 1839",
         "tokens": [
           "19",
@@ -513,8 +513,8 @@
           1839
         ]
       },
-      "federal_state": {
-        "raw_label": "• Federal state",
+      "independence_from_the_netherlands_federal_state": {
+        "raw_label": "Independence from the Netherlands • Federal state",
         "text": "1970",
         "tokens": [
           "1970"
@@ -523,22 +523,29 @@
           1970
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$689.364 billion ( 23rd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "30,689 km 2 (11,849 sq mi) ( 136th )",
         "tokens": [
+          "30",
           "689",
-          "364",
-          "billion",
-          "23rd"
+          "km",
+          "2",
+          "11",
+          "849",
+          "sq",
+          "mi",
+          "136th"
         ],
         "numbers": [
-          689.364,
-          23
+          30689,
+          2,
+          11849,
+          136
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.64 (2022)",
         "tokens": [
           "0",
@@ -550,8 +557,8 @@
           2022
         ]
       },
-      "2025_census": {
-        "raw_label": "• 2025 census",
+      "population_2025_census": {
+        "raw_label": "Population • 2025 census",
         "text": "11,825,551",
         "tokens": [
           "11",
@@ -562,8 +569,8 @@
           11825551
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "385 /km 2 (997.1/sq mi) ( 35th )",
         "tokens": [
           "385",
@@ -591,6 +598,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$689.364 billion ( 23rd )",
+        "tokens": [
+          "689",
+          "364",
+          "billion",
+          "23rd"
+        ],
+        "numbers": [
+          689.364,
+          23
         ]
       },
       "per_capita": {
@@ -704,6 +725,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Belgium",
+      "capital": "City of Brussels",
+      "largest_city": "Brussels-Capital Region",
+      "coordinates": {
+        "latitude": "50°51′N",
+        "longitude": "4°21′E"
+      },
+      "government": {
+        "type": "Federal parliamentary constitutional monarchy",
+        "head_of_state": "Philippe",
+        "head_of_government": "Bart De Wever"
+      },
+      "legislature": "Federal Parliament",
+      "area": {
+        "total_km2": 30689,
+        "water_percent": 0.64
+      },
+      "population": {
+        "year": 2025,
+        "total": 11825551,
+        "density_per_km2": 385.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.951,
+          "rank": 10
+        },
+        "gini": {
+          "year": 2022,
+          "value": 24.9
+        }
+      },
+      "currency": {
+        "name": "Euro"
+      },
+      "calling_code": "32",
+      "iso_3166_code": "BE",
+      "internet_tld": ".be",
+      "time_zone": "UTC+1",
+      "demonym": "Belgian"
     }
   }
 }

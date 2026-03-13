@@ -3,7 +3,7 @@
     "country_name": "Kiribati",
     "slug": "kiribati",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kiribati",
-    "retrieved_at": "2026-03-11T17:56:19+00:00",
+    "retrieved_at": "2026-03-13T10:08:40+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,32 +60,32 @@
         "value_text": "House of Assembly"
       },
       {
-        "label": "• Granted",
+        "label": "Independence from the United Kingdom • Granted",
         "value_html": "<td class=\"infobox-data\">12 July 1979</td>",
         "value_text": "12 July 1979"
       },
       {
-        "label": "• Treaty of Tarawa",
+        "label": "Independence from the United Kingdom • Treaty of Tarawa",
         "value_html": "<td class=\"infobox-data\">20 September 1979</td>",
         "value_text": "20 September 1979"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">811.19<sup class=\"reference\" id=\"cite_ref-facts_3-0\"><a href=\"#cite_note-facts-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (313.20 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">172nd</a>)</td>",
         "value_text": "811.19 [ 3 ] km 2 (313.20 sq mi) ( 172nd )"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\">116,545 (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">192nd</a>)</td>",
         "value_text": "116,545 ( 192nd )"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_html": "<td class=\"infobox-data\">119,438<sup class=\"reference\" id=\"cite_ref-4\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "119,438 [ 4 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">149.64/km<sup>2</sup> (387.6/sq mi)</td>",
         "value_text": "149.64/km 2 (387.6/sq mi)"
       },
@@ -199,27 +199,27 @@
         "value_text": "House of Assembly"
       },
       {
-        "label": "• Granted",
+        "label": "Independence from the United Kingdom • Granted",
         "value_text": "12 July 1979"
       },
       {
-        "label": "• Treaty of Tarawa",
+        "label": "Independence from the United Kingdom • Treaty of Tarawa",
         "value_text": "20 September 1979"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "811.19 km 2 (313.20 sq mi) ( 172nd )"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "116,545 ( 192nd )"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_text": "119,438"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "149.64/km 2 (387.6/sq mi)"
       },
       {
@@ -433,8 +433,8 @@
         ],
         "numbers": []
       },
-      "granted": {
-        "raw_label": "• Granted",
+      "independence_from_the_united_kingdom_granted": {
+        "raw_label": "Independence from the United Kingdom • Granted",
         "text": "12 July 1979",
         "tokens": [
           "12",
@@ -446,8 +446,8 @@
           1979
         ]
       },
-      "treaty_of_tarawa": {
-        "raw_label": "• Treaty of Tarawa",
+      "independence_from_the_united_kingdom_treaty_of_tarawa": {
+        "raw_label": "Independence from the United Kingdom • Treaty of Tarawa",
         "text": "20 September 1979",
         "tokens": [
           "20",
@@ -459,19 +459,29 @@
           1979
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$248 million",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "811.19 km 2 (313.20 sq mi) ( 172nd )",
         "tokens": [
-          "248",
-          "million"
+          "811",
+          "19",
+          "km",
+          "2",
+          "313",
+          "20",
+          "sq",
+          "mi",
+          "172nd"
         ],
         "numbers": [
-          248
+          811.19,
+          2,
+          313.2,
+          172
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "116,545 ( 192nd )",
         "tokens": [
           "116",
@@ -483,8 +493,8 @@
           192
         ]
       },
-      "2024_census": {
-        "raw_label": "• 2024 census",
+      "population_2024_census": {
+        "raw_label": "Population • 2024 census",
         "text": "119,438",
         "tokens": [
           "119",
@@ -494,8 +504,8 @@
           119438
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "149.64/km 2 (387.6/sq mi)",
         "tokens": [
           "149",
@@ -522,6 +532,17 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$248 million",
+        "tokens": [
+          "248",
+          "million"
+        ],
+        "numbers": [
+          248
         ]
       },
       "per_capita": {
@@ -624,6 +645,52 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Kiribati",
+      "capital": "Tarawa",
+      "largest_city": "Tarawa",
+      "coordinates": {
+        "latitude": "1°28′N",
+        "longitude": "173°2′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary republic with an executive president",
+        "head_of_state": "Taneti Maamau"
+      },
+      "legislature": "House of Assembly",
+      "area": {
+        "total_km2": 811
+      },
+      "population": {
+        "year": 2024,
+        "total": 116545,
+        "rank": 192,
+        "density_per_km2": 149.64
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.644,
+          "rank": 140
+        },
+        "gini": {
+          "year": 2019,
+          "value": 27.8
+        }
+      },
+      "currency": {
+        "name": "Australian dollar"
+      },
+      "calling_code": "686",
+      "iso_3166_code": "KI",
+      "internet_tld": ".ki",
+      "time_zone": "UTC+12",
+      "demonym": "I-Kiribati"
     }
   }
 }

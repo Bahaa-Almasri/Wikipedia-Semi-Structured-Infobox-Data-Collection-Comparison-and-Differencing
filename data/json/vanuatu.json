@@ -3,7 +3,7 @@
     "country_name": "Vanuatu",
     "slug": "vanuatu",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Vanuatu",
-    "retrieved_at": "2026-03-11T17:58:36+00:00",
+    "retrieved_at": "2026-03-13T10:10:53+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -55,27 +55,27 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• from the United Kingdom and France",
+        "label": "Independence • from the United Kingdom and France",
         "value_html": "<td class=\"infobox-data\">30 July 1980</td>",
         "value_text": "30 July 1980"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">12,189 km<sup>2</sup> (4,706 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">157th</a>)</td>",
         "value_text": "12,189 km 2 (4,706 sq mi) ( 157th )"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\">335,908<sup class=\"reference\" id=\"cite_ref-4\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">182nd</a>)</td>",
         "value_text": "335,908 [ 4 ] ( 182nd )"
       },
       {
-        "label": "• 2020 census",
+        "label": "Population • 2020 census",
         "value_html": "<td class=\"infobox-data\">300,019<sup class=\"reference\" id=\"cite_ref-:0_5-0\"><a href=\"#cite_note-:0-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "300,019 [ 5 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">27.6/km<sup>2</sup> (71.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">188th</a>)</td>",
         "value_text": "27.6/km 2 (71.5/sq mi) ( 188th )"
       },
@@ -185,23 +185,23 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• from the United Kingdom and France",
+        "label": "Independence • from the United Kingdom and France",
         "value_text": "30 July 1980"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "12,189 km 2 (4,706 sq mi) ( 157th )"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "335,908 ( 182nd )"
       },
       {
-        "label": "• 2020 census",
+        "label": "Population • 2020 census",
         "value_text": "300,019"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "27.6/km 2 (71.5/sq mi) ( 188th )"
       },
       {
@@ -400,8 +400,8 @@
         ],
         "numbers": []
       },
-      "from_the_united_kingdom_and_france": {
-        "raw_label": "• from the United Kingdom and France",
+      "independence_from_the_united_kingdom_and_france": {
+        "raw_label": "Independence • from the United Kingdom and France",
         "text": "30 July 1980",
         "tokens": [
           "30",
@@ -413,20 +413,29 @@
           1980
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$1.064 billion",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "12,189 km 2 (4,706 sq mi) ( 157th )",
         "tokens": [
-          "1",
-          "064",
-          "billion"
+          "12",
+          "189",
+          "km",
+          "2",
+          "4",
+          "706",
+          "sq",
+          "mi",
+          "157th"
         ],
         "numbers": [
-          1.064
+          12189,
+          2,
+          4706,
+          157
         ]
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "335,908 ( 182nd )",
         "tokens": [
           "335",
@@ -438,8 +447,8 @@
           182
         ]
       },
-      "2020_census": {
-        "raw_label": "• 2020 census",
+      "population_2020_census": {
+        "raw_label": "Population • 2020 census",
         "text": "300,019",
         "tokens": [
           "300",
@@ -449,8 +458,8 @@
           300019
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "27.6/km 2 (71.5/sq mi) ( 188th )",
         "tokens": [
           "27",
@@ -479,6 +488,18 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$1.064 billion",
+        "tokens": [
+          "1",
+          "064",
+          "billion"
+        ],
+        "numbers": [
+          1.064
         ]
       },
       "per_capita": {
@@ -579,6 +600,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Vanuatu",
+      "capital": "Port Vila",
+      "largest_city": "Port Vila",
+      "government": {
+        "type": "Unitary parliamentary republic",
+        "head_of_state": "Nikenike Vurobaravu",
+        "head_of_government": "Jotham Napat"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 12189
+      },
+      "population": {
+        "year": 2023,
+        "total": 335908,
+        "rank": 182,
+        "density_per_km2": 27.6
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.621,
+          "rank": 146
+        },
+        "gini": {
+          "year": 2019,
+          "value": 32.3
+        }
+      },
+      "currency": {
+        "name": "Vatu",
+        "code": "VUV"
+      },
+      "calling_code": "678",
+      "iso_3166_code": "VU",
+      "internet_tld": ".vu",
+      "time_zone": "UTC+11",
+      "demonym": "Ni-Vanuatu (or rarely: Vanuatuan )"
     }
   }
 }

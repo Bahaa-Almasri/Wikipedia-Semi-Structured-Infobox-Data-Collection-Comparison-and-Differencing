@@ -3,7 +3,7 @@
     "country_name": "Tonga",
     "slug": "tonga",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tonga",
-    "retrieved_at": "2026-03-11T17:58:15+00:00",
+    "retrieved_at": "2026-03-13T10:10:41+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,37 +60,37 @@
         "value_text": "Legislative Assembly"
       },
       {
-        "label": "• Unification",
+        "label": "Formation • Unification",
         "value_html": "<td class=\"infobox-data\"><abbr title=\"circa\">c.</abbr><span style=\"white-space:nowrap;\"> 1845</span></td>",
         "value_text": "c. 1845"
       },
       {
-        "label": "• Treaty of Friendship",
+        "label": "Formation • Treaty of Friendship",
         "value_html": "<td class=\"infobox-data\">18 May 1900</td>",
         "value_text": "18 May 1900"
       },
       {
-        "label": "• Independence from the United Kingdom",
+        "label": "Formation • Independence from the United Kingdom",
         "value_html": "<td class=\"infobox-data\">4 June 1970</td>",
         "value_text": "4 June 1970"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">748 km<sup>2</sup> (289 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">175th</a>)</td>",
         "value_text": "748 km 2 (289 sq mi) ( 175th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">4.0</td>",
         "value_text": "4.0"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_html": "<td class=\"infobox-data\">100,209<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">199th</a>)</td>",
         "value_text": "100,209 [ 3 ] ( 199th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">139/km<sup>2</sup> (360.0/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">92th</a>)</td>",
         "value_text": "139/km 2 (360.0/sq mi) ( 92th )"
       },
@@ -209,31 +209,31 @@
         "value_text": "Legislative Assembly"
       },
       {
-        "label": "• Unification",
+        "label": "Formation • Unification",
         "value_text": "c. 1845"
       },
       {
-        "label": "• Treaty of Friendship",
+        "label": "Formation • Treaty of Friendship",
         "value_text": "18 May 1900"
       },
       {
-        "label": "• Independence from the United Kingdom",
+        "label": "Formation • Independence from the United Kingdom",
         "value_text": "4 June 1970"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "748 km 2 (289 sq mi) ( 175th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "4.0"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_text": "100,209 ( 199th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "139/km 2 (360.0/sq mi) ( 92th )"
       },
       {
@@ -451,8 +451,8 @@
         ],
         "numbers": []
       },
-      "unification": {
-        "raw_label": "• Unification",
+      "formation_unification": {
+        "raw_label": "Formation • Unification",
         "text": "c. 1845",
         "tokens": [
           "c",
@@ -462,8 +462,8 @@
           1845
         ]
       },
-      "treaty_of_friendship": {
-        "raw_label": "• Treaty of Friendship",
+      "formation_treaty_of_friendship": {
+        "raw_label": "Formation • Treaty of Friendship",
         "text": "18 May 1900",
         "tokens": [
           "18",
@@ -475,8 +475,8 @@
           1900
         ]
       },
-      "independence_from_the_united_kingdom": {
-        "raw_label": "• Independence from the United Kingdom",
+      "formation_independence_from_the_united_kingdom": {
+        "raw_label": "Formation • Independence from the United Kingdom",
         "text": "4 June 1970",
         "tokens": [
           "4",
@@ -488,19 +488,27 @@
           1970
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$493 million",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "748 km 2 (289 sq mi) ( 175th )",
         "tokens": [
-          "493",
-          "million"
+          "748",
+          "km",
+          "2",
+          "289",
+          "sq",
+          "mi",
+          "175th"
         ],
         "numbers": [
-          493
+          748,
+          2,
+          289,
+          175
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "4.0",
         "tokens": [
           "4",
@@ -510,8 +518,8 @@
           4.0
         ]
       },
-      "2021_census": {
-        "raw_label": "• 2021 census",
+      "population_2021_census": {
+        "raw_label": "Population • 2021 census",
         "text": "100,209 ( 199th )",
         "tokens": [
           "100",
@@ -523,8 +531,8 @@
           199
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "139/km 2 (360.0/sq mi) ( 92th )",
         "tokens": [
           "139",
@@ -552,6 +560,17 @@
         ],
         "numbers": [
           2019
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$493 million",
+        "tokens": [
+          "493",
+          "million"
+        ],
+        "numbers": [
+          493
         ]
       },
       "per_capita": {
@@ -660,6 +679,55 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Tonga",
+      "capital": "Nukuʻalofa",
+      "largest_city": "Nukuʻalofa",
+      "coordinates": {
+        "latitude": "21°8′S",
+        "longitude": "175°12′W"
+      },
+      "government": {
+        "type": "Unitary parliamentary semi-constitutional monarchy",
+        "head_of_state": "Tupou VI",
+        "head_of_government": "Fatafehi Fakafānua"
+      },
+      "legislature": "Legislative Assembly",
+      "area": {
+        "total_km2": 748,
+        "water_percent": 4.0
+      },
+      "population": {
+        "year": 2021,
+        "total": 100209,
+        "rank": 199,
+        "density_per_km2": 139.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2019,
+        "gdp_ppp_year": 2019
+      },
+      "development": {
+        "hdi": {
+          "year": 2022,
+          "value": 0.739,
+          "rank": 98
+        },
+        "gini": {
+          "year": 2021,
+          "value": 27.1
+        }
+      },
+      "currency": {
+        "name": "Paʻanga",
+        "code": "TOP"
+      },
+      "calling_code": "676",
+      "iso_3166_code": "TO",
+      "internet_tld": ".to",
+      "time_zone": "UTC+13",
+      "demonym": "Tongan"
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Togo",
     "slug": "togo",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Togo",
-    "retrieved_at": "2026-03-11T17:58:14+00:00",
+    "retrieved_at": "2026-03-13T10:10:40+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,52 +70,52 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• German Togoland",
+        "label": "Establishment history • German Togoland",
         "value_html": "<td class=\"infobox-data\">5 July 1884</td>",
         "value_text": "5 July 1884"
       },
       {
-        "label": "• French Togoland",
+        "label": "Establishment history • French Togoland",
         "value_html": "<td class=\"infobox-data\">27 August 1914</td>",
         "value_text": "27 August 1914"
       },
       {
-        "label": "• Independence from France",
+        "label": "Establishment history • Independence from France",
         "value_html": "<td class=\"infobox-data\">27 April 1960</td>",
         "value_text": "27 April 1960"
       },
       {
-        "label": "• Admission to the UNO",
+        "label": "Establishment history • Admission to the UNO",
         "value_html": "<td class=\"infobox-data\">20 September 1960</td>",
         "value_text": "20 September 1960"
       },
       {
-        "label": "• Current constitution",
+        "label": "Establishment history • Current constitution",
         "value_html": "<td class=\"infobox-data\">6 May 2024</td>",
         "value_text": "6 May 2024"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">56,785<sup class=\"reference\" id=\"cite_ref-auto_4-0\"><a href=\"#cite_note-auto-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (21,925 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">123rd</a>)</td>",
         "value_text": "56,785 [ 4 ] [ 5 ] km 2 (21,925 sq mi) ( 123rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">4.2</td>",
         "value_text": "4.2"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 9,583,381<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">101st</a>)</td>",
         "value_text": "9,583,381 [ 6 ] ( 101st )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_html": "<td class=\"infobox-data\">8,095,498<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "8,095,498 [ 7 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">125.9/km<sup>2</sup> (326.1/sq mi)</td>",
         "value_text": "125.9/km 2 (326.1/sq mi)"
       },
@@ -242,43 +242,43 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• German Togoland",
+        "label": "Establishment history • German Togoland",
         "value_text": "5 July 1884"
       },
       {
-        "label": "• French Togoland",
+        "label": "Establishment history • French Togoland",
         "value_text": "27 August 1914"
       },
       {
-        "label": "• Independence from France",
+        "label": "Establishment history • Independence from France",
         "value_text": "27 April 1960"
       },
       {
-        "label": "• Admission to the UNO",
+        "label": "Establishment history • Admission to the UNO",
         "value_text": "20 September 1960"
       },
       {
-        "label": "• Current constitution",
+        "label": "Establishment history • Current constitution",
         "value_text": "6 May 2024"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "56,785 km 2 (21,925 sq mi) ( 123rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "4.2"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "9,583,381 ( 101st )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_text": "8,095,498"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "125.9/km 2 (326.1/sq mi)"
       },
       {
@@ -547,8 +547,8 @@
         ],
         "numbers": []
       },
-      "german_togoland": {
-        "raw_label": "• German Togoland",
+      "establishment_history_german_togoland": {
+        "raw_label": "Establishment history • German Togoland",
         "text": "5 July 1884",
         "tokens": [
           "5",
@@ -560,8 +560,8 @@
           1884
         ]
       },
-      "french_togoland": {
-        "raw_label": "• French Togoland",
+      "establishment_history_french_togoland": {
+        "raw_label": "Establishment history • French Togoland",
         "text": "27 August 1914",
         "tokens": [
           "27",
@@ -573,8 +573,8 @@
           1914
         ]
       },
-      "independence_from_france": {
-        "raw_label": "• Independence from France",
+      "establishment_history_independence_from_france": {
+        "raw_label": "Establishment history • Independence from France",
         "text": "27 April 1960",
         "tokens": [
           "27",
@@ -586,8 +586,8 @@
           1960
         ]
       },
-      "admission_to_the_uno": {
-        "raw_label": "• Admission to the UNO",
+      "establishment_history_admission_to_the_uno": {
+        "raw_label": "Establishment history • Admission to the UNO",
         "text": "20 September 1960",
         "tokens": [
           "20",
@@ -599,8 +599,8 @@
           1960
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "establishment_history_current_constitution": {
+        "raw_label": "Establishment history • Current constitution",
         "text": "6 May 2024",
         "tokens": [
           "6",
@@ -612,22 +612,29 @@
           2024
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$10.020 billion ( 151st )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "56,785 km 2 (21,925 sq mi) ( 123rd )",
         "tokens": [
-          "10",
-          "020",
-          "billion",
-          "151st"
+          "56",
+          "785",
+          "km",
+          "2",
+          "21",
+          "925",
+          "sq",
+          "mi",
+          "123rd"
         ],
         "numbers": [
-          10.02,
-          151
+          56785,
+          2,
+          21925,
+          123
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "4.2",
         "tokens": [
           "4",
@@ -637,8 +644,8 @@
           4.2
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "9,583,381 ( 101st )",
         "tokens": [
           "9",
@@ -651,8 +658,8 @@
           101
         ]
       },
-      "2022_census": {
-        "raw_label": "• 2022 census",
+      "population_2022_census": {
+        "raw_label": "Population • 2022 census",
         "text": "8,095,498",
         "tokens": [
           "8",
@@ -663,8 +670,8 @@
           8095498
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "125.9/km 2 (326.1/sq mi)",
         "tokens": [
           "125",
@@ -691,6 +698,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$10.020 billion ( 151st )",
+        "tokens": [
+          "10",
+          "020",
+          "billion",
+          "151st"
+        ],
+        "numbers": [
+          10.02,
+          151
         ]
       },
       "per_capita": {
@@ -806,6 +827,55 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Togo",
+      "capital": "Lomé",
+      "largest_city": "Lomé",
+      "coordinates": {
+        "latitude": "6°8′N",
+        "longitude": "1°13′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary republic",
+        "head_of_state": "Jean-Lucien Savi de Tové",
+        "head_of_government": "Faure Gnassingbé"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 56785,
+        "water_percent": 4.2
+      },
+      "population": {
+        "year": 2024,
+        "total": 9583381,
+        "rank": 101,
+        "density_per_km2": 125.9
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.571,
+          "rank": 161
+        },
+        "gini": {
+          "year": 2015,
+          "value": 43.1
+        }
+      },
+      "currency": {
+        "name": "West African CFA franc",
+        "code": "XOF"
+      },
+      "calling_code": "228",
+      "iso_3166_code": "TG",
+      "internet_tld": ".tg",
+      "time_zone": "UTC+00:00",
+      "demonym": "Togolese"
     }
   }
 }

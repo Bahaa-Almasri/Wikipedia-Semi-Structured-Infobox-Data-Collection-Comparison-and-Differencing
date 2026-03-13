@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-11T17:56:20+00:00",
+          "value": "2026-03-13T10:08:42+00:00",
           "children": []
         },
         {
@@ -38,417 +38,73 @@
       "value": null,
       "children": [
         {
-          "label": "2025_estimate",
+          "label": "area",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "4985716",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "128",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 2025 estimate",
+              "label": "total_km2",
+              "value": "17818",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "4,985,716 ( 128th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "985",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "716",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "128th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "anglo_kuwaiti_agreement",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "23",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1899",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Anglo-Kuwaiti Agreement",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "23 January 1899",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "23",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "January",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1899",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "anglo_ottoman_convention",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "29",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1913",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Anglo-Ottoman Convention",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "29 July 1913",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "29",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "July",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1913",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "calling_code",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "965",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Calling code",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "+965",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "965",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "965",
+          "children": []
         },
         {
-          "label": "capital_and_largest_city",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Capital and largest city",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Kuwait City",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Kuwait",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "City",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "capital",
+          "value": "Kuwait City",
+          "children": []
         },
         {
-          "label": "crown_prince",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Crown Prince",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Sabah Al-Khalid Al-Sabah",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Sabah",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Al",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Khalid",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Al",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Sabah",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "country_name",
+          "value": "Kuwait",
+          "children": []
         },
         {
           "label": "currency",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "code",
+              "value": "KWD",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Currency",
+              "label": "name",
+              "value": "Kuwaiti dinar",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "Kuwaiti dinar ( KWD )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Kuwaiti",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "dinar",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "KWD",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "current_constitution",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "11",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1962",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Current Constitution",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "11 November 1962",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "11",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "November",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1962",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "demonym",
+          "value": "Kuwaiti",
+          "children": []
+        },
+        {
+          "label": "development",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Demonym",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Kuwaiti",
-              "children": []
-            },
-            {
-              "label": "tokens",
+              "label": "hdi",
               "value": null,
               "children": [
                 {
-                  "label": "tokens_item",
-                  "value": "Kuwaiti",
+                  "label": "rank",
+                  "value": "52",
+                  "children": []
+                },
+                {
+                  "label": "value",
+                  "value": "0.852",
+                  "children": []
+                },
+                {
+                  "label": "year",
+                  "value": "2023",
                   "children": []
                 }
               ]
@@ -456,409 +112,18 @@
           ]
         },
         {
-          "label": "density",
+          "label": "economy",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "200.2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "518.5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "62",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Density",
+              "label": "gdp_nominal_year",
+              "value": "2025",
               "children": []
             },
             {
-              "label": "text",
-              "value": "200.2/km 2 (518.5/sq mi) ( 62nd )",
+              "label": "gdp_ppp_year",
+              "value": "2025",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "200",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "km",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "518",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sq",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "62nd",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "emir",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Emir",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Mishal Al-Ahmad Al-Jaber Al-Sabah",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Mishal",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Al",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Ahmad",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Al",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Jaber",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Al",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Sabah",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "end_of_british_protectorate",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "19",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1961",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• End of British Protectorate",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "19 June 1961",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "19",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "June",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1961",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "ethnic_groups_2018",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "57.8",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "40.3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1.0",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0.9",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Ethnic groups (2018)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "57.8% Arab 40.3% South Asian 1.0% African 0.9% other",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "57",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Arab",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "40",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "South",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Asian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "African",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_nominal",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP (nominal)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_ppp",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP ( PPP )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
             }
           ]
         },
@@ -867,733 +132,72 @@
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "head_of_government",
+              "value": "Ahmad Al-Abdullah Al-Sabah",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Government",
+              "label": "head_of_state",
+              "value": "Mishal Al-Ahmad Al-Jaber Al-Sabah",
               "children": []
             },
             {
-              "label": "text",
+              "label": "type",
               "value": "Unitary semi-constitutional monarchy",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Unitary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "semi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "constitutional",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "monarchy",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "hdi_2023",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0.852",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "52",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "HDI (2023)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "0.852 very high ( 52nd )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "852",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "very",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "high",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "52nd",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "independence_from_bani_khalid",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1752",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Independence from Bani Khalid",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "1752",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1752",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "internet_tld",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Internet TLD",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": ".kw",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "kw",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "iraqi_invasion_of_kuwait",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "28",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1990",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Iraqi invasion of Kuwait",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "28 August 1990",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "28",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "August",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1990",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": ".kw",
+          "children": []
         },
         {
           "label": "iso_3166_code",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "ISO 3166 code",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "KW",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "KW",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "KW",
+          "children": []
+        },
+        {
+          "label": "largest_city",
+          "value": "Kuwait City",
+          "children": []
         },
         {
           "label": "legislature",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Legislature",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "The National Assembly (suspended)",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "The",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "National",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Assembly",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "suspended",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "The National Assembly (suspended)",
+          "children": []
         },
         {
-          "label": "liberation_of_kuwait",
+          "label": "population",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "28",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1991",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Liberation of Kuwait",
+              "label": "density_per_km2",
+              "value": "200.2",
               "children": []
             },
             {
-              "label": "text",
-              "value": "28 February 1991",
+              "label": "rank",
+              "value": "128",
               "children": []
             },
             {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "28",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "February",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1991",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "official_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
+              "label": "total",
+              "value": "4985716",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Official languages",
+              "label": "year",
+              "value": "2025",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "Arabic",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Arabic",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "per_capita",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "29950",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "41",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Per capita",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$29,950 ( 41st )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "29",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "950",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "41st",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "prime_minister",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Prime Minister",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Ahmad Al-Abdullah Al-Sabah",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Ahmad",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Al",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Abdullah",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Al",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Sabah",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "religion_2013",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "74.6",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "18.2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "7.2",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Religion (2013)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "74.6% Islam ( official ) 18.2% Christianity 7.2% other",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "74",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Islam",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "official",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "18",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Christianity",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "time_zone",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "3",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Time zone",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC +3 ( AST )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "AST",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "total",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "153.1",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "59",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Total",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$153.100 billion ( 59th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "153",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "100",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "billion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "59th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "water",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Water (%)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "negligible",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "negligible",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "UTC+3",
+          "children": []
         }
       ]
     }

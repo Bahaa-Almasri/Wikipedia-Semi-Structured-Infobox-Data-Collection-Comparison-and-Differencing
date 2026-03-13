@@ -3,7 +3,7 @@
     "country_name": "Israel",
     "slug": "israel",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Israel",
-    "retrieved_at": "2026-03-11T17:56:11+00:00",
+    "retrieved_at": "2026-03-13T10:08:30+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,32 +70,32 @@
         "value_text": "Knesset"
       },
       {
-        "label": "• Declaration of independence",
+        "label": "Establishment • Declaration of independence",
         "value_html": "<td class=\"infobox-data\">14 May 1948</td>",
         "value_text": "14 May 1948"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">22,072 or 20,770<sup class=\"reference\" id=\"cite_ref-18\"><a href=\"#cite_note-18\"><span class=\"cite-bracket\">[</span>15<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-19\"><a href=\"#cite_note-19\"><span class=\"cite-bracket\">[</span>16<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (8,522 or 8,019 sq mi)<sup class=\"reference\" id=\"cite_ref-21\"><a href=\"#cite_note-21\"><span class=\"cite-bracket\">[</span>a<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">148th</a>)</td>",
         "value_text": "22,072 or 20,770 [ 15 ] [ 16 ] km 2 (8,522 or 8,019 sq mi) [ a ] ( 148th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.71<sup class=\"reference\" id=\"cite_ref-20\"><a href=\"#cite_note-20\"><span class=\"cite-bracket\">[</span>17<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "2.71 [ 17 ]"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_html": "<td class=\"infobox-data\">10,147,200<sup class=\"reference\" id=\"cite_ref-22\"><a href=\"#cite_note-22\"><span class=\"cite-bracket\">[</span>18<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">93rd</a>)</td>",
         "value_text": "10,147,200 [ 18 ] ( 93rd )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_html": "<td class=\"infobox-data\">9,601,720<sup class=\"reference\" id=\"cite_ref-23\"><a href=\"#cite_note-23\"><span class=\"cite-bracket\">[</span>19<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-oecd_24-0\"><a href=\"#cite_note-oecd-24\"><span class=\"cite-bracket\">[</span>fn 4<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "9,601,720 [ 19 ] [ fn 4 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">463/km<sup>2</sup> (1,199.2/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">30th</a>)</td>",
         "value_text": "463/km 2 (1,199.2/sq mi) ( 30th )"
       },
@@ -222,27 +222,27 @@
         "value_text": "Knesset"
       },
       {
-        "label": "• Declaration of independence",
+        "label": "Establishment • Declaration of independence",
         "value_text": "14 May 1948"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "22,072 or 20,770 km 2 (8,522 or 8,019 sq mi) ( 148th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.71"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_text": "10,147,200 ( 93rd )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_text": "9,601,720"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "463/km 2 (1,199.2/sq mi) ( 30th )"
       },
       {
@@ -466,8 +466,8 @@
         ],
         "numbers": []
       },
-      "declaration_of_independence": {
-        "raw_label": "• Declaration of independence",
+      "establishment_declaration_of_independence": {
+        "raw_label": "Establishment • Declaration of independence",
         "text": "14 May 1948",
         "tokens": [
           "14",
@@ -479,22 +479,37 @@
           1948
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$610.75 billion ( 26th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "22,072 or 20,770 km 2 (8,522 or 8,019 sq mi) ( 148th )",
         "tokens": [
-          "610",
-          "75",
-          "billion",
-          "26th"
+          "22",
+          "072",
+          "or",
+          "20",
+          "770",
+          "km",
+          "2",
+          "8",
+          "522",
+          "or",
+          "8",
+          "019",
+          "sq",
+          "mi",
+          "148th"
         ],
         "numbers": [
-          610.75,
-          26
+          22072,
+          20770,
+          2,
+          8522,
+          8019,
+          148
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.71",
         "tokens": [
           "2",
@@ -504,8 +519,8 @@
           2.71
         ]
       },
-      "2026_estimate": {
-        "raw_label": "• 2026 estimate",
+      "population_2026_estimate": {
+        "raw_label": "Population • 2026 estimate",
         "text": "10,147,200 ( 93rd )",
         "tokens": [
           "10",
@@ -518,8 +533,8 @@
           93
         ]
       },
-      "2022_census": {
-        "raw_label": "• 2022 census",
+      "population_2022_census": {
+        "raw_label": "Population • 2022 census",
         "text": "9,601,720",
         "tokens": [
           "9",
@@ -530,8 +545,8 @@
           9601720
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "463/km 2 (1,199.2/sq mi) ( 30th )",
         "tokens": [
           "463",
@@ -560,6 +575,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$610.75 billion ( 26th )",
+        "tokens": [
+          "610",
+          "75",
+          "billion",
+          "26th"
+        ],
+        "numbers": [
+          610.75,
+          26
         ]
       },
       "per_capita": {
@@ -678,6 +707,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Israel",
+      "capital": "Jerusalem ( limited recognition )",
+      "largest_city": "Jerusalem ( limited recognition )",
+      "coordinates": {
+        "latitude": "31°47′N",
+        "longitude": "35°13′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary republic",
+        "head_of_state": "Isaac Herzog",
+        "head_of_government": "Benjamin Netanyahu"
+      },
+      "legislature": "Knesset",
+      "area": {
+        "total_km2": 22072,
+        "water_percent": 2.71
+      },
+      "population": {
+        "year": 2026,
+        "total": 10147200,
+        "rank": 93,
+        "density_per_km2": 463.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.919,
+          "rank": 27
+        },
+        "gini": {
+          "year": 2021,
+          "value": 37.9
+        }
+      },
+      "currency": {
+        "name": "New shekel"
+      },
+      "calling_code": "972",
+      "iso_3166_code": "IL",
+      "internet_tld": ".il",
+      "time_zone": "UTC+2:00",
+      "demonym": "Israeli"
     }
   }
 }

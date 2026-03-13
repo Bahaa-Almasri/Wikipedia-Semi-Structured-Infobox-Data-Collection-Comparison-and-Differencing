@@ -3,7 +3,7 @@
     "country_name": "Equatorial Guinea",
     "slug": "equatorial_guinea",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Equatorial_Guinea",
-    "retrieved_at": "2026-03-11T17:55:17+00:00",
+    "retrieved_at": "2026-03-13T10:07:48+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -85,32 +85,32 @@
         "value_text": "Chamber of Deputies"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from Spain • Declared",
         "value_html": "<td class=\"infobox-data\">12 October 1968</td>",
         "value_text": "12 October 1968"
       },
       {
-        "label": "• 1979 Equatorial Guinea coup d'état",
+        "label": "Independence from Spain • 1979 Equatorial Guinea coup d'état",
         "value_html": "<td class=\"infobox-data\">3 August 1979</td>",
         "value_text": "3 August 1979"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">28,050 km<sup>2</sup> (10,830 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">141st</a>)</td>",
         "value_text": "28,050 km 2 (10,830 sq mi) ( 141st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">negligible</td>",
         "value_text": "negligible"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\">1,795,834 <sup class=\"reference\" id=\"cite_ref-CIAWorldFactbook_8-0\"><a href=\"#cite_note-CIAWorldFactbook-8\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">154th</a>)</td>",
         "value_text": "1,795,834 [ 8 ] ( 154th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">67/km<sup>2</sup> (173.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">147th</a>)</td>",
         "value_text": "67/km 2 (173.5/sq mi) ( 147th )"
       },
@@ -239,27 +239,27 @@
         "value_text": "Chamber of Deputies"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from Spain • Declared",
         "value_text": "12 October 1968"
       },
       {
-        "label": "• 1979 Equatorial Guinea coup d'état",
+        "label": "Independence from Spain • 1979 Equatorial Guinea coup d'état",
         "value_text": "3 August 1979"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "28,050 km 2 (10,830 sq mi) ( 141st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "negligible"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "1,795,834 ( 154th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "67/km 2 (173.5/sq mi) ( 147th )"
       },
       {
@@ -544,8 +544,8 @@
         ],
         "numbers": []
       },
-      "declared": {
-        "raw_label": "• Declared",
+      "independence_from_spain_declared": {
+        "raw_label": "Independence from Spain • Declared",
         "text": "12 October 1968",
         "tokens": [
           "12",
@@ -557,8 +557,8 @@
           1968
         ]
       },
-      "1979_equatorial_guinea_coup_d_tat": {
-        "raw_label": "• 1979 Equatorial Guinea coup d'état",
+      "independence_from_spain_1979_equatorial_guinea_coup_d_tat": {
+        "raw_label": "Independence from Spain • 1979 Equatorial Guinea coup d'état",
         "text": "3 August 1979",
         "tokens": [
           "3",
@@ -570,30 +570,37 @@
           1979
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$12.680 billion ( 149th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "28,050 km 2 (10,830 sq mi) ( 141st )",
         "tokens": [
-          "12",
-          "680",
-          "billion",
-          "149th"
+          "28",
+          "050",
+          "km",
+          "2",
+          "10",
+          "830",
+          "sq",
+          "mi",
+          "141st"
         ],
         "numbers": [
-          12.68,
-          149
+          28050,
+          2,
+          10830,
+          141
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "negligible",
         "tokens": [
           "negligible"
         ],
         "numbers": []
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "1,795,834 ( 154th )",
         "tokens": [
           "1",
@@ -606,8 +613,8 @@
           154
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "67/km 2 (173.5/sq mi) ( 147th )",
         "tokens": [
           "67",
@@ -635,6 +642,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$12.680 billion ( 149th )",
+        "tokens": [
+          "12",
+          "680",
+          "billion",
+          "149th"
+        ],
+        "numbers": [
+          12.68,
+          149
         ]
       },
       "per_capita": {
@@ -725,6 +746,45 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Equatorial Guinea",
+      "capital": "Ciudad de la Paz",
+      "largest_city": "Bata",
+      "government": {
+        "type": "Unitary presidential republic under an authoritarian hereditary dictatorship",
+        "head_of_state": "Teodoro Obiang Nguema Mbasogo",
+        "head_of_government": "Manuel Osa Nsue Nsua"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 28050
+      },
+      "population": {
+        "year": 2025,
+        "total": 1795834,
+        "rank": 154,
+        "density_per_km2": 67.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.674,
+          "rank": 133
+        }
+      },
+      "currency": {
+        "name": "Central African CFA franc",
+        "code": "XAF"
+      },
+      "calling_code": "240",
+      "iso_3166_code": "GQ",
+      "internet_tld": ".gq",
+      "time_zone": "UTC+1"
     }
   }
 }

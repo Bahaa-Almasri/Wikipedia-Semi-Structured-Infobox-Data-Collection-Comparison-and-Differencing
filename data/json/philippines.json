@@ -3,7 +3,7 @@
     "country_name": "Philippines",
     "slug": "philippines",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Philippines",
-    "retrieved_at": "2026-03-11T17:57:14+00:00",
+    "retrieved_at": "2026-03-13T10:09:42+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -105,47 +105,47 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Declaration",
+        "label": "Independence from Spain and the United States • Declaration",
         "value_html": "<td class=\"infobox-data\">June 12, 1898</td>",
         "value_text": "June 12, 1898"
       },
       {
-        "label": "• Cession",
+        "label": "Independence from Spain and the United States • Cession",
         "value_html": "<td class=\"infobox-data\">April 11, 1899</td>",
         "value_text": "April 11, 1899"
       },
       {
-        "label": "• Self-government",
+        "label": "Independence from Spain and the United States • Self-government",
         "value_html": "<td class=\"infobox-data\">November 15, 1935</td>",
         "value_text": "November 15, 1935"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from Spain and the United States • Recognized",
         "value_html": "<td class=\"infobox-data\">July 4, 1946</td>",
         "value_text": "July 4, 1946"
       },
       {
-        "label": "• Constitution",
+        "label": "Independence from Spain and the United States • Constitution",
         "value_html": "<td class=\"infobox-data\">February 2, 1987</td>",
         "value_text": "February 2, 1987"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">300,000<sup class=\"reference\" id=\"cite_ref-Philippines_country_profile_12-0\"><a href=\"#cite_note-Philippines_country_profile-12\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-13\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-land-area_14-0\"><a href=\"#cite_note-land-area-14\"><span class=\"cite-bracket\">[</span>e<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (120,000 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">72nd</a>)</td>",
         "value_text": "300,000 [ 8 ] [ 9 ] [ e ] km 2 (120,000 sq mi) ( 72nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.61<sup class=\"reference\" id=\"cite_ref-CIAWorldFactBook_15-0\"><a href=\"#cite_note-CIAWorldFactBook-15\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup> (inland waters)</td>",
         "value_text": "0.61 [ 10 ] (inland waters)"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 112,729,484<sup class=\"reference\" id=\"cite_ref-PSA_POPCEN_16-0\"><a href=\"#cite_note-PSA_POPCEN-16\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "112,729,484 [ 11 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">363.45/km<sup>2</sup> (941.3/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">34th</a>)</td>",
         "value_text": "363.45/km 2 (941.3/sq mi) ( 34th )"
       },
@@ -295,39 +295,39 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Declaration",
+        "label": "Independence from Spain and the United States • Declaration",
         "value_text": "June 12, 1898"
       },
       {
-        "label": "• Cession",
+        "label": "Independence from Spain and the United States • Cession",
         "value_text": "April 11, 1899"
       },
       {
-        "label": "• Self-government",
+        "label": "Independence from Spain and the United States • Self-government",
         "value_text": "November 15, 1935"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from Spain and the United States • Recognized",
         "value_text": "July 4, 1946"
       },
       {
-        "label": "• Constitution",
+        "label": "Independence from Spain and the United States • Constitution",
         "value_text": "February 2, 1987"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "300,000 km 2 (120,000 sq mi) ( 72nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.61 (inland waters)"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_text": "112,729,484"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "363.45/km 2 (941.3/sq mi) ( 34th )"
       },
       {
@@ -643,8 +643,8 @@
         ],
         "numbers": []
       },
-      "declaration": {
-        "raw_label": "• Declaration",
+      "independence_from_spain_and_the_united_states_declaration": {
+        "raw_label": "Independence from Spain and the United States • Declaration",
         "text": "June 12, 1898",
         "tokens": [
           "June",
@@ -656,8 +656,8 @@
           1898
         ]
       },
-      "cession": {
-        "raw_label": "• Cession",
+      "independence_from_spain_and_the_united_states_cession": {
+        "raw_label": "Independence from Spain and the United States • Cession",
         "text": "April 11, 1899",
         "tokens": [
           "April",
@@ -669,8 +669,8 @@
           1899
         ]
       },
-      "self_government": {
-        "raw_label": "• Self-government",
+      "independence_from_spain_and_the_united_states_self_government": {
+        "raw_label": "Independence from Spain and the United States • Self-government",
         "text": "November 15, 1935",
         "tokens": [
           "November",
@@ -682,8 +682,8 @@
           1935
         ]
       },
-      "recognized": {
-        "raw_label": "• Recognized",
+      "independence_from_spain_and_the_united_states_recognized": {
+        "raw_label": "Independence from Spain and the United States • Recognized",
         "text": "July 4, 1946",
         "tokens": [
           "July",
@@ -695,8 +695,8 @@
           1946
         ]
       },
-      "constitution": {
-        "raw_label": "• Constitution",
+      "independence_from_spain_and_the_united_states_constitution": {
+        "raw_label": "Independence from Spain and the United States • Constitution",
         "text": "February 2, 1987",
         "tokens": [
           "February",
@@ -708,22 +708,29 @@
           1987
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$497.05 billion ( 32nd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "300,000 km 2 (120,000 sq mi) ( 72nd )",
         "tokens": [
-          "497",
-          "05",
-          "billion",
-          "32nd"
+          "300",
+          "000",
+          "km",
+          "2",
+          "120",
+          "000",
+          "sq",
+          "mi",
+          "72nd"
         ],
         "numbers": [
-          497.05,
-          32
+          300000,
+          2,
+          120000,
+          72
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.61 (inland waters)",
         "tokens": [
           "0",
@@ -735,8 +742,8 @@
           0.61
         ]
       },
-      "2024_census": {
-        "raw_label": "• 2024 census",
+      "population_2024_census": {
+        "raw_label": "Population • 2024 census",
         "text": "112,729,484",
         "tokens": [
           "112",
@@ -747,8 +754,8 @@
           112729484
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "363.45/km 2 (941.3/sq mi) ( 34th )",
         "tokens": [
           "363",
@@ -777,6 +784,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$497.05 billion ( 32nd )",
+        "tokens": [
+          "497",
+          "05",
+          "billion",
+          "32nd"
+        ],
+        "numbers": [
+          497.05,
+          32
         ]
       },
       "per_capita": {
@@ -878,6 +899,47 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Philippines",
+      "capital": "Manila ( de jure ) Metro Manila ( de facto )",
+      "largest_city": "Quezon City",
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Bongbong Marcos"
+      },
+      "legislature": "Congress",
+      "area": {
+        "total_km2": 300000,
+        "water_percent": 0.61
+      },
+      "population": {
+        "year": 2024,
+        "total": 112729484,
+        "density_per_km2": 363.45
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.72,
+          "rank": 117
+        },
+        "gini": {
+          "year": 2023,
+          "value": 39.3
+        }
+      },
+      "currency": {
+        "name": "Philippine peso"
+      },
+      "calling_code": "63",
+      "iso_3166_code": "PH",
+      "internet_tld": ".ph",
+      "time_zone": "UTC+8"
     }
   }
 }

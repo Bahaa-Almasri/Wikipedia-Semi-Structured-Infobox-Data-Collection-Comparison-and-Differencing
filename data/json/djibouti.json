@@ -3,7 +3,7 @@
     "country_name": "Djibouti",
     "slug": "djibouti",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Djibouti",
-    "retrieved_at": "2026-03-11T17:54:55+00:00",
+    "retrieved_at": "2026-03-13T10:07:41+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,32 +60,32 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Independence from France",
+        "label": "Formation • Independence from France",
         "value_html": "<td class=\"infobox-data\">27 June 1977</td>",
         "value_text": "27 June 1977"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation • Current constitution",
         "value_html": "<td class=\"infobox-data\">4 September 1992</td>",
         "value_text": "4 September 1992"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">23,200<sup class=\"reference\" id=\"cite_ref-CIA_1-1\"><a href=\"#cite_note-CIA-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (9,000 sq mi)<sup class=\"reference\" id=\"cite_ref-CIA_1-2\"><a href=\"#cite_note-CIA-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">146th</a>)</td>",
         "value_text": "23,200 [ 1 ] km 2 (9,000 sq mi) [ 1 ] ( 146th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\">0.09 (20 km² / 7.7 sq mi)</span></td>",
         "value_text": "0.09 (20 km² / 7.7 sq mi)"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_html": "<td class=\"infobox-data\">1,066,809<sup class=\"reference\" id=\"cite_ref-ReferenceA_7-0\"><a href=\"#cite_note-ReferenceA-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "1,066,809 [ 7 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">46.0/km<sup>2</sup> (119.1/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">168th</a>)</td>",
         "value_text": "46.0/km 2 (119.1/sq mi) ( 168th )"
       },
@@ -199,27 +199,27 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Independence from France",
+        "label": "Formation • Independence from France",
         "value_text": "27 June 1977"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation • Current constitution",
         "value_text": "4 September 1992"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "23,200 km 2 (9,000 sq mi) ( 146th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.09 (20 km² / 7.7 sq mi)"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_text": "1,066,809"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "46.0/km 2 (119.1/sq mi) ( 168th )"
       },
       {
@@ -429,8 +429,8 @@
         ],
         "numbers": []
       },
-      "independence_from_france": {
-        "raw_label": "• Independence from France",
+      "formation_independence_from_france": {
+        "raw_label": "Formation • Independence from France",
         "text": "27 June 1977",
         "tokens": [
           "27",
@@ -442,8 +442,8 @@
           1977
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "formation_current_constitution": {
+        "raw_label": "Formation • Current constitution",
         "text": "4 September 1992",
         "tokens": [
           "4",
@@ -455,22 +455,29 @@
           1992
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$3.873 billion ( 172nd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "23,200 km 2 (9,000 sq mi) ( 146th )",
         "tokens": [
-          "3",
-          "873",
-          "billion",
-          "172nd"
+          "23",
+          "200",
+          "km",
+          "2",
+          "9",
+          "000",
+          "sq",
+          "mi",
+          "146th"
         ],
         "numbers": [
-          3.873,
-          172
+          23200,
+          2,
+          9000,
+          146
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.09 (20 km² / 7.7 sq mi)",
         "tokens": [
           "0",
@@ -488,8 +495,8 @@
           7.7
         ]
       },
-      "2024_census": {
-        "raw_label": "• 2024 census",
+      "population_2024_census": {
+        "raw_label": "Population • 2024 census",
         "text": "1,066,809",
         "tokens": [
           "1",
@@ -500,8 +507,8 @@
           1066809
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "46.0/km 2 (119.1/sq mi) ( 168th )",
         "tokens": [
           "46",
@@ -530,6 +537,20 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$3.873 billion ( 172nd )",
+        "tokens": [
+          "3",
+          "873",
+          "billion",
+          "172nd"
+        ],
+        "numbers": [
+          3.873,
+          172
         ]
       },
       "per_capita": {
@@ -631,6 +652,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Djibouti",
+      "capital": "Djibouti City",
+      "largest_city": "Djibouti City",
+      "coordinates": {
+        "latitude": "11°36′N",
+        "longitude": "43°10′E"
+      },
+      "government": {
+        "type": "Unitary dominant-party presidential republic under a hereditary dictatorship",
+        "head_of_state": "Ismaïl Omar Guelleh",
+        "head_of_government": "Abdoulkader Kamil Mohamed"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 23200,
+        "water_percent": 0.09
+      },
+      "population": {
+        "year": 2024,
+        "total": 1066809,
+        "density_per_km2": 46.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.513,
+          "rank": 175
+        },
+        "gini": {
+          "year": 2017,
+          "value": 41.6
+        }
+      },
+      "currency": {
+        "name": "Djiboutian franc",
+        "code": "DJF"
+      },
+      "calling_code": "253",
+      "iso_3166_code": "DJ",
+      "internet_tld": ".dj",
+      "time_zone": "UTC+3",
+      "demonym": "Djiboutian"
     }
   }
 }

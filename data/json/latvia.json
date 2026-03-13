@@ -3,7 +3,7 @@
     "country_name": "Latvia",
     "slug": "latvia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Latvia",
-    "retrieved_at": "2026-03-11T17:56:22+00:00",
+    "retrieved_at": "2026-03-13T10:08:45+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,42 +65,42 @@
         "value_text": "Saeima"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from Germany and Russia • Declared",
         "value_html": "<td class=\"infobox-data\">18 November 1918</td>",
         "value_text": "18 November 1918"
       },
       {
-        "label": "• Recognised",
+        "label": "Independence from Germany and Russia • Recognised",
         "value_html": "<td class=\"infobox-data\">26 January 1921</td>",
         "value_text": "26 January 1921"
       },
       {
-        "label": "• Constitution adopted",
+        "label": "Independence from Germany and Russia • Constitution adopted",
         "value_html": "<td class=\"infobox-data\">7 November 1922</td>",
         "value_text": "7 November 1922"
       },
       {
-        "label": "• Restored",
+        "label": "Independence from Germany and Russia • Restored",
         "value_html": "<td class=\"infobox-data\"><a class=\"mw-redirect\" href=\"/wiki/1991_Soviet_coup_d%27%C3%A9tat_attempt\" title=\"1991 Soviet coup d'état attempt\">21 August 1991</a></td>",
         "value_text": "21 August 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">64,589 km<sup>2</sup> (24,938 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">122nd</a>)</td>",
         "value_text": "64,589 km 2 (24,938 sq mi) ( 122nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.09 (2015)<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "2.09 (2015) [ 5 ]"
       },
       {
-        "label": "• 2022 estimate",
+        "label": "Population • 2022 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral decrease\"><img alt=\"Neutral decrease\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/20px-Decrease_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/40px-Decrease_Neutral.svg.png 2x\" width=\"11\"/></span></span> 1,842,226<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">146th</a>)</td>",
         "value_text": "1,842,226 [ 6 ] ( 146th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">29.6/km<sup>2</sup> (76.7/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">147th</a>)</td>",
         "value_text": "29.6/km 2 (76.7/sq mi) ( 147th )"
       },
@@ -223,35 +223,35 @@
         "value_text": "Saeima"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from Germany and Russia • Declared",
         "value_text": "18 November 1918"
       },
       {
-        "label": "• Recognised",
+        "label": "Independence from Germany and Russia • Recognised",
         "value_text": "26 January 1921"
       },
       {
-        "label": "• Constitution adopted",
+        "label": "Independence from Germany and Russia • Constitution adopted",
         "value_text": "7 November 1922"
       },
       {
-        "label": "• Restored",
+        "label": "Independence from Germany and Russia • Restored",
         "value_text": "21 August 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "64,589 km 2 (24,938 sq mi) ( 122nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.09 (2015)"
       },
       {
-        "label": "• 2022 estimate",
+        "label": "Population • 2022 estimate",
         "value_text": "1,842,226 ( 146th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "29.6/km 2 (76.7/sq mi) ( 147th )"
       },
       {
@@ -489,8 +489,8 @@
         ],
         "numbers": []
       },
-      "declared": {
-        "raw_label": "• Declared",
+      "independence_from_germany_and_russia_declared": {
+        "raw_label": "Independence from Germany and Russia • Declared",
         "text": "18 November 1918",
         "tokens": [
           "18",
@@ -502,8 +502,8 @@
           1918
         ]
       },
-      "recognised": {
-        "raw_label": "• Recognised",
+      "independence_from_germany_and_russia_recognised": {
+        "raw_label": "Independence from Germany and Russia • Recognised",
         "text": "26 January 1921",
         "tokens": [
           "26",
@@ -515,8 +515,8 @@
           1921
         ]
       },
-      "constitution_adopted": {
-        "raw_label": "• Constitution adopted",
+      "independence_from_germany_and_russia_constitution_adopted": {
+        "raw_label": "Independence from Germany and Russia • Constitution adopted",
         "text": "7 November 1922",
         "tokens": [
           "7",
@@ -528,8 +528,8 @@
           1922
         ]
       },
-      "restored": {
-        "raw_label": "• Restored",
+      "independence_from_germany_and_russia_restored": {
+        "raw_label": "Independence from Germany and Russia • Restored",
         "text": "21 August 1991",
         "tokens": [
           "21",
@@ -541,22 +541,29 @@
           1991
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$47.880 billion ( 96th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "64,589 km 2 (24,938 sq mi) ( 122nd )",
         "tokens": [
-          "47",
-          "880",
-          "billion",
-          "96th"
+          "64",
+          "589",
+          "km",
+          "2",
+          "24",
+          "938",
+          "sq",
+          "mi",
+          "122nd"
         ],
         "numbers": [
-          47.88,
-          96
+          64589,
+          2,
+          24938,
+          122
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.09 (2015)",
         "tokens": [
           "2",
@@ -568,8 +575,8 @@
           2015
         ]
       },
-      "2022_estimate": {
-        "raw_label": "• 2022 estimate",
+      "population_2022_estimate": {
+        "raw_label": "Population • 2022 estimate",
         "text": "1,842,226 ( 146th )",
         "tokens": [
           "1",
@@ -582,8 +589,8 @@
           146
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "29.6/km 2 (76.7/sq mi) ( 147th )",
         "tokens": [
           "29",
@@ -612,6 +619,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$47.880 billion ( 96th )",
+        "tokens": [
+          "47",
+          "880",
+          "billion",
+          "96th"
+        ],
+        "numbers": [
+          47.88,
+          96
         ]
       },
       "per_capita": {
@@ -725,6 +746,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Latvia",
+      "capital": "Riga",
+      "largest_city": "Riga",
+      "coordinates": {
+        "latitude": "56°57′N",
+        "longitude": "24°6′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary republic",
+        "head_of_state": "Edgars Rinkēvičs",
+        "head_of_government": "Evika Siliņa"
+      },
+      "legislature": "Saeima",
+      "area": {
+        "total_km2": 64589,
+        "water_percent": 2.09
+      },
+      "population": {
+        "year": 2022,
+        "total": 1842226,
+        "rank": 146,
+        "density_per_km2": 29.6
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.889,
+          "rank": 41
+        },
+        "gini": {
+          "year": 2021,
+          "value": 35.7
+        }
+      },
+      "currency": {
+        "name": "Euro"
+      },
+      "calling_code": "371",
+      "iso_3166_code": "LV",
+      "internet_tld": ".lv",
+      "time_zone": "UTC+2",
+      "demonym": "Latvian"
     }
   }
 }

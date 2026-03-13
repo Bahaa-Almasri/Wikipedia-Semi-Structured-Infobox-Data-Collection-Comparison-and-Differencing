@@ -3,7 +3,7 @@
     "country_name": "Barbados",
     "slug": "barbados",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Barbados",
-    "retrieved_at": "2026-03-11T17:52:45+00:00",
+    "retrieved_at": "2026-03-13T10:06:56+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,52 +70,52 @@
         "value_text": "House of Assembly"
       },
       {
-        "label": "• Part of the West Indies Federation",
+        "label": "Independence from the United Kingdom • Part of the West Indies Federation",
         "value_html": "<td class=\"infobox-data\">3 January 1958 – 31 May 1962</td>",
         "value_text": "3 January 1958 – 31 May 1962"
       },
       {
-        "label": "• Barbados Independence Act 1966 as a Commonwealth realm",
+        "label": "Independence from the United Kingdom • Barbados Independence Act 1966 as a Commonwealth realm",
         "value_html": "<td class=\"infobox-data\">30 November 1966</td>",
         "value_text": "30 November 1966"
       },
       {
-        "label": "• Admitted to the UN",
+        "label": "Independence from the United Kingdom • Admitted to the UN",
         "value_html": "<td class=\"infobox-data\">7 December 1966</td>",
         "value_text": "7 December 1966"
       },
       {
-        "label": "• Joined CARICOM at the Treaty of Chaguaramas",
+        "label": "Independence from the United Kingdom • Joined CARICOM at the Treaty of Chaguaramas",
         "value_html": "<td class=\"infobox-data\">1 August 1973</td>",
         "value_text": "1 August 1973"
       },
       {
-        "label": "• Republic established",
+        "label": "Independence from the United Kingdom • Republic established",
         "value_html": "<td class=\"infobox-data\">30 November 2021</td>",
         "value_text": "30 November 2021"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">439 km<sup>2</sup> (169 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">183rd</a>)</td>",
         "value_text": "439 km 2 (169 sq mi) ( 183rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">Negligible</td>",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\">281,998<sup class=\"reference\" id=\"cite_ref-2\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">174th</a>)</td>",
         "value_text": "281,998 [ 2 ] ( 174th )"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_html": "<td class=\"infobox-data\">269,090<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">174th</a>)</td>",
         "value_text": "269,090 [ 3 ] ( 174th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">660/km<sup>2</sup> (1,709.4/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">17th</a>)</td>",
         "value_text": "660/km 2 (1,709.4/sq mi) ( 17th )"
       },
@@ -242,43 +242,43 @@
         "value_text": "House of Assembly"
       },
       {
-        "label": "• Part of the West Indies Federation",
+        "label": "Independence from the United Kingdom • Part of the West Indies Federation",
         "value_text": "3 January 1958 – 31 May 1962"
       },
       {
-        "label": "• Barbados Independence Act 1966 as a Commonwealth realm",
+        "label": "Independence from the United Kingdom • Barbados Independence Act 1966 as a Commonwealth realm",
         "value_text": "30 November 1966"
       },
       {
-        "label": "• Admitted to the UN",
+        "label": "Independence from the United Kingdom • Admitted to the UN",
         "value_text": "7 December 1966"
       },
       {
-        "label": "• Joined CARICOM at the Treaty of Chaguaramas",
+        "label": "Independence from the United Kingdom • Joined CARICOM at the Treaty of Chaguaramas",
         "value_text": "1 August 1973"
       },
       {
-        "label": "• Republic established",
+        "label": "Independence from the United Kingdom • Republic established",
         "value_text": "30 November 2021"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "439 km 2 (169 sq mi) ( 183rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "281,998 ( 174th )"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_text": "269,090 ( 174th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "660/km 2 (1,709.4/sq mi) ( 17th )"
       },
       {
@@ -516,8 +516,8 @@
         ],
         "numbers": []
       },
-      "part_of_the_west_indies_federation": {
-        "raw_label": "• Part of the West Indies Federation",
+      "independence_from_the_united_kingdom_part_of_the_west_indies_federation": {
+        "raw_label": "Independence from the United Kingdom • Part of the West Indies Federation",
         "text": "3 January 1958 – 31 May 1962",
         "tokens": [
           "3",
@@ -534,8 +534,8 @@
           1962
         ]
       },
-      "barbados_independence_act_1966_as_a_commonwealth_realm": {
-        "raw_label": "• Barbados Independence Act 1966 as a Commonwealth realm",
+      "independence_from_the_united_kingdom_barbados_independence_act_1966_as_a_commonwealth_realm": {
+        "raw_label": "Independence from the United Kingdom • Barbados Independence Act 1966 as a Commonwealth realm",
         "text": "30 November 1966",
         "tokens": [
           "30",
@@ -547,8 +547,8 @@
           1966
         ]
       },
-      "admitted_to_the_un": {
-        "raw_label": "• Admitted to the UN",
+      "independence_from_the_united_kingdom_admitted_to_the_un": {
+        "raw_label": "Independence from the United Kingdom • Admitted to the UN",
         "text": "7 December 1966",
         "tokens": [
           "7",
@@ -560,8 +560,8 @@
           1966
         ]
       },
-      "joined_caricom_at_the_treaty_of_chaguaramas": {
-        "raw_label": "• Joined CARICOM at the Treaty of Chaguaramas",
+      "independence_from_the_united_kingdom_joined_caricom_at_the_treaty_of_chaguaramas": {
+        "raw_label": "Independence from the United Kingdom • Joined CARICOM at the Treaty of Chaguaramas",
         "text": "1 August 1973",
         "tokens": [
           "1",
@@ -573,8 +573,8 @@
           1973
         ]
       },
-      "republic_established": {
-        "raw_label": "• Republic established",
+      "independence_from_the_united_kingdom_republic_established": {
+        "raw_label": "Independence from the United Kingdom • Republic established",
         "text": "30 November 2021",
         "tokens": [
           "30",
@@ -586,30 +586,35 @@
           2021
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$6.220 billion ( 165th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "439 km 2 (169 sq mi) ( 183rd )",
         "tokens": [
-          "6",
-          "220",
-          "billion",
-          "165th"
+          "439",
+          "km",
+          "2",
+          "169",
+          "sq",
+          "mi",
+          "183rd"
         ],
         "numbers": [
-          6.22,
-          165
+          439,
+          2,
+          169,
+          183
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "Negligible",
         "tokens": [
           "Negligible"
         ],
         "numbers": []
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "281,998 ( 174th )",
         "tokens": [
           "281",
@@ -621,8 +626,8 @@
           174
         ]
       },
-      "2021_census": {
-        "raw_label": "• 2021 census",
+      "population_2021_census": {
+        "raw_label": "Population • 2021 census",
         "text": "269,090 ( 174th )",
         "tokens": [
           "269",
@@ -634,8 +639,8 @@
           174
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "660/km 2 (1,709.4/sq mi) ( 17th )",
         "tokens": [
           "660",
@@ -664,6 +669,20 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$6.220 billion ( 165th )",
+        "tokens": [
+          "6",
+          "220",
+          "billion",
+          "165th"
+        ],
+        "numbers": [
+          6.22,
+          165
         ]
       },
       "per_capita": {
@@ -778,6 +797,48 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Barbados",
+      "capital": "Bridgetown",
+      "largest_city": "Bridgetown",
+      "government": {
+        "type": "Unitary parliamentary republic",
+        "head_of_state": "Jeffrey Bostic",
+        "head_of_government": "Mia Mottley"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 439
+      },
+      "population": {
+        "year": 2023,
+        "total": 281998,
+        "rank": 174,
+        "density_per_km2": 660.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.811,
+          "rank": 69
+        },
+        "gini": {
+          "year": 2016,
+          "value": 34.1
+        }
+      },
+      "currency": {
+        "name": "Barbadian dollar"
+      },
+      "calling_code": "1",
+      "iso_3166_code": "BB",
+      "internet_tld": ".bb",
+      "time_zone": "UTC −04:00 ( AST )"
     }
   }
 }

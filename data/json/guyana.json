@@ -3,7 +3,7 @@
     "country_name": "Guyana",
     "slug": "guyana",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guyana",
-    "retrieved_at": "2026-03-11T17:55:46+00:00",
+    "retrieved_at": "2026-03-13T10:08:12+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -85,52 +85,52 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Dutch control",
+        "label": "Establishment • Dutch control",
         "value_html": "<td class=\"infobox-data\">1667–1815</td>",
         "value_text": "1667–1815"
       },
       {
-        "label": "• British Guiana",
+        "label": "Establishment • British Guiana",
         "value_html": "<td class=\"infobox-data\">1831–1966</td>",
         "value_text": "1831–1966"
       },
       {
-        "label": "• Independence from the United Kingdom as Guyana",
+        "label": "Establishment • Independence from the United Kingdom as Guyana",
         "value_html": "<td class=\"infobox-data\">26 May 1966</td>",
         "value_text": "26 May 1966"
       },
       {
-        "label": "• Republic",
+        "label": "Establishment • Republic",
         "value_html": "<td class=\"infobox-data\">23 February 1970</td>",
         "value_text": "23 February 1970"
       },
       {
-        "label": "• Joined CARICOM at the Treaty of Chaguaramas",
+        "label": "Establishment • Joined CARICOM at the Treaty of Chaguaramas",
         "value_html": "<td class=\"infobox-data\">1 August 1973</td>",
         "value_text": "1 August 1973"
       },
       {
-        "label": "• Current constitution",
+        "label": "Establishment • Current constitution",
         "value_html": "<td class=\"infobox-data\">6 October 1980</td>",
         "value_text": "6 October 1980"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">214,969<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-AH_7-0\"><a href=\"#cite_note-AH-7\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (83,000 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">83rd</a>)</td>",
         "value_text": "214,969 [ 3 ] [ 4 ] [ 5 ] km 2 (83,000 sq mi) ( 83rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">8.4</td>",
         "value_text": "8.4"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\">950,986<sup class=\"reference\" id=\"cite_ref-9\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">166th</a>)</td>",
         "value_text": "950,986 [ 6 ] ( 166th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">4.25/km<sup>2</sup> (11.0/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">235th</a>)</td>",
         "value_text": "4.25/km 2 (11.0/sq mi) ( 235th )"
       },
@@ -269,43 +269,43 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Dutch control",
+        "label": "Establishment • Dutch control",
         "value_text": "1667–1815"
       },
       {
-        "label": "• British Guiana",
+        "label": "Establishment • British Guiana",
         "value_text": "1831–1966"
       },
       {
-        "label": "• Independence from the United Kingdom as Guyana",
+        "label": "Establishment • Independence from the United Kingdom as Guyana",
         "value_text": "26 May 1966"
       },
       {
-        "label": "• Republic",
+        "label": "Establishment • Republic",
         "value_text": "23 February 1970"
       },
       {
-        "label": "• Joined CARICOM at the Treaty of Chaguaramas",
+        "label": "Establishment • Joined CARICOM at the Treaty of Chaguaramas",
         "value_text": "1 August 1973"
       },
       {
-        "label": "• Current constitution",
+        "label": "Establishment • Current constitution",
         "value_text": "6 October 1980"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "214,969 km 2 (83,000 sq mi) ( 83rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "8.4"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "950,986 ( 166th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "4.25/km 2 (11.0/sq mi) ( 235th )"
       },
       {
@@ -601,8 +601,8 @@
         ],
         "numbers": []
       },
-      "dutch_control": {
-        "raw_label": "• Dutch control",
+      "establishment_dutch_control": {
+        "raw_label": "Establishment • Dutch control",
         "text": "1667–1815",
         "tokens": [
           "1667",
@@ -613,8 +613,8 @@
           1815
         ]
       },
-      "british_guiana": {
-        "raw_label": "• British Guiana",
+      "establishment_british_guiana": {
+        "raw_label": "Establishment • British Guiana",
         "text": "1831–1966",
         "tokens": [
           "1831",
@@ -625,8 +625,8 @@
           1966
         ]
       },
-      "independence_from_the_united_kingdom_as_guyana": {
-        "raw_label": "• Independence from the United Kingdom as Guyana",
+      "establishment_independence_from_the_united_kingdom_as_guyana": {
+        "raw_label": "Establishment • Independence from the United Kingdom as Guyana",
         "text": "26 May 1966",
         "tokens": [
           "26",
@@ -638,8 +638,8 @@
           1966
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "establishment_republic": {
+        "raw_label": "Establishment • Republic",
         "text": "23 February 1970",
         "tokens": [
           "23",
@@ -651,8 +651,8 @@
           1970
         ]
       },
-      "joined_caricom_at_the_treaty_of_chaguaramas": {
-        "raw_label": "• Joined CARICOM at the Treaty of Chaguaramas",
+      "establishment_joined_caricom_at_the_treaty_of_chaguaramas": {
+        "raw_label": "Establishment • Joined CARICOM at the Treaty of Chaguaramas",
         "text": "1 August 1973",
         "tokens": [
           "1",
@@ -664,8 +664,8 @@
           1973
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "establishment_current_constitution": {
+        "raw_label": "Establishment • Current constitution",
         "text": "6 October 1980",
         "tokens": [
           "6",
@@ -677,22 +677,29 @@
           1980
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$25.822 billion ( 119th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "214,969 km 2 (83,000 sq mi) ( 83rd )",
         "tokens": [
-          "25",
-          "822",
-          "billion",
-          "119th"
+          "214",
+          "969",
+          "km",
+          "2",
+          "83",
+          "000",
+          "sq",
+          "mi",
+          "83rd"
         ],
         "numbers": [
-          25.822,
-          119
+          214969,
+          2,
+          83000,
+          83
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "8.4",
         "tokens": [
           "8",
@@ -702,8 +709,8 @@
           8.4
         ]
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "950,986 ( 166th )",
         "tokens": [
           "950",
@@ -715,8 +722,8 @@
           166
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "4.25/km 2 (11.0/sq mi) ( 235th )",
         "tokens": [
           "4",
@@ -745,6 +752,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$25.822 billion ( 119th )",
+        "tokens": [
+          "25",
+          "822",
+          "billion",
+          "119th"
+        ],
+        "numbers": [
+          25.822,
+          119
         ]
       },
       "per_capita": {
@@ -858,6 +879,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Guyana",
+      "capital": "Georgetown",
+      "largest_city": "Georgetown",
+      "government": {
+        "type": "Unitary parliamentary republic with an executive presidency",
+        "head_of_state": "Irfaan Ali"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 214969,
+        "water_percent": 8.4
+      },
+      "population": {
+        "year": 2025,
+        "total": 950986,
+        "rank": 166,
+        "density_per_km2": 4.25
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.776,
+          "rank": 89
+        },
+        "gini": {
+          "year": 2007,
+          "value": 44.6
+        }
+      },
+      "currency": {
+        "name": "Guyanese dollar",
+        "code": "GYD"
+      },
+      "calling_code": "592",
+      "iso_3166_code": "GY",
+      "internet_tld": ".gy",
+      "time_zone": "UTC-04:00",
+      "demonym": "Guyanese"
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Japan",
     "slug": "japan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Japan",
-    "retrieved_at": "2026-03-11T17:56:15+00:00",
+    "retrieved_at": "2026-03-13T10:08:34+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,27 +60,27 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">377,975 km<sup>2</sup> (145,937 sq mi)<sup class=\"reference\" id=\"cite_ref-area-2019_4-0\"><a href=\"#cite_note-area-2019-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">62nd</a>)</td>",
         "value_text": "377,975 km 2 (145,937 sq mi) [ 4 ] ( 62nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.4<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "1.4 [ 3 ]"
       },
       {
-        "label": "• January 1, 2026 estimate",
+        "label": "Population • January 1, 2026 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral decrease\"><img alt=\"Neutral decrease\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/20px-Decrease_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/40px-Decrease_Neutral.svg.png 2x\" width=\"11\"/></span></span> 122,950,000<sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">11th</a>)</td>",
         "value_text": "122,950,000 [ 5 ] ( 11th )"
       },
       {
-        "label": "• 2020 census",
+        "label": "Population • 2020 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral decrease\"><img alt=\"Neutral decrease\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/20px-Decrease_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/40px-Decrease_Neutral.svg.png 2x\" width=\"11\"/></span></span> 126,146,099<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "126,146,099 [ 6 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">330/km<sup>2</sup> (854.7/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">39th</a>)</td>",
         "value_text": "330/km 2 (854.7/sq mi) ( 39th )"
       },
@@ -194,23 +194,23 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "377,975 km 2 (145,937 sq mi) ( 62nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.4"
       },
       {
-        "label": "• January 1, 2026 estimate",
+        "label": "Population • January 1, 2026 estimate",
         "value_text": "122,950,000 ( 11th )"
       },
       {
-        "label": "• 2020 census",
+        "label": "Population • 2020 census",
         "value_text": "126,146,099"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "330/km 2 (854.7/sq mi) ( 39th )"
       },
       {
@@ -387,22 +387,29 @@
         ],
         "numbers": []
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$4.230 trillion ( 4th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "377,975 km 2 (145,937 sq mi) ( 62nd )",
         "tokens": [
-          "4",
-          "230",
-          "trillion",
-          "4th"
+          "377",
+          "975",
+          "km",
+          "2",
+          "145",
+          "937",
+          "sq",
+          "mi",
+          "62nd"
         ],
         "numbers": [
-          4.23,
-          4
+          377975,
+          2,
+          145937,
+          62
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.4",
         "tokens": [
           "1",
@@ -412,8 +419,8 @@
           1.4
         ]
       },
-      "january_1_2026_estimate": {
-        "raw_label": "• January 1, 2026 estimate",
+      "population_january_1_2026_estimate": {
+        "raw_label": "Population • January 1, 2026 estimate",
         "text": "122,950,000 ( 11th )",
         "tokens": [
           "122",
@@ -426,8 +433,8 @@
           11
         ]
       },
-      "2020_census": {
-        "raw_label": "• 2020 census",
+      "population_2020_census": {
+        "raw_label": "Population • 2020 census",
         "text": "126,146,099",
         "tokens": [
           "126",
@@ -438,8 +445,8 @@
           126146099
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "330/km 2 (854.7/sq mi) ( 39th )",
         "tokens": [
           "330",
@@ -467,6 +474,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$4.230 trillion ( 4th )",
+        "tokens": [
+          "4",
+          "230",
+          "trillion",
+          "4th"
+        ],
+        "numbers": [
+          4.23,
+          4
         ]
       },
       "per_capita": {
@@ -570,6 +591,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Japan",
+      "capital": "Tokyo",
+      "largest_city": "Tokyo",
+      "coordinates": {
+        "latitude": "35°41′N",
+        "longitude": "139°46′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary constitutional monarchy",
+        "head_of_government": "Sanae Takaichi"
+      },
+      "legislature": "National Diet",
+      "area": {
+        "total_km2": 377975,
+        "water_percent": 1.4
+      },
+      "population": {
+        "year": 2026,
+        "total": 122950000,
+        "rank": 11,
+        "density_per_km2": 330.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.925,
+          "rank": 23
+        },
+        "gini": {
+          "year": 2020,
+          "value": 32.3
+        }
+      },
+      "currency": {
+        "name": "Japanese yen"
+      },
+      "calling_code": "81",
+      "iso_3166_code": "JP",
+      "internet_tld": ".jp",
+      "time_zone": "UTC+09:00",
+      "demonym": "Japanese"
     }
   }
 }

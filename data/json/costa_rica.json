@@ -3,7 +3,7 @@
     "country_name": "Costa Rica",
     "slug": "costa_rica",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Costa_Rica",
-    "retrieved_at": "2026-03-11T17:53:42+00:00",
+    "retrieved_at": "2026-03-13T10:07:30+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,52 +65,52 @@
         "value_text": "Legislative Assembly"
       },
       {
-        "label": "• from Spain",
+        "label": "Independence from • from Spain",
         "value_html": "<td class=\"infobox-data\">15 September 1821</td>",
         "value_text": "15 September 1821"
       },
       {
-        "label": "• from First Mexican Empire",
+        "label": "Independence from • from First Mexican Empire",
         "value_html": "<td class=\"infobox-data\">1 July 1823</td>",
         "value_text": "1 July 1823"
       },
       {
-        "label": "• from the Federal Republic of Central America",
+        "label": "Independence from • from the Federal Republic of Central America",
         "value_html": "<td class=\"infobox-data\">14 November 1838</td>",
         "value_text": "14 November 1838"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from • Current constitution",
         "value_html": "<td class=\"infobox-data\">7 November 1949<sup class=\"reference\" id=\"cite_ref-CIA_1-1\"><a href=\"#cite_note-CIA-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "7 November 1949 [ 1 ]"
       },
       {
-        "label": "• Recognized by Spain",
+        "label": "Independence from • Recognized by Spain",
         "value_html": "<td class=\"infobox-data\">10 May 1850</td>",
         "value_text": "10 May 1850"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">51,179.92 km<sup>2</sup> (19,760.68 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">126th</a>)</td>",
         "value_text": "51,179.92 km 2 (19,760.68 sq mi) ( 126th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.05 (as of 2015)<sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "1.05 (as of 2015) [ 5 ]"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_html": "<td class=\"infobox-data\">5,160,700<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">127th</a>)</td>",
         "value_text": "5,160,700 [ 6 ] ( 127th )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_html": "<td class=\"infobox-data\">5,044,197<sup class=\"reference\" id=\"cite_ref-inec_cr_7-0\"><a href=\"#cite_note-inec_cr-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "5,044,197 [ 7 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">220/sq mi (84.9/km<sup>2</sup>) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">107th</a>)</td>",
         "value_text": "220/sq mi (84.9/km 2 ) ( 107th )"
       },
@@ -233,43 +233,43 @@
         "value_text": "Legislative Assembly"
       },
       {
-        "label": "• from Spain",
+        "label": "Independence from • from Spain",
         "value_text": "15 September 1821"
       },
       {
-        "label": "• from First Mexican Empire",
+        "label": "Independence from • from First Mexican Empire",
         "value_text": "1 July 1823"
       },
       {
-        "label": "• from the Federal Republic of Central America",
+        "label": "Independence from • from the Federal Republic of Central America",
         "value_text": "14 November 1838"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from • Current constitution",
         "value_text": "7 November 1949"
       },
       {
-        "label": "• Recognized by Spain",
+        "label": "Independence from • Recognized by Spain",
         "value_text": "10 May 1850"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "51,179.92 km 2 (19,760.68 sq mi) ( 126th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.05 (as of 2015)"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_text": "5,160,700 ( 127th )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_text": "5,044,197"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "220/sq mi (84.9/km 2 ) ( 107th )"
       },
       {
@@ -509,8 +509,8 @@
         ],
         "numbers": []
       },
-      "from_spain": {
-        "raw_label": "• from Spain",
+      "independence_from_from_spain": {
+        "raw_label": "Independence from • from Spain",
         "text": "15 September 1821",
         "tokens": [
           "15",
@@ -522,8 +522,8 @@
           1821
         ]
       },
-      "from_first_mexican_empire": {
-        "raw_label": "• from First Mexican Empire",
+      "independence_from_from_first_mexican_empire": {
+        "raw_label": "Independence from • from First Mexican Empire",
         "text": "1 July 1823",
         "tokens": [
           "1",
@@ -535,8 +535,8 @@
           1823
         ]
       },
-      "from_the_federal_republic_of_central_america": {
-        "raw_label": "• from the Federal Republic of Central America",
+      "independence_from_from_the_federal_republic_of_central_america": {
+        "raw_label": "Independence from • from the Federal Republic of Central America",
         "text": "14 November 1838",
         "tokens": [
           "14",
@@ -548,8 +548,8 @@
           1838
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_current_constitution": {
+        "raw_label": "Independence from • Current constitution",
         "text": "7 November 1949",
         "tokens": [
           "7",
@@ -561,8 +561,8 @@
           1949
         ]
       },
-      "recognized_by_spain": {
-        "raw_label": "• Recognized by Spain",
+      "independence_from_recognized_by_spain": {
+        "raw_label": "Independence from • Recognized by Spain",
         "text": "10 May 1850",
         "tokens": [
           "10",
@@ -574,22 +574,31 @@
           1850
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$102.591 billion ( 85th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "51,179.92 km 2 (19,760.68 sq mi) ( 126th )",
         "tokens": [
-          "102",
-          "591",
-          "billion",
-          "85th"
+          "51",
+          "179",
+          "92",
+          "km",
+          "2",
+          "19",
+          "760",
+          "68",
+          "sq",
+          "mi",
+          "126th"
         ],
         "numbers": [
-          102.591,
-          85
+          51179.92,
+          2,
+          19760.68,
+          126
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.05 (as of 2015)",
         "tokens": [
           "1",
@@ -603,8 +612,8 @@
           2015
         ]
       },
-      "2026_estimate": {
-        "raw_label": "• 2026 estimate",
+      "population_2026_estimate": {
+        "raw_label": "Population • 2026 estimate",
         "text": "5,160,700 ( 127th )",
         "tokens": [
           "5",
@@ -617,8 +626,8 @@
           127
         ]
       },
-      "2022_census": {
-        "raw_label": "• 2022 census",
+      "population_2022_census": {
+        "raw_label": "Population • 2022 census",
         "text": "5,044,197",
         "tokens": [
           "5",
@@ -629,8 +638,8 @@
           5044197
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "220/sq mi (84.9/km 2 ) ( 107th )",
         "tokens": [
           "220",
@@ -658,6 +667,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$102.591 billion ( 85th )",
+        "tokens": [
+          "102",
+          "591",
+          "billion",
+          "85th"
+        ],
+        "numbers": [
+          102.591,
+          85
         ]
       },
       "per_capita": {
@@ -774,6 +797,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Costa Rica",
+      "capital": "San José",
+      "largest_city": "San José",
+      "coordinates": {
+        "latitude": "9°56′N",
+        "longitude": "84°5′W"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Rodrigo Chaves"
+      },
+      "legislature": "Legislative Assembly",
+      "area": {
+        "total_km2": 51179,
+        "water_percent": 1.05
+      },
+      "population": {
+        "year": 2026,
+        "total": 5160700,
+        "rank": 127,
+        "density_per_km2": 220.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.833,
+          "rank": 62
+        },
+        "gini": {
+          "year": 2022,
+          "value": 47.2
+        }
+      },
+      "currency": {
+        "name": "Costa Rican colón",
+        "code": "CRC"
+      },
+      "calling_code": "506",
+      "iso_3166_code": "CR",
+      "internet_tld": ".cr .co.cr",
+      "time_zone": "UTC −6 ( CST )"
     }
   }
 }

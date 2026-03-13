@@ -3,7 +3,7 @@
     "country_name": "Saint Lucia",
     "slug": "saint_lucia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Lucia",
-    "retrieved_at": "2026-03-11T17:57:27+00:00",
+    "retrieved_at": "2026-03-13T10:09:59+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,37 +75,37 @@
         "value_text": "House of Assembly"
       },
       {
-        "label": "• Associated State",
+        "label": "Independence • Associated State",
         "value_html": "<td class=\"infobox-data\">1 March 1967</td>",
         "value_text": "1 March 1967"
       },
       {
-        "label": "• Independence from the United Kingdom",
+        "label": "Independence • Independence from the United Kingdom",
         "value_html": "<td class=\"infobox-data\">22 February 1979</td>",
         "value_text": "22 February 1979"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">617 km<sup>2</sup> (238 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">178th</a>)</td>",
         "value_text": "617 km 2 (238 sq mi) ( 178th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.6</td>",
         "value_text": "1.6"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\">184,100 <sup class=\"reference\" id=\"cite_ref-auto1_5-0\"><a href=\"#cite_note-auto1-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">177th</a>)</td>",
         "value_text": "184,100 [ 5 ] ( 177th )"
       },
       {
-        "label": "• 2010 census",
+        "label": "Population • 2010 census",
         "value_html": "<td class=\"infobox-data\">165,595</td>",
         "value_text": "165,595"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">298/km<sup>2</sup> (771.8/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">29th</a>)</td>",
         "value_text": "298/km 2 (771.8/sq mi) ( 29th )"
       },
@@ -236,31 +236,31 @@
         "value_text": "House of Assembly"
       },
       {
-        "label": "• Associated State",
+        "label": "Independence • Associated State",
         "value_text": "1 March 1967"
       },
       {
-        "label": "• Independence from the United Kingdom",
+        "label": "Independence • Independence from the United Kingdom",
         "value_text": "22 February 1979"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "617 km 2 (238 sq mi) ( 178th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.6"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "184,100 ( 177th )"
       },
       {
-        "label": "• 2010 census",
+        "label": "Population • 2010 census",
         "value_text": "165,595"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "298/km 2 (771.8/sq mi) ( 29th )"
       },
       {
@@ -508,8 +508,8 @@
         ],
         "numbers": []
       },
-      "associated_state": {
-        "raw_label": "• Associated State",
+      "independence_associated_state": {
+        "raw_label": "Independence • Associated State",
         "text": "1 March 1967",
         "tokens": [
           "1",
@@ -521,8 +521,8 @@
           1967
         ]
       },
-      "independence_from_the_united_kingdom": {
-        "raw_label": "• Independence from the United Kingdom",
+      "independence_independence_from_the_united_kingdom": {
+        "raw_label": "Independence • Independence from the United Kingdom",
         "text": "22 February 1979",
         "tokens": [
           "22",
@@ -534,22 +534,27 @@
           1979
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$2.715 billion ( 168th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "617 km 2 (238 sq mi) ( 178th )",
         "tokens": [
+          "617",
+          "km",
           "2",
-          "715",
-          "billion",
-          "168th"
+          "238",
+          "sq",
+          "mi",
+          "178th"
         ],
         "numbers": [
-          2.715,
-          168
+          617,
+          2,
+          238,
+          178
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.6",
         "tokens": [
           "1",
@@ -559,8 +564,8 @@
           1.6
         ]
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "184,100 ( 177th )",
         "tokens": [
           "184",
@@ -572,8 +577,8 @@
           177
         ]
       },
-      "2010_census": {
-        "raw_label": "• 2010 census",
+      "population_2010_census": {
+        "raw_label": "Population • 2010 census",
         "text": "165,595",
         "tokens": [
           "165",
@@ -583,8 +588,8 @@
           165595
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "298/km 2 (771.8/sq mi) ( 29th )",
         "tokens": [
           "298",
@@ -612,6 +617,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$2.715 billion ( 168th )",
+        "tokens": [
+          "2",
+          "715",
+          "billion",
+          "168th"
+        ],
+        "numbers": [
+          2.715,
+          168
         ]
       },
       "per_capita": {
@@ -724,6 +743,51 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Saint Lucia",
+      "capital": "Castries",
+      "largest_city": "Castries",
+      "government": {
+        "type": "Unitary parliamentary constitutional monarchy",
+        "head_of_state": "Charles III",
+        "head_of_government": "Philip J. Pierre"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 617,
+        "water_percent": 1.6
+      },
+      "population": {
+        "year": 2023,
+        "total": 184100,
+        "rank": 177,
+        "density_per_km2": 298.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.748,
+          "rank": 103
+        },
+        "gini": {
+          "year": 2016,
+          "value": 51.2
+        }
+      },
+      "currency": {
+        "name": "East Caribbean dollar",
+        "code": "XCD"
+      },
+      "calling_code": "1",
+      "iso_3166_code": "LC",
+      "internet_tld": ".lc",
+      "time_zone": "UTC −4 ( AST )",
+      "demonym": "Saint Lucian"
     }
   }
 }

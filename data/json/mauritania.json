@@ -3,7 +3,7 @@
     "country_name": "Mauritania",
     "slug": "mauritania",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Mauritania",
-    "retrieved_at": "2026-03-11T17:56:37+00:00",
+    "retrieved_at": "2026-03-13T10:09:05+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,32 +65,32 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Republic established",
+        "label": "Independence from France • Republic established",
         "value_html": "<td class=\"infobox-data\">28 November 1958</td>",
         "value_text": "28 November 1958"
       },
       {
-        "label": "• Independence from France",
+        "label": "Independence from France • Independence from France",
         "value_html": "<td class=\"infobox-data\">28 November 1960</td>",
         "value_text": "28 November 1960"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from France • Current constitution",
         "value_html": "<td class=\"infobox-data\">12 July 1991</td>",
         "value_text": "12 July 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">1,030,000 km<sup>2</sup> (400,000 sq mi)<sup class=\"reference\" id=\"cite_ref-census_2-0\"><a href=\"#cite_note-census-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">28th</a>)</td>",
         "value_text": "1,030,000 km 2 (400,000 sq mi) [ 2 ] ( 28th )"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\">4,328,040<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">128th</a>)</td>",
         "value_text": "4,328,040 [ 3 ] ( 128th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">3.4/km<sup>2</sup> (8.8/sq mi)</td>",
         "value_text": "3.4/km 2 (8.8/sq mi)"
       },
@@ -208,27 +208,27 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Republic established",
+        "label": "Independence from France • Republic established",
         "value_text": "28 November 1958"
       },
       {
-        "label": "• Independence from France",
+        "label": "Independence from France • Independence from France",
         "value_text": "28 November 1960"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from France • Current constitution",
         "value_text": "12 July 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "1,030,000 km 2 (400,000 sq mi) ( 28th )"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "4,328,040 ( 128th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "3.4/km 2 (8.8/sq mi)"
       },
       {
@@ -429,8 +429,8 @@
         ],
         "numbers": []
       },
-      "republic_established": {
-        "raw_label": "• Republic established",
+      "independence_from_france_republic_established": {
+        "raw_label": "Independence from France • Republic established",
         "text": "28 November 1958",
         "tokens": [
           "28",
@@ -442,8 +442,8 @@
           1958
         ]
       },
-      "independence_from_france": {
-        "raw_label": "• Independence from France",
+      "independence_from_france_independence_from_france": {
+        "raw_label": "Independence from France • Independence from France",
         "text": "28 November 1960",
         "tokens": [
           "28",
@@ -455,8 +455,8 @@
           1960
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_france_current_constitution": {
+        "raw_label": "Independence from France • Current constitution",
         "text": "12 July 1991",
         "tokens": [
           "12",
@@ -468,22 +468,30 @@
           1991
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$11.470 billion ( 149th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "1,030,000 km 2 (400,000 sq mi) ( 28th )",
         "tokens": [
-          "11",
-          "470",
-          "billion",
-          "149th"
+          "1",
+          "030",
+          "000",
+          "km",
+          "2",
+          "400",
+          "000",
+          "sq",
+          "mi",
+          "28th"
         ],
         "numbers": [
-          11.47,
-          149
+          1030000,
+          2,
+          400000,
+          28
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "4,328,040 ( 128th )",
         "tokens": [
           "4",
@@ -496,8 +504,8 @@
           128
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "3.4/km 2 (8.8/sq mi)",
         "tokens": [
           "3",
@@ -524,6 +532,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$11.470 billion ( 149th )",
+        "tokens": [
+          "11",
+          "470",
+          "billion",
+          "149th"
+        ],
+        "numbers": [
+          11.47,
+          149
         ]
       },
       "per_capita": {
@@ -626,6 +648,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Mauritania",
+      "capital": "Nouakchott",
+      "largest_city": "Nouakchott",
+      "coordinates": {
+        "latitude": "18°09′N",
+        "longitude": "15°58′W"
+      },
+      "government": {
+        "type": "Unitary semi-presidential Islamic republic",
+        "head_of_state": "Mohamed Ould Ghazouani",
+        "head_of_government": "Mokhtar Ould Djay"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 1030000
+      },
+      "population": {
+        "year": 2024,
+        "total": 4328040,
+        "rank": 128,
+        "density_per_km2": 3.4
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.563,
+          "rank": 163
+        },
+        "gini": {
+          "year": 2014,
+          "value": 32.6
+        }
+      },
+      "currency": {
+        "name": "Ouguiya",
+        "code": "MRU"
+      },
+      "calling_code": "222",
+      "iso_3166_code": "MR",
+      "internet_tld": ".mr",
+      "time_zone": "UTC ±00:00 ( GMT )",
+      "demonym": "Mauritanian"
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Monaco",
     "slug": "monaco",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Monaco",
-    "retrieved_at": "2026-03-11T17:56:40+00:00",
+    "retrieved_at": "2026-03-13T10:09:10+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,47 +65,47 @@
         "value_text": "National Council"
       },
       {
-        "label": "• House of Grimaldi (under the sovereignty of the Republic of Genoa )",
+        "label": "Independence • House of Grimaldi (under the sovereignty of the Republic of Genoa )",
         "value_html": "<td class=\"infobox-data\">8 January 1297</td>",
         "value_text": "8 January 1297"
       },
       {
-        "label": "• from the French Empire",
+        "label": "Independence • from the French Empire",
         "value_html": "<td class=\"infobox-data\">17 May 1814</td>",
         "value_text": "17 May 1814"
       },
       {
-        "label": "• from occupation of the Sixth Coalition",
+        "label": "Independence • from occupation of the Sixth Coalition",
         "value_html": "<td class=\"infobox-data\">17 June 1814</td>",
         "value_text": "17 June 1814"
       },
       {
-        "label": "• Franco-Monégasque Treaty",
+        "label": "Independence • Franco-Monégasque Treaty",
         "value_html": "<td class=\"infobox-data\">11 February 1861</td>",
         "value_text": "11 February 1861"
       },
       {
-        "label": "• Constitution",
+        "label": "Independence • Constitution",
         "value_html": "<td class=\"infobox-data\">5 January 1911</td>",
         "value_text": "5 January 1911"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">2.084<sup class=\"reference\" id=\"cite_ref-Territory_2025_5-0\"><a href=\"#cite_note-Territory_2025-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (0.805 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">194th</a>)</td>",
         "value_text": "2.084 [ 5 ] km 2 (0.805 sq mi) ( 194th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">negligible<sup class=\"reference\" id=\"cite_ref-monacodata_6-0\"><a href=\"#cite_note-monacodata-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "negligible [ 6 ]"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 38,423<sup class=\"reference\" id=\"cite_ref-census_7-0\"><a href=\"#cite_note-census-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">190th</a>)</td>",
         "value_text": "38,423 [ 7 ] ( 190th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">18,446/km<sup>2</sup> (47,774.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">1st</a>)</td>",
         "value_text": "18,446/km 2 (47,774.9/sq mi) ( 1st )"
       },
@@ -223,39 +223,39 @@
         "value_text": "National Council"
       },
       {
-        "label": "• House of Grimaldi (under the sovereignty of the Republic of Genoa )",
+        "label": "Independence • House of Grimaldi (under the sovereignty of the Republic of Genoa )",
         "value_text": "8 January 1297"
       },
       {
-        "label": "• from the French Empire",
+        "label": "Independence • from the French Empire",
         "value_text": "17 May 1814"
       },
       {
-        "label": "• from occupation of the Sixth Coalition",
+        "label": "Independence • from occupation of the Sixth Coalition",
         "value_text": "17 June 1814"
       },
       {
-        "label": "• Franco-Monégasque Treaty",
+        "label": "Independence • Franco-Monégasque Treaty",
         "value_text": "11 February 1861"
       },
       {
-        "label": "• Constitution",
+        "label": "Independence • Constitution",
         "value_text": "5 January 1911"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "2.084 km 2 (0.805 sq mi) ( 194th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "negligible"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_text": "38,423 ( 190th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "18,446/km 2 (47,774.9/sq mi) ( 1st )"
       },
       {
@@ -481,8 +481,8 @@
         ],
         "numbers": []
       },
-      "house_of_grimaldi_under_the_sovereignty_of_the_republic_of_genoa": {
-        "raw_label": "• House of Grimaldi (under the sovereignty of the Republic of Genoa )",
+      "independence_house_of_grimaldi_under_the_sovereignty_of_the_republic_of_genoa": {
+        "raw_label": "Independence • House of Grimaldi (under the sovereignty of the Republic of Genoa )",
         "text": "8 January 1297",
         "tokens": [
           "8",
@@ -494,8 +494,8 @@
           1297
         ]
       },
-      "from_the_french_empire": {
-        "raw_label": "• from the French Empire",
+      "independence_from_the_french_empire": {
+        "raw_label": "Independence • from the French Empire",
         "text": "17 May 1814",
         "tokens": [
           "17",
@@ -507,8 +507,8 @@
           1814
         ]
       },
-      "from_occupation_of_the_sixth_coalition": {
-        "raw_label": "• from occupation of the Sixth Coalition",
+      "independence_from_occupation_of_the_sixth_coalition": {
+        "raw_label": "Independence • from occupation of the Sixth Coalition",
         "text": "17 June 1814",
         "tokens": [
           "17",
@@ -520,8 +520,8 @@
           1814
         ]
       },
-      "franco_mon_gasque_treaty": {
-        "raw_label": "• Franco-Monégasque Treaty",
+      "independence_franco_mon_gasque_treaty": {
+        "raw_label": "Independence • Franco-Monégasque Treaty",
         "text": "11 February 1861",
         "tokens": [
           "11",
@@ -533,8 +533,8 @@
           1861
         ]
       },
-      "constitution": {
-        "raw_label": "• Constitution",
+      "independence_constitution": {
+        "raw_label": "Independence • Constitution",
         "text": "5 January 1911",
         "tokens": [
           "5",
@@ -546,28 +546,37 @@
           1911
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$10.434 billion",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "2.084 km 2 (0.805 sq mi) ( 194th )",
         "tokens": [
-          "10",
-          "434",
-          "billion"
+          "2",
+          "084",
+          "km",
+          "2",
+          "0",
+          "805",
+          "sq",
+          "mi",
+          "194th"
         ],
         "numbers": [
-          10.434
+          2.084,
+          2,
+          0.805,
+          194
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "negligible",
         "tokens": [
           "negligible"
         ],
         "numbers": []
       },
-      "2024_census": {
-        "raw_label": "• 2024 census",
+      "population_2024_census": {
+        "raw_label": "Population • 2024 census",
         "text": "38,423 ( 190th )",
         "tokens": [
           "38",
@@ -579,8 +588,8 @@
           190
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "18,446/km 2 (47,774.9/sq mi) ( 1st )",
         "tokens": [
           "18",
@@ -610,6 +619,18 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$10.434 billion",
+        "tokens": [
+          "10",
+          "434",
+          "billion"
+        ],
+        "numbers": [
+          10.434
         ]
       },
       "per_capita": {
@@ -703,6 +724,37 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Monaco",
+      "capital": "Monaco ( city-state )",
+      "largest_city": "Monaco ( city-state )",
+      "government": {
+        "type": "Unitary parliamentary semi- constitutional monarchy",
+        "head_of_state": "Albert II"
+      },
+      "legislature": "National Council",
+      "area": {
+        "total_km2": 2
+      },
+      "population": {
+        "year": 2024,
+        "total": 38423,
+        "rank": 190,
+        "density_per_km2": 18446.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2024,
+        "gdp_ppp_year": 2024
+      },
+      "currency": {
+        "name": "Euro"
+      },
+      "calling_code": "377",
+      "iso_3166_code": "MC",
+      "internet_tld": ".mc",
+      "time_zone": "UTC+1",
+      "demonym": "Monégasque"
     }
   }
 }

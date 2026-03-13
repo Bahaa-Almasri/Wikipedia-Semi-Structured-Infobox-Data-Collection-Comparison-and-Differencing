@@ -3,7 +3,7 @@
     "country_name": "Brunei",
     "slug": "brunei",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Brunei",
-    "retrieved_at": "2026-03-11T17:52:56+00:00",
+    "retrieved_at": "2026-03-13T10:07:09+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,52 +65,52 @@
         "value_text": "Legislative Council [ a ]"
       },
       {
-        "label": "• Sultanate established",
+        "label": "Formation • Sultanate established",
         "value_html": "<td class=\"infobox-data\"><abbr title=\"circa\">c.</abbr><span style=\"white-space:nowrap;\"> 1363 or 1368</span></td>",
         "value_text": "c. 1363 or 1368"
       },
       {
-        "label": "• British protected state",
+        "label": "Formation • British protected state",
         "value_html": "<td class=\"infobox-data\">17 September 1888</td>",
         "value_text": "17 September 1888"
       },
       {
-        "label": "• Constitution adopted and self-governance",
+        "label": "Formation • Constitution adopted and self-governance",
         "value_html": "<td class=\"infobox-data\">29 September 1959</td>",
         "value_text": "29 September 1959"
       },
       {
-        "label": "• Brunei Revolt",
+        "label": "Formation • Brunei Revolt",
         "value_html": "<td class=\"infobox-data\">8 December 1962</td>",
         "value_text": "8 December 1962"
       },
       {
-        "label": "• Independence from United Kingdom",
+        "label": "Formation • Independence from United Kingdom",
         "value_html": "<td class=\"infobox-data\">1 January 1984</td>",
         "value_text": "1 January 1984"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">5,765<sup class=\"reference\" id=\"cite_ref-Brunei-Muara_11-0\"><a href=\"#cite_note-Brunei-Muara-11\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (2,226 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">164th</a>)</td>",
         "value_text": "5,765 [ 10 ] km 2 (2,226 sq mi) ( 164th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">8.6</td>",
         "value_text": "8.6"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\">466,227<sup class=\"reference\" id=\"cite_ref-12\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">175th</a>)</td>",
         "value_text": "466,227 [ 11 ] ( 175th )"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_html": "<td class=\"infobox-data\">440,715<sup class=\"reference\" id=\"cite_ref-13\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">[</span>12<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "440,715 [ 12 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">72.11/km<sup>2</sup> (186.8/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">134th</a>)</td>",
         "value_text": "72.11/km 2 (186.8/sq mi) ( 134th )"
       },
@@ -223,43 +223,43 @@
         "value_text": "Legislative Council"
       },
       {
-        "label": "• Sultanate established",
+        "label": "Formation • Sultanate established",
         "value_text": "c. 1363 or 1368"
       },
       {
-        "label": "• British protected state",
+        "label": "Formation • British protected state",
         "value_text": "17 September 1888"
       },
       {
-        "label": "• Constitution adopted and self-governance",
+        "label": "Formation • Constitution adopted and self-governance",
         "value_text": "29 September 1959"
       },
       {
-        "label": "• Brunei Revolt",
+        "label": "Formation • Brunei Revolt",
         "value_text": "8 December 1962"
       },
       {
-        "label": "• Independence from United Kingdom",
+        "label": "Formation • Independence from United Kingdom",
         "value_text": "1 January 1984"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "5,765 km 2 (2,226 sq mi) ( 164th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "8.6"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "466,227 ( 175th )"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_text": "440,715"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "72.11/km 2 (186.8/sq mi) ( 134th )"
       },
       {
@@ -492,8 +492,8 @@
         ],
         "numbers": []
       },
-      "sultanate_established": {
-        "raw_label": "• Sultanate established",
+      "formation_sultanate_established": {
+        "raw_label": "Formation • Sultanate established",
         "text": "c. 1363 or 1368",
         "tokens": [
           "c",
@@ -506,8 +506,8 @@
           1368
         ]
       },
-      "british_protected_state": {
-        "raw_label": "• British protected state",
+      "formation_british_protected_state": {
+        "raw_label": "Formation • British protected state",
         "text": "17 September 1888",
         "tokens": [
           "17",
@@ -519,8 +519,8 @@
           1888
         ]
       },
-      "constitution_adopted_and_self_governance": {
-        "raw_label": "• Constitution adopted and self-governance",
+      "formation_constitution_adopted_and_self_governance": {
+        "raw_label": "Formation • Constitution adopted and self-governance",
         "text": "29 September 1959",
         "tokens": [
           "29",
@@ -532,8 +532,8 @@
           1959
         ]
       },
-      "brunei_revolt": {
-        "raw_label": "• Brunei Revolt",
+      "formation_brunei_revolt": {
+        "raw_label": "Formation • Brunei Revolt",
         "text": "8 December 1962",
         "tokens": [
           "8",
@@ -545,8 +545,8 @@
           1962
         ]
       },
-      "independence_from_united_kingdom": {
-        "raw_label": "• Independence from United Kingdom",
+      "formation_independence_from_united_kingdom": {
+        "raw_label": "Formation • Independence from United Kingdom",
         "text": "1 January 1984",
         "tokens": [
           "1",
@@ -558,22 +558,29 @@
           1984
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$16.01 billion ( 139th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "5,765 km 2 (2,226 sq mi) ( 164th )",
         "tokens": [
-          "16",
-          "01",
-          "billion",
-          "139th"
+          "5",
+          "765",
+          "km",
+          "2",
+          "2",
+          "226",
+          "sq",
+          "mi",
+          "164th"
         ],
         "numbers": [
-          16.01,
-          139
+          5765,
+          2,
+          2226,
+          164
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "8.6",
         "tokens": [
           "8",
@@ -583,8 +590,8 @@
           8.6
         ]
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "466,227 ( 175th )",
         "tokens": [
           "466",
@@ -596,8 +603,8 @@
           175
         ]
       },
-      "2021_census": {
-        "raw_label": "• 2021 census",
+      "population_2021_census": {
+        "raw_label": "Population • 2021 census",
         "text": "440,715",
         "tokens": [
           "440",
@@ -607,8 +614,8 @@
           440715
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "72.11/km 2 (186.8/sq mi) ( 134th )",
         "tokens": [
           "72",
@@ -637,6 +644,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$16.01 billion ( 139th )",
+        "tokens": [
+          "16",
+          "01",
+          "billion",
+          "139th"
+        ],
+        "numbers": [
+          16.01,
+          139
         ]
       },
       "per_capita": {
@@ -729,6 +750,45 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Brunei",
+      "capital": "Bandar Seri Begawan",
+      "largest_city": "Bandar Seri Begawan",
+      "government": {
+        "type": "Unitary Islamic absolute monarchy"
+      },
+      "legislature": "Legislative Council",
+      "area": {
+        "total_km2": 5765,
+        "water_percent": 8.6
+      },
+      "population": {
+        "year": 2025,
+        "total": 466227,
+        "rank": 175,
+        "density_per_km2": 72.11
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.837,
+          "rank": 60
+        }
+      },
+      "currency": {
+        "name": "Brunei dollar",
+        "code": "BND"
+      },
+      "calling_code": "673",
+      "iso_3166_code": "BN",
+      "internet_tld": ".bn",
+      "time_zone": "UTC+8",
+      "demonym": "Bruneian"
     }
   }
 }

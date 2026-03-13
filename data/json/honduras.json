@@ -3,7 +3,7 @@
     "country_name": "Honduras",
     "slug": "honduras",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Honduras",
-    "retrieved_at": "2026-03-11T17:55:58+00:00",
+    "retrieved_at": "2026-03-13T10:08:14+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -55,32 +55,32 @@
         "value_text": "National Congress"
       },
       {
-        "label": "• Declared from Spain",
+        "label": "Independence • Declared from Spain",
         "value_html": "<td class=\"infobox-data\">15 September 1821</td>",
         "value_text": "15 September 1821"
       },
       {
-        "label": "• Declared from the First Mexican Empire",
+        "label": "Independence • Declared from the First Mexican Empire",
         "value_html": "<td class=\"infobox-data\">1 July 1823</td>",
         "value_text": "1 July 1823"
       },
       {
-        "label": "• Declared, as Honduras, from the Federal Republic of Central America",
+        "label": "Independence • Declared, as Honduras, from the Federal Republic of Central America",
         "value_html": "<td class=\"infobox-data\">5 November 1838</td>",
         "value_text": "5 November 1838"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">112,492 km<sup>2</sup> (43,433 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">101st</a>)</td>",
         "value_text": "112,492 km 2 (43,433 sq mi) ( 101st )"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 9,571,352<sup class=\"reference\" id=\"cite_ref-4\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">95th</a>)</td>",
         "value_text": "9,571,352 [ 2 ] ( 95th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">85/km<sup>2</sup> (220.1/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">128th</a>)</td>",
         "value_text": "85/km 2 (220.1/sq mi) ( 128th )"
       },
@@ -195,27 +195,27 @@
         "value_text": "National Congress"
       },
       {
-        "label": "• Declared from Spain",
+        "label": "Independence • Declared from Spain",
         "value_text": "15 September 1821"
       },
       {
-        "label": "• Declared from the First Mexican Empire",
+        "label": "Independence • Declared from the First Mexican Empire",
         "value_text": "1 July 1823"
       },
       {
-        "label": "• Declared, as Honduras, from the Federal Republic of Central America",
+        "label": "Independence • Declared, as Honduras, from the Federal Republic of Central America",
         "value_text": "5 November 1838"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "112,492 km 2 (43,433 sq mi) ( 101st )"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "9,571,352 ( 95th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "85/km 2 (220.1/sq mi) ( 128th )"
       },
       {
@@ -411,8 +411,8 @@
         ],
         "numbers": []
       },
-      "declared_from_spain": {
-        "raw_label": "• Declared from Spain",
+      "independence_declared_from_spain": {
+        "raw_label": "Independence • Declared from Spain",
         "text": "15 September 1821",
         "tokens": [
           "15",
@@ -424,8 +424,8 @@
           1821
         ]
       },
-      "declared_from_the_first_mexican_empire": {
-        "raw_label": "• Declared from the First Mexican Empire",
+      "independence_declared_from_the_first_mexican_empire": {
+        "raw_label": "Independence • Declared from the First Mexican Empire",
         "text": "1 July 1823",
         "tokens": [
           "1",
@@ -437,8 +437,8 @@
           1823
         ]
       },
-      "declared_as_honduras_from_the_federal_republic_of_central_america": {
-        "raw_label": "• Declared, as Honduras, from the Federal Republic of Central America",
+      "independence_declared_as_honduras_from_the_federal_republic_of_central_america": {
+        "raw_label": "Independence • Declared, as Honduras, from the Federal Republic of Central America",
         "text": "5 November 1838",
         "tokens": [
           "5",
@@ -450,20 +450,29 @@
           1838
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$39.450 billion",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "112,492 km 2 (43,433 sq mi) ( 101st )",
         "tokens": [
-          "39",
-          "450",
-          "billion"
+          "112",
+          "492",
+          "km",
+          "2",
+          "43",
+          "433",
+          "sq",
+          "mi",
+          "101st"
         ],
         "numbers": [
-          39.45
+          112492,
+          2,
+          43433,
+          101
         ]
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "9,571,352 ( 95th )",
         "tokens": [
           "9",
@@ -476,8 +485,8 @@
           95
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "85/km 2 (220.1/sq mi) ( 128th )",
         "tokens": [
           "85",
@@ -505,6 +514,18 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$39.450 billion",
+        "tokens": [
+          "39",
+          "450",
+          "billion"
+        ],
+        "numbers": [
+          39.45
         ]
       },
       "per_capita": {
@@ -613,6 +634,52 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Honduras",
+      "capital": "Tegucigalpa",
+      "largest_city": "Tegucigalpa",
+      "coordinates": {
+        "latitude": "14°6′N",
+        "longitude": "87°13′W"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Nasry Asfura"
+      },
+      "legislature": "National Congress",
+      "area": {
+        "total_km2": 112492
+      },
+      "population": {
+        "year": 2023,
+        "total": 9571352,
+        "rank": 95,
+        "density_per_km2": 85.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.645,
+          "rank": 139
+        },
+        "gini": {
+          "year": 2018,
+          "value": 52.1
+        }
+      },
+      "currency": {
+        "name": "Lempira",
+        "code": "HNL"
+      },
+      "calling_code": "504",
+      "iso_3166_code": "HN",
+      "internet_tld": ".hn",
+      "time_zone": "UTC −6 ( CST )"
     }
   }
 }

@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-11T17:55:58+00:00",
+          "value": "2026-03-13T10:08:14+00:00",
           "children": []
         },
         {
@@ -38,881 +38,119 @@
       "value": null,
       "children": [
         {
-          "label": "2023_estimate",
+          "label": "area",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "9571352",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "95",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 2023 estimate",
+              "label": "total_km2",
+              "value": "112492",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "9,571,352 ( 95th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "571",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "352",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "95th",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "calling_code",
+          "value": "504",
+          "children": []
+        },
+        {
+          "label": "capital",
+          "value": "Tegucigalpa",
+          "children": []
+        },
+        {
+          "label": "coordinates",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "504",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Calling code",
+              "label": "latitude",
+              "value": "14°6′N",
               "children": []
             },
             {
-              "label": "text",
-              "value": "+504",
+              "label": "longitude",
+              "value": "87°13′W",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "504",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
-          "label": "capital_and_largest_city",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "14",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "6",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "87",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "13",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "14.1",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "87.217",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "14.1",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "-87.217",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Capital and largest city",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Tegucigalpa 14°6′N 87°13′W ﻿ / ﻿ 14.100°N 87.217°W ﻿ / 14.100; -87.217",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Tegucigalpa",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "14",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "87",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "13",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "W",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "14",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "100",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "87",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "217",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "W",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "14",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "100",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "87",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "217",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "country_name",
+          "value": "Honduras",
+          "children": []
         },
         {
           "label": "currency",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "code",
+              "value": "HNL",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Currency",
+              "label": "name",
+              "value": "Lempira",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "Lempira ( HNL )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Lempira",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "HNL",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
-          "label": "date_format",
+          "label": "development",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Date format",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "dd/mm/yyyy",
-              "children": []
-            },
-            {
-              "label": "tokens",
+              "label": "gini",
               "value": null,
               "children": [
                 {
-                  "label": "tokens_item",
-                  "value": "dd",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mm",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "yyyy",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "declared_as_honduras_from_the_federal_republic_of_central_america",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1838",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Declared, as Honduras, from the Federal Republic of Central America",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "5 November 1838",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "November",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1838",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "declared_from_spain",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "15",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1821",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Declared from Spain",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "15 September 1821",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "15",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "September",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1821",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "declared_from_the_first_mexican_empire",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1823",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Declared from the First Mexican Empire",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "1 July 1823",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "July",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1823",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "demonyms",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Demonyms",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Honduran Catracho",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Honduran",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Catracho",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "density",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "85",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "220.1",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "128",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Density",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "85/km 2 (220.1/sq mi) ( 128th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "85",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "km",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "220",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sq",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "128th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "ethnic_groups_2013",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "82.93",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "7.87",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "7.25",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1.39",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0.55",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Ethnic groups (2013)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "82.93% Mestizo 7.87% White 7.25% Indigenous 1.39% Black 0.55%  other",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "82",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "93",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Mestizo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "87",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "White",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "25",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Indigenous",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "39",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Black",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "55",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_nominal",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP (nominal)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_ppp",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP ( PPP )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gini_2018",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
+                  "label": "value",
                   "value": "52.1",
                   "children": []
+                },
+                {
+                  "label": "year",
+                  "value": "2018",
+                  "children": []
                 }
               ]
             },
             {
-              "label": "raw_label",
-              "value": "Gini (2018)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "52.1 high inequality",
-              "children": []
-            },
-            {
-              "label": "tokens",
+              "label": "hdi",
               "value": null,
               "children": [
                 {
-                  "label": "tokens_item",
-                  "value": "52",
+                  "label": "rank",
+                  "value": "139",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "1",
+                  "label": "value",
+                  "value": "0.645",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "high",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "inequality",
+                  "label": "year",
+                  "value": "2023",
                   "children": []
                 }
               ]
+            }
+          ]
+        },
+        {
+          "label": "economy",
+          "value": null,
+          "children": [
+            {
+              "label": "gdp_nominal_year",
+              "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_year",
+              "value": "2025",
+              "children": []
             }
           ]
         },
@@ -921,528 +159,67 @@
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "head_of_state",
+              "value": "Nasry Asfura",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Government",
-              "children": []
-            },
-            {
-              "label": "text",
+              "label": "type",
               "value": "Unitary presidential republic",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Unitary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "presidential",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "republic",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "hdi_2023",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0.645",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "139",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "HDI (2023)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "0.645 medium ( 139th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "645",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "medium",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "139th",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "internet_tld",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Internet TLD",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": ".hn",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "hn",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": ".hn",
+          "children": []
         },
         {
           "label": "iso_3166_code",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "ISO 3166 code",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "HN",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "HN",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "HN",
+          "children": []
+        },
+        {
+          "label": "largest_city",
+          "value": "Tegucigalpa",
+          "children": []
         },
         {
           "label": "legislature",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Legislature",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "National Congress",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "National",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Congress",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "National Congress",
+          "children": []
         },
         {
-          "label": "official_languages",
+          "label": "population",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "density_per_km2",
+              "value": "85.0",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Official languages",
+              "label": "rank",
+              "value": "95",
               "children": []
             },
             {
-              "label": "text",
-              "value": "Spanish",
+              "label": "total",
+              "value": "9571352",
               "children": []
             },
             {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Spanish",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "per_capita",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "3640",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Per capita",
+              "label": "year",
+              "value": "2023",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "$3,640",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "640",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Nasry Asfura",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Nasry",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Asfura",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president_of_national_congress",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President of National Congress",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Tomás Zambrano",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Tom",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "s",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Zambrano",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "time_zone",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "6",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Time zone",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC −6 ( CST )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CST",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "total",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "39.45",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Total",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$39.450 billion",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "39",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "450",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "billion",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "vice_presidents",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Vice Presidents",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "María Antonieta Mejía Carlos Flores Guifarro Diana Herrera",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Mar",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "a",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Antonieta",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Mej",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "a",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Carlos",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Flores",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Guifarro",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Diana",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Herrera",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "UTC −6 ( CST )",
+          "children": []
         }
       ]
     }

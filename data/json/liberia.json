@@ -3,7 +3,7 @@
     "country_name": "Liberia",
     "slug": "liberia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Liberia",
-    "retrieved_at": "2026-03-11T17:56:25+00:00",
+    "retrieved_at": "2026-03-13T10:08:49+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,42 +75,42 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• American Colonization Society settlement",
+        "label": "Formation and Independence from American Colonization Society • American Colonization Society settlement",
         "value_html": "<td class=\"infobox-data\">January 7, 1822</td>",
         "value_text": "January 7, 1822"
       },
       {
-        "label": "• Independence declared",
+        "label": "Formation and Independence from American Colonization Society • Independence declared",
         "value_html": "<td class=\"infobox-data\">July 26, 1847</td>",
         "value_text": "July 26, 1847"
       },
       {
-        "label": "• Republic of Maryland annexed",
+        "label": "Formation and Independence from American Colonization Society • Republic of Maryland annexed",
         "value_html": "<td class=\"infobox-data\">March 18, 1857</td>",
         "value_text": "March 18, 1857"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation and Independence from American Colonization Society • Current constitution",
         "value_html": "<td class=\"infobox-data\">January 6, 1986</td>",
         "value_text": "January 6, 1986"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">43,000<sup class=\"reference\" id=\"cite_ref-CIA_1-1\"><a href=\"#cite_note-CIA-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup> sq mi (111,370 km<sup>2</sup>) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">102nd</a>)</td>",
         "value_text": "43,000 [ 1 ] sq mi (111,370 km 2 ) ( 102nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">13.514</td>",
         "value_text": "13.514"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 5,437,249<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">120th</a>)</td>",
         "value_text": "5,437,249 [ 3 ] ( 120th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">92.0/sq mi (35.5/km<sup>2</sup>) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">180th</a>)</td>",
         "value_text": "92.0/sq mi (35.5/km 2 ) ( 180th )"
       },
@@ -241,35 +241,35 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• American Colonization Society settlement",
+        "label": "Formation and Independence from American Colonization Society • American Colonization Society settlement",
         "value_text": "January 7, 1822"
       },
       {
-        "label": "• Independence declared",
+        "label": "Formation and Independence from American Colonization Society • Independence declared",
         "value_text": "July 26, 1847"
       },
       {
-        "label": "• Republic of Maryland annexed",
+        "label": "Formation and Independence from American Colonization Society • Republic of Maryland annexed",
         "value_text": "March 18, 1857"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation and Independence from American Colonization Society • Current constitution",
         "value_text": "January 6, 1986"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "43,000 sq mi (111,370 km 2 ) ( 102nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "13.514"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "5,437,249 ( 120th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "92.0/sq mi (35.5/km 2 ) ( 180th )"
       },
       {
@@ -521,8 +521,8 @@
         ],
         "numbers": []
       },
-      "american_colonization_society_settlement": {
-        "raw_label": "• American Colonization Society settlement",
+      "formation_and_independence_from_american_colonization_society_american_colonization_society_settlement": {
+        "raw_label": "Formation and Independence from American Colonization Society • American Colonization Society settlement",
         "text": "January 7, 1822",
         "tokens": [
           "January",
@@ -534,8 +534,8 @@
           1822
         ]
       },
-      "independence_declared": {
-        "raw_label": "• Independence declared",
+      "formation_and_independence_from_american_colonization_society_independence_declared": {
+        "raw_label": "Formation and Independence from American Colonization Society • Independence declared",
         "text": "July 26, 1847",
         "tokens": [
           "July",
@@ -547,8 +547,8 @@
           1847
         ]
       },
-      "republic_of_maryland_annexed": {
-        "raw_label": "• Republic of Maryland annexed",
+      "formation_and_independence_from_american_colonization_society_republic_of_maryland_annexed": {
+        "raw_label": "Formation and Independence from American Colonization Society • Republic of Maryland annexed",
         "text": "March 18, 1857",
         "tokens": [
           "March",
@@ -560,8 +560,8 @@
           1857
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "formation_and_independence_from_american_colonization_society_current_constitution": {
+        "raw_label": "Formation and Independence from American Colonization Society • Current constitution",
         "text": "January 6, 1986",
         "tokens": [
           "January",
@@ -573,22 +573,29 @@
           1986
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$5.170 billion ( 161st )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "43,000 sq mi (111,370 km 2 ) ( 102nd )",
         "tokens": [
-          "5",
-          "170",
-          "billion",
-          "161st"
+          "43",
+          "000",
+          "sq",
+          "mi",
+          "111",
+          "370",
+          "km",
+          "2",
+          "102nd"
         ],
         "numbers": [
-          5.17,
-          161
+          43000,
+          111370,
+          2,
+          102
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "13.514",
         "tokens": [
           "13",
@@ -598,8 +605,8 @@
           13.514
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "5,437,249 ( 120th )",
         "tokens": [
           "5",
@@ -612,8 +619,8 @@
           120
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "92.0/sq mi (35.5/km 2 ) ( 180th )",
         "tokens": [
           "92",
@@ -642,6 +649,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$5.170 billion ( 161st )",
+        "tokens": [
+          "5",
+          "170",
+          "billion",
+          "161st"
+        ],
+        "numbers": [
+          5.17,
+          161
         ]
       },
       "per_capita": {
@@ -758,6 +779,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Liberia",
+      "capital": "Monrovia",
+      "largest_city": "Monrovia",
+      "coordinates": {
+        "latitude": "6°30′N",
+        "longitude": "9°30′W"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Joseph Boakai"
+      },
+      "legislature": "Legislature of Liberia",
+      "area": {
+        "total_km2": 43000,
+        "water_percent": 13.514
+      },
+      "population": {
+        "year": 2024,
+        "total": 5437249,
+        "rank": 120,
+        "density_per_km2": 92.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.51,
+          "rank": 177
+        },
+        "gini": {
+          "year": 2016,
+          "value": 35.3
+        }
+      },
+      "currency": {
+        "name": "United States dollar",
+        "code": "USD"
+      },
+      "calling_code": "231",
+      "iso_3166_code": "LR",
+      "internet_tld": ".lr",
+      "time_zone": "UTC ±00:00 ( GMT )",
+      "demonym": "Liberian"
     }
   }
 }

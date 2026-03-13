@@ -3,7 +3,7 @@
     "country_name": "Eritrea",
     "slug": "eritrea",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Eritrea",
-    "retrieved_at": "2026-03-11T17:55:19+00:00",
+    "retrieved_at": "2026-03-13T10:07:49+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -55,37 +55,37 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Eritrean War of Independence",
+        "label": "Independence from Ethiopia • Eritrean War of Independence",
         "value_html": "<td class=\"infobox-data\">1 September 1961</td>",
         "value_text": "1 September 1961"
       },
       {
-        "label": "• De facto",
+        "label": "Independence from Ethiopia • De facto",
         "value_html": "<td class=\"infobox-data\">24 May 1991</td>",
         "value_text": "24 May 1991"
       },
       {
-        "label": "• De jure",
+        "label": "Independence from Ethiopia • De jure",
         "value_html": "<td class=\"infobox-data\">24 May 1993</td>",
         "value_text": "24 May 1993"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">120,000 km<sup>2</sup> (46,000 sq mi)<sup class=\"reference\" id=\"cite_ref-Eritrea_9-0\"><a href=\"#cite_note-Eritrea-9\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-Eritrea_country_profile_10-0\"><a href=\"#cite_note-Eritrea_country_profile-10\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-UNHDR_11-0\"><a href=\"#cite_note-UNHDR-11\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">100th</a>)</td>",
         "value_text": "120,000 km 2 (46,000 sq mi) [ 9 ] [ 10 ] [ 11 ] ( 100th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">Negligible</td>",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\">3.5–6.4 million<sup class=\"reference\" id=\"cite_ref-Population_18-0\"><a href=\"#cite_note-Population-18\"><span class=\"cite-bracket\">[</span>a<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "3.5–6.4 million [ a ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">29/km<sup>2</sup> (75.1/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">193rd</a>)</td>",
         "value_text": "29/km 2 (75.1/sq mi) ( 193rd )"
       },
@@ -190,31 +190,31 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Eritrean War of Independence",
+        "label": "Independence from Ethiopia • Eritrean War of Independence",
         "value_text": "1 September 1961"
       },
       {
-        "label": "• De facto",
+        "label": "Independence from Ethiopia • De facto",
         "value_text": "24 May 1991"
       },
       {
-        "label": "• De jure",
+        "label": "Independence from Ethiopia • De jure",
         "value_text": "24 May 1993"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "120,000 km 2 (46,000 sq mi) ( 100th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "3.5–6.4 million"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "29/km 2 (75.1/sq mi) ( 193rd )"
       },
       {
@@ -415,8 +415,8 @@
         ],
         "numbers": []
       },
-      "eritrean_war_of_independence": {
-        "raw_label": "• Eritrean War of Independence",
+      "independence_from_ethiopia_eritrean_war_of_independence": {
+        "raw_label": "Independence from Ethiopia • Eritrean War of Independence",
         "text": "1 September 1961",
         "tokens": [
           "1",
@@ -428,8 +428,8 @@
           1961
         ]
       },
-      "de_facto": {
-        "raw_label": "• De facto",
+      "independence_from_ethiopia_de_facto": {
+        "raw_label": "Independence from Ethiopia • De facto",
         "text": "24 May 1991",
         "tokens": [
           "24",
@@ -441,8 +441,8 @@
           1991
         ]
       },
-      "de_jure": {
-        "raw_label": "• De jure",
+      "independence_from_ethiopia_de_jure": {
+        "raw_label": "Independence from Ethiopia • De jure",
         "text": "24 May 1993",
         "tokens": [
           "24",
@@ -454,28 +454,37 @@
           1993
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$1.982 billion",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "120,000 km 2 (46,000 sq mi) ( 100th )",
         "tokens": [
-          "1",
-          "982",
-          "billion"
+          "120",
+          "000",
+          "km",
+          "2",
+          "46",
+          "000",
+          "sq",
+          "mi",
+          "100th"
         ],
         "numbers": [
-          1.982
+          120000,
+          2,
+          46000,
+          100
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "Negligible",
         "tokens": [
           "Negligible"
         ],
         "numbers": []
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "3.5–6.4 million",
         "tokens": [
           "3",
@@ -489,8 +498,8 @@
           6.4
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "29/km 2 (75.1/sq mi) ( 193rd )",
         "tokens": [
           "29",
@@ -518,6 +527,18 @@
         ],
         "numbers": [
           2019
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$1.982 billion",
+        "tokens": [
+          "1",
+          "982",
+          "billion"
+        ],
+        "numbers": [
+          1.982
         ]
       },
       "per_capita": {
@@ -604,6 +625,47 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Eritrea",
+      "capital": "Asmara",
+      "largest_city": "Asmara",
+      "coordinates": {
+        "latitude": "15°20′N",
+        "longitude": "38°55′E"
+      },
+      "government": {
+        "type": "Unitary one-party presidential republic under a totalitarian dictatorship",
+        "head_of_state": "Isaias Afwerki"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 120000
+      },
+      "population": {
+        "year": 2024,
+        "density_per_km2": 29.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2019,
+        "gdp_ppp_year": 2019
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.503,
+          "rank": 178
+        }
+      },
+      "currency": {
+        "name": "Nakfa",
+        "code": "ERN"
+      },
+      "calling_code": "291",
+      "iso_3166_code": "ER",
+      "internet_tld": ".er",
+      "time_zone": "UTC+03:00",
+      "demonym": "Eritrean"
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Venezuela (Bolivarian Republic of)",
     "slug": "venezuela_bolivarian_republic_of",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Venezuela",
-    "retrieved_at": "2026-03-11T17:58:37+00:00",
+    "retrieved_at": "2026-03-13T10:10:54+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,42 +60,42 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from Spain • Declared",
         "value_html": "<td class=\"infobox-data\">5 July 1811</td>",
         "value_text": "5 July 1811"
       },
       {
-        "label": "• from Gran Colombia",
+        "label": "Independence from Spain • from Gran Colombia",
         "value_html": "<td class=\"infobox-data\">13 January 1830</td>",
         "value_text": "13 January 1830"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from Spain • Recognized",
         "value_html": "<td class=\"infobox-data\">29 March 1845</td>",
         "value_text": "29 March 1845"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from Spain • Current constitution",
         "value_html": "<td class=\"infobox-data\">20 December 1999<sup class=\"reference\" id=\"cite_ref-24\"><a href=\"#cite_note-24\"><span class=\"cite-bracket\">[</span>21<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "20 December 1999 [ 21 ]"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">916,445<sup class=\"reference\" id=\"cite_ref-25\"><a href=\"#cite_note-25\"><span class=\"cite-bracket\">[</span>22<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (353,841 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">32nd</a>)</td>",
         "value_text": "916,445 [ 22 ] km 2 (353,841 sq mi) ( 32nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">3.2%<link href=\"mw-data:TemplateStyles:r1041539562\" rel=\"mw-deduplicated-inline-style\"><sup class=\"citation nobold\" id=\"ref_areanone\"><a href=\"#endnote_areanone\">[d]</a></sup></link></td>",
         "value_text": "3.2% [d]"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\">31,800,000<sup class=\"reference\" id=\"cite_ref-j161_26-0\"><a href=\"#cite_note-j161-26\"><span class=\"cite-bracket\">[</span>23<span class=\"cite-bracket\">]</span></a></sup><sup class=\"noprint Inline-Template\" style=\"white-space:nowrap;\">[<i><a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\"><span title=\"See talk (January 2026)\">verification needed</span></a></i>]</sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">53rd</a>)</td>",
         "value_text": "31,800,000 [ 23 ] [ verification needed ] ( 53rd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">32/km<sup>2</sup> (82.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">184th</a>)</td>",
         "value_text": "32/km 2 (82.9/sq mi) ( 184th )"
       },
@@ -214,35 +214,35 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from Spain • Declared",
         "value_text": "5 July 1811"
       },
       {
-        "label": "• from Gran Colombia",
+        "label": "Independence from Spain • from Gran Colombia",
         "value_text": "13 January 1830"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from Spain • Recognized",
         "value_text": "29 March 1845"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from Spain • Current constitution",
         "value_text": "20 December 1999"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "916,445 km 2 (353,841 sq mi) ( 32nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "3.2% [d]"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "31,800,000 [ verification needed ] ( 53rd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "32/km 2 (82.9/sq mi) ( 184th )"
       },
       {
@@ -510,8 +510,8 @@
         ],
         "numbers": []
       },
-      "declared": {
-        "raw_label": "• Declared",
+      "independence_from_spain_declared": {
+        "raw_label": "Independence from Spain • Declared",
         "text": "5 July 1811",
         "tokens": [
           "5",
@@ -523,8 +523,8 @@
           1811
         ]
       },
-      "from_gran_colombia": {
-        "raw_label": "• from Gran Colombia",
+      "independence_from_spain_from_gran_colombia": {
+        "raw_label": "Independence from Spain • from Gran Colombia",
         "text": "13 January 1830",
         "tokens": [
           "13",
@@ -536,8 +536,8 @@
           1830
         ]
       },
-      "recognized": {
-        "raw_label": "• Recognized",
+      "independence_from_spain_recognized": {
+        "raw_label": "Independence from Spain • Recognized",
         "text": "29 March 1845",
         "tokens": [
           "29",
@@ -549,8 +549,8 @@
           1845
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_spain_current_constitution": {
+        "raw_label": "Independence from Spain • Current constitution",
         "text": "20 December 1999",
         "tokens": [
           "20",
@@ -562,22 +562,29 @@
           1999
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$82.770 billion ( 69th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "916,445 km 2 (353,841 sq mi) ( 32nd )",
         "tokens": [
-          "82",
-          "770",
-          "billion",
-          "69th"
+          "916",
+          "445",
+          "km",
+          "2",
+          "353",
+          "841",
+          "sq",
+          "mi",
+          "32nd"
         ],
         "numbers": [
-          82.77,
-          69
+          916445,
+          2,
+          353841,
+          32
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "3.2% [d]",
         "tokens": [
           "3",
@@ -588,8 +595,8 @@
           3.2
         ]
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "31,800,000 [ verification needed ] ( 53rd )",
         "tokens": [
           "31",
@@ -604,8 +611,8 @@
           53
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "32/km 2 (82.9/sq mi) ( 184th )",
         "tokens": [
           "32",
@@ -633,6 +640,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$82.770 billion ( 69th )",
+        "tokens": [
+          "82",
+          "770",
+          "billion",
+          "69th"
+        ],
+        "numbers": [
+          82.77,
+          69
         ]
       },
       "per_capita": {
@@ -749,6 +770,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Venezuela (Bolivarian Republic of)",
+      "capital": "Caracas",
+      "largest_city": "Caracas",
+      "government": {
+        "type": "Federal presidential republic under an authoritarian dictatorship",
+        "head_of_state": "Delcy Rodríguez (acting) Nicolás Maduro (de jure)"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 916445,
+        "water_percent": 3.2
+      },
+      "population": {
+        "year": 2025,
+        "total": 31800000,
+        "rank": 53,
+        "density_per_km2": 32.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.709,
+          "rank": 121
+        },
+        "gini": {
+          "year": 2013,
+          "value": 44.8
+        }
+      },
+      "currency": {
+        "name": "Venezuelan bolívar",
+        "code": "VED"
+      },
+      "calling_code": "58",
+      "iso_3166_code": "VE",
+      "internet_tld": ".ve",
+      "time_zone": "UTC −04:00 ( VET )",
+      "demonym": "Venezuelan"
     }
   }
 }

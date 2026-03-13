@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-11T17:57:03+00:00",
+          "value": "2026-03-13T10:09:29+00:00",
           "children": []
         },
         {
@@ -38,805 +38,129 @@
       "value": null,
       "children": [
         {
-          "label": "2026_estimate",
+          "label": "area",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "5627400",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "116",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 2026 estimate",
+              "label": "total_km2",
+              "value": "385207",
               "children": []
             },
             {
-              "label": "text",
-              "value": "5,627,400 ( 116th )",
+              "label": "water_percent",
+              "value": "5.32",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "627",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "400",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "116th",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "calling_code",
+          "value": "47",
+          "children": []
+        },
+        {
+          "label": "capital",
+          "value": "Oslo",
+          "children": []
+        },
+        {
+          "label": "coordinates",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "47",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Calling code",
+              "label": "latitude",
+              "value": "59°56′N",
               "children": []
             },
             {
-              "label": "text",
-              "value": "+47",
+              "label": "longitude",
+              "value": "10°41′E",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "47",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
-          "label": "capital_and_largest_city",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "59",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "56",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "10",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "41",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "59.933",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "10.683",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "59.933",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "10.683",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Capital and largest city",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Oslo 59°56′N 10°41′E ﻿ / ﻿ 59.933°N 10.683°E ﻿ / 59.933; 10.683",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Oslo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "59",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "56",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "10",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "41",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "E",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "59",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "933",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "10",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "683",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "E",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "59",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "933",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "10",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "683",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "chief_justice",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Chief Justice",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Toril Marie Øie",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Toril",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Marie",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "ie",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "constitution",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "17",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1814",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Constitution",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "17 May 1814",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "17",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "May",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1814",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "country_name",
+          "value": "Norway",
+          "children": []
         },
         {
           "label": "currency",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "code",
+              "value": "NOK",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Currency",
+              "label": "name",
+              "value": "Norwegian krone",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "Norwegian krone ( NOK )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Norwegian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "krone",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "NOK",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "date_format",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Date format",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "dd . mm . yyyy",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "dd",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mm",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "yyyy",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "demonym",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Demonym",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Norwegian",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Norwegian",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "Norwegian",
+          "children": []
         },
         {
-          "label": "denmark_norway_real_union",
+          "label": "development",
           "value": null,
           "children": [
             {
-              "label": "numbers",
+              "label": "gini",
               "value": null,
               "children": [
                 {
-                  "label": "numbers_item",
-                  "value": "1524",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Denmark–Norway (real union)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "1524",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1524",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "density",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "14.6",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "37.8",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "224",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Density",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "14.6/km 2 (37.8/sq mi) ( 224th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "14",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "km",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "37",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sq",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "224th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "ethnic_groups_2025",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "78.6",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "21.4",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Ethnic groups (2025)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "78.6% Norwegian 21.4% non-Norwegian",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "78",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Norwegian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "21",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "non",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Norwegian",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_nominal",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP (nominal)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_ppp",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP ( PPP )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gini_2020",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
+                  "label": "value",
                   "value": "25.3",
                   "children": []
+                },
+                {
+                  "label": "year",
+                  "value": "2020",
+                  "children": []
                 }
               ]
             },
             {
-              "label": "raw_label",
-              "value": "Gini (2020)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "25.3 low inequality",
-              "children": []
-            },
-            {
-              "label": "tokens",
+              "label": "hdi",
               "value": null,
               "children": [
                 {
-                  "label": "tokens_item",
-                  "value": "25",
+                  "label": "rank",
+                  "value": "2",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "3",
+                  "label": "value",
+                  "value": "0.97",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "low",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "inequality",
+                  "label": "year",
+                  "value": "2023",
                   "children": []
                 }
               ]
+            }
+          ]
+        },
+        {
+          "label": "economy",
+          "value": null,
+          "children": [
+            {
+              "label": "gdp_nominal_year",
+              "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_year",
+              "value": "2025",
+              "children": []
             }
           ]
         },
@@ -845,1169 +169,72 @@
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "head_of_government",
+              "value": "Jonas Gahr Støre",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Government",
+              "label": "head_of_state",
+              "value": "Harald V",
               "children": []
             },
             {
-              "label": "text",
+              "label": "type",
               "value": "Unitary parliamentary constitutional monarchy",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Unitary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "parliamentary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "constitutional",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "monarchy",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "hdi_2023",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0.97",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "HDI (2023)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "0.970 very high ( 2nd )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "970",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "very",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "high",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2nd",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "internet_tld",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Internet TLD",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": ".no d",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "no",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "d",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": ".no d",
+          "children": []
         },
         {
           "label": "iso_3166_code",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "ISO 3166 code",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "NO",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "NO",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "NO",
+          "children": []
         },
         {
-          "label": "kalmar_union_personal_union",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1397",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Kalmar Union (personal union)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "1397",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1397",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "kingdom_of_norway_kongeriket_norge_bokm_l_kongeriket_noreg_nynorsk_in_other_official_languages_kven_norjan_kuninkhaanvaltakunta_northern_sami_norgga_gonagasriika_southern_sami_n_rjen_g_nkar_jhke_lule_sami_vuona_g_n_gisrijkka",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Kingdom of Norway Kongeriket Norge ( Bokmål ) Kongeriket Noreg ( Nynorsk ) In other official languages Kven : Norjan kuninkhaanvaltakunta Northern Sami : Norgga gonagasriika Southern Sami : Nöörjen gånkarïjhke Lule Sami : Vuona gånågisrijkka",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Norjan kuninkhaanvaltakunta",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Norjan",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "kuninkhaanvaltakunta",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "kingdoms_of_sweden_norway_personal_union",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1814",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Kingdoms of Sweden–Norway (personal union)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "4 November 1814",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "November",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1814",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "largest_city",
+          "value": "Oslo",
+          "children": []
         },
         {
           "label": "legislature",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Legislature",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Storting",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Storting",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "Storting",
+          "children": []
         },
         {
-          "label": "monarch",
+          "label": "population",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "density_per_km2",
+              "value": "14.6",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "• Monarch",
+              "label": "rank",
+              "value": "116",
               "children": []
             },
             {
-              "label": "text",
-              "value": "Harald V",
+              "label": "total",
+              "value": "5627400",
               "children": []
             },
             {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Harald",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "V",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "official_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
+              "label": "year",
+              "value": "2026",
               "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Official languages",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Norwegian Sámi",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Norwegian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "S",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mi",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "peak_extent_of_the_old_kingdom",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1263",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Peak extent of the Old Kingdom",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "1263",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1263",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "per_capita",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "89690",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "6",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Per capita",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$89,690 ( 6th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "89",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "690",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president_of_the_storting",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President of the Storting",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Masud Gharahkhani",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Masud",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Gharahkhani",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "prime_minister",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Prime Minister",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Jonas Gahr Støre",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Jonas",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Gahr",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "St",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "re",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "recognised_national_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Recognised national languages",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Kven Romani Scandoromani Norwegian Sign Language",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Kven",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Romani",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Scandoromani",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Norwegian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Sign",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Language",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "religion_2024",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "68.5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "61.7",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "6.8",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "27.3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "3.4",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0.8",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Religion (2024)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "68.5% Christianity 61.7% Church of Norway 6.8% other Christian 27.3% no religion 3.4% Islam 0.8% other",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "68",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Christianity",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "61",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Church",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "of",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Norway",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Christian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "27",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "no",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "religion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Islam",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "state_established",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "872",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• State established",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "872",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "872",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "state_re_established",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "25",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1814",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• State re-established",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "25 February 1814",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "25",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "February",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1814",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "summer_dst",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Summer ( DST )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC +2 ( CEST )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CEST",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "time_zone",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Time zone",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC +1 ( CET )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CET",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "total",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "504.28",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "31",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Total",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$504.280 billion ( 31st )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "504",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "280",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "billion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "31st",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "union_dissolved",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1905",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Union dissolved",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "7 June 1905",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "June",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1905",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "water",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "5.32",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2015",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Water (%)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "5.32 (2015)",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "32",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2015",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "UTC+1",
+          "children": []
         }
       ]
     }

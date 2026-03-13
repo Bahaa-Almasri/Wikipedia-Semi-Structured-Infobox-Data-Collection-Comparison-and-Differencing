@@ -3,7 +3,7 @@
     "country_name": "Nauru",
     "slug": "nauru",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Nauru",
-    "retrieved_at": "2026-03-11T17:56:46+00:00",
+    "retrieved_at": "2026-03-13T10:09:18+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -55,32 +55,32 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• Nauru Independence Act 1967",
+        "label": "Independence • Nauru Independence Act 1967",
         "value_html": "<td class=\"infobox-data\">31 January 1968<span class=\"noprint\">; 58 years ago</span><span style=\"display:none\"> (<span class=\"bday dtstart published updated\">1968-01-31</span>)</span></td>",
         "value_text": "31 January 1968 ; 58 years ago ( 1968-01-31 )"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">21 km<sup>2</sup> (8.1 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">193rd</a>)</td>",
         "value_text": "21 km 2 (8.1 sq mi) ( 193rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.57</td>",
         "value_text": "0.57"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\">11,919<sup class=\"reference\" id=\"cite_ref-UN_WPP_9-0\"><a href=\"#cite_note-UN_WPP-9\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-UN_WPP_2022_10-0\"><a href=\"#cite_note-UN_WPP_2022-10\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">227th</a>)</td>",
         "value_text": "11,919 [ 7 ] [ 8 ] ( 227th )"
       },
       {
-        "label": "• 2011 census",
+        "label": "Population • 2011 census",
         "value_html": "<td class=\"infobox-data\">12,000<sup class=\"reference\" id=\"cite_ref-Nauru_Census_11-0\"><a href=\"#cite_note-Nauru_Census-11\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "12,000 [ 9 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">480/km<sup>2</sup> (1,243.2/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">20th</a>)</td>",
         "value_text": "480/km 2 (1,243.2/sq mi) ( 20th )"
       },
@@ -185,27 +185,27 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• Nauru Independence Act 1967",
+        "label": "Independence • Nauru Independence Act 1967",
         "value_text": "31 January 1968 ; 58 years ago ( 1968-01-31 )"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "21 km 2 (8.1 sq mi) ( 193rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.57"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "11,919 ( 227th )"
       },
       {
-        "label": "• 2011 census",
+        "label": "Population • 2011 census",
         "value_text": "12,000"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "480/km 2 (1,243.2/sq mi) ( 20th )"
       },
       {
@@ -380,8 +380,8 @@
         ],
         "numbers": []
       },
-      "nauru_independence_act_1967": {
-        "raw_label": "• Nauru Independence Act 1967",
+      "independence_nauru_independence_act_1967": {
+        "raw_label": "Independence • Nauru Independence Act 1967",
         "text": "31 January 1968 ; 58 years ago ( 1968-01-31 )",
         "tokens": [
           "31",
@@ -403,19 +403,28 @@
           -31
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$150 million",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "21 km 2 (8.1 sq mi) ( 193rd )",
         "tokens": [
-          "150",
-          "million"
+          "21",
+          "km",
+          "2",
+          "8",
+          "1",
+          "sq",
+          "mi",
+          "193rd"
         ],
         "numbers": [
-          150
+          21,
+          2,
+          8.1,
+          193
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.57",
         "tokens": [
           "0",
@@ -425,8 +434,8 @@
           0.57
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "11,919 ( 227th )",
         "tokens": [
           "11",
@@ -438,8 +447,8 @@
           227
         ]
       },
-      "2011_census": {
-        "raw_label": "• 2011 census",
+      "population_2011_census": {
+        "raw_label": "Population • 2011 census",
         "text": "12,000",
         "tokens": [
           "12",
@@ -449,8 +458,8 @@
           12000
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "480/km 2 (1,243.2/sq mi) ( 20th )",
         "tokens": [
           "480",
@@ -479,6 +488,17 @@
         ],
         "numbers": [
           2021
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$150 million",
+        "tokens": [
+          "150",
+          "million"
+        ],
+        "numbers": [
+          150
         ]
       },
       "per_capita": {
@@ -564,6 +584,46 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Nauru",
+      "capital": "Yaren ( de facto )",
+      "largest_city": "Denigomodu",
+      "government": {
+        "type": "Unitary parliamentary republic with an executive presidency under a non-partisan democracy",
+        "head_of_state": "David Adeang"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 21,
+        "water_percent": 0.57
+      },
+      "population": {
+        "year": 2024,
+        "total": 11919,
+        "rank": 227,
+        "density_per_km2": 480.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2022,
+        "gdp_ppp_year": 2021
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.703,
+          "rank": 124
+        }
+      },
+      "currency": {
+        "name": "Australian dollar",
+        "code": "AUD"
+      },
+      "calling_code": "674",
+      "iso_3166_code": "NR",
+      "internet_tld": ".nr",
+      "time_zone": "UTC+12",
+      "demonym": "Nauruan"
     }
   }
 }

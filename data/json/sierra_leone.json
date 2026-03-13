@@ -3,7 +3,7 @@
     "country_name": "Sierra Leone",
     "slug": "sierra_leone",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Sierra_Leone",
-    "retrieved_at": "2026-03-11T17:57:42+00:00",
+    "retrieved_at": "2026-03-13T10:10:12+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,32 +75,32 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• Dominion",
+        "label": "Independence from the United Kingdom • Dominion",
         "value_html": "<td class=\"infobox-data\">27 April 1961</td>",
         "value_text": "27 April 1961"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_html": "<td class=\"infobox-data\">19 April 1971</td>",
         "value_text": "19 April 1971"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">73,252 km<sup>2</sup> (28,283 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">117th</a>)</td>",
         "value_text": "73,252 km 2 (28,283 sq mi) ( 117th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.1</td>",
         "value_text": "1.1"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 8,460,512<sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">100th</a>)</td>",
         "value_text": "8,460,512 [ 5 ] ( 100th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">124/km<sup>2</sup> (321.2/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">114th</a>)</td>",
         "value_text": "124/km 2 (321.2/sq mi) ( 114th )"
       },
@@ -226,27 +226,27 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• Dominion",
+        "label": "Independence from the United Kingdom • Dominion",
         "value_text": "27 April 1961"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_text": "19 April 1971"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "73,252 km 2 (28,283 sq mi) ( 117th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.1"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "8,460,512 ( 100th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "124/km 2 (321.2/sq mi) ( 114th )"
       },
       {
@@ -506,8 +506,8 @@
         ],
         "numbers": []
       },
-      "dominion": {
-        "raw_label": "• Dominion",
+      "independence_from_the_united_kingdom_dominion": {
+        "raw_label": "Independence from the United Kingdom • Dominion",
         "text": "27 April 1961",
         "tokens": [
           "27",
@@ -519,8 +519,8 @@
           1961
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "independence_from_the_united_kingdom_republic": {
+        "raw_label": "Independence from the United Kingdom • Republic",
         "text": "19 April 1971",
         "tokens": [
           "19",
@@ -532,22 +532,29 @@
           1971
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$8.390 billion ( 154th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "73,252 km 2 (28,283 sq mi) ( 117th )",
         "tokens": [
-          "8",
-          "390",
-          "billion",
-          "154th"
+          "73",
+          "252",
+          "km",
+          "2",
+          "28",
+          "283",
+          "sq",
+          "mi",
+          "117th"
         ],
         "numbers": [
-          8.39,
-          154
+          73252,
+          2,
+          28283,
+          117
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.1",
         "tokens": [
           "1",
@@ -557,8 +564,8 @@
           1.1
         ]
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "8,460,512 ( 100th )",
         "tokens": [
           "8",
@@ -571,8 +578,8 @@
           100
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "124/km 2 (321.2/sq mi) ( 114th )",
         "tokens": [
           "124",
@@ -600,6 +607,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$8.390 billion ( 154th )",
+        "tokens": [
+          "8",
+          "390",
+          "billion",
+          "154th"
+        ],
+        "numbers": [
+          8.39,
+          154
         ]
       },
       "per_capita": {
@@ -701,6 +722,51 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Sierra Leone",
+      "capital": "Freetown",
+      "largest_city": "Freetown",
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Julius Maada Bio",
+        "speaker_of_parliament": "Segepoh Solomon Thomas"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 73252,
+        "water_percent": 1.1
+      },
+      "population": {
+        "year": 2023,
+        "total": 8460512,
+        "rank": 100,
+        "density_per_km2": 124.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.467,
+          "rank": 185
+        },
+        "gini": {
+          "year": 2024,
+          "value": 33.7
+        }
+      },
+      "currency": {
+        "name": "Leone",
+        "code": "SLE"
+      },
+      "calling_code": "232",
+      "iso_3166_code": "SL",
+      "internet_tld": ".sl",
+      "time_zone": "UTC ±00:00 ( GMT )",
+      "demonym": "Sierra Leonean"
     }
   }
 }

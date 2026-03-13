@@ -3,7 +3,7 @@
     "country_name": "China",
     "slug": "china",
     "wikipedia_url": "https://en.wikipedia.org/wiki/China",
-    "retrieved_at": "2026-03-11T17:53:32+00:00",
+    "retrieved_at": "2026-03-13T10:07:25+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -80,47 +80,47 @@
         "value_text": "National People's Congress [ c ]"
       },
       {
-        "label": "• First pre-imperial dynasty",
+        "label": "Formation • First pre-imperial dynasty",
         "value_html": "<td class=\"infobox-data\"><abbr title=\"circa\">c.</abbr><span style=\"white-space:nowrap;\"> 2070 BCE</span></td>",
         "value_text": "c. 2070 BCE"
       },
       {
-        "label": "• First imperial dynasty",
+        "label": "Formation • First imperial dynasty",
         "value_html": "<td class=\"infobox-data\">221 BCE</td>",
         "value_text": "221 BCE"
       },
       {
-        "label": "• Establishment of the Republic of China",
+        "label": "Formation • Establishment of the Republic of China",
         "value_html": "<td class=\"infobox-data\">1 January 1912</td>",
         "value_text": "1 January 1912"
       },
       {
-        "label": "• Proclamation of the People's Republic",
+        "label": "Formation • Proclamation of the People's Republic",
         "value_html": "<td class=\"infobox-data\">1 October 1949</td>",
         "value_text": "1 October 1949"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation • Current constitution",
         "value_html": "<td class=\"infobox-data\">4 December 1982</td>",
         "value_text": "4 December 1982"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">9,596,961 km<sup>2</sup> (3,705,407 sq mi)<sup class=\"reference\" id=\"cite_ref-10\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">[</span>d<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-11\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">3rd/4th</a>)</td>",
         "value_text": "9,596,961 km 2 (3,705,407 sq mi) [ d ] [ 7 ] ( 3rd/4th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.8<sup class=\"reference\" id=\"cite_ref-CIA_7-0\"><a href=\"#cite_note-CIA-7\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "2.8 [ 4 ]"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral decrease\"><img alt=\"Neutral decrease\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/20px-Decrease_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/40px-Decrease_Neutral.svg.png 2x\" width=\"11\"/></span></span> 1,404,890,000<sup class=\"reference\" id=\"cite_ref-12\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">[</span>e<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-13\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">2nd</a>)</td>",
         "value_text": "1,404,890,000 [ e ] [ 8 ] ( 2nd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">146/km<sup>2</sup> (378.1/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">83rd</a>)</td>",
         "value_text": "146/km 2 (378.1/sq mi) ( 83rd )"
       },
@@ -250,39 +250,39 @@
         "value_text": "National People's Congress"
       },
       {
-        "label": "• First pre-imperial dynasty",
+        "label": "Formation • First pre-imperial dynasty",
         "value_text": "c. 2070 BCE"
       },
       {
-        "label": "• First imperial dynasty",
+        "label": "Formation • First imperial dynasty",
         "value_text": "221 BCE"
       },
       {
-        "label": "• Establishment of the Republic of China",
+        "label": "Formation • Establishment of the Republic of China",
         "value_text": "1 January 1912"
       },
       {
-        "label": "• Proclamation of the People's Republic",
+        "label": "Formation • Proclamation of the People's Republic",
         "value_text": "1 October 1949"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation • Current constitution",
         "value_text": "4 December 1982"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "9,596,961 km 2 (3,705,407 sq mi) ( 3rd/4th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.8"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "1,404,890,000 ( 2nd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "146/km 2 (378.1/sq mi) ( 83rd )"
       },
       {
@@ -539,8 +539,8 @@
         ],
         "numbers": []
       },
-      "first_pre_imperial_dynasty": {
-        "raw_label": "• First pre-imperial dynasty",
+      "formation_first_pre_imperial_dynasty": {
+        "raw_label": "Formation • First pre-imperial dynasty",
         "text": "c. 2070 BCE",
         "tokens": [
           "c",
@@ -551,8 +551,8 @@
           2070
         ]
       },
-      "first_imperial_dynasty": {
-        "raw_label": "• First imperial dynasty",
+      "formation_first_imperial_dynasty": {
+        "raw_label": "Formation • First imperial dynasty",
         "text": "221 BCE",
         "tokens": [
           "221",
@@ -562,8 +562,8 @@
           221
         ]
       },
-      "establishment_of_the_republic_of_china": {
-        "raw_label": "• Establishment of the Republic of China",
+      "formation_establishment_of_the_republic_of_china": {
+        "raw_label": "Formation • Establishment of the Republic of China",
         "text": "1 January 1912",
         "tokens": [
           "1",
@@ -575,8 +575,8 @@
           1912
         ]
       },
-      "proclamation_of_the_people_s_republic": {
-        "raw_label": "• Proclamation of the People's Republic",
+      "formation_proclamation_of_the_people_s_republic": {
+        "raw_label": "Formation • Proclamation of the People's Republic",
         "text": "1 October 1949",
         "tokens": [
           "1",
@@ -588,8 +588,8 @@
           1949
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "formation_current_constitution": {
+        "raw_label": "Formation • Current constitution",
         "text": "4 December 1982",
         "tokens": [
           "4",
@@ -601,22 +601,33 @@
           1982
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$19.399 trillion ( 2nd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "9,596,961 km 2 (3,705,407 sq mi) ( 3rd/4th )",
         "tokens": [
-          "19",
-          "399",
-          "trillion",
-          "2nd"
+          "9",
+          "596",
+          "961",
+          "km",
+          "2",
+          "3",
+          "705",
+          "407",
+          "sq",
+          "mi",
+          "3rd",
+          "4th"
         ],
         "numbers": [
-          19.399,
-          2
+          9596961,
+          2,
+          3705407,
+          3,
+          4
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.8",
         "tokens": [
           "2",
@@ -626,8 +637,8 @@
           2.8
         ]
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "1,404,890,000 ( 2nd )",
         "tokens": [
           "1",
@@ -641,8 +652,8 @@
           2
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "146/km 2 (378.1/sq mi) ( 83rd )",
         "tokens": [
           "146",
@@ -670,6 +681,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$19.399 trillion ( 2nd )",
+        "tokens": [
+          "19",
+          "399",
+          "trillion",
+          "2nd"
+        ],
+        "numbers": [
+          19.399,
+          2
         ]
       },
       "per_capita": {
@@ -784,6 +809,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "China",
+      "capital": "Beijing",
+      "largest_city": "Beijing",
+      "coordinates": {
+        "latitude": "39°55′N",
+        "longitude": "116°23′E"
+      },
+      "government": {
+        "type": "Unitary communist state",
+        "head_of_government": "Li Qiang"
+      },
+      "legislature": "National People's Congress",
+      "area": {
+        "total_km2": 9596961,
+        "water_percent": 2.8
+      },
+      "population": {
+        "year": 2025,
+        "total": 1404890000,
+        "rank": 2,
+        "density_per_km2": 146.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.797,
+          "rank": 78
+        },
+        "gini": {
+          "year": 2022,
+          "value": 36.0
+        }
+      },
+      "currency": {
+        "name": "Renminbi"
+      },
+      "calling_code": "86852853",
+      "iso_3166_code": "CN",
+      "internet_tld": ".cn .中国 .中國 (Mainland) .hk .香港 (Hong Kong) .mo .澳门 .澳門 (Macau)",
+      "time_zone": "UTC+8",
+      "demonym": "Chinese"
     }
   }
 }

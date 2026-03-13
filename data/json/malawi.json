@@ -3,7 +3,7 @@
     "country_name": "Malawi",
     "slug": "malawi",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Malawi",
-    "retrieved_at": "2026-03-11T17:56:31+00:00",
+    "retrieved_at": "2026-03-13T10:08:57+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,42 +75,42 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Dominion",
+        "label": "Independence from the United Kingdom • Dominion",
         "value_html": "<td class=\"infobox-data\">6 July 1964</td>",
         "value_text": "6 July 1964"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_html": "<td class=\"infobox-data\">6 July 1966</td>",
         "value_text": "6 July 1966"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_html": "<td class=\"infobox-data\">18 May 1994</td>",
         "value_text": "18 May 1994"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">118,484 km<sup>2</sup> (45,747 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">98th</a>)</td>",
         "value_text": "118,484 km 2 (45,747 sq mi) ( 98th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">20.6%</td>",
         "value_text": "20.6%"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 21,240,689<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">62nd</a>)</td>",
         "value_text": "21,240,689 [ 3 ] ( 62nd )"
       },
       {
-        "label": "• 2018 census",
+        "label": "Population • 2018 census",
         "value_html": "<td class=\"infobox-data\">17,563,749<sup class=\"reference\" id=\"cite_ref-Census2018_4-0\"><a href=\"#cite_note-Census2018-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "17,563,749 [ 4 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">153.1/km<sup>2</sup> (396.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">56th</a>)</td>",
         "value_text": "153.1/km 2 (396.5/sq mi) ( 56th )"
       },
@@ -241,35 +241,35 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Dominion",
+        "label": "Independence from the United Kingdom • Dominion",
         "value_text": "6 July 1964"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_text": "6 July 1966"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_text": "18 May 1994"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "118,484 km 2 (45,747 sq mi) ( 98th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "20.6%"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "21,240,689 ( 62nd )"
       },
       {
-        "label": "• 2018 census",
+        "label": "Population • 2018 census",
         "value_text": "17,563,749"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "153.1/km 2 (396.5/sq mi) ( 56th )"
       },
       {
@@ -555,8 +555,8 @@
         ],
         "numbers": []
       },
-      "dominion": {
-        "raw_label": "• Dominion",
+      "independence_from_the_united_kingdom_dominion": {
+        "raw_label": "Independence from the United Kingdom • Dominion",
         "text": "6 July 1964",
         "tokens": [
           "6",
@@ -568,8 +568,8 @@
           1964
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "independence_from_the_united_kingdom_republic": {
+        "raw_label": "Independence from the United Kingdom • Republic",
         "text": "6 July 1966",
         "tokens": [
           "6",
@@ -581,8 +581,8 @@
           1966
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_the_united_kingdom_current_constitution": {
+        "raw_label": "Independence from the United Kingdom • Current constitution",
         "text": "18 May 1994",
         "tokens": [
           "18",
@@ -594,22 +594,29 @@
           1994
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$13.176 billion ( 149th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "118,484 km 2 (45,747 sq mi) ( 98th )",
         "tokens": [
-          "13",
-          "176",
-          "billion",
-          "149th"
+          "118",
+          "484",
+          "km",
+          "2",
+          "45",
+          "747",
+          "sq",
+          "mi",
+          "98th"
         ],
         "numbers": [
-          13.176,
-          149
+          118484,
+          2,
+          45747,
+          98
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "20.6%",
         "tokens": [
           "20",
@@ -619,8 +626,8 @@
           20.6
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "21,240,689 ( 62nd )",
         "tokens": [
           "21",
@@ -633,8 +640,8 @@
           62
         ]
       },
-      "2018_census": {
-        "raw_label": "• 2018 census",
+      "population_2018_census": {
+        "raw_label": "Population • 2018 census",
         "text": "17,563,749",
         "tokens": [
           "17",
@@ -645,8 +652,8 @@
           17563749
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "153.1/km 2 (396.5/sq mi) ( 56th )",
         "tokens": [
           "153",
@@ -675,6 +682,20 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$13.176 billion ( 149th )",
+        "tokens": [
+          "13",
+          "176",
+          "billion",
+          "149th"
+        ],
+        "numbers": [
+          13.176,
+          149
         ]
       },
       "per_capita": {
@@ -786,6 +807,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Malawi",
+      "capital": "Lilongwe",
+      "largest_city": "Lilongwe",
+      "coordinates": {
+        "latitude": "13°57′S",
+        "longitude": "33°42′E"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Peter Mutharika"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 118484,
+        "water_percent": 20.6
+      },
+      "population": {
+        "year": 2024,
+        "total": 21240689,
+        "rank": 62,
+        "density_per_km2": 153.1
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.517,
+          "rank": 172
+        },
+        "gini": {
+          "year": 2016,
+          "value": 44.7
+        }
+      },
+      "currency": {
+        "name": "Malawian kwacha"
+      },
+      "calling_code": "265",
+      "iso_3166_code": "MW",
+      "internet_tld": ".mw",
+      "time_zone": "UTC+2",
+      "demonym": "Malawian"
     }
   }
 }

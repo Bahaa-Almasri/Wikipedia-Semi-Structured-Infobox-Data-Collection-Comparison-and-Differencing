@@ -3,7 +3,7 @@
     "country_name": "Fiji",
     "slug": "fiji",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Fiji",
-    "retrieved_at": "2026-03-11T17:55:25+00:00",
+    "retrieved_at": "2026-03-13T10:07:54+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,42 +75,42 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• Independence",
+        "label": "Independence from the United Kingdom • Independence",
         "value_html": "<td class=\"infobox-data\">10 October 1970</td>",
         "value_text": "10 October 1970"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_html": "<td class=\"infobox-data\">6 October 1987</td>",
         "value_text": "6 October 1987"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_html": "<td class=\"infobox-data\">6 September 2013</td>",
         "value_text": "6 September 2013"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">18,274 km<sup>2</sup> (7,056 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">151st</a>)</td>",
         "value_text": "18,274 km 2 (7,056 sq mi) ( 151st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">negligible</td>",
         "value_text": "negligible"
       },
       {
-        "label": "• 2018 estimate",
+        "label": "Population • 2018 estimate",
         "value_html": "<td class=\"infobox-data\">926,276<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">161st</a>)</td>",
         "value_text": "926,276 [ 7 ] ( 161st )"
       },
       {
-        "label": "• 2017 census",
+        "label": "Population • 2017 census",
         "value_html": "<td class=\"infobox-data\">884,887<sup class=\"reference\" id=\"cite_ref-2017census_8-0\"><a href=\"#cite_note-2017census-8\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "884,887 [ 8 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">46.4/km<sup>2</sup> (120.2/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">148th</a>)</td>",
         "value_text": "46.4/km 2 (120.2/sq mi) ( 148th )"
       },
@@ -241,35 +241,35 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• Independence",
+        "label": "Independence from the United Kingdom • Independence",
         "value_text": "10 October 1970"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_text": "6 October 1987"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_text": "6 September 2013"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "18,274 km 2 (7,056 sq mi) ( 151st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "negligible"
       },
       {
-        "label": "• 2018 estimate",
+        "label": "Population • 2018 estimate",
         "value_text": "926,276 ( 161st )"
       },
       {
-        "label": "• 2017 census",
+        "label": "Population • 2017 census",
         "value_text": "884,887"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "46.4/km 2 (120.2/sq mi) ( 148th )"
       },
       {
@@ -517,8 +517,8 @@
         ],
         "numbers": []
       },
-      "independence": {
-        "raw_label": "• Independence",
+      "independence_from_the_united_kingdom_independence": {
+        "raw_label": "Independence from the United Kingdom • Independence",
         "text": "10 October 1970",
         "tokens": [
           "10",
@@ -530,8 +530,8 @@
           1970
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "independence_from_the_united_kingdom_republic": {
+        "raw_label": "Independence from the United Kingdom • Republic",
         "text": "6 October 1987",
         "tokens": [
           "6",
@@ -543,8 +543,8 @@
           1987
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_the_united_kingdom_current_constitution": {
+        "raw_label": "Independence from the United Kingdom • Current constitution",
         "text": "6 September 2013",
         "tokens": [
           "6",
@@ -556,30 +556,37 @@
           2013
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$5.511 billion ( 164th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "18,274 km 2 (7,056 sq mi) ( 151st )",
         "tokens": [
-          "5",
-          "511",
-          "billion",
-          "164th"
+          "18",
+          "274",
+          "km",
+          "2",
+          "7",
+          "056",
+          "sq",
+          "mi",
+          "151st"
         ],
         "numbers": [
-          5.511,
-          164
+          18274,
+          2,
+          7056,
+          151
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "negligible",
         "tokens": [
           "negligible"
         ],
         "numbers": []
       },
-      "2018_estimate": {
-        "raw_label": "• 2018 estimate",
+      "population_2018_estimate": {
+        "raw_label": "Population • 2018 estimate",
         "text": "926,276 ( 161st )",
         "tokens": [
           "926",
@@ -591,8 +598,8 @@
           161
         ]
       },
-      "2017_census": {
-        "raw_label": "• 2017 census",
+      "population_2017_census": {
+        "raw_label": "Population • 2017 census",
         "text": "884,887",
         "tokens": [
           "884",
@@ -602,8 +609,8 @@
           884887
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "46.4/km 2 (120.2/sq mi) ( 148th )",
         "tokens": [
           "46",
@@ -632,6 +639,20 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$5.511 billion ( 164th )",
+        "tokens": [
+          "5",
+          "511",
+          "billion",
+          "164th"
+        ],
+        "numbers": [
+          5.511,
+          164
         ]
       },
       "per_capita": {
@@ -743,6 +764,55 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Fiji",
+      "capital": "Suva",
+      "largest_city": "Suva",
+      "coordinates": {
+        "latitude": "18°10′S",
+        "longitude": "178°27′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary republic",
+        "head_of_state": "Naiqama Lalabalavu",
+        "head_of_government": "Sitiveni Rabuka",
+        "speaker_of_parliament": "Filimone Jitoko"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 18274
+      },
+      "population": {
+        "year": 2018,
+        "total": 926276,
+        "rank": 161,
+        "density_per_km2": 46.4
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.731,
+          "rank": 111
+        },
+        "gini": {
+          "year": 2019,
+          "value": 30.7
+        }
+      },
+      "currency": {
+        "name": "Fijian dollar",
+        "code": "FJD"
+      },
+      "calling_code": "679",
+      "iso_3166_code": "FJ",
+      "internet_tld": ".fj",
+      "time_zone": "UTC+12",
+      "demonym": "Fijian"
     }
   }
 }

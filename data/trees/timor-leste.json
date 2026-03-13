@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-11T17:58:12+00:00",
+          "value": "2026-03-13T10:10:39+00:00",
           "children": []
         },
         {
@@ -38,746 +38,119 @@
       "value": null,
       "children": [
         {
-          "label": "2022_census",
+          "label": "area",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1341737",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 2022 census",
+              "label": "total_km2",
+              "value": "14950",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "1,341,737",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "341",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "737",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "2023_estimate",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1354662",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "153",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 2023 estimate",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "1,354,662 ( 153rd )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "354",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "662",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "153rd",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "administered_by_untaet",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "25",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1999",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Administered by UNTAET",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "25 October 1999",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "25",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "October",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1999",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "annexation_by_indonesia",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "17",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1976",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Annexation by Indonesia",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "17 July 1976",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "17",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "July",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1976",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "calling_code",
+          "value": "670",
+          "children": []
+        },
+        {
+          "label": "capital",
+          "value": "Dili",
+          "children": []
+        },
+        {
+          "label": "coordinates",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "670",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Calling code",
+              "label": "latitude",
+              "value": "8°33′S",
               "children": []
             },
             {
-              "label": "text",
-              "value": "+670",
+              "label": "longitude",
+              "value": "125°34′E",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "670",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
-          "label": "capital_and_largest_city",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "33",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "125",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "34",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "8.55",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "125.56",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "-8.55",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "125.56",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Capital and largest city",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Dili 8°33′S 125°34′E ﻿ / ﻿ 8.55°S 125.56°E ﻿ / -8.55; 125.56",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Dili",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "33",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "S",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "125",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "34",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "E",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "55",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "S",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "125",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "56",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "E",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "55",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "125",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "56",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "country_name",
+          "value": "Timor-Leste",
+          "children": []
         },
         {
           "label": "currency",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "code",
+              "value": "USD",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Currency",
+              "label": "name",
+              "value": "United States dollar Timor-Leste centavo",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "United States dollar Timor-Leste centavo ( USD )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "United",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "States",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "dollar",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Timor",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Leste",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "centavo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "USD",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
-          "label": "demonyms",
+          "label": "development",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Demonyms",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "East Timorese Timorese Maubere (informal)",
-              "children": []
-            },
-            {
-              "label": "tokens",
+              "label": "gini",
               "value": null,
               "children": [
                 {
-                  "label": "tokens_item",
-                  "value": "East",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Timorese",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Timorese",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Maubere",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "informal",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "density",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "94",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "243.5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "120",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Density",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "94/km 2 (243.5/sq mi) ( 120th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "94",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "km",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "243",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sq",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "120th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_nominal",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP (nominal)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_ppp",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP ( PPP )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gini_2014",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
+                  "label": "value",
                   "value": "28.7",
                   "children": []
+                },
+                {
+                  "label": "year",
+                  "value": "2014",
+                  "children": []
                 }
               ]
             },
             {
-              "label": "raw_label",
-              "value": "Gini (2014)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "28.7 low inequality",
-              "children": []
-            },
-            {
-              "label": "tokens",
+              "label": "hdi",
               "value": null,
               "children": [
                 {
-                  "label": "tokens_item",
-                  "value": "28",
+                  "label": "rank",
+                  "value": "142",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "7",
+                  "label": "value",
+                  "value": "0.634",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "low",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "inequality",
+                  "label": "year",
+                  "value": "2023",
                   "children": []
                 }
               ]
+            }
+          ]
+        },
+        {
+          "label": "economy",
+          "value": null,
+          "children": [
+            {
+              "label": "gdp_nominal_year",
+              "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_year",
+              "value": "2025",
+              "children": []
             }
           ]
         },
@@ -786,963 +159,72 @@
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "head_of_government",
+              "value": "Xanana Gusmão",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Government",
+              "label": "head_of_state",
+              "value": "José Ramos-Horta",
               "children": []
             },
             {
-              "label": "text",
+              "label": "type",
               "value": "Unitary semi-presidential republic",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Unitary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "semi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "presidential",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "republic",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "hdi_2023",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0.634",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "142",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "HDI (2023)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "0.634 medium ( 142nd )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "634",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "medium",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "142nd",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "independence_declared",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "28",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1975",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Independence declared",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "28 November 1975",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "28",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "November",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1975",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "independence_restored",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "20",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2002",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Independence restored",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "20 May 2002",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "20",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "May",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2002",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "internet_tld",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Internet TLD",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": ".tl",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "tl",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": ".tl",
+          "children": []
         },
         {
           "label": "iso_3166_code",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "ISO 3166 code",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "TL",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "TL",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "TL",
+          "children": []
+        },
+        {
+          "label": "largest_city",
+          "value": "Dili",
+          "children": []
         },
         {
           "label": "legislature",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Legislature",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "National Parliament",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "National",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Parliament",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "National Parliament",
+          "children": []
         },
         {
-          "label": "official_languages",
+          "label": "population",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "density_per_km2",
+              "value": "94.0",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Official languages",
+              "label": "rank",
+              "value": "153",
               "children": []
             },
             {
-              "label": "text",
-              "value": "Portuguese Tetum",
+              "label": "total",
+              "value": "1354662",
               "children": []
             },
             {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Portuguese",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Tetum",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "per_capita",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1490",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "157",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Per capita",
+              "label": "year",
+              "value": "2023",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "$1,490 ( 157th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "490",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "157th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "portuguese_timor",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "18",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Portuguese Timor",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Early 18th century",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Early",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "18th",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "century",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "José Ramos-Horta",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Jos",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Ramos",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Horta",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "prime_minister",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Prime Minister",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Xanana Gusmão",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Xanana",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Gusm",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "o",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "recognised_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "15",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Recognised languages",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "15 national languages : Atauru Baikeno Bekais Bunak Fataluku Galoli Habun Idalaka Kawaimina Kemak Makalero Makasae Makuva Mambai Tokodede 2 working languages : English Indonesian",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "15",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "national",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "languages",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Atauru",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Baikeno",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bekais",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bunak",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Fataluku",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Galoli",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Habun",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Idalaka",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Kawaimina",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Kemak",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Makalero",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Makasae",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Makuva",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Mambai",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Tokodede",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "working",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "languages",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "English",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Indonesian",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "religion_2015_census",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "99.53",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "97.57",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1.96",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0.24",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0.23",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Religion (2015 census)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "99.53% Christianity 97.57% Catholicism 1.96% Protestantism 0.24% Islam 0.23% other",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "99",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "53",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Christianity",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "97",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "57",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Catholicism",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "96",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Protestantism",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "24",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Islam",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "23",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "time_zone",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "9",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Time zone",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC +9 ( Timor-Leste Time )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Timor",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Leste",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Time",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "total",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2.12",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "176",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Total",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$2.120 billion ( 176th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "120",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "billion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "176th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "water",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Water (%)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Negligible",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Negligible",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "UTC+9",
+          "children": []
         }
       ]
     }

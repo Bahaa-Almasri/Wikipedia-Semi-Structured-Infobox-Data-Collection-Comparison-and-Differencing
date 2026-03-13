@@ -3,7 +3,7 @@
     "country_name": "Andorra",
     "slug": "andorra",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Andorra",
-    "retrieved_at": "2026-03-11T17:52:31+00:00",
+    "retrieved_at": "2026-03-13T10:06:35+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,47 +75,47 @@
         "value_text": "General Council"
       },
       {
-        "label": "• First Paréage",
+        "label": "Independence • First Paréage",
         "value_html": "<td class=\"infobox-data\">8 September 1278<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "8 September 1278 [ 6 ] [ 7 ]"
       },
       {
-        "label": "• From the Kingdom of France",
+        "label": "Independence • From the Kingdom of France",
         "value_html": "<td class=\"infobox-data\">12 October 1652</td>",
         "value_text": "12 October 1652"
       },
       {
-        "label": "• From the Principality of Catalonia",
+        "label": "Independence • From the Principality of Catalonia",
         "value_html": "<td class=\"infobox-data\">1715</td>",
         "value_text": "1715"
       },
       {
-        "label": "• From the French Empire",
+        "label": "Independence • From the French Empire",
         "value_html": "<td class=\"infobox-data\">1814</td>",
         "value_text": "1814"
       },
       {
-        "label": "• Constitution",
+        "label": "Independence • Constitution",
         "value_html": "<td class=\"infobox-data\">2 February 1993</td>",
         "value_text": "2 February 1993"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">467.63 km<sup>2</sup> (180.55 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">178th</a>)</td>",
         "value_text": "467.63 km 2 (180.55 sq mi) ( 178th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.26 (121.4 <a class=\"mw-redirect\" href=\"/wiki/Hectares\" title=\"Hectares\">ha</a>)<sup class=\"reference\" id=\"cite_ref-9\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>a<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "0.26 (121.4 ha ) [ a ]"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 89,058<sup class=\"reference\" id=\"cite_ref-:4_10-0\"><a href=\"#cite_note-:4-10\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">185th</a>)</td>",
         "value_text": "89,058 [ 9 ] ( 185th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">187.1/km<sup>2</sup> (484.6/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">71st</a>)</td>",
         "value_text": "187.1/km 2 (484.6/sq mi) ( 71st )"
       },
@@ -251,39 +251,39 @@
         "value_text": "General Council"
       },
       {
-        "label": "• First Paréage",
+        "label": "Independence • First Paréage",
         "value_text": "8 September 1278"
       },
       {
-        "label": "• From the Kingdom of France",
+        "label": "Independence • From the Kingdom of France",
         "value_text": "12 October 1652"
       },
       {
-        "label": "• From the Principality of Catalonia",
+        "label": "Independence • From the Principality of Catalonia",
         "value_text": "1715"
       },
       {
-        "label": "• From the French Empire",
+        "label": "Independence • From the French Empire",
         "value_text": "1814"
       },
       {
-        "label": "• Constitution",
+        "label": "Independence • Constitution",
         "value_text": "2 February 1993"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "467.63 km 2 (180.55 sq mi) ( 178th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.26 (121.4 ha )"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "89,058 ( 185th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "187.1/km 2 (484.6/sq mi) ( 71st )"
       },
       {
@@ -567,8 +567,8 @@
         ],
         "numbers": []
       },
-      "first_par_age": {
-        "raw_label": "• First Paréage",
+      "independence_first_par_age": {
+        "raw_label": "Independence • First Paréage",
         "text": "8 September 1278",
         "tokens": [
           "8",
@@ -580,8 +580,8 @@
           1278
         ]
       },
-      "from_the_kingdom_of_france": {
-        "raw_label": "• From the Kingdom of France",
+      "independence_from_the_kingdom_of_france": {
+        "raw_label": "Independence • From the Kingdom of France",
         "text": "12 October 1652",
         "tokens": [
           "12",
@@ -593,8 +593,8 @@
           1652
         ]
       },
-      "from_the_principality_of_catalonia": {
-        "raw_label": "• From the Principality of Catalonia",
+      "independence_from_the_principality_of_catalonia": {
+        "raw_label": "Independence • From the Principality of Catalonia",
         "text": "1715",
         "tokens": [
           "1715"
@@ -603,8 +603,8 @@
           1715
         ]
       },
-      "from_the_french_empire": {
-        "raw_label": "• From the French Empire",
+      "independence_from_the_french_empire": {
+        "raw_label": "Independence • From the French Empire",
         "text": "1814",
         "tokens": [
           "1814"
@@ -613,8 +613,8 @@
           1814
         ]
       },
-      "constitution": {
-        "raw_label": "• Constitution",
+      "independence_constitution": {
+        "raw_label": "Independence • Constitution",
         "text": "2 February 1993",
         "tokens": [
           "2",
@@ -626,22 +626,29 @@
           1993
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$3.897 billion ( 159th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "467.63 km 2 (180.55 sq mi) ( 178th )",
         "tokens": [
-          "3",
-          "897",
-          "billion",
-          "159th"
+          "467",
+          "63",
+          "km",
+          "2",
+          "180",
+          "55",
+          "sq",
+          "mi",
+          "178th"
         ],
         "numbers": [
-          3.897,
-          159
+          467.63,
+          2,
+          180.55,
+          178
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.26 (121.4 ha )",
         "tokens": [
           "0",
@@ -655,8 +662,8 @@
           121.4
         ]
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "89,058 ( 185th )",
         "tokens": [
           "89",
@@ -668,8 +675,8 @@
           185
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "187.1/km 2 (484.6/sq mi) ( 71st )",
         "tokens": [
           "187",
@@ -698,6 +705,20 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$3.897 billion ( 159th )",
+        "tokens": [
+          "3",
+          "897",
+          "billion",
+          "159th"
+        ],
+        "numbers": [
+          3.897,
+          159
         ]
       },
       "per_capita": {
@@ -825,6 +846,48 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Andorra",
+      "capital": "Andorra la Vella",
+      "largest_city": "Andorra la Vella",
+      "government": {
+        "type": "Unitary parliamentary constitutional co-principality",
+        "head_of_government": "Xavier Espot Zamora"
+      },
+      "legislature": "General Council",
+      "area": {
+        "total_km2": 467,
+        "water_percent": 0.26
+      },
+      "population": {
+        "year": 2025,
+        "total": 89058,
+        "rank": 185,
+        "density_per_km2": 187.1
+      },
+      "economy": {
+        "gdp_nominal_year": 2024,
+        "gdp_ppp_year": 2024
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.913,
+          "rank": 32
+        },
+        "gini": {
+          "year": 2023,
+          "value": 40.0
+        }
+      },
+      "currency": {
+        "name": "Euro"
+      },
+      "calling_code": "376",
+      "iso_3166_code": "AD",
+      "internet_tld": ".ad",
+      "time_zone": "UTC+01:00"
     }
   }
 }

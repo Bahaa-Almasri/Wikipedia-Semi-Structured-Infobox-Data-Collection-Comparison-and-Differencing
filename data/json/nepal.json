@@ -3,7 +3,7 @@
     "country_name": "Nepal",
     "slug": "nepal",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Nepal",
-    "retrieved_at": "2026-03-11T17:56:48+00:00",
+    "retrieved_at": "2026-03-13T10:09:20+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -80,47 +80,47 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Unification",
+        "label": "Formation • Unification",
         "value_html": "<td class=\"infobox-data\">25 September 1768<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "25 September 1768 [ 7 ]"
       },
       {
-        "label": "• Treaty of Sugauli",
+        "label": "Formation • Treaty of Sugauli",
         "value_html": "<td class=\"infobox-data\">4 March 1816</td>",
         "value_text": "4 March 1816"
       },
       {
-        "label": "• Nepal–Britain Treaty of 1923",
+        "label": "Formation • Nepal–Britain Treaty of 1923",
         "value_html": "<td class=\"infobox-data\">21 December 1923</td>",
         "value_text": "21 December 1923"
       },
       {
-        "label": "• Federal Republic",
+        "label": "Formation • Federal Republic",
         "value_html": "<td class=\"infobox-data\">28 May 2008</td>",
         "value_text": "28 May 2008"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation • Current constitution",
         "value_html": "<td class=\"infobox-data\">20 September 2015</td>",
         "value_text": "20 September 2015"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">147,516 km<sup>2</sup> (56,956 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">93rd</a>)</td>",
         "value_text": "147,516 km 2 (56,956 sq mi) ( 93rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.8%</td>",
         "value_text": "2.8%"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 31,122,387<sup class=\"reference\" id=\"cite_ref-10\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">49th</a>)</td>",
         "value_text": "31,122,387 [ 10 ] ( 49th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">180/km<sup>2</sup> (466.2/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">72nd</a>)</td>",
         "value_text": "180/km 2 (466.2/sq mi) ( 72nd )"
       },
@@ -255,39 +255,39 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Unification",
+        "label": "Formation • Unification",
         "value_text": "25 September 1768"
       },
       {
-        "label": "• Treaty of Sugauli",
+        "label": "Formation • Treaty of Sugauli",
         "value_text": "4 March 1816"
       },
       {
-        "label": "• Nepal–Britain Treaty of 1923",
+        "label": "Formation • Nepal–Britain Treaty of 1923",
         "value_text": "21 December 1923"
       },
       {
-        "label": "• Federal Republic",
+        "label": "Formation • Federal Republic",
         "value_text": "28 May 2008"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation • Current constitution",
         "value_text": "20 September 2015"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "147,516 km 2 (56,956 sq mi) ( 93rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.8%"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "31,122,387 ( 49th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "180/km 2 (466.2/sq mi) ( 72nd )"
       },
       {
@@ -630,8 +630,8 @@
         ],
         "numbers": []
       },
-      "unification": {
-        "raw_label": "• Unification",
+      "formation_unification": {
+        "raw_label": "Formation • Unification",
         "text": "25 September 1768",
         "tokens": [
           "25",
@@ -643,8 +643,8 @@
           1768
         ]
       },
-      "treaty_of_sugauli": {
-        "raw_label": "• Treaty of Sugauli",
+      "formation_treaty_of_sugauli": {
+        "raw_label": "Formation • Treaty of Sugauli",
         "text": "4 March 1816",
         "tokens": [
           "4",
@@ -656,8 +656,8 @@
           1816
         ]
       },
-      "nepal_britain_treaty_of_1923": {
-        "raw_label": "• Nepal–Britain Treaty of 1923",
+      "formation_nepal_britain_treaty_of_1923": {
+        "raw_label": "Formation • Nepal–Britain Treaty of 1923",
         "text": "21 December 1923",
         "tokens": [
           "21",
@@ -669,8 +669,8 @@
           1923
         ]
       },
-      "federal_republic": {
-        "raw_label": "• Federal Republic",
+      "formation_federal_republic": {
+        "raw_label": "Formation • Federal Republic",
         "text": "28 May 2008",
         "tokens": [
           "28",
@@ -682,8 +682,8 @@
           2008
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "formation_current_constitution": {
+        "raw_label": "Formation • Current constitution",
         "text": "20 September 2015",
         "tokens": [
           "20",
@@ -695,22 +695,29 @@
           2015
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$43.673 billion ( 100th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "147,516 km 2 (56,956 sq mi) ( 93rd )",
         "tokens": [
-          "43",
-          "673",
-          "billion",
-          "100th"
+          "147",
+          "516",
+          "km",
+          "2",
+          "56",
+          "956",
+          "sq",
+          "mi",
+          "93rd"
         ],
         "numbers": [
-          43.673,
-          100
+          147516,
+          2,
+          56956,
+          93
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.8%",
         "tokens": [
           "2",
@@ -720,8 +727,8 @@
           2.8
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "31,122,387 ( 49th )",
         "tokens": [
           "31",
@@ -734,8 +741,8 @@
           49
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "180/km 2 (466.2/sq mi) ( 72nd )",
         "tokens": [
           "180",
@@ -763,6 +770,20 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$43.673 billion ( 100th )",
+        "tokens": [
+          "43",
+          "673",
+          "billion",
+          "100th"
+        ],
+        "numbers": [
+          43.673,
+          100
         ]
       },
       "per_capita": {
@@ -879,6 +900,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Nepal",
+      "capital": "Kathmandu",
+      "largest_city": "Kathmandu",
+      "coordinates": {
+        "latitude": "28°10′N",
+        "longitude": "84°15′E"
+      },
+      "government": {
+        "type": "Federal parliamentary republic under an interim government",
+        "head_of_state": "Ram Chandra Poudel",
+        "head_of_government": "Sushila Karki (interim)"
+      },
+      "legislature": "Federal Parliament",
+      "area": {
+        "total_km2": 147516,
+        "water_percent": 2.8
+      },
+      "population": {
+        "year": 2024,
+        "total": 31122387,
+        "rank": 49,
+        "density_per_km2": 180.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2024,
+        "gdp_ppp_year": 2024
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.622,
+          "rank": 145
+        },
+        "gini": {
+          "year": 2022,
+          "value": 30.0
+        }
+      },
+      "currency": {
+        "name": "Nepalese rupee"
+      },
+      "calling_code": "977",
+      "iso_3166_code": "NP",
+      "internet_tld": ".np",
+      "time_zone": "UTC+05:45"
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Belarus",
     "slug": "belarus",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Belarus",
-    "retrieved_at": "2026-03-11T17:52:46+00:00",
+    "retrieved_at": "2026-03-13T10:06:57+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,52 +70,52 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Kievan Rus'",
+        "label": "Formation • Kievan Rus'",
         "value_html": "<td class=\"infobox-data\">882</td>",
         "value_text": "882"
       },
       {
-        "label": "• Belarusian People's Republic",
+        "label": "Formation • Belarusian People's Republic",
         "value_html": "<td class=\"infobox-data\">25 March 1918</td>",
         "value_text": "25 March 1918"
       },
       {
-        "label": "• Byelorussian Soviet Socialist Republic",
+        "label": "Formation • Byelorussian Soviet Socialist Republic",
         "value_html": "<td class=\"infobox-data\">31 July 1920</td>",
         "value_text": "31 July 1920"
       },
       {
-        "label": "• Declaration of Independence",
+        "label": "Formation • Declaration of Independence",
         "value_html": "<td class=\"infobox-data\">25 August 1991</td>",
         "value_text": "25 August 1991"
       },
       {
-        "label": "• Internationally recognised ( dissolution of the Soviet Union )",
+        "label": "Formation • Internationally recognised ( dissolution of the Soviet Union )",
         "value_html": "<td class=\"infobox-data\">26 December 1991</td>",
         "value_text": "26 December 1991"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation • Current constitution",
         "value_html": "<td class=\"infobox-data\">15 March 1994</td>",
         "value_text": "15 March 1994"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">207,600<sup class=\"reference\" id=\"cite_ref-www.cia.gov_10-0\"><a href=\"#cite_note-www.cia.gov-10\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (80,200 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">84th</a>)</td>",
         "value_text": "207,600 [ 9 ] km 2 (80,200 sq mi) ( 84th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.26% (4.700 km<sup>2</sup> or 1.815 sq mi)<sup class=\"reference\" id=\"cite_ref-www.cia.gov_10-1\"><a href=\"#cite_note-www.cia.gov-10\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "2.26% (4.700 km 2 or 1.815 sq mi) [ 9 ]"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral decrease\"><img alt=\"Neutral decrease\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/20px-Decrease_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/40px-Decrease_Neutral.svg.png 2x\" width=\"11\"/></span></span> 9,109,280<sup class=\"reference\" id=\"cite_ref-11\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">98th</a>)</td>",
         "value_text": "9,109,280 [ 10 ] ( 98th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">43.9/km<sup>2</sup> (113.7/sq mi)</td>",
         "value_text": "43.9/km 2 (113.7/sq mi)"
       },
@@ -242,43 +242,43 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Kievan Rus'",
+        "label": "Formation • Kievan Rus'",
         "value_text": "882"
       },
       {
-        "label": "• Belarusian People's Republic",
+        "label": "Formation • Belarusian People's Republic",
         "value_text": "25 March 1918"
       },
       {
-        "label": "• Byelorussian Soviet Socialist Republic",
+        "label": "Formation • Byelorussian Soviet Socialist Republic",
         "value_text": "31 July 1920"
       },
       {
-        "label": "• Declaration of Independence",
+        "label": "Formation • Declaration of Independence",
         "value_text": "25 August 1991"
       },
       {
-        "label": "• Internationally recognised ( dissolution of the Soviet Union )",
+        "label": "Formation • Internationally recognised ( dissolution of the Soviet Union )",
         "value_text": "26 December 1991"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation • Current constitution",
         "value_text": "15 March 1994"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "207,600 km 2 (80,200 sq mi) ( 84th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.26% (4.700 km 2 or 1.815 sq mi)"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "9,109,280 ( 98th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "43.9/km 2 (113.7/sq mi)"
       },
       {
@@ -524,8 +524,8 @@
         ],
         "numbers": []
       },
-      "kievan_rus": {
-        "raw_label": "• Kievan Rus'",
+      "formation_kievan_rus": {
+        "raw_label": "Formation • Kievan Rus'",
         "text": "882",
         "tokens": [
           "882"
@@ -534,8 +534,8 @@
           882
         ]
       },
-      "belarusian_people_s_republic": {
-        "raw_label": "• Belarusian People's Republic",
+      "formation_belarusian_people_s_republic": {
+        "raw_label": "Formation • Belarusian People's Republic",
         "text": "25 March 1918",
         "tokens": [
           "25",
@@ -547,8 +547,8 @@
           1918
         ]
       },
-      "byelorussian_soviet_socialist_republic": {
-        "raw_label": "• Byelorussian Soviet Socialist Republic",
+      "formation_byelorussian_soviet_socialist_republic": {
+        "raw_label": "Formation • Byelorussian Soviet Socialist Republic",
         "text": "31 July 1920",
         "tokens": [
           "31",
@@ -560,8 +560,8 @@
           1920
         ]
       },
-      "declaration_of_independence": {
-        "raw_label": "• Declaration of Independence",
+      "formation_declaration_of_independence": {
+        "raw_label": "Formation • Declaration of Independence",
         "text": "25 August 1991",
         "tokens": [
           "25",
@@ -573,8 +573,8 @@
           1991
         ]
       },
-      "internationally_recognised_dissolution_of_the_soviet_union": {
-        "raw_label": "• Internationally recognised ( dissolution of the Soviet Union )",
+      "formation_internationally_recognised_dissolution_of_the_soviet_union": {
+        "raw_label": "Formation • Internationally recognised ( dissolution of the Soviet Union )",
         "text": "26 December 1991",
         "tokens": [
           "26",
@@ -586,8 +586,8 @@
           1991
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "formation_current_constitution": {
+        "raw_label": "Formation • Current constitution",
         "text": "15 March 1994",
         "tokens": [
           "15",
@@ -599,22 +599,29 @@
           1994
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$68.864 billion ( 74th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "207,600 km 2 (80,200 sq mi) ( 84th )",
         "tokens": [
-          "68",
-          "864",
-          "billion",
-          "74th"
+          "207",
+          "600",
+          "km",
+          "2",
+          "80",
+          "200",
+          "sq",
+          "mi",
+          "84th"
         ],
         "numbers": [
-          68.864,
-          74
+          207600,
+          2,
+          80200,
+          84
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.26% (4.700 km 2 or 1.815 sq mi)",
         "tokens": [
           "2",
@@ -636,8 +643,8 @@
           1.815
         ]
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "9,109,280 ( 98th )",
         "tokens": [
           "9",
@@ -650,8 +657,8 @@
           98
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "43.9/km 2 (113.7/sq mi)",
         "tokens": [
           "43",
@@ -678,6 +685,20 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$68.864 billion ( 74th )",
+        "tokens": [
+          "68",
+          "864",
+          "billion",
+          "74th"
+        ],
+        "numbers": [
+          68.864,
+          74
         ]
       },
       "per_capita": {
@@ -790,6 +811,55 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Belarus",
+      "capital": "Minsk",
+      "largest_city": "Minsk",
+      "coordinates": {
+        "latitude": "53°55′N",
+        "longitude": "27°33′E"
+      },
+      "government": {
+        "type": "Unitary semi-presidential republic under an authoritarian dictatorship",
+        "head_of_state": "Alexander Lukashenko",
+        "head_of_government": "Alexander Turchin"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 207600,
+        "water_percent": 2.26
+      },
+      "population": {
+        "year": 2025,
+        "total": 9109280,
+        "rank": 98,
+        "density_per_km2": 43.9
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.824,
+          "rank": 65
+        },
+        "gini": {
+          "year": 2019,
+          "value": 25.3
+        }
+      },
+      "currency": {
+        "name": "Belarusian ruble",
+        "code": "BYN"
+      },
+      "calling_code": "375",
+      "iso_3166_code": "BY",
+      "internet_tld": ".by .бел",
+      "time_zone": "UTC+3",
+      "demonym": "Belarusian"
     }
   }
 }

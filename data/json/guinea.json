@@ -3,7 +3,7 @@
     "country_name": "Guinea",
     "slug": "guinea",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guinea",
-    "retrieved_at": "2026-03-11T17:55:36+00:00",
+    "retrieved_at": "2026-03-13T10:08:10+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,47 +60,47 @@
         "value_text": "National Council of the Transition [ a ]"
       },
       {
-        "label": "• from France",
+        "label": "Independence • from France",
         "value_html": "<td class=\"infobox-data\">2 October 1958</td>",
         "value_text": "2 October 1958"
       },
       {
-        "label": "• Republic",
+        "label": "Independence • Republic",
         "value_html": "<td class=\"infobox-data\">2 October 1958</td>",
         "value_text": "2 October 1958"
       },
       {
-        "label": "• 4th constitution",
+        "label": "Independence • 4th constitution",
         "value_html": "<td class=\"infobox-data\">2 October 1958</td>",
         "value_text": "2 October 1958"
       },
       {
-        "label": "• Second Republic Day",
+        "label": "Independence • Second Republic Day",
         "value_html": "<td class=\"infobox-data\">3 April 1984</td>",
         "value_text": "3 April 1984"
       },
       {
-        "label": "• 2021 Guinean coup d'état",
+        "label": "Independence • 2021 Guinean coup d'état",
         "value_html": "<td class=\"infobox-data\">5 September 2021</td>",
         "value_text": "5 September 2021"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">245,857 km<sup>2</sup> (94,926 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">77th</a>)</td>",
         "value_text": "245,857 km 2 (94,926 sq mi) ( 77th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">negligible</td>",
         "value_text": "negligible"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\">13,986,179<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">75th</a>)</td>",
         "value_text": "13,986,179 [ 2 ] ( 75th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">40.9/km<sup>2</sup> (105.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">164th</a>)</td>",
         "value_text": "40.9/km 2 (105.9/sq mi) ( 164th )"
       },
@@ -214,39 +214,39 @@
         "value_text": "National Council of the Transition"
       },
       {
-        "label": "• from France",
+        "label": "Independence • from France",
         "value_text": "2 October 1958"
       },
       {
-        "label": "• Republic",
+        "label": "Independence • Republic",
         "value_text": "2 October 1958"
       },
       {
-        "label": "• 4th constitution",
+        "label": "Independence • 4th constitution",
         "value_text": "2 October 1958"
       },
       {
-        "label": "• Second Republic Day",
+        "label": "Independence • Second Republic Day",
         "value_text": "3 April 1984"
       },
       {
-        "label": "• 2021 Guinean coup d'état",
+        "label": "Independence • 2021 Guinean coup d'état",
         "value_text": "5 September 2021"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "245,857 km 2 (94,926 sq mi) ( 77th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "negligible"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "13,986,179 ( 75th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "40.9/km 2 (105.9/sq mi) ( 164th )"
       },
       {
@@ -493,8 +493,8 @@
         ],
         "numbers": []
       },
-      "from_france": {
-        "raw_label": "• from France",
+      "independence_from_france": {
+        "raw_label": "Independence • from France",
         "text": "2 October 1958",
         "tokens": [
           "2",
@@ -506,8 +506,8 @@
           1958
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "independence_republic": {
+        "raw_label": "Independence • Republic",
         "text": "2 October 1958",
         "tokens": [
           "2",
@@ -519,8 +519,8 @@
           1958
         ]
       },
-      "4th_constitution": {
-        "raw_label": "• 4th constitution",
+      "independence_4th_constitution": {
+        "raw_label": "Independence • 4th constitution",
         "text": "2 October 1958",
         "tokens": [
           "2",
@@ -532,8 +532,8 @@
           1958
         ]
       },
-      "second_republic_day": {
-        "raw_label": "• Second Republic Day",
+      "independence_second_republic_day": {
+        "raw_label": "Independence • Second Republic Day",
         "text": "3 April 1984",
         "tokens": [
           "3",
@@ -545,8 +545,8 @@
           1984
         ]
       },
-      "2021_guinean_coup_d_tat": {
-        "raw_label": "• 2021 Guinean coup d'état",
+      "independence_2021_guinean_coup_d_tat": {
+        "raw_label": "Independence • 2021 Guinean coup d'état",
         "text": "5 September 2021",
         "tokens": [
           "5",
@@ -558,30 +558,37 @@
           2021
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$30.090 billion ( 110th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "245,857 km 2 (94,926 sq mi) ( 77th )",
         "tokens": [
-          "30",
-          "090",
-          "billion",
-          "110th"
+          "245",
+          "857",
+          "km",
+          "2",
+          "94",
+          "926",
+          "sq",
+          "mi",
+          "77th"
         ],
         "numbers": [
-          30.09,
-          110
+          245857,
+          2,
+          94926,
+          77
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "negligible",
         "tokens": [
           "negligible"
         ],
         "numbers": []
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "13,986,179 ( 75th )",
         "tokens": [
           "13",
@@ -594,8 +601,8 @@
           75
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "40.9/km 2 (105.9/sq mi) ( 164th )",
         "tokens": [
           "40",
@@ -624,6 +631,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$30.090 billion ( 110th )",
+        "tokens": [
+          "30",
+          "090",
+          "billion",
+          "110th"
+        ],
+        "numbers": [
+          30.09,
+          110
         ]
       },
       "per_capita": {
@@ -727,6 +748,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Guinea",
+      "capital": "Conakry",
+      "largest_city": "Conakry",
+      "coordinates": {
+        "latitude": "9°31′N",
+        "longitude": "13°42′W"
+      },
+      "government": {
+        "type": "Unitary one-party presidential republic",
+        "head_of_state": "Mamady Doumbouya",
+        "head_of_government": "Bah Oury"
+      },
+      "legislature": "National Council of the Transition",
+      "area": {
+        "total_km2": 245857
+      },
+      "population": {
+        "year": 2024,
+        "total": 13986179,
+        "rank": 75,
+        "density_per_km2": 40.9
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.5,
+          "rank": 181
+        },
+        "gini": {
+          "year": 2012,
+          "value": 33.7
+        }
+      },
+      "currency": {
+        "name": "Guinean franc",
+        "code": "GNF"
+      },
+      "calling_code": "224",
+      "iso_3166_code": "GN",
+      "internet_tld": ".gn",
+      "time_zone": "UTC ±00:00 ( GMT )",
+      "demonym": "Guinean"
     }
   }
 }

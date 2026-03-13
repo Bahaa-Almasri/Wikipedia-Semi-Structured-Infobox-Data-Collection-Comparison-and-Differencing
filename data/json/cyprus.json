@@ -3,7 +3,7 @@
     "country_name": "Cyprus",
     "slug": "cyprus",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cyprus",
-    "retrieved_at": "2026-03-11T17:54:23+00:00",
+    "retrieved_at": "2026-03-13T10:07:35+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,37 +70,37 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• London-Zürich Agreements",
+        "label": "Independence from the United Kingdom • London-Zürich Agreements",
         "value_html": "<td class=\"infobox-data\">19 February 1959</td>",
         "value_text": "19 February 1959"
       },
       {
-        "label": "• Independence proclaimed",
+        "label": "Independence from the United Kingdom • Independence proclaimed",
         "value_html": "<td class=\"infobox-data\">16 August 1960</td>",
         "value_text": "16 August 1960"
       },
       {
-        "label": "• Independence Day",
+        "label": "Independence from the United Kingdom • Independence Day",
         "value_html": "<td class=\"infobox-data\">1 October 1960</td>",
         "value_text": "1 October 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">9,251 km<sup>2</sup> (3,572 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">162nd</a>)</td>",
         "value_text": "9,251 km 2 (3,572 sq mi) ( 162nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.11<sup class=\"reference\" id=\"cite_ref-CIA_4-1\"><a href=\"#cite_note-CIA-4\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "0.11 [ 3 ]"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 923,272<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>d<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "923,272 [ d ] [ 4 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">123.4<sup class=\"reference\" id=\"cite_ref-island_6-1\"><a href=\"#cite_note-island-6\"><span class=\"cite-bracket\">[</span>c<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-9\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup>/km<sup>2</sup> (319.6/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">82nd</a>)</td>",
         "value_text": "123.4 [ c ] [ 5 ] /km 2 (319.6/sq mi) ( 82nd )"
       },
@@ -227,31 +227,31 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• London-Zürich Agreements",
+        "label": "Independence from the United Kingdom • London-Zürich Agreements",
         "value_text": "19 February 1959"
       },
       {
-        "label": "• Independence proclaimed",
+        "label": "Independence from the United Kingdom • Independence proclaimed",
         "value_text": "16 August 1960"
       },
       {
-        "label": "• Independence Day",
+        "label": "Independence from the United Kingdom • Independence Day",
         "value_text": "1 October 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "9,251 km 2 (3,572 sq mi) ( 162nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.11"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_text": "923,272"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "123.4 /km 2 (319.6/sq mi) ( 82nd )"
       },
       {
@@ -471,8 +471,8 @@
         ],
         "numbers": []
       },
-      "london_z_rich_agreements": {
-        "raw_label": "• London-Zürich Agreements",
+      "independence_from_the_united_kingdom_london_z_rich_agreements": {
+        "raw_label": "Independence from the United Kingdom • London-Zürich Agreements",
         "text": "19 February 1959",
         "tokens": [
           "19",
@@ -484,8 +484,8 @@
           1959
         ]
       },
-      "independence_proclaimed": {
-        "raw_label": "• Independence proclaimed",
+      "independence_from_the_united_kingdom_independence_proclaimed": {
+        "raw_label": "Independence from the United Kingdom • Independence proclaimed",
         "text": "16 August 1960",
         "tokens": [
           "16",
@@ -497,8 +497,8 @@
           1960
         ]
       },
-      "independence_day": {
-        "raw_label": "• Independence Day",
+      "independence_from_the_united_kingdom_independence_day": {
+        "raw_label": "Independence from the United Kingdom • Independence Day",
         "text": "1 October 1960",
         "tokens": [
           "1",
@@ -510,22 +510,29 @@
           1960
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$39.943 billion ( 102nd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "9,251 km 2 (3,572 sq mi) ( 162nd )",
         "tokens": [
-          "39",
-          "943",
-          "billion",
-          "102nd"
+          "9",
+          "251",
+          "km",
+          "2",
+          "3",
+          "572",
+          "sq",
+          "mi",
+          "162nd"
         ],
         "numbers": [
-          39.943,
-          102
+          9251,
+          2,
+          3572,
+          162
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.11",
         "tokens": [
           "0",
@@ -535,8 +542,8 @@
           0.11
         ]
       },
-      "2021_census": {
-        "raw_label": "• 2021 census",
+      "population_2021_census": {
+        "raw_label": "Population • 2021 census",
         "text": "923,272",
         "tokens": [
           "923",
@@ -546,8 +553,8 @@
           923272
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "123.4 /km 2 (319.6/sq mi) ( 82nd )",
         "tokens": [
           "123",
@@ -576,6 +583,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$39.943 billion ( 102nd )",
+        "tokens": [
+          "39",
+          "943",
+          "billion",
+          "102nd"
+        ],
+        "numbers": [
+          39.943,
+          102
         ]
       },
       "per_capita": {
@@ -693,6 +714,52 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Cyprus",
+      "capital": "Nicosia",
+      "largest_city": "Nicosia",
+      "coordinates": {
+        "latitude": "35°10′N",
+        "longitude": "33°22′E"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Nikos Christodoulides"
+      },
+      "legislature": "House of Representatives",
+      "area": {
+        "total_km2": 9251,
+        "water_percent": 0.11
+      },
+      "population": {
+        "year": 2021,
+        "total": 923272,
+        "density_per_km2": 123.4
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.913,
+          "rank": 32
+        },
+        "gini": {
+          "year": 2022,
+          "value": 29.4
+        }
+      },
+      "currency": {
+        "name": "Euro"
+      },
+      "calling_code": "357",
+      "iso_3166_code": "CY",
+      "internet_tld": ".cy",
+      "time_zone": "UTC+02:00",
+      "demonym": "Cypriot"
     }
   }
 }

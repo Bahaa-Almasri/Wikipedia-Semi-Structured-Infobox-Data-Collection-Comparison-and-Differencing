@@ -3,7 +3,7 @@
     "country_name": "Namibia",
     "slug": "namibia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Namibia",
-    "retrieved_at": "2026-03-11T17:56:46+00:00",
+    "retrieved_at": "2026-03-13T10:09:17+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -95,32 +95,32 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Constitution",
+        "label": "Independence from South Africa • Constitution",
         "value_html": "<td class=\"infobox-data\">9 February 1990</td>",
         "value_text": "9 February 1990"
       },
       {
-        "label": "• Independence",
+        "label": "Independence from South Africa • Independence",
         "value_html": "<td class=\"infobox-data\">21 March 1990</td>",
         "value_text": "21 March 1990"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">825,615 km<sup>2</sup> (318,772 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">34th</a>)</td>",
         "value_text": "825,615 km 2 (318,772 sq mi) ( 34th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">Negligible</td>",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2025 census",
+        "label": "Population • 2025 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 3,022,401<sup class=\"reference\" id=\"cite_ref-15\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">[</span>13<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-Census2023_10-1\"><a href=\"#cite_note-Census2023-10\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">136th</a>)</td>",
         "value_text": "3,022,401 [ 13 ] [ 10 ] ( 136th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">3.7/km<sup>2</sup> (9.6/sq mi)</td>",
         "value_text": "3.7/km 2 (9.6/sq mi)"
       },
@@ -267,27 +267,27 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Constitution",
+        "label": "Independence from South Africa • Constitution",
         "value_text": "9 February 1990"
       },
       {
-        "label": "• Independence",
+        "label": "Independence from South Africa • Independence",
         "value_text": "21 March 1990"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "825,615 km 2 (318,772 sq mi) ( 34th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2025 census",
+        "label": "Population • 2025 census",
         "value_text": "3,022,401 ( 136th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "3.7/km 2 (9.6/sq mi)"
       },
       {
@@ -584,8 +584,8 @@
         ],
         "numbers": []
       },
-      "constitution": {
-        "raw_label": "• Constitution",
+      "independence_from_south_africa_constitution": {
+        "raw_label": "Independence from South Africa • Constitution",
         "text": "9 February 1990",
         "tokens": [
           "9",
@@ -597,8 +597,8 @@
           1990
         ]
       },
-      "independence": {
-        "raw_label": "• Independence",
+      "independence_from_south_africa_independence": {
+        "raw_label": "Independence from South Africa • Independence",
         "text": "21 March 1990",
         "tokens": [
           "21",
@@ -610,30 +610,37 @@
           1990
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$14.21 billion ( 145th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "825,615 km 2 (318,772 sq mi) ( 34th )",
         "tokens": [
-          "14",
-          "21",
-          "billion",
-          "145th"
+          "825",
+          "615",
+          "km",
+          "2",
+          "318",
+          "772",
+          "sq",
+          "mi",
+          "34th"
         ],
         "numbers": [
-          14.21,
-          145
+          825615,
+          2,
+          318772,
+          34
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "Negligible",
         "tokens": [
           "Negligible"
         ],
         "numbers": []
       },
-      "2025_census": {
-        "raw_label": "• 2025 census",
+      "population_2025_census": {
+        "raw_label": "Population • 2025 census",
         "text": "3,022,401 ( 136th )",
         "tokens": [
           "3",
@@ -646,8 +653,8 @@
           136
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "3.7/km 2 (9.6/sq mi)",
         "tokens": [
           "3",
@@ -674,6 +681,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$14.21 billion ( 145th )",
+        "tokens": [
+          "14",
+          "21",
+          "billion",
+          "145th"
+        ],
+        "numbers": [
+          14.21,
+          145
         ]
       },
       "per_capita": {
@@ -789,6 +810,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Namibia",
+      "capital": "Windhoek",
+      "largest_city": "Windhoek",
+      "coordinates": {
+        "latitude": "22°34′S",
+        "longitude": "17°5′E"
+      },
+      "government": {
+        "type": "Unitary semi-presidential republic [ needs update ]",
+        "head_of_state": "Netumbo Nandi-Ndaitwah",
+        "head_of_government": "Elijah Ngurare"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 825615
+      },
+      "population": {
+        "year": 2025,
+        "total": 3022401,
+        "rank": 136,
+        "density_per_km2": 3.7
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.665,
+          "rank": 136
+        },
+        "gini": {
+          "year": 2015,
+          "value": 59.1
+        }
+      },
+      "currency": {
+        "name": "Namibian dollar",
+        "code": "NAD"
+      },
+      "calling_code": "264",
+      "iso_3166_code": "NA",
+      "internet_tld": ".na",
+      "time_zone": "UTC+2",
+      "demonym": "Namibian"
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Kazakhstan",
     "slug": "kazakhstan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kazakhstan",
-    "retrieved_at": "2026-03-11T17:56:17+00:00",
+    "retrieved_at": "2026-03-13T10:08:38+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,52 +70,52 @@
         "value_text": "Mäjilis"
       },
       {
-        "label": "• Kazakh Khanate",
+        "label": "Formation • Kazakh Khanate",
         "value_html": "<td class=\"infobox-data\"><abbr title=\"circa\">c.</abbr><span style=\"white-space:nowrap;\"> 1465</span></td>",
         "value_text": "c. 1465"
       },
       {
-        "label": "• Kazakh ASSR",
+        "label": "Formation • Kazakh ASSR",
         "value_html": "<td class=\"infobox-data\">26 August 1920</td>",
         "value_text": "26 August 1920"
       },
       {
-        "label": "• Kazakh SSR",
+        "label": "Formation • Kazakh SSR",
         "value_html": "<td class=\"infobox-data\">5 December 1936</td>",
         "value_text": "5 December 1936"
       },
       {
-        "label": "• Independence from the Soviet Union",
+        "label": "Formation • Independence from the Soviet Union",
         "value_html": "<td class=\"infobox-data\">16 December 1991</td>",
         "value_text": "16 December 1991"
       },
       {
-        "label": "• Recognized",
+        "label": "Formation • Recognized",
         "value_html": "<td class=\"infobox-data\">26 December 1991</td>",
         "value_text": "26 December 1991"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation • Current constitution",
         "value_html": "<td class=\"infobox-data\">30 August 1995</td>",
         "value_text": "30 August 1995"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">2,724,900 km<sup>2</sup> (1,052,100 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">9th</a>)</td>",
         "value_text": "2,724,900 km 2 (1,052,100 sq mi) ( 9th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.7</td>",
         "value_text": "1.7"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 20,495,975<sup class=\"reference\" id=\"cite_ref-15\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">65th</a>)</td>",
         "value_text": "20,495,975 [ 11 ] ( 65th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">7.44/km<sup>2</sup> (19.3/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">236th</a>)</td>",
         "value_text": "7.44/km 2 (19.3/sq mi) ( 236th )"
       },
@@ -237,43 +237,43 @@
         "value_text": "Mäjilis"
       },
       {
-        "label": "• Kazakh Khanate",
+        "label": "Formation • Kazakh Khanate",
         "value_text": "c. 1465"
       },
       {
-        "label": "• Kazakh ASSR",
+        "label": "Formation • Kazakh ASSR",
         "value_text": "26 August 1920"
       },
       {
-        "label": "• Kazakh SSR",
+        "label": "Formation • Kazakh SSR",
         "value_text": "5 December 1936"
       },
       {
-        "label": "• Independence from the Soviet Union",
+        "label": "Formation • Independence from the Soviet Union",
         "value_text": "16 December 1991"
       },
       {
-        "label": "• Recognized",
+        "label": "Formation • Recognized",
         "value_text": "26 December 1991"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation • Current constitution",
         "value_text": "30 August 1995"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "2,724,900 km 2 (1,052,100 sq mi) ( 9th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.7"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_text": "20,495,975 ( 65th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "7.44/km 2 (19.3/sq mi) ( 236th )"
       },
       {
@@ -543,8 +543,8 @@
         ],
         "numbers": []
       },
-      "kazakh_khanate": {
-        "raw_label": "• Kazakh Khanate",
+      "formation_kazakh_khanate": {
+        "raw_label": "Formation • Kazakh Khanate",
         "text": "c. 1465",
         "tokens": [
           "c",
@@ -554,8 +554,8 @@
           1465
         ]
       },
-      "kazakh_assr": {
-        "raw_label": "• Kazakh ASSR",
+      "formation_kazakh_assr": {
+        "raw_label": "Formation • Kazakh ASSR",
         "text": "26 August 1920",
         "tokens": [
           "26",
@@ -567,8 +567,8 @@
           1920
         ]
       },
-      "kazakh_ssr": {
-        "raw_label": "• Kazakh SSR",
+      "formation_kazakh_ssr": {
+        "raw_label": "Formation • Kazakh SSR",
         "text": "5 December 1936",
         "tokens": [
           "5",
@@ -580,8 +580,8 @@
           1936
         ]
       },
-      "independence_from_the_soviet_union": {
-        "raw_label": "• Independence from the Soviet Union",
+      "formation_independence_from_the_soviet_union": {
+        "raw_label": "Formation • Independence from the Soviet Union",
         "text": "16 December 1991",
         "tokens": [
           "16",
@@ -593,8 +593,8 @@
           1991
         ]
       },
-      "recognized": {
-        "raw_label": "• Recognized",
+      "formation_recognized": {
+        "raw_label": "Formation • Recognized",
         "text": "26 December 1991",
         "tokens": [
           "26",
@@ -606,8 +606,8 @@
           1991
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "formation_current_constitution": {
+        "raw_label": "Formation • Current constitution",
         "text": "30 August 1995",
         "tokens": [
           "30",
@@ -619,22 +619,31 @@
           1995
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$300.540 billion ( 48th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "2,724,900 km 2 (1,052,100 sq mi) ( 9th )",
         "tokens": [
-          "300",
-          "540",
-          "billion",
-          "48th"
+          "2",
+          "724",
+          "900",
+          "km",
+          "2",
+          "1",
+          "052",
+          "100",
+          "sq",
+          "mi",
+          "9th"
         ],
         "numbers": [
-          300.54,
-          48
+          2724900,
+          2,
+          1052100,
+          9
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.7",
         "tokens": [
           "1",
@@ -644,8 +653,8 @@
           1.7
         ]
       },
-      "2026_estimate": {
-        "raw_label": "• 2026 estimate",
+      "population_2026_estimate": {
+        "raw_label": "Population • 2026 estimate",
         "text": "20,495,975 ( 65th )",
         "tokens": [
           "20",
@@ -658,8 +667,8 @@
           65
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "7.44/km 2 (19.3/sq mi) ( 236th )",
         "tokens": [
           "7",
@@ -688,6 +697,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$300.540 billion ( 48th )",
+        "tokens": [
+          "300",
+          "540",
+          "billion",
+          "48th"
+        ],
+        "numbers": [
+          300.54,
+          48
         ]
       },
       "per_capita": {
@@ -788,6 +811,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Kazakhstan",
+      "capital": "Astana",
+      "largest_city": "Almaty",
+      "coordinates": {
+        "latitude": "51°8′N",
+        "longitude": "71°26′E"
+      },
+      "government": {
+        "type": "Unitary presidential republic under an authoritarian government",
+        "head_of_state": "Kassym-Jomart Tokayev",
+        "head_of_government": "Oljas Bektenov"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 2724900,
+        "water_percent": 1.7
+      },
+      "population": {
+        "year": 2026,
+        "total": 20495975,
+        "rank": 65,
+        "density_per_km2": 7.44
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.837,
+          "rank": 60
+        },
+        "gini": {
+          "year": 2018,
+          "value": 27.8
+        }
+      },
+      "currency": {
+        "name": "Tenge"
+      },
+      "calling_code": "7",
+      "iso_3166_code": "KZ",
+      "internet_tld": ".kz .қаз",
+      "time_zone": "UTC+5"
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Papua New Guinea",
     "slug": "papua_new_guinea",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Papua_New_Guinea",
-    "retrieved_at": "2026-03-11T17:57:10+00:00",
+    "retrieved_at": "2026-03-13T10:09:37+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,37 +60,37 @@
         "value_text": "National Parliament"
       },
       {
-        "label": "• Administrative union",
+        "label": "Independence from Australia • Administrative union",
         "value_html": "<td class=\"infobox-data\">1 July 1949</td>",
         "value_text": "1 July 1949"
       },
       {
-        "label": "• Independence",
+        "label": "Independence from Australia • Independence",
         "value_html": "<td class=\"infobox-data\">16 September 1975</td>",
         "value_text": "16 September 1975"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">462,840 km<sup>2</sup> (178,700 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">54th</a>)</td>",
         "value_text": "462,840 km 2 (178,700 sq mi) ( 54th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.2</td>",
         "value_text": "2.2"
       },
       {
-        "label": "• 2021 estimate",
+        "label": "Population • 2021 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 11,781,559<sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">82nd</a>)</td>",
         "value_text": "11,781,559 [ 8 ] ( 82nd )"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_html": "<td class=\"infobox-data\">10,185,363 <sup class=\"reference\" id=\"cite_ref-9\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "10,185,363 [ 9 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">25.5/km<sup>2</sup> (66.0/sq mi)</td>",
         "value_text": "25.5/km 2 (66.0/sq mi)"
       },
@@ -204,31 +204,31 @@
         "value_text": "National Parliament"
       },
       {
-        "label": "• Administrative union",
+        "label": "Independence from Australia • Administrative union",
         "value_text": "1 July 1949"
       },
       {
-        "label": "• Independence",
+        "label": "Independence from Australia • Independence",
         "value_text": "16 September 1975"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "462,840 km 2 (178,700 sq mi) ( 54th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.2"
       },
       {
-        "label": "• 2021 estimate",
+        "label": "Population • 2021 estimate",
         "value_text": "11,781,559 ( 82nd )"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_text": "10,185,363"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "25.5/km 2 (66.0/sq mi)"
       },
       {
@@ -444,8 +444,8 @@
         ],
         "numbers": []
       },
-      "administrative_union": {
-        "raw_label": "• Administrative union",
+      "independence_from_australia_administrative_union": {
+        "raw_label": "Independence from Australia • Administrative union",
         "text": "1 July 1949",
         "tokens": [
           "1",
@@ -457,8 +457,8 @@
           1949
         ]
       },
-      "independence": {
-        "raw_label": "• Independence",
+      "independence_from_australia_independence": {
+        "raw_label": "Independence from Australia • Independence",
         "text": "16 September 1975",
         "tokens": [
           "16",
@@ -470,22 +470,29 @@
           1975
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$32.840 billion ( 108th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "462,840 km 2 (178,700 sq mi) ( 54th )",
         "tokens": [
-          "32",
+          "462",
           "840",
-          "billion",
-          "108th"
+          "km",
+          "2",
+          "178",
+          "700",
+          "sq",
+          "mi",
+          "54th"
         ],
         "numbers": [
-          32.84,
-          108
+          462840,
+          2,
+          178700,
+          54
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.2",
         "tokens": [
           "2",
@@ -495,8 +502,8 @@
           2.2
         ]
       },
-      "2021_estimate": {
-        "raw_label": "• 2021 estimate",
+      "population_2021_estimate": {
+        "raw_label": "Population • 2021 estimate",
         "text": "11,781,559 ( 82nd )",
         "tokens": [
           "11",
@@ -509,8 +516,8 @@
           82
         ]
       },
-      "2024_census": {
-        "raw_label": "• 2024 census",
+      "population_2024_census": {
+        "raw_label": "Population • 2024 census",
         "text": "10,185,363",
         "tokens": [
           "10",
@@ -521,8 +528,8 @@
           10185363
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "25.5/km 2 (66.0/sq mi)",
         "tokens": [
           "25",
@@ -549,6 +556,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$32.840 billion ( 108th )",
+        "tokens": [
+          "32",
+          "840",
+          "billion",
+          "108th"
+        ],
+        "numbers": [
+          32.84,
+          108
         ]
       },
       "per_capita": {
@@ -651,6 +672,51 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Papua New Guinea",
+      "capital": "Port Moresby",
+      "largest_city": "Port Moresby",
+      "government": {
+        "type": "Unitary parliamentary constitutional monarchy",
+        "head_of_state": "Charles III",
+        "head_of_government": "James Marape"
+      },
+      "legislature": "National Parliament",
+      "area": {
+        "total_km2": 462840,
+        "water_percent": 2.2
+      },
+      "population": {
+        "year": 2021,
+        "total": 11781559,
+        "rank": 82,
+        "density_per_km2": 25.5
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.576,
+          "rank": 160
+        },
+        "gini": {
+          "year": 2009,
+          "value": 41.9
+        }
+      },
+      "currency": {
+        "name": "Kina",
+        "code": "PGK"
+      },
+      "calling_code": "675",
+      "iso_3166_code": "PG",
+      "internet_tld": ".pg",
+      "time_zone": "UTC+10",
+      "demonym": "Papua New Guinean"
     }
   }
 }

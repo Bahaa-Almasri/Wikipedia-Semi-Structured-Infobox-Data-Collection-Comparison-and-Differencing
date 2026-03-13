@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-11T17:56:34+00:00",
+          "value": "2026-03-13T10:09:01+00:00",
           "children": []
         },
         {
@@ -38,959 +38,129 @@
       "value": null,
       "children": [
         {
-          "label": "2024_estimate",
+          "label": "area",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "21990607",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "61",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 2024 estimate",
+              "label": "total_km2",
+              "value": "1240192",
               "children": []
             },
             {
-              "label": "text",
-              "value": "21,990,607 ( 61st )",
+              "label": "water_percent",
+              "value": "1.6",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "21",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "990",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "607",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "61st",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "calling_code",
+          "value": "223",
+          "children": []
+        },
+        {
+          "label": "capital",
+          "value": "Bamako",
+          "children": []
+        },
+        {
+          "label": "coordinates",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "223",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Calling code",
+              "label": "latitude",
+              "value": "12°39′N",
               "children": []
             },
             {
-              "label": "text",
-              "value": "+223",
+              "label": "longitude",
+              "value": "8°0′W",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "223",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
-          "label": "capital_and_largest_city",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "39",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "12.65",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "8.0",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "12.65",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "-8.0",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Capital and largest city",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Bamako 12°39′N 8°0′W ﻿ / ﻿ 12.650°N 8.000°W ﻿ / 12.650; -8.000",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Bamako",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "39",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "W",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "650",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "000",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "W",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "650",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "000",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "country_name",
+          "value": "Mali",
+          "children": []
         },
         {
           "label": "currency",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "code",
+              "value": "XOF",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Currency",
+              "label": "name",
+              "value": "West African CFA franc",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "West African CFA franc ( XOF )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "West",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "African",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CFA",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "franc",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "XOF",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "declaration_of_the_republic_of_mali",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "22",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1960",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Declaration of the Republic of Mali",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "22 September 1960",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "22",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "September",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1960",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "demonym",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Demonym",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Malian",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Malian",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "Malian",
+          "children": []
         },
         {
-          "label": "density",
+          "label": "development",
           "value": null,
           "children": [
             {
-              "label": "numbers",
+              "label": "gini",
               "value": null,
               "children": [
                 {
-                  "label": "numbers_item",
-                  "value": "11.7",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "30.3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "215",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Density",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "11.7/km 2 (30.3/sq mi) ( 215th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "11",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "km",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "30",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sq",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "215th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "dissolution_of_the_mali_federation",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "20",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1960",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Dissolution of the Mali Federation",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "20 August 1960",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "20",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "August",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1960",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "establishment_of_the_sudanese_republic",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "24",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1958",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Establishment of the Sudanese Republic",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "24 November 1958",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "24",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "November",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1958",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "ethnic_groups",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "33.3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "13.3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "9.6",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "9.6",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "8.8",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "8.7",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "5.9",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "3.5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2.1",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "4.5",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Ethnic groups",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "33.3% Bambara 13.3% Fula 9.6% Soninke 9.6% Senufo / Bwa 8.8% Malinke 8.7% Dogon 5.9% Songhai 3.5% Tuareg 2.1% Bobo 4.5% other",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "33",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bambara",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "13",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Fula",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Soninke",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Senufo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bwa",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Malinke",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Dogon",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Songhai",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Tuareg",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bobo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_nominal",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP (nominal)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_ppp",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP ( PPP )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gini_2010",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
+                  "label": "value",
                   "value": "33.0",
                   "children": []
+                },
+                {
+                  "label": "year",
+                  "value": "2010",
+                  "children": []
                 }
               ]
             },
             {
-              "label": "raw_label",
-              "value": "Gini (2010)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "33.0 medium inequality",
-              "children": []
-            },
-            {
-              "label": "tokens",
+              "label": "hdi",
               "value": null,
               "children": [
                 {
-                  "label": "tokens_item",
-                  "value": "33",
+                  "label": "rank",
+                  "value": "188",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "0",
+                  "label": "value",
+                  "value": "0.419",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "medium",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "inequality",
+                  "label": "year",
+                  "value": "2023",
                   "children": []
                 }
               ]
+            }
+          ]
+        },
+        {
+          "label": "economy",
+          "value": null,
+          "children": [
+            {
+              "label": "gdp_nominal_year",
+              "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_year",
+              "value": "2025",
+              "children": []
             }
           ]
         },
@@ -999,1010 +169,72 @@
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "head_of_government",
+              "value": "Abdoulaye Maïga (interim)",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Government",
+              "label": "head_of_state",
+              "value": "Assimi Goïta",
               "children": []
             },
             {
-              "label": "text",
+              "label": "type",
               "value": "Unitary presidential republic under a military junta",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Unitary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "presidential",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "republic",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "under",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "a",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "military",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "junta",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "hdi_2023",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0.419",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "188",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "HDI (2023)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "0.419 low ( 188th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "419",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "low",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "188th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "independence_from_france",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "20",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1960",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Independence from France",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "20 June 1960",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "20",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "June",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1960",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "internet_tld",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Internet TLD",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": ".ml",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "ml",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": ".ml",
+          "children": []
         },
         {
           "label": "iso_3166_code",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "ISO 3166 code",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "ML",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "ML",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "ML",
+          "children": []
+        },
+        {
+          "label": "largest_city",
+          "value": "Bamako",
+          "children": []
         },
         {
           "label": "legislature",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Legislature",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "National Assembly",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "National",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Assembly",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "National Assembly",
+          "children": []
         },
         {
-          "label": "merger_with_senegal_to_create_the_mali_federation",
+          "label": "population",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1959",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Merger with Senegal to create the Mali Federation",
+              "label": "density_per_km2",
+              "value": "11.7",
               "children": []
             },
             {
-              "label": "text",
-              "value": "4 April 1959",
+              "label": "rank",
+              "value": "61",
               "children": []
             },
             {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "April",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1959",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "official_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "13",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Official languages",
+              "label": "total",
+              "value": "21990607",
               "children": []
             },
             {
-              "label": "text",
-              "value": "13 national languages Bambara Bobo Hassaniya Arabic Bozo Dogon, Toro So Fula Kassonke Maninke Minyanka Senufo, Senara Songhay, Koyraboro Senni Soninke Tamasheq",
+              "label": "year",
+              "value": "2024",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "13",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "national",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "languages",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bambara",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bobo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Hassaniya",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Arabic",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bozo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Dogon",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Toro",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "So",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Fula",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Kassonke",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Maninke",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Minyanka",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Senufo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Senara",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Songhay",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Koyraboro",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Senni",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Soninke",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Tamasheq",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "per_capita",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "936",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "175",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Per capita",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$936 ( 175th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "936",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "175th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Assimi Goïta",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Assimi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Go",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "ta",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "prime_minister",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Prime Minister",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Abdoulaye Maïga (interim)",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Abdoulaye",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Ma",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "ga",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "interim",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "religion_2021",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "95",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "5",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Religion (2021)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "95% Islam 5% other",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "95",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Islam",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "republic_of_mali_official_names_bambara_mali_ka_fasojamana_fula_republik_bu_maali_hassaniya_jumh_riyet_m_li_soninke_mali_jamaane_tamasheq_tagduda_n_mali_songhay_mali_laamaa",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Republic of Mali Official names Bambara : Mali ka Fasojamana / ߡߊ߬ߟߌ ߞߊ ߝߊߛߏߖߊߡߊߣߊ Fula : Republik bu Maali / 𞤈𞤫𞤨𞤵𞤦𞤤𞤭𞤳 𞤦𞤵 𞤃𞤢𞥄𞤤𞤭 Hassaniya : جُمْهُورِيَّةْ مَالِي ( Jumhūriyet Māli ) Soninke : Mali Jamaane Tamasheq : Tagduda n Mali / ⵜⴰⴳⴷⵓⴷⴰ ⵏ ⵎⴰⵍⵉ Songhay : Mali Laamaa",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Mali ka Fasojamana / ߡߊ߬ߟߌ ߞߊ ߝߊߛߏߖߊߡߊߣߊ",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Mali",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "ka",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Fasojamana",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "spoken_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Spoken languages",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Bambara Fula Arabic Soninke Songhay Mandinka Minyanka Tamasheq Senufo Bobo Bozo Kassonke Samogo Dafing Dogon",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Bambara",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Fula",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Arabic",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Soninke",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Songhay",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Mandinka",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Minyanka",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Tamasheq",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Senufo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bobo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bozo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Kassonke",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Samogo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Dafing",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Dogon",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "time_zone",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Time zone",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC ±00:00 ( GMT )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "00",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "00",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "GMT",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "total",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "23.21",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "121",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Total",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$23.21 billion ( 121st )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "23",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "21",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "billion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "121st",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "water",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1.6",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Water (%)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "1.6",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "working_language",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Working language",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "French ( de facto )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "French",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "de",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "facto",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "UTC ±00:00 ( GMT )",
+          "children": []
         }
       ]
     }

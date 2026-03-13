@@ -3,7 +3,7 @@
     "country_name": "France",
     "slug": "france",
     "wikipedia_url": "https://en.wikipedia.org/wiki/France",
-    "retrieved_at": "2026-03-11T17:55:27+00:00",
+    "retrieved_at": "2026-03-13T10:07:57+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,42 +75,42 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">632,702.3 km<sup>2</sup> (244,287.7 sq mi)<br/>(including <a href=\"/wiki/Metropolitan_France\" title=\"Metropolitan France\">metropolitan France</a> and <a href=\"/wiki/Overseas_France\" title=\"Overseas France\">overseas France</a> and excluding <a class=\"mw-redirect\" href=\"/wiki/Terre_Adelie\" title=\"Terre Adelie\">Terre Adelie</a>)<sup class=\"reference\" id=\"cite_ref-Comparateur_de_territoires.INSEE_4-0\"><a href=\"#cite_note-Comparateur_de_territoires.INSEE-4\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">42nd</a>)</td>",
         "value_text": "632,702.3 km 2 (244,287.7 sq mi) (including metropolitan France and overseas France and excluding Terre Adelie ) [ 3 ] ( 42nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.86<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "0.86 [ 2 ]"
       },
       {
-        "label": "• Metropolitan France ( DGCL )",
+        "label": "Area • Metropolitan France ( DGCL )",
         "value_html": "<td class=\"infobox-data\">543,941 km<sup>2</sup> (210,017 sq mi)<sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">50th</a>)</td>",
         "value_text": "543,941 km 2 (210,017 sq mi) [ 4 ] ( 50th )"
       },
       {
-        "label": "• Metropolitan France ( INSEE )",
+        "label": "Area • Metropolitan France ( INSEE )",
         "value_html": "<td class=\"infobox-data\">543,908.3 km<sup>2</sup> (210,004.2 sq mi)<sup class=\"reference\" id=\"cite_ref-Comparateur_de_territoires.INSEE_4-1\"><a href=\"#cite_note-Comparateur_de_territoires.INSEE-4\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-five_6-0\"><a href=\"#cite_note-five-6\"><span class=\"cite-bracket\">[</span>b<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">50th</a>)</td>",
         "value_text": "543,908.3 km 2 (210,004.2 sq mi) [ 3 ] [ b ] ( 50th )"
       },
       {
-        "label": "• January 2026 estimate",
+        "label": "Population • January 2026 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 69,081,996<sup class=\"reference\" id=\"cite_ref-Insee.Population_7-0\"><a href=\"#cite_note-Insee.Population-7\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">21st</a>)</td>",
         "value_text": "69,081,996 [ 5 ] ( 21st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">109/km<sup>2</sup> (283/sq mi) (<a class=\"mw-redirect\" href=\"/wiki/List_of_countries_and_territories_by_population_density\" title=\"List of countries and territories by population density\">106th</a>)</td>",
         "value_text": "109/km 2 (283/sq mi) ( 106th )"
       },
       {
-        "label": "• Metropolitan France, estimate as of January 2026 [update]",
+        "label": "Population • Metropolitan France, estimate as of January 2026 [update]",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 66,792,845<sup class=\"reference\" id=\"cite_ref-Insee.Population_7-1\"><a href=\"#cite_note-Insee.Population-7\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">21st</a>)</td>",
         "value_text": "66,792,845 [ 5 ] ( 21st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">123/km<sup>2</sup> (318.6/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">97th</a>)</td>",
         "value_text": "123/km 2 (318.6/sq mi) ( 97th )"
       },
@@ -241,35 +241,35 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "632,702.3 km 2 (244,287.7 sq mi) (including metropolitan France and overseas France and excluding Terre Adelie ) ( 42nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.86"
       },
       {
-        "label": "• Metropolitan France ( DGCL )",
+        "label": "Area • Metropolitan France ( DGCL )",
         "value_text": "543,941 km 2 (210,017 sq mi) ( 50th )"
       },
       {
-        "label": "• Metropolitan France ( INSEE )",
+        "label": "Area • Metropolitan France ( INSEE )",
         "value_text": "543,908.3 km 2 (210,004.2 sq mi) ( 50th )"
       },
       {
-        "label": "• January 2026 estimate",
+        "label": "Population • January 2026 estimate",
         "value_text": "69,081,996 ( 21st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "109/km 2 (283/sq mi) ( 106th )"
       },
       {
-        "label": "• Metropolitan France, estimate as of January 2026 [update]",
+        "label": "Population • Metropolitan France, estimate as of January 2026 [update]",
         "value_text": "66,792,845 ( 21st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "123/km 2 (318.6/sq mi) ( 97th )"
       },
       {
@@ -489,22 +489,41 @@
         ],
         "numbers": []
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$3.211 trillion ( 7th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "632,702.3 km 2 (244,287.7 sq mi) (including metropolitan France and overseas France and excluding Terre Adelie ) ( 42nd )",
         "tokens": [
+          "632",
+          "702",
           "3",
-          "211",
-          "trillion",
-          "7th"
+          "km",
+          "2",
+          "244",
+          "287",
+          "7",
+          "sq",
+          "mi",
+          "including",
+          "metropolitan",
+          "France",
+          "and",
+          "overseas",
+          "France",
+          "and",
+          "excluding",
+          "Terre",
+          "Adelie",
+          "42nd"
         ],
         "numbers": [
-          3.211,
-          7
+          632702.3,
+          2,
+          244287.7,
+          42
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.86",
         "tokens": [
           "0",
@@ -514,8 +533,8 @@
           0.86
         ]
       },
-      "metropolitan_france_dgcl": {
-        "raw_label": "• Metropolitan France ( DGCL )",
+      "area_metropolitan_france_dgcl": {
+        "raw_label": "Area • Metropolitan France ( DGCL )",
         "text": "543,941 km 2 (210,017 sq mi) ( 50th )",
         "tokens": [
           "543",
@@ -535,8 +554,8 @@
           50
         ]
       },
-      "metropolitan_france_insee": {
-        "raw_label": "• Metropolitan France ( INSEE )",
+      "area_metropolitan_france_insee": {
+        "raw_label": "Area • Metropolitan France ( INSEE )",
         "text": "543,908.3 km 2 (210,004.2 sq mi) ( 50th )",
         "tokens": [
           "543",
@@ -558,8 +577,8 @@
           50
         ]
       },
-      "january_2026_estimate": {
-        "raw_label": "• January 2026 estimate",
+      "population_january_2026_estimate": {
+        "raw_label": "Population • January 2026 estimate",
         "text": "69,081,996 ( 21st )",
         "tokens": [
           "69",
@@ -572,8 +591,8 @@
           21
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "123/km 2 (318.6/sq mi) ( 97th )",
         "tokens": [
           "123",
@@ -592,8 +611,8 @@
           97
         ]
       },
-      "metropolitan_france_estimate_as_of_january_2026_update": {
-        "raw_label": "• Metropolitan France, estimate as of January 2026 [update]",
+      "population_metropolitan_france_estimate_as_of_january_2026_update": {
+        "raw_label": "Population • Metropolitan France, estimate as of January 2026 [update]",
         "text": "66,792,845 ( 21st )",
         "tokens": [
           "66",
@@ -615,6 +634,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$3.211 trillion ( 7th )",
+        "tokens": [
+          "3",
+          "211",
+          "trillion",
+          "7th"
+        ],
+        "numbers": [
+          3.211,
+          7
         ]
       },
       "per_capita": {
@@ -731,6 +764,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "France",
+      "capital": "Paris",
+      "largest_city": "Paris",
+      "coordinates": {
+        "latitude": "48°51′N",
+        "longitude": "2°21′E"
+      },
+      "government": {
+        "type": "Unitary semi-presidential republic",
+        "head_of_state": "Emmanuel Macron",
+        "head_of_government": "Sébastien Lecornu"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 632702,
+        "water_percent": 0.86
+      },
+      "population": {
+        "year": 2026,
+        "total": 69081996,
+        "rank": 21,
+        "density_per_km2": 123.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.92,
+          "rank": 26
+        },
+        "gini": {
+          "year": 2022,
+          "value": 29.8
+        }
+      },
+      "currency": {
+        "name": "Euro"
+      },
+      "calling_code": "33",
+      "iso_3166_code": "FR",
+      "internet_tld": ".fr",
+      "time_zone": "UTC+1",
+      "demonym": "French"
     }
   }
 }

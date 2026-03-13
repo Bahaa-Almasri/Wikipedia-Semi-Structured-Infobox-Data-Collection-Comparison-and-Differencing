@@ -3,7 +3,7 @@
     "country_name": "Botswana",
     "slug": "botswana",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Botswana",
-    "retrieved_at": "2026-03-11T17:52:53+00:00",
+    "retrieved_at": "2026-03-13T10:07:06+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,27 +65,27 @@
         "value_text": "Parliament ( National Assembly )"
       },
       {
-        "label": "• Established ( Constitution )",
+        "label": "Independence from the United Kingdom • Established ( Constitution )",
         "value_html": "<td class=\"infobox-data\">30 September 1966</td>",
         "value_text": "30 September 1966"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">581,730 km<sup>2</sup> (224,610 sq mi)<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">47th</a>)</td>",
         "value_text": "581,730 km 2 (224,610 sq mi) [ 5 ] ( 47th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.7</td>",
         "value_text": "2.7"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_html": "<td class=\"infobox-data\">2,359,609<sup class=\"reference\" id=\"cite_ref-Statistics_Botswana_-_Census_2022_-_Population_of_cities,_towns_and_villages_8-0\"><a href=\"#cite_note-Statistics_Botswana_-_Census_2022_-_Population_of_cities,_towns_and_villages-8\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">143rd</a>)</td>",
         "value_text": "2,359,609 [ 6 ] ( 143rd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">4.1/km<sup>2</sup> (10.6/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">231st</a>)</td>",
         "value_text": "4.1/km 2 (10.6/sq mi) ( 231st )"
       },
@@ -208,23 +208,23 @@
         "value_text": "Parliament ( National Assembly )"
       },
       {
-        "label": "• Established ( Constitution )",
+        "label": "Independence from the United Kingdom • Established ( Constitution )",
         "value_text": "30 September 1966"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "581,730 km 2 (224,610 sq mi) ( 47th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.7"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_text": "2,359,609 ( 143rd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "4.1/km 2 (10.6/sq mi) ( 231st )"
       },
       {
@@ -458,8 +458,8 @@
         ],
         "numbers": []
       },
-      "established_constitution": {
-        "raw_label": "• Established ( Constitution )",
+      "independence_from_the_united_kingdom_established_constitution": {
+        "raw_label": "Independence from the United Kingdom • Established ( Constitution )",
         "text": "30 September 1966",
         "tokens": [
           "30",
@@ -471,22 +471,29 @@
           1966
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$20.710 billion ( 122nd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "581,730 km 2 (224,610 sq mi) ( 47th )",
         "tokens": [
-          "20",
-          "710",
-          "billion",
-          "122nd"
+          "581",
+          "730",
+          "km",
+          "2",
+          "224",
+          "610",
+          "sq",
+          "mi",
+          "47th"
         ],
         "numbers": [
-          20.71,
-          122
+          581730,
+          2,
+          224610,
+          47
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.7",
         "tokens": [
           "2",
@@ -496,8 +503,8 @@
           2.7
         ]
       },
-      "2022_census": {
-        "raw_label": "• 2022 census",
+      "population_2022_census": {
+        "raw_label": "Population • 2022 census",
         "text": "2,359,609 ( 143rd )",
         "tokens": [
           "2",
@@ -510,8 +517,8 @@
           143
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "4.1/km 2 (10.6/sq mi) ( 231st )",
         "tokens": [
           "4",
@@ -540,6 +547,20 @@
         ],
         "numbers": [
           2026
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$20.710 billion ( 122nd )",
+        "tokens": [
+          "20",
+          "710",
+          "billion",
+          "122nd"
+        ],
+        "numbers": [
+          20.71,
+          122
         ]
       },
       "per_capita": {
@@ -652,6 +673,49 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Botswana",
+      "capital": "Gaborone",
+      "largest_city": "Gaborone",
+      "government": {
+        "type": "Unitary parliamentary republic with an executive presidency",
+        "head_of_state": "Duma Boko"
+      },
+      "legislature": "Parliament ( National Assembly )",
+      "area": {
+        "total_km2": 581730,
+        "water_percent": 2.7
+      },
+      "population": {
+        "year": 2022,
+        "total": 2359609,
+        "rank": 143,
+        "density_per_km2": 4.1
+      },
+      "economy": {
+        "gdp_nominal_year": 2026,
+        "gdp_ppp_year": 2026
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.731,
+          "rank": 111
+        },
+        "gini": {
+          "year": 2016,
+          "value": 45.5
+        }
+      },
+      "currency": {
+        "name": "Pula",
+        "code": "BWP"
+      },
+      "calling_code": "267",
+      "iso_3166_code": "BW",
+      "internet_tld": ".bw",
+      "time_zone": "UTC+2"
     }
   }
 }

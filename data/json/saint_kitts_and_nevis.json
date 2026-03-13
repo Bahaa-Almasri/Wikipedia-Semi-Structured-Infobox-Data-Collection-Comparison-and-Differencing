@@ -3,7 +3,7 @@
     "country_name": "Saint Kitts and Nevis",
     "slug": "saint_kitts_and_nevis",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis",
-    "retrieved_at": "2026-03-11T17:57:27+00:00",
+    "retrieved_at": "2026-03-13T10:09:58+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,37 +65,37 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Associated State",
+        "label": "Independence from the United Kingdom • Associated State",
         "value_html": "<td class=\"infobox-data\">27 February 1967</td>",
         "value_text": "27 February 1967"
       },
       {
-        "label": "• Independence declared",
+        "label": "Independence from the United Kingdom • Independence declared",
         "value_html": "<td class=\"infobox-data\">19 September 1983</td>",
         "value_text": "19 September 1983"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">261 km<sup>2</sup> (101 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">188th</a>)</td>",
         "value_text": "261 km 2 (101 sq mi) ( 188th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">Negligible</td>",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2021 estimate",
+        "label": "Population • 2021 estimate",
         "value_html": "<td class=\"infobox-data\">47,606<sup class=\"reference\" id=\"cite_ref-UN_WPP_3-0\"><a href=\"#cite_note-UN_WPP-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-UN_WPP_2022_4-0\"><a href=\"#cite_note-UN_WPP_2022-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">187th</a>)</td>",
         "value_text": "47,606 [ 3 ] [ 4 ] ( 187th )"
       },
       {
-        "label": "• 2023 census",
+        "label": "Population • 2023 census",
         "value_html": "<td class=\"infobox-data\">54,338</td>",
         "value_text": "54,338"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">164/km<sup>2</sup> (424.8/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">64th</a>)</td>",
         "value_text": "164/km 2 (424.8/sq mi) ( 64th )"
       },
@@ -213,31 +213,31 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Associated State",
+        "label": "Independence from the United Kingdom • Associated State",
         "value_text": "27 February 1967"
       },
       {
-        "label": "• Independence declared",
+        "label": "Independence from the United Kingdom • Independence declared",
         "value_text": "19 September 1983"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "261 km 2 (101 sq mi) ( 188th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2021 estimate",
+        "label": "Population • 2021 estimate",
         "value_text": "47,606 ( 187th )"
       },
       {
-        "label": "• 2023 census",
+        "label": "Population • 2023 census",
         "value_text": "54,338"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "164/km 2 (424.8/sq mi) ( 64th )"
       },
       {
@@ -470,8 +470,8 @@
         ],
         "numbers": []
       },
-      "associated_state": {
-        "raw_label": "• Associated State",
+      "independence_from_the_united_kingdom_associated_state": {
+        "raw_label": "Independence from the United Kingdom • Associated State",
         "text": "27 February 1967",
         "tokens": [
           "27",
@@ -483,8 +483,8 @@
           1967
         ]
       },
-      "independence_declared": {
-        "raw_label": "• Independence declared",
+      "independence_from_the_united_kingdom_independence_declared": {
+        "raw_label": "Independence from the United Kingdom • Independence declared",
         "text": "19 September 1983",
         "tokens": [
           "19",
@@ -496,27 +496,35 @@
           1983
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$1 billion",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "261 km 2 (101 sq mi) ( 188th )",
         "tokens": [
-          "1",
-          "billion"
+          "261",
+          "km",
+          "2",
+          "101",
+          "sq",
+          "mi",
+          "188th"
         ],
         "numbers": [
-          1
+          261,
+          2,
+          101,
+          188
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "Negligible",
         "tokens": [
           "Negligible"
         ],
         "numbers": []
       },
-      "2021_estimate": {
-        "raw_label": "• 2021 estimate",
+      "population_2021_estimate": {
+        "raw_label": "Population • 2021 estimate",
         "text": "47,606 ( 187th )",
         "tokens": [
           "47",
@@ -528,8 +536,8 @@
           187
         ]
       },
-      "2023_census": {
-        "raw_label": "• 2023 census",
+      "population_2023_census": {
+        "raw_label": "Population • 2023 census",
         "text": "54,338",
         "tokens": [
           "54",
@@ -539,8 +547,8 @@
           54338
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "164/km 2 (424.8/sq mi) ( 64th )",
         "tokens": [
           "164",
@@ -568,6 +576,17 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$1 billion",
+        "tokens": [
+          "1",
+          "billion"
+        ],
+        "numbers": [
+          1
         ]
       },
       "per_capita": {
@@ -667,6 +686,48 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Saint Kitts and Nevis",
+      "capital": "Basseterre",
+      "largest_city": "Basseterre",
+      "coordinates": {
+        "latitude": "17°18′N",
+        "longitude": "62°44′W"
+      },
+      "government": {
+        "type": "Federal parliamentary constitutional monarchy",
+        "head_of_state": "Charles III",
+        "head_of_government": "Terrance Drew"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 261
+      },
+      "population": {
+        "year": 2021,
+        "total": 47606,
+        "rank": 187,
+        "density_per_km2": 164.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.84,
+          "rank": 58
+        }
+      },
+      "currency": {
+        "name": "East Caribbean dollar"
+      },
+      "calling_code": "1",
+      "iso_3166_code": "KN",
+      "internet_tld": ".kn",
+      "time_zone": "UTC-4"
     }
   }
 }

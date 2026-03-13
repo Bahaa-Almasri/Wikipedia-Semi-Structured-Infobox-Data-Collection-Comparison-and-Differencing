@@ -3,7 +3,7 @@
     "country_name": "Colombia",
     "slug": "colombia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Colombia",
-    "retrieved_at": "2026-03-11T17:53:36+00:00",
+    "retrieved_at": "2026-03-13T10:07:27+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,47 +70,47 @@
         "value_text": "Chamber of Representatives"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from Spain • Declared",
         "value_html": "<td class=\"infobox-data\">20 July 1810</td>",
         "value_text": "20 July 1810"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from Spain • Recognized",
         "value_html": "<td class=\"infobox-data\">7 August 1819</td>",
         "value_text": "7 August 1819"
       },
       {
-        "label": "• Last unitisation",
+        "label": "Independence from Spain • Last unitisation",
         "value_html": "<td class=\"infobox-data\">5 August 1886</td>",
         "value_text": "5 August 1886"
       },
       {
-        "label": "• Secession of Panama",
+        "label": "Independence from Spain • Secession of Panama",
         "value_html": "<td class=\"infobox-data\">6 November 1903</td>",
         "value_text": "6 November 1903"
       },
       {
-        "label": "• Current Constitution",
+        "label": "Independence from Spain • Current Constitution",
         "value_html": "<td class=\"infobox-data\">4 July 1991</td>",
         "value_text": "4 July 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">1,141,748 km<sup>2</sup> (440,831 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">25th</a>)</td>",
         "value_text": "1,141,748 km 2 (440,831 sq mi) ( 25th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.1 (as of 2015)<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "2.1 (as of 2015) [ 5 ]"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 52,695,952<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">27th</a>)</td>",
         "value_text": "52,695,952 [ 6 ] ( 27th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">46.15/km<sup>2</sup> (119.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">174th</a>)</td>",
         "value_text": "46.15/km 2 (119.5/sq mi) ( 174th )"
       },
@@ -237,39 +237,39 @@
         "value_text": "Chamber of Representatives"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from Spain • Declared",
         "value_text": "20 July 1810"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from Spain • Recognized",
         "value_text": "7 August 1819"
       },
       {
-        "label": "• Last unitisation",
+        "label": "Independence from Spain • Last unitisation",
         "value_text": "5 August 1886"
       },
       {
-        "label": "• Secession of Panama",
+        "label": "Independence from Spain • Secession of Panama",
         "value_text": "6 November 1903"
       },
       {
-        "label": "• Current Constitution",
+        "label": "Independence from Spain • Current Constitution",
         "value_text": "4 July 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "1,141,748 km 2 (440,831 sq mi) ( 25th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.1 (as of 2015)"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "52,695,952 ( 27th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "46.15/km 2 (119.5/sq mi) ( 174th )"
       },
       {
@@ -510,8 +510,8 @@
         ],
         "numbers": []
       },
-      "declared": {
-        "raw_label": "• Declared",
+      "independence_from_spain_declared": {
+        "raw_label": "Independence from Spain • Declared",
         "text": "20 July 1810",
         "tokens": [
           "20",
@@ -523,8 +523,8 @@
           1810
         ]
       },
-      "recognized": {
-        "raw_label": "• Recognized",
+      "independence_from_spain_recognized": {
+        "raw_label": "Independence from Spain • Recognized",
         "text": "7 August 1819",
         "tokens": [
           "7",
@@ -536,8 +536,8 @@
           1819
         ]
       },
-      "last_unitisation": {
-        "raw_label": "• Last unitisation",
+      "independence_from_spain_last_unitisation": {
+        "raw_label": "Independence from Spain • Last unitisation",
         "text": "5 August 1886",
         "tokens": [
           "5",
@@ -549,8 +549,8 @@
           1886
         ]
       },
-      "secession_of_panama": {
-        "raw_label": "• Secession of Panama",
+      "independence_from_spain_secession_of_panama": {
+        "raw_label": "Independence from Spain • Secession of Panama",
         "text": "6 November 1903",
         "tokens": [
           "6",
@@ -562,8 +562,8 @@
           1903
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current Constitution",
+      "independence_from_spain_current_constitution": {
+        "raw_label": "Independence from Spain • Current Constitution",
         "text": "4 July 1991",
         "tokens": [
           "4",
@@ -575,22 +575,30 @@
           1991
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$386.076 billion ( 46th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "1,141,748 km 2 (440,831 sq mi) ( 25th )",
         "tokens": [
-          "386",
-          "076",
-          "billion",
-          "46th"
+          "1",
+          "141",
+          "748",
+          "km",
+          "2",
+          "440",
+          "831",
+          "sq",
+          "mi",
+          "25th"
         ],
         "numbers": [
-          386.076,
-          46
+          1141748,
+          2,
+          440831,
+          25
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.1 (as of 2015)",
         "tokens": [
           "2",
@@ -604,8 +612,8 @@
           2015
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "52,695,952 ( 27th )",
         "tokens": [
           "52",
@@ -618,8 +626,8 @@
           27
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "46.15/km 2 (119.5/sq mi) ( 174th )",
         "tokens": [
           "46",
@@ -648,6 +656,20 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$386.076 billion ( 46th )",
+        "tokens": [
+          "386",
+          "076",
+          "billion",
+          "46th"
+        ],
+        "numbers": [
+          386.076,
+          46
         ]
       },
       "per_capita": {
@@ -758,6 +780,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Colombia",
+      "capital": "Bogotá",
+      "largest_city": "Bogotá",
+      "coordinates": {
+        "latitude": "4°35′N",
+        "longitude": "74°4′W"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Gustavo Petro"
+      },
+      "legislature": "Congress",
+      "area": {
+        "total_km2": 1141748,
+        "water_percent": 2.1
+      },
+      "population": {
+        "year": 2024,
+        "total": 52695952,
+        "rank": 27,
+        "density_per_km2": 46.15
+      },
+      "economy": {
+        "gdp_nominal_year": 2024,
+        "gdp_ppp_year": 2024
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.788,
+          "rank": 83
+        },
+        "gini": {
+          "year": 2023,
+          "value": 53.9
+        }
+      },
+      "currency": {
+        "name": "Colombian peso",
+        "code": "COP"
+      },
+      "calling_code": "57",
+      "iso_3166_code": "CO",
+      "internet_tld": ".co",
+      "time_zone": "UTC −5 [b] ( COT )",
+      "demonym": "Colombian"
     }
   }
 }

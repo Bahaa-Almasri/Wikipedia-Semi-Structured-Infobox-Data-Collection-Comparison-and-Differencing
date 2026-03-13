@@ -3,7 +3,7 @@
     "country_name": "Marshall Islands",
     "slug": "marshall_islands",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Marshall_Islands",
-    "retrieved_at": "2026-03-11T17:56:36+00:00",
+    "retrieved_at": "2026-03-13T10:09:04+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,32 +65,32 @@
         "value_text": "Nitijela"
       },
       {
-        "label": "• Self-government",
+        "label": "Independence from the United States • Self-government",
         "value_html": "<td class=\"infobox-data\">May 1, 1979</td>",
         "value_text": "May 1, 1979"
       },
       {
-        "label": "• Compact of Free Association",
+        "label": "Independence from the United States • Compact of Free Association",
         "value_html": "<td class=\"infobox-data\">October 21, 1986</td>",
         "value_text": "October 21, 1986"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">181.43 km<sup>2</sup> (70.05 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">189th</a>)</td>",
         "value_text": "181.43 km 2 (70.05 sq mi) ( 189th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\"><style data-mw-deduplicate=\"TemplateStyles:r1239334494\">@media screen{html.skin-theme-clientpref-night .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-night .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output div:not(.notheme)>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output p>.tmp-color,html.skin-theme-clientpref-os .mw-parser-output table:not(.notheme) .tmp-color{color:inherit!important}}</style><span class=\"tmp-color\" style=\"color:gray\">Negligible</span></td>",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_html": "<td class=\"infobox-data\">42,418<sup class=\"reference\" id=\"cite_ref-2021census_3-2\"><a href=\"#cite_note-2021census-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "42,418 [ 3 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">233/km<sup>2</sup> (603.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">47th</a>)</td>",
         "value_text": "233/km 2 (603.5/sq mi) ( 47th )"
       },
@@ -213,27 +213,27 @@
         "value_text": "Nitijela"
       },
       {
-        "label": "• Self-government",
+        "label": "Independence from the United States • Self-government",
         "value_text": "May 1, 1979"
       },
       {
-        "label": "• Compact of Free Association",
+        "label": "Independence from the United States • Compact of Free Association",
         "value_text": "October 21, 1986"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "181.43 km 2 (70.05 sq mi) ( 189th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_text": "42,418"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "233/km 2 (603.5/sq mi) ( 47th )"
       },
       {
@@ -466,8 +466,8 @@
         ],
         "numbers": []
       },
-      "self_government": {
-        "raw_label": "• Self-government",
+      "independence_from_the_united_states_self_government": {
+        "raw_label": "Independence from the United States • Self-government",
         "text": "May 1, 1979",
         "tokens": [
           "May",
@@ -479,8 +479,8 @@
           1979
         ]
       },
-      "compact_of_free_association": {
-        "raw_label": "• Compact of Free Association",
+      "independence_from_the_united_states_compact_of_free_association": {
+        "raw_label": "Independence from the United States • Compact of Free Association",
         "text": "October 21, 1986",
         "tokens": [
           "October",
@@ -492,27 +492,37 @@
           1986
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$220 million",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "181.43 km 2 (70.05 sq mi) ( 189th )",
         "tokens": [
-          "220",
-          "million"
+          "181",
+          "43",
+          "km",
+          "2",
+          "70",
+          "05",
+          "sq",
+          "mi",
+          "189th"
         ],
         "numbers": [
-          220
+          181.43,
+          2,
+          70.05,
+          189
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "Negligible",
         "tokens": [
           "Negligible"
         ],
         "numbers": []
       },
-      "2021_census": {
-        "raw_label": "• 2021 census",
+      "population_2021_census": {
+        "raw_label": "Population • 2021 census",
         "text": "42,418",
         "tokens": [
           "42",
@@ -522,8 +532,8 @@
           42418
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "233/km 2 (603.5/sq mi) ( 47th )",
         "tokens": [
           "233",
@@ -551,6 +561,17 @@
         ],
         "numbers": [
           2019
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$220 million",
+        "tokens": [
+          "220",
+          "million"
+        ],
+        "numbers": [
+          220
         ]
       },
       "per_capita": {
@@ -657,6 +678,47 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Marshall Islands",
+      "capital": "Majuro",
+      "largest_city": "Majuro",
+      "coordinates": {
+        "latitude": "7°7′N",
+        "longitude": "171°4′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary republic with an executive president",
+        "head_of_state": "Hilda Heine"
+      },
+      "legislature": "Nitijela",
+      "area": {
+        "total_km2": 181
+      },
+      "population": {
+        "year": 2021,
+        "total": 42418,
+        "density_per_km2": 233.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2019,
+        "gdp_ppp_year": 2019
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.733,
+          "rank": 108
+        }
+      },
+      "currency": {
+        "name": "United States dollar Sovereign"
+      },
+      "calling_code": "692",
+      "iso_3166_code": "MH",
+      "internet_tld": ".mh",
+      "time_zone": "UTC+12",
+      "demonym": "Marshallese"
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Gambia (Republic of The)",
     "slug": "gambia_republic_of_the",
     "wikipedia_url": "https://en.wikipedia.org/wiki/The_Gambia",
-    "retrieved_at": "2026-03-11T17:55:29+00:00",
+    "retrieved_at": "2026-03-13T10:08:00+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,32 +75,32 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• from the United Kingdom",
+        "label": "Independence • from the United Kingdom",
         "value_html": "<td class=\"infobox-data\">18 February 1965</td>",
         "value_text": "18 February 1965"
       },
       {
-        "label": "• dissolution of the Senegambia Confederation",
+        "label": "Independence • dissolution of the Senegambia Confederation",
         "value_html": "<td class=\"infobox-data\">30 September 1989</td>",
         "value_text": "30 September 1989"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">11,300<sup class=\"reference\" id=\"cite_ref-auto_4-0\"><a href=\"#cite_note-auto-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (4,400 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">159th</a>)</td>",
         "value_text": "11,300 [ 4 ] km 2 (4,400 sq mi) ( 159th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">11.5</td>",
         "value_text": "11.5"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_html": "<td class=\"infobox-data\">2,422,712<sup class=\"reference\" id=\"cite_ref-GBoS_2024_5-0\"><a href=\"#cite_note-GBoS_2024-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">142th</a>)</td>",
         "value_text": "2,422,712 [ 5 ] ( 142th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">227/km<sup>2</sup> (587.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">51th</a>)</td>",
         "value_text": "227/km 2 (587.9/sq mi) ( 51th )"
       },
@@ -226,27 +226,27 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• from the United Kingdom",
+        "label": "Independence • from the United Kingdom",
         "value_text": "18 February 1965"
       },
       {
-        "label": "• dissolution of the Senegambia Confederation",
+        "label": "Independence • dissolution of the Senegambia Confederation",
         "value_text": "30 September 1989"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "11,300 km 2 (4,400 sq mi) ( 159th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "11.5"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_text": "2,422,712 ( 142th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "227/km 2 (587.9/sq mi) ( 51th )"
       },
       {
@@ -511,8 +511,8 @@
         ],
         "numbers": []
       },
-      "from_the_united_kingdom": {
-        "raw_label": "• from the United Kingdom",
+      "independence_from_the_united_kingdom": {
+        "raw_label": "Independence • from the United Kingdom",
         "text": "18 February 1965",
         "tokens": [
           "18",
@@ -524,8 +524,8 @@
           1965
         ]
       },
-      "dissolution_of_the_senegambia_confederation": {
-        "raw_label": "• dissolution of the Senegambia Confederation",
+      "independence_dissolution_of_the_senegambia_confederation": {
+        "raw_label": "Independence • dissolution of the Senegambia Confederation",
         "text": "30 September 1989",
         "tokens": [
           "30",
@@ -537,22 +537,29 @@
           1989
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$2.670 billion ( 185th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "11,300 km 2 (4,400 sq mi) ( 159th )",
         "tokens": [
+          "11",
+          "300",
+          "km",
           "2",
-          "670",
-          "billion",
-          "185th"
+          "4",
+          "400",
+          "sq",
+          "mi",
+          "159th"
         ],
         "numbers": [
-          2.67,
-          185
+          11300,
+          2,
+          4400,
+          159
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "11.5",
         "tokens": [
           "11",
@@ -562,8 +569,8 @@
           11.5
         ]
       },
-      "2024_census": {
-        "raw_label": "• 2024 census",
+      "population_2024_census": {
+        "raw_label": "Population • 2024 census",
         "text": "2,422,712 ( 142th )",
         "tokens": [
           "2",
@@ -576,8 +583,8 @@
           142
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "227/km 2 (587.9/sq mi) ( 51th )",
         "tokens": [
           "227",
@@ -605,6 +612,20 @@
         ],
         "numbers": [
           2026
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$2.670 billion ( 185th )",
+        "tokens": [
+          "2",
+          "670",
+          "billion",
+          "185th"
+        ],
+        "numbers": [
+          2.67,
+          185
         ]
       },
       "per_capita": {
@@ -707,6 +728,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Gambia (Republic of The)",
+      "capital": "Banjul",
+      "largest_city": "Banjul",
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Adama Barrow"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 11300,
+        "water_percent": 11.5
+      },
+      "population": {
+        "year": 2024,
+        "total": 2422712,
+        "rank": 142,
+        "density_per_km2": 227.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2026,
+        "gdp_ppp_year": 2026
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.524,
+          "rank": 170
+        },
+        "gini": {
+          "year": 2015,
+          "value": 35.9
+        }
+      },
+      "currency": {
+        "name": "Gambian dalasi",
+        "code": "GMD"
+      },
+      "calling_code": "220",
+      "iso_3166_code": "GM",
+      "internet_tld": ".gm",
+      "time_zone": "UTC ±00:00 ( GMT )",
+      "demonym": "Gambian"
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Sao Tome and Principe",
     "slug": "sao_tome_and_principe",
     "wikipedia_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
-    "retrieved_at": "2026-03-11T17:57:31+00:00",
+    "retrieved_at": "2026-03-13T10:10:03+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -55,37 +55,37 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Granted",
+        "label": "Independence from Portugal • Granted",
         "value_html": "<td class=\"infobox-data\">12 July 1975</td>",
         "value_text": "12 July 1975"
       },
       {
-        "label": "• Admitted to the United Nations",
+        "label": "Independence from Portugal • Admitted to the United Nations",
         "value_html": "<td class=\"infobox-data\">16 September 1975</td>",
         "value_text": "16 September 1975"
       },
       {
-        "label": "• Constitutional reform",
+        "label": "Independence from Portugal • Constitutional reform",
         "value_html": "<td class=\"infobox-data\">22 August 1990</td>",
         "value_text": "22 August 1990"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">964<sup class=\"reference\" id=\"cite_ref-cia1_4-0\"><a href=\"#cite_note-cia1-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (372 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">171st</a>)</td>",
         "value_text": "964 [ 4 ] km 2 (372 sq mi) ( 171st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">negligible</td>",
         "value_text": "negligible"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\">220,372<sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">175th</a>)</td>",
         "value_text": "220,372 [ 5 ] ( 175th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">199.7/km<sup>2</sup> (517.2/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">69th</a>)</td>",
         "value_text": "199.7/km 2 (517.2/sq mi) ( 69th )"
       },
@@ -200,31 +200,31 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Granted",
+        "label": "Independence from Portugal • Granted",
         "value_text": "12 July 1975"
       },
       {
-        "label": "• Admitted to the United Nations",
+        "label": "Independence from Portugal • Admitted to the United Nations",
         "value_text": "16 September 1975"
       },
       {
-        "label": "• Constitutional reform",
+        "label": "Independence from Portugal • Constitutional reform",
         "value_text": "22 August 1990"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "964 km 2 (372 sq mi) ( 171st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "negligible"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "220,372 ( 175th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "199.7/km 2 (517.2/sq mi) ( 69th )"
       },
       {
@@ -421,8 +421,8 @@
         ],
         "numbers": []
       },
-      "granted": {
-        "raw_label": "• Granted",
+      "independence_from_portugal_granted": {
+        "raw_label": "Independence from Portugal • Granted",
         "text": "12 July 1975",
         "tokens": [
           "12",
@@ -434,8 +434,8 @@
           1975
         ]
       },
-      "admitted_to_the_united_nations": {
-        "raw_label": "• Admitted to the United Nations",
+      "independence_from_portugal_admitted_to_the_united_nations": {
+        "raw_label": "Independence from Portugal • Admitted to the United Nations",
         "text": "16 September 1975",
         "tokens": [
           "16",
@@ -447,8 +447,8 @@
           1975
         ]
       },
-      "constitutional_reform": {
-        "raw_label": "• Constitutional reform",
+      "independence_from_portugal_constitutional_reform": {
+        "raw_label": "Independence from Portugal • Constitutional reform",
         "text": "22 August 1990",
         "tokens": [
           "22",
@@ -460,27 +460,35 @@
           1990
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$751 million",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "964 km 2 (372 sq mi) ( 171st )",
         "tokens": [
-          "751",
-          "million"
+          "964",
+          "km",
+          "2",
+          "372",
+          "sq",
+          "mi",
+          "171st"
         ],
         "numbers": [
-          751
+          964,
+          2,
+          372,
+          171
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "negligible",
         "tokens": [
           "negligible"
         ],
         "numbers": []
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "220,372 ( 175th )",
         "tokens": [
           "220",
@@ -492,8 +500,8 @@
           175
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "199.7/km 2 (517.2/sq mi) ( 69th )",
         "tokens": [
           "199",
@@ -522,6 +530,17 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$751 million",
+        "tokens": [
+          "751",
+          "million"
+        ],
+        "numbers": [
+          751
         ]
       },
       "per_capita": {
@@ -630,6 +649,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Sao Tome and Principe",
+      "capital": "São Tomé",
+      "largest_city": "São Tomé",
+      "coordinates": {
+        "latitude": "0°20′N",
+        "longitude": "6°44′E"
+      },
+      "government": {
+        "type": "Unitary semi-presidential republic",
+        "head_of_state": "Carlos Vila Nova",
+        "head_of_government": "Américo Ramos"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 964
+      },
+      "population": {
+        "year": 2023,
+        "total": 220372,
+        "rank": 175,
+        "density_per_km2": 199.7
+      },
+      "economy": {
+        "gdp_nominal_year": 2024,
+        "gdp_ppp_year": 2024
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.637,
+          "rank": 141
+        },
+        "gini": {
+          "year": 2017,
+          "value": 40.7
+        }
+      },
+      "currency": {
+        "name": "Dobra",
+        "code": "STN"
+      },
+      "calling_code": "239",
+      "iso_3166_code": "ST",
+      "internet_tld": ".st",
+      "time_zone": "UTC+0"
     }
   }
 }

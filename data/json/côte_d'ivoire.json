@@ -3,7 +3,7 @@
     "country_name": "Côte d'Ivoire",
     "slug": "côte_d'ivoire",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ivory_Coast",
-    "retrieved_at": "2026-03-11T17:53:44+00:00",
+    "retrieved_at": "2026-03-13T10:07:31+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -85,37 +85,37 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Republic established",
+        "label": "History • Republic established",
         "value_html": "<td class=\"infobox-data\">4 December 1958</td>",
         "value_text": "4 December 1958"
       },
       {
-        "label": "• Independence from France",
+        "label": "History • Independence from France",
         "value_html": "<td class=\"infobox-data\">7 August 1960</td>",
         "value_text": "7 August 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">322,462 km<sup>2</sup> (124,503 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">68th</a>)</td>",
         "value_text": "322,462 km 2 (124,503 sq mi) ( 68th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.4<sup class=\"reference\" id=\"cite_ref-CIA_3-0\"><a href=\"#cite_note-CIA-3\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "1.4 [ 2 ]"
       },
       {
-        "label": "• July 2024 estimate",
+        "label": "Population • July 2024 estimate",
         "value_html": "<td class=\"infobox-data\">31,500,000<sup class=\"reference\" id=\"cite_ref-2024_data_sheet_4-0\"><a href=\"#cite_note-2024_data_sheet-4\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">49th</a>)</td>",
         "value_text": "31,500,000 [ 3 ] ( 49th )"
       },
       {
-        "label": "• December 2021 census",
+        "label": "Population • December 2021 census",
         "value_html": "<td class=\"infobox-data\">29,389,150<sup class=\"reference\" id=\"cite_ref-census_2021_5-0\"><a href=\"#cite_note-census_2021-5\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "29,389,150 [ 4 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">97.7/km<sup>2</sup> (253.0/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">139th</a>)</td>",
         "value_text": "97.7/km 2 (253.0/sq mi) ( 139th )"
       },
@@ -254,31 +254,31 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Republic established",
+        "label": "History • Republic established",
         "value_text": "4 December 1958"
       },
       {
-        "label": "• Independence from France",
+        "label": "History • Independence from France",
         "value_text": "7 August 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "322,462 km 2 (124,503 sq mi) ( 68th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.4"
       },
       {
-        "label": "• July 2024 estimate",
+        "label": "Population • July 2024 estimate",
         "value_text": "31,500,000 ( 49th )"
       },
       {
-        "label": "• December 2021 census",
+        "label": "Population • December 2021 census",
         "value_text": "29,389,150"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "97.7/km 2 (253.0/sq mi) ( 139th )"
       },
       {
@@ -582,8 +582,8 @@
         ],
         "numbers": []
       },
-      "republic_established": {
-        "raw_label": "• Republic established",
+      "history_republic_established": {
+        "raw_label": "History • Republic established",
         "text": "4 December 1958",
         "tokens": [
           "4",
@@ -595,8 +595,8 @@
           1958
         ]
       },
-      "independence_from_france": {
-        "raw_label": "• Independence from France",
+      "history_independence_from_france": {
+        "raw_label": "History • Independence from France",
         "text": "7 August 1960",
         "tokens": [
           "7",
@@ -608,22 +608,29 @@
           1960
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$79.430 billion ( 84th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "322,462 km 2 (124,503 sq mi) ( 68th )",
         "tokens": [
-          "79",
-          "430",
-          "billion",
-          "84th"
+          "322",
+          "462",
+          "km",
+          "2",
+          "124",
+          "503",
+          "sq",
+          "mi",
+          "68th"
         ],
         "numbers": [
-          79.43,
-          84
+          322462,
+          2,
+          124503,
+          68
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.4",
         "tokens": [
           "1",
@@ -633,8 +640,8 @@
           1.4
         ]
       },
-      "july_2024_estimate": {
-        "raw_label": "• July 2024 estimate",
+      "population_july_2024_estimate": {
+        "raw_label": "Population • July 2024 estimate",
         "text": "31,500,000 ( 49th )",
         "tokens": [
           "31",
@@ -647,8 +654,8 @@
           49
         ]
       },
-      "december_2021_census": {
-        "raw_label": "• December 2021 census",
+      "population_december_2021_census": {
+        "raw_label": "Population • December 2021 census",
         "text": "29,389,150",
         "tokens": [
           "29",
@@ -659,8 +666,8 @@
           29389150
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "97.7/km 2 (253.0/sq mi) ( 139th )",
         "tokens": [
           "97",
@@ -689,6 +696,20 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$79.430 billion ( 84th )",
+        "tokens": [
+          "79",
+          "430",
+          "billion",
+          "84th"
+        ],
+        "numbers": [
+          79.43,
+          84
         ]
       },
       "per_capita": {
@@ -804,6 +825,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Côte d'Ivoire",
+      "capital": "Yamoussoukro",
+      "largest_city": "Abidjan",
+      "coordinates": {
+        "latitude": "6°51′N",
+        "longitude": "5°18′W"
+      },
+      "government": {
+        "type": "Unitary presidential republic under an authoritarian regime",
+        "head_of_state": "Alassane Ouattara",
+        "head_of_government": "Robert Beugré Mambé"
+      },
+      "legislature": "Parliament of Ivory Coast",
+      "area": {
+        "total_km2": 322462,
+        "water_percent": 1.4
+      },
+      "population": {
+        "year": 2024,
+        "total": 31500000,
+        "rank": 49,
+        "density_per_km2": 97.7
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.582,
+          "rank": 157
+        },
+        "gini": {
+          "year": 2021,
+          "value": 35.3
+        }
+      },
+      "currency": {
+        "name": "West African CFA franc",
+        "code": "XOF"
+      },
+      "calling_code": "225",
+      "iso_3166_code": "CI",
+      "internet_tld": ".ci",
+      "time_zone": "UTC ±00:00 ( GMT )"
     }
   }
 }

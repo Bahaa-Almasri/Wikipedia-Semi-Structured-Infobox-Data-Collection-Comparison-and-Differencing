@@ -3,7 +3,7 @@
     "country_name": "Morocco",
     "slug": "morocco",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Morocco",
-    "retrieved_at": "2026-03-11T17:56:43+00:00",
+    "retrieved_at": "2026-03-13T10:09:14+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -80,47 +80,47 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Idrisid dynasty",
+        "label": "Establishment • Idrisid dynasty",
         "value_html": "<td class=\"infobox-data\">788</td>",
         "value_text": "788"
       },
       {
-        "label": "• ' Alawi dynasty (current dynasty)",
+        "label": "Establishment • ' Alawi dynasty (current dynasty)",
         "value_html": "<td class=\"infobox-data\">1631</td>",
         "value_text": "1631"
       },
       {
-        "label": "• French protectorate",
+        "label": "Establishment • French protectorate",
         "value_html": "<td class=\"infobox-data\">30 March 1912</td>",
         "value_text": "30 March 1912"
       },
       {
-        "label": "• Independence",
+        "label": "Establishment • Independence",
         "value_html": "<td class=\"infobox-data\">2 March 1956</td>",
         "value_text": "2 March 1956"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">446,550 km<sup>2</sup> (172,410 sq mi)<sup class=\"reference\" id=\"cite_ref-10\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">[</span>b<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">57th</a>)</td>",
         "value_text": "446,550 km 2 (172,410 sq mi) [ b ] ( 57th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.056 (250 km<sup>2</sup>)</td>",
         "value_text": "0.056 (250 km 2 )"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\">37,493,183<sup class=\"reference\" id=\"cite_ref-HCPclock_11-0\"><a href=\"#cite_note-HCPclock-11\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">38th</a>)</td>",
         "value_text": "37,493,183 [ 9 ] ( 38th )"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_html": "<td class=\"infobox-data\">36,828,330<sup class=\"reference\" id=\"cite_ref-12\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "36,828,330 [ 10 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">79.0/km<sup>2</sup> (204.6/sq mi)</td>",
         "value_text": "79.0/km 2 (204.6/sq mi)"
       },
@@ -250,39 +250,39 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Idrisid dynasty",
+        "label": "Establishment • Idrisid dynasty",
         "value_text": "788"
       },
       {
-        "label": "• ' Alawi dynasty (current dynasty)",
+        "label": "Establishment • ' Alawi dynasty (current dynasty)",
         "value_text": "1631"
       },
       {
-        "label": "• French protectorate",
+        "label": "Establishment • French protectorate",
         "value_text": "30 March 1912"
       },
       {
-        "label": "• Independence",
+        "label": "Establishment • Independence",
         "value_text": "2 March 1956"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "446,550 km 2 (172,410 sq mi) ( 57th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.056 (250 km 2 )"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "37,493,183 ( 38th )"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_text": "36,828,330"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "79.0/km 2 (204.6/sq mi)"
       },
       {
@@ -583,8 +583,8 @@
         ],
         "numbers": []
       },
-      "idrisid_dynasty": {
-        "raw_label": "• Idrisid dynasty",
+      "establishment_idrisid_dynasty": {
+        "raw_label": "Establishment • Idrisid dynasty",
         "text": "788",
         "tokens": [
           "788"
@@ -593,8 +593,8 @@
           788
         ]
       },
-      "alawi_dynasty_current_dynasty": {
-        "raw_label": "• ' Alawi dynasty (current dynasty)",
+      "establishment_alawi_dynasty_current_dynasty": {
+        "raw_label": "Establishment • ' Alawi dynasty (current dynasty)",
         "text": "1631",
         "tokens": [
           "1631"
@@ -603,8 +603,8 @@
           1631
         ]
       },
-      "french_protectorate": {
-        "raw_label": "• French protectorate",
+      "establishment_french_protectorate": {
+        "raw_label": "Establishment • French protectorate",
         "text": "30 March 1912",
         "tokens": [
           "30",
@@ -616,8 +616,8 @@
           1912
         ]
       },
-      "independence": {
-        "raw_label": "• Independence",
+      "establishment_independence": {
+        "raw_label": "Establishment • Independence",
         "text": "2 March 1956",
         "tokens": [
           "2",
@@ -629,22 +629,29 @@
           1956
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$165.840 billion ( 58th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "446,550 km 2 (172,410 sq mi) ( 57th )",
         "tokens": [
-          "165",
-          "840",
-          "billion",
-          "58th"
+          "446",
+          "550",
+          "km",
+          "2",
+          "172",
+          "410",
+          "sq",
+          "mi",
+          "57th"
         ],
         "numbers": [
-          165.84,
-          58
+          446550,
+          2,
+          172410,
+          57
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.056 (250 km 2 )",
         "tokens": [
           "0",
@@ -659,8 +666,8 @@
           2
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "37,493,183 ( 38th )",
         "tokens": [
           "37",
@@ -673,8 +680,8 @@
           38
         ]
       },
-      "2024_census": {
-        "raw_label": "• 2024 census",
+      "population_2024_census": {
+        "raw_label": "Population • 2024 census",
         "text": "36,828,330",
         "tokens": [
           "36",
@@ -685,8 +692,8 @@
           36828330
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "79.0/km 2 (204.6/sq mi)",
         "tokens": [
           "79",
@@ -713,6 +720,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$165.840 billion ( 58th )",
+        "tokens": [
+          "165",
+          "840",
+          "billion",
+          "58th"
+        ],
+        "numbers": [
+          165.84,
+          58
         ]
       },
       "per_capita": {
@@ -818,6 +839,55 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Morocco",
+      "capital": "Rabat",
+      "largest_city": "Casablanca",
+      "coordinates": {
+        "latitude": "34°02′N",
+        "longitude": "6°51′W"
+      },
+      "government": {
+        "type": "Unitary parliamentary semi-constitutional monarchy",
+        "head_of_state": "Mohammed VI",
+        "head_of_government": "Aziz Akhannouch"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 446550,
+        "water_percent": 0.056
+      },
+      "population": {
+        "year": 2024,
+        "total": 37493183,
+        "rank": 38,
+        "density_per_km2": 79.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.71,
+          "rank": 120
+        },
+        "gini": {
+          "year": 2015,
+          "value": 40.3
+        }
+      },
+      "currency": {
+        "name": "Moroccan dirham",
+        "code": "MAD"
+      },
+      "calling_code": "212",
+      "iso_3166_code": "MA",
+      "internet_tld": ".ma .المغرب",
+      "time_zone": "UTC+1",
+      "demonym": "Moroccan"
     }
   }
 }

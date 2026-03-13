@@ -3,7 +3,7 @@
     "country_name": "Singapore",
     "slug": "singapore",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Singapore",
-    "retrieved_at": "2026-03-11T17:57:44+00:00",
+    "retrieved_at": "2026-03-13T10:10:14+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,37 +65,37 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• Self-governance",
+        "label": "Independence from the United Kingdom and Malaysia • Self-governance",
         "value_html": "<td class=\"infobox-data\">3 June 1959</td>",
         "value_text": "3 June 1959"
       },
       {
-        "label": "• Malaysia Agreement",
+        "label": "Independence from the United Kingdom and Malaysia • Malaysia Agreement",
         "value_html": "<td class=\"infobox-data\">16 September 1963</td>",
         "value_text": "16 September 1963"
       },
       {
-        "label": "• Proclamation of Singapore",
+        "label": "Independence from the United Kingdom and Malaysia • Proclamation of Singapore",
         "value_html": "<td class=\"infobox-data\">9 August 1965</td>",
         "value_text": "9 August 1965"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">744.3 km<sup>2</sup> (287.4 sq mi)<sup class=\"reference\" id=\"cite_ref-total_area_of_Singapore_7-0\"><a href=\"#cite_note-total_area_of_Singapore-7\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">176th</a>)</td>",
         "value_text": "744.3 km 2 (287.4 sq mi) [ 4 ] ( 176th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.43%</td>",
         "value_text": "1.43%"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 6,110,200<sup class=\"reference\" id=\"cite_ref-9\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>d<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">111th</a>)</td>",
         "value_text": "6,110,200 [ d ] ( 111th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">8,290/km<sup>2</sup> (21,471.0/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">3rd</a>)</td>",
         "value_text": "8,290/km 2 (21,471.0/sq mi) ( 3rd )"
       },
@@ -218,31 +218,31 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• Self-governance",
+        "label": "Independence from the United Kingdom and Malaysia • Self-governance",
         "value_text": "3 June 1959"
       },
       {
-        "label": "• Malaysia Agreement",
+        "label": "Independence from the United Kingdom and Malaysia • Malaysia Agreement",
         "value_text": "16 September 1963"
       },
       {
-        "label": "• Proclamation of Singapore",
+        "label": "Independence from the United Kingdom and Malaysia • Proclamation of Singapore",
         "value_text": "9 August 1965"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "744.3 km 2 (287.4 sq mi) ( 176th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.43%"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "6,110,200 ( 111th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "8,290/km 2 (21,471.0/sq mi) ( 3rd )"
       },
       {
@@ -476,8 +476,8 @@
         ],
         "numbers": []
       },
-      "self_governance": {
-        "raw_label": "• Self-governance",
+      "independence_from_the_united_kingdom_and_malaysia_self_governance": {
+        "raw_label": "Independence from the United Kingdom and Malaysia • Self-governance",
         "text": "3 June 1959",
         "tokens": [
           "3",
@@ -489,8 +489,8 @@
           1959
         ]
       },
-      "malaysia_agreement": {
-        "raw_label": "• Malaysia Agreement",
+      "independence_from_the_united_kingdom_and_malaysia_malaysia_agreement": {
+        "raw_label": "Independence from the United Kingdom and Malaysia • Malaysia Agreement",
         "text": "16 September 1963",
         "tokens": [
           "16",
@@ -502,8 +502,8 @@
           1963
         ]
       },
-      "proclamation_of_singapore": {
-        "raw_label": "• Proclamation of Singapore",
+      "independence_from_the_united_kingdom_and_malaysia_proclamation_of_singapore": {
+        "raw_label": "Independence from the United Kingdom and Malaysia • Proclamation of Singapore",
         "text": "9 August 1965",
         "tokens": [
           "9",
@@ -515,22 +515,29 @@
           1965
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$564.700 billion ( 27th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "744.3 km 2 (287.4 sq mi) ( 176th )",
         "tokens": [
-          "564",
-          "700",
-          "billion",
-          "27th"
+          "744",
+          "3",
+          "km",
+          "2",
+          "287",
+          "4",
+          "sq",
+          "mi",
+          "176th"
         ],
         "numbers": [
-          564.7,
-          27
+          744.3,
+          2,
+          287.4,
+          176
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.43%",
         "tokens": [
           "1",
@@ -540,8 +547,8 @@
           1.43
         ]
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "6,110,200 ( 111th )",
         "tokens": [
           "6",
@@ -554,8 +561,8 @@
           111
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "8,290/km 2 (21,471.0/sq mi) ( 3rd )",
         "tokens": [
           "8",
@@ -585,6 +592,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$564.700 billion ( 27th )",
+        "tokens": [
+          "564",
+          "700",
+          "billion",
+          "27th"
+        ],
+        "numbers": [
+          564.7,
+          27
         ]
       },
       "per_capita": {
@@ -699,6 +720,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Singapore",
+      "capital": "Singapore ( city-state )",
+      "largest_city": "Singapore ( city-state )",
+      "coordinates": {
+        "latitude": "1°17′N",
+        "longitude": "103°50′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary republic",
+        "head_of_state": "Tharman Shanmugaratnam",
+        "head_of_government": "Lawrence Wong"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 744,
+        "water_percent": 1.43
+      },
+      "population": {
+        "year": 2025,
+        "total": 6110200,
+        "rank": 111,
+        "density_per_km2": 8290.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.946,
+          "rank": 13
+        },
+        "gini": {
+          "year": 2023,
+          "value": 43.3
+        }
+      },
+      "currency": {
+        "name": "Singapore dollar"
+      },
+      "calling_code": "65",
+      "iso_3166_code": "SG",
+      "internet_tld": ".sg",
+      "time_zone": "UTC+8",
+      "demonym": "Singaporean"
     }
   }
 }

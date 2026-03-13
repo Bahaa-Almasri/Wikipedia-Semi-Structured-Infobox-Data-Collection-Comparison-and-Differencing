@@ -3,7 +3,7 @@
     "country_name": "Grenada",
     "slug": "grenada",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Grenada",
-    "retrieved_at": "2026-03-11T17:55:35+00:00",
+    "retrieved_at": "2026-03-13T10:08:08+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,42 +70,42 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Associated State",
+        "label": "Formation • Associated State",
         "value_html": "<td class=\"infobox-data\">3 March 1967</td>",
         "value_text": "3 March 1967"
       },
       {
-        "label": "• Independence from the United Kingdom",
+        "label": "Formation • Independence from the United Kingdom",
         "value_html": "<td class=\"infobox-data\">7 February 1974</td>",
         "value_text": "7 February 1974"
       },
       {
-        "label": "• Grenadian Revolution",
+        "label": "Formation • Grenadian Revolution",
         "value_html": "<td class=\"infobox-data\">13 March 1979</td>",
         "value_text": "13 March 1979"
       },
       {
-        "label": "• Constitution Restoration",
+        "label": "Formation • Constitution Restoration",
         "value_html": "<td class=\"infobox-data\">4 December 1984</td>",
         "value_text": "4 December 1984"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">344<sup class=\"reference\" id=\"cite_ref-CIA_World_Factbook_-_Grenada_8-0\"><a href=\"#cite_note-CIA_World_Factbook_-_Grenada-8\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (133 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">185th</a>)</td>",
         "value_text": "344 [ 7 ] km 2 (133 sq mi) ( 185th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.6</td>",
         "value_text": "1.6"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\">114,621<sup class=\"reference\" id=\"cite_ref-CIA_World_Factbook_-_Grenada_8-1\"><a href=\"#cite_note-CIA_World_Factbook_-_Grenada-8\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">180th</a>)</td>",
         "value_text": "114,621 [ 7 ] ( 180th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">333/km<sup>2</sup> (862.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">38th</a>)</td>",
         "value_text": "333/km 2 (862.5/sq mi) ( 38th )"
       },
@@ -232,35 +232,35 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Associated State",
+        "label": "Formation • Associated State",
         "value_text": "3 March 1967"
       },
       {
-        "label": "• Independence from the United Kingdom",
+        "label": "Formation • Independence from the United Kingdom",
         "value_text": "7 February 1974"
       },
       {
-        "label": "• Grenadian Revolution",
+        "label": "Formation • Grenadian Revolution",
         "value_text": "13 March 1979"
       },
       {
-        "label": "• Constitution Restoration",
+        "label": "Formation • Constitution Restoration",
         "value_text": "4 December 1984"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "344 km 2 (133 sq mi) ( 185th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.6"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "114,621 ( 180th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "333/km 2 (862.5/sq mi) ( 38th )"
       },
       {
@@ -518,8 +518,8 @@
         ],
         "numbers": []
       },
-      "associated_state": {
-        "raw_label": "• Associated State",
+      "formation_associated_state": {
+        "raw_label": "Formation • Associated State",
         "text": "3 March 1967",
         "tokens": [
           "3",
@@ -531,8 +531,8 @@
           1967
         ]
       },
-      "independence_from_the_united_kingdom": {
-        "raw_label": "• Independence from the United Kingdom",
+      "formation_independence_from_the_united_kingdom": {
+        "raw_label": "Formation • Independence from the United Kingdom",
         "text": "7 February 1974",
         "tokens": [
           "7",
@@ -544,8 +544,8 @@
           1974
         ]
       },
-      "grenadian_revolution": {
-        "raw_label": "• Grenadian Revolution",
+      "formation_grenadian_revolution": {
+        "raw_label": "Formation • Grenadian Revolution",
         "text": "13 March 1979",
         "tokens": [
           "13",
@@ -557,8 +557,8 @@
           1979
         ]
       },
-      "constitution_restoration": {
-        "raw_label": "• Constitution Restoration",
+      "formation_constitution_restoration": {
+        "raw_label": "Formation • Constitution Restoration",
         "text": "4 December 1984",
         "tokens": [
           "4",
@@ -570,20 +570,27 @@
           1984
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$1.3 billion",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "344 km 2 (133 sq mi) ( 185th )",
         "tokens": [
-          "1",
-          "3",
-          "billion"
+          "344",
+          "km",
+          "2",
+          "133",
+          "sq",
+          "mi",
+          "185th"
         ],
         "numbers": [
-          1.3
+          344,
+          2,
+          133,
+          185
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.6",
         "tokens": [
           "1",
@@ -593,8 +600,8 @@
           1.6
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "114,621 ( 180th )",
         "tokens": [
           "114",
@@ -606,8 +613,8 @@
           180
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "333/km 2 (862.5/sq mi) ( 38th )",
         "tokens": [
           "333",
@@ -635,6 +642,18 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$1.3 billion",
+        "tokens": [
+          "1",
+          "3",
+          "billion"
+        ],
+        "numbers": [
+          1.3
         ]
       },
       "per_capita": {
@@ -745,6 +764,51 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Grenada",
+      "capital": "St. George's",
+      "largest_city": "St. George's",
+      "government": {
+        "type": "Unitary parliamentary constitutional monarchy",
+        "head_of_state": "Charles III",
+        "head_of_government": "Dickon Mitchell"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 344,
+        "water_percent": 1.6
+      },
+      "population": {
+        "year": 2024,
+        "total": 114621,
+        "rank": 180,
+        "density_per_km2": 333.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.791,
+          "rank": 80
+        },
+        "gini": {
+          "year": 2018,
+          "value": 43.8
+        }
+      },
+      "currency": {
+        "name": "Eastern Caribbean dollar",
+        "code": "XCD"
+      },
+      "calling_code": "1",
+      "iso_3166_code": "GD",
+      "internet_tld": ".gd",
+      "time_zone": "UTC −4 ( AST )",
+      "demonym": "Grenadian"
     }
   }
 }

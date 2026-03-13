@@ -3,7 +3,7 @@
     "country_name": "Senegal",
     "slug": "senegal",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Senegal",
-    "retrieved_at": "2026-03-11T17:57:36+00:00",
+    "retrieved_at": "2026-03-13T10:10:07+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,42 +65,42 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Republic established",
+        "label": "Independence • Republic established",
         "value_html": "<td class=\"infobox-data\">25 November 1958</td>",
         "value_text": "25 November 1958"
       },
       {
-        "label": "• Independence from France",
+        "label": "Independence • Independence from France",
         "value_html": "<td class=\"infobox-data\">20 June 1960</td>",
         "value_text": "20 June 1960"
       },
       {
-        "label": "• Withdrawal from the Mali Federation",
+        "label": "Independence • Withdrawal from the Mali Federation",
         "value_html": "<td class=\"infobox-data\">20 August 1960</td>",
         "value_text": "20 August 1960"
       },
       {
-        "label": "• Dissolution of the Senegambia Confederation",
+        "label": "Independence • Dissolution of the Senegambia Confederation",
         "value_html": "<td class=\"infobox-data\">30 September 1989</td>",
         "value_text": "30 September 1989"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">196,722<sup class=\"reference\" id=\"cite_ref-CIA_Factbook_7-2\"><a href=\"#cite_note-CIA_Factbook-7\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (75,955 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">86th</a>)</td>",
         "value_text": "196,722 [ 5 ] km 2 (75,955 sq mi) ( 86th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.1</td>",
         "value_text": "2.1"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Increase\"><img alt=\"Increase\" class=\"mw-file-element\" data-file-height=\"300\" data-file-width=\"300\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/20px-Increase2.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/40px-Increase2.svg.png 2x\" width=\"11\"/></span></span> 18,847,519<sup class=\"reference\" id=\"cite_ref-CIA_Factbook_7-3\"><a href=\"#cite_note-CIA_Factbook-7\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">68th</a>)</td>",
         "value_text": "18,847,519 [ 5 ] ( 68th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">96/km<sup>2</sup> (248.6/sq mi)</td>",
         "value_text": "96/km 2 (248.6/sq mi)"
       },
@@ -218,35 +218,35 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Republic established",
+        "label": "Independence • Republic established",
         "value_text": "25 November 1958"
       },
       {
-        "label": "• Independence from France",
+        "label": "Independence • Independence from France",
         "value_text": "20 June 1960"
       },
       {
-        "label": "• Withdrawal from the Mali Federation",
+        "label": "Independence • Withdrawal from the Mali Federation",
         "value_text": "20 August 1960"
       },
       {
-        "label": "• Dissolution of the Senegambia Confederation",
+        "label": "Independence • Dissolution of the Senegambia Confederation",
         "value_text": "30 September 1989"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "196,722 km 2 (75,955 sq mi) ( 86th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.1"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "18,847,519 ( 68th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "96/km 2 (248.6/sq mi)"
       },
       {
@@ -470,8 +470,8 @@
         ],
         "numbers": []
       },
-      "republic_established": {
-        "raw_label": "• Republic established",
+      "independence_republic_established": {
+        "raw_label": "Independence • Republic established",
         "text": "25 November 1958",
         "tokens": [
           "25",
@@ -483,8 +483,8 @@
           1958
         ]
       },
-      "independence_from_france": {
-        "raw_label": "• Independence from France",
+      "independence_independence_from_france": {
+        "raw_label": "Independence • Independence from France",
         "text": "20 June 1960",
         "tokens": [
           "20",
@@ -496,8 +496,8 @@
           1960
         ]
       },
-      "withdrawal_from_the_mali_federation": {
-        "raw_label": "• Withdrawal from the Mali Federation",
+      "independence_withdrawal_from_the_mali_federation": {
+        "raw_label": "Independence • Withdrawal from the Mali Federation",
         "text": "20 August 1960",
         "tokens": [
           "20",
@@ -509,8 +509,8 @@
           1960
         ]
       },
-      "dissolution_of_the_senegambia_confederation": {
-        "raw_label": "• Dissolution of the Senegambia Confederation",
+      "independence_dissolution_of_the_senegambia_confederation": {
+        "raw_label": "Independence • Dissolution of the Senegambia Confederation",
         "text": "30 September 1989",
         "tokens": [
           "30",
@@ -522,22 +522,29 @@
           1989
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$34.728 billion ( 103rd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "196,722 km 2 (75,955 sq mi) ( 86th )",
         "tokens": [
-          "34",
-          "728",
-          "billion",
-          "103rd"
+          "196",
+          "722",
+          "km",
+          "2",
+          "75",
+          "955",
+          "sq",
+          "mi",
+          "86th"
         ],
         "numbers": [
-          34.728,
-          103
+          196722,
+          2,
+          75955,
+          86
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.1",
         "tokens": [
           "2",
@@ -547,8 +554,8 @@
           2.1
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "18,847,519 ( 68th )",
         "tokens": [
           "18",
@@ -561,8 +568,8 @@
           68
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "96/km 2 (248.6/sq mi)",
         "tokens": [
           "96",
@@ -588,6 +595,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$34.728 billion ( 103rd )",
+        "tokens": [
+          "34",
+          "728",
+          "billion",
+          "103rd"
+        ],
+        "numbers": [
+          34.728,
+          103
         ]
       },
       "per_capita": {
@@ -693,6 +714,55 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Senegal",
+      "capital": "Dakar",
+      "largest_city": "Dakar",
+      "coordinates": {
+        "latitude": "14°40′N",
+        "longitude": "17°25′W"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Bassirou Diomaye Faye",
+        "head_of_government": "Ousmane Sonko"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 196722,
+        "water_percent": 2.1
+      },
+      "population": {
+        "year": 2024,
+        "total": 18847519,
+        "rank": 68,
+        "density_per_km2": 96.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.53,
+          "rank": 169
+        },
+        "gini": {
+          "year": 2011,
+          "value": 40.3
+        }
+      },
+      "currency": {
+        "name": "West African CFA franc",
+        "code": "XOF"
+      },
+      "calling_code": "221",
+      "iso_3166_code": "SN",
+      "internet_tld": ".sn",
+      "time_zone": "UTC ±00:00 ( GMT )",
+      "demonym": "Senegalese"
     }
   }
 }

@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-11T17:56:59+00:00",
+          "value": "2026-03-13T10:09:27+00:00",
           "children": []
         },
         {
@@ -38,867 +38,129 @@
       "value": null,
       "children": [
         {
-          "label": "2021_census",
+          "label": "area",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1836713",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 2021 census",
+              "label": "total_km2",
+              "value": "25436",
               "children": []
             },
             {
-              "label": "text",
-              "value": "1,836,713",
+              "label": "water_percent",
+              "value": "1.1",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "836",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "713",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "calling_code",
+          "value": "389",
+          "children": []
+        },
+        {
+          "label": "capital",
+          "value": "Skopje",
+          "children": []
+        },
+        {
+          "label": "coordinates",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "389",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Calling code",
+              "label": "latitude",
+              "value": "42°0′N",
               "children": []
             },
             {
-              "label": "text",
-              "value": "+389",
+              "label": "longitude",
+              "value": "21°26′E",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "389",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
-          "label": "capital_and_largest_city",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "42",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "21",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "26",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "42.0",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "21.433",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "42.0",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "21.433",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Capital and largest city",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Skopje 42°0′N 21°26′E ﻿ / ﻿ 42.000°N 21.433°E ﻿ / 42.000; 21.433",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Skopje",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "42",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "21",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "26",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "E",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "42",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "000",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "21",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "433",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "E",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "42",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "000",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "21",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "433",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "chairman_of_the_assembly",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Chairman of the Assembly",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Afrim Gashi",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Afrim",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Gashi",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "country_name",
+          "value": "North Macedonia",
+          "children": []
         },
         {
           "label": "currency",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "code",
+              "value": "MKD",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Currency",
+              "label": "name",
+              "value": "Macedonian denar",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "Macedonian denar ( MKD )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Macedonian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "denar",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "MKD",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "demonym",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Demonym",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Macedonian",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Macedonian",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "Macedonian",
+          "children": []
         },
         {
-          "label": "density",
+          "label": "development",
           "value": null,
           "children": [
             {
-              "label": "numbers",
+              "label": "gini",
               "value": null,
               "children": [
                 {
-                  "label": "numbers_item",
-                  "value": "71.43",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "185.0",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "122",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Density",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "71.43/km 2 (185.0/sq mi) ( 122nd )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "71",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "43",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "km",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "185",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sq",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "122nd",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "ethnic_groups_2021",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "58.4",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "24.3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "3.9",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2.5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1.3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0.9",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0.5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1.0",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "7.2",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Ethnic groups ( 2021 )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "58.4% Macedonians 24.3% Albanians 3.9% Turks 2.5% Roma 1.3% Serbs 0.9% Bosniaks 0.5% Aromanians (including Megleno-Romanians ) 1.0% other (including undeclared and unknown) 7.2% persons for whom data are taken from administrative sources",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "58",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Macedonians",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "24",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Albanians",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Turks",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Roma",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Serbs",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bosniaks",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Aromanians",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "including",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Megleno",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Romanians",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "including",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "undeclared",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "and",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "unknown",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "persons",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "for",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "whom",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "data",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "are",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "taken",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "from",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "administrative",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sources",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_nominal",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP (nominal)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_ppp",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP ( PPP )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gini_2022",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
+                  "label": "value",
                   "value": "29.8",
                   "children": []
+                },
+                {
+                  "label": "year",
+                  "value": "2022",
+                  "children": []
                 }
               ]
             },
             {
-              "label": "raw_label",
-              "value": "Gini (2022)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "29.8 low inequality",
-              "children": []
-            },
-            {
-              "label": "tokens",
+              "label": "hdi",
               "value": null,
               "children": [
                 {
-                  "label": "tokens_item",
-                  "value": "29",
+                  "label": "rank",
+                  "value": "68",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "8",
+                  "label": "value",
+                  "value": "0.815",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "low",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "inequality",
+                  "label": "year",
+                  "value": "2023",
                   "children": []
                 }
               ]
+            }
+          ]
+        },
+        {
+          "label": "economy",
+          "value": null,
+          "children": [
+            {
+              "label": "gdp_nominal_year",
+              "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_year",
+              "value": "2025",
+              "children": []
             }
           ]
         },
@@ -907,928 +169,67 @@
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "head_of_government",
+              "value": "Hristijan Mickoski",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Government",
+              "label": "head_of_state",
+              "value": "Gordana Siljanovska-Davkova",
               "children": []
             },
             {
-              "label": "text",
+              "label": "type",
               "value": "Unitary parliamentary republic",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Unitary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "parliamentary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "republic",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "hdi_2023",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0.815",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "68",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "HDI (2023)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "0.815 very high ( 68th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "815",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "very",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "high",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "68th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "independence_referendum",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1991",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Independence referendum",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "8 September 1991",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "September",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1991",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "internet_tld",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Internet TLD",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": ".mk .мкд",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "mk",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": ".mk .мкд",
+          "children": []
         },
         {
           "label": "iso_3166_code",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "ISO 3166 code",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "MK",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "MK",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "MK",
+          "children": []
+        },
+        {
+          "label": "largest_city",
+          "value": "Skopje",
+          "children": []
         },
         {
           "label": "legislature",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Legislature",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Assembly",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Assembly",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "Assembly",
+          "children": []
         },
         {
-          "label": "official_languages",
+          "label": "population",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "density_per_km2",
+              "value": "71.43",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Official languages",
+              "label": "total",
+              "value": "1836713",
               "children": []
             },
             {
-              "label": "text",
-              "value": "Macedonian Albanian",
+              "label": "year",
+              "value": "2021",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Macedonian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Albanian",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "official_regional_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Official regional languages",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Turkish Romani Serbian Bosnian Aromanian",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Turkish",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Romani",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Serbian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bosnian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Aromanian",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "per_capita",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "9882",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "81",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Per capita",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$9,882 ( 81st )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "882",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "81st",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Gordana Siljanovska-Davkova",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Gordana",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Siljanovska",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Davkova",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "prime_minister",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Prime Minister",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Hristijan Mickoski",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Hristijan",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Mickoski",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "religion_2021",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "60.4",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "46.1",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "14.3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "32.2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0.1",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0.1",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "7.2",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Religion ( 2021 )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "60.4% Christianity 46.1% Eastern Orthodoxy 14.3% other Christian 32.2% Islam 0.1% no religion 0.1% other 7.2% data taken from administrative sources",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "60",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Christianity",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "46",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Eastern",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Orthodoxy",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "14",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Christian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "32",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Islam",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "no",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "religion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "data",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "taken",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "from",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "administrative",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sources",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "socialist_republic_of_macedonia",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1944",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Socialist Republic of Macedonia",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2 August 1944",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "August",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1944",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "summer_dst",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Summer ( DST )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC +2 ( CEST )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CEST",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "time_zone",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Time zone",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC +1 ( CET )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CET",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "total",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "17.885",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "137",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Total",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$17.885 billion ( 137th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "17",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "885",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "billion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "137th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "water",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1.1",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Water (%)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "1.1",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "UTC+1",
+          "children": []
         }
       ]
     }

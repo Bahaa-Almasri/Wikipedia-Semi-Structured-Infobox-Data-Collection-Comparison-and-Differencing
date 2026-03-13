@@ -3,7 +3,7 @@
     "country_name": "Gabon",
     "slug": "gabon",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Gabon",
-    "retrieved_at": "2026-03-11T17:55:28+00:00",
+    "retrieved_at": "2026-03-13T10:07:58+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,52 +75,52 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Administrated under the French Congo",
+        "label": "Independence from France • Administrated under the French Congo",
         "value_html": "<td class=\"infobox-data\">1882-1910</td>",
         "value_text": "1882-1910"
       },
       {
-        "label": "• Re-established as French Gabon under the administration of French Equatorial Africa",
+        "label": "Independence from France • Re-established as French Gabon under the administration of French Equatorial Africa",
         "value_html": "<td class=\"infobox-data\">1910-1958</td>",
         "value_text": "1910-1958"
       },
       {
-        "label": "• Republic established",
+        "label": "Independence from France • Republic established",
         "value_html": "<td class=\"infobox-data\">28 November 1958</td>",
         "value_text": "28 November 1958"
       },
       {
-        "label": "• Granted",
+        "label": "Independence from France • Granted",
         "value_html": "<td class=\"infobox-data\">17 August 1960</td>",
         "value_text": "17 August 1960"
       },
       {
-        "label": "• 1964 coup d'état",
+        "label": "Independence from France • 1964 coup d'état",
         "value_html": "<td class=\"infobox-data\">17–19 February 1964</td>",
         "value_text": "17–19 February 1964"
       },
       {
-        "label": "• 2023 coup d'état",
+        "label": "Independence from France • 2023 coup d'état",
         "value_html": "<td class=\"infobox-data\">30 August 2023</td>",
         "value_text": "30 August 2023"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">267,668 km<sup>2</sup> (103,347 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">76th</a>)</td>",
         "value_text": "267,668 km 2 (103,347 sq mi) ( 76th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">3.76%</td>",
         "value_text": "3.76%"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 2,397,368<sup class=\"reference\" id=\"cite_ref-2\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">146th</a>)</td>",
         "value_text": "2,397,368 [ 2 ] ( 146th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">7.9/km<sup>2</sup> (20.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">216th</a>)</td>",
         "value_text": "7.9/km 2 (20.5/sq mi) ( 216th )"
       },
@@ -246,43 +246,43 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Administrated under the French Congo",
+        "label": "Independence from France • Administrated under the French Congo",
         "value_text": "1882-1910"
       },
       {
-        "label": "• Re-established as French Gabon under the administration of French Equatorial Africa",
+        "label": "Independence from France • Re-established as French Gabon under the administration of French Equatorial Africa",
         "value_text": "1910-1958"
       },
       {
-        "label": "• Republic established",
+        "label": "Independence from France • Republic established",
         "value_text": "28 November 1958"
       },
       {
-        "label": "• Granted",
+        "label": "Independence from France • Granted",
         "value_text": "17 August 1960"
       },
       {
-        "label": "• 1964 coup d'état",
+        "label": "Independence from France • 1964 coup d'état",
         "value_text": "17–19 February 1964"
       },
       {
-        "label": "• 2023 coup d'état",
+        "label": "Independence from France • 2023 coup d'état",
         "value_text": "30 August 2023"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "267,668 km 2 (103,347 sq mi) ( 76th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "3.76%"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "2,397,368 ( 146th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "7.9/km 2 (20.5/sq mi) ( 216th )"
       },
       {
@@ -524,8 +524,8 @@
         ],
         "numbers": []
       },
-      "administrated_under_the_french_congo": {
-        "raw_label": "• Administrated under the French Congo",
+      "independence_from_france_administrated_under_the_french_congo": {
+        "raw_label": "Independence from France • Administrated under the French Congo",
         "text": "1882-1910",
         "tokens": [
           "1882",
@@ -536,8 +536,8 @@
           -1910
         ]
       },
-      "re_established_as_french_gabon_under_the_administration_of_french_equatorial_africa": {
-        "raw_label": "• Re-established as French Gabon under the administration of French Equatorial Africa",
+      "independence_from_france_re_established_as_french_gabon_under_the_administration_of_french_equatorial_africa": {
+        "raw_label": "Independence from France • Re-established as French Gabon under the administration of French Equatorial Africa",
         "text": "1910-1958",
         "tokens": [
           "1910",
@@ -548,8 +548,8 @@
           -1958
         ]
       },
-      "republic_established": {
-        "raw_label": "• Republic established",
+      "independence_from_france_republic_established": {
+        "raw_label": "Independence from France • Republic established",
         "text": "28 November 1958",
         "tokens": [
           "28",
@@ -561,8 +561,8 @@
           1958
         ]
       },
-      "granted": {
-        "raw_label": "• Granted",
+      "independence_from_france_granted": {
+        "raw_label": "Independence from France • Granted",
         "text": "17 August 1960",
         "tokens": [
           "17",
@@ -574,8 +574,8 @@
           1960
         ]
       },
-      "1964_coup_d_tat": {
-        "raw_label": "• 1964 coup d'état",
+      "independence_from_france_1964_coup_d_tat": {
+        "raw_label": "Independence from France • 1964 coup d'état",
         "text": "17–19 February 1964",
         "tokens": [
           "17",
@@ -589,8 +589,8 @@
           1964
         ]
       },
-      "2023_coup_d_tat": {
-        "raw_label": "• 2023 coup d'état",
+      "independence_from_france_2023_coup_d_tat": {
+        "raw_label": "Independence from France • 2023 coup d'état",
         "text": "30 August 2023",
         "tokens": [
           "30",
@@ -602,22 +602,29 @@
           2023
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$21.455 billion ( 131st )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "267,668 km 2 (103,347 sq mi) ( 76th )",
         "tokens": [
-          "21",
-          "455",
-          "billion",
-          "131st"
+          "267",
+          "668",
+          "km",
+          "2",
+          "103",
+          "347",
+          "sq",
+          "mi",
+          "76th"
         ],
         "numbers": [
-          21.455,
-          131
+          267668,
+          2,
+          103347,
+          76
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "3.76%",
         "tokens": [
           "3",
@@ -627,8 +634,8 @@
           3.76
         ]
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "2,397,368 ( 146th )",
         "tokens": [
           "2",
@@ -641,8 +648,8 @@
           146
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "7.9/km 2 (20.5/sq mi) ( 216th )",
         "tokens": [
           "7",
@@ -671,6 +678,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$21.455 billion ( 131st )",
+        "tokens": [
+          "21",
+          "455",
+          "billion",
+          "131st"
+        ],
+        "numbers": [
+          21.455,
+          131
         ]
       },
       "per_capita": {
@@ -773,6 +794,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Gabon",
+      "capital": "Libreville",
+      "largest_city": "Libreville",
+      "coordinates": {
+        "latitude": "0°23′N",
+        "longitude": "9°27′E"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Brice Oligui Nguema"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 267668,
+        "water_percent": 3.76
+      },
+      "population": {
+        "year": 2023,
+        "total": 2397368,
+        "rank": 146,
+        "density_per_km2": 7.9
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.733,
+          "rank": 108
+        },
+        "gini": {
+          "year": 2017,
+          "value": 38
+        }
+      },
+      "currency": {
+        "name": "Central African CFA franc",
+        "code": "XAF"
+      },
+      "calling_code": "241",
+      "iso_3166_code": "GA",
+      "internet_tld": ".ga",
+      "time_zone": "UTC+1"
     }
   }
 }

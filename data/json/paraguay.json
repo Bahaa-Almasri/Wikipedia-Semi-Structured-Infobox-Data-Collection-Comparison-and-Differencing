@@ -3,7 +3,7 @@
     "country_name": "Paraguay",
     "slug": "paraguay",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Paraguay",
-    "retrieved_at": "2026-03-11T17:57:11+00:00",
+    "retrieved_at": "2026-03-13T10:09:38+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,42 +75,42 @@
         "value_text": "Chamber of Deputies"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from Spain • Declared",
         "value_html": "<td class=\"infobox-data\">14 May 1811</td>",
         "value_text": "14 May 1811"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from Spain • Recognized",
         "value_html": "<td class=\"infobox-data\">25 November 1842</td>",
         "value_text": "25 November 1842"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from Spain • Current constitution",
         "value_html": "<td class=\"infobox-data\">20 June 1992</td>",
         "value_text": "20 June 1992"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">406,752 km<sup>2</sup> (157,048 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">59th</a>)</td>",
         "value_text": "406,752 km 2 (157,048 sq mi) ( 59th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.6</td>",
         "value_text": "2.6"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 6,413,627<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">113th</a>)</td>",
         "value_text": "6,413,627 [ 4 ] ( 113th )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_html": "<td class=\"infobox-data\">6,109,903<sup class=\"reference\" id=\"cite_ref-population_7-0\"><a href=\"#cite_note-population-7\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "6,109,903 [ 5 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">39/sq mi (15.1/km<sup>2</sup>) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">223rd</a>)</td>",
         "value_text": "39/sq mi (15.1/km 2 ) ( 223rd )"
       },
@@ -241,35 +241,35 @@
         "value_text": "Chamber of Deputies"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from Spain • Declared",
         "value_text": "14 May 1811"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from Spain • Recognized",
         "value_text": "25 November 1842"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from Spain • Current constitution",
         "value_text": "20 June 1992"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "406,752 km 2 (157,048 sq mi) ( 59th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.6"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "6,413,627 ( 113th )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_text": "6,109,903"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "39/sq mi (15.1/km 2 ) ( 223rd )"
       },
       {
@@ -496,8 +496,8 @@
         ],
         "numbers": []
       },
-      "declared": {
-        "raw_label": "• Declared",
+      "independence_from_spain_declared": {
+        "raw_label": "Independence from Spain • Declared",
         "text": "14 May 1811",
         "tokens": [
           "14",
@@ -509,8 +509,8 @@
           1811
         ]
       },
-      "recognized": {
-        "raw_label": "• Recognized",
+      "independence_from_spain_recognized": {
+        "raw_label": "Independence from Spain • Recognized",
         "text": "25 November 1842",
         "tokens": [
           "25",
@@ -522,8 +522,8 @@
           1842
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_spain_current_constitution": {
+        "raw_label": "Independence from Spain • Current constitution",
         "text": "20 June 1992",
         "tokens": [
           "20",
@@ -535,22 +535,29 @@
           1992
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$51.670 billion ( 99th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "406,752 km 2 (157,048 sq mi) ( 59th )",
         "tokens": [
-          "51",
-          "670",
-          "billion",
-          "99th"
+          "406",
+          "752",
+          "km",
+          "2",
+          "157",
+          "048",
+          "sq",
+          "mi",
+          "59th"
         ],
         "numbers": [
-          51.67,
-          99
+          406752,
+          2,
+          157048,
+          59
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.6",
         "tokens": [
           "2",
@@ -560,8 +567,8 @@
           2.6
         ]
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "6,413,627 ( 113th )",
         "tokens": [
           "6",
@@ -574,8 +581,8 @@
           113
         ]
       },
-      "2022_census": {
-        "raw_label": "• 2022 census",
+      "population_2022_census": {
+        "raw_label": "Population • 2022 census",
         "text": "6,109,903",
         "tokens": [
           "6",
@@ -586,8 +593,8 @@
           6109903
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "39/sq mi (15.1/km 2 ) ( 223rd )",
         "tokens": [
           "39",
@@ -615,6 +622,20 @@
         ],
         "numbers": [
           2026
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$51.670 billion ( 99th )",
+        "tokens": [
+          "51",
+          "670",
+          "billion",
+          "99th"
+        ],
+        "numbers": [
+          51.67,
+          99
         ]
       },
       "per_capita": {
@@ -727,6 +748,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Paraguay",
+      "capital": "Asunción",
+      "largest_city": "Asunción",
+      "coordinates": {
+        "latitude": "25°16′S",
+        "longitude": "57°40′W"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Santiago Peña"
+      },
+      "legislature": "Congress",
+      "area": {
+        "total_km2": 406752,
+        "water_percent": 2.6
+      },
+      "population": {
+        "year": 2025,
+        "total": 6413627,
+        "rank": 113,
+        "density_per_km2": 39.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2026,
+        "gdp_ppp_year": 2026
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.756,
+          "rank": 99
+        },
+        "gini": {
+          "year": 2023,
+          "value": 44.4
+        }
+      },
+      "currency": {
+        "name": "Guaraní",
+        "code": "PYG"
+      },
+      "calling_code": "595",
+      "iso_3166_code": "PY",
+      "internet_tld": ".py",
+      "time_zone": "UTC –03:00 ( PYT )",
+      "demonym": "Paraguayan"
     }
   }
 }

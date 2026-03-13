@@ -3,7 +3,7 @@
     "country_name": "Spain",
     "slug": "spain",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Spain",
-    "retrieved_at": "2026-03-11T17:57:55+00:00",
+    "retrieved_at": "2026-03-13T10:10:27+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -80,47 +80,47 @@
         "value_text": "Congress of Deputies"
       },
       {
-        "label": "• Dynastic union",
+        "label": "Formation • Dynastic union",
         "value_html": "<td class=\"infobox-data\">20 January 1479</td>",
         "value_text": "20 January 1479"
       },
       {
-        "label": "• Sole sovereign",
+        "label": "Formation • Sole sovereign",
         "value_html": "<td class=\"infobox-data\">14 March 1516</td>",
         "value_text": "14 March 1516"
       },
       {
-        "label": "• Centralised state",
+        "label": "Formation • Centralised state",
         "value_html": "<td class=\"infobox-data\">9 June 1715</td>",
         "value_text": "9 June 1715"
       },
       {
-        "label": "• First constitution",
+        "label": "Formation • First constitution",
         "value_html": "<td class=\"infobox-data\">19 March 1812</td>",
         "value_text": "19 March 1812"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation • Current constitution",
         "value_html": "<td class=\"infobox-data\">29 December 1978</td>",
         "value_text": "29 December 1978"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">506,030<sup class=\"reference\" id=\"cite_ref-14\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (195,380 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">50th</a>)</td>",
         "value_text": "506,030 [ 10 ] km 2 (195,380 sq mi) ( 50th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.89<sup class=\"reference\" id=\"cite_ref-15\"><a href=\"#cite_note-15\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "0.89 [ 11 ]"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 49,570,725<sup class=\"reference\" id=\"cite_ref-ine.es-2_12-1\"><a href=\"#cite_note-ine.es-2-12\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">31st</a>)</td>",
         "value_text": "49,570,725 [ 8 ] ( 31st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">98/km<sup>2</sup> (253.8/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">116th</a>)</td>",
         "value_text": "98/km 2 (253.8/sq mi) ( 116th )"
       },
@@ -260,39 +260,39 @@
         "value_text": "Congress of Deputies"
       },
       {
-        "label": "• Dynastic union",
+        "label": "Formation • Dynastic union",
         "value_text": "20 January 1479"
       },
       {
-        "label": "• Sole sovereign",
+        "label": "Formation • Sole sovereign",
         "value_text": "14 March 1516"
       },
       {
-        "label": "• Centralised state",
+        "label": "Formation • Centralised state",
         "value_text": "9 June 1715"
       },
       {
-        "label": "• First constitution",
+        "label": "Formation • First constitution",
         "value_text": "19 March 1812"
       },
       {
-        "label": "• Current constitution",
+        "label": "Formation • Current constitution",
         "value_text": "29 December 1978"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "506,030 km 2 (195,380 sq mi) ( 50th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.89"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_text": "49,570,725 ( 31st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "98/km 2 (253.8/sq mi) ( 116th )"
       },
       {
@@ -556,8 +556,8 @@
         ],
         "numbers": []
       },
-      "dynastic_union": {
-        "raw_label": "• Dynastic union",
+      "formation_dynastic_union": {
+        "raw_label": "Formation • Dynastic union",
         "text": "20 January 1479",
         "tokens": [
           "20",
@@ -569,8 +569,8 @@
           1479
         ]
       },
-      "sole_sovereign": {
-        "raw_label": "• Sole sovereign",
+      "formation_sole_sovereign": {
+        "raw_label": "Formation • Sole sovereign",
         "text": "14 March 1516",
         "tokens": [
           "14",
@@ -582,8 +582,8 @@
           1516
         ]
       },
-      "centralised_state": {
-        "raw_label": "• Centralised state",
+      "formation_centralised_state": {
+        "raw_label": "Formation • Centralised state",
         "text": "9 June 1715",
         "tokens": [
           "9",
@@ -595,8 +595,8 @@
           1715
         ]
       },
-      "first_constitution": {
-        "raw_label": "• First constitution",
+      "formation_first_constitution": {
+        "raw_label": "Formation • First constitution",
         "text": "19 March 1812",
         "tokens": [
           "19",
@@ -608,8 +608,8 @@
           1812
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "formation_current_constitution": {
+        "raw_label": "Formation • Current constitution",
         "text": "29 December 1978",
         "tokens": [
           "29",
@@ -621,22 +621,29 @@
           1978
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$1.891 trillion ( 12th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "506,030 km 2 (195,380 sq mi) ( 50th )",
         "tokens": [
-          "1",
-          "891",
-          "trillion",
-          "12th"
+          "506",
+          "030",
+          "km",
+          "2",
+          "195",
+          "380",
+          "sq",
+          "mi",
+          "50th"
         ],
         "numbers": [
-          1.891,
-          12
+          506030,
+          2,
+          195380,
+          50
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.89",
         "tokens": [
           "0",
@@ -646,8 +653,8 @@
           0.89
         ]
       },
-      "2026_estimate": {
-        "raw_label": "• 2026 estimate",
+      "population_2026_estimate": {
+        "raw_label": "Population • 2026 estimate",
         "text": "49,570,725 ( 31st )",
         "tokens": [
           "49",
@@ -660,8 +667,8 @@
           31
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "98/km 2 (253.8/sq mi) ( 116th )",
         "tokens": [
           "98",
@@ -689,6 +696,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$1.891 trillion ( 12th )",
+        "tokens": [
+          "1",
+          "891",
+          "trillion",
+          "12th"
+        ],
+        "numbers": [
+          1.891,
+          12
         ]
       },
       "per_capita": {
@@ -822,6 +843,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Spain",
+      "capital": "Madrid",
+      "largest_city": "Madrid",
+      "coordinates": {
+        "latitude": "40°26′N",
+        "longitude": "3°42′W"
+      },
+      "government": {
+        "type": "Unitary parliamentary constitutional monarchy",
+        "head_of_state": "Felipe VI",
+        "head_of_government": "Pedro Sánchez"
+      },
+      "legislature": "Cortes Generales",
+      "area": {
+        "total_km2": 506030,
+        "water_percent": 0.89
+      },
+      "population": {
+        "year": 2026,
+        "total": 49570725,
+        "rank": 31,
+        "density_per_km2": 98.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.918,
+          "rank": 28
+        },
+        "gini": {
+          "year": 2024,
+          "value": 31.2
+        }
+      },
+      "currency": {
+        "name": "Euro"
+      },
+      "calling_code": "34",
+      "iso_3166_code": "ES",
+      "internet_tld": ".es",
+      "time_zone": "UTC ⁠±0 to +1 ( WET and CET )"
     }
   }
 }

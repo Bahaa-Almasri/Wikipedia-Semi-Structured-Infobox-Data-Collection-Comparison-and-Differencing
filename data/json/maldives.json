@@ -3,7 +3,7 @@
     "country_name": "Maldives",
     "slug": "maldives",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Maldives",
-    "retrieved_at": "2026-03-11T17:56:33+00:00",
+    "retrieved_at": "2026-03-13T10:09:00+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,37 +65,37 @@
         "value_text": "People's Majlis"
       },
       {
-        "label": "• Independence declared",
+        "label": "Independence from the United Kingdom • Independence declared",
         "value_html": "<td class=\"infobox-data\">26 July 1965</td>",
         "value_text": "26 July 1965"
       },
       {
-        "label": "• Second Republic",
+        "label": "Independence from the United Kingdom • Second Republic",
         "value_html": "<td class=\"infobox-data\">11 November 1968</td>",
         "value_text": "11 November 1968"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_html": "<td class=\"infobox-data\">7 August 2008</td>",
         "value_text": "7 August 2008"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">298 km<sup>2</sup> (115 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">187th</a>)</td>",
         "value_text": "298 km 2 (115 sq mi) ( 187th )"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 601,269<sup class=\"reference\" id=\"cite_ref-2\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "601,269 [ 2 ]"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 515,132<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">167th</a>)</td>",
         "value_text": "515,132 [ 3 ] ( 167th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">1,728.63/km<sup>2</sup> (4,477.1/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">8th</a>)</td>",
         "value_text": "1,728.63/km 2 (4,477.1/sq mi) ( 8th )"
       },
@@ -218,31 +218,31 @@
         "value_text": "People's Majlis"
       },
       {
-        "label": "• Independence declared",
+        "label": "Independence from the United Kingdom • Independence declared",
         "value_text": "26 July 1965"
       },
       {
-        "label": "• Second Republic",
+        "label": "Independence from the United Kingdom • Second Republic",
         "value_text": "11 November 1968"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_text": "7 August 2008"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "298 km 2 (115 sq mi) ( 187th )"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "601,269"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_text": "515,132 ( 167th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "1,728.63/km 2 (4,477.1/sq mi) ( 8th )"
       },
       {
@@ -435,8 +435,8 @@
         ],
         "numbers": []
       },
-      "independence_declared": {
-        "raw_label": "• Independence declared",
+      "independence_from_the_united_kingdom_independence_declared": {
+        "raw_label": "Independence from the United Kingdom • Independence declared",
         "text": "26 July 1965",
         "tokens": [
           "26",
@@ -448,8 +448,8 @@
           1965
         ]
       },
-      "second_republic": {
-        "raw_label": "• Second Republic",
+      "independence_from_the_united_kingdom_second_republic": {
+        "raw_label": "Independence from the United Kingdom • Second Republic",
         "text": "11 November 1968",
         "tokens": [
           "11",
@@ -461,8 +461,8 @@
           1968
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_the_united_kingdom_current_constitution": {
+        "raw_label": "Independence from the United Kingdom • Current constitution",
         "text": "7 August 2008",
         "tokens": [
           "7",
@@ -474,22 +474,27 @@
           2008
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$6.984 billion ( 161st )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "298 km 2 (115 sq mi) ( 187th )",
         "tokens": [
-          "6",
-          "984",
-          "billion",
-          "161st"
+          "298",
+          "km",
+          "2",
+          "115",
+          "sq",
+          "mi",
+          "187th"
         ],
         "numbers": [
-          6.984,
-          161
+          298,
+          2,
+          115,
+          187
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "601,269",
         "tokens": [
           "601",
@@ -499,8 +504,8 @@
           601269
         ]
       },
-      "2022_census": {
-        "raw_label": "• 2022 census",
+      "population_2022_census": {
+        "raw_label": "Population • 2022 census",
         "text": "515,132 ( 167th )",
         "tokens": [
           "515",
@@ -512,8 +517,8 @@
           167
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "1,728.63/km 2 (4,477.1/sq mi) ( 8th )",
         "tokens": [
           "1",
@@ -544,6 +549,20 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$6.984 billion ( 161st )",
+        "tokens": [
+          "6",
+          "984",
+          "billion",
+          "161st"
+        ],
+        "numbers": [
+          6.984,
+          161
         ]
       },
       "per_capita": {
@@ -655,6 +674,48 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Maldives",
+      "capital": "Malé",
+      "largest_city": "Malé",
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Mohamed Muizzu"
+      },
+      "legislature": "People's Majlis",
+      "area": {
+        "total_km2": 298
+      },
+      "population": {
+        "year": 2024,
+        "total": 601269,
+        "density_per_km2": 1728.63
+      },
+      "economy": {
+        "gdp_nominal_year": 2024,
+        "gdp_ppp_year": 2024
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.766,
+          "rank": 93
+        },
+        "gini": {
+          "year": 2024,
+          "value": 31.3
+        }
+      },
+      "currency": {
+        "name": "Maldivian rufiyaa",
+        "code": "MVR"
+      },
+      "calling_code": "960",
+      "iso_3166_code": "MV",
+      "internet_tld": ".mv",
+      "time_zone": "UTC+5",
+      "demonym": "Maldivian"
     }
   }
 }

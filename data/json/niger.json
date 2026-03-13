@@ -3,7 +3,7 @@
     "country_name": "Niger",
     "slug": "niger",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Niger",
-    "retrieved_at": "2026-03-11T17:56:51+00:00",
+    "retrieved_at": "2026-03-13T10:09:24+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,42 +70,42 @@
         "value_text": "National Council for the Safeguard of the Homeland"
       },
       {
-        "label": "• Republic proclaimed",
+        "label": "Independence from France • Republic proclaimed",
         "value_html": "<td class=\"infobox-data\">18 December 1958</td>",
         "value_text": "18 December 1958"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from France • Declared",
         "value_html": "<td class=\"infobox-data\">3 August 1960</td>",
         "value_text": "3 August 1960"
       },
       {
-        "label": "• 2023 coup d'état",
+        "label": "Independence from France • 2023 coup d'état",
         "value_html": "<td class=\"infobox-data\">26 July 2023</td>",
         "value_text": "26 July 2023"
       },
       {
-        "label": "• 2025 transitional charter",
+        "label": "Independence from France • 2025 transitional charter",
         "value_html": "<td class=\"infobox-data\">26 March 2025<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "26 March 2025 [ 6 ]"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">1,267,000 km<sup>2</sup> (489,000 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">21st</a>)</td>",
         "value_text": "1,267,000 km 2 (489,000 sq mi) ( 21st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.02</td>",
         "value_text": "0.02"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 26,342,784<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">56th</a>)</td>",
         "value_text": "26,342,784 [ 7 ] ( 56th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">21/km<sup>2</sup> (54.4/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">204th</a>)</td>",
         "value_text": "21/km 2 (54.4/sq mi) ( 204th )"
       },
@@ -227,35 +227,35 @@
         "value_text": "National Council for the Safeguard of the Homeland"
       },
       {
-        "label": "• Republic proclaimed",
+        "label": "Independence from France • Republic proclaimed",
         "value_text": "18 December 1958"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from France • Declared",
         "value_text": "3 August 1960"
       },
       {
-        "label": "• 2023 coup d'état",
+        "label": "Independence from France • 2023 coup d'état",
         "value_text": "26 July 2023"
       },
       {
-        "label": "• 2025 transitional charter",
+        "label": "Independence from France • 2025 transitional charter",
         "value_text": "26 March 2025"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "1,267,000 km 2 (489,000 sq mi) ( 21st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.02"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "26,342,784 ( 56th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "21/km 2 (54.4/sq mi) ( 204th )"
       },
       {
@@ -525,8 +525,8 @@
         ],
         "numbers": []
       },
-      "republic_proclaimed": {
-        "raw_label": "• Republic proclaimed",
+      "independence_from_france_republic_proclaimed": {
+        "raw_label": "Independence from France • Republic proclaimed",
         "text": "18 December 1958",
         "tokens": [
           "18",
@@ -538,8 +538,8 @@
           1958
         ]
       },
-      "declared": {
-        "raw_label": "• Declared",
+      "independence_from_france_declared": {
+        "raw_label": "Independence from France • Declared",
         "text": "3 August 1960",
         "tokens": [
           "3",
@@ -551,8 +551,8 @@
           1960
         ]
       },
-      "2023_coup_d_tat": {
-        "raw_label": "• 2023 coup d'état",
+      "independence_from_france_2023_coup_d_tat": {
+        "raw_label": "Independence from France • 2023 coup d'état",
         "text": "26 July 2023",
         "tokens": [
           "26",
@@ -564,8 +564,8 @@
           2023
         ]
       },
-      "2025_transitional_charter": {
-        "raw_label": "• 2025 transitional charter",
+      "independence_from_france_2025_transitional_charter": {
+        "raw_label": "Independence from France • 2025 transitional charter",
         "text": "26 March 2025",
         "tokens": [
           "26",
@@ -577,22 +577,30 @@
           2025
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$21.870 billion ( 123rd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "1,267,000 km 2 (489,000 sq mi) ( 21st )",
         "tokens": [
-          "21",
-          "870",
-          "billion",
-          "123rd"
+          "1",
+          "267",
+          "000",
+          "km",
+          "2",
+          "489",
+          "000",
+          "sq",
+          "mi",
+          "21st"
         ],
         "numbers": [
-          21.87,
-          123
+          1267000,
+          2,
+          489000,
+          21
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.02",
         "tokens": [
           "0",
@@ -602,8 +610,8 @@
           0.02
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "26,342,784 ( 56th )",
         "tokens": [
           "26",
@@ -616,8 +624,8 @@
           56
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "21/km 2 (54.4/sq mi) ( 204th )",
         "tokens": [
           "21",
@@ -645,6 +653,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$21.870 billion ( 123rd )",
+        "tokens": [
+          "21",
+          "870",
+          "billion",
+          "123rd"
+        ],
+        "numbers": [
+          21.87,
+          123
         ]
       },
       "per_capita": {
@@ -747,6 +769,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Niger",
+      "capital": "Niamey",
+      "largest_city": "Niamey",
+      "government": {
+        "type": "Unitary semi-presidential republic under a military junta",
+        "head_of_state": "Abdourahamane Tchiani",
+        "head_of_government": "Ali Lamine Zeine"
+      },
+      "legislature": "National Council for the Safeguard of the Homeland",
+      "area": {
+        "total_km2": 1267000,
+        "water_percent": 0.02
+      },
+      "population": {
+        "year": 2024,
+        "total": 26342784,
+        "rank": 56,
+        "density_per_km2": 21.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.419,
+          "rank": 188
+        },
+        "gini": {
+          "year": 2021,
+          "value": 32.9
+        }
+      },
+      "currency": {
+        "name": "West African CFA franc",
+        "code": "XOF"
+      },
+      "calling_code": "227",
+      "iso_3166_code": "NE",
+      "internet_tld": ".ne",
+      "time_zone": "UTC+1"
     }
   }
 }

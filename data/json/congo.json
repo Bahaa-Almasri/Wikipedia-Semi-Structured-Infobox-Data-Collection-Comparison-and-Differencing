@@ -3,7 +3,7 @@
     "country_name": "Congo",
     "slug": "congo",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Republic_of_the_Congo",
-    "retrieved_at": "2026-03-11T17:53:40+00:00",
+    "retrieved_at": "2026-03-13T10:07:29+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -80,37 +80,37 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Republic established",
+        "label": "Independence • Republic established",
         "value_html": "<td class=\"infobox-data\">28 November 1958</td>",
         "value_text": "28 November 1958"
       },
       {
-        "label": "• from France",
+        "label": "Independence • from France",
         "value_html": "<td class=\"infobox-data\">15 August 1960</td>",
         "value_text": "15 August 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">342,000 km<sup>2</sup> (132,000 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">64th</a>)</td>",
         "value_text": "342,000 km 2 (132,000 sq mi) ( 64th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">3.3</td>",
         "value_text": "3.3"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\">6,228,784<sup class=\"reference\" id=\"cite_ref-9\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">116th</a>)</td>",
         "value_text": "6,228,784 [ 9 ] ( 116th )"
       },
       {
-        "label": "• 2023 census",
+        "label": "Population • 2023 census",
         "value_html": "<td class=\"infobox-data\">6,142,180<sup class=\"reference\" id=\"cite_ref-10\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "6,142,180 [ 10 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">19/km<sup>2</sup> (49.2/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">212th</a>)</td>",
         "value_text": "19/km 2 (49.2/sq mi) ( 212th )"
       },
@@ -240,31 +240,31 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Republic established",
+        "label": "Independence • Republic established",
         "value_text": "28 November 1958"
       },
       {
-        "label": "• from France",
+        "label": "Independence • from France",
         "value_text": "15 August 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "342,000 km 2 (132,000 sq mi) ( 64th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "3.3"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "6,228,784 ( 116th )"
       },
       {
-        "label": "• 2023 census",
+        "label": "Population • 2023 census",
         "value_text": "6,142,180"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "19/km 2 (49.2/sq mi) ( 212th )"
       },
       {
@@ -518,8 +518,8 @@
         ],
         "numbers": []
       },
-      "republic_established": {
-        "raw_label": "• Republic established",
+      "independence_republic_established": {
+        "raw_label": "Independence • Republic established",
         "text": "28 November 1958",
         "tokens": [
           "28",
@@ -531,8 +531,8 @@
           1958
         ]
       },
-      "from_france": {
-        "raw_label": "• from France",
+      "independence_from_france": {
+        "raw_label": "Independence • from France",
         "text": "15 August 1960",
         "tokens": [
           "15",
@@ -544,22 +544,29 @@
           1960
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$15.281 billion ( 141st )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "342,000 km 2 (132,000 sq mi) ( 64th )",
         "tokens": [
-          "15",
-          "281",
-          "billion",
-          "141st"
+          "342",
+          "000",
+          "km",
+          "2",
+          "132",
+          "000",
+          "sq",
+          "mi",
+          "64th"
         ],
         "numbers": [
-          15.281,
-          141
+          342000,
+          2,
+          132000,
+          64
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "3.3",
         "tokens": [
           "3",
@@ -569,8 +576,8 @@
           3.3
         ]
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "6,228,784 ( 116th )",
         "tokens": [
           "6",
@@ -583,8 +590,8 @@
           116
         ]
       },
-      "2023_census": {
-        "raw_label": "• 2023 census",
+      "population_2023_census": {
+        "raw_label": "Population • 2023 census",
         "text": "6,142,180",
         "tokens": [
           "6",
@@ -595,8 +602,8 @@
           6142180
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "19/km 2 (49.2/sq mi) ( 212th )",
         "tokens": [
           "19",
@@ -624,6 +631,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$15.281 billion ( 141st )",
+        "tokens": [
+          "15",
+          "281",
+          "billion",
+          "141st"
+        ],
+        "numbers": [
+          15.281,
+          141
         ]
       },
       "per_capita": {
@@ -727,6 +748,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Congo",
+      "capital": "Brazzaville",
+      "largest_city": "Brazzaville",
+      "coordinates": {
+        "latitude": "4°16′S",
+        "longitude": "15°17′E"
+      },
+      "government": {
+        "type": "Unitary semi-presidential republic under a dictatorship",
+        "head_of_state": "Denis Sassou Nguesso",
+        "head_of_government": "Anatole Collinet Makosso"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 342000,
+        "water_percent": 3.3
+      },
+      "population": {
+        "year": 2023,
+        "total": 6228784,
+        "rank": 116,
+        "density_per_km2": 19.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.649,
+          "rank": 138
+        },
+        "gini": {
+          "year": 2011,
+          "value": 40.2
+        }
+      },
+      "currency": {
+        "name": "Central African CFA franc",
+        "code": "XAF"
+      },
+      "calling_code": "242",
+      "iso_3166_code": "CG",
+      "internet_tld": ".cg",
+      "time_zone": "UTC+1"
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "South Africa",
     "slug": "south_africa",
     "wikipedia_url": "https://en.wikipedia.org/wiki/South_Africa",
-    "retrieved_at": "2026-03-11T17:57:53+00:00",
+    "retrieved_at": "2026-03-13T10:10:24+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -90,47 +90,47 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Union",
+        "label": "Independence from the United Kingdom • Union",
         "value_html": "<td class=\"infobox-data\">31 May 1910</td>",
         "value_text": "31 May 1910"
       },
       {
-        "label": "• Statute of Westminster",
+        "label": "Independence from the United Kingdom • Statute of Westminster",
         "value_html": "<td class=\"infobox-data\">11 December 1931</td>",
         "value_text": "11 December 1931"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_html": "<td class=\"infobox-data\">31 May 1961</td>",
         "value_text": "31 May 1961"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_html": "<td class=\"infobox-data\">4 February 1997</td>",
         "value_text": "4 February 1997"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">1,221,037 km<sup>2</sup> (471,445 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">24th</a>)</td>",
         "value_text": "1,221,037 km 2 (471,445 sq mi) ( 24th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.380</td>",
         "value_text": "0.380"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 63,015,904<sup class=\"reference\" id=\"cite_ref-Census-2022_11-1\"><a href=\"#cite_note-Census-2022-11\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">23rd</a>)</td>",
         "value_text": "63,015,904 [ 8 ] ( 23rd )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 62,027,503<sup class=\"reference\" id=\"cite_ref-Census-2022_11-2\"><a href=\"#cite_note-Census-2022-11\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">23rd</a>)</td>",
         "value_text": "62,027,503 [ 8 ] ( 23rd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">50.8/km<sup>2</sup> (131.6/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">169th</a>)</td>",
         "value_text": "50.8/km 2 (131.6/sq mi) ( 169th )"
       },
@@ -273,39 +273,39 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Union",
+        "label": "Independence from the United Kingdom • Union",
         "value_text": "31 May 1910"
       },
       {
-        "label": "• Statute of Westminster",
+        "label": "Independence from the United Kingdom • Statute of Westminster",
         "value_text": "11 December 1931"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_text": "31 May 1961"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_text": "4 February 1997"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "1,221,037 km 2 (471,445 sq mi) ( 24th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.380"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "63,015,904 ( 23rd )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_text": "62,027,503 ( 23rd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "50.8/km 2 (131.6/sq mi) ( 169th )"
       },
       {
@@ -608,8 +608,8 @@
         ],
         "numbers": []
       },
-      "union": {
-        "raw_label": "• Union",
+      "independence_from_the_united_kingdom_union": {
+        "raw_label": "Independence from the United Kingdom • Union",
         "text": "31 May 1910",
         "tokens": [
           "31",
@@ -621,8 +621,8 @@
           1910
         ]
       },
-      "statute_of_westminster": {
-        "raw_label": "• Statute of Westminster",
+      "independence_from_the_united_kingdom_statute_of_westminster": {
+        "raw_label": "Independence from the United Kingdom • Statute of Westminster",
         "text": "11 December 1931",
         "tokens": [
           "11",
@@ -634,8 +634,8 @@
           1931
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "independence_from_the_united_kingdom_republic": {
+        "raw_label": "Independence from the United Kingdom • Republic",
         "text": "31 May 1961",
         "tokens": [
           "31",
@@ -647,8 +647,8 @@
           1961
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_the_united_kingdom_current_constitution": {
+        "raw_label": "Independence from the United Kingdom • Current constitution",
         "text": "4 February 1997",
         "tokens": [
           "4",
@@ -660,22 +660,30 @@
           1997
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$443.64 billion ( 38th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "1,221,037 km 2 (471,445 sq mi) ( 24th )",
         "tokens": [
-          "443",
-          "64",
-          "billion",
-          "38th"
+          "1",
+          "221",
+          "037",
+          "km",
+          "2",
+          "471",
+          "445",
+          "sq",
+          "mi",
+          "24th"
         ],
         "numbers": [
-          443.64,
-          38
+          1221037,
+          2,
+          471445,
+          24
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.380",
         "tokens": [
           "0",
@@ -685,8 +693,8 @@
           0.38
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "63,015,904 ( 23rd )",
         "tokens": [
           "63",
@@ -699,8 +707,8 @@
           23
         ]
       },
-      "2022_census": {
-        "raw_label": "• 2022 census",
+      "population_2022_census": {
+        "raw_label": "Population • 2022 census",
         "text": "62,027,503 ( 23rd )",
         "tokens": [
           "62",
@@ -713,8 +721,8 @@
           23
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "50.8/km 2 (131.6/sq mi) ( 169th )",
         "tokens": [
           "50",
@@ -743,6 +751,20 @@
         ],
         "numbers": [
           2026
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$443.64 billion ( 38th )",
+        "tokens": [
+          "443",
+          "64",
+          "billion",
+          "38th"
+        ],
+        "numbers": [
+          443.64,
+          38
         ]
       },
       "per_capita": {
@@ -861,6 +883,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "South Africa",
+      "capital": "Pretoria (executive) Cape Town (legislative) Bloemfontein (judicial)",
+      "largest_city": "Johannesburg",
+      "government": {
+        "type": "Unitary parliamentary republic with an executive presidency",
+        "head_of_state": "Cyril Ramaphosa"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 1221037,
+        "water_percent": 0.38
+      },
+      "population": {
+        "year": 2024,
+        "total": 63015904,
+        "rank": 23,
+        "density_per_km2": 50.8
+      },
+      "economy": {
+        "gdp_nominal_year": 2026,
+        "gdp_ppp_year": 2026
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.741,
+          "rank": 106
+        },
+        "gini": {
+          "year": 2023,
+          "value": 63.0
+        }
+      },
+      "currency": {
+        "name": "South African rand",
+        "code": "ZAR"
+      },
+      "calling_code": "27",
+      "iso_3166_code": "ZA",
+      "internet_tld": ".za",
+      "time_zone": "UTC+2",
+      "demonym": "South African"
     }
   }
 }

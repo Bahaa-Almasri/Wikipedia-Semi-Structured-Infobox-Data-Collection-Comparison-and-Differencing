@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-11T17:53:01+00:00",
+          "value": "2026-03-13T10:07:14+00:00",
           "children": []
         },
         {
@@ -38,931 +38,129 @@
       "value": null,
       "children": [
         {
-          "label": "1966_upper_voltan_coup_d_tat",
+          "label": "area",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1966",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 1966 Upper Voltan coup d'état",
+              "label": "total_km2",
+              "value": "274223",
               "children": []
             },
             {
-              "label": "text",
-              "value": "3 January 1966",
+              "label": "water_percent",
+              "value": "0.148",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "January",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1966",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "2014_burkina_faso_uprising",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "28",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2014",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 2014 Burkina Faso uprising",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "28 October – 3 November 2014",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "28",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "October",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "November",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2014",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "2023_estimate",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "22489126",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "58",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 2023 estimate",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "22,489,126 ( 58th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "22",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "489",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "126",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "58th",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "calling_code",
+          "value": "226",
+          "children": []
+        },
+        {
+          "label": "capital",
+          "value": "Ouagadougou",
+          "children": []
+        },
+        {
+          "label": "coordinates",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "226",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Calling code",
+              "label": "latitude",
+              "value": "12°22′N",
               "children": []
             },
             {
-              "label": "text",
-              "value": "+226",
+              "label": "longitude",
+              "value": "1°32′W",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "226",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
-          "label": "capital_and_largest_city",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "22",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "32",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "12.367",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1.533",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "12.367",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "-1.533",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Capital and largest city",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Ouagadougou 12°22′N 1°32′W ﻿ / ﻿ 12.367°N 1.533°W ﻿ / 12.367; -1.533",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Ouagadougou",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "22",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "32",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "W",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "367",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "533",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "W",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "367",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "533",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "country_name",
+          "value": "Burkina Faso",
+          "children": []
         },
         {
           "label": "currency",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "code",
+              "value": "XOF",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Currency",
+              "label": "name",
+              "value": "West African CFA franc",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "West African CFA franc ( XOF )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "West",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "African",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CFA",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "franc",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "XOF",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "demonym",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Demonym",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Burkinabé",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Burkinab",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "Burkinabé",
+          "children": []
         },
         {
-          "label": "density",
+          "label": "development",
           "value": null,
           "children": [
             {
-              "label": "numbers",
+              "label": "gini",
               "value": null,
               "children": [
                 {
-                  "label": "numbers_item",
-                  "value": "86",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "222.7",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "126",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Density",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "86/km 2 (222.7/sq mi) ( 126th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "86",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "km",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "222",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sq",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "126th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "ethnic_groups_2024_est",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "53.7",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "6.8",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "5.9",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "5.4",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1.5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "5.2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "3.4",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2.2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1.5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0.1",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Ethnic groups (2024 est.)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "53.7% Mossi 6.8% Fula 5.9% Gurunsi 5.4% or 1.5% [ clarification needed ] Bissa 5.2% Gurma 3.4% Bobo 2.2% Senufo 1.5% Lobi 0.1% Tuareg and Bella",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "53",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Mossi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Fula",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Gurunsi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "or",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "clarification",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "needed",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bissa",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Gurma",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bobo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Senufo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Lobi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Tuareg",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "and",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Bella",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_nominal",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP (nominal)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_ppp",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP ( PPP )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gini_2021",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
+                  "label": "value",
                   "value": "37.4",
                   "children": []
+                },
+                {
+                  "label": "year",
+                  "value": "2021",
+                  "children": []
                 }
               ]
             },
             {
-              "label": "raw_label",
-              "value": "Gini (2021)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "37.4 medium inequality",
-              "children": []
-            },
-            {
-              "label": "tokens",
+              "label": "hdi",
               "value": null,
               "children": [
                 {
-                  "label": "tokens_item",
-                  "value": "37",
+                  "label": "rank",
+                  "value": "186",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "4",
+                  "label": "value",
+                  "value": "0.459",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "medium",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "inequality",
+                  "label": "year",
+                  "value": "2023",
                   "children": []
                 }
               ]
+            }
+          ]
+        },
+        {
+          "label": "economy",
+          "value": null,
+          "children": [
+            {
+              "label": "gdp_nominal_year",
+              "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_year",
+              "value": "2025",
+              "children": []
             }
           ]
         },
@@ -971,1021 +169,72 @@
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "head_of_government",
+              "value": "Jean Emmanuel Ouédraogo (interim)",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Government",
+              "label": "head_of_state",
+              "value": "Ibrahim Traoré (interim)",
               "children": []
             },
             {
-              "label": "text",
+              "label": "type",
               "value": "Unitary semi-presidential republic under a military junta",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Unitary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "semi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "presidential",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "republic",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "under",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "a",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "military",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "junta",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "hdi_2023",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0.459",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "186",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "HDI (2023)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "0.459 low ( 186th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "459",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "low",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "186th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "independence_from_france",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1960",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Independence from France",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "5 August 1960",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "August",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1960",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "internet_tld",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Internet TLD",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": ".bf",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "bf",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": ".bf",
+          "children": []
         },
         {
           "label": "iso_3166_code",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "ISO 3166 code",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "BF",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "BF",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "BF",
+          "children": []
         },
         {
-          "label": "jan_2022_burkina_faso_coup_d_tat",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "23",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "24",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2022",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Jan 2022 Burkina Faso coup d'état",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "23–24 January 2022",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "23",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "24",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "January",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2022",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "largest_city",
+          "value": "Ouagadougou",
+          "children": []
         },
         {
           "label": "legislature",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Legislature",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "National Assembly",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "National",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Assembly",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "National Assembly",
+          "children": []
         },
         {
-          "label": "official_languages",
+          "label": "population",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "density_per_km2",
+              "value": "86.0",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Official languages",
+              "label": "rank",
+              "value": "58",
               "children": []
             },
             {
-              "label": "text",
-              "value": "Mooré , Dyula and Fula , alongside any other languages so recognized by law",
+              "label": "total",
+              "value": "22489126",
               "children": []
             },
             {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Moor",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Dyula",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "and",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Fula",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "alongside",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "any",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "languages",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "so",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "recognized",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "by",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "law",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "per_capita",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1110",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "166",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Per capita",
+              "label": "year",
+              "value": "2023",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "$1,110 ( 166th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "110",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "166th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Ibrahim Traoré (interim)",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Ibrahim",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Traor",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "interim",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "prime_minister",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Prime Minister",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Jean Emmanuel Ouédraogo (interim)",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Jean",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Emmanuel",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Ou",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "draogo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "interim",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "religion_2019_census",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "63.8",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "26.3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "20.1",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "6.2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0.7",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Religion (2019 census)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "63.8% Islam 26.3% Christianity 20.1% Catholicism 6.2% Protestantism 9% Animism 0.7% irreligion",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "63",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Islam",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "26",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Christianity",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "20",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Catholicism",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "6",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Protestantism",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Animism",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "7",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "irreligion",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "republic_of_upper_volta_proclaimed",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "11",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1958",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Republic of Upper Volta proclaimed",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "11 December 1958",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "11",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "December",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1958",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "sep_2022_burkina_faso_coup_d_tat",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "30",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2022",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Sep 2022 Burkina Faso coup d'état",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "30 September 2022",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "30",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "September",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2022",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "time_zone",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "0",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Time zone",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC ±00:00 ( GMT )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "00",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "00",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "GMT",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "total",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "27.06",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "114",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Total",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$27.06 billion ( 114th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "27",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "06",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "billion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "114th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "water",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0.148",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Water (%)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "0.148%",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "148",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "working_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Working languages",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "English French",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "English",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "French",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "UTC ±00:00 ( GMT )",
+          "children": []
         }
       ]
     }

@@ -3,7 +3,7 @@
     "country_name": "Nigeria",
     "slug": "nigeria",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Nigeria",
-    "retrieved_at": "2026-03-11T17:56:52+00:00",
+    "retrieved_at": "2026-03-13T10:09:26+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -100,52 +100,52 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Northern Nigeria Protectorate",
+        "label": "Independence from the United Kingdom • Northern Nigeria Protectorate",
         "value_html": "<td class=\"infobox-data\">1 January 1900</td>",
         "value_text": "1 January 1900"
       },
       {
-        "label": "• Southern Nigeria Protectorate",
+        "label": "Independence from the United Kingdom • Southern Nigeria Protectorate",
         "value_html": "<td class=\"infobox-data\">1 January 1900</td>",
         "value_text": "1 January 1900"
       },
       {
-        "label": "• Unification of Nigeria",
+        "label": "Independence from the United Kingdom • Unification of Nigeria",
         "value_html": "<td class=\"infobox-data\">1 January 1914</td>",
         "value_text": "1 January 1914"
       },
       {
-        "label": "• Declared independent as a sovereign state",
+        "label": "Independence from the United Kingdom • Declared independent as a sovereign state",
         "value_html": "<td class=\"infobox-data\">1 October 1960</td>",
         "value_text": "1 October 1960"
       },
       {
-        "label": "• Became a republic",
+        "label": "Independence from the United Kingdom • Became a republic",
         "value_html": "<td class=\"infobox-data\">1 October 1963</td>",
         "value_text": "1 October 1963"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_html": "<td class=\"infobox-data\">29 May 1999</td>",
         "value_text": "29 May 1999"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">923,769 km<sup>2</sup> (356,669 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">31st</a>)</td>",
         "value_text": "923,769 km 2 (356,669 sq mi) ( 31st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.4</td>",
         "value_text": "1.4"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 236,747,130<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">6th</a>)</td>",
         "value_text": "236,747,130 [ 6 ] ( 6th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">249.8/km<sup>2</sup> (647.0/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">57th</a>)</td>",
         "value_text": "249.8/km 2 (647.0/sq mi) ( 57th )"
       },
@@ -296,43 +296,43 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Northern Nigeria Protectorate",
+        "label": "Independence from the United Kingdom • Northern Nigeria Protectorate",
         "value_text": "1 January 1900"
       },
       {
-        "label": "• Southern Nigeria Protectorate",
+        "label": "Independence from the United Kingdom • Southern Nigeria Protectorate",
         "value_text": "1 January 1900"
       },
       {
-        "label": "• Unification of Nigeria",
+        "label": "Independence from the United Kingdom • Unification of Nigeria",
         "value_text": "1 January 1914"
       },
       {
-        "label": "• Declared independent as a sovereign state",
+        "label": "Independence from the United Kingdom • Declared independent as a sovereign state",
         "value_text": "1 October 1960"
       },
       {
-        "label": "• Became a republic",
+        "label": "Independence from the United Kingdom • Became a republic",
         "value_text": "1 October 1963"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_text": "29 May 1999"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "923,769 km 2 (356,669 sq mi) ( 31st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.4"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "236,747,130 ( 6th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "249.8/km 2 (647.0/sq mi) ( 57th )"
       },
       {
@@ -638,8 +638,8 @@
         ],
         "numbers": []
       },
-      "northern_nigeria_protectorate": {
-        "raw_label": "• Northern Nigeria Protectorate",
+      "independence_from_the_united_kingdom_northern_nigeria_protectorate": {
+        "raw_label": "Independence from the United Kingdom • Northern Nigeria Protectorate",
         "text": "1 January 1900",
         "tokens": [
           "1",
@@ -651,8 +651,8 @@
           1900
         ]
       },
-      "southern_nigeria_protectorate": {
-        "raw_label": "• Southern Nigeria Protectorate",
+      "independence_from_the_united_kingdom_southern_nigeria_protectorate": {
+        "raw_label": "Independence from the United Kingdom • Southern Nigeria Protectorate",
         "text": "1 January 1900",
         "tokens": [
           "1",
@@ -664,8 +664,8 @@
           1900
         ]
       },
-      "unification_of_nigeria": {
-        "raw_label": "• Unification of Nigeria",
+      "independence_from_the_united_kingdom_unification_of_nigeria": {
+        "raw_label": "Independence from the United Kingdom • Unification of Nigeria",
         "text": "1 January 1914",
         "tokens": [
           "1",
@@ -677,8 +677,8 @@
           1914
         ]
       },
-      "declared_independent_as_a_sovereign_state": {
-        "raw_label": "• Declared independent as a sovereign state",
+      "independence_from_the_united_kingdom_declared_independent_as_a_sovereign_state": {
+        "raw_label": "Independence from the United Kingdom • Declared independent as a sovereign state",
         "text": "1 October 1960",
         "tokens": [
           "1",
@@ -690,8 +690,8 @@
           1960
         ]
       },
-      "became_a_republic": {
-        "raw_label": "• Became a republic",
+      "independence_from_the_united_kingdom_became_a_republic": {
+        "raw_label": "Independence from the United Kingdom • Became a republic",
         "text": "1 October 1963",
         "tokens": [
           "1",
@@ -703,8 +703,8 @@
           1963
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_the_united_kingdom_current_constitution": {
+        "raw_label": "Independence from the United Kingdom • Current constitution",
         "text": "29 May 1999",
         "tokens": [
           "29",
@@ -716,22 +716,29 @@
           1999
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$285.003 billion ( 52nd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "923,769 km 2 (356,669 sq mi) ( 31st )",
         "tokens": [
-          "285",
-          "003",
-          "billion",
-          "52nd"
+          "923",
+          "769",
+          "km",
+          "2",
+          "356",
+          "669",
+          "sq",
+          "mi",
+          "31st"
         ],
         "numbers": [
-          285.003,
-          52
+          923769,
+          2,
+          356669,
+          31
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.4",
         "tokens": [
           "1",
@@ -741,8 +748,8 @@
           1.4
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "236,747,130 ( 6th )",
         "tokens": [
           "236",
@@ -755,8 +762,8 @@
           6
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "249.8/km 2 (647.0/sq mi) ( 57th )",
         "tokens": [
           "249",
@@ -785,6 +792,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$285.003 billion ( 52nd )",
+        "tokens": [
+          "285",
+          "003",
+          "billion",
+          "52nd"
+        ],
+        "numbers": [
+          285.003,
+          52
         ]
       },
       "per_capita": {
@@ -897,6 +918,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Nigeria",
+      "capital": "Abuja",
+      "largest_city": "Lagos",
+      "coordinates": {
+        "latitude": "9°4′N",
+        "longitude": "7°29′E"
+      },
+      "government": {
+        "type": "Federal presidential republic",
+        "head_of_state": "Bola Tinubu"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 923769,
+        "water_percent": 1.4
+      },
+      "population": {
+        "year": 2024,
+        "total": 236747130,
+        "rank": 6,
+        "density_per_km2": 249.8
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.56,
+          "rank": 164
+        },
+        "gini": {
+          "year": 2020,
+          "value": 35.1
+        }
+      },
+      "currency": {
+        "name": "Naira"
+      },
+      "calling_code": "234",
+      "iso_3166_code": "NG",
+      "internet_tld": ".ng",
+      "time_zone": "UTC+01:00",
+      "demonym": "Nigerian"
     }
   }
 }

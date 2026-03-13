@@ -3,7 +3,7 @@
     "country_name": "Republic of Korea",
     "slug": "republic_of_korea",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Republic_of_Korea",
-    "retrieved_at": "2026-03-11T17:57:19+00:00",
+    "retrieved_at": "2026-03-13T10:09:49+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,42 +75,42 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Provisional Government in-exile",
+        "label": "Establishment history • Provisional Government in-exile",
         "value_html": "<td class=\"infobox-data\">11 April 1919</td>",
         "value_text": "11 April 1919"
       },
       {
-        "label": "• American administration south of the 38th parallel",
+        "label": "Establishment history • American administration south of the 38th parallel",
         "value_html": "<td class=\"infobox-data\">8 September 1945</td>",
         "value_text": "8 September 1945"
       },
       {
-        "label": "• Constitution adopted",
+        "label": "Establishment history • Constitution adopted",
         "value_html": "<td class=\"infobox-data\">17 July 1948</td>",
         "value_text": "17 July 1948"
       },
       {
-        "label": "• ROK established",
+        "label": "Establishment history • ROK established",
         "value_html": "<td class=\"infobox-data\">15 August 1948</td>",
         "value_text": "15 August 1948"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">100,363<sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-South_Korea_country_profile_6-0\"><a href=\"#cite_note-South_Korea_country_profile-6\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-auto_7-0\"><a href=\"#cite_note-auto-7\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (38,750 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">107th</a>)</td>",
         "value_text": "100,363 [ 4 ] [ 5 ] [ 6 ] km 2 (38,750 sq mi) ( 107th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.3</td>",
         "value_text": "0.3"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 52,081,799<sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">29th</a>)</td>",
         "value_text": "52,081,799 [ 7 ] ( 29th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">507/km<sup>2</sup> (1,313.1/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">27th</a>)</td>",
         "value_text": "507/km 2 (1,313.1/sq mi) ( 27th )"
       },
@@ -236,35 +236,35 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Provisional Government in-exile",
+        "label": "Establishment history • Provisional Government in-exile",
         "value_text": "11 April 1919"
       },
       {
-        "label": "• American administration south of the 38th parallel",
+        "label": "Establishment history • American administration south of the 38th parallel",
         "value_text": "8 September 1945"
       },
       {
-        "label": "• Constitution adopted",
+        "label": "Establishment history • Constitution adopted",
         "value_text": "17 July 1948"
       },
       {
-        "label": "• ROK established",
+        "label": "Establishment history • ROK established",
         "value_text": "15 August 1948"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "100,363 km 2 (38,750 sq mi) ( 107th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.3"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "52,081,799 ( 29th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "507/km 2 (1,313.1/sq mi) ( 27th )"
       },
       {
@@ -496,8 +496,8 @@
         ],
         "numbers": []
       },
-      "provisional_government_in_exile": {
-        "raw_label": "• Provisional Government in-exile",
+      "establishment_history_provisional_government_in_exile": {
+        "raw_label": "Establishment history • Provisional Government in-exile",
         "text": "11 April 1919",
         "tokens": [
           "11",
@@ -509,8 +509,8 @@
           1919
         ]
       },
-      "american_administration_south_of_the_38th_parallel": {
-        "raw_label": "• American administration south of the 38th parallel",
+      "establishment_history_american_administration_south_of_the_38th_parallel": {
+        "raw_label": "Establishment history • American administration south of the 38th parallel",
         "text": "8 September 1945",
         "tokens": [
           "8",
@@ -522,8 +522,8 @@
           1945
         ]
       },
-      "constitution_adopted": {
-        "raw_label": "• Constitution adopted",
+      "establishment_history_constitution_adopted": {
+        "raw_label": "Establishment history • Constitution adopted",
         "text": "17 July 1948",
         "tokens": [
           "17",
@@ -535,8 +535,8 @@
           1948
         ]
       },
-      "rok_established": {
-        "raw_label": "• ROK established",
+      "establishment_history_rok_established": {
+        "raw_label": "Establishment history • ROK established",
         "text": "15 August 1948",
         "tokens": [
           "15",
@@ -548,22 +548,29 @@
           1948
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$1.859 trillion ( 14th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "100,363 km 2 (38,750 sq mi) ( 107th )",
         "tokens": [
-          "1",
-          "859",
-          "trillion",
-          "14th"
+          "100",
+          "363",
+          "km",
+          "2",
+          "38",
+          "750",
+          "sq",
+          "mi",
+          "107th"
         ],
         "numbers": [
-          1.859,
-          14
+          100363,
+          2,
+          38750,
+          107
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.3",
         "tokens": [
           "0",
@@ -573,8 +580,8 @@
           0.3
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "52,081,799 ( 29th )",
         "tokens": [
           "52",
@@ -587,8 +594,8 @@
           29
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "507/km 2 (1,313.1/sq mi) ( 27th )",
         "tokens": [
           "507",
@@ -617,6 +624,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$1.859 trillion ( 14th )",
+        "tokens": [
+          "1",
+          "859",
+          "trillion",
+          "14th"
+        ],
+        "numbers": [
+          1.859,
+          14
         ]
       },
       "per_capita": {
@@ -722,6 +743,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Republic of Korea",
+      "capital": "Seoul",
+      "largest_city": "Seoul",
+      "coordinates": {
+        "latitude": "37°33′N",
+        "longitude": "126°58′E"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Lee Jae Myung",
+        "head_of_government": "Kim Min-seok"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 100363,
+        "water_percent": 0.3
+      },
+      "population": {
+        "year": 2024,
+        "total": 52081799,
+        "rank": 29,
+        "density_per_km2": 507.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.937,
+          "rank": 20
+        },
+        "gini": {
+          "year": 2021,
+          "value": 33.3
+        }
+      },
+      "currency": {
+        "name": "Korean Republic won"
+      },
+      "calling_code": "82",
+      "iso_3166_code": "KR",
+      "internet_tld": ".kr .한국",
+      "time_zone": "UTC+9"
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Jamaica",
     "slug": "jamaica",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Jamaica",
-    "retrieved_at": "2026-03-11T17:56:14+00:00",
+    "retrieved_at": "2026-03-13T10:08:33+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,32 +75,32 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Granted",
+        "label": "Independence from the United Kingdom • Granted",
         "value_html": "<td class=\"infobox-data\">6 August 1962</td>",
         "value_text": "6 August 1962"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">10,991 km<sup>2</sup> (4,244 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">160th</a>)</td>",
         "value_text": "10,991 km 2 (4,244 sq mi) ( 160th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.5</td>",
         "value_text": "1.5"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\">2,824,913<sup class=\"reference\" id=\"cite_ref-uwi.edu_1-1\"><a href=\"#cite_note-uwi.edu-1\"><span class=\"cite-bracket\">[</span>1<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "2,824,913 [ 1 ]"
       },
       {
-        "label": "• 2011 census",
+        "label": "Population • 2011 census",
         "value_html": "<td class=\"infobox-data\">2,697,983<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "2,697,983 [ 3 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">266<sup class=\"reference\" id=\"cite_ref-esa2.un.org_4-0\"><a href=\"#cite_note-esa2.un.org-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup>/km<sup>2</sup> (688.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">54th</a>)</td>",
         "value_text": "266 [ 4 ] /km 2 (688.9/sq mi) ( 54th )"
       },
@@ -226,27 +226,27 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Granted",
+        "label": "Independence from the United Kingdom • Granted",
         "value_text": "6 August 1962"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "10,991 km 2 (4,244 sq mi) ( 160th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.5"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "2,824,913"
       },
       {
-        "label": "• 2011 census",
+        "label": "Population • 2011 census",
         "value_text": "2,697,983"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "266 /km 2 (688.9/sq mi) ( 54th )"
       },
       {
@@ -501,8 +501,8 @@
         ],
         "numbers": []
       },
-      "granted": {
-        "raw_label": "• Granted",
+      "independence_from_the_united_kingdom_granted": {
+        "raw_label": "Independence from the United Kingdom • Granted",
         "text": "6 August 1962",
         "tokens": [
           "6",
@@ -514,22 +514,29 @@
           1962
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$20.586 billion ( 119th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "10,991 km 2 (4,244 sq mi) ( 160th )",
         "tokens": [
-          "20",
-          "586",
-          "billion",
-          "119th"
+          "10",
+          "991",
+          "km",
+          "2",
+          "4",
+          "244",
+          "sq",
+          "mi",
+          "160th"
         ],
         "numbers": [
-          20.586,
-          119
+          10991,
+          2,
+          4244,
+          160
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.5",
         "tokens": [
           "1",
@@ -539,8 +546,8 @@
           1.5
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "2,824,913",
         "tokens": [
           "2",
@@ -551,8 +558,8 @@
           2824913
         ]
       },
-      "2011_census": {
-        "raw_label": "• 2011 census",
+      "population_2011_census": {
+        "raw_label": "Population • 2011 census",
         "text": "2,697,983",
         "tokens": [
           "2",
@@ -563,8 +570,8 @@
           2697983
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "266 /km 2 (688.9/sq mi) ( 54th )",
         "tokens": [
           "266",
@@ -592,6 +599,20 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$20.586 billion ( 119th )",
+        "tokens": [
+          "20",
+          "586",
+          "billion",
+          "119th"
+        ],
+        "numbers": [
+          20.586,
+          119
         ]
       },
       "per_capita": {
@@ -695,6 +716,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Jamaica",
+      "capital": "Kingston",
+      "largest_city": "Kingston",
+      "government": {
+        "type": "Unitary parliamentary constitutional monarchy",
+        "head_of_state": "Charles III",
+        "head_of_government": "Andrew Holness"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 10991,
+        "water_percent": 1.5
+      },
+      "population": {
+        "year": 2024,
+        "total": 2824913,
+        "density_per_km2": 266.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2024,
+        "gdp_ppp_year": 2024
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.72,
+          "rank": 117
+        },
+        "gini": {
+          "year": 2021,
+          "value": 40.2
+        }
+      },
+      "currency": {
+        "name": "Jamaican dollar",
+        "code": "JMD"
+      },
+      "calling_code": "1",
+      "iso_3166_code": "JM",
+      "internet_tld": ".jm",
+      "time_zone": "UTC-5:00",
+      "demonym": "Jamaican"
     }
   }
 }

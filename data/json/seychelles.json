@@ -3,7 +3,7 @@
     "country_name": "Seychelles",
     "slug": "seychelles",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Seychelles",
-    "retrieved_at": "2026-03-11T17:57:40+00:00",
+    "retrieved_at": "2026-03-13T10:10:11+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,27 +65,27 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Independence declared",
+        "label": "Independence from the United Kingdom • Independence declared",
         "value_html": "<td class=\"infobox-data\">29 June 1976</td>",
         "value_text": "29 June 1976"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">457 km<sup>2</sup> (176 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">181st</a>)</td>",
         "value_text": "457 km 2 (176 sq mi) ( 181st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">Negligible</td>",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\">121,355<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">200th</a>)</td>",
         "value_text": "121,355 [ 4 ] ( 200th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">262.3/km<sup>2</sup> (679.4/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">67th</a>)</td>",
         "value_text": "262.3/km 2 (679.4/sq mi) ( 67th )"
       },
@@ -203,23 +203,23 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Independence declared",
+        "label": "Independence from the United Kingdom • Independence declared",
         "value_text": "29 June 1976"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "457 km 2 (176 sq mi) ( 181st )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "121,355 ( 200th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "262.3/km 2 (679.4/sq mi) ( 67th )"
       },
       {
@@ -432,8 +432,8 @@
         ],
         "numbers": []
       },
-      "independence_declared": {
-        "raw_label": "• Independence declared",
+      "independence_from_the_united_kingdom_independence_declared": {
+        "raw_label": "Independence from the United Kingdom • Independence declared",
         "text": "29 June 1976",
         "tokens": [
           "29",
@@ -445,30 +445,35 @@
           1976
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$2.250 billion ( 186th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "457 km 2 (176 sq mi) ( 181st )",
         "tokens": [
+          "457",
+          "km",
           "2",
-          "250",
-          "billion",
-          "186th"
+          "176",
+          "sq",
+          "mi",
+          "181st"
         ],
         "numbers": [
-          2.25,
-          186
+          457,
+          2,
+          176,
+          181
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "Negligible",
         "tokens": [
           "Negligible"
         ],
         "numbers": []
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "121,355 ( 200th )",
         "tokens": [
           "121",
@@ -480,8 +485,8 @@
           200
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "262.3/km 2 (679.4/sq mi) ( 67th )",
         "tokens": [
           "262",
@@ -510,6 +515,20 @@
         ],
         "numbers": [
           2026
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$2.250 billion ( 186th )",
+        "tokens": [
+          "2",
+          "250",
+          "billion",
+          "186th"
+        ],
+        "numbers": [
+          2.25,
+          186
         ]
       },
       "per_capita": {
@@ -614,6 +633,52 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Seychelles",
+      "capital": "Victoria",
+      "largest_city": "Victoria",
+      "coordinates": {
+        "latitude": "4°37′S",
+        "longitude": "55°27′E"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Patrick Herminie"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 457
+      },
+      "population": {
+        "year": 2024,
+        "total": 121355,
+        "rank": 200,
+        "density_per_km2": 262.3
+      },
+      "economy": {
+        "gdp_nominal_year": 2026,
+        "gdp_ppp_year": 2026
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.848,
+          "rank": 54
+        },
+        "gini": {
+          "year": 2019,
+          "value": 32.1
+        }
+      },
+      "currency": {
+        "name": "Seychellois rupee",
+        "code": "SCR"
+      },
+      "calling_code": "248",
+      "iso_3166_code": "SC",
+      "internet_tld": ".sc",
+      "time_zone": "UTC+04:00"
     }
   }
 }

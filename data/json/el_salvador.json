@@ -3,7 +3,7 @@
     "country_name": "El Salvador",
     "slug": "el_salvador",
     "wikipedia_url": "https://en.wikipedia.org/wiki/El_Salvador",
-    "retrieved_at": "2026-03-11T17:55:13+00:00",
+    "retrieved_at": "2026-03-13T10:07:47+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,42 +60,42 @@
         "value_text": "Legislative Assembly"
       },
       {
-        "label": "• Declared from Spain",
+        "label": "Independence • Declared from Spain",
         "value_html": "<td class=\"infobox-data\">15 September 1821</td>",
         "value_text": "15 September 1821"
       },
       {
-        "label": "• Declared from the First Mexican Empire",
+        "label": "Independence • Declared from the First Mexican Empire",
         "value_html": "<td class=\"infobox-data\">1 July 1823</td>",
         "value_text": "1 July 1823"
       },
       {
-        "label": "• Declared from the Federal Republic of Central America",
+        "label": "Independence • Declared from the Federal Republic of Central America",
         "value_html": "<td class=\"infobox-data\">30 January 1841</td>",
         "value_text": "30 January 1841"
       },
       {
-        "label": "• International recognition",
+        "label": "Independence • International recognition",
         "value_html": "<td class=\"infobox-data\">18 February 1841</td>",
         "value_text": "18 February 1841"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">21,041 km<sup>2</sup> (8,124 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">149th</a>)</td>",
         "value_text": "21,041 km 2 (8,124 sq mi) ( 149th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.5</td>",
         "value_text": "1.5"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 6,029,976<sup class=\"reference\" id=\"cite_ref-census_7-0\"><a href=\"#cite_note-census-7\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">114th</a>)</td>",
         "value_text": "6,029,976 [ 5 ] ( 114th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">286.6/km<sup>2</sup> (742.3/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">46th</a>)</td>",
         "value_text": "286.6/km 2 (742.3/sq mi) ( 46th )"
       },
@@ -214,35 +214,35 @@
         "value_text": "Legislative Assembly"
       },
       {
-        "label": "• Declared from Spain",
+        "label": "Independence • Declared from Spain",
         "value_text": "15 September 1821"
       },
       {
-        "label": "• Declared from the First Mexican Empire",
+        "label": "Independence • Declared from the First Mexican Empire",
         "value_text": "1 July 1823"
       },
       {
-        "label": "• Declared from the Federal Republic of Central America",
+        "label": "Independence • Declared from the Federal Republic of Central America",
         "value_text": "30 January 1841"
       },
       {
-        "label": "• International recognition",
+        "label": "Independence • International recognition",
         "value_text": "18 February 1841"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "21,041 km 2 (8,124 sq mi) ( 149th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.5"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_text": "6,029,976 ( 114th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "286.6/km 2 (742.3/sq mi) ( 46th )"
       },
       {
@@ -466,8 +466,8 @@
         ],
         "numbers": []
       },
-      "declared_from_spain": {
-        "raw_label": "• Declared from Spain",
+      "independence_declared_from_spain": {
+        "raw_label": "Independence • Declared from Spain",
         "text": "15 September 1821",
         "tokens": [
           "15",
@@ -479,8 +479,8 @@
           1821
         ]
       },
-      "declared_from_the_first_mexican_empire": {
-        "raw_label": "• Declared from the First Mexican Empire",
+      "independence_declared_from_the_first_mexican_empire": {
+        "raw_label": "Independence • Declared from the First Mexican Empire",
         "text": "1 July 1823",
         "tokens": [
           "1",
@@ -492,8 +492,8 @@
           1823
         ]
       },
-      "declared_from_the_federal_republic_of_central_america": {
-        "raw_label": "• Declared from the Federal Republic of Central America",
+      "independence_declared_from_the_federal_republic_of_central_america": {
+        "raw_label": "Independence • Declared from the Federal Republic of Central America",
         "text": "30 January 1841",
         "tokens": [
           "30",
@@ -505,8 +505,8 @@
           1841
         ]
       },
-      "international_recognition": {
-        "raw_label": "• International recognition",
+      "independence_international_recognition": {
+        "raw_label": "Independence • International recognition",
         "text": "18 February 1841",
         "tokens": [
           "18",
@@ -518,22 +518,29 @@
           1841
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$37.843 billion ( 104th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "21,041 km 2 (8,124 sq mi) ( 149th )",
         "tokens": [
-          "37",
-          "843",
-          "billion",
-          "104th"
+          "21",
+          "041",
+          "km",
+          "2",
+          "8",
+          "124",
+          "sq",
+          "mi",
+          "149th"
         ],
         "numbers": [
-          37.843,
-          104
+          21041,
+          2,
+          8124,
+          149
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.5",
         "tokens": [
           "1",
@@ -543,8 +550,8 @@
           1.5
         ]
       },
-      "2024_census": {
-        "raw_label": "• 2024 census",
+      "population_2024_census": {
+        "raw_label": "Population • 2024 census",
         "text": "6,029,976 ( 114th )",
         "tokens": [
           "6",
@@ -557,8 +564,8 @@
           114
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "286.6/km 2 (742.3/sq mi) ( 46th )",
         "tokens": [
           "286",
@@ -587,6 +594,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$37.843 billion ( 104th )",
+        "tokens": [
+          "37",
+          "843",
+          "billion",
+          "104th"
+        ],
+        "numbers": [
+          37.843,
+          104
         ]
       },
       "per_capita": {
@@ -712,6 +733,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "El Salvador",
+      "capital": "San Salvador",
+      "largest_city": "San Salvador",
+      "coordinates": {
+        "latitude": "13°42′N",
+        "longitude": "89°12′W"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Nayib Bukele"
+      },
+      "legislature": "Legislative Assembly",
+      "area": {
+        "total_km2": 21041,
+        "water_percent": 1.5
+      },
+      "population": {
+        "year": 2024,
+        "total": 6029976,
+        "rank": 114,
+        "density_per_km2": 286.6
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.678,
+          "rank": 132
+        },
+        "gini": {
+          "year": 2022,
+          "value": 38.8
+        }
+      },
+      "currency": {
+        "name": "United States dollar",
+        "code": "USD"
+      },
+      "calling_code": "503",
+      "iso_3166_code": "SV",
+      "internet_tld": ".sv",
+      "time_zone": "UTC −6 ( CST )",
+      "demonym": "Salvadoran"
     }
   }
 }

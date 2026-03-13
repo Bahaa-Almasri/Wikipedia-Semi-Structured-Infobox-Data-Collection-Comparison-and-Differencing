@@ -3,7 +3,7 @@
     "country_name": "North Macedonia",
     "slug": "north_macedonia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/North_Macedonia",
-    "retrieved_at": "2026-03-11T17:56:59+00:00",
+    "retrieved_at": "2026-03-13T10:09:27+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,32 +65,32 @@
         "value_text": "Assembly"
       },
       {
-        "label": "• Socialist Republic of Macedonia",
+        "label": "Establishment history • Socialist Republic of Macedonia",
         "value_html": "<td class=\"infobox-data\">2 August 1944</td>",
         "value_text": "2 August 1944"
       },
       {
-        "label": "• Independence referendum",
+        "label": "Establishment history • Independence referendum",
         "value_html": "<td class=\"infobox-data\">8 September 1991</td>",
         "value_text": "8 September 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">25,436<sup class=\"reference\" id=\"cite_ref-SSO_6-0\"><a href=\"#cite_note-SSO-6\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (9,821 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">145th</a>)</td>",
         "value_text": "25,436 [ 4 ] km 2 (9,821 sq mi) ( 145th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.1</td>",
         "value_text": "1.1"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral decrease\"><img alt=\"Neutral decrease\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/20px-Decrease_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Decrease_Neutral.svg/40px-Decrease_Neutral.svg.png 2x\" width=\"11\"/></span></span> 1,836,713<sup class=\"reference\" id=\"cite_ref-2021_census_4-1\"><a href=\"#cite_note-2021_census-4\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "1,836,713 [ 2 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">71.43/km<sup>2</sup> (185.0/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">122nd</a>)</td>",
         "value_text": "71.43/km 2 (185.0/sq mi) ( 122nd )"
       },
@@ -213,27 +213,27 @@
         "value_text": "Assembly"
       },
       {
-        "label": "• Socialist Republic of Macedonia",
+        "label": "Establishment history • Socialist Republic of Macedonia",
         "value_text": "2 August 1944"
       },
       {
-        "label": "• Independence referendum",
+        "label": "Establishment history • Independence referendum",
         "value_text": "8 September 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "25,436 km 2 (9,821 sq mi) ( 145th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.1"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_text": "1,836,713"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "71.43/km 2 (185.0/sq mi) ( 122nd )"
       },
       {
@@ -506,8 +506,8 @@
         ],
         "numbers": []
       },
-      "socialist_republic_of_macedonia": {
-        "raw_label": "• Socialist Republic of Macedonia",
+      "establishment_history_socialist_republic_of_macedonia": {
+        "raw_label": "Establishment history • Socialist Republic of Macedonia",
         "text": "2 August 1944",
         "tokens": [
           "2",
@@ -519,8 +519,8 @@
           1944
         ]
       },
-      "independence_referendum": {
-        "raw_label": "• Independence referendum",
+      "establishment_history_independence_referendum": {
+        "raw_label": "Establishment history • Independence referendum",
         "text": "8 September 1991",
         "tokens": [
           "8",
@@ -532,22 +532,29 @@
           1991
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$17.885 billion ( 137th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "25,436 km 2 (9,821 sq mi) ( 145th )",
         "tokens": [
-          "17",
-          "885",
-          "billion",
-          "137th"
+          "25",
+          "436",
+          "km",
+          "2",
+          "9",
+          "821",
+          "sq",
+          "mi",
+          "145th"
         ],
         "numbers": [
-          17.885,
-          137
+          25436,
+          2,
+          9821,
+          145
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.1",
         "tokens": [
           "1",
@@ -557,8 +564,8 @@
           1.1
         ]
       },
-      "2021_census": {
-        "raw_label": "• 2021 census",
+      "population_2021_census": {
+        "raw_label": "Population • 2021 census",
         "text": "1,836,713",
         "tokens": [
           "1",
@@ -569,8 +576,8 @@
           1836713
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "71.43/km 2 (185.0/sq mi) ( 122nd )",
         "tokens": [
           "71",
@@ -599,6 +606,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$17.885 billion ( 137th )",
+        "tokens": [
+          "17",
+          "885",
+          "billion",
+          "137th"
+        ],
+        "numbers": [
+          17.885,
+          137
         ]
       },
       "per_capita": {
@@ -713,6 +734,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "North Macedonia",
+      "capital": "Skopje",
+      "largest_city": "Skopje",
+      "coordinates": {
+        "latitude": "42°0′N",
+        "longitude": "21°26′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary republic",
+        "head_of_state": "Gordana Siljanovska-Davkova",
+        "head_of_government": "Hristijan Mickoski"
+      },
+      "legislature": "Assembly",
+      "area": {
+        "total_km2": 25436,
+        "water_percent": 1.1
+      },
+      "population": {
+        "year": 2021,
+        "total": 1836713,
+        "density_per_km2": 71.43
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.815,
+          "rank": 68
+        },
+        "gini": {
+          "year": 2022,
+          "value": 29.8
+        }
+      },
+      "currency": {
+        "name": "Macedonian denar",
+        "code": "MKD"
+      },
+      "calling_code": "389",
+      "iso_3166_code": "MK",
+      "internet_tld": ".mk .мкд",
+      "time_zone": "UTC+1",
+      "demonym": "Macedonian"
     }
   }
 }

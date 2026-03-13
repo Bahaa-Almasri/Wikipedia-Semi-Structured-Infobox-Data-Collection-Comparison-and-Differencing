@@ -3,7 +3,7 @@
     "country_name": "Bolivia",
     "slug": "bolivia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Bolivia",
-    "retrieved_at": "2026-03-11T17:52:51+00:00",
+    "retrieved_at": "2026-03-13T10:07:03+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -80,37 +80,37 @@
         "value_text": "Chamber of Deputies"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from Spain • Declared",
         "value_html": "<td class=\"infobox-data\">6 August 1825</td>",
         "value_text": "6 August 1825"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from Spain • Recognized",
         "value_html": "<td class=\"infobox-data\">21 July 1847</td>",
         "value_text": "21 July 1847"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from Spain • Current constitution",
         "value_html": "<td class=\"infobox-data\">7 February 2009</td>",
         "value_text": "7 February 2009"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">1,098,581 km<sup>2</sup> (424,164 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">27th</a>)</td>",
         "value_text": "1,098,581 km 2 (424,164 sq mi) ( 27th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.29</td>",
         "value_text": "1.29"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 11,365,333<sup class=\"reference\" id=\"cite_ref-ine2024_7-0\"><a href=\"#cite_note-ine2024-7\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">84th</a>)</td>",
         "value_text": "11,365,333 [ 5 ] ( 84th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">10.4/km<sup>2</sup> (26.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">224th</a>)</td>",
         "value_text": "10.4/km 2 (26.9/sq mi) ( 224th )"
       },
@@ -245,31 +245,31 @@
         "value_text": "Chamber of Deputies"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from Spain • Declared",
         "value_text": "6 August 1825"
       },
       {
-        "label": "• Recognized",
+        "label": "Independence from Spain • Recognized",
         "value_text": "21 July 1847"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from Spain • Current constitution",
         "value_text": "7 February 2009"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "1,098,581 km 2 (424,164 sq mi) ( 27th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.29"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_text": "11,365,333 ( 84th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "10.4/km 2 (26.9/sq mi) ( 224th )"
       },
       {
@@ -512,8 +512,8 @@
         ],
         "numbers": []
       },
-      "declared": {
-        "raw_label": "• Declared",
+      "independence_from_spain_declared": {
+        "raw_label": "Independence from Spain • Declared",
         "text": "6 August 1825",
         "tokens": [
           "6",
@@ -525,8 +525,8 @@
           1825
         ]
       },
-      "recognized": {
-        "raw_label": "• Recognized",
+      "independence_from_spain_recognized": {
+        "raw_label": "Independence from Spain • Recognized",
         "text": "21 July 1847",
         "tokens": [
           "21",
@@ -538,8 +538,8 @@
           1847
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_spain_current_constitution": {
+        "raw_label": "Independence from Spain • Current constitution",
         "text": "7 February 2009",
         "tokens": [
           "7",
@@ -551,22 +551,30 @@
           2009
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$56.339 billion ( 94th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "1,098,581 km 2 (424,164 sq mi) ( 27th )",
         "tokens": [
-          "56",
-          "339",
-          "billion",
-          "94th"
+          "1",
+          "098",
+          "581",
+          "km",
+          "2",
+          "424",
+          "164",
+          "sq",
+          "mi",
+          "27th"
         ],
         "numbers": [
-          56.339,
-          94
+          1098581,
+          2,
+          424164,
+          27
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.29",
         "tokens": [
           "1",
@@ -576,8 +584,8 @@
           1.29
         ]
       },
-      "2024_census": {
-        "raw_label": "• 2024 census",
+      "population_2024_census": {
+        "raw_label": "Population • 2024 census",
         "text": "11,365,333 ( 84th )",
         "tokens": [
           "11",
@@ -590,8 +598,8 @@
           84
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "10.4/km 2 (26.9/sq mi) ( 224th )",
         "tokens": [
           "10",
@@ -620,6 +628,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$56.339 billion ( 94th )",
+        "tokens": [
+          "56",
+          "339",
+          "billion",
+          "94th"
+        ],
+        "numbers": [
+          56.339,
+          94
         ]
       },
       "per_capita": {
@@ -732,6 +754,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Bolivia",
+      "capital": "Sucre",
+      "largest_city": "Santa Cruz",
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Rodrigo Paz"
+      },
+      "legislature": "Plurinational Legislative Assembly",
+      "area": {
+        "total_km2": 1098581,
+        "water_percent": 1.29
+      },
+      "population": {
+        "year": 2024,
+        "total": 11365333,
+        "rank": 84,
+        "density_per_km2": 10.4
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.733,
+          "rank": 108
+        },
+        "gini": {
+          "year": 2021,
+          "value": 40.9
+        }
+      },
+      "currency": {
+        "name": "Boliviano",
+        "code": "BOB"
+      },
+      "calling_code": "591",
+      "iso_3166_code": "BO",
+      "internet_tld": ".bo",
+      "time_zone": "UTC −04:00 ( BOT )",
+      "demonym": "Bolivian"
     }
   }
 }

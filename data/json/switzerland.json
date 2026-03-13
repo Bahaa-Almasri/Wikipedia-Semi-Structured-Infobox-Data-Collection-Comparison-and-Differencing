@@ -3,7 +3,7 @@
     "country_name": "Switzerland",
     "slug": "switzerland",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Switzerland",
-    "retrieved_at": "2026-03-11T17:58:04+00:00",
+    "retrieved_at": "2026-03-13T10:10:36+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -80,47 +80,47 @@
         "value_text": "National Council"
       },
       {
-        "label": "• Founded",
+        "label": "History • Founded",
         "value_html": "<td class=\"infobox-data\">1 August 1291<sup class=\"reference\" id=\"cite_ref-rütlischwur_9-0\"><a href=\"#cite_note-rütlischwur-9\"><span class=\"cite-bracket\">[</span>b<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "1 August 1291 [ b ]"
       },
       {
-        "label": "• Sovereignty recognised ( Peace of Westphalia )",
+        "label": "History • Sovereignty recognised ( Peace of Westphalia )",
         "value_html": "<td class=\"infobox-data\">24 October 1648</td>",
         "value_text": "24 October 1648"
       },
       {
-        "label": "• Federal Treaty",
+        "label": "History • Federal Treaty",
         "value_html": "<td class=\"infobox-data\">7 August 1815</td>",
         "value_text": "7 August 1815"
       },
       {
-        "label": "• Federal state",
+        "label": "History • Federal state",
         "value_html": "<td class=\"infobox-data\">12 September 1848<sup class=\"reference\" id=\"cite_ref-federal_constitution_10-0\"><a href=\"#cite_note-federal_constitution-10\"><span class=\"cite-bracket\">[</span>c<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-11\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "12 September 1848 [ c ] [ 8 ]"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">41,291<sup class=\"reference\" id=\"cite_ref-Territory_and_environment_12-0\"><a href=\"#cite_note-Territory_and_environment-12\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (15,943 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">132th</a>)</td>",
         "value_text": "41,291 [ 9 ] km 2 (15,943 sq mi) ( 132th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">4<sup class=\"reference\" id=\"cite_ref-Territory_and_environment_12-1\"><a href=\"#cite_note-Territory_and_environment-12\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "4 [ 9 ]"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 9,060,598<sup class=\"reference\" id=\"cite_ref-13\"><a href=\"#cite_note-13\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">99th</a>)</td>",
         "value_text": "9,060,598 [ 10 ] ( 99th )"
       },
       {
-        "label": "• 2015 census",
+        "label": "Population • 2015 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 8,327,126<sup class=\"reference\" id=\"cite_ref-14\"><a href=\"#cite_note-14\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "8,327,126 [ 11 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">207/km<sup>2</sup> (536.1/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">67th</a>)</td>",
         "value_text": "207/km 2 (536.1/sq mi) ( 67th )"
       },
@@ -260,39 +260,39 @@
         "value_text": "National Council"
       },
       {
-        "label": "• Founded",
+        "label": "History • Founded",
         "value_text": "1 August 1291"
       },
       {
-        "label": "• Sovereignty recognised ( Peace of Westphalia )",
+        "label": "History • Sovereignty recognised ( Peace of Westphalia )",
         "value_text": "24 October 1648"
       },
       {
-        "label": "• Federal Treaty",
+        "label": "History • Federal Treaty",
         "value_text": "7 August 1815"
       },
       {
-        "label": "• Federal state",
+        "label": "History • Federal state",
         "value_text": "12 September 1848"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "41,291 km 2 (15,943 sq mi) ( 132th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "4"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "9,060,598 ( 99th )"
       },
       {
-        "label": "• 2015 census",
+        "label": "Population • 2015 census",
         "value_text": "8,327,126"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "207/km 2 (536.1/sq mi) ( 67th )"
       },
       {
@@ -572,8 +572,8 @@
         ],
         "numbers": []
       },
-      "founded": {
-        "raw_label": "• Founded",
+      "history_founded": {
+        "raw_label": "History • Founded",
         "text": "1 August 1291",
         "tokens": [
           "1",
@@ -585,8 +585,8 @@
           1291
         ]
       },
-      "sovereignty_recognised_peace_of_westphalia": {
-        "raw_label": "• Sovereignty recognised ( Peace of Westphalia )",
+      "history_sovereignty_recognised_peace_of_westphalia": {
+        "raw_label": "History • Sovereignty recognised ( Peace of Westphalia )",
         "text": "24 October 1648",
         "tokens": [
           "24",
@@ -598,8 +598,8 @@
           1648
         ]
       },
-      "federal_treaty": {
-        "raw_label": "• Federal Treaty",
+      "history_federal_treaty": {
+        "raw_label": "History • Federal Treaty",
         "text": "7 August 1815",
         "tokens": [
           "7",
@@ -611,8 +611,8 @@
           1815
         ]
       },
-      "federal_state": {
-        "raw_label": "• Federal state",
+      "history_federal_state": {
+        "raw_label": "History • Federal state",
         "text": "12 September 1848",
         "tokens": [
           "12",
@@ -624,22 +624,29 @@
           1848
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$1.003 trillion ( 20th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "41,291 km 2 (15,943 sq mi) ( 132th )",
         "tokens": [
-          "1",
-          "003",
-          "trillion",
-          "20th"
+          "41",
+          "291",
+          "km",
+          "2",
+          "15",
+          "943",
+          "sq",
+          "mi",
+          "132th"
         ],
         "numbers": [
-          1.003,
-          20
+          41291,
+          2,
+          15943,
+          132
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "4",
         "tokens": [
           "4"
@@ -648,8 +655,8 @@
           4
         ]
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "9,060,598 ( 99th )",
         "tokens": [
           "9",
@@ -662,8 +669,8 @@
           99
         ]
       },
-      "2015_census": {
-        "raw_label": "• 2015 census",
+      "population_2015_census": {
+        "raw_label": "Population • 2015 census",
         "text": "8,327,126",
         "tokens": [
           "8",
@@ -674,8 +681,8 @@
           8327126
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "207/km 2 (536.1/sq mi) ( 67th )",
         "tokens": [
           "207",
@@ -703,6 +710,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$1.003 trillion ( 20th )",
+        "tokens": [
+          "1",
+          "003",
+          "trillion",
+          "20th"
+        ],
+        "numbers": [
+          1.003,
+          20
         ]
       },
       "per_capita": {
@@ -829,6 +850,48 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Switzerland",
+      "capital": "Bern ( de facto )",
+      "largest_city": "Zurich",
+      "government": {
+        "type": "Federal assembly-independent directorial republic"
+      },
+      "legislature": "Federal Assembly",
+      "area": {
+        "total_km2": 41291,
+        "water_percent": 4.0
+      },
+      "population": {
+        "year": 2025,
+        "total": 9060598,
+        "rank": 99,
+        "density_per_km2": 207.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.97,
+          "rank": 2
+        },
+        "gini": {
+          "year": 2023,
+          "value": 31.5
+        }
+      },
+      "currency": {
+        "name": "Swiss franc",
+        "code": "CHF"
+      },
+      "calling_code": "41",
+      "iso_3166_code": "CH",
+      "internet_tld": ".ch , .swiss",
+      "time_zone": "UTC+1"
     }
   }
 }

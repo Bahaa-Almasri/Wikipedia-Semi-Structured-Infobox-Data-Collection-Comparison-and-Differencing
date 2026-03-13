@@ -3,7 +3,7 @@
     "country_name": "Jordan",
     "slug": "jordan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Jordan",
-    "retrieved_at": "2026-03-11T17:56:16+00:00",
+    "retrieved_at": "2026-03-13T10:08:36+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,42 +65,42 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Emirate",
+        "label": "Independence from the United Kingdom • Emirate",
         "value_html": "<td class=\"infobox-data\">11 April 1921</td>",
         "value_text": "11 April 1921"
       },
       {
-        "label": "• Independence",
+        "label": "Independence from the United Kingdom • Independence",
         "value_html": "<td class=\"infobox-data\">25 May 1946</td>",
         "value_text": "25 May 1946"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_html": "<td class=\"infobox-data\">11 January 1952</td>",
         "value_text": "11 January 1952"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">89,342 km<sup>2</sup> (34,495 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">110th</a>)</td>",
         "value_text": "89,342 km 2 (34,495 sq mi) ( 110th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.6</td>",
         "value_text": "0.6"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\">11,484,805<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">84th</a>)</td>",
         "value_text": "11,484,805 [ 3 ] ( 84th )"
       },
       {
-        "label": "• 2015 census",
+        "label": "Population • 2015 census",
         "value_html": "<td class=\"infobox-data\">9,531,712<sup class=\"reference\" id=\"cite_ref-census_4-0\"><a href=\"#cite_note-census-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "9,531,712 [ 4 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">114/km<sup>2</sup> (295.3/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">70th</a>)</td>",
         "value_text": "114/km 2 (295.3/sq mi) ( 70th )"
       },
@@ -218,35 +218,35 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Emirate",
+        "label": "Independence from the United Kingdom • Emirate",
         "value_text": "11 April 1921"
       },
       {
-        "label": "• Independence",
+        "label": "Independence from the United Kingdom • Independence",
         "value_text": "25 May 1946"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_text": "11 January 1952"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "89,342 km 2 (34,495 sq mi) ( 110th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.6"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "11,484,805 ( 84th )"
       },
       {
-        "label": "• 2015 census",
+        "label": "Population • 2015 census",
         "value_text": "9,531,712"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "114/km 2 (295.3/sq mi) ( 70th )"
       },
       {
@@ -451,8 +451,8 @@
         ],
         "numbers": []
       },
-      "emirate": {
-        "raw_label": "• Emirate",
+      "independence_from_the_united_kingdom_emirate": {
+        "raw_label": "Independence from the United Kingdom • Emirate",
         "text": "11 April 1921",
         "tokens": [
           "11",
@@ -464,8 +464,8 @@
           1921
         ]
       },
-      "independence": {
-        "raw_label": "• Independence",
+      "independence_from_the_united_kingdom_independence": {
+        "raw_label": "Independence from the United Kingdom • Independence",
         "text": "25 May 1946",
         "tokens": [
           "25",
@@ -477,8 +477,8 @@
           1946
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_the_united_kingdom_current_constitution": {
+        "raw_label": "Independence from the United Kingdom • Current constitution",
         "text": "11 January 1952",
         "tokens": [
           "11",
@@ -490,22 +490,29 @@
           1952
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$50.022\tbillion ( 93rd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "89,342 km 2 (34,495 sq mi) ( 110th )",
         "tokens": [
-          "50",
-          "022",
-          "billion",
-          "93rd"
+          "89",
+          "342",
+          "km",
+          "2",
+          "34",
+          "495",
+          "sq",
+          "mi",
+          "110th"
         ],
         "numbers": [
-          50.022,
-          93
+          89342,
+          2,
+          34495,
+          110
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.6",
         "tokens": [
           "0",
@@ -515,8 +522,8 @@
           0.6
         ]
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "11,484,805 ( 84th )",
         "tokens": [
           "11",
@@ -529,8 +536,8 @@
           84
         ]
       },
-      "2015_census": {
-        "raw_label": "• 2015 census",
+      "population_2015_census": {
+        "raw_label": "Population • 2015 census",
         "text": "9,531,712",
         "tokens": [
           "9",
@@ -541,8 +548,8 @@
           9531712
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "114/km 2 (295.3/sq mi) ( 70th )",
         "tokens": [
           "114",
@@ -570,6 +577,20 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$50.022\tbillion ( 93rd )",
+        "tokens": [
+          "50",
+          "022",
+          "billion",
+          "93rd"
+        ],
+        "numbers": [
+          50.022,
+          93
         ]
       },
       "per_capita": {
@@ -673,6 +694,55 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Jordan",
+      "capital": "Amman",
+      "largest_city": "Amman",
+      "coordinates": {
+        "latitude": "31°57′N",
+        "longitude": "35°56′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary constitutional monarchy",
+        "head_of_state": "Abdullah II",
+        "head_of_government": "Jafar Hassan"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 89342,
+        "water_percent": 0.6
+      },
+      "population": {
+        "year": 2023,
+        "total": 11484805,
+        "rank": 84,
+        "density_per_km2": 114.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.754,
+          "rank": 100
+        },
+        "gini": {
+          "year": 2011,
+          "value": 35.4
+        }
+      },
+      "currency": {
+        "name": "Jordanian dinar",
+        "code": "JOD"
+      },
+      "calling_code": "962",
+      "iso_3166_code": "JO",
+      "internet_tld": ".jo .الاردن",
+      "time_zone": "UTC+03:00",
+      "demonym": "Jordanian"
     }
   }
 }

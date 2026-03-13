@@ -3,7 +3,7 @@
     "country_name": "Cabo Verde",
     "slug": "cabo_verde",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Cape_Verde",
-    "retrieved_at": "2026-03-11T17:53:04+00:00",
+    "retrieved_at": "2026-03-13T10:07:18+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -55,27 +55,27 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Granted",
+        "label": "Independence from Portugal • Granted",
         "value_html": "<td class=\"infobox-data\">5 July 1975</td>",
         "value_text": "5 July 1975"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">4,033 km<sup>2</sup> (1,557 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">166th</a>)</td>",
         "value_text": "4,033 km 2 (1,557 sq mi) ( 166th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">negligible</td>",
         "value_text": "negligible"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_html": "<td class=\"infobox-data\">491,233<sup class=\"reference\" id=\"cite_ref-census_5-0\"><a href=\"#cite_note-census-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">172nd</a>)</td>",
         "value_text": "491,233 [ 5 ] ( 172nd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">130/km<sup>2</sup> (336.7/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">89th</a>)</td>",
         "value_text": "130/km 2 (336.7/sq mi) ( 89th )"
       },
@@ -190,23 +190,23 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Granted",
+        "label": "Independence from Portugal • Granted",
         "value_text": "5 July 1975"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "4,033 km 2 (1,557 sq mi) ( 166th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "negligible"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_text": "491,233 ( 172nd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "130/km 2 (336.7/sq mi) ( 89th )"
       },
       {
@@ -411,8 +411,8 @@
         ],
         "numbers": []
       },
-      "granted": {
-        "raw_label": "• Granted",
+      "independence_from_portugal_granted": {
+        "raw_label": "Independence from Portugal • Granted",
         "text": "5 July 1975",
         "tokens": [
           "5",
@@ -424,30 +424,37 @@
           1975
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$2.598 billion ( 181st )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "4,033 km 2 (1,557 sq mi) ( 166th )",
         "tokens": [
+          "4",
+          "033",
+          "km",
           "2",
-          "598",
-          "billion",
-          "181st"
+          "1",
+          "557",
+          "sq",
+          "mi",
+          "166th"
         ],
         "numbers": [
-          2.598,
-          181
+          4033,
+          2,
+          1557,
+          166
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "negligible",
         "tokens": [
           "negligible"
         ],
         "numbers": []
       },
-      "2021_census": {
-        "raw_label": "• 2021 census",
+      "population_2021_census": {
+        "raw_label": "Population • 2021 census",
         "text": "491,233 ( 172nd )",
         "tokens": [
           "491",
@@ -459,8 +466,8 @@
           172
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "130/km 2 (336.7/sq mi) ( 89th )",
         "tokens": [
           "130",
@@ -488,6 +495,20 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$2.598 billion ( 181st )",
+        "tokens": [
+          "2",
+          "598",
+          "billion",
+          "181st"
+        ],
+        "numbers": [
+          2.598,
+          181
         ]
       },
       "per_capita": {
@@ -602,6 +623,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Cabo Verde",
+      "capital": "Praia",
+      "largest_city": "Praia",
+      "government": {
+        "type": "Unitary semi-presidential republic",
+        "head_of_state": "José Maria Neves",
+        "head_of_government": "Ulisses Correia e Silva"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 4033
+      },
+      "population": {
+        "year": 2021,
+        "total": 491233,
+        "rank": 172,
+        "density_per_km2": 130.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.668,
+          "rank": 135
+        },
+        "gini": {
+          "year": 2015,
+          "value": 42.4
+        }
+      },
+      "currency": {
+        "name": "Cape Verdean escudo",
+        "code": "CVE"
+      },
+      "calling_code": "238",
+      "iso_3166_code": "CV",
+      "internet_tld": ".cv",
+      "time_zone": "UTC –01:00 ( CVT )",
+      "demonym": "Cape Verdean or Cabo Verdean"
     }
   }
 }

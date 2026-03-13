@@ -3,7 +3,7 @@
     "country_name": "Yemen",
     "slug": "yemen",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Yemen",
-    "retrieved_at": "2026-03-11T17:58:40+00:00",
+    "retrieved_at": "2026-03-13T10:10:55+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -80,32 +80,32 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Unification",
+        "label": "Establishment • Unification",
         "value_html": "<td class=\"infobox-data\">22 May 1990</td>",
         "value_text": "22 May 1990"
       },
       {
-        "label": "• Current constitution",
+        "label": "Establishment • Current constitution",
         "value_html": "<td class=\"infobox-data\">16 May 1991</td>",
         "value_text": "16 May 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">455,503<sup class=\"reference\" id=\"cite_ref-area_10-0\"><a href=\"#cite_note-area-10\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (175,871 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">54th</a>)</td>",
         "value_text": "455,503 [ 5 ] km 2 (175,871 sq mi) ( 54th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">Negligible</td>",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 32,684,503<sup class=\"reference\" id=\"cite_ref-11\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">48th</a>)</td>",
         "value_text": "32,684,503 [ 6 ] ( 48th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">71.8/km<sup>2</sup> (186.0/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">143rd</a>)</td>",
         "value_text": "71.8/km 2 (186.0/sq mi) ( 143rd )"
       },
@@ -235,27 +235,27 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Unification",
+        "label": "Establishment • Unification",
         "value_text": "22 May 1990"
       },
       {
-        "label": "• Current constitution",
+        "label": "Establishment • Current constitution",
         "value_text": "16 May 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "455,503 km 2 (175,871 sq mi) ( 54th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "Negligible"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "32,684,503 ( 48th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "71.8/km 2 (186.0/sq mi) ( 143rd )"
       },
       {
@@ -512,8 +512,8 @@
         ],
         "numbers": []
       },
-      "unification": {
-        "raw_label": "• Unification",
+      "establishment_unification": {
+        "raw_label": "Establishment • Unification",
         "text": "22 May 1990",
         "tokens": [
           "22",
@@ -525,8 +525,8 @@
           1990
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "establishment_current_constitution": {
+        "raw_label": "Establishment • Current constitution",
         "text": "16 May 1991",
         "tokens": [
           "16",
@@ -538,30 +538,37 @@
           1991
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$17.400 billion ( 135th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "455,503 km 2 (175,871 sq mi) ( 54th )",
         "tokens": [
-          "17",
-          "400",
-          "billion",
-          "135th"
+          "455",
+          "503",
+          "km",
+          "2",
+          "175",
+          "871",
+          "sq",
+          "mi",
+          "54th"
         ],
         "numbers": [
-          17.4,
-          135
+          455503,
+          2,
+          175871,
+          54
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "Negligible",
         "tokens": [
           "Negligible"
         ],
         "numbers": []
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "32,684,503 ( 48th )",
         "tokens": [
           "32",
@@ -574,8 +581,8 @@
           48
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "71.8/km 2 (186.0/sq mi) ( 143rd )",
         "tokens": [
           "71",
@@ -604,6 +611,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$17.400 billion ( 135th )",
+        "tokens": [
+          "17",
+          "400",
+          "billion",
+          "135th"
+        ],
+        "numbers": [
+          17.4,
+          135
         ]
       },
       "per_capita": {
@@ -705,6 +726,48 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Yemen",
+      "capital": "Sanaa",
+      "largest_city": "Sanaa",
+      "government": {
+        "type": "Unitary semi-presidential republic under a provisional government",
+        "head_of_government": "Shaea al-Zindani"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 455503
+      },
+      "population": {
+        "year": 2023,
+        "total": 32684503,
+        "rank": 48,
+        "density_per_km2": 71.8
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.47,
+          "rank": 184
+        },
+        "gini": {
+          "year": 2014,
+          "value": 36.7
+        }
+      },
+      "currency": {
+        "name": "Yemeni rial",
+        "code": "YER"
+      },
+      "calling_code": "967",
+      "iso_3166_code": "YE",
+      "internet_tld": "List .ye اليمن.",
+      "time_zone": "UTC+3"
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Ghana",
     "slug": "ghana",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ghana",
-    "retrieved_at": "2026-03-11T17:55:33+00:00",
+    "retrieved_at": "2026-03-13T10:08:04+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,32 +75,32 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• Dominion",
+        "label": "Independence from the United Kingdom • Dominion",
         "value_html": "<td class=\"infobox-data\">6 March 1957</td>",
         "value_text": "6 March 1957"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_html": "<td class=\"infobox-data\">1 July 1960</td>",
         "value_text": "1 July 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">240,000<sup class=\"reference\" id=\"cite_ref-IMFWEO.GH_5-0\"><a href=\"#cite_note-IMFWEO.GH-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (93,000 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">80th</a>)</td>",
         "value_text": "240,000 [ 5 ] km 2 (93,000 sq mi) ( 80th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">4.61 (11,000 km<sup>2</sup>; 4,247 mi<sup>2</sup>)</td>",
         "value_text": "4.61 (11,000 km 2 ; 4,247 mi 2 )"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 35,039,451<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">46th</a>)</td>",
         "value_text": "35,039,451 [ 6 ] ( 46th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">151/km<sup>2</sup> (391.1/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">90th</a>)</td>",
         "value_text": "151/km 2 (391.1/sq mi) ( 90th )"
       },
@@ -226,27 +226,27 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• Dominion",
+        "label": "Independence from the United Kingdom • Dominion",
         "value_text": "6 March 1957"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_text": "1 July 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "240,000 km 2 (93,000 sq mi) ( 80th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "4.61 (11,000 km 2 ; 4,247 mi 2 )"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "35,039,451 ( 46th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "151/km 2 (391.1/sq mi) ( 90th )"
       },
       {
@@ -524,8 +524,8 @@
         ],
         "numbers": []
       },
-      "dominion": {
-        "raw_label": "• Dominion",
+      "independence_from_the_united_kingdom_dominion": {
+        "raw_label": "Independence from the United Kingdom • Dominion",
         "text": "6 March 1957",
         "tokens": [
           "6",
@@ -537,8 +537,8 @@
           1957
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "independence_from_the_united_kingdom_republic": {
+        "raw_label": "Independence from the United Kingdom • Republic",
         "text": "1 July 1960",
         "tokens": [
           "1",
@@ -550,22 +550,29 @@
           1960
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$88.033 billion ( 79th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "240,000 km 2 (93,000 sq mi) ( 80th )",
         "tokens": [
-          "88",
-          "033",
-          "billion",
-          "79th"
+          "240",
+          "000",
+          "km",
+          "2",
+          "93",
+          "000",
+          "sq",
+          "mi",
+          "80th"
         ],
         "numbers": [
-          88.033,
-          79
+          240000,
+          2,
+          93000,
+          80
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "4.61 (11,000 km 2 ; 4,247 mi 2 )",
         "tokens": [
           "4",
@@ -587,8 +594,8 @@
           2
         ]
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "35,039,451 ( 46th )",
         "tokens": [
           "35",
@@ -601,8 +608,8 @@
           46
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "151/km 2 (391.1/sq mi) ( 90th )",
         "tokens": [
           "151",
@@ -630,6 +637,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$88.033 billion ( 79th )",
+        "tokens": [
+          "88",
+          "033",
+          "billion",
+          "79th"
+        ],
+        "numbers": [
+          88.033,
+          79
         ]
       },
       "per_capita": {
@@ -731,6 +752,51 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Ghana",
+      "capital": "Accra",
+      "largest_city": "Accra",
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "John Mahama",
+        "speaker_of_parliament": "Alban Bagbin"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 240000,
+        "water_percent": 4.61
+      },
+      "population": {
+        "year": 2025,
+        "total": 35039451,
+        "rank": 46,
+        "density_per_km2": 151.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.628,
+          "rank": 143
+        },
+        "gini": {
+          "year": 2024,
+          "value": 44
+        }
+      },
+      "currency": {
+        "name": "Cedi",
+        "code": "GHS"
+      },
+      "calling_code": "233",
+      "iso_3166_code": "GH",
+      "internet_tld": ".gh",
+      "time_zone": "UTC ±00:00 ( GMT )",
+      "demonym": "Ghanaian"
     }
   }
 }

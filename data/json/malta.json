@@ -3,7 +3,7 @@
     "country_name": "Malta",
     "slug": "malta",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Malta",
-    "retrieved_at": "2026-03-11T17:56:35+00:00",
+    "retrieved_at": "2026-03-13T10:09:03+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,32 +60,32 @@
         "value_text": "Parliament of Malta"
       },
       {
-        "label": "• State of Malta",
+        "label": "Independence from the United Kingdom • State of Malta",
         "value_html": "<td class=\"infobox-data\">21 September 1964</td>",
         "value_text": "21 September 1964"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_html": "<td class=\"infobox-data\">13 December 1974</td>",
         "value_text": "13 December 1974"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">316<sup class=\"reference\" id=\"cite_ref-Zammit_6-0\"><a href=\"#cite_note-Zammit-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (122 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">187th</a>)</td>",
         "value_text": "316 [ 6 ] km 2 (122 sq mi) ( 187th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.001</td>",
         "value_text": "0.001"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_html": "<td class=\"infobox-data\"><span class=\"nowrap\">519,562<sup class=\"reference\" id=\"cite_ref-NSO_7-0\"><a href=\"#cite_note-NSO-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup></span></td>",
         "value_text": "519,562 [ 7 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">1,649/km<sup>2</sup> (4,270.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">8th</a>)</td>",
         "value_text": "1,649/km 2 (4,270.9/sq mi) ( 8th )"
       },
@@ -204,27 +204,27 @@
         "value_text": "Parliament of Malta"
       },
       {
-        "label": "• State of Malta",
+        "label": "Independence from the United Kingdom • State of Malta",
         "value_text": "21 September 1964"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_text": "13 December 1974"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "316 km 2 (122 sq mi) ( 187th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.001"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_text": "519,562"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "1,649/km 2 (4,270.9/sq mi) ( 8th )"
       },
       {
@@ -444,8 +444,8 @@
         ],
         "numbers": []
       },
-      "state_of_malta": {
-        "raw_label": "• State of Malta",
+      "independence_from_the_united_kingdom_state_of_malta": {
+        "raw_label": "Independence from the United Kingdom • State of Malta",
         "text": "21 September 1964",
         "tokens": [
           "21",
@@ -457,8 +457,8 @@
           1964
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "independence_from_the_united_kingdom_republic": {
+        "raw_label": "Independence from the United Kingdom • Republic",
         "text": "13 December 1974",
         "tokens": [
           "13",
@@ -470,22 +470,27 @@
           1974
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$22.737 billion ( 118th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "316 km 2 (122 sq mi) ( 187th )",
         "tokens": [
-          "22",
-          "737",
-          "billion",
-          "118th"
+          "316",
+          "km",
+          "2",
+          "122",
+          "sq",
+          "mi",
+          "187th"
         ],
         "numbers": [
-          22.737,
-          118
+          316,
+          2,
+          122,
+          187
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.001",
         "tokens": [
           "0",
@@ -495,8 +500,8 @@
           0.001
         ]
       },
-      "2021_census": {
-        "raw_label": "• 2021 census",
+      "population_2021_census": {
+        "raw_label": "Population • 2021 census",
         "text": "519,562",
         "tokens": [
           "519",
@@ -506,8 +511,8 @@
           519562
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "1,649/km 2 (4,270.9/sq mi) ( 8th )",
         "tokens": [
           "1",
@@ -537,6 +542,20 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$22.737 billion ( 118th )",
+        "tokens": [
+          "22",
+          "737",
+          "billion",
+          "118th"
+        ],
+        "numbers": [
+          22.737,
+          118
         ]
       },
       "per_capita": {
@@ -651,6 +670,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Malta",
+      "capital": "Valletta",
+      "largest_city": "Valletta",
+      "coordinates": {
+        "latitude": "35°54′N",
+        "longitude": "14°31′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary republic",
+        "head_of_state": "Myriam Spiteri Debono",
+        "head_of_government": "Robert Abela"
+      },
+      "legislature": "Parliament of Malta",
+      "area": {
+        "total_km2": 316,
+        "water_percent": 0.001
+      },
+      "population": {
+        "year": 2021,
+        "total": 519562,
+        "density_per_km2": 1649.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2024,
+        "gdp_ppp_year": 2024
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.924,
+          "rank": 24
+        },
+        "gini": {
+          "year": 2020,
+          "value": 31.4
+        }
+      },
+      "currency": {
+        "name": "Euro"
+      },
+      "calling_code": "356",
+      "iso_3166_code": "MT",
+      "internet_tld": ".mt [b]",
+      "time_zone": "UTC+1",
+      "demonym": "Maltese"
     }
   }
 }

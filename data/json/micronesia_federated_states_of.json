@@ -3,7 +3,7 @@
     "country_name": "Micronesia (Federated States of)",
     "slug": "micronesia_federated_states_of",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Federated_States_of_Micronesia",
-    "retrieved_at": "2026-03-11T17:56:40+00:00",
+    "retrieved_at": "2026-03-13T10:09:09+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,32 +70,32 @@
         "value_text": "Congress"
       },
       {
-        "label": "• Republic proclaimed",
+        "label": "Independence from the United States • Republic proclaimed",
         "value_html": "<td class=\"infobox-data\">May 10, 1979</td>",
         "value_text": "May 10, 1979"
       },
       {
-        "label": "• Compact of Free Association",
+        "label": "Independence from the United States • Compact of Free Association",
         "value_html": "<td class=\"infobox-data\">November 3, 1986</td>",
         "value_text": "November 3, 1986"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">702 km<sup>2</sup> (271 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">177th</a>)</td>",
         "value_text": "702 km 2 (271 sq mi) ( 177th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">negligible</td>",
         "value_text": "negligible"
       },
       {
-        "label": "• 2019 estimate",
+        "label": "Population • 2019 estimate",
         "value_html": "<td class=\"infobox-data\">104,468<sup class=\"reference\" id=\"cite_ref-4\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">181st</a>)</td>",
         "value_text": "104,468 [ 4 ] ( 181st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">158.1/km<sup>2</sup> (409.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">75th</a>)</td>",
         "value_text": "158.1/km 2 (409.5/sq mi) ( 75th )"
       },
@@ -222,27 +222,27 @@
         "value_text": "Congress"
       },
       {
-        "label": "• Republic proclaimed",
+        "label": "Independence from the United States • Republic proclaimed",
         "value_text": "May 10, 1979"
       },
       {
-        "label": "• Compact of Free Association",
+        "label": "Independence from the United States • Compact of Free Association",
         "value_text": "November 3, 1986"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "702 km 2 (271 sq mi) ( 177th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "negligible"
       },
       {
-        "label": "• 2019 estimate",
+        "label": "Population • 2019 estimate",
         "value_text": "104,468 ( 181st )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "158.1/km 2 (409.5/sq mi) ( 75th )"
       },
       {
@@ -517,8 +517,8 @@
         ],
         "numbers": []
       },
-      "republic_proclaimed": {
-        "raw_label": "• Republic proclaimed",
+      "independence_from_the_united_states_republic_proclaimed": {
+        "raw_label": "Independence from the United States • Republic proclaimed",
         "text": "May 10, 1979",
         "tokens": [
           "May",
@@ -530,8 +530,8 @@
           1979
         ]
       },
-      "compact_of_free_association": {
-        "raw_label": "• Compact of Free Association",
+      "independence_from_the_united_states_compact_of_free_association": {
+        "raw_label": "Independence from the United States • Compact of Free Association",
         "text": "November 3, 1986",
         "tokens": [
           "November",
@@ -543,27 +543,35 @@
           1986
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$500 million",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "702 km 2 (271 sq mi) ( 177th )",
         "tokens": [
-          "500",
-          "million"
+          "702",
+          "km",
+          "2",
+          "271",
+          "sq",
+          "mi",
+          "177th"
         ],
         "numbers": [
-          500
+          702,
+          2,
+          271,
+          177
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "negligible",
         "tokens": [
           "negligible"
         ],
         "numbers": []
       },
-      "2019_estimate": {
-        "raw_label": "• 2019 estimate",
+      "population_2019_estimate": {
+        "raw_label": "Population • 2019 estimate",
         "text": "104,468 ( 181st )",
         "tokens": [
           "104",
@@ -575,8 +583,8 @@
           181
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "158.1/km 2 (409.5/sq mi) ( 75th )",
         "tokens": [
           "158",
@@ -605,6 +613,17 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$500 million",
+        "tokens": [
+          "500",
+          "million"
+        ],
+        "numbers": [
+          500
         ]
       },
       "per_capita": {
@@ -717,6 +736,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Micronesia (Federated States of)",
+      "capital": "Palikir",
+      "largest_city": "Weno",
+      "coordinates": {
+        "latitude": "6°55′N",
+        "longitude": "158°11′E"
+      },
+      "government": {
+        "type": "Federal assembly-independent presidential republic under a non-partisan democracy",
+        "head_of_state": "Wesley Simina"
+      },
+      "legislature": "Congress",
+      "area": {
+        "total_km2": 702
+      },
+      "population": {
+        "year": 2019,
+        "total": 104468,
+        "rank": 181,
+        "density_per_km2": 158.1
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2022,
+          "value": 0.634,
+          "rank": 135
+        },
+        "gini": {
+          "year": 2013,
+          "value": 40.1
+        }
+      },
+      "currency": {
+        "name": "United States dollar",
+        "code": "USD"
+      },
+      "calling_code": "691",
+      "iso_3166_code": "FM",
+      "internet_tld": ".fm",
+      "time_zone": "UTC+10",
+      "demonym": "Micronesian"
     }
   }
 }

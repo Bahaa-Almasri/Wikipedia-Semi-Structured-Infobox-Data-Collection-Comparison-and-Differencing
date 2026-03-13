@@ -3,7 +3,7 @@
     "country_name": "India",
     "slug": "india",
     "wikipedia_url": "https://en.wikipedia.org/wiki/India",
-    "retrieved_at": "2026-03-11T17:56:02+00:00",
+    "retrieved_at": "2026-03-13T10:08:20+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -85,37 +85,37 @@
         "value_text": "Lok Sabha"
       },
       {
-        "label": "• Dominion",
+        "label": "Independence from the United Kingdom • Dominion",
         "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Independence_Day_(India)\" title=\"Independence Day (India)\">15 August 1947</a></td>",
         "value_text": "15 August 1947"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_html": "<td class=\"infobox-data\"><a href=\"/wiki/Republic_Day_(India)\" title=\"Republic Day (India)\">26 January 1950</a></td>",
         "value_text": "26 January 1950"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">3,287,263 km<sup>2</sup> (1,269,219 sq mi)<sup class=\"reference\" id=\"cite_ref-india.gov.in2_10-1\"><a href=\"#cite_note-india.gov.in2-10\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-20\"><a href=\"#cite_note-20\"><span class=\"cite-bracket\">[</span>h<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">7th</a>)</td>",
         "value_text": "3,287,263 km 2 (1,269,219 sq mi) [ 7 ] [ h ] ( 7th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">9.6</td>",
         "value_text": "9.6"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 1,428,627,663<sup class=\"reference\" id=\"cite_ref-WPP_UN_21-0\"><a href=\"#cite_note-WPP_UN-21\"><span class=\"cite-bracket\">[</span>13<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">1st</a>)</td>",
         "value_text": "1,428,627,663 [ 13 ] ( 1st )"
       },
       {
-        "label": "• 2011 census",
+        "label": "Population • 2011 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 1,210,854,977<sup class=\"reference\" id=\"cite_ref-22\"><a href=\"#cite_note-22\"><span class=\"cite-bracket\">[</span>14<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-23\"><a href=\"#cite_note-23\"><span class=\"cite-bracket\">[</span>15<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">2nd</a>)</td>",
         "value_text": "1,210,854,977 [ 14 ] [ 15 ] ( 2nd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">433.4/km<sup>2</sup> (1,122.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">30th</a>)</td>",
         "value_text": "433.4/km 2 (1,122.5/sq mi) ( 30th )"
       },
@@ -254,31 +254,31 @@
         "value_text": "Lok Sabha"
       },
       {
-        "label": "• Dominion",
+        "label": "Independence from the United Kingdom • Dominion",
         "value_text": "15 August 1947"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_text": "26 January 1950"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "3,287,263 km 2 (1,269,219 sq mi) ( 7th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "9.6"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "1,428,627,663 ( 1st )"
       },
       {
-        "label": "• 2011 census",
+        "label": "Population • 2011 census",
         "value_text": "1,210,854,977 ( 2nd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "433.4/km 2 (1,122.5/sq mi) ( 30th )"
       },
       {
@@ -582,8 +582,8 @@
         ],
         "numbers": []
       },
-      "dominion": {
-        "raw_label": "• Dominion",
+      "independence_from_the_united_kingdom_dominion": {
+        "raw_label": "Independence from the United Kingdom • Dominion",
         "text": "15 August 1947",
         "tokens": [
           "15",
@@ -595,8 +595,8 @@
           1947
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "independence_from_the_united_kingdom_republic": {
+        "raw_label": "Independence from the United Kingdom • Republic",
         "text": "26 January 1950",
         "tokens": [
           "26",
@@ -608,22 +608,31 @@
           1950
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$4.187 trillion ( 4th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "3,287,263 km 2 (1,269,219 sq mi) ( 7th )",
         "tokens": [
-          "4",
-          "187",
-          "trillion",
-          "4th"
+          "3",
+          "287",
+          "263",
+          "km",
+          "2",
+          "1",
+          "269",
+          "219",
+          "sq",
+          "mi",
+          "7th"
         ],
         "numbers": [
-          4.187,
-          4
+          3287263,
+          2,
+          1269219,
+          7
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "9.6",
         "tokens": [
           "9",
@@ -633,8 +642,8 @@
           9.6
         ]
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "1,428,627,663 ( 1st )",
         "tokens": [
           "1",
@@ -648,8 +657,8 @@
           1
         ]
       },
-      "2011_census": {
-        "raw_label": "• 2011 census",
+      "population_2011_census": {
+        "raw_label": "Population • 2011 census",
         "text": "1,210,854,977 ( 2nd )",
         "tokens": [
           "1",
@@ -663,8 +672,8 @@
           2
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "433.4/km 2 (1,122.5/sq mi) ( 30th )",
         "tokens": [
           "433",
@@ -694,6 +703,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$4.187 trillion ( 4th )",
+        "tokens": [
+          "4",
+          "187",
+          "trillion",
+          "4th"
+        ],
+        "numbers": [
+          4.187,
+          4
         ]
       },
       "per_capita": {
@@ -808,6 +831,49 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "India",
+      "capital": "New Delhi",
+      "largest_city": "New Delhi",
+      "government": {
+        "type": "Federal parliamentary republic",
+        "head_of_state": "Droupadi Murmu",
+        "head_of_government": "Narendra Modi"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 3287263,
+        "water_percent": 9.6
+      },
+      "population": {
+        "year": 2023,
+        "total": 1428627663,
+        "rank": 1,
+        "density_per_km2": 433.4
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.685,
+          "rank": 130
+        },
+        "gini": {
+          "year": 2022,
+          "value": 25.5
+        }
+      },
+      "currency": {
+        "name": "Indian rupee"
+      },
+      "calling_code": "91",
+      "iso_3166_code": "IN",
+      "internet_tld": ".in ( others )",
+      "time_zone": "UTC+05:30"
     }
   }
 }

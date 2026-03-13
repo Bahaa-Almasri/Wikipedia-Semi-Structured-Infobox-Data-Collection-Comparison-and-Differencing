@@ -3,7 +3,7 @@
     "country_name": "Panama",
     "slug": "panama",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Panama",
-    "retrieved_at": "2026-03-11T17:57:09+00:00",
+    "retrieved_at": "2026-03-13T10:09:36+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,42 +60,42 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• from Spanish Empire",
+        "label": "Independence • from Spanish Empire",
         "value_html": "<td class=\"infobox-data\">November 28, 1821</td>",
         "value_text": "November 28, 1821"
       },
       {
-        "label": "• union with Gran Colombia",
+        "label": "Independence • union with Gran Colombia",
         "value_html": "<td class=\"infobox-data\">December 1821</td>",
         "value_text": "December 1821"
       },
       {
-        "label": "• from Republic of Colombia",
+        "label": "Independence • from Republic of Colombia",
         "value_html": "<td class=\"infobox-data\">November 3, 1903</td>",
         "value_text": "November 3, 1903"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence • Current constitution",
         "value_html": "<td class=\"infobox-data\">October 11, 1972</td>",
         "value_text": "October 11, 1972"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">75,417 km<sup>2</sup> (29,119 sq mi)<sup class=\"reference\" id=\"cite_ref-unstats08_3-0\"><a href=\"#cite_note-unstats08-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-4\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">116th</a>)</td>",
         "value_text": "75,417 km 2 (29,119 sq mi) [ 3 ] [ 4 ] ( 116th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.9</td>",
         "value_text": "2.9"
       },
       {
-        "label": "• 2022 estimate",
+        "label": "Population • 2022 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 4,337,768<sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">127th</a>)</td>",
         "value_text": "4,337,768 [ 5 ] ( 127th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">56/km<sup>2</sup> (145.0/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">122nd</a>)</td>",
         "value_text": "56/km 2 (145.0/sq mi) ( 122nd )"
       },
@@ -214,35 +214,35 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• from Spanish Empire",
+        "label": "Independence • from Spanish Empire",
         "value_text": "November 28, 1821"
       },
       {
-        "label": "• union with Gran Colombia",
+        "label": "Independence • union with Gran Colombia",
         "value_text": "December 1821"
       },
       {
-        "label": "• from Republic of Colombia",
+        "label": "Independence • from Republic of Colombia",
         "value_text": "November 3, 1903"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence • Current constitution",
         "value_text": "October 11, 1972"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "75,417 km 2 (29,119 sq mi) ( 116th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.9"
       },
       {
-        "label": "• 2022 estimate",
+        "label": "Population • 2022 estimate",
         "value_text": "4,337,768 ( 127th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "56/km 2 (145.0/sq mi) ( 122nd )"
       },
       {
@@ -477,8 +477,8 @@
         ],
         "numbers": []
       },
-      "from_spanish_empire": {
-        "raw_label": "• from Spanish Empire",
+      "independence_from_spanish_empire": {
+        "raw_label": "Independence • from Spanish Empire",
         "text": "November 28, 1821",
         "tokens": [
           "November",
@@ -490,8 +490,8 @@
           1821
         ]
       },
-      "union_with_gran_colombia": {
-        "raw_label": "• union with Gran Colombia",
+      "independence_union_with_gran_colombia": {
+        "raw_label": "Independence • union with Gran Colombia",
         "text": "December 1821",
         "tokens": [
           "December",
@@ -501,8 +501,8 @@
           1821
         ]
       },
-      "from_republic_of_colombia": {
-        "raw_label": "• from Republic of Colombia",
+      "independence_from_republic_of_colombia": {
+        "raw_label": "Independence • from Republic of Colombia",
         "text": "November 3, 1903",
         "tokens": [
           "November",
@@ -514,8 +514,8 @@
           1903
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_current_constitution": {
+        "raw_label": "Independence • Current constitution",
         "text": "October 11, 1972",
         "tokens": [
           "October",
@@ -527,22 +527,29 @@
           1972
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$91.731 billion ( 77th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "75,417 km 2 (29,119 sq mi) ( 116th )",
         "tokens": [
-          "91",
-          "731",
-          "billion",
-          "77th"
+          "75",
+          "417",
+          "km",
+          "2",
+          "29",
+          "119",
+          "sq",
+          "mi",
+          "116th"
         ],
         "numbers": [
-          91.731,
-          77
+          75417,
+          2,
+          29119,
+          116
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.9",
         "tokens": [
           "2",
@@ -552,8 +559,8 @@
           2.9
         ]
       },
-      "2022_estimate": {
-        "raw_label": "• 2022 estimate",
+      "population_2022_estimate": {
+        "raw_label": "Population • 2022 estimate",
         "text": "4,337,768 ( 127th )",
         "tokens": [
           "4",
@@ -566,8 +573,8 @@
           127
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "56/km 2 (145.0/sq mi) ( 122nd )",
         "tokens": [
           "56",
@@ -595,6 +602,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$91.731 billion ( 77th )",
+        "tokens": [
+          "91",
+          "731",
+          "billion",
+          "77th"
+        ],
+        "numbers": [
+          91.731,
+          77
         ]
       },
       "per_capita": {
@@ -713,6 +734,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Panama",
+      "capital": "Panama City",
+      "largest_city": "Panama City",
+      "coordinates": {
+        "latitude": "8°58′N",
+        "longitude": "79°32′W"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "José Raúl Mulino"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 75417,
+        "water_percent": 2.9
+      },
+      "population": {
+        "year": 2022,
+        "total": 4337768,
+        "rank": 127,
+        "density_per_km2": 56.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.839,
+          "rank": 59
+        },
+        "gini": {
+          "year": 2023,
+          "value": 48.9
+        }
+      },
+      "currency": {
+        "name": "Balboa",
+        "code": "PAB"
+      },
+      "calling_code": "507",
+      "iso_3166_code": "PA",
+      "internet_tld": ".pa",
+      "time_zone": "UTC −5 ( EST )",
+      "demonym": "Panamanian"
     }
   }
 }

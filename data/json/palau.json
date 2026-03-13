@@ -3,7 +3,7 @@
     "country_name": "Palau",
     "slug": "palau",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Palau",
-    "retrieved_at": "2026-03-11T17:57:08+00:00",
+    "retrieved_at": "2026-03-13T10:09:35+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -80,47 +80,47 @@
         "value_text": "House of Delegates"
       },
       {
-        "label": "• Trusteeship",
+        "label": "Independence from the United States and Micronesia • Trusteeship",
         "value_html": "<td class=\"infobox-data\">18 July 1947</td>",
         "value_text": "18 July 1947"
       },
       {
-        "label": "• Constitution",
+        "label": "Independence from the United States and Micronesia • Constitution",
         "value_html": "<td class=\"infobox-data\">2 April 1979</td>",
         "value_text": "2 April 1979"
       },
       {
-        "label": "• Establishment of the Republic of Palau",
+        "label": "Independence from the United States and Micronesia • Establishment of the Republic of Palau",
         "value_html": "<td class=\"infobox-data\">1 January 1981</td>",
         "value_text": "1 January 1981"
       },
       {
-        "label": "• Compact of Free Association",
+        "label": "Independence from the United States and Micronesia • Compact of Free Association",
         "value_html": "<td class=\"infobox-data\">1 October 1994</td>",
         "value_text": "1 October 1994"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">459 km<sup>2</sup> (177 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">180th</a>)</td>",
         "value_text": "459 km 2 (177 sq mi) ( 180th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">negligible</td>",
         "value_text": "negligible"
       },
       {
-        "label": "• As of August 2025 estimate",
+        "label": "Population • As of August 2025 estimate",
         "value_html": "<td class=\"infobox-data\">17,663<sup class=\"reference\" id=\"cite_ref-UN_WPP_3-0\"><a href=\"#cite_note-UN_WPP-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-UN_WPP_2022_4-0\"><a href=\"#cite_note-UN_WPP_2022-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">221st</a>)</td>",
         "value_text": "17,663 [ 3 ] [ 4 ] ( 221st )"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_html": "<td class=\"infobox-data\">16,766</td>",
         "value_text": "16,766"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">38.375/km<sup>2</sup> (99.4/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">182th</a>)</td>",
         "value_text": "38.375/km 2 (99.4/sq mi) ( 182th )"
       },
@@ -255,39 +255,39 @@
         "value_text": "House of Delegates"
       },
       {
-        "label": "• Trusteeship",
+        "label": "Independence from the United States and Micronesia • Trusteeship",
         "value_text": "18 July 1947"
       },
       {
-        "label": "• Constitution",
+        "label": "Independence from the United States and Micronesia • Constitution",
         "value_text": "2 April 1979"
       },
       {
-        "label": "• Establishment of the Republic of Palau",
+        "label": "Independence from the United States and Micronesia • Establishment of the Republic of Palau",
         "value_text": "1 January 1981"
       },
       {
-        "label": "• Compact of Free Association",
+        "label": "Independence from the United States and Micronesia • Compact of Free Association",
         "value_text": "1 October 1994"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "459 km 2 (177 sq mi) ( 180th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "negligible"
       },
       {
-        "label": "• As of August 2025 estimate",
+        "label": "Population • As of August 2025 estimate",
         "value_text": "17,663 ( 221st )"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_text": "16,766"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "38.375/km 2 (99.4/sq mi) ( 182th )"
       },
       {
@@ -583,8 +583,8 @@
         ],
         "numbers": []
       },
-      "trusteeship": {
-        "raw_label": "• Trusteeship",
+      "independence_from_the_united_states_and_micronesia_trusteeship": {
+        "raw_label": "Independence from the United States and Micronesia • Trusteeship",
         "text": "18 July 1947",
         "tokens": [
           "18",
@@ -596,8 +596,8 @@
           1947
         ]
       },
-      "constitution": {
-        "raw_label": "• Constitution",
+      "independence_from_the_united_states_and_micronesia_constitution": {
+        "raw_label": "Independence from the United States and Micronesia • Constitution",
         "text": "2 April 1979",
         "tokens": [
           "2",
@@ -609,8 +609,8 @@
           1979
         ]
       },
-      "establishment_of_the_republic_of_palau": {
-        "raw_label": "• Establishment of the Republic of Palau",
+      "independence_from_the_united_states_and_micronesia_establishment_of_the_republic_of_palau": {
+        "raw_label": "Independence from the United States and Micronesia • Establishment of the Republic of Palau",
         "text": "1 January 1981",
         "tokens": [
           "1",
@@ -622,8 +622,8 @@
           1981
         ]
       },
-      "compact_of_free_association": {
-        "raw_label": "• Compact of Free Association",
+      "independence_from_the_united_states_and_micronesia_compact_of_free_association": {
+        "raw_label": "Independence from the United States and Micronesia • Compact of Free Association",
         "text": "1 October 1994",
         "tokens": [
           "1",
@@ -635,27 +635,35 @@
           1994
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$322 million",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "459 km 2 (177 sq mi) ( 180th )",
         "tokens": [
-          "322",
-          "million"
+          "459",
+          "km",
+          "2",
+          "177",
+          "sq",
+          "mi",
+          "180th"
         ],
         "numbers": [
-          322
+          459,
+          2,
+          177,
+          180
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "negligible",
         "tokens": [
           "negligible"
         ],
         "numbers": []
       },
-      "as_of_august_2025_estimate": {
-        "raw_label": "• As of August 2025 estimate",
+      "population_as_of_august_2025_estimate": {
+        "raw_label": "Population • As of August 2025 estimate",
         "text": "17,663 ( 221st )",
         "tokens": [
           "17",
@@ -667,8 +675,8 @@
           221
         ]
       },
-      "2021_census": {
-        "raw_label": "• 2021 census",
+      "population_2021_census": {
+        "raw_label": "Population • 2021 census",
         "text": "16,766",
         "tokens": [
           "16",
@@ -678,8 +686,8 @@
           16766
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "38.375/km 2 (99.4/sq mi) ( 182th )",
         "tokens": [
           "38",
@@ -708,6 +716,17 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$322 million",
+        "tokens": [
+          "322",
+          "million"
+        ],
+        "numbers": [
+          322
         ]
       },
       "per_capita": {
@@ -814,6 +833,49 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Palau",
+      "capital": "Ngerulmud",
+      "largest_city": "Koror",
+      "coordinates": {
+        "latitude": "7°30′N",
+        "longitude": "134°37′E"
+      },
+      "government": {
+        "type": "Unitary presidential republic under a non-partisan democracy",
+        "head_of_state": "Surangel Whipps Jr."
+      },
+      "legislature": "Palau National Congress",
+      "area": {
+        "total_km2": 459
+      },
+      "population": {
+        "year": 2025,
+        "total": 17663,
+        "rank": 221,
+        "density_per_km2": 38.375
+      },
+      "economy": {
+        "gdp_nominal_year": 2024,
+        "gdp_ppp_year": 2024
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.786,
+          "rank": 84
+        }
+      },
+      "currency": {
+        "name": "United States dollar",
+        "code": "USD"
+      },
+      "calling_code": "680",
+      "iso_3166_code": "PW",
+      "internet_tld": ".pw",
+      "time_zone": "UTC+9",
+      "demonym": "Palauan"
     }
   }
 }

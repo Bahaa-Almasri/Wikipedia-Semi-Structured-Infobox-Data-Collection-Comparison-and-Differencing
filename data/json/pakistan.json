@@ -3,7 +3,7 @@
     "country_name": "Pakistan",
     "slug": "pakistan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Pakistan",
-    "retrieved_at": "2026-03-11T17:57:07+00:00",
+    "retrieved_at": "2026-03-13T10:09:33+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,52 +70,52 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Declaration",
+        "label": "Independence from the United Kingdom • Declaration",
         "value_html": "<td class=\"infobox-data\">23 March 1940</td>",
         "value_text": "23 March 1940"
       },
       {
-        "label": "• Recognized dominion",
+        "label": "Independence from the United Kingdom • Recognized dominion",
         "value_html": "<td class=\"infobox-data\">14 August 1947</td>",
         "value_text": "14 August 1947"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_html": "<td class=\"infobox-data\">23 March 1956</td>",
         "value_text": "23 March 1956"
       },
       {
-        "label": "• Last territory's acquisition",
+        "label": "Independence from the United Kingdom • Last territory's acquisition",
         "value_html": "<td class=\"infobox-data\">8 December 1958</td>",
         "value_text": "8 December 1958"
       },
       {
-        "label": "• Eastern territory withdrawn",
+        "label": "Independence from the United Kingdom • Eastern territory withdrawn",
         "value_html": "<td class=\"infobox-data\">16 December 1971</td>",
         "value_text": "16 December 1971"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_html": "<td class=\"infobox-data\">14 August 1973</td>",
         "value_text": "14 August 1973"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">881,913 km<sup>2</sup> (340,509 sq mi)<sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>c<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-FOOTNOTEBhandari2022_9-0\"><a href=\"#cite_note-FOOTNOTEBhandari2022-9\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">33rd</a>)</td>",
         "value_text": "881,913 km 2 (340,509 sq mi) [ c ] [ 6 ] ( 33rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.86</td>",
         "value_text": "2.86"
       },
       {
-        "label": "• 2023 census",
+        "label": "Population • 2023 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 241,499,431<sup class=\"reference\" id=\"cite_ref-fn3_10-0\"><a href=\"#cite_note-fn3-10\"><span class=\"cite-bracket\">[</span>d<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">5th</a>)</td>",
         "value_text": "241,499,431 [ d ] ( 5th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">273.8/km<sup>2</sup> (709.1/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">56th</a>)</td>",
         "value_text": "273.8/km 2 (709.1/sq mi) ( 56th )"
       },
@@ -242,43 +242,43 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Declaration",
+        "label": "Independence from the United Kingdom • Declaration",
         "value_text": "23 March 1940"
       },
       {
-        "label": "• Recognized dominion",
+        "label": "Independence from the United Kingdom • Recognized dominion",
         "value_text": "14 August 1947"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_text": "23 March 1956"
       },
       {
-        "label": "• Last territory's acquisition",
+        "label": "Independence from the United Kingdom • Last territory's acquisition",
         "value_text": "8 December 1958"
       },
       {
-        "label": "• Eastern territory withdrawn",
+        "label": "Independence from the United Kingdom • Eastern territory withdrawn",
         "value_text": "16 December 1971"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_text": "14 August 1973"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "881,913 km 2 (340,509 sq mi) ( 33rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.86"
       },
       {
-        "label": "• 2023 census",
+        "label": "Population • 2023 census",
         "value_text": "241,499,431 ( 5th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "273.8/km 2 (709.1/sq mi) ( 56th )"
       },
       {
@@ -524,8 +524,8 @@
         ],
         "numbers": []
       },
-      "declaration": {
-        "raw_label": "• Declaration",
+      "independence_from_the_united_kingdom_declaration": {
+        "raw_label": "Independence from the United Kingdom • Declaration",
         "text": "23 March 1940",
         "tokens": [
           "23",
@@ -537,8 +537,8 @@
           1940
         ]
       },
-      "recognized_dominion": {
-        "raw_label": "• Recognized dominion",
+      "independence_from_the_united_kingdom_recognized_dominion": {
+        "raw_label": "Independence from the United Kingdom • Recognized dominion",
         "text": "14 August 1947",
         "tokens": [
           "14",
@@ -550,8 +550,8 @@
           1947
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "independence_from_the_united_kingdom_republic": {
+        "raw_label": "Independence from the United Kingdom • Republic",
         "text": "23 March 1956",
         "tokens": [
           "23",
@@ -563,8 +563,8 @@
           1956
         ]
       },
-      "last_territory_s_acquisition": {
-        "raw_label": "• Last territory's acquisition",
+      "independence_from_the_united_kingdom_last_territory_s_acquisition": {
+        "raw_label": "Independence from the United Kingdom • Last territory's acquisition",
         "text": "8 December 1958",
         "tokens": [
           "8",
@@ -576,8 +576,8 @@
           1958
         ]
       },
-      "eastern_territory_withdrawn": {
-        "raw_label": "• Eastern territory withdrawn",
+      "independence_from_the_united_kingdom_eastern_territory_withdrawn": {
+        "raw_label": "Independence from the United Kingdom • Eastern territory withdrawn",
         "text": "16 December 1971",
         "tokens": [
           "16",
@@ -589,8 +589,8 @@
           1971
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_the_united_kingdom_current_constitution": {
+        "raw_label": "Independence from the United Kingdom • Current constitution",
         "text": "14 August 1973",
         "tokens": [
           "14",
@@ -602,22 +602,29 @@
           1973
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$410.5 billion ( 42nd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "881,913 km 2 (340,509 sq mi) ( 33rd )",
         "tokens": [
-          "410",
-          "5",
-          "billion",
-          "42nd"
+          "881",
+          "913",
+          "km",
+          "2",
+          "340",
+          "509",
+          "sq",
+          "mi",
+          "33rd"
         ],
         "numbers": [
-          410.5,
-          42
+          881913,
+          2,
+          340509,
+          33
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.86",
         "tokens": [
           "2",
@@ -627,8 +634,8 @@
           2.86
         ]
       },
-      "2023_census": {
-        "raw_label": "• 2023 census",
+      "population_2023_census": {
+        "raw_label": "Population • 2023 census",
         "text": "241,499,431 ( 5th )",
         "tokens": [
           "241",
@@ -641,8 +648,8 @@
           5
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "273.8/km 2 (709.1/sq mi) ( 56th )",
         "tokens": [
           "273",
@@ -671,6 +678,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$410.5 billion ( 42nd )",
+        "tokens": [
+          "410",
+          "5",
+          "billion",
+          "42nd"
+        ],
+        "numbers": [
+          410.5,
+          42
         ]
       },
       "per_capita": {
@@ -782,6 +803,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Pakistan",
+      "capital": "Islamabad",
+      "largest_city": "Karachi",
+      "government": {
+        "type": "Federal parliamentary Islamic republic",
+        "head_of_state": "Asif Ali Zardari",
+        "head_of_government": "Shehbaz Sharif"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 881913,
+        "water_percent": 2.86
+      },
+      "population": {
+        "year": 2023,
+        "total": 241499431,
+        "rank": 5,
+        "density_per_km2": 273.8
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.544,
+          "rank": 168
+        },
+        "gini": {
+          "year": 2018,
+          "value": 29.6
+        }
+      },
+      "currency": {
+        "name": "Pakistani rupee"
+      },
+      "calling_code": "92",
+      "iso_3166_code": "PK",
+      "internet_tld": ".pk پاکستان.",
+      "time_zone": "UTC+5",
+      "demonym": "Pakistani"
     }
   }
 }

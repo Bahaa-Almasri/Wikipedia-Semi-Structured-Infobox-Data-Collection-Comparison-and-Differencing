@@ -3,7 +3,7 @@
     "country_name": "Algeria",
     "slug": "algeria",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Algeria",
-    "retrieved_at": "2026-03-11T17:52:30+00:00",
+    "retrieved_at": "2026-03-13T10:06:33+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -85,37 +85,37 @@
         "value_text": "People's National Assembly"
       },
       {
-        "label": "• Numidia",
+        "label": "Formation • Numidia",
         "value_html": "<td class=\"infobox-data\">202 BC</td>",
         "value_text": "202 BC"
       },
       {
-        "label": "• Regency of Algiers",
+        "label": "Formation • Regency of Algiers",
         "value_html": "<td class=\"infobox-data\">1516</td>",
         "value_text": "1516"
       },
       {
-        "label": "• French Algeria",
+        "label": "Formation • French Algeria",
         "value_html": "<td class=\"infobox-data\">5 July 1830</td>",
         "value_text": "5 July 1830"
       },
       {
-        "label": "• Independence",
+        "label": "Formation • Independence",
         "value_html": "<td class=\"infobox-data\">5 July 1962</td>",
         "value_text": "5 July 1962"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">2,381,741 km<sup>2</sup> (919,595 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">10th</a>)</td>",
         "value_text": "2,381,741 km 2 (919,595 sq mi) ( 10th )"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 47,400,000<sup class=\"reference\" id=\"cite_ref-population_10-0\"><a href=\"#cite_note-population-10\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-11\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">32nd</a>)</td>",
         "value_text": "47,400,000 [ 6 ] [ 7 ] ( 32nd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">19/km<sup>2</sup> (49.2/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">206th</a>)</td>",
         "value_text": "19/km 2 (49.2/sq mi) ( 206th )"
       },
@@ -249,31 +249,31 @@
         "value_text": "People's National Assembly"
       },
       {
-        "label": "• Numidia",
+        "label": "Formation • Numidia",
         "value_text": "202 BC"
       },
       {
-        "label": "• Regency of Algiers",
+        "label": "Formation • Regency of Algiers",
         "value_text": "1516"
       },
       {
-        "label": "• French Algeria",
+        "label": "Formation • French Algeria",
         "value_text": "5 July 1830"
       },
       {
-        "label": "• Independence",
+        "label": "Formation • Independence",
         "value_text": "5 July 1962"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "2,381,741 km 2 (919,595 sq mi) ( 10th )"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "47,400,000 ( 32nd )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "19/km 2 (49.2/sq mi) ( 206th )"
       },
       {
@@ -503,8 +503,8 @@
         ],
         "numbers": []
       },
-      "numidia": {
-        "raw_label": "• Numidia",
+      "formation_numidia": {
+        "raw_label": "Formation • Numidia",
         "text": "202 BC",
         "tokens": [
           "202",
@@ -514,8 +514,8 @@
           202
         ]
       },
-      "regency_of_algiers": {
-        "raw_label": "• Regency of Algiers",
+      "formation_regency_of_algiers": {
+        "raw_label": "Formation • Regency of Algiers",
         "text": "1516",
         "tokens": [
           "1516"
@@ -524,8 +524,8 @@
           1516
         ]
       },
-      "french_algeria": {
-        "raw_label": "• French Algeria",
+      "formation_french_algeria": {
+        "raw_label": "Formation • French Algeria",
         "text": "5 July 1830",
         "tokens": [
           "5",
@@ -537,8 +537,8 @@
           1830
         ]
       },
-      "independence": {
-        "raw_label": "• Independence",
+      "formation_independence": {
+        "raw_label": "Formation • Independence",
         "text": "5 July 1962",
         "tokens": [
           "5",
@@ -550,22 +550,30 @@
           1962
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$268.890 billion ( 49th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "2,381,741 km 2 (919,595 sq mi) ( 10th )",
         "tokens": [
-          "268",
-          "890",
-          "billion",
-          "49th"
+          "2",
+          "381",
+          "741",
+          "km",
+          "2",
+          "919",
+          "595",
+          "sq",
+          "mi",
+          "10th"
         ],
         "numbers": [
-          268.89,
-          49
+          2381741,
+          2,
+          919595,
+          10
         ]
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "47,400,000 ( 32nd )",
         "tokens": [
           "47",
@@ -578,8 +586,8 @@
           32
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "19/km 2 (49.2/sq mi) ( 206th )",
         "tokens": [
           "19",
@@ -607,6 +615,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$268.890 billion ( 49th )",
+        "tokens": [
+          "268",
+          "890",
+          "billion",
+          "49th"
+        ],
+        "numbers": [
+          268.89,
+          49
         ]
       },
       "per_capita": {
@@ -708,6 +730,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Algeria",
+      "capital": "Algiers",
+      "largest_city": "Algiers",
+      "coordinates": {
+        "latitude": "36°42′N",
+        "longitude": "3°13′E"
+      },
+      "government": {
+        "type": "Unitary semi-presidential republic",
+        "head_of_state": "Abdelmadjid Tebboune",
+        "head_of_government": "Sifi Ghrieb"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 2381741
+      },
+      "population": {
+        "year": 2025,
+        "total": 47400000,
+        "rank": 32,
+        "density_per_km2": 19.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.763,
+          "rank": 96
+        },
+        "gini": {
+          "year": 2011,
+          "value": 27.6
+        }
+      },
+      "currency": {
+        "name": "Algerian dinar",
+        "code": "DZD"
+      },
+      "calling_code": "213",
+      "iso_3166_code": "DZ",
+      "internet_tld": ".dz .الجزائر",
+      "time_zone": "UTC+1",
+      "demonym": "Algerian"
     }
   }
 }

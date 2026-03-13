@@ -3,7 +3,7 @@
     "country_name": "Eswatini",
     "slug": "eswatini",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Eswatini",
-    "retrieved_at": "2026-03-11T17:55:23+00:00",
+    "retrieved_at": "2026-03-13T10:07:52+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -80,47 +80,47 @@
         "value_text": "House of Assembly"
       },
       {
-        "label": "• Independence granted",
+        "label": "Independence from the United Kingdom • Independence granted",
         "value_html": "<td class=\"infobox-data\">6 September 1968</td>",
         "value_text": "6 September 1968"
       },
       {
-        "label": "• United Nations membership",
+        "label": "Independence from the United Kingdom • United Nations membership",
         "value_html": "<td class=\"infobox-data\">24 September 1968</td>",
         "value_text": "24 September 1968"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_html": "<td class=\"infobox-data\">2005<sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "2005 [ 4 ] [ 5 ] [ 6 ]"
       },
       {
-        "label": "• Renaming",
+        "label": "Independence from the United Kingdom • Renaming",
         "value_html": "<td class=\"infobox-data\">19 April 2018</td>",
         "value_text": "19 April 2018"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">17,364 km<sup>2</sup> (6,704 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">153rd</a>)</td>",
         "value_text": "17,364 km 2 (6,704 sq mi) ( 153rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.9</td>",
         "value_text": "0.9"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\">1,236,126<sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">155th</a>)</td>",
         "value_text": "1,236,126 [ 7 ] ( 155th )"
       },
       {
-        "label": "• 2017 census",
+        "label": "Population • 2017 census",
         "value_html": "<td class=\"infobox-data\">1,093,238<sup class=\"reference\" id=\"cite_ref-9\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "1,093,238 [ 8 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">66.8/km<sup>2</sup> (173.0/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">135th</a>)</td>",
         "value_text": "66.8/km 2 (173.0/sq mi) ( 135th )"
       },
@@ -250,39 +250,39 @@
         "value_text": "House of Assembly"
       },
       {
-        "label": "• Independence granted",
+        "label": "Independence from the United Kingdom • Independence granted",
         "value_text": "6 September 1968"
       },
       {
-        "label": "• United Nations membership",
+        "label": "Independence from the United Kingdom • United Nations membership",
         "value_text": "24 September 1968"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_text": "2005"
       },
       {
-        "label": "• Renaming",
+        "label": "Independence from the United Kingdom • Renaming",
         "value_text": "19 April 2018"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "17,364 km 2 (6,704 sq mi) ( 153rd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.9"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "1,236,126 ( 155th )"
       },
       {
-        "label": "• 2017 census",
+        "label": "Population • 2017 census",
         "value_text": "1,093,238"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "66.8/km 2 (173.0/sq mi) ( 135th )"
       },
       {
@@ -531,8 +531,8 @@
         ],
         "numbers": []
       },
-      "independence_granted": {
-        "raw_label": "• Independence granted",
+      "independence_from_the_united_kingdom_independence_granted": {
+        "raw_label": "Independence from the United Kingdom • Independence granted",
         "text": "6 September 1968",
         "tokens": [
           "6",
@@ -544,8 +544,8 @@
           1968
         ]
       },
-      "united_nations_membership": {
-        "raw_label": "• United Nations membership",
+      "independence_from_the_united_kingdom_united_nations_membership": {
+        "raw_label": "Independence from the United Kingdom • United Nations membership",
         "text": "24 September 1968",
         "tokens": [
           "24",
@@ -557,8 +557,8 @@
           1968
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_the_united_kingdom_current_constitution": {
+        "raw_label": "Independence from the United Kingdom • Current constitution",
         "text": "2005",
         "tokens": [
           "2005"
@@ -567,8 +567,8 @@
           2005
         ]
       },
-      "renaming": {
-        "raw_label": "• Renaming",
+      "independence_from_the_united_kingdom_renaming": {
+        "raw_label": "Independence from the United Kingdom • Renaming",
         "text": "19 April 2018",
         "tokens": [
           "19",
@@ -580,22 +580,29 @@
           2018
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$4.648 billion ( 168th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "17,364 km 2 (6,704 sq mi) ( 153rd )",
         "tokens": [
-          "4",
-          "648",
-          "billion",
-          "168th"
+          "17",
+          "364",
+          "km",
+          "2",
+          "6",
+          "704",
+          "sq",
+          "mi",
+          "153rd"
         ],
         "numbers": [
-          4.648,
-          168
+          17364,
+          2,
+          6704,
+          153
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.9",
         "tokens": [
           "0",
@@ -605,8 +612,8 @@
           0.9
         ]
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "1,236,126 ( 155th )",
         "tokens": [
           "1",
@@ -619,8 +626,8 @@
           155
         ]
       },
-      "2017_census": {
-        "raw_label": "• 2017 census",
+      "population_2017_census": {
+        "raw_label": "Population • 2017 census",
         "text": "1,093,238",
         "tokens": [
           "1",
@@ -631,8 +638,8 @@
           1093238
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "66.8/km 2 (173.0/sq mi) ( 135th )",
         "tokens": [
           "66",
@@ -661,6 +668,20 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$4.648 billion ( 168th )",
+        "tokens": [
+          "4",
+          "648",
+          "billion",
+          "168th"
+        ],
+        "numbers": [
+          4.648,
+          168
         ]
       },
       "per_capita": {
@@ -765,6 +786,55 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Eswatini",
+      "capital": "Mbabane (executive) Lobamba (legislative)",
+      "largest_city": "Mbabane",
+      "coordinates": {
+        "latitude": "26°30′S",
+        "longitude": "31°30′E"
+      },
+      "government": {
+        "type": "Unitary diarchic absolute monarchy",
+        "head_of_state": "Mswati III",
+        "head_of_government": "Russell Dlamini"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 17364,
+        "water_percent": 0.9
+      },
+      "population": {
+        "year": 2023,
+        "total": 1236126,
+        "rank": 155,
+        "density_per_km2": 66.8
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.695,
+          "rank": 126
+        },
+        "gini": {
+          "year": 2016,
+          "value": 54.6
+        }
+      },
+      "currency": {
+        "name": "Lilangeni",
+        "code": "SZL"
+      },
+      "calling_code": "268",
+      "iso_3166_code": "SZ",
+      "internet_tld": ".sz",
+      "time_zone": "UTC+2",
+      "demonym": "Swazi"
     }
   }
 }

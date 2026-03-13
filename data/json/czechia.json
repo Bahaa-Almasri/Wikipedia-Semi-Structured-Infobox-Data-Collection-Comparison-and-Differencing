@@ -3,7 +3,7 @@
     "country_name": "Czechia",
     "slug": "czechia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Czech_Republic",
-    "retrieved_at": "2026-03-11T17:54:28+00:00",
+    "retrieved_at": "2026-03-13T10:07:36+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,47 +70,47 @@
         "value_text": "Chamber of Deputies"
       },
       {
-        "label": "• Duchy of Bohemia",
+        "label": "Establishment • Duchy of Bohemia",
         "value_html": "<td class=\"infobox-data\"><abbr title=\"circa\">c.</abbr> 870</td>",
         "value_text": "c. 870"
       },
       {
-        "label": "• Kingdom of Bohemia",
+        "label": "Establishment • Kingdom of Bohemia",
         "value_html": "<td class=\"infobox-data\">1198</td>",
         "value_text": "1198"
       },
       {
-        "label": "• Czechoslovakia",
+        "label": "Establishment • Czechoslovakia",
         "value_html": "<td class=\"infobox-data\">28 October 1918</td>",
         "value_text": "28 October 1918"
       },
       {
-        "label": "• Czech Republic",
+        "label": "Establishment • Czech Republic",
         "value_html": "<td class=\"infobox-data\">1 January 1993</td>",
         "value_text": "1 January 1993"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">78,871 km<sup>2</sup> (30,452 sq mi)<sup class=\"reference\" id=\"cite_ref-landuse_11-1\"><a href=\"#cite_note-landuse-11\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">115th</a>)</td>",
         "value_text": "78,871 km 2 (30,452 sq mi) [ 9 ] ( 115th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.16 (as of 2022)<sup class=\"reference\" id=\"cite_ref-landuse_11-0\"><a href=\"#cite_note-landuse-11\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "2.16 (as of 2022) [ 9 ]"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 10,900,555<sup class=\"reference\" id=\"cite_ref-12\"><a href=\"#cite_note-12\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">85th</a>)</td>",
         "value_text": "10,900,555 [ 10 ] ( 85th )"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 10,524,167<sup class=\"reference\" id=\"cite_ref-census2021_9-1\"><a href=\"#cite_note-census2021-9\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "10,524,167 [ 7 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">133/km<sup>2</sup> (344.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">91st</a>)</td>",
         "value_text": "133/km 2 (344.5/sq mi) ( 91st )"
       },
@@ -242,39 +242,39 @@
         "value_text": "Chamber of Deputies"
       },
       {
-        "label": "• Duchy of Bohemia",
+        "label": "Establishment • Duchy of Bohemia",
         "value_text": "c. 870"
       },
       {
-        "label": "• Kingdom of Bohemia",
+        "label": "Establishment • Kingdom of Bohemia",
         "value_text": "1198"
       },
       {
-        "label": "• Czechoslovakia",
+        "label": "Establishment • Czechoslovakia",
         "value_text": "28 October 1918"
       },
       {
-        "label": "• Czech Republic",
+        "label": "Establishment • Czech Republic",
         "value_text": "1 January 1993"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "78,871 km 2 (30,452 sq mi) ( 115th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.16 (as of 2022)"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "10,900,555 ( 85th )"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_text": "10,524,167"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "133/km 2 (344.5/sq mi) ( 91st )"
       },
       {
@@ -537,8 +537,8 @@
         ],
         "numbers": []
       },
-      "duchy_of_bohemia": {
-        "raw_label": "• Duchy of Bohemia",
+      "establishment_duchy_of_bohemia": {
+        "raw_label": "Establishment • Duchy of Bohemia",
         "text": "c. 870",
         "tokens": [
           "c",
@@ -548,8 +548,8 @@
           870
         ]
       },
-      "kingdom_of_bohemia": {
-        "raw_label": "• Kingdom of Bohemia",
+      "establishment_kingdom_of_bohemia": {
+        "raw_label": "Establishment • Kingdom of Bohemia",
         "text": "1198",
         "tokens": [
           "1198"
@@ -558,8 +558,8 @@
           1198
         ]
       },
-      "czechoslovakia": {
-        "raw_label": "• Czechoslovakia",
+      "establishment_czechoslovakia": {
+        "raw_label": "Establishment • Czechoslovakia",
         "text": "28 October 1918",
         "tokens": [
           "28",
@@ -571,8 +571,8 @@
           1918
         ]
       },
-      "czech_republic": {
-        "raw_label": "• Czech Republic",
+      "establishment_czech_republic": {
+        "raw_label": "Establishment • Czech Republic",
         "text": "1 January 1993",
         "tokens": [
           "1",
@@ -584,22 +584,29 @@
           1993
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$342.992 billion ( 47th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "78,871 km 2 (30,452 sq mi) ( 115th )",
         "tokens": [
-          "342",
-          "992",
-          "billion",
-          "47th"
+          "78",
+          "871",
+          "km",
+          "2",
+          "30",
+          "452",
+          "sq",
+          "mi",
+          "115th"
         ],
         "numbers": [
-          342.992,
-          47
+          78871,
+          2,
+          30452,
+          115
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.16 (as of 2022)",
         "tokens": [
           "2",
@@ -613,8 +620,8 @@
           2022
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "10,900,555 ( 85th )",
         "tokens": [
           "10",
@@ -627,8 +634,8 @@
           85
         ]
       },
-      "2021_census": {
-        "raw_label": "• 2021 census",
+      "population_2021_census": {
+        "raw_label": "Population • 2021 census",
         "text": "10,524,167",
         "tokens": [
           "10",
@@ -639,8 +646,8 @@
           10524167
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "133/km 2 (344.5/sq mi) ( 91st )",
         "tokens": [
           "133",
@@ -668,6 +675,20 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$342.992 billion ( 47th )",
+        "tokens": [
+          "342",
+          "992",
+          "billion",
+          "47th"
+        ],
+        "numbers": [
+          342.992,
+          47
         ]
       },
       "per_capita": {
@@ -792,6 +813,55 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Czechia",
+      "capital": "Prague",
+      "largest_city": "Prague",
+      "coordinates": {
+        "latitude": "50°05′N",
+        "longitude": "14°28′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary republic",
+        "head_of_state": "Petr Pavel",
+        "head_of_government": "Andrej Babiš"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 78871,
+        "water_percent": 2.16
+      },
+      "population": {
+        "year": 2024,
+        "total": 10900555,
+        "rank": 85,
+        "density_per_km2": 133.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2024,
+        "gdp_ppp_year": 2024
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.915,
+          "rank": 29
+        },
+        "gini": {
+          "year": 2023,
+          "value": 24.4
+        }
+      },
+      "currency": {
+        "name": "Czech koruna",
+        "code": "CZK"
+      },
+      "calling_code": "420",
+      "iso_3166_code": "CZ",
+      "internet_tld": ".cz",
+      "time_zone": "UTC+1",
+      "demonym": "Czech"
     }
   }
 }

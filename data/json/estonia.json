@@ -3,7 +3,7 @@
     "country_name": "Estonia",
     "slug": "estonia",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Estonia",
-    "retrieved_at": "2026-03-11T17:55:22+00:00",
+    "retrieved_at": "2026-03-13T10:07:51+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -55,42 +55,42 @@
         "value_text": "Riigikogu"
       },
       {
-        "label": "• Declaration of Independence",
+        "label": "Independence from Russian and German Empires • Declaration of Independence",
         "value_html": "<td class=\"infobox-data\">24 February 1918</td>",
         "value_text": "24 February 1918"
       },
       {
-        "label": "• German and Soviet occupations",
+        "label": "Independence from Russian and German Empires • German and Soviet occupations",
         "value_html": "<td class=\"infobox-data\">1940–1991<sup class=\"reference\" id=\"cite_ref-chronology_4-0\"><a href=\"#cite_note-chronology-4\"><span class=\"cite-bracket\">[</span>a<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "1940–1991 [ a ]"
       },
       {
-        "label": "• Restoration of Independence",
+        "label": "Independence from Russian and German Empires • Restoration of Independence",
         "value_html": "<td class=\"infobox-data\">20 August 1991</td>",
         "value_text": "20 August 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">45,335<sup class=\"reference\" id=\"cite_ref-ERR_area_5-0\"><a href=\"#cite_note-ERR_area-5\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (17,504 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">129th<sup>d</sup></a>)</td>",
         "value_text": "45,335 [ 4 ] km 2 (17,504 sq mi) ( 129th d )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">4.6</td>",
         "value_text": "4.6"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 1,362,954<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "1,362,954 [ 5 ]"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_html": "<td class=\"infobox-data\">1,331,824<sup class=\"reference\" id=\"cite_ref-rahvaloendus.ee_7-0\"><a href=\"#cite_note-rahvaloendus.ee-7\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "1,331,824 [ 6 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">30.3/km<sup>2</sup> (78.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">148th</a>)</td>",
         "value_text": "30.3/km 2 (78.5/sq mi) ( 148th )"
       },
@@ -205,35 +205,35 @@
         "value_text": "Riigikogu"
       },
       {
-        "label": "• Declaration of Independence",
+        "label": "Independence from Russian and German Empires • Declaration of Independence",
         "value_text": "24 February 1918"
       },
       {
-        "label": "• German and Soviet occupations",
+        "label": "Independence from Russian and German Empires • German and Soviet occupations",
         "value_text": "1940–1991"
       },
       {
-        "label": "• Restoration of Independence",
+        "label": "Independence from Russian and German Empires • Restoration of Independence",
         "value_text": "20 August 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "45,335 km 2 (17,504 sq mi) ( 129th d )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "4.6"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_text": "1,362,954"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_text": "1,331,824"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "30.3/km 2 (78.5/sq mi) ( 148th )"
       },
       {
@@ -447,8 +447,8 @@
         ],
         "numbers": []
       },
-      "declaration_of_independence": {
-        "raw_label": "• Declaration of Independence",
+      "independence_from_russian_and_german_empires_declaration_of_independence": {
+        "raw_label": "Independence from Russian and German Empires • Declaration of Independence",
         "text": "24 February 1918",
         "tokens": [
           "24",
@@ -460,8 +460,8 @@
           1918
         ]
       },
-      "german_and_soviet_occupations": {
-        "raw_label": "• German and Soviet occupations",
+      "independence_from_russian_and_german_empires_german_and_soviet_occupations": {
+        "raw_label": "Independence from Russian and German Empires • German and Soviet occupations",
         "text": "1940–1991",
         "tokens": [
           "1940",
@@ -472,8 +472,8 @@
           1991
         ]
       },
-      "restoration_of_independence": {
-        "raw_label": "• Restoration of Independence",
+      "independence_from_russian_and_german_empires_restoration_of_independence": {
+        "raw_label": "Independence from Russian and German Empires • Restoration of Independence",
         "text": "20 August 1991",
         "tokens": [
           "20",
@@ -485,22 +485,30 @@
           1991
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$45.00 billion ( 99th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "45,335 km 2 (17,504 sq mi) ( 129th d )",
         "tokens": [
           "45",
-          "00",
-          "billion",
-          "99th"
+          "335",
+          "km",
+          "2",
+          "17",
+          "504",
+          "sq",
+          "mi",
+          "129th",
+          "d"
         ],
         "numbers": [
-          45.0,
-          99
+          45335,
+          2,
+          17504,
+          129
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "4.6",
         "tokens": [
           "4",
@@ -510,8 +518,8 @@
           4.6
         ]
       },
-      "2026_estimate": {
-        "raw_label": "• 2026 estimate",
+      "population_2026_estimate": {
+        "raw_label": "Population • 2026 estimate",
         "text": "1,362,954",
         "tokens": [
           "1",
@@ -522,8 +530,8 @@
           1362954
         ]
       },
-      "2021_census": {
-        "raw_label": "• 2021 census",
+      "population_2021_census": {
+        "raw_label": "Population • 2021 census",
         "text": "1,331,824",
         "tokens": [
           "1",
@@ -534,8 +542,8 @@
           1331824
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "30.3/km 2 (78.5/sq mi) ( 148th )",
         "tokens": [
           "30",
@@ -564,6 +572,20 @@
         ],
         "numbers": [
           2026
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$45.00 billion ( 99th )",
+        "tokens": [
+          "45",
+          "00",
+          "billion",
+          "99th"
+        ],
+        "numbers": [
+          45.0,
+          99
         ]
       },
       "per_capita": {
@@ -681,6 +703,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Estonia",
+      "capital": "Tallinn",
+      "largest_city": "Tallinn",
+      "coordinates": {
+        "latitude": "59°25′N",
+        "longitude": "24°45′E"
+      },
+      "government": {
+        "type": "Unitary parliamentary republic",
+        "head_of_state": "Alar Karis",
+        "head_of_government": "Kristen Michal"
+      },
+      "legislature": "Riigikogu",
+      "area": {
+        "total_km2": 45335,
+        "water_percent": 4.6
+      },
+      "population": {
+        "year": 2026,
+        "total": 1362954,
+        "density_per_km2": 30.3
+      },
+      "economy": {
+        "gdp_nominal_year": 2026,
+        "gdp_ppp_year": 2026
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.905,
+          "rank": 36
+        },
+        "gini": {
+          "year": 2021,
+          "value": 30.6
+        }
+      },
+      "currency": {
+        "name": "Euro"
+      },
+      "calling_code": "372",
+      "iso_3166_code": "EE",
+      "internet_tld": ".ee",
+      "time_zone": "UTC+02:00",
+      "demonym": "Estonian"
     }
   }
 }

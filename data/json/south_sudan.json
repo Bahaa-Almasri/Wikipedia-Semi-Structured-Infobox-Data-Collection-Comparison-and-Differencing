@@ -3,7 +3,7 @@
     "country_name": "South Sudan",
     "slug": "south_sudan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/South_Sudan",
-    "retrieved_at": "2026-03-11T17:57:54+00:00",
+    "retrieved_at": "2026-03-13T10:10:26+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,32 +60,32 @@
         "value_text": "Transitional National Legislature"
       },
       {
-        "label": "• 1st autonomous region",
+        "label": "Independence from Sudan • 1st autonomous region",
         "value_html": "<td class=\"infobox-data\">28 February 1972</td>",
         "value_text": "28 February 1972"
       },
       {
-        "label": "• 2nd autonomous region",
+        "label": "Independence from Sudan • 2nd autonomous region",
         "value_html": "<td class=\"infobox-data\">9 July 2005</td>",
         "value_text": "9 July 2005"
       },
       {
-        "label": "• Declared and recognised",
+        "label": "Independence from Sudan • Declared and recognised",
         "value_html": "<td class=\"infobox-data\">9 July 2011</td>",
         "value_text": "9 July 2011"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">644,329<sup class=\"reference\" id=\"cite_ref-CIA_Factbook_9-1\"><a href=\"#cite_note-CIA_Factbook-9\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (248,777 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">41st</a>)</td>",
         "value_text": "644,329 [ 8 ] km 2 (248,777 sq mi) ( 41st )"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 12,703,714<sup class=\"reference\" id=\"cite_ref-CIA_Factbook_9-2\"><a href=\"#cite_note-CIA_Factbook-9\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">80th</a>)</td>",
         "value_text": "12,703,714 [ 8 ] ( 80th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">19/km<sup>2</sup> (49.2/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">211th</a>)</td>",
         "value_text": "19/km 2 (49.2/sq mi) ( 211th )"
       },
@@ -199,27 +199,27 @@
         "value_text": "Transitional National Legislature"
       },
       {
-        "label": "• 1st autonomous region",
+        "label": "Independence from Sudan • 1st autonomous region",
         "value_text": "28 February 1972"
       },
       {
-        "label": "• 2nd autonomous region",
+        "label": "Independence from Sudan • 2nd autonomous region",
         "value_text": "9 July 2005"
       },
       {
-        "label": "• Declared and recognised",
+        "label": "Independence from Sudan • Declared and recognised",
         "value_text": "9 July 2011"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "644,329 km 2 (248,777 sq mi) ( 41st )"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "12,703,714 ( 80th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "19/km 2 (49.2/sq mi) ( 211th )"
       },
       {
@@ -442,8 +442,8 @@
         ],
         "numbers": []
       },
-      "1st_autonomous_region": {
-        "raw_label": "• 1st autonomous region",
+      "independence_from_sudan_1st_autonomous_region": {
+        "raw_label": "Independence from Sudan • 1st autonomous region",
         "text": "28 February 1972",
         "tokens": [
           "28",
@@ -455,8 +455,8 @@
           1972
         ]
       },
-      "2nd_autonomous_region": {
-        "raw_label": "• 2nd autonomous region",
+      "independence_from_sudan_2nd_autonomous_region": {
+        "raw_label": "Independence from Sudan • 2nd autonomous region",
         "text": "9 July 2005",
         "tokens": [
           "9",
@@ -468,8 +468,8 @@
           2005
         ]
       },
-      "declared_and_recognised": {
-        "raw_label": "• Declared and recognised",
+      "independence_from_sudan_declared_and_recognised": {
+        "raw_label": "Independence from Sudan • Declared and recognised",
         "text": "9 July 2011",
         "tokens": [
           "9",
@@ -481,22 +481,29 @@
           2011
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$4.980 billion ( 164th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "644,329 km 2 (248,777 sq mi) ( 41st )",
         "tokens": [
-          "4",
-          "980",
-          "billion",
-          "164th"
+          "644",
+          "329",
+          "km",
+          "2",
+          "248",
+          "777",
+          "sq",
+          "mi",
+          "41st"
         ],
         "numbers": [
-          4.98,
-          164
+          644329,
+          2,
+          248777,
+          41
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "12,703,714 ( 80th )",
         "tokens": [
           "12",
@@ -509,8 +516,8 @@
           80
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "19/km 2 (49.2/sq mi) ( 211th )",
         "tokens": [
           "19",
@@ -538,6 +545,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$4.980 billion ( 164th )",
+        "tokens": [
+          "4",
+          "980",
+          "billion",
+          "164th"
+        ],
+        "numbers": [
+          4.98,
+          164
         ]
       },
       "per_capita": {
@@ -639,6 +660,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "South Sudan",
+      "capital": "Juba",
+      "largest_city": "Juba",
+      "coordinates": {
+        "latitude": "04°51′N",
+        "longitude": "31°34′E"
+      },
+      "government": {
+        "type": "Federal presidential republic",
+        "head_of_state": "Salva Kiir Mayardit"
+      },
+      "legislature": "Transitional National Legislature",
+      "area": {
+        "total_km2": 644329
+      },
+      "population": {
+        "year": 2024,
+        "total": 12703714,
+        "rank": 80,
+        "density_per_km2": 19.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.388,
+          "rank": 193
+        },
+        "gini": {
+          "year": 2016,
+          "value": 44.1
+        }
+      },
+      "currency": {
+        "name": "South Sudanese pound",
+        "code": "SSP"
+      },
+      "calling_code": "211",
+      "iso_3166_code": "SS",
+      "internet_tld": ".ss",
+      "time_zone": "UTC+2",
+      "demonym": "South Sudanese"
     }
   }
 }

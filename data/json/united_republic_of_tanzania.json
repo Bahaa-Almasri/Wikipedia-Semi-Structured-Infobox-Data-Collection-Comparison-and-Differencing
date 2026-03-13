@@ -3,7 +3,7 @@
     "country_name": "United Republic of Tanzania",
     "slug": "united_republic_of_tanzania",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Tanzania",
-    "retrieved_at": "2026-03-11T17:58:31+00:00",
+    "retrieved_at": "2026-03-13T10:10:49+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -80,47 +80,47 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Tanganyika",
+        "label": "Independence from the United Kingdom • Tanganyika",
         "value_html": "<td class=\"infobox-data\">9 December 1961</td>",
         "value_text": "9 December 1961"
       },
       {
-        "label": "• Zanzibar",
+        "label": "Independence from the United Kingdom • Zanzibar",
         "value_html": "<td class=\"infobox-data\">10 December 1963</td>",
         "value_text": "10 December 1963"
       },
       {
-        "label": "• Unification of Tanganyika and Zanzibar",
+        "label": "Independence from the United Kingdom • Unification of Tanganyika and Zanzibar",
         "value_html": "<td class=\"infobox-data\">26 April 1964</td>",
         "value_text": "26 April 1964"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_html": "<td class=\"infobox-data\">25 April 1977</td>",
         "value_text": "25 April 1977"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">947,303 km<sup>2</sup> (365,756 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">30th</a>)</td>",
         "value_text": "947,303 km 2 (365,756 sq mi) ( 30th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">6.4<sup class=\"reference\" id=\"cite_ref-BFF_7-1\"><a href=\"#cite_note-BFF-7\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "6.4 [ 6 ]"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\">67,462,121<sup class=\"reference\" id=\"cite_ref-CIA2024_8-0\"><a href=\"#cite_note-CIA2024-8\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">22nd</a>)</td>",
         "value_text": "67,462,121 [ 7 ] ( 22nd )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 61,741,120<sup class=\"reference\" id=\"cite_ref-9\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "61,741,120 [ 8 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">65.2/km<sup>2</sup> (168.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">147th</a>)</td>",
         "value_text": "65.2/km 2 (168.9/sq mi) ( 147th )"
       },
@@ -250,39 +250,39 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Tanganyika",
+        "label": "Independence from the United Kingdom • Tanganyika",
         "value_text": "9 December 1961"
       },
       {
-        "label": "• Zanzibar",
+        "label": "Independence from the United Kingdom • Zanzibar",
         "value_text": "10 December 1963"
       },
       {
-        "label": "• Unification of Tanganyika and Zanzibar",
+        "label": "Independence from the United Kingdom • Unification of Tanganyika and Zanzibar",
         "value_text": "26 April 1964"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_text": "25 April 1977"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "947,303 km 2 (365,756 sq mi) ( 30th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "6.4"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "67,462,121 ( 22nd )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_text": "61,741,120"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "65.2/km 2 (168.9/sq mi) ( 147th )"
       },
       {
@@ -562,8 +562,8 @@
         ],
         "numbers": []
       },
-      "tanganyika": {
-        "raw_label": "• Tanganyika",
+      "independence_from_the_united_kingdom_tanganyika": {
+        "raw_label": "Independence from the United Kingdom • Tanganyika",
         "text": "9 December 1961",
         "tokens": [
           "9",
@@ -575,8 +575,8 @@
           1961
         ]
       },
-      "zanzibar": {
-        "raw_label": "• Zanzibar",
+      "independence_from_the_united_kingdom_zanzibar": {
+        "raw_label": "Independence from the United Kingdom • Zanzibar",
         "text": "10 December 1963",
         "tokens": [
           "10",
@@ -588,8 +588,8 @@
           1963
         ]
       },
-      "unification_of_tanganyika_and_zanzibar": {
-        "raw_label": "• Unification of Tanganyika and Zanzibar",
+      "independence_from_the_united_kingdom_unification_of_tanganyika_and_zanzibar": {
+        "raw_label": "Independence from the United Kingdom • Unification of Tanganyika and Zanzibar",
         "text": "26 April 1964",
         "tokens": [
           "26",
@@ -601,8 +601,8 @@
           1964
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_the_united_kingdom_current_constitution": {
+        "raw_label": "Independence from the United Kingdom • Current constitution",
         "text": "25 April 1977",
         "tokens": [
           "25",
@@ -614,22 +614,29 @@
           1977
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$88.980 billion ( 80th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "947,303 km 2 (365,756 sq mi) ( 30th )",
         "tokens": [
-          "88",
-          "980",
-          "billion",
-          "80th"
+          "947",
+          "303",
+          "km",
+          "2",
+          "365",
+          "756",
+          "sq",
+          "mi",
+          "30th"
         ],
         "numbers": [
-          88.98,
-          80
+          947303,
+          2,
+          365756,
+          30
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "6.4",
         "tokens": [
           "6",
@@ -639,8 +646,8 @@
           6.4
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "67,462,121 ( 22nd )",
         "tokens": [
           "67",
@@ -653,8 +660,8 @@
           22
         ]
       },
-      "2022_census": {
-        "raw_label": "• 2022 census",
+      "population_2022_census": {
+        "raw_label": "Population • 2022 census",
         "text": "61,741,120",
         "tokens": [
           "61",
@@ -665,8 +672,8 @@
           61741120
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "65.2/km 2 (168.9/sq mi) ( 147th )",
         "tokens": [
           "65",
@@ -695,6 +702,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$88.980 billion ( 80th )",
+        "tokens": [
+          "88",
+          "980",
+          "billion",
+          "80th"
+        ],
+        "numbers": [
+          88.98,
+          80
         ]
       },
       "per_capita": {
@@ -798,6 +819,55 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "United Republic of Tanzania",
+      "capital": "Dodoma",
+      "largest_city": "Dar es Salaam",
+      "coordinates": {
+        "latitude": "6°10′S",
+        "longitude": "35°44′E"
+      },
+      "government": {
+        "type": "Unitary dominant-party presidential republic",
+        "head_of_state": "Samia Suluhu Hassan",
+        "head_of_government": "Mwigulu Nchemba"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 947303,
+        "water_percent": 6.4
+      },
+      "population": {
+        "year": 2024,
+        "total": 67462121,
+        "rank": 22,
+        "density_per_km2": 65.2
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.555,
+          "rank": 165
+        },
+        "gini": {
+          "year": 2017,
+          "value": 40.5
+        }
+      },
+      "currency": {
+        "name": "Tanzanian shilling",
+        "code": "TZS"
+      },
+      "calling_code": "255",
+      "iso_3166_code": "TZ",
+      "internet_tld": ".tz",
+      "time_zone": "UTC+3",
+      "demonym": "Tanzanian"
     }
   }
 }

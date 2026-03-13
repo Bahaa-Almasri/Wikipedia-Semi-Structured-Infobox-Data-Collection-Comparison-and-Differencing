@@ -3,7 +3,7 @@
     "country_name": "Kuwait",
     "slug": "kuwait",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kuwait",
-    "retrieved_at": "2026-03-11T17:56:20+00:00",
+    "retrieved_at": "2026-03-13T10:08:42+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -60,57 +60,57 @@
         "value_text": "The National Assembly [ 5 ] (suspended) [ 6 ]"
       },
       {
-        "label": "• Independence from Bani Khalid",
+        "label": "Establishment • Independence from Bani Khalid",
         "value_html": "<td class=\"infobox-data\">1752</td>",
         "value_text": "1752"
       },
       {
-        "label": "• Anglo-Kuwaiti Agreement",
+        "label": "Establishment • Anglo-Kuwaiti Agreement",
         "value_html": "<td class=\"infobox-data\">23 January 1899</td>",
         "value_text": "23 January 1899"
       },
       {
-        "label": "• Anglo-Ottoman Convention",
+        "label": "Establishment • Anglo-Ottoman Convention",
         "value_html": "<td class=\"infobox-data\">29 July 1913</td>",
         "value_text": "29 July 1913"
       },
       {
-        "label": "• End of British Protectorate",
+        "label": "Establishment • End of British Protectorate",
         "value_html": "<td class=\"infobox-data\">19 June 1961</td>",
         "value_text": "19 June 1961"
       },
       {
-        "label": "• Current Constitution",
+        "label": "Establishment • Current Constitution",
         "value_html": "<td class=\"infobox-data\">11 November 1962</td>",
         "value_text": "11 November 1962"
       },
       {
-        "label": "• Iraqi invasion of Kuwait",
+        "label": "Establishment • Iraqi invasion of Kuwait",
         "value_html": "<td class=\"infobox-data\">28 August 1990</td>",
         "value_text": "28 August 1990"
       },
       {
-        "label": "• Liberation of Kuwait",
+        "label": "Establishment • Liberation of Kuwait",
         "value_html": "<td class=\"infobox-data\">28 February 1991</td>",
         "value_text": "28 February 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">17,818 km<sup>2</sup> (6,880 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">152nd</a>)</td>",
         "value_text": "17,818 km 2 (6,880 sq mi) ( 152nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">negligible</td>",
         "value_text": "negligible"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\">4,985,716<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">128th</a>)</td>",
         "value_text": "4,985,716 [ 7 ] [ 8 ] ( 128th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">200.2/km<sup>2</sup> (518.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">62nd</a>)</td>",
         "value_text": "200.2/km 2 (518.5/sq mi) ( 62nd )"
       },
@@ -219,47 +219,47 @@
         "value_text": "The National Assembly (suspended)"
       },
       {
-        "label": "• Independence from Bani Khalid",
+        "label": "Establishment • Independence from Bani Khalid",
         "value_text": "1752"
       },
       {
-        "label": "• Anglo-Kuwaiti Agreement",
+        "label": "Establishment • Anglo-Kuwaiti Agreement",
         "value_text": "23 January 1899"
       },
       {
-        "label": "• Anglo-Ottoman Convention",
+        "label": "Establishment • Anglo-Ottoman Convention",
         "value_text": "29 July 1913"
       },
       {
-        "label": "• End of British Protectorate",
+        "label": "Establishment • End of British Protectorate",
         "value_text": "19 June 1961"
       },
       {
-        "label": "• Current Constitution",
+        "label": "Establishment • Current Constitution",
         "value_text": "11 November 1962"
       },
       {
-        "label": "• Iraqi invasion of Kuwait",
+        "label": "Establishment • Iraqi invasion of Kuwait",
         "value_text": "28 August 1990"
       },
       {
-        "label": "• Liberation of Kuwait",
+        "label": "Establishment • Liberation of Kuwait",
         "value_text": "28 February 1991"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "17,818 km 2 (6,880 sq mi) ( 152nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "negligible"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "4,985,716 ( 128th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "200.2/km 2 (518.5/sq mi) ( 62nd )"
       },
       {
@@ -445,8 +445,8 @@
         ],
         "numbers": []
       },
-      "independence_from_bani_khalid": {
-        "raw_label": "• Independence from Bani Khalid",
+      "establishment_independence_from_bani_khalid": {
+        "raw_label": "Establishment • Independence from Bani Khalid",
         "text": "1752",
         "tokens": [
           "1752"
@@ -455,8 +455,8 @@
           1752
         ]
       },
-      "anglo_kuwaiti_agreement": {
-        "raw_label": "• Anglo-Kuwaiti Agreement",
+      "establishment_anglo_kuwaiti_agreement": {
+        "raw_label": "Establishment • Anglo-Kuwaiti Agreement",
         "text": "23 January 1899",
         "tokens": [
           "23",
@@ -468,8 +468,8 @@
           1899
         ]
       },
-      "anglo_ottoman_convention": {
-        "raw_label": "• Anglo-Ottoman Convention",
+      "establishment_anglo_ottoman_convention": {
+        "raw_label": "Establishment • Anglo-Ottoman Convention",
         "text": "29 July 1913",
         "tokens": [
           "29",
@@ -481,8 +481,8 @@
           1913
         ]
       },
-      "end_of_british_protectorate": {
-        "raw_label": "• End of British Protectorate",
+      "establishment_end_of_british_protectorate": {
+        "raw_label": "Establishment • End of British Protectorate",
         "text": "19 June 1961",
         "tokens": [
           "19",
@@ -494,8 +494,8 @@
           1961
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current Constitution",
+      "establishment_current_constitution": {
+        "raw_label": "Establishment • Current Constitution",
         "text": "11 November 1962",
         "tokens": [
           "11",
@@ -507,8 +507,8 @@
           1962
         ]
       },
-      "iraqi_invasion_of_kuwait": {
-        "raw_label": "• Iraqi invasion of Kuwait",
+      "establishment_iraqi_invasion_of_kuwait": {
+        "raw_label": "Establishment • Iraqi invasion of Kuwait",
         "text": "28 August 1990",
         "tokens": [
           "28",
@@ -520,8 +520,8 @@
           1990
         ]
       },
-      "liberation_of_kuwait": {
-        "raw_label": "• Liberation of Kuwait",
+      "establishment_liberation_of_kuwait": {
+        "raw_label": "Establishment • Liberation of Kuwait",
         "text": "28 February 1991",
         "tokens": [
           "28",
@@ -533,30 +533,37 @@
           1991
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$153.100 billion ( 59th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "17,818 km 2 (6,880 sq mi) ( 152nd )",
         "tokens": [
-          "153",
-          "100",
-          "billion",
-          "59th"
+          "17",
+          "818",
+          "km",
+          "2",
+          "6",
+          "880",
+          "sq",
+          "mi",
+          "152nd"
         ],
         "numbers": [
-          153.1,
-          59
+          17818,
+          2,
+          6880,
+          152
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "negligible",
         "tokens": [
           "negligible"
         ],
         "numbers": []
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "4,985,716 ( 128th )",
         "tokens": [
           "4",
@@ -569,8 +576,8 @@
           128
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "200.2/km 2 (518.5/sq mi) ( 62nd )",
         "tokens": [
           "200",
@@ -599,6 +606,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$153.100 billion ( 59th )",
+        "tokens": [
+          "153",
+          "100",
+          "billion",
+          "59th"
+        ],
+        "numbers": [
+          153.1,
+          59
         ]
       },
       "per_capita": {
@@ -688,6 +709,46 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Kuwait",
+      "capital": "Kuwait City",
+      "largest_city": "Kuwait City",
+      "government": {
+        "type": "Unitary semi-constitutional monarchy",
+        "head_of_state": "Mishal Al-Ahmad Al-Jaber Al-Sabah",
+        "head_of_government": "Ahmad Al-Abdullah Al-Sabah"
+      },
+      "legislature": "The National Assembly (suspended)",
+      "area": {
+        "total_km2": 17818
+      },
+      "population": {
+        "year": 2025,
+        "total": 4985716,
+        "rank": 128,
+        "density_per_km2": 200.2
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.852,
+          "rank": 52
+        }
+      },
+      "currency": {
+        "name": "Kuwaiti dinar",
+        "code": "KWD"
+      },
+      "calling_code": "965",
+      "iso_3166_code": "KW",
+      "internet_tld": ".kw",
+      "time_zone": "UTC+3",
+      "demonym": "Kuwaiti"
     }
   }
 }

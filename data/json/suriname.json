@@ -3,7 +3,7 @@
     "country_name": "Suriname",
     "slug": "suriname",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Suriname",
-    "retrieved_at": "2026-03-11T17:58:00+00:00",
+    "retrieved_at": "2026-03-13T10:10:33+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,32 +75,32 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Constituent country within the Kingdom of the Netherlands",
+        "label": "Independence from the Netherlands • Constituent country within the Kingdom of the Netherlands",
         "value_html": "<td class=\"infobox-data\">15 December 1954</td>",
         "value_text": "15 December 1954"
       },
       {
-        "label": "• Independence from the Kingdom of the Netherlands",
+        "label": "Independence from the Netherlands • Independence from the Kingdom of the Netherlands",
         "value_html": "<td class=\"infobox-data\">25 November 1975</td>",
         "value_text": "25 November 1975"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">165,940<sup class=\"reference\" id=\"cite_ref-9\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (64,070 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">90th</a>)</td>",
         "value_text": "165,940 [ 9 ] km 2 (64,070 sq mi) ( 90th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.1</td>",
         "value_text": "1.1"
       },
       {
-        "label": "• 2022 estimate",
+        "label": "Population • 2022 estimate",
         "value_html": "<td class=\"infobox-data\">632,638<sup class=\"reference\" id=\"cite_ref-CIA_Factbook_10-0\"><a href=\"#cite_note-CIA_Factbook-10\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-Suriname_country_profile_11-0\"><a href=\"#cite_note-Suriname_country_profile-11\"><span class=\"cite-bracket\">[</span>11<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">170th</a>)</td>",
         "value_text": "632,638 [ 10 ] [ 11 ] ( 170th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">3.9/km<sup>2</sup> (10.1/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">231st</a>)</td>",
         "value_text": "3.9/km 2 (10.1/sq mi) ( 231st )"
       },
@@ -226,27 +226,27 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Constituent country within the Kingdom of the Netherlands",
+        "label": "Independence from the Netherlands • Constituent country within the Kingdom of the Netherlands",
         "value_text": "15 December 1954"
       },
       {
-        "label": "• Independence from the Kingdom of the Netherlands",
+        "label": "Independence from the Netherlands • Independence from the Kingdom of the Netherlands",
         "value_text": "25 November 1975"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "165,940 km 2 (64,070 sq mi) ( 90th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.1"
       },
       {
-        "label": "• 2022 estimate",
+        "label": "Population • 2022 estimate",
         "value_text": "632,638 ( 170th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "3.9/km 2 (10.1/sq mi) ( 231st )"
       },
       {
@@ -610,8 +610,8 @@
         ],
         "numbers": []
       },
-      "constituent_country_within_the_kingdom_of_the_netherlands": {
-        "raw_label": "• Constituent country within the Kingdom of the Netherlands",
+      "independence_from_the_netherlands_constituent_country_within_the_kingdom_of_the_netherlands": {
+        "raw_label": "Independence from the Netherlands • Constituent country within the Kingdom of the Netherlands",
         "text": "15 December 1954",
         "tokens": [
           "15",
@@ -623,8 +623,8 @@
           1954
         ]
       },
-      "independence_from_the_kingdom_of_the_netherlands": {
-        "raw_label": "• Independence from the Kingdom of the Netherlands",
+      "independence_from_the_netherlands_independence_from_the_kingdom_of_the_netherlands": {
+        "raw_label": "Independence from the Netherlands • Independence from the Kingdom of the Netherlands",
         "text": "25 November 1975",
         "tokens": [
           "25",
@@ -636,22 +636,29 @@
           1975
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$4.506 billion ( 173rd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "165,940 km 2 (64,070 sq mi) ( 90th )",
         "tokens": [
-          "4",
-          "506",
-          "billion",
-          "173rd"
+          "165",
+          "940",
+          "km",
+          "2",
+          "64",
+          "070",
+          "sq",
+          "mi",
+          "90th"
         ],
         "numbers": [
-          4.506,
-          173
+          165940,
+          2,
+          64070,
+          90
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.1",
         "tokens": [
           "1",
@@ -661,8 +668,8 @@
           1.1
         ]
       },
-      "2022_estimate": {
-        "raw_label": "• 2022 estimate",
+      "population_2022_estimate": {
+        "raw_label": "Population • 2022 estimate",
         "text": "632,638 ( 170th )",
         "tokens": [
           "632",
@@ -674,8 +681,8 @@
           170
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "3.9/km 2 (10.1/sq mi) ( 231st )",
         "tokens": [
           "3",
@@ -704,6 +711,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$4.506 billion ( 173rd )",
+        "tokens": [
+          "4",
+          "506",
+          "billion",
+          "173rd"
+        ],
+        "numbers": [
+          4.506,
+          173
         ]
       },
       "per_capita": {
@@ -804,6 +825,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Suriname",
+      "capital": "Paramaribo",
+      "largest_city": "Paramaribo",
+      "coordinates": {
+        "latitude": "5°50′N",
+        "longitude": "55°10′W"
+      },
+      "government": {
+        "type": "Unitary assembly-independent republic",
+        "head_of_state": "Jennifer Geerlings-Simons"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 165940,
+        "water_percent": 1.1
+      },
+      "population": {
+        "year": 2022,
+        "total": 632638,
+        "rank": 170,
+        "density_per_km2": 3.9
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.722,
+          "rank": 114
+        }
+      },
+      "currency": {
+        "name": "Surinamese dollar",
+        "code": "SRD"
+      },
+      "calling_code": "597",
+      "iso_3166_code": "SR",
+      "internet_tld": ".sr",
+      "time_zone": "UTC-03:00",
+      "demonym": "Surinamese"
     }
   }
 }

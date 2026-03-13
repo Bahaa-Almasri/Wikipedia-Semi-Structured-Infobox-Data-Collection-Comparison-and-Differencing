@@ -3,7 +3,7 @@
     "country_name": "Luxembourg",
     "slug": "luxembourg",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Luxembourg",
-    "retrieved_at": "2026-03-11T17:56:29+00:00",
+    "retrieved_at": "2026-03-13T10:08:54+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -55,47 +55,47 @@
         "value_text": "Chamber of Deputies"
       },
       {
-        "label": "• From the French Empire and elevation to Grand Duchy of Luxembourg",
+        "label": "Establishment • From the French Empire and elevation to Grand Duchy of Luxembourg",
         "value_html": "<td class=\"infobox-data\">9 June 1815</td>",
         "value_text": "9 June 1815"
       },
       {
-        "label": "• Independence in personal Union with the Netherlands ( Treaty of London )",
+        "label": "Establishment • Independence in personal Union with the Netherlands ( Treaty of London )",
         "value_html": "<td class=\"infobox-data\">19 April 1839</td>",
         "value_text": "19 April 1839"
       },
       {
-        "label": "• End of personal union with the Kingdom of the Netherlands",
+        "label": "Establishment • End of personal union with the Kingdom of the Netherlands",
         "value_html": "<td class=\"infobox-data\">23 November 1890</td>",
         "value_text": "23 November 1890"
       },
       {
-        "label": "• Liberation from the Greater German Reich",
+        "label": "Establishment • Liberation from the Greater German Reich",
         "value_html": "<td class=\"infobox-data\">1944/1945</td>",
         "value_text": "1944/1945"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">2,586.4 km<sup>2</sup> (998.6 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">168th</a>)</td>",
         "value_text": "2,586.4 km 2 (998.6 sq mi) ( 168th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.23 (2015)<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "0.23 (2015) [ 3 ]"
       },
       {
-        "label": "• December 2025 estimate",
+        "label": "Population • December 2025 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 690,947<sup class=\"reference\" id=\"cite_ref-DataPublic_4-0\"><a href=\"#cite_note-DataPublic-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">163rd</a>)</td>",
         "value_text": "690,947 [ 4 ] ( 163rd )"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_html": "<td class=\"infobox-data\">643,941<sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "643,941 [ 5 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">264/km<sup>2</sup> (683.8/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">55th</a>)</td>",
         "value_text": "264/km 2 (683.8/sq mi) ( 55th )"
       },
@@ -200,39 +200,39 @@
         "value_text": "Chamber of Deputies"
       },
       {
-        "label": "• From the French Empire and elevation to Grand Duchy of Luxembourg",
+        "label": "Establishment • From the French Empire and elevation to Grand Duchy of Luxembourg",
         "value_text": "9 June 1815"
       },
       {
-        "label": "• Independence in personal Union with the Netherlands ( Treaty of London )",
+        "label": "Establishment • Independence in personal Union with the Netherlands ( Treaty of London )",
         "value_text": "19 April 1839"
       },
       {
-        "label": "• End of personal union with the Kingdom of the Netherlands",
+        "label": "Establishment • End of personal union with the Kingdom of the Netherlands",
         "value_text": "23 November 1890"
       },
       {
-        "label": "• Liberation from the Greater German Reich",
+        "label": "Establishment • Liberation from the Greater German Reich",
         "value_text": "1944/1945"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "2,586.4 km 2 (998.6 sq mi) ( 168th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.23 (2015)"
       },
       {
-        "label": "• December 2025 estimate",
+        "label": "Population • December 2025 estimate",
         "value_text": "690,947 ( 163rd )"
       },
       {
-        "label": "• 2021 census",
+        "label": "Population • 2021 census",
         "value_text": "643,941"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "264/km 2 (683.8/sq mi) ( 55th )"
       },
       {
@@ -442,8 +442,8 @@
         ],
         "numbers": []
       },
-      "from_the_french_empire_and_elevation_to_grand_duchy_of_luxembourg": {
-        "raw_label": "• From the French Empire and elevation to Grand Duchy of Luxembourg",
+      "establishment_from_the_french_empire_and_elevation_to_grand_duchy_of_luxembourg": {
+        "raw_label": "Establishment • From the French Empire and elevation to Grand Duchy of Luxembourg",
         "text": "9 June 1815",
         "tokens": [
           "9",
@@ -455,8 +455,8 @@
           1815
         ]
       },
-      "independence_in_personal_union_with_the_netherlands_treaty_of_london": {
-        "raw_label": "• Independence in personal Union with the Netherlands ( Treaty of London )",
+      "establishment_independence_in_personal_union_with_the_netherlands_treaty_of_london": {
+        "raw_label": "Establishment • Independence in personal Union with the Netherlands ( Treaty of London )",
         "text": "19 April 1839",
         "tokens": [
           "19",
@@ -468,8 +468,8 @@
           1839
         ]
       },
-      "end_of_personal_union_with_the_kingdom_of_the_netherlands": {
-        "raw_label": "• End of personal union with the Kingdom of the Netherlands",
+      "establishment_end_of_personal_union_with_the_kingdom_of_the_netherlands": {
+        "raw_label": "Establishment • End of personal union with the Kingdom of the Netherlands",
         "text": "23 November 1890",
         "tokens": [
           "23",
@@ -481,8 +481,8 @@
           1890
         ]
       },
-      "liberation_from_the_greater_german_reich": {
-        "raw_label": "• Liberation from the Greater German Reich",
+      "establishment_liberation_from_the_greater_german_reich": {
+        "raw_label": "Establishment • Liberation from the Greater German Reich",
         "text": "1944/1945",
         "tokens": [
           "1944",
@@ -493,22 +493,30 @@
           1945
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$96.993 billion ( 73rd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "2,586.4 km 2 (998.6 sq mi) ( 168th )",
         "tokens": [
-          "96",
-          "993",
-          "billion",
-          "73rd"
+          "2",
+          "586",
+          "4",
+          "km",
+          "2",
+          "998",
+          "6",
+          "sq",
+          "mi",
+          "168th"
         ],
         "numbers": [
-          96.993,
-          73
+          2586.4,
+          2,
+          998.6,
+          168
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.23 (2015)",
         "tokens": [
           "0",
@@ -520,8 +528,8 @@
           2015
         ]
       },
-      "december_2025_estimate": {
-        "raw_label": "• December 2025 estimate",
+      "population_december_2025_estimate": {
+        "raw_label": "Population • December 2025 estimate",
         "text": "690,947 ( 163rd )",
         "tokens": [
           "690",
@@ -533,8 +541,8 @@
           163
         ]
       },
-      "2021_census": {
-        "raw_label": "• 2021 census",
+      "population_2021_census": {
+        "raw_label": "Population • 2021 census",
         "text": "643,941",
         "tokens": [
           "643",
@@ -544,8 +552,8 @@
           643941
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "264/km 2 (683.8/sq mi) ( 55th )",
         "tokens": [
           "264",
@@ -573,6 +581,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$96.993 billion ( 73rd )",
+        "tokens": [
+          "96",
+          "993",
+          "billion",
+          "73rd"
+        ],
+        "numbers": [
+          96.993,
+          73
         ]
       },
       "per_capita": {
@@ -663,6 +685,47 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Luxembourg",
+      "capital": "Luxembourg",
+      "largest_city": "Luxembourg",
+      "government": {
+        "type": "Unitary parliamentary constitutional monarchy",
+        "head_of_government": "Luc Frieden"
+      },
+      "legislature": "Chamber of Deputies",
+      "area": {
+        "total_km2": 2586,
+        "water_percent": 0.23
+      },
+      "population": {
+        "year": 2025,
+        "total": 690947,
+        "rank": 163,
+        "density_per_km2": 264.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.922,
+          "rank": 25
+        },
+        "gini": {
+          "year": 2023,
+          "value": 30.6
+        }
+      },
+      "currency": {
+        "name": "Euro"
+      },
+      "calling_code": "352",
+      "iso_3166_code": "LU",
+      "internet_tld": ".lu b"
     }
   }
 }

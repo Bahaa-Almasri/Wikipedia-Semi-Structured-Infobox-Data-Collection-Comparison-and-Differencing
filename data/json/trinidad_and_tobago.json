@@ -3,7 +3,7 @@
     "country_name": "Trinidad and Tobago",
     "slug": "trinidad_and_tobago",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Trinidad_and_Tobago",
-    "retrieved_at": "2026-03-11T17:58:16+00:00",
+    "retrieved_at": "2026-03-13T10:10:42+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -85,42 +85,42 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Province of the West Indies Federation",
+        "label": "Independence from the United Kingdom • Province of the West Indies Federation",
         "value_html": "<td class=\"infobox-data\">3 January 1958 – 14 January 1962</td>",
         "value_text": "3 January 1958 – 14 January 1962"
       },
       {
-        "label": "• Independence",
+        "label": "Independence from the United Kingdom • Independence",
         "value_html": "<td class=\"infobox-data\">31 August 1962</td>",
         "value_text": "31 August 1962"
       },
       {
-        "label": "• Joined the Caribbean Community at the Treaty of Chaguaramas",
+        "label": "Independence from the United Kingdom • Joined the Caribbean Community at the Treaty of Chaguaramas",
         "value_html": "<td class=\"infobox-data\">1 August 1973</td>",
         "value_text": "1 August 1973"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_html": "<td class=\"infobox-data\">1 August 1976<sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>b<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "1 August 1976 [ b ]"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">5,131 km<sup>2</sup> (1,981 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">164th</a>)</td>",
         "value_text": "5,131 km 2 (1,981 sq mi) ( 164th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">negligible</td>",
         "value_text": "negligible"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\">1,512,779<sup class=\"reference\" id=\"cite_ref-9\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">154th</a>)</td>",
         "value_text": "1,512,779 [ 7 ] ( 154th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">294/km<sup>2</sup> (761.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">34th</a>)</td>",
         "value_text": "294/km 2 (761.5/sq mi) ( 34th )"
       },
@@ -259,35 +259,35 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Province of the West Indies Federation",
+        "label": "Independence from the United Kingdom • Province of the West Indies Federation",
         "value_text": "3 January 1958 – 14 January 1962"
       },
       {
-        "label": "• Independence",
+        "label": "Independence from the United Kingdom • Independence",
         "value_text": "31 August 1962"
       },
       {
-        "label": "• Joined the Caribbean Community at the Treaty of Chaguaramas",
+        "label": "Independence from the United Kingdom • Joined the Caribbean Community at the Treaty of Chaguaramas",
         "value_text": "1 August 1973"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_text": "1 August 1976"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "5,131 km 2 (1,981 sq mi) ( 164th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "negligible"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "1,512,779 ( 154th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "294/km 2 (761.5/sq mi) ( 34th )"
       },
       {
@@ -562,8 +562,8 @@
         ],
         "numbers": []
       },
-      "province_of_the_west_indies_federation": {
-        "raw_label": "• Province of the West Indies Federation",
+      "independence_from_the_united_kingdom_province_of_the_west_indies_federation": {
+        "raw_label": "Independence from the United Kingdom • Province of the West Indies Federation",
         "text": "3 January 1958 – 14 January 1962",
         "tokens": [
           "3",
@@ -580,8 +580,8 @@
           1962
         ]
       },
-      "independence": {
-        "raw_label": "• Independence",
+      "independence_from_the_united_kingdom_independence": {
+        "raw_label": "Independence from the United Kingdom • Independence",
         "text": "31 August 1962",
         "tokens": [
           "31",
@@ -593,8 +593,8 @@
           1962
         ]
       },
-      "joined_the_caribbean_community_at_the_treaty_of_chaguaramas": {
-        "raw_label": "• Joined the Caribbean Community at the Treaty of Chaguaramas",
+      "independence_from_the_united_kingdom_joined_the_caribbean_community_at_the_treaty_of_chaguaramas": {
+        "raw_label": "Independence from the United Kingdom • Joined the Caribbean Community at the Treaty of Chaguaramas",
         "text": "1 August 1973",
         "tokens": [
           "1",
@@ -606,8 +606,8 @@
           1973
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "independence_from_the_united_kingdom_republic": {
+        "raw_label": "Independence from the United Kingdom • Republic",
         "text": "1 August 1976",
         "tokens": [
           "1",
@@ -619,30 +619,37 @@
           1976
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$27.887 billion ( 107th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "5,131 km 2 (1,981 sq mi) ( 164th )",
         "tokens": [
-          "27",
-          "887",
-          "billion",
-          "107th"
+          "5",
+          "131",
+          "km",
+          "2",
+          "1",
+          "981",
+          "sq",
+          "mi",
+          "164th"
         ],
         "numbers": [
-          27.887,
-          107
+          5131,
+          2,
+          1981,
+          164
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "negligible",
         "tokens": [
           "negligible"
         ],
         "numbers": []
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "1,512,779 ( 154th )",
         "tokens": [
           "1",
@@ -655,8 +662,8 @@
           154
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "294/km 2 (761.5/sq mi) ( 34th )",
         "tokens": [
           "294",
@@ -684,6 +691,20 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$27.887 billion ( 107th )",
+        "tokens": [
+          "27",
+          "887",
+          "billion",
+          "107th"
+        ],
+        "numbers": [
+          27.887,
+          107
         ]
       },
       "per_capita": {
@@ -798,6 +819,49 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Trinidad and Tobago",
+      "capital": "Port of Spain",
+      "largest_city": "Port of Spain",
+      "government": {
+        "type": "Unitary parliamentary republic",
+        "head_of_state": "Christine Kangaloo",
+        "head_of_government": "Kamla Persad-Bissessar"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 5131
+      },
+      "population": {
+        "year": 2025,
+        "total": 1512779,
+        "rank": 154,
+        "density_per_km2": 294.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.807,
+          "rank": 72
+        },
+        "gini": {
+          "year": 2012,
+          "value": 39.0
+        }
+      },
+      "currency": {
+        "name": "Trinidad and Tobago dollar",
+        "code": "TTD"
+      },
+      "calling_code": "1",
+      "iso_3166_code": "TT",
+      "internet_tld": ".tt",
+      "time_zone": "UTC-4"
     }
   }
 }

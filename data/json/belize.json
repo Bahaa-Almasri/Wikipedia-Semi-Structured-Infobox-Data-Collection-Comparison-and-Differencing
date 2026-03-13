@@ -3,7 +3,7 @@
     "country_name": "Belize",
     "slug": "belize",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Belize",
-    "retrieved_at": "2026-03-11T17:52:48+00:00",
+    "retrieved_at": "2026-03-13T10:07:00+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -80,32 +80,32 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Self-governance",
+        "label": "Independence from the United Kingdom • Self-governance",
         "value_html": "<td class=\"infobox-data\">January 1964</td>",
         "value_text": "January 1964"
       },
       {
-        "label": "• Realm",
+        "label": "Independence from the United Kingdom • Realm",
         "value_html": "<td class=\"infobox-data\">21 September 1981</td>",
         "value_text": "21 September 1981"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">22,966 km<sup>2</sup> (8,867 sq mi)<sup class=\"reference\" id=\"cite_ref-CIAFactbookGeography2019_4-0\"><a href=\"#cite_note-CIAFactbookGeography2019-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-censusarea_5-0\"><a href=\"#cite_note-censusarea-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">147th</a>)</td>",
         "value_text": "22,966 km 2 (8,867 sq mi) [ 4 ] [ 5 ] ( 147th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.8</td>",
         "value_text": "0.8"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_html": "<td class=\"infobox-data\">397,483<sup class=\"reference\" id=\"cite_ref-sib2024_6-0\"><a href=\"#cite_note-sib2024-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "397,483 [ 6 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">17.31/km<sup>2</sup> (44.8/sq mi)</td>",
         "value_text": "17.31/km 2 (44.8/sq mi)"
       },
@@ -240,27 +240,27 @@
         "value_text": "House of Representatives"
       },
       {
-        "label": "• Self-governance",
+        "label": "Independence from the United Kingdom • Self-governance",
         "value_text": "January 1964"
       },
       {
-        "label": "• Realm",
+        "label": "Independence from the United Kingdom • Realm",
         "value_text": "21 September 1981"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "22,966 km 2 (8,867 sq mi) ( 147th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.8"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_text": "397,483"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "17.31/km 2 (44.8/sq mi)"
       },
       {
@@ -553,8 +553,8 @@
         ],
         "numbers": []
       },
-      "self_governance": {
-        "raw_label": "• Self-governance",
+      "independence_from_the_united_kingdom_self_governance": {
+        "raw_label": "Independence from the United Kingdom • Self-governance",
         "text": "January 1964",
         "tokens": [
           "January",
@@ -564,8 +564,8 @@
           1964
         ]
       },
-      "realm": {
-        "raw_label": "• Realm",
+      "independence_from_the_united_kingdom_realm": {
+        "raw_label": "Independence from the United Kingdom • Realm",
         "text": "21 September 1981",
         "tokens": [
           "21",
@@ -577,22 +577,29 @@
           1981
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$3.488 billion ( 179th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "22,966 km 2 (8,867 sq mi) ( 147th )",
         "tokens": [
-          "3",
-          "488",
-          "billion",
-          "179th"
+          "22",
+          "966",
+          "km",
+          "2",
+          "8",
+          "867",
+          "sq",
+          "mi",
+          "147th"
         ],
         "numbers": [
-          3.488,
-          179
+          22966,
+          2,
+          8867,
+          147
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.8",
         "tokens": [
           "0",
@@ -602,8 +609,8 @@
           0.8
         ]
       },
-      "2022_census": {
-        "raw_label": "• 2022 census",
+      "population_2022_census": {
+        "raw_label": "Population • 2022 census",
         "text": "397,483",
         "tokens": [
           "397",
@@ -613,8 +620,8 @@
           397483
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "17.31/km 2 (44.8/sq mi)",
         "tokens": [
           "17",
@@ -641,6 +648,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$3.488 billion ( 179th )",
+        "tokens": [
+          "3",
+          "488",
+          "billion",
+          "179th"
+        ],
+        "numbers": [
+          3.488,
+          179
         ]
       },
       "per_capita": {
@@ -755,6 +776,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Belize",
+      "capital": "Belmopan",
+      "largest_city": "Belize City",
+      "coordinates": {
+        "latitude": "17°15′N",
+        "longitude": "88°46′W"
+      },
+      "government": {
+        "type": "Unitary parliamentary constitutional monarchy",
+        "head_of_state": "Charles III",
+        "head_of_government": "Johnny Briceño"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 22966,
+        "water_percent": 0.8
+      },
+      "population": {
+        "year": 2022,
+        "total": 397483,
+        "density_per_km2": 17.31
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.721,
+          "rank": 115
+        },
+        "gini": {
+          "year": 2013,
+          "value": 53.1
+        }
+      },
+      "currency": {
+        "name": "Belize dollar"
+      },
+      "calling_code": "501",
+      "iso_3166_code": "BZ",
+      "internet_tld": ".bz",
+      "time_zone": "UTC −06:00 ( CST )",
+      "demonym": "Belizean"
     }
   }
 }

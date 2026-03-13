@@ -3,7 +3,7 @@
     "country_name": "Guatemala",
     "slug": "guatemala",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guatemala",
-    "retrieved_at": "2026-03-11T17:55:36+00:00",
+    "retrieved_at": "2026-03-13T10:08:09+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,42 +70,42 @@
         "value_text": "Congress of the Republic"
       },
       {
-        "label": "• Declared from the Spanish Empire",
+        "label": "Independence • Declared from the Spanish Empire",
         "value_html": "<td class=\"infobox-data\">15 September 1821</td>",
         "value_text": "15 September 1821"
       },
       {
-        "label": "• Declared from the First Mexican Empire",
+        "label": "Independence • Declared from the First Mexican Empire",
         "value_html": "<td class=\"infobox-data\">1 July 1823</td>",
         "value_text": "1 July 1823"
       },
       {
-        "label": "• Declared from the Federal Republic of Central America",
+        "label": "Independence • Declared from the Federal Republic of Central America",
         "value_html": "<td class=\"infobox-data\">17 April 1839</td>",
         "value_text": "17 April 1839"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence • Current constitution",
         "value_html": "<td class=\"infobox-data\">17 November 1993</td>",
         "value_text": "17 November 1993"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">108,889 km<sup>2</sup> (42,042 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">105th</a>)</td>",
         "value_text": "108,889 km 2 (42,042 sq mi) ( 105th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.4</td>",
         "value_text": "0.4"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 18,255,216<sup class=\"reference\" id=\"cite_ref-4\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">70th</a>)</td>",
         "value_text": "18,255,216 [ 4 ] ( 70th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">166/km<sup>2</sup> (429.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">76th</a>)</td>",
         "value_text": "166/km 2 (429.9/sq mi) ( 76th )"
       },
@@ -232,35 +232,35 @@
         "value_text": "Congress of the Republic"
       },
       {
-        "label": "• Declared from the Spanish Empire",
+        "label": "Independence • Declared from the Spanish Empire",
         "value_text": "15 September 1821"
       },
       {
-        "label": "• Declared from the First Mexican Empire",
+        "label": "Independence • Declared from the First Mexican Empire",
         "value_text": "1 July 1823"
       },
       {
-        "label": "• Declared from the Federal Republic of Central America",
+        "label": "Independence • Declared from the Federal Republic of Central America",
         "value_text": "17 April 1839"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence • Current constitution",
         "value_text": "17 November 1993"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "108,889 km 2 (42,042 sq mi) ( 105th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.4"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "18,255,216 ( 70th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "166/km 2 (429.9/sq mi) ( 76th )"
       },
       {
@@ -500,8 +500,8 @@
         ],
         "numbers": []
       },
-      "declared_from_the_spanish_empire": {
-        "raw_label": "• Declared from the Spanish Empire",
+      "independence_declared_from_the_spanish_empire": {
+        "raw_label": "Independence • Declared from the Spanish Empire",
         "text": "15 September 1821",
         "tokens": [
           "15",
@@ -513,8 +513,8 @@
           1821
         ]
       },
-      "declared_from_the_first_mexican_empire": {
-        "raw_label": "• Declared from the First Mexican Empire",
+      "independence_declared_from_the_first_mexican_empire": {
+        "raw_label": "Independence • Declared from the First Mexican Empire",
         "text": "1 July 1823",
         "tokens": [
           "1",
@@ -526,8 +526,8 @@
           1823
         ]
       },
-      "declared_from_the_federal_republic_of_central_america": {
-        "raw_label": "• Declared from the Federal Republic of Central America",
+      "independence_declared_from_the_federal_republic_of_central_america": {
+        "raw_label": "Independence • Declared from the Federal Republic of Central America",
         "text": "17 April 1839",
         "tokens": [
           "17",
@@ -539,8 +539,8 @@
           1839
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_current_constitution": {
+        "raw_label": "Independence • Current constitution",
         "text": "17 November 1993",
         "tokens": [
           "17",
@@ -552,22 +552,29 @@
           1993
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$120.964 billion ( 70th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "108,889 km 2 (42,042 sq mi) ( 105th )",
         "tokens": [
-          "120",
-          "964",
-          "billion",
-          "70th"
+          "108",
+          "889",
+          "km",
+          "2",
+          "42",
+          "042",
+          "sq",
+          "mi",
+          "105th"
         ],
         "numbers": [
-          120.964,
-          70
+          108889,
+          2,
+          42042,
+          105
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.4",
         "tokens": [
           "0",
@@ -577,8 +584,8 @@
           0.4
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "18,255,216 ( 70th )",
         "tokens": [
           "18",
@@ -591,8 +598,8 @@
           70
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "166/km 2 (429.9/sq mi) ( 76th )",
         "tokens": [
           "166",
@@ -620,6 +627,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$120.964 billion ( 70th )",
+        "tokens": [
+          "120",
+          "964",
+          "billion",
+          "70th"
+        ],
+        "numbers": [
+          120.964,
+          70
         ]
       },
       "per_capita": {
@@ -730,6 +751,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Guatemala",
+      "capital": "Guatemala City",
+      "largest_city": "Guatemala City",
+      "coordinates": {
+        "latitude": "14°38′N",
+        "longitude": "90°30′W"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Bernardo Arévalo"
+      },
+      "legislature": "Congress of the Republic",
+      "area": {
+        "total_km2": 108889,
+        "water_percent": 0.4
+      },
+      "population": {
+        "year": 2024,
+        "total": 18255216,
+        "rank": 70,
+        "density_per_km2": 166.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.662,
+          "rank": 137
+        },
+        "gini": {
+          "year": 2023,
+          "value": 45.2
+        }
+      },
+      "currency": {
+        "name": "Quetzal",
+        "code": "GTQ"
+      },
+      "calling_code": "502",
+      "iso_3166_code": "GT",
+      "internet_tld": ".gt",
+      "time_zone": "UTC −6 ( CST )",
+      "demonym": "Guatemalan"
     }
   }
 }

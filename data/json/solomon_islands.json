@@ -3,7 +3,7 @@
     "country_name": "Solomon Islands",
     "slug": "solomon_islands",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Solomon_Islands",
-    "retrieved_at": "2026-03-11T17:57:49+00:00",
+    "retrieved_at": "2026-03-13T10:10:20+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,32 +65,32 @@
         "value_text": "National Parliament"
       },
       {
-        "label": "• from the United Kingdom",
+        "label": "Independence • from the United Kingdom",
         "value_html": "<td class=\"infobox-data\">7 July 1978</td>",
         "value_text": "7 July 1978"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">28,896<sup class=\"reference\" id=\"cite_ref-Solomon_Islands:_Geography_3-0\"><a href=\"#cite_note-Solomon_Islands:_Geography-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (11,157 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">139th</a>)</td>",
         "value_text": "28,896 [ 3 ] km 2 (11,157 sq mi) ( 139th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">3.2%</td>",
         "value_text": "3.2%"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\">828,857<sup class=\"reference\" id=\"cite_ref-auto2_4-0\"><a href=\"#cite_note-auto2-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">167th</a>)</td>",
         "value_text": "828,857 [ 4 ] ( 167th )"
       },
       {
-        "label": "• 2019 census",
+        "label": "Population • 2019 census",
         "value_html": "<td class=\"infobox-data\">721,956</td>",
         "value_text": "721,956"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">24.2/km<sup>2</sup> (62.7/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">192th</a>)</td>",
         "value_text": "24.2/km 2 (62.7/sq mi) ( 192th )"
       },
@@ -213,27 +213,27 @@
         "value_text": "National Parliament"
       },
       {
-        "label": "• from the United Kingdom",
+        "label": "Independence • from the United Kingdom",
         "value_text": "7 July 1978"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "28,896 km 2 (11,157 sq mi) ( 139th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "3.2%"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "828,857 ( 167th )"
       },
       {
-        "label": "• 2019 census",
+        "label": "Population • 2019 census",
         "value_text": "721,956"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "24.2/km 2 (62.7/sq mi) ( 192th )"
       },
       {
@@ -466,8 +466,8 @@
         ],
         "numbers": []
       },
-      "from_the_united_kingdom": {
-        "raw_label": "• from the United Kingdom",
+      "independence_from_the_united_kingdom": {
+        "raw_label": "Independence • from the United Kingdom",
         "text": "7 July 1978",
         "tokens": [
           "7",
@@ -479,20 +479,29 @@
           1978
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$1.681 billion",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "28,896 km 2 (11,157 sq mi) ( 139th )",
         "tokens": [
-          "1",
-          "681",
-          "billion"
+          "28",
+          "896",
+          "km",
+          "2",
+          "11",
+          "157",
+          "sq",
+          "mi",
+          "139th"
         ],
         "numbers": [
-          1.681
+          28896,
+          2,
+          11157,
+          139
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "3.2%",
         "tokens": [
           "3",
@@ -502,8 +511,8 @@
           3.2
         ]
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "828,857 ( 167th )",
         "tokens": [
           "828",
@@ -515,8 +524,8 @@
           167
         ]
       },
-      "2019_census": {
-        "raw_label": "• 2019 census",
+      "population_2019_census": {
+        "raw_label": "Population • 2019 census",
         "text": "721,956",
         "tokens": [
           "721",
@@ -526,8 +535,8 @@
           721956
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "24.2/km 2 (62.7/sq mi) ( 192th )",
         "tokens": [
           "24",
@@ -556,6 +565,18 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$1.681 billion",
+        "tokens": [
+          "1",
+          "681",
+          "billion"
+        ],
+        "numbers": [
+          1.681
         ]
       },
       "per_capita": {
@@ -668,6 +689,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Solomon Islands",
+      "capital": "Honiara",
+      "largest_city": "Honiara",
+      "government": {
+        "type": "Unitary parliamentary constitutional monarchy",
+        "head_of_state": "Charles III",
+        "head_of_government": "Jeremiah Manele"
+      },
+      "legislature": "National Parliament",
+      "area": {
+        "total_km2": 28896,
+        "water_percent": 3.2
+      },
+      "population": {
+        "year": 2025,
+        "total": 828857,
+        "rank": 167,
+        "density_per_km2": 24.2
+      },
+      "economy": {
+        "gdp_nominal_year": 2024,
+        "gdp_ppp_year": 2024
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.584,
+          "rank": 156
+        },
+        "gini": {
+          "year": 2013,
+          "value": 37.1
+        }
+      },
+      "currency": {
+        "name": "Solomon Islands dollar",
+        "code": "SBD"
+      },
+      "calling_code": "677",
+      "iso_3166_code": "SB",
+      "internet_tld": ".sb",
+      "time_zone": "UTC+11"
     }
   }
 }

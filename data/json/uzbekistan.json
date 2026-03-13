@@ -3,7 +3,7 @@
     "country_name": "Uzbekistan",
     "slug": "uzbekistan",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Uzbekistan",
-    "retrieved_at": "2026-03-11T17:58:35+00:00",
+    "retrieved_at": "2026-03-13T10:10:52+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,47 +70,47 @@
         "value_text": "Legislative Chamber"
       },
       {
-        "label": "• Uzbek khanates",
+        "label": "History • Uzbek khanates",
         "value_html": "<td class=\"infobox-data\">1500–1920</td>",
         "value_text": "1500–1920"
       },
       {
-        "label": "• Turkestan ASSR",
+        "label": "History • Turkestan ASSR",
         "value_html": "<td class=\"infobox-data\">30 April 1918</td>",
         "value_text": "30 April 1918"
       },
       {
-        "label": "• Uzbek SSR",
+        "label": "History • Uzbek SSR",
         "value_html": "<td class=\"infobox-data\">27 October 1924</td>",
         "value_text": "27 October 1924"
       },
       {
-        "label": "• Republic",
+        "label": "History • Republic",
         "value_html": "<td class=\"infobox-data\">1 September 1991</td>",
         "value_text": "1 September 1991"
       },
       {
-        "label": "• Current constitution",
+        "label": "History • Current constitution",
         "value_html": "<td class=\"infobox-data\">8 December 1992</td>",
         "value_text": "8 December 1992"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">448,978<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-factbook_7-0\"><a href=\"#cite_note-factbook-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (173,351 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">55th</a>)</td>",
         "value_text": "448,978 [ 6 ] [ 7 ] km 2 (173,351 sq mi) ( 55th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">4.9</td>",
         "value_text": "4.9"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 38,236,704<sup class=\"reference\" id=\"cite_ref-UzbekStat2026_8-0\"><a href=\"#cite_note-UzbekStat2026-8\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">38th</a>)</td>",
         "value_text": "38,236,704 [ 8 ] ( 38th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">80.2/km<sup>2</sup> (207.7/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">138th</a>)</td>",
         "value_text": "80.2/km 2 (207.7/sq mi) ( 138th )"
       },
@@ -237,39 +237,39 @@
         "value_text": "Legislative Chamber"
       },
       {
-        "label": "• Uzbek khanates",
+        "label": "History • Uzbek khanates",
         "value_text": "1500–1920"
       },
       {
-        "label": "• Turkestan ASSR",
+        "label": "History • Turkestan ASSR",
         "value_text": "30 April 1918"
       },
       {
-        "label": "• Uzbek SSR",
+        "label": "History • Uzbek SSR",
         "value_text": "27 October 1924"
       },
       {
-        "label": "• Republic",
+        "label": "History • Republic",
         "value_text": "1 September 1991"
       },
       {
-        "label": "• Current constitution",
+        "label": "History • Current constitution",
         "value_text": "8 December 1992"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "448,978 km 2 (173,351 sq mi) ( 55th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "4.9"
       },
       {
-        "label": "• 2026 estimate",
+        "label": "Population • 2026 estimate",
         "value_text": "38,236,704 ( 38th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "80.2/km 2 (207.7/sq mi) ( 138th )"
       },
       {
@@ -502,8 +502,8 @@
         ],
         "numbers": []
       },
-      "uzbek_khanates": {
-        "raw_label": "• Uzbek khanates",
+      "history_uzbek_khanates": {
+        "raw_label": "History • Uzbek khanates",
         "text": "1500–1920",
         "tokens": [
           "1500",
@@ -514,8 +514,8 @@
           1920
         ]
       },
-      "turkestan_assr": {
-        "raw_label": "• Turkestan ASSR",
+      "history_turkestan_assr": {
+        "raw_label": "History • Turkestan ASSR",
         "text": "30 April 1918",
         "tokens": [
           "30",
@@ -527,8 +527,8 @@
           1918
         ]
       },
-      "uzbek_ssr": {
-        "raw_label": "• Uzbek SSR",
+      "history_uzbek_ssr": {
+        "raw_label": "History • Uzbek SSR",
         "text": "27 October 1924",
         "tokens": [
           "27",
@@ -540,8 +540,8 @@
           1924
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "history_republic": {
+        "raw_label": "History • Republic",
         "text": "1 September 1991",
         "tokens": [
           "1",
@@ -553,8 +553,8 @@
           1991
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "history_current_constitution": {
+        "raw_label": "History • Current constitution",
         "text": "8 December 1992",
         "tokens": [
           "8",
@@ -566,22 +566,29 @@
           1992
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$140.480 billion ( 60th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "448,978 km 2 (173,351 sq mi) ( 55th )",
         "tokens": [
-          "140",
-          "480",
-          "billion",
-          "60th"
+          "448",
+          "978",
+          "km",
+          "2",
+          "173",
+          "351",
+          "sq",
+          "mi",
+          "55th"
         ],
         "numbers": [
-          140.48,
-          60
+          448978,
+          2,
+          173351,
+          55
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "4.9",
         "tokens": [
           "4",
@@ -591,8 +598,8 @@
           4.9
         ]
       },
-      "2026_estimate": {
-        "raw_label": "• 2026 estimate",
+      "population_2026_estimate": {
+        "raw_label": "Population • 2026 estimate",
         "text": "38,236,704 ( 38th )",
         "tokens": [
           "38",
@@ -605,8 +612,8 @@
           38
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "80.2/km 2 (207.7/sq mi) ( 138th )",
         "tokens": [
           "80",
@@ -635,6 +642,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$140.480 billion ( 60th )",
+        "tokens": [
+          "140",
+          "480",
+          "billion",
+          "60th"
+        ],
+        "numbers": [
+          140.48,
+          60
         ]
       },
       "per_capita": {
@@ -747,6 +768,55 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Uzbekistan",
+      "capital": "Tashkent",
+      "largest_city": "Tashkent",
+      "coordinates": {
+        "latitude": "41°19′N",
+        "longitude": "69°16′E"
+      },
+      "government": {
+        "type": "Unitary semi-presidential republic",
+        "head_of_state": "Shavkat Mirziyoyev",
+        "head_of_government": "Abdulla Aripov"
+      },
+      "legislature": "Oliy Majlis",
+      "area": {
+        "total_km2": 448978,
+        "water_percent": 4.9
+      },
+      "population": {
+        "year": 2026,
+        "total": 38236704,
+        "rank": 38,
+        "density_per_km2": 80.2
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.74,
+          "rank": 107
+        },
+        "gini": {
+          "year": 2022,
+          "value": 31.2
+        }
+      },
+      "currency": {
+        "name": "Uzbek sum",
+        "code": "UZS"
+      },
+      "calling_code": "998",
+      "iso_3166_code": "UZ",
+      "internet_tld": ".uz",
+      "time_zone": "UTC+5",
+      "demonym": "Uzbek • Uzbekistani"
     }
   }
 }

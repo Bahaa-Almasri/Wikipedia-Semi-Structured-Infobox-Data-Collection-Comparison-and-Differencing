@@ -3,7 +3,7 @@
     "country_name": "Kenya",
     "slug": "kenya",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kenya",
-    "retrieved_at": "2026-03-11T17:56:18+00:00",
+    "retrieved_at": "2026-03-13T10:08:39+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -85,42 +85,42 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Dominion",
+        "label": "Independence from the United Kingdom • Dominion",
         "value_html": "<td class=\"infobox-data\">12 December 1963</td>",
         "value_text": "12 December 1963"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_html": "<td class=\"infobox-data\">12 December 1964</td>",
         "value_text": "12 December 1964"
       },
       {
-        "label": "• Current Constitution",
+        "label": "Independence from the United Kingdom • Current Constitution",
         "value_html": "<td class=\"infobox-data\">27 August 2010</td>",
         "value_text": "27 August 2010"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">580,367 km<sup>2</sup> (224,081 sq mi)<sup class=\"reference\" id=\"cite_ref-unstats08_4-0\"><a href=\"#cite_note-unstats08-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-5\"><a href=\"#cite_note-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">48th</a>)</td>",
         "value_text": "580,367 km 2 (224,081 sq mi) [ 4 ] [ 5 ] ( 48th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.3</td>",
         "value_text": "2.3"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 53,330,978<sup class=\"reference\" id=\"cite_ref-6\"><a href=\"#cite_note-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">28th</a>)</td>",
         "value_text": "53,330,978 [ 6 ] ( 28th )"
       },
       {
-        "label": "• 2019 census",
+        "label": "Population • 2019 census",
         "value_html": "<td class=\"infobox-data\">47,564,296<sup class=\"reference\" id=\"cite_ref-KNBS2019_7-0\"><a href=\"#cite_note-KNBS2019-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "47,564,296 [ 7 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">82/km<sup>2</sup> (212.4/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">124th</a>)</td>",
         "value_text": "82/km 2 (212.4/sq mi) ( 124th )"
       },
@@ -259,35 +259,35 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Dominion",
+        "label": "Independence from the United Kingdom • Dominion",
         "value_text": "12 December 1963"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_text": "12 December 1964"
       },
       {
-        "label": "• Current Constitution",
+        "label": "Independence from the United Kingdom • Current Constitution",
         "value_text": "27 August 2010"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "580,367 km 2 (224,081 sq mi) ( 48th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.3"
       },
       {
-        "label": "• 2025 estimate",
+        "label": "Population • 2025 estimate",
         "value_text": "53,330,978 ( 28th )"
       },
       {
-        "label": "• 2019 census",
+        "label": "Population • 2019 census",
         "value_text": "47,564,296"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "82/km 2 (212.4/sq mi) ( 124th )"
       },
       {
@@ -582,8 +582,8 @@
         ],
         "numbers": []
       },
-      "dominion": {
-        "raw_label": "• Dominion",
+      "independence_from_the_united_kingdom_dominion": {
+        "raw_label": "Independence from the United Kingdom • Dominion",
         "text": "12 December 1963",
         "tokens": [
           "12",
@@ -595,8 +595,8 @@
           1963
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "independence_from_the_united_kingdom_republic": {
+        "raw_label": "Independence from the United Kingdom • Republic",
         "text": "12 December 1964",
         "tokens": [
           "12",
@@ -608,8 +608,8 @@
           1964
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current Constitution",
+      "independence_from_the_united_kingdom_current_constitution": {
+        "raw_label": "Independence from the United Kingdom • Current Constitution",
         "text": "27 August 2010",
         "tokens": [
           "27",
@@ -621,22 +621,29 @@
           2010
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$140.87 billion ( 59th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "580,367 km 2 (224,081 sq mi) ( 48th )",
         "tokens": [
-          "140",
-          "87",
-          "billion",
-          "59th"
+          "580",
+          "367",
+          "km",
+          "2",
+          "224",
+          "081",
+          "sq",
+          "mi",
+          "48th"
         ],
         "numbers": [
-          140.87,
-          59
+          580367,
+          2,
+          224081,
+          48
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.3",
         "tokens": [
           "2",
@@ -646,8 +653,8 @@
           2.3
         ]
       },
-      "2025_estimate": {
-        "raw_label": "• 2025 estimate",
+      "population_2025_estimate": {
+        "raw_label": "Population • 2025 estimate",
         "text": "53,330,978 ( 28th )",
         "tokens": [
           "53",
@@ -660,8 +667,8 @@
           28
         ]
       },
-      "2019_census": {
-        "raw_label": "• 2019 census",
+      "population_2019_census": {
+        "raw_label": "Population • 2019 census",
         "text": "47,564,296",
         "tokens": [
           "47",
@@ -672,8 +679,8 @@
           47564296
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "82/km 2 (212.4/sq mi) ( 124th )",
         "tokens": [
           "82",
@@ -701,6 +708,20 @@
         ],
         "numbers": [
           2026
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$140.87 billion ( 59th )",
+        "tokens": [
+          "140",
+          "87",
+          "billion",
+          "59th"
+        ],
+        "numbers": [
+          140.87,
+          59
         ]
       },
       "per_capita": {
@@ -815,6 +836,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Kenya",
+      "capital": "Nairobi",
+      "largest_city": "Nairobi",
+      "coordinates": {
+        "latitude": "1°16′S",
+        "longitude": "36°48′E"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "William Ruto"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 580367,
+        "water_percent": 2.3
+      },
+      "population": {
+        "year": 2025,
+        "total": 53330978,
+        "rank": 28,
+        "density_per_km2": 82.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2026,
+        "gdp_ppp_year": 2026
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.628,
+          "rank": 143
+        },
+        "gini": {
+          "year": 2021,
+          "value": 38.7
+        }
+      },
+      "currency": {
+        "name": "Kenyan shilling",
+        "code": "KES"
+      },
+      "calling_code": "254",
+      "iso_3166_code": "KE",
+      "internet_tld": ".ke",
+      "time_zone": "UTC+3",
+      "demonym": "Kenyan"
     }
   }
 }

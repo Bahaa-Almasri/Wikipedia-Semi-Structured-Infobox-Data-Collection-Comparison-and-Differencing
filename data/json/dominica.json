@@ -3,7 +3,7 @@
     "country_name": "Dominica",
     "slug": "dominica",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Dominica",
-    "retrieved_at": "2026-03-11T17:54:59+00:00",
+    "retrieved_at": "2026-03-13T10:07:41+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,37 +65,37 @@
         "value_text": "House of Assembly"
       },
       {
-        "label": "• West Indies Associated States",
+        "label": "Independence from the United Kingdom • West Indies Associated States",
         "value_html": "<td class=\"infobox-data\">1 March 1967</td>",
         "value_text": "1 March 1967"
       },
       {
-        "label": "• Sovereignty and constitution",
+        "label": "Independence from the United Kingdom • Sovereignty and constitution",
         "value_html": "<td class=\"infobox-data\">3 November 1978</td>",
         "value_text": "3 November 1978"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">750 km<sup>2</sup> (290 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">174th</a>)</td>",
         "value_text": "750 km 2 (290 sq mi) ( 174th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1.6</td>",
         "value_text": "1.6"
       },
       {
-        "label": "• 2021 estimate",
+        "label": "Population • 2021 estimate",
         "value_html": "<td class=\"infobox-data\">72,412<sup class=\"reference\" id=\"cite_ref-UN_WPP_6-0\"><a href=\"#cite_note-UN_WPP-6\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup><sup class=\"reference\" id=\"cite_ref-UN_WPP_2022_7-0\"><a href=\"#cite_note-UN_WPP_2022-7\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">186th</a>)</td>",
         "value_text": "72,412 [ 6 ] [ 7 ] ( 186th )"
       },
       {
-        "label": "• 2011 census",
+        "label": "Population • 2011 census",
         "value_html": "<td class=\"infobox-data\">71,293<sup class=\"reference\" id=\"cite_ref-2011_census_8-0\"><a href=\"#cite_note-2011_census-8\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "71,293 [ 8 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">105/km<sup>2</sup> (271.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">95th</a>)</td>",
         "value_text": "105/km 2 (271.9/sq mi) ( 95th )"
       },
@@ -213,31 +213,31 @@
         "value_text": "House of Assembly"
       },
       {
-        "label": "• West Indies Associated States",
+        "label": "Independence from the United Kingdom • West Indies Associated States",
         "value_text": "1 March 1967"
       },
       {
-        "label": "• Sovereignty and constitution",
+        "label": "Independence from the United Kingdom • Sovereignty and constitution",
         "value_text": "3 November 1978"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "750 km 2 (290 sq mi) ( 174th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1.6"
       },
       {
-        "label": "• 2021 estimate",
+        "label": "Population • 2021 estimate",
         "value_text": "72,412 ( 186th )"
       },
       {
-        "label": "• 2011 census",
+        "label": "Population • 2011 census",
         "value_text": "71,293"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "105/km 2 (271.9/sq mi) ( 95th )"
       },
       {
@@ -462,8 +462,8 @@
         ],
         "numbers": []
       },
-      "west_indies_associated_states": {
-        "raw_label": "• West Indies Associated States",
+      "independence_from_the_united_kingdom_west_indies_associated_states": {
+        "raw_label": "Independence from the United Kingdom • West Indies Associated States",
         "text": "1 March 1967",
         "tokens": [
           "1",
@@ -475,8 +475,8 @@
           1967
         ]
       },
-      "sovereignty_and_constitution": {
-        "raw_label": "• Sovereignty and constitution",
+      "independence_from_the_united_kingdom_sovereignty_and_constitution": {
+        "raw_label": "Independence from the United Kingdom • Sovereignty and constitution",
         "text": "3 November 1978",
         "tokens": [
           "3",
@@ -488,19 +488,27 @@
           1978
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$485 million",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "750 km 2 (290 sq mi) ( 174th )",
         "tokens": [
-          "485",
-          "million"
+          "750",
+          "km",
+          "2",
+          "290",
+          "sq",
+          "mi",
+          "174th"
         ],
         "numbers": [
-          485
+          750,
+          2,
+          290,
+          174
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1.6",
         "tokens": [
           "1",
@@ -510,8 +518,8 @@
           1.6
         ]
       },
-      "2021_estimate": {
-        "raw_label": "• 2021 estimate",
+      "population_2021_estimate": {
+        "raw_label": "Population • 2021 estimate",
         "text": "72,412 ( 186th )",
         "tokens": [
           "72",
@@ -523,8 +531,8 @@
           186
         ]
       },
-      "2011_census": {
-        "raw_label": "• 2011 census",
+      "population_2011_census": {
+        "raw_label": "Population • 2011 census",
         "text": "71,293",
         "tokens": [
           "71",
@@ -534,8 +542,8 @@
           71293
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "105/km 2 (271.9/sq mi) ( 95th )",
         "tokens": [
           "105",
@@ -563,6 +571,17 @@
         ],
         "numbers": [
           2018
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$485 million",
+        "tokens": [
+          "485",
+          "million"
+        ],
+        "numbers": [
+          485
         ]
       },
       "per_capita": {
@@ -660,6 +679,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Dominica",
+      "capital": "Roseau",
+      "largest_city": "Roseau",
+      "coordinates": {
+        "latitude": "15°18′N",
+        "longitude": "61°23′W"
+      },
+      "government": {
+        "type": "Unitary parliamentary republic",
+        "head_of_state": "Sylvanie Burton",
+        "head_of_government": "Roosevelt Skerrit"
+      },
+      "legislature": "House of Assembly",
+      "area": {
+        "total_km2": 750,
+        "water_percent": 1.6
+      },
+      "population": {
+        "year": 2021,
+        "total": 72412,
+        "rank": 186,
+        "density_per_km2": 105.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2018,
+        "gdp_ppp_year": 2018
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.761,
+          "rank": 98
+        }
+      },
+      "currency": {
+        "name": "East Caribbean dollar",
+        "code": "XCD"
+      },
+      "calling_code": "1",
+      "iso_3166_code": "DM",
+      "internet_tld": ".dm",
+      "time_zone": "UTC –4 ( AST )"
     }
   }
 }

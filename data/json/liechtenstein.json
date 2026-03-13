@@ -3,7 +3,7 @@
     "country_name": "Liechtenstein",
     "slug": "liechtenstein",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Liechtenstein",
-    "retrieved_at": "2026-03-11T17:56:27+00:00",
+    "retrieved_at": "2026-03-13T10:08:51+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -70,37 +70,37 @@
         "value_text": "Landtag"
       },
       {
-        "label": "• Union between Vaduz and Schellenberg",
+        "label": "Independence as principality • Union between Vaduz and Schellenberg",
         "value_html": "<td class=\"infobox-data\">23 January 1719</td>",
         "value_text": "23 January 1719"
       },
       {
-        "label": "• Treaty of Pressburg",
+        "label": "Independence as principality • Treaty of Pressburg",
         "value_html": "<td class=\"infobox-data\">12 July 1806</td>",
         "value_text": "12 July 1806"
       },
       {
-        "label": "• Separation from German Confederation",
+        "label": "Independence as principality • Separation from German Confederation",
         "value_html": "<td class=\"infobox-data\">23 August 1866</td>",
         "value_text": "23 August 1866"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">160.50<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> km<sup>2</sup> (61.97 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">190th</a>)</td>",
         "value_text": "160.50 [ 3 ] km 2 (61.97 sq mi) ( 190th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">2.7<sup class=\"reference\" id=\"cite_ref-4\"><a href=\"#cite_note-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "2.7 [ 4 ]"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 41,232<sup class=\"reference\" id=\"cite_ref-auto_5-0\"><a href=\"#cite_note-auto-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">189th</a>)</td>",
         "value_text": "41,232 [ 5 ] ( 189th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">249/km<sup>2</sup> (644.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">56th</a>)</td>",
         "value_text": "249/km 2 (644.9/sq mi) ( 56th )"
       },
@@ -222,31 +222,31 @@
         "value_text": "Landtag"
       },
       {
-        "label": "• Union between Vaduz and Schellenberg",
+        "label": "Independence as principality • Union between Vaduz and Schellenberg",
         "value_text": "23 January 1719"
       },
       {
-        "label": "• Treaty of Pressburg",
+        "label": "Independence as principality • Treaty of Pressburg",
         "value_text": "12 July 1806"
       },
       {
-        "label": "• Separation from German Confederation",
+        "label": "Independence as principality • Separation from German Confederation",
         "value_text": "23 August 1866"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "160.50 km 2 (61.97 sq mi) ( 190th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "2.7"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "41,232 ( 189th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "249/km 2 (644.9/sq mi) ( 56th )"
       },
       {
@@ -511,8 +511,8 @@
         ],
         "numbers": []
       },
-      "union_between_vaduz_and_schellenberg": {
-        "raw_label": "• Union between Vaduz and Schellenberg",
+      "independence_as_principality_union_between_vaduz_and_schellenberg": {
+        "raw_label": "Independence as principality • Union between Vaduz and Schellenberg",
         "text": "23 January 1719",
         "tokens": [
           "23",
@@ -524,8 +524,8 @@
           1719
         ]
       },
-      "treaty_of_pressburg": {
-        "raw_label": "• Treaty of Pressburg",
+      "independence_as_principality_treaty_of_pressburg": {
+        "raw_label": "Independence as principality • Treaty of Pressburg",
         "text": "12 July 1806",
         "tokens": [
           "12",
@@ -537,8 +537,8 @@
           1806
         ]
       },
-      "separation_from_german_confederation": {
-        "raw_label": "• Separation from German Confederation",
+      "independence_as_principality_separation_from_german_confederation": {
+        "raw_label": "Independence as principality • Separation from German Confederation",
         "text": "23 August 1866",
         "tokens": [
           "23",
@@ -550,22 +550,29 @@
           1866
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$8.288 billion ( 155th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "160.50 km 2 (61.97 sq mi) ( 190th )",
         "tokens": [
-          "8",
-          "288",
-          "billion",
-          "155th"
+          "160",
+          "50",
+          "km",
+          "2",
+          "61",
+          "97",
+          "sq",
+          "mi",
+          "190th"
         ],
         "numbers": [
-          8.288,
-          155
+          160.5,
+          2,
+          61.97,
+          190
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "2.7",
         "tokens": [
           "2",
@@ -575,8 +582,8 @@
           2.7
         ]
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "41,232 ( 189th )",
         "tokens": [
           "41",
@@ -588,8 +595,8 @@
           189
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "249/km 2 (644.9/sq mi) ( 56th )",
         "tokens": [
           "249",
@@ -617,6 +624,20 @@
         ],
         "numbers": [
           2024
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$8.288 billion ( 155th )",
+        "tokens": [
+          "8",
+          "288",
+          "billion",
+          "155th"
+        ],
+        "numbers": [
+          8.288,
+          155
         ]
       },
       "per_capita": {
@@ -720,6 +741,47 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Liechtenstein",
+      "capital": "Vaduz",
+      "largest_city": "Vaduz",
+      "government": {
+        "type": "Unitary parliamentary semi- constitutional monarchy with elements of a direct democracy",
+        "head_of_state": "Hans-Adam II",
+        "head_of_government": "Brigitte Haas"
+      },
+      "legislature": "Landtag",
+      "area": {
+        "total_km2": 160,
+        "water_percent": 2.7
+      },
+      "population": {
+        "year": 2023,
+        "total": 41232,
+        "rank": 189,
+        "density_per_km2": 249.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2024
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.938,
+          "rank": 17
+        }
+      },
+      "currency": {
+        "name": "Swiss franc",
+        "code": "CHF"
+      },
+      "calling_code": "423",
+      "iso_3166_code": "LI",
+      "internet_tld": ".li",
+      "time_zone": "UTC+01:00",
+      "demonym": "Liechtensteiner"
     }
   }
 }

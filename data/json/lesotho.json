@@ -3,7 +3,7 @@
     "country_name": "Lesotho",
     "slug": "lesotho",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Lesotho",
-    "retrieved_at": "2026-03-11T17:56:24+00:00",
+    "retrieved_at": "2026-03-13T10:08:48+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,32 +65,32 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Basutoland",
+        "label": "Independence from the United Kingdom • Basutoland",
         "value_html": "<td class=\"infobox-data\">18 March 1884</td>",
         "value_text": "18 March 1884"
       },
       {
-        "label": "• Independence declared",
+        "label": "Independence from the United Kingdom • Independence declared",
         "value_html": "<td class=\"infobox-data\">4 October 1966</td>",
         "value_text": "4 October 1966"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">30,355 km<sup>2</sup> (11,720 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">137th</a>)</td>",
         "value_text": "30,355 km 2 (11,720 sq mi) ( 137th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">negligible</td>",
         "value_text": "negligible"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\">2,210,646<sup class=\"reference\" id=\"cite_ref-2\"><a href=\"#cite_note-2\"><span class=\"cite-bracket\">[</span>2<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">147th</a>)</td>",
         "value_text": "2,210,646 [ 2 ] ( 147th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">68.1/km<sup>2</sup> (176.4/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">138th</a>)</td>",
         "value_text": "68.1/km 2 (176.4/sq mi) ( 138th )"
       },
@@ -208,27 +208,27 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Basutoland",
+        "label": "Independence from the United Kingdom • Basutoland",
         "value_text": "18 March 1884"
       },
       {
-        "label": "• Independence declared",
+        "label": "Independence from the United Kingdom • Independence declared",
         "value_text": "4 October 1966"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "30,355 km 2 (11,720 sq mi) ( 137th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "negligible"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "2,210,646 ( 147th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "68.1/km 2 (176.4/sq mi) ( 138th )"
       },
       {
@@ -440,8 +440,8 @@
         ],
         "numbers": []
       },
-      "basutoland": {
-        "raw_label": "• Basutoland",
+      "independence_from_the_united_kingdom_basutoland": {
+        "raw_label": "Independence from the United Kingdom • Basutoland",
         "text": "18 March 1884",
         "tokens": [
           "18",
@@ -453,8 +453,8 @@
           1884
         ]
       },
-      "independence_declared": {
-        "raw_label": "• Independence declared",
+      "independence_from_the_united_kingdom_independence_declared": {
+        "raw_label": "Independence from the United Kingdom • Independence declared",
         "text": "4 October 1966",
         "tokens": [
           "4",
@@ -466,30 +466,37 @@
           1966
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$2.373 billion ( 184th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "30,355 km 2 (11,720 sq mi) ( 137th )",
         "tokens": [
+          "30",
+          "355",
+          "km",
           "2",
-          "373",
-          "billion",
-          "184th"
+          "11",
+          "720",
+          "sq",
+          "mi",
+          "137th"
         ],
         "numbers": [
-          2.373,
-          184
+          30355,
+          2,
+          11720,
+          137
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "negligible",
         "tokens": [
           "negligible"
         ],
         "numbers": []
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "2,210,646 ( 147th )",
         "tokens": [
           "2",
@@ -502,8 +509,8 @@
           147
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "68.1/km 2 (176.4/sq mi) ( 138th )",
         "tokens": [
           "68",
@@ -532,6 +539,20 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$2.373 billion ( 184th )",
+        "tokens": [
+          "2",
+          "373",
+          "billion",
+          "184th"
+        ],
+        "numbers": [
+          2.373,
+          184
         ]
       },
       "per_capita": {
@@ -639,6 +660,49 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Lesotho",
+      "capital": "Maseru",
+      "largest_city": "Maseru",
+      "government": {
+        "type": "Unitary parliamentary constitutional monarchy",
+        "head_of_state": "Letsie III",
+        "head_of_government": "Sam Matekane"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 30355
+      },
+      "population": {
+        "year": 2023,
+        "total": 2210646,
+        "rank": 147,
+        "density_per_km2": 68.1
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.55,
+          "rank": 167
+        },
+        "gini": {
+          "year": 2017,
+          "value": 44.9
+        }
+      },
+      "currency": {
+        "name": "Lesotho loti",
+        "code": "LSL"
+      },
+      "calling_code": "266",
+      "iso_3166_code": "LS",
+      "internet_tld": ".ls",
+      "time_zone": "UTC+02:00"
     }
   }
 }

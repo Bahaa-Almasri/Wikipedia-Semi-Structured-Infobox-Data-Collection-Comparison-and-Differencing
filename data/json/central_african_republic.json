@@ -3,7 +3,7 @@
     "country_name": "Central African Republic",
     "slug": "central_african_republic",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Central_African_Republic",
-    "retrieved_at": "2026-03-11T17:53:20+00:00",
+    "retrieved_at": "2026-03-13T10:07:21+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,42 +65,42 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Republic established",
+        "label": "Independence • Republic established",
         "value_html": "<td class=\"infobox-data\">1 December 1958</td>",
         "value_text": "1 December 1958"
       },
       {
-        "label": "• from France",
+        "label": "Independence • from France",
         "value_html": "<td class=\"infobox-data\">13 August 1960</td>",
         "value_text": "13 August 1960"
       },
       {
-        "label": "• Central African Empire established",
+        "label": "Independence • Central African Empire established",
         "value_html": "<td class=\"infobox-data\">4 December 1976</td>",
         "value_text": "4 December 1976"
       },
       {
-        "label": "• Coronation of Bokassa I",
+        "label": "Independence • Coronation of Bokassa I",
         "value_html": "<td class=\"infobox-data\">4 December 1977</td>",
         "value_text": "4 December 1977"
       },
       {
-        "label": "• Bokassa I's overthrow and republic restored",
+        "label": "Independence • Bokassa I's overthrow and republic restored",
         "value_html": "<td class=\"infobox-data\">21 September 1979</td>",
         "value_text": "21 September 1979"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">622,984 km<sup>2</sup> (240,535 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">44th</a>)</td>",
         "value_text": "622,984 km 2 (240,535 sq mi) ( 44th )"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 5,650,957<sup class=\"reference\" id=\"cite_ref-3\"><a href=\"#cite_note-3\"><span class=\"cite-bracket\">[</span>3<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">119th</a>)</td>",
         "value_text": "5,650,957 [ 3 ] ( 119th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">8.6/km<sup>2</sup> (22.3/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">221st</a>)</td>",
         "value_text": "8.6/km 2 (22.3/sq mi) ( 221st )"
       },
@@ -218,35 +218,35 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Republic established",
+        "label": "Independence • Republic established",
         "value_text": "1 December 1958"
       },
       {
-        "label": "• from France",
+        "label": "Independence • from France",
         "value_text": "13 August 1960"
       },
       {
-        "label": "• Central African Empire established",
+        "label": "Independence • Central African Empire established",
         "value_text": "4 December 1976"
       },
       {
-        "label": "• Coronation of Bokassa I",
+        "label": "Independence • Coronation of Bokassa I",
         "value_text": "4 December 1977"
       },
       {
-        "label": "• Bokassa I's overthrow and republic restored",
+        "label": "Independence • Bokassa I's overthrow and republic restored",
         "value_text": "21 September 1979"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "622,984 km 2 (240,535 sq mi) ( 44th )"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "5,650,957 ( 119th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "8.6/km 2 (22.3/sq mi) ( 221st )"
       },
       {
@@ -470,8 +470,8 @@
         ],
         "numbers": []
       },
-      "republic_established": {
-        "raw_label": "• Republic established",
+      "independence_republic_established": {
+        "raw_label": "Independence • Republic established",
         "text": "1 December 1958",
         "tokens": [
           "1",
@@ -483,8 +483,8 @@
           1958
         ]
       },
-      "from_france": {
-        "raw_label": "• from France",
+      "independence_from_france": {
+        "raw_label": "Independence • from France",
         "text": "13 August 1960",
         "tokens": [
           "13",
@@ -496,8 +496,8 @@
           1960
         ]
       },
-      "central_african_empire_established": {
-        "raw_label": "• Central African Empire established",
+      "independence_central_african_empire_established": {
+        "raw_label": "Independence • Central African Empire established",
         "text": "4 December 1976",
         "tokens": [
           "4",
@@ -509,8 +509,8 @@
           1976
         ]
       },
-      "coronation_of_bokassa_i": {
-        "raw_label": "• Coronation of Bokassa I",
+      "independence_coronation_of_bokassa_i": {
+        "raw_label": "Independence • Coronation of Bokassa I",
         "text": "4 December 1977",
         "tokens": [
           "4",
@@ -522,8 +522,8 @@
           1977
         ]
       },
-      "bokassa_i_s_overthrow_and_republic_restored": {
-        "raw_label": "• Bokassa I's overthrow and republic restored",
+      "independence_bokassa_i_s_overthrow_and_republic_restored": {
+        "raw_label": "Independence • Bokassa I's overthrow and republic restored",
         "text": "21 September 1979",
         "tokens": [
           "21",
@@ -535,22 +535,29 @@
           1979
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$3.710 billion ( 182nd )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "622,984 km 2 (240,535 sq mi) ( 44th )",
         "tokens": [
-          "3",
-          "710",
-          "billion",
-          "182nd"
+          "622",
+          "984",
+          "km",
+          "2",
+          "240",
+          "535",
+          "sq",
+          "mi",
+          "44th"
         ],
         "numbers": [
-          3.71,
-          182
+          622984,
+          2,
+          240535,
+          44
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "5,650,957 ( 119th )",
         "tokens": [
           "5",
@@ -563,8 +570,8 @@
           119
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "8.6/km 2 (22.3/sq mi) ( 221st )",
         "tokens": [
           "8",
@@ -593,6 +600,20 @@
         ],
         "numbers": [
           2026
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$3.710 billion ( 182nd )",
+        "tokens": [
+          "3",
+          "710",
+          "billion",
+          "182nd"
+        ],
+        "numbers": [
+          3.71,
+          182
         ]
       },
       "per_capita": {
@@ -696,6 +717,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Central African Republic",
+      "capital": "Bangui",
+      "largest_city": "Bangui",
+      "coordinates": {
+        "latitude": "4°22′N",
+        "longitude": "18°35′E"
+      },
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Faustin-Archange Touadéra",
+        "head_of_government": "Félix Moloua"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 622984
+      },
+      "population": {
+        "year": 2024,
+        "total": 5650957,
+        "rank": 119,
+        "density_per_km2": 8.6
+      },
+      "economy": {
+        "gdp_nominal_year": 2026,
+        "gdp_ppp_year": 2026
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.414,
+          "rank": 191
+        },
+        "gini": {
+          "year": 2021,
+          "value": 43
+        }
+      },
+      "currency": {
+        "name": "Central African CFA franc",
+        "code": "XAF"
+      },
+      "calling_code": "236",
+      "iso_3166_code": "CF",
+      "internet_tld": ".cf",
+      "time_zone": "UTC+01:00",
+      "demonym": "Central African"
     }
   }
 }

@@ -3,7 +3,7 @@
     "country_name": "Saint Vincent and the Grenadines",
     "slug": "saint_vincent_and_the_grenadines",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines",
-    "retrieved_at": "2026-03-11T17:57:28+00:00",
+    "retrieved_at": "2026-03-13T10:10:00+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,37 +65,37 @@
         "value_text": "House of Assembly"
       },
       {
-        "label": "• Associated State",
+        "label": "Independence • Associated State",
         "value_html": "<td class=\"infobox-data\">27 October 1969</td>",
         "value_text": "27 October 1969"
       },
       {
-        "label": "• from the United Kingdom",
+        "label": "Independence • from the United Kingdom",
         "value_html": "<td class=\"infobox-data\">27 October 1979</td>",
         "value_text": "27 October 1979"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">389 km<sup>2</sup> (150 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">184th</a>)</td>",
         "value_text": "389 km 2 (150 sq mi) ( 184th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">negligible</td>",
         "value_text": "negligible"
       },
       {
-        "label": "• 2022 estimate",
+        "label": "Population • 2022 estimate",
         "value_html": "<td class=\"infobox-data\">110,872<sup class=\"reference\" id=\"cite_ref-auto_6-0\"><a href=\"#cite_note-auto-6\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">180th</a>)</td>",
         "value_text": "110,872 [ 5 ] ( 180th )"
       },
       {
-        "label": "• 2012 census",
+        "label": "Population • 2012 census",
         "value_html": "<td class=\"infobox-data\">109,991<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "109,991 [ 6 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">307/km<sup>2</sup> (795.1/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">39th</a>)</td>",
         "value_text": "307/km 2 (795.1/sq mi) ( 39th )"
       },
@@ -213,31 +213,31 @@
         "value_text": "House of Assembly"
       },
       {
-        "label": "• Associated State",
+        "label": "Independence • Associated State",
         "value_text": "27 October 1969"
       },
       {
-        "label": "• from the United Kingdom",
+        "label": "Independence • from the United Kingdom",
         "value_text": "27 October 1979"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "389 km 2 (150 sq mi) ( 184th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "negligible"
       },
       {
-        "label": "• 2022 estimate",
+        "label": "Population • 2022 estimate",
         "value_text": "110,872 ( 180th )"
       },
       {
-        "label": "• 2012 census",
+        "label": "Population • 2012 census",
         "value_text": "109,991"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "307/km 2 (795.1/sq mi) ( 39th )"
       },
       {
@@ -480,8 +480,8 @@
         ],
         "numbers": []
       },
-      "associated_state": {
-        "raw_label": "• Associated State",
+      "independence_associated_state": {
+        "raw_label": "Independence • Associated State",
         "text": "27 October 1969",
         "tokens": [
           "27",
@@ -493,8 +493,8 @@
           1969
         ]
       },
-      "from_the_united_kingdom": {
-        "raw_label": "• from the United Kingdom",
+      "independence_from_the_united_kingdom": {
+        "raw_label": "Independence • from the United Kingdom",
         "text": "27 October 1979",
         "tokens": [
           "27",
@@ -506,27 +506,35 @@
           1979
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$1 billion",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "389 km 2 (150 sq mi) ( 184th )",
         "tokens": [
-          "1",
-          "billion"
+          "389",
+          "km",
+          "2",
+          "150",
+          "sq",
+          "mi",
+          "184th"
         ],
         "numbers": [
-          1
+          389,
+          2,
+          150,
+          184
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "negligible",
         "tokens": [
           "negligible"
         ],
         "numbers": []
       },
-      "2022_estimate": {
-        "raw_label": "• 2022 estimate",
+      "population_2022_estimate": {
+        "raw_label": "Population • 2022 estimate",
         "text": "110,872 ( 180th )",
         "tokens": [
           "110",
@@ -538,8 +546,8 @@
           180
         ]
       },
-      "2012_census": {
-        "raw_label": "• 2012 census",
+      "population_2012_census": {
+        "raw_label": "Population • 2012 census",
         "text": "109,991",
         "tokens": [
           "109",
@@ -549,8 +557,8 @@
           109991
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "307/km 2 (795.1/sq mi) ( 39th )",
         "tokens": [
           "307",
@@ -578,6 +586,17 @@
         ],
         "numbers": [
           2023
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$1 billion",
+        "tokens": [
+          "1",
+          "billion"
+        ],
+        "numbers": [
+          1
         ]
       },
       "per_capita": {
@@ -675,6 +694,49 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Saint Vincent and the Grenadines",
+      "capital": "Kingstown",
+      "largest_city": "Kingstown",
+      "coordinates": {
+        "latitude": "13°10′N",
+        "longitude": "61°14′W"
+      },
+      "government": {
+        "type": "Unitary parliamentary constitutional monarchy",
+        "head_of_state": "Charles III",
+        "head_of_government": "Godwin Friday"
+      },
+      "legislature": "House of Assembly",
+      "area": {
+        "total_km2": 389
+      },
+      "population": {
+        "year": 2022,
+        "total": 110872,
+        "rank": 180,
+        "density_per_km2": 307.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2023,
+        "gdp_ppp_year": 2023
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.798,
+          "rank": 76
+        }
+      },
+      "currency": {
+        "name": "East Caribbean dollar",
+        "code": "XCD"
+      },
+      "calling_code": "1",
+      "iso_3166_code": "VC",
+      "internet_tld": ".vc",
+      "time_zone": "UTC-4"
     }
   }
 }

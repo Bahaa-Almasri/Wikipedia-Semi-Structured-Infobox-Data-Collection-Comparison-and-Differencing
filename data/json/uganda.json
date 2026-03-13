@@ -3,7 +3,7 @@
     "country_name": "Uganda",
     "slug": "uganda",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Uganda",
-    "retrieved_at": "2026-03-11T17:58:25+00:00",
+    "retrieved_at": "2026-03-13T10:10:46+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,37 +75,37 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• Dominion",
+        "label": "Independence from the United Kingdom • Dominion",
         "value_html": "<td class=\"infobox-data\">9 October 1962</td>",
         "value_text": "9 October 1962"
       },
       {
-        "label": "• Republic declared",
+        "label": "Independence from the United Kingdom • Republic declared",
         "value_html": "<td class=\"infobox-data\">9 October 1963</td>",
         "value_text": "9 October 1963"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_html": "<td class=\"infobox-data\">8 October 1995</td>",
         "value_text": "8 October 1995"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">241,038 km<sup>2</sup> (93,065 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">79th</a>)</td>",
         "value_text": "241,038 km 2 (93,065 sq mi) ( 79th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">15.39</td>",
         "value_text": "15.39"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_html": "<td class=\"infobox-data\">= <span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 45,905,417<sup class=\"reference\" id=\"cite_ref-census24_10-0\"><a href=\"#cite_note-census24-10\"><span class=\"cite-bracket\">[</span>9<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "= 45,905,417 [ 9 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">157.1/km<sup>2</sup> (406.9/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">75th</a>)</td>",
         "value_text": "157.1/km 2 (406.9/sq mi) ( 75th )"
       },
@@ -231,31 +231,31 @@
         "value_text": "Parliament"
       },
       {
-        "label": "• Dominion",
+        "label": "Independence from the United Kingdom • Dominion",
         "value_text": "9 October 1962"
       },
       {
-        "label": "• Republic declared",
+        "label": "Independence from the United Kingdom • Republic declared",
         "value_text": "9 October 1963"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_text": "8 October 1995"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "241,038 km 2 (93,065 sq mi) ( 79th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "15.39"
       },
       {
-        "label": "• 2024 census",
+        "label": "Population • 2024 census",
         "value_text": "= 45,905,417"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "157.1/km 2 (406.9/sq mi) ( 75th )"
       },
       {
@@ -500,8 +500,8 @@
         ],
         "numbers": []
       },
-      "dominion": {
-        "raw_label": "• Dominion",
+      "independence_from_the_united_kingdom_dominion": {
+        "raw_label": "Independence from the United Kingdom • Dominion",
         "text": "9 October 1962",
         "tokens": [
           "9",
@@ -513,8 +513,8 @@
           1962
         ]
       },
-      "republic_declared": {
-        "raw_label": "• Republic declared",
+      "independence_from_the_united_kingdom_republic_declared": {
+        "raw_label": "Independence from the United Kingdom • Republic declared",
         "text": "9 October 1963",
         "tokens": [
           "9",
@@ -526,8 +526,8 @@
           1963
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_the_united_kingdom_current_constitution": {
+        "raw_label": "Independence from the United Kingdom • Current constitution",
         "text": "8 October 1995",
         "tokens": [
           "8",
@@ -539,22 +539,29 @@
           1995
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$64.280\tbillion ( 88th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "241,038 km 2 (93,065 sq mi) ( 79th )",
         "tokens": [
-          "64",
-          "280",
-          "billion",
-          "88th"
+          "241",
+          "038",
+          "km",
+          "2",
+          "93",
+          "065",
+          "sq",
+          "mi",
+          "79th"
         ],
         "numbers": [
-          64.28,
-          88
+          241038,
+          2,
+          93065,
+          79
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "15.39",
         "tokens": [
           "15",
@@ -564,8 +571,8 @@
           15.39
         ]
       },
-      "2024_census": {
-        "raw_label": "• 2024 census",
+      "population_2024_census": {
+        "raw_label": "Population • 2024 census",
         "text": "= 45,905,417",
         "tokens": [
           "45",
@@ -576,8 +583,8 @@
           45905417
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "157.1/km 2 (406.9/sq mi) ( 75th )",
         "tokens": [
           "157",
@@ -606,6 +613,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$64.280\tbillion ( 88th )",
+        "tokens": [
+          "64",
+          "280",
+          "billion",
+          "88th"
+        ],
+        "numbers": [
+          64.28,
+          88
         ]
       },
       "per_capita": {
@@ -707,6 +728,50 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Uganda",
+      "capital": "Kampala",
+      "largest_city": "Kampala",
+      "government": {
+        "type": "Unitary presidential republic under a dictatorship",
+        "head_of_state": "Yoweri Museveni",
+        "head_of_government": "Robinah Nabbanja"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 241038,
+        "water_percent": 15.39
+      },
+      "population": {
+        "year": 2024,
+        "total": 45905417,
+        "density_per_km2": 157.1
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.582,
+          "rank": 157
+        },
+        "gini": {
+          "year": 2016,
+          "value": 42.0
+        }
+      },
+      "currency": {
+        "name": "Ugandan shilling",
+        "code": "UGX"
+      },
+      "calling_code": "256",
+      "iso_3166_code": "UG",
+      "internet_tld": ".ug",
+      "time_zone": "UTC+3",
+      "demonym": "Ugandan"
     }
   }
 }

@@ -13,7 +13,7 @@
         },
         {
           "label": "retrieved_at",
-          "value": "2026-03-11T17:56:13+00:00",
+          "value": "2026-03-13T10:08:32+00:00",
           "children": []
         },
         {
@@ -38,620 +38,124 @@
       "value": null,
       "children": [
         {
-          "label": "2025_estimate",
+          "label": "area",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "58915561",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "25",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• 2025 estimate",
+              "label": "total_km2",
+              "value": "301340",
               "children": []
             },
             {
-              "label": "text",
-              "value": "58,915,561 ( 25th )",
+              "label": "water_percent",
+              "value": "1.24",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "58",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "915",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "561",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "25th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "ancient_rome_roman_italy",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "753",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "476",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Ancient Rome Roman Italy",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "753 BC–476 AD",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "753",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "BC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "476",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "AD",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "calling_code",
+          "value": "39",
+          "children": []
+        },
+        {
+          "label": "capital",
+          "value": "Rome",
+          "children": []
+        },
+        {
+          "label": "coordinates",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "39",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Calling code",
+              "label": "latitude",
+              "value": "41°54′N",
               "children": []
             },
             {
-              "label": "text",
-              "value": "+39 c",
+              "label": "longitude",
+              "value": "12°29′E",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "39",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "c",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
-          "label": "capital_and_largest_city",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "41",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "54",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "29",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "41.9",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "12.483",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "41.9",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "12.483",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Capital and largest city",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Rome 41°54′N 12°29′E ﻿ / ﻿ 41.900°N 12.483°E ﻿ / 41.900; 12.483",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Rome",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "41",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "54",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "29",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "E",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "41",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "900",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "N",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "483",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "E",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "41",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "900",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "483",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "country_name",
+          "value": "Italy",
+          "children": []
         },
         {
           "label": "currency",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "name",
+              "value": "Euro",
               "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Currency",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Euro (€) b ( EUR )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Euro",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "b",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "EUR",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "demonym",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Demonym",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Italian",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Italian",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "Italian",
+          "children": []
         },
         {
-          "label": "density",
+          "label": "development",
           "value": null,
           "children": [
             {
-              "label": "numbers",
+              "label": "gini",
               "value": null,
               "children": [
                 {
-                  "label": "numbers_item",
-                  "value": "195.5",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "506.3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "72",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Density",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "195.5/km 2 (506.3/sq mi) ( 72nd )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "195",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "5",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "km",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "506",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "3",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "sq",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "mi",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "72nd",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_nominal",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP (nominal)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gdp_ppp",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2025",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "GDP ( PPP )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2025 estimate",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2025",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "estimate",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "gini_2020",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
+                  "label": "value",
                   "value": "32.5",
                   "children": []
+                },
+                {
+                  "label": "year",
+                  "value": "2020",
+                  "children": []
                 }
               ]
             },
             {
-              "label": "raw_label",
-              "value": "Gini (2020)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "32.5 medium inequality",
-              "children": []
-            },
-            {
-              "label": "tokens",
+              "label": "hdi",
               "value": null,
               "children": [
                 {
-                  "label": "tokens_item",
-                  "value": "32",
+                  "label": "rank",
+                  "value": "29",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "5",
+                  "label": "value",
+                  "value": "0.915",
                   "children": []
                 },
                 {
-                  "label": "tokens_item",
-                  "value": "medium",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "inequality",
+                  "label": "year",
+                  "value": "2023",
                   "children": []
                 }
               ]
+            }
+          ]
+        },
+        {
+          "label": "economy",
+          "value": null,
+          "children": [
+            {
+              "label": "gdp_nominal_year",
+              "value": "2025",
+              "children": []
+            },
+            {
+              "label": "gdp_ppp_year",
+              "value": "2025",
+              "children": []
             }
           ]
         },
@@ -660,1313 +164,72 @@
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "head_of_government",
+              "value": "Giorgia Meloni",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "Government",
+              "label": "head_of_state",
+              "value": "Sergio Mattarella",
               "children": []
             },
             {
-              "label": "text",
+              "label": "type",
               "value": "Unitary parliamentary republic",
               "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Unitary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "parliamentary",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "republic",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "hdi_2023",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "0.915",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "29",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "HDI (2023)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "0.915 very high ( 29th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "0",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "915",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "very",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "high",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "29th",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "internet_tld",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Internet TLD",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": ".it",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "it",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": ".it",
+          "children": []
         },
         {
           "label": "iso_3166_code",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "ISO 3166 code",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "IT",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "IT",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "IT",
+          "children": []
         },
         {
-          "label": "italian_city_states_and_regional_polities",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Italian city-states and regional polities",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Middle Ages and Modern period",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Middle",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Ages",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "and",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Modern",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "period",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "italian_empire",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1882",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1960",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Italian Empire",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "1882–1960",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1882",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1960",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "italian_republic",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1946",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "79",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1946",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "-6",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "-2",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Italian Republic",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "2 June 1946 ; 79 years ago ( 1946-06-02 )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "June",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1946",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "79",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "years",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "ago",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1946",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "06",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "02",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "italic_peoples",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Italic peoples",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Antiquity",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Antiquity",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "kingdom_of_italy",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1861",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1946",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "17",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1861",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "164",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "1861",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "-3",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "-17",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Kingdom of Italy",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "1861–1946 17 March 1861 ; 164 years ago ( 1861-03-17 )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1861",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1946",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "17",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "March",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1861",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "164",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "years",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "ago",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1861",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "03",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "17",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "label": "largest_city",
+          "value": "Rome",
+          "children": []
         },
         {
           "label": "legislature",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Legislature",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Parliament",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Parliament",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "Parliament",
+          "children": []
         },
         {
-          "label": "lower_house",
+          "label": "population",
           "value": null,
           "children": [
             {
-              "label": "numbers",
-              "value": null,
+              "label": "density_per_km2",
+              "value": "195.5",
               "children": []
             },
             {
-              "label": "raw_label",
-              "value": "• Lower house",
+              "label": "rank",
+              "value": "25",
               "children": []
             },
             {
-              "label": "text",
-              "value": "Chamber of Deputies",
+              "label": "total",
+              "value": "58915561",
               "children": []
             },
             {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Chamber",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "of",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Deputies",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "nationality_2021",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "91",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "9",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Nationality (2021)",
+              "label": "year",
+              "value": "2025",
               "children": []
-            },
-            {
-              "label": "text",
-              "value": "91% Italian 9% other",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "91",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Italian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "9",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "native_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Native languages",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "See main article",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "See",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "main",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "article",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "official_languages",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "Official languages",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Italian a",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Italian",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "a",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "per_capita",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "41091",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "27",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Per capita",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$41,091 ( 27th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "41",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "091",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "27th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Sergio Mattarella",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Sergio",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Mattarella",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president_of_the_chamber_of_deputies",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President of the Chamber of Deputies",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Lorenzo Fontana",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Lorenzo",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Fontana",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "president_of_the_senate",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• President of the Senate",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Ignazio La Russa",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Ignazio",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "La",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Russa",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "prime_minister",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Prime Minister",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Giorgia Meloni",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Giorgia",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Meloni",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "religion_2020",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "84",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "4",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Religion (2020)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "84% Christianity 12% irreligion 4% other",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "84",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Christianity",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "12",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "irreligion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "4",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "other",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "roman_barbarian_kingdoms_byzantine_italy",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Roman-Barbarian kingdoms Byzantine Italy",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Early Middle Ages",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Early",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Middle",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Ages",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "summer_dst",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Summer ( DST )",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC +2 ( CEST )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CEST",
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "label": "time_zone",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "Time zone",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "UTC +1 ( CET )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "UTC",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "CET",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "total",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "2.423",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "8",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Total",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "$2.423 trillion ( 8th )",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "2",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "423",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "trillion",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "8th",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "upper_house",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": []
-            },
-            {
-              "label": "raw_label",
-              "value": "• Upper house",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "Senate of the Republic",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "Senate",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "of",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "the",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "Republic",
-                  "children": []
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "water",
-          "value": null,
-          "children": [
-            {
-              "label": "numbers",
-              "value": null,
-              "children": [
-                {
-                  "label": "numbers_item",
-                  "value": "1.24",
-                  "children": []
-                },
-                {
-                  "label": "numbers_item",
-                  "value": "2015",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "label": "raw_label",
-              "value": "• Water (%)",
-              "children": []
-            },
-            {
-              "label": "text",
-              "value": "1.24 (2015)",
-              "children": []
-            },
-            {
-              "label": "tokens",
-              "value": null,
-              "children": [
-                {
-                  "label": "tokens_item",
-                  "value": "1",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "24",
-                  "children": []
-                },
-                {
-                  "label": "tokens_item",
-                  "value": "2015",
-                  "children": []
-                }
-              ]
-            }
-          ]
+          "value": "UTC+1",
+          "children": []
         }
       ]
     }

@@ -3,7 +3,7 @@
     "country_name": "Guinea Bissau",
     "slug": "guinea_bissau",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Guinea-Bissau",
-    "retrieved_at": "2026-03-11T17:55:37+00:00",
+    "retrieved_at": "2026-03-13T10:08:11+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,37 +65,37 @@
         "value_text": "National Transitional Council (transitional) [ 8 ] [ 9 ] National People's Assembly (suspended)"
       },
       {
-        "label": "• Declaration",
+        "label": "Independence from Portugal • Declaration",
         "value_html": "<td class=\"infobox-data\">24 September 1973</td>",
         "value_text": "24 September 1973"
       },
       {
-        "label": "• Recognition",
+        "label": "Independence from Portugal • Recognition",
         "value_html": "<td class=\"infobox-data\">10 September 1974</td>",
         "value_text": "10 September 1974"
       },
       {
-        "label": "• 2025 Guinea-Bissau coup d'état",
+        "label": "Independence from Portugal • 2025 Guinea-Bissau coup d'état",
         "value_html": "<td class=\"infobox-data\">26 November 2025</td>",
         "value_text": "26 November 2025"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">36,125 km<sup>2</sup> (13,948 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">134th</a>)</td>",
         "value_text": "36,125 km 2 (13,948 sq mi) ( 134th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">22.4</td>",
         "value_text": "22.4"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_html": "<td class=\"infobox-data\">2,080,000<sup class=\"reference\" id=\"cite_ref-11\"><a href=\"#cite_note-11\"><span class=\"cite-bracket\">[</span>10<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">150th</a>)</td>",
         "value_text": "2,080,000 [ 10 ] ( 150th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">47/km<sup>2</sup> (121.7/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">154th</a>)</td>",
         "value_text": "47/km 2 (121.7/sq mi) ( 154th )"
       },
@@ -213,31 +213,31 @@
         "value_text": "National Transitional Council (transitional) National People's Assembly (suspended)"
       },
       {
-        "label": "• Declaration",
+        "label": "Independence from Portugal • Declaration",
         "value_text": "24 September 1973"
       },
       {
-        "label": "• Recognition",
+        "label": "Independence from Portugal • Recognition",
         "value_text": "10 September 1974"
       },
       {
-        "label": "• 2025 Guinea-Bissau coup d'état",
+        "label": "Independence from Portugal • 2025 Guinea-Bissau coup d'état",
         "value_text": "26 November 2025"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "36,125 km 2 (13,948 sq mi) ( 134th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "22.4"
       },
       {
-        "label": "• 2023 estimate",
+        "label": "Population • 2023 estimate",
         "value_text": "2,080,000 ( 150th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "47/km 2 (121.7/sq mi) ( 154th )"
       },
       {
@@ -492,8 +492,8 @@
         ],
         "numbers": []
       },
-      "declaration": {
-        "raw_label": "• Declaration",
+      "independence_from_portugal_declaration": {
+        "raw_label": "Independence from Portugal • Declaration",
         "text": "24 September 1973",
         "tokens": [
           "24",
@@ -505,8 +505,8 @@
           1973
         ]
       },
-      "recognition": {
-        "raw_label": "• Recognition",
+      "independence_from_portugal_recognition": {
+        "raw_label": "Independence from Portugal • Recognition",
         "text": "10 September 1974",
         "tokens": [
           "10",
@@ -518,8 +518,8 @@
           1974
         ]
       },
-      "2025_guinea_bissau_coup_d_tat": {
-        "raw_label": "• 2025 Guinea-Bissau coup d'état",
+      "independence_from_portugal_2025_guinea_bissau_coup_d_tat": {
+        "raw_label": "Independence from Portugal • 2025 Guinea-Bissau coup d'état",
         "text": "26 November 2025",
         "tokens": [
           "26",
@@ -531,22 +531,29 @@
           2025
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$2.270 billion ( 174th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "36,125 km 2 (13,948 sq mi) ( 134th )",
         "tokens": [
+          "36",
+          "125",
+          "km",
           "2",
-          "270",
-          "billion",
-          "174th"
+          "13",
+          "948",
+          "sq",
+          "mi",
+          "134th"
         ],
         "numbers": [
-          2.27,
-          174
+          36125,
+          2,
+          13948,
+          134
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "22.4",
         "tokens": [
           "22",
@@ -556,8 +563,8 @@
           22.4
         ]
       },
-      "2023_estimate": {
-        "raw_label": "• 2023 estimate",
+      "population_2023_estimate": {
+        "raw_label": "Population • 2023 estimate",
         "text": "2,080,000 ( 150th )",
         "tokens": [
           "2",
@@ -570,8 +577,8 @@
           150
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "47/km 2 (121.7/sq mi) ( 154th )",
         "tokens": [
           "47",
@@ -599,6 +606,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$2.270 billion ( 174th )",
+        "tokens": [
+          "2",
+          "270",
+          "billion",
+          "174th"
+        ],
+        "numbers": [
+          2.27,
+          174
         ]
       },
       "per_capita": {
@@ -704,6 +725,53 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Guinea Bissau",
+      "capital": "Bissau",
+      "largest_city": "Bissau",
+      "coordinates": {
+        "latitude": "11°52′N",
+        "longitude": "15°36′W"
+      },
+      "government": {
+        "type": "Unitary semi-presidential republic under a military junta",
+        "head_of_government": "Ilídio Vieira Té"
+      },
+      "legislature": "National Transitional Council (transitional) National People's Assembly (suspended)",
+      "area": {
+        "total_km2": 36125,
+        "water_percent": 22.4
+      },
+      "population": {
+        "year": 2023,
+        "total": 2080000,
+        "rank": 150,
+        "density_per_km2": 47.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.514,
+          "rank": 174
+        },
+        "gini": {
+          "year": 2021,
+          "value": 33.4
+        }
+      },
+      "currency": {
+        "name": "West African CFA franc",
+        "code": "XOF"
+      },
+      "calling_code": "245",
+      "iso_3166_code": "GW",
+      "internet_tld": ".gw",
+      "time_zone": "UTC ±00:00 ( GMT )"
     }
   }
 }

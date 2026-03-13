@@ -3,7 +3,7 @@
     "country_name": "Burundi",
     "slug": "burundi",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Burundi",
-    "retrieved_at": "2026-03-11T17:53:03+00:00",
+    "retrieved_at": "2026-03-13T10:07:17+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -80,57 +80,57 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Kingdom of Urundi",
+        "label": "Establishment history • Kingdom of Urundi",
         "value_html": "<td class=\"infobox-data\">1680–1966</td>",
         "value_text": "1680–1966"
       },
       {
-        "label": "• Part of German East Africa",
+        "label": "Establishment history • Part of German East Africa",
         "value_html": "<td class=\"infobox-data\">1890–1916</td>",
         "value_text": "1890–1916"
       },
       {
-        "label": "• Part of Ruanda-Urundi",
+        "label": "Establishment history • Part of Ruanda-Urundi",
         "value_html": "<td class=\"infobox-data\">1916–1962</td>",
         "value_text": "1916–1962"
       },
       {
-        "label": "• Independence from Belgium",
+        "label": "Establishment history • Independence from Belgium",
         "value_html": "<td class=\"infobox-data\">1 July 1962</td>",
         "value_text": "1 July 1962"
       },
       {
-        "label": "• Republic",
+        "label": "Establishment history • Republic",
         "value_html": "<td class=\"infobox-data\">28 November 1966</td>",
         "value_text": "28 November 1966"
       },
       {
-        "label": "• Burundian Civil War",
+        "label": "Establishment history • Burundian Civil War",
         "value_html": "<td class=\"infobox-data\">21 October 1993 – 15 May 2005</td>",
         "value_text": "21 October 1993 – 15 May 2005"
       },
       {
-        "label": "• Current constitution",
+        "label": "Establishment history • Current constitution",
         "value_html": "<td class=\"infobox-data\">17 May 2018</td>",
         "value_text": "17 May 2018"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">27,834 km<sup>2</sup> (10,747 sq mi)<sup class=\"reference\" id=\"cite_ref-8\"><a href=\"#cite_note-8\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">142nd</a>)</td>",
         "value_text": "27,834 km 2 (10,747 sq mi) [ 7 ] ( 142nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">10<sup class=\"reference\" id=\"cite_ref-7\"><a href=\"#cite_note-7\"><span class=\"cite-bracket\">[</span>6<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "10 [ 6 ]"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_html": "<td class=\"infobox-data\">14,151,540<sup class=\"reference\" id=\"cite_ref-9\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">78th</a>)</td>",
         "value_text": "14,151,540 [ 8 ] ( 78th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">565/km<sup>2</sup> (1,463.3/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">25th</a>)</td>",
         "value_text": "565/km 2 (1,463.3/sq mi) ( 25th )"
       },
@@ -260,47 +260,47 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Kingdom of Urundi",
+        "label": "Establishment history • Kingdom of Urundi",
         "value_text": "1680–1966"
       },
       {
-        "label": "• Part of German East Africa",
+        "label": "Establishment history • Part of German East Africa",
         "value_text": "1890–1916"
       },
       {
-        "label": "• Part of Ruanda-Urundi",
+        "label": "Establishment history • Part of Ruanda-Urundi",
         "value_text": "1916–1962"
       },
       {
-        "label": "• Independence from Belgium",
+        "label": "Establishment history • Independence from Belgium",
         "value_text": "1 July 1962"
       },
       {
-        "label": "• Republic",
+        "label": "Establishment history • Republic",
         "value_text": "28 November 1966"
       },
       {
-        "label": "• Burundian Civil War",
+        "label": "Establishment history • Burundian Civil War",
         "value_text": "21 October 1993 – 15 May 2005"
       },
       {
-        "label": "• Current constitution",
+        "label": "Establishment history • Current constitution",
         "value_text": "17 May 2018"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "27,834 km 2 (10,747 sq mi) ( 142nd )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "10"
       },
       {
-        "label": "• 2024 estimate",
+        "label": "Population • 2024 estimate",
         "value_text": "14,151,540 ( 78th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "565/km 2 (1,463.3/sq mi) ( 25th )"
       },
       {
@@ -556,8 +556,8 @@
         ],
         "numbers": []
       },
-      "kingdom_of_urundi": {
-        "raw_label": "• Kingdom of Urundi",
+      "establishment_history_kingdom_of_urundi": {
+        "raw_label": "Establishment history • Kingdom of Urundi",
         "text": "1680–1966",
         "tokens": [
           "1680",
@@ -568,8 +568,8 @@
           1966
         ]
       },
-      "part_of_german_east_africa": {
-        "raw_label": "• Part of German East Africa",
+      "establishment_history_part_of_german_east_africa": {
+        "raw_label": "Establishment history • Part of German East Africa",
         "text": "1890–1916",
         "tokens": [
           "1890",
@@ -580,8 +580,8 @@
           1916
         ]
       },
-      "part_of_ruanda_urundi": {
-        "raw_label": "• Part of Ruanda-Urundi",
+      "establishment_history_part_of_ruanda_urundi": {
+        "raw_label": "Establishment history • Part of Ruanda-Urundi",
         "text": "1916–1962",
         "tokens": [
           "1916",
@@ -592,8 +592,8 @@
           1962
         ]
       },
-      "independence_from_belgium": {
-        "raw_label": "• Independence from Belgium",
+      "establishment_history_independence_from_belgium": {
+        "raw_label": "Establishment history • Independence from Belgium",
         "text": "1 July 1962",
         "tokens": [
           "1",
@@ -605,8 +605,8 @@
           1962
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "establishment_history_republic": {
+        "raw_label": "Establishment history • Republic",
         "text": "28 November 1966",
         "tokens": [
           "28",
@@ -618,8 +618,8 @@
           1966
         ]
       },
-      "burundian_civil_war": {
-        "raw_label": "• Burundian Civil War",
+      "establishment_history_burundian_civil_war": {
+        "raw_label": "Establishment history • Burundian Civil War",
         "text": "21 October 1993 – 15 May 2005",
         "tokens": [
           "21",
@@ -636,8 +636,8 @@
           2005
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "establishment_history_current_constitution": {
+        "raw_label": "Establishment history • Current constitution",
         "text": "17 May 2018",
         "tokens": [
           "17",
@@ -649,22 +649,29 @@
           2018
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$6.750 billion ( 157th )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "27,834 km 2 (10,747 sq mi) ( 142nd )",
         "tokens": [
-          "6",
-          "750",
-          "billion",
-          "157th"
+          "27",
+          "834",
+          "km",
+          "2",
+          "10",
+          "747",
+          "sq",
+          "mi",
+          "142nd"
         ],
         "numbers": [
-          6.75,
-          157
+          27834,
+          2,
+          10747,
+          142
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "10",
         "tokens": [
           "10"
@@ -673,8 +680,8 @@
           10
         ]
       },
-      "2024_estimate": {
-        "raw_label": "• 2024 estimate",
+      "population_2024_estimate": {
+        "raw_label": "Population • 2024 estimate",
         "text": "14,151,540 ( 78th )",
         "tokens": [
           "14",
@@ -687,8 +694,8 @@
           78
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "565/km 2 (1,463.3/sq mi) ( 25th )",
         "tokens": [
           "565",
@@ -717,6 +724,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$6.750 billion ( 157th )",
+        "tokens": [
+          "6",
+          "750",
+          "billion",
+          "157th"
+        ],
+        "numbers": [
+          6.75,
+          157
         ]
       },
       "per_capita": {
@@ -818,6 +839,54 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Burundi",
+      "capital": "Gitega",
+      "largest_city": "Bujumbura",
+      "coordinates": {
+        "latitude": "3°30′S",
+        "longitude": "30°00′E"
+      },
+      "government": {
+        "type": "Unitary dominant-party presidential republic under an authoritarian dictatorship",
+        "head_of_state": "Évariste Ndayishimiye",
+        "head_of_government": "Nestor Ntahontuye"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 27834,
+        "water_percent": 10.0
+      },
+      "population": {
+        "year": 2024,
+        "total": 14151540,
+        "rank": 78,
+        "density_per_km2": 565.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.439,
+          "rank": 187
+        },
+        "gini": {
+          "year": 2020,
+          "value": 37.5
+        }
+      },
+      "currency": {
+        "name": "Burundian franc"
+      },
+      "calling_code": "257",
+      "iso_3166_code": "BI",
+      "internet_tld": ".bi",
+      "time_zone": "UTC+2",
+      "demonym": "Burundian"
     }
   }
 }

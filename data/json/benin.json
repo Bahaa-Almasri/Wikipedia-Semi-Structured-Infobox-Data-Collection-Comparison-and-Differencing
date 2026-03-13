@@ -3,7 +3,7 @@
     "country_name": "Benin",
     "slug": "benin",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Benin",
-    "retrieved_at": "2026-03-11T17:52:49+00:00",
+    "retrieved_at": "2026-03-13T10:07:01+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -65,32 +65,32 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Republic of Dahomey established within the French Community",
+        "label": "Independence from France • Republic of Dahomey established within the French Community",
         "value_html": "<td class=\"infobox-data\">11 December 1958</td>",
         "value_text": "11 December 1958"
       },
       {
-        "label": "• Independence",
+        "label": "Independence from France • Independence",
         "value_html": "<td class=\"infobox-data\">1 August 1960</td>",
         "value_text": "1 August 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">114,763 km<sup>2</sup> (44,310 sq mi)<sup class=\"reference\" id=\"cite_ref-AS2010_4-0\"><a href=\"#cite_note-AS2010-4\"><span class=\"cite-bracket\">[</span>4<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">100th</a>)</td>",
         "value_text": "114,763 km 2 (44,310 sq mi) [ 4 ] ( 100th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">0.4%</td>",
         "value_text": "0.4%"
       },
       {
-        "label": "• 2022 estimate",
+        "label": "Population • 2022 estimate",
         "value_html": "<td class=\"infobox-data\"><span typeof=\"mw:File\"><span title=\"Neutral increase\"><img alt=\"Neutral increase\" class=\"mw-file-element\" data-file-height=\"346\" data-file-width=\"347\" decoding=\"async\" height=\"11\" src=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/20px-Increase_Neutral.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/40px-Increase_Neutral.svg.png 2x\" width=\"11\"/></span></span> 13,754,688<sup class=\"reference\" id=\"cite_ref-ReferenceA_5-0\"><a href=\"#cite_note-ReferenceA-5\"><span class=\"cite-bracket\">[</span>5<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">77th</a>)</td>",
         "value_text": "13,754,688 [ 5 ] ( 77th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">94.8/km<sup>2</sup> (245.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">98th</a>)</td>",
         "value_text": "94.8/km 2 (245.5/sq mi) ( 98th )"
       },
@@ -213,27 +213,27 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Republic of Dahomey established within the French Community",
+        "label": "Independence from France • Republic of Dahomey established within the French Community",
         "value_text": "11 December 1958"
       },
       {
-        "label": "• Independence",
+        "label": "Independence from France • Independence",
         "value_text": "1 August 1960"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "114,763 km 2 (44,310 sq mi) ( 100th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "0.4%"
       },
       {
-        "label": "• 2022 estimate",
+        "label": "Population • 2022 estimate",
         "value_text": "13,754,688 ( 77th )"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "94.8/km 2 (245.5/sq mi) ( 98th )"
       },
       {
@@ -491,8 +491,8 @@
         ],
         "numbers": []
       },
-      "republic_of_dahomey_established_within_the_french_community": {
-        "raw_label": "• Republic of Dahomey established within the French Community",
+      "independence_from_france_republic_of_dahomey_established_within_the_french_community": {
+        "raw_label": "Independence from France • Republic of Dahomey established within the French Community",
         "text": "11 December 1958",
         "tokens": [
           "11",
@@ -504,8 +504,8 @@
           1958
         ]
       },
-      "independence": {
-        "raw_label": "• Independence",
+      "independence_from_france_independence": {
+        "raw_label": "Independence from France • Independence",
         "text": "1 August 1960",
         "tokens": [
           "1",
@@ -517,22 +517,29 @@
           1960
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$27.450 billion ( 141st )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "114,763 km 2 (44,310 sq mi) ( 100th )",
         "tokens": [
-          "27",
-          "450",
-          "billion",
-          "141st"
+          "114",
+          "763",
+          "km",
+          "2",
+          "44",
+          "310",
+          "sq",
+          "mi",
+          "100th"
         ],
         "numbers": [
-          27.45,
-          141
+          114763,
+          2,
+          44310,
+          100
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "0.4%",
         "tokens": [
           "0",
@@ -542,8 +549,8 @@
           0.4
         ]
       },
-      "2022_estimate": {
-        "raw_label": "• 2022 estimate",
+      "population_2022_estimate": {
+        "raw_label": "Population • 2022 estimate",
         "text": "13,754,688 ( 77th )",
         "tokens": [
           "13",
@@ -556,8 +563,8 @@
           77
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "94.8/km 2 (245.5/sq mi) ( 98th )",
         "tokens": [
           "94",
@@ -586,6 +593,20 @@
         ],
         "numbers": [
           2026
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$27.450 billion ( 141st )",
+        "tokens": [
+          "27",
+          "450",
+          "billion",
+          "141st"
+        ],
+        "numbers": [
+          27.45,
+          141
         ]
       },
       "per_capita": {
@@ -699,6 +720,49 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Benin",
+      "capital": "Porto-Novo",
+      "largest_city": "Cotonou",
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Patrice Talon"
+      },
+      "legislature": "National Assembly",
+      "area": {
+        "total_km2": 114763,
+        "water_percent": 0.4
+      },
+      "population": {
+        "year": 2022,
+        "total": 13754688,
+        "rank": 77,
+        "density_per_km2": 94.8
+      },
+      "economy": {
+        "gdp_nominal_year": 2026,
+        "gdp_ppp_year": 2026
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.515,
+          "rank": 173
+        },
+        "gini": {
+          "year": 2021,
+          "value": 34.4
+        }
+      },
+      "currency": {
+        "name": "West African CFA franc",
+        "code": "XOF"
+      },
+      "calling_code": "229",
+      "iso_3166_code": "BJ",
+      "internet_tld": ".bj",
+      "time_zone": "UTC+1"
     }
   }
 }

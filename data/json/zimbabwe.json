@@ -3,7 +3,7 @@
     "country_name": "Zimbabwe",
     "slug": "zimbabwe",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Zimbabwe",
-    "retrieved_at": "2026-03-11T17:58:42+00:00",
+    "retrieved_at": "2026-03-13T10:10:57+00:00",
     "source": "wikipedia-infobox"
   },
   "raw": {
@@ -75,52 +75,52 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from the United Kingdom • Declared",
         "value_html": "<td class=\"infobox-data\">11 November 1965</td>",
         "value_text": "11 November 1965"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_html": "<td class=\"infobox-data\">2 March 1970</td>",
         "value_text": "2 March 1970"
       },
       {
-        "label": "• Zimbabwe Rhodesia",
+        "label": "Independence from the United Kingdom • Zimbabwe Rhodesia",
         "value_html": "<td class=\"infobox-data\">1 June 1979</td>",
         "value_text": "1 June 1979"
       },
       {
-        "label": "• Independence recognised",
+        "label": "Independence from the United Kingdom • Independence recognised",
         "value_html": "<td class=\"infobox-data\">18 April 1980</td>",
         "value_text": "18 April 1980"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_html": "<td class=\"infobox-data\">15 May 2013</td>",
         "value_text": "15 May 2013"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_html": "<td class=\"infobox-data\">390,757 km<sup>2</sup> (150,872 sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_area\" title=\"List of countries and dependencies by area\">60th</a>)</td>",
         "value_text": "390,757 km 2 (150,872 sq mi) ( 60th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_html": "<td class=\"infobox-data\">1</td>",
         "value_text": "1"
       },
       {
-        "label": "• February 2026 estimate",
+        "label": "Population • February 2026 estimate",
         "value_html": "<td class=\"infobox-data\">17,166,852<sup class=\"reference\" id=\"cite_ref-9\"><a href=\"#cite_note-9\"><span class=\"cite-bracket\">[</span>7<span class=\"cite-bracket\">]</span></a></sup> (<a href=\"/wiki/List_of_countries_and_dependencies_by_population\" title=\"List of countries and dependencies by population\">74th</a>)</td>",
         "value_text": "17,166,852 [ 7 ] ( 74th )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_html": "<td class=\"infobox-data\">15,178,957<sup class=\"reference\" id=\"cite_ref-10\"><a href=\"#cite_note-10\"><span class=\"cite-bracket\">[</span>8<span class=\"cite-bracket\">]</span></a></sup></td>",
         "value_text": "15,178,957 [ 8 ]"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_html": "<td class=\"infobox-data\">45/km<sup>2</sup> (116.5/sq mi) (<a href=\"/wiki/List_of_countries_and_dependencies_by_population_density\" title=\"List of countries and dependencies by population density\">179th</a>)</td>",
         "value_text": "45/km 2 (116.5/sq mi) ( 179th )"
       },
@@ -251,43 +251,43 @@
         "value_text": "National Assembly"
       },
       {
-        "label": "• Declared",
+        "label": "Independence from the United Kingdom • Declared",
         "value_text": "11 November 1965"
       },
       {
-        "label": "• Republic",
+        "label": "Independence from the United Kingdom • Republic",
         "value_text": "2 March 1970"
       },
       {
-        "label": "• Zimbabwe Rhodesia",
+        "label": "Independence from the United Kingdom • Zimbabwe Rhodesia",
         "value_text": "1 June 1979"
       },
       {
-        "label": "• Independence recognised",
+        "label": "Independence from the United Kingdom • Independence recognised",
         "value_text": "18 April 1980"
       },
       {
-        "label": "• Current constitution",
+        "label": "Independence from the United Kingdom • Current constitution",
         "value_text": "15 May 2013"
       },
       {
-        "label": "• Total",
+        "label": "Area • Total",
         "value_text": "390,757 km 2 (150,872 sq mi) ( 60th )"
       },
       {
-        "label": "• Water (%)",
+        "label": "Area • Water (%)",
         "value_text": "1"
       },
       {
-        "label": "• February 2026 estimate",
+        "label": "Population • February 2026 estimate",
         "value_text": "17,166,852 ( 74th )"
       },
       {
-        "label": "• 2022 census",
+        "label": "Population • 2022 census",
         "value_text": "15,178,957"
       },
       {
-        "label": "• Density",
+        "label": "Population • Density",
         "value_text": "45/km 2 (116.5/sq mi) ( 179th )"
       },
       {
@@ -557,8 +557,8 @@
         ],
         "numbers": []
       },
-      "declared": {
-        "raw_label": "• Declared",
+      "independence_from_the_united_kingdom_declared": {
+        "raw_label": "Independence from the United Kingdom • Declared",
         "text": "11 November 1965",
         "tokens": [
           "11",
@@ -570,8 +570,8 @@
           1965
         ]
       },
-      "republic": {
-        "raw_label": "• Republic",
+      "independence_from_the_united_kingdom_republic": {
+        "raw_label": "Independence from the United Kingdom • Republic",
         "text": "2 March 1970",
         "tokens": [
           "2",
@@ -583,8 +583,8 @@
           1970
         ]
       },
-      "zimbabwe_rhodesia": {
-        "raw_label": "• Zimbabwe Rhodesia",
+      "independence_from_the_united_kingdom_zimbabwe_rhodesia": {
+        "raw_label": "Independence from the United Kingdom • Zimbabwe Rhodesia",
         "text": "1 June 1979",
         "tokens": [
           "1",
@@ -596,8 +596,8 @@
           1979
         ]
       },
-      "independence_recognised": {
-        "raw_label": "• Independence recognised",
+      "independence_from_the_united_kingdom_independence_recognised": {
+        "raw_label": "Independence from the United Kingdom • Independence recognised",
         "text": "18 April 1980",
         "tokens": [
           "18",
@@ -609,8 +609,8 @@
           1980
         ]
       },
-      "current_constitution": {
-        "raw_label": "• Current constitution",
+      "independence_from_the_united_kingdom_current_constitution": {
+        "raw_label": "Independence from the United Kingdom • Current constitution",
         "text": "15 May 2013",
         "tokens": [
           "15",
@@ -622,22 +622,29 @@
           2013
         ]
       },
-      "total": {
-        "raw_label": "• Total",
-        "text": "$53.310 billion ( 101st )",
+      "area_total": {
+        "raw_label": "Area • Total",
+        "text": "390,757 km 2 (150,872 sq mi) ( 60th )",
         "tokens": [
-          "53",
-          "310",
-          "billion",
-          "101st"
+          "390",
+          "757",
+          "km",
+          "2",
+          "150",
+          "872",
+          "sq",
+          "mi",
+          "60th"
         ],
         "numbers": [
-          53.31,
-          101
+          390757,
+          2,
+          150872,
+          60
         ]
       },
-      "water": {
-        "raw_label": "• Water (%)",
+      "area_water": {
+        "raw_label": "Area • Water (%)",
         "text": "1",
         "tokens": [
           "1"
@@ -646,8 +653,8 @@
           1
         ]
       },
-      "february_2026_estimate": {
-        "raw_label": "• February 2026 estimate",
+      "population_february_2026_estimate": {
+        "raw_label": "Population • February 2026 estimate",
         "text": "17,166,852 ( 74th )",
         "tokens": [
           "17",
@@ -660,8 +667,8 @@
           74
         ]
       },
-      "2022_census": {
-        "raw_label": "• 2022 census",
+      "population_2022_census": {
+        "raw_label": "Population • 2022 census",
         "text": "15,178,957",
         "tokens": [
           "15",
@@ -672,8 +679,8 @@
           15178957
         ]
       },
-      "density": {
-        "raw_label": "• Density",
+      "population_density": {
+        "raw_label": "Population • Density",
         "text": "45/km 2 (116.5/sq mi) ( 179th )",
         "tokens": [
           "45",
@@ -701,6 +708,20 @@
         ],
         "numbers": [
           2025
+        ]
+      },
+      "total": {
+        "raw_label": "• Total",
+        "text": "$53.310 billion ( 101st )",
+        "tokens": [
+          "53",
+          "310",
+          "billion",
+          "101st"
+        ],
+        "numbers": [
+          53.31,
+          101
         ]
       },
       "per_capita": {
@@ -826,6 +847,49 @@
         ],
         "numbers": []
       }
+    },
+    "comparison_fields": {
+      "country_name": "Zimbabwe",
+      "capital": "Harare",
+      "largest_city": "Harare",
+      "government": {
+        "type": "Unitary presidential republic",
+        "head_of_state": "Emmerson Mnangagwa"
+      },
+      "legislature": "Parliament",
+      "area": {
+        "total_km2": 390757,
+        "water_percent": 1.0
+      },
+      "population": {
+        "year": 2026,
+        "total": 17166852,
+        "rank": 74,
+        "density_per_km2": 45.0
+      },
+      "economy": {
+        "gdp_nominal_year": 2025,
+        "gdp_ppp_year": 2025
+      },
+      "development": {
+        "hdi": {
+          "year": 2023,
+          "value": 0.598,
+          "rank": 153
+        },
+        "gini": {
+          "year": 2019,
+          "value": 45.5
+        }
+      },
+      "currency": {
+        "name": "De jure : Zimbabwe Gold",
+        "code": "ZWG"
+      },
+      "calling_code": "263",
+      "iso_3166_code": "ZW",
+      "internet_tld": ".zw",
+      "time_zone": "UTC+2"
     }
   }
 }
