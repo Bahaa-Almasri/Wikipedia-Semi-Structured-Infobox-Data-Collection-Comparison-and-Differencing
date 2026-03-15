@@ -56,7 +56,8 @@ services:
       WIKIPEDIA_MAX_RETRIES: ${WIKIPEDIA_MAX_RETRIES}
       WIKIPEDIA_BACKOFF_FACTOR: ${WIKIPEDIA_BACKOFF_FACTOR}
       WIKIPEDIA_USER_AGENT: ${WIKIPEDIA_USER_AGENT}
-      API_URL: ${API_HOST}:${API_PORT}
+      # Frontend talks to API by service name; API listens on port 80 inside the container.
+      API_URL: http://${API_HOST}:80
     depends_on:
       wikinfobox-api:
         condition: service_started
