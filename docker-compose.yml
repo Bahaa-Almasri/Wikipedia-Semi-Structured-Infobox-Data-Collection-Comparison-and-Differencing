@@ -1,0 +1,71 @@
+services:
+  wikinfobox-mongodb:
+    image: mongodb/mongodb-community-server:latest
+    container_name: wikinfobox-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - shared_network
+
+  wikinfobox-api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: wikinfobox-api:latest
+    container_name: ${API_HOST}
+    ports:
+      - "${API_PORT}:80"
+    environment:
+      MONGODB_URI: ${MONGODB_URI}
+      MONGODB_DATABASE: ${MONGODB_DATABASE}
+      MONGODB_COLLECTION: ${MONGODB_COLLECTION}
+      WIKIPEDIA_BASE_URL: ${WIKIPEDIA_BASE_URL}
+      WIKIPEDIA_UN_MEMBER_STATES_URL: ${WIKIPEDIA_UN_MEMBER_STATES_URL}
+      WIKIPEDIA_REQUEST_TIMEOUT: ${WIKIPEDIA_REQUEST_TIMEOUT}
+      WIKIPEDIA_MAX_RETRIES: ${WIKIPEDIA_MAX_RETRIES}
+      WIKIPEDIA_BACKOFF_FACTOR: ${WIKIPEDIA_BACKOFF_FACTOR}
+      WIKIPEDIA_USER_AGENT: ${WIKIPEDIA_USER_AGENT}
+    depends_on:
+      wikinfobox-mongodb:
+        condition: service_healthy
+    networks:
+      - shared_network
+
+  wikinfobox-app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.frontend
+    image: wikinfobox-frontend:latest
+    container_name: wikinfobox-app
+    ports:
+      - "${STREAMLIT_APP_PORT}:8501"
+    environment:
+      MONGODB_URI: ${MONGODB_URI}
+      MONGODB_DATABASE: ${MONGODB_DATABASE}
+      MONGODB_COLLECTION: ${MONGODB_COLLECTION}
+      WIKIPEDIA_BASE_URL: ${WIKIPEDIA_BASE_URL}
+      WIKIPEDIA_UN_MEMBER_STATES_URL: ${WIKIPEDIA_UN_MEMBER_STATES_URL}
+      WIKIPEDIA_REQUEST_TIMEOUT: ${WIKIPEDIA_REQUEST_TIMEOUT}
+      WIKIPEDIA_MAX_RETRIES: ${WIKIPEDIA_MAX_RETRIES}
+      WIKIPEDIA_BACKOFF_FACTOR: ${WIKIPEDIA_BACKOFF_FACTOR}
+      WIKIPEDIA_USER_AGENT: ${WIKIPEDIA_USER_AGENT}
+      API_URL: ${API_HOST}:${API_PORT}
+    depends_on:
+      wikinfobox-api:
+        condition: service_started
+    networks:
+      - shared_network
+
+networks:
+  shared_network:
+    name: shared_network
+
+volumes:
+  mongodb_data:

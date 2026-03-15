@@ -5,75 +5,144 @@ This project collects and pre-processes Wikipedia infobox data for all UN-recogn
 ## Folder structure
 
 - `src/`
-  - `wikinfobox/`
-    - `__init__.py`
-    - `config.py` – configuration and constants
-    - `country_list.py` – fetches list of UN member states and their Wikipedia URLs
-    - `fetch.py` – HTTP helpers with retries
-    - `infobox_parser.py` – parses HTML infobox into raw row structures
-    - `normalization.py` – normalization rules for keys and values
-    - `storage.py` – JSON/tree file writing / path handling
-    - `pipeline.py` – high-level orchestration pipeline (Phase 1)
-    - `cli.py` – Phase 1 command-line entry point
-    - `tree.py` – `TreeNode` dataclass and pretty-printer
-    - `tree_builder.py` – JSON → tree conversion utilities
-    - `tree_cli.py` – Phase 2 command-line entry point (build trees)
-- `data/`
-  - `raw_html/` – optional raw HTML snapshots of infobox tables
-  - `json/` – final JSON documents, one file per country
-  - `trees/` – tree JSON documents, one file per country
+  - `app.py` – FastAPI application; mounts API routers
+  - `api/controllers/` – API endpoints (health, wikiinfobox)
+  - `application/services/` – service layer (data via core.data, orchestration via utils.compare)
+  - `core/` – low-level logic by function
+    - `data/` – config, storage, country list (MongoDB, env)
+    - `preprocess/` – infobox_parser, normalization, pipeline, tree_builder
+    - `similarity/` – TED (Chawathe, NJ), tree_validation, common helpers
+    - `patch/` – apply edit scripts (Chawathe + NJ in one module)
+    - `postprocess/` – tree → JSON/XML/infobox text, report
+    - `edit/` – placeholder (edit script types in domain)
+  - `domain/models/` – data structures
+    - `tree.py` – TreeNode, pretty_print
+    - `country.py` – CountryInfo
+    - `infobox.py` – InfoboxRow, ParsedInfobox
+    - `normalized_field.py` – NormalizedField
+  - `utils/` – higher-level helpers and entry points
+    - `http_client.py` – HTTP GET with retries
+    - `compare.py` – comparison pipeline (TED + diff + patch + report)
+    - `cli.py` – Phase 1 CLI (collect)
+    - `tree_cli.py` – Phase 2 CLI (build trees)
 - `frontend/`
-  - `app.py` – Streamlit frontend for browsing countries, trees, JSON, and HTML
+  - `app.py` – Streamlit UI; **only talks to the API** (no direct data or logic)
 
 ## Backend quick start (pipeline + trees)
 
 1. Create and activate a virtual environment (recommended).
-2. Install dependencies:
+2. Install dependencies and set **MONGODB_URI** (required):
 
 ```bash
 pip install -r requirements.txt
+export MONGODB_URI=mongodb://localhost:27017
 ```
 
 3. Run the collection pipeline (Phase 1):
 
 ```bash
-python -m src.wikinfobox.cli
+python -m src.utils.cli
 ```
 
-By default this will:
+**Requires `MONGODB_URI`.** By default this will:
 - Fetch the list of UN member states from Wikipedia
 - Download each country page and extract the infobox
 - Normalize the fields
-- Write one JSON document per country into `data/json/`
+- Write one JSON document per country into **MongoDB only** (no local files)
 
-4. Build tree representations (Phase 2, still without TED/diff/patching):
+4. Build tree representations (Phase 2):
 
 ```bash
-python -m src.wikinfobox.tree_cli
+python -m src.utils.tree_cli
 ```
 
-This will:
-- Read all JSON documents from `data/json/`
-- Build rooted ordered labeled trees based on `meta` and `normalized.fields`
-- Write one tree JSON per country into `data/trees/`
+This will read from MongoDB, build trees from `meta` and `normalized.fields`, and write trees back to **MongoDB only**.
+
+## API (FastAPI)
+
+The **Wikipedia Country Infobox API** exposes all data used by the frontend. The Streamlit app **only** calls this API; it has no direct access to storage or business logic.
+
+- **Base URL:** `http://localhost:8000` (or set `API_URL` for the frontend)
+- **Docs:** `http://localhost:8000/docs`
+- **Endpoints:** (all data from MongoDB)
+  - `GET /health` – health check
+  - `GET /wikiinfobox/countries` – list `{slug, display_name}` for all countries
+  - `GET /wikiinfobox/countries/{slug}/json` – full JSON document
+  - `GET /wikiinfobox/countries/{slug}/json/download` – download JSON as file (attachment; on user request)
+  - `GET /wikiinfobox/countries/{slug}/tree` – tree representation
+  - `GET /wikiinfobox/countries/{slug}/html` – raw infobox HTML
+  - `POST /wikiinfobox/run/collect` – run collection pipeline (fetch infoboxes, store in MongoDB); long-running
+  - `POST /wikiinfobox/run/build-trees` – build trees for all (or optional `?slug=...` for one) and store in MongoDB
+
+Run the API locally (**MONGODB_URI required**):
+
+```bash
+export MONGODB_URI=mongodb://localhost:27017
+uvicorn src.app:app --host 0.0.0.0 --port 8000
+```
+
+Run from project root so that `src` is on `PYTHONPATH` (or set `PYTHONPATH=.`).
+
+## Docker and MongoDB
+
+**Storage is MongoDB-only** (no local data paths). The API and pipeline require `MONGODB_URI`. The frontend only calls the API.
+
+### Run with Docker Compose
+
+From the project root:
+
+```bash
+docker compose up --build
+```
+
+This starts:
+- **MongoDB** on port `27017` (data persisted in a volume)
+- **API** on `http://localhost:8000`
+- **Streamlit frontend** on `http://localhost:8501` (calls the API at `http://api:8000`)
+
+Populate the database and build trees via the API (or via CLI in the api container):
+
+```bash
+# Via API (recommended):
+curl -X POST http://localhost:8000/wikiinfobox/run/collect
+curl -X POST http://localhost:8000/wikiinfobox/run/build-trees
+
+# Or via CLI in the api container:
+docker compose run --rm api python -m src.utils.cli
+docker compose run --rm api python -m src.utils.tree_cli
+```
+
+After that, refresh the Streamlit app in your browser; it will load all data via the API.
+
+### Environment variables
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `MONGODB_URI` | (required) | MongoDB connection string (e.g. `mongodb://mongodb:27017`). All storage is MongoDB-only. |
+| `MONGODB_DATABASE` | `wikinfobox` | Database name |
+| `MONGODB_COLLECTION` | `countries` | Collection name; each document has `_id` = country slug |
+| `API_URL` | `http://localhost:8000` | Base URL of the API (used by the Streamlit frontend only) |
 
 ## Frontend: Streamlit data browser
 
-A small Streamlit app is provided to visually browse:
-- The country list (with search)
-- Each country’s tree structure (expandable hierarchical view)
-- Each country’s JSON document
-- Each country’s raw HTML infobox
+The Streamlit app is a **thin client**: it only talks to the Wikipedia Infobox API. It has no direct access to MongoDB, files, or any business logic.
+
+It lets you:
+- Browse the country list (with search)
+- View each country’s tree structure (expandable)
+- View each country’s JSON document and raw HTML infobox
 
 ### Running the frontend
 
-From the project root, after installing requirements and generating the data:
+1. Start the API (see [API](#api-fastapi) above), e.g. `uvicorn src.app:app --host 0.0.0.0 --port 8000`.
+2. Set `API_URL` if the API is not at `http://localhost:8000`.
+3. Run the frontend:
 
 ```bash
 streamlit run frontend/app.py
 ```
 
-Then open the URL printed by Streamlit in your browser (typically `http://localhost:8501`).
+Then open the URL printed by Streamlit (typically `http://localhost:8501`).
 
 ### Frontend layout
 
@@ -83,9 +152,9 @@ Then open the URL printed by Streamlit in your browser (typically `http://localh
 - **Main panel**
   - Header showing the selected country name and slug
   - Tabs:
-    - **Tree** – expandable/collapsible tree built from `data/trees/<slug>.json`
-    - **JSON** – pretty-printed JSON from `data/json/<slug>.json`
-    - **HTML Source** – raw HTML from `data/raw_html/<slug>.html`
+    - **Tree** – expandable/collapsible tree (from API/MongoDB)
+    - **JSON** – pretty-printed JSON (from API/MongoDB)
+    - **HTML Source** – raw HTML (from API/MongoDB)
     - **HTML Preview** – rendered HTML preview of the infobox
 
 The Tree tab uses a recursive, expandable component so you can drill into nested nodes for debugging.
