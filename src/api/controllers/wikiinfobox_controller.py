@@ -18,10 +18,11 @@ from application.services.wikiinfobox_service import (
     get_json_document,
     get_raw_html,
     get_tree_document,
-    ted_compute_from_trees,
     postprocess_tree,
     run_build_trees,
     run_collect_pipeline,
+    similarity_ranking_both,
+    ted_compute_from_trees,
     ted_diff,
     ted_diff_from_trees,
     ted_patch,
@@ -315,3 +316,26 @@ def post_ted_postprocess(body: Dict[str, Any]) -> Dict[str, str]:
         raise HTTPException(status_code=400, detail=f"Missing key: {exc}") from exc
     except Exception as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+
+@router.post("/similarity-ranking", response_model=Dict[str, List[Dict[str, Any]]])
+def post_similarity_ranking(body: Dict[str, Any]) -> Dict[str, List[Dict[str, Any]]]:
+    """
+    Return top_k countries most similar to the given country using BOTH TED algorithms.
+    Body: { "country": str, "top_k": int (default 5) }.
+    Response: { "chawathe": [...], "nj": [...] }.
+    """
+    try:
+        country = body.get("country", "").strip().lower()
+        if not country:
+            raise HTTPException(status_code=400, detail="Missing or empty 'country'")
+        top_k = body.get("top_k", 5)
+        if not isinstance(top_k, int) or top_k < 1 or top_k > 50:
+            top_k = 5
+        return similarity_ranking_both(country, top_k=top_k)
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except HTTPException:
+        raise
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc

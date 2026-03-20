@@ -314,6 +314,23 @@ def ted_postprocess(tree: Dict[str, Any]) -> Optional[Dict[str, str]]:
         return None
 
 
+def similarity_ranking_api(country: str, top_k: int = 5) -> Optional[Dict[str, List[Dict[str, Any]]]]:
+    """
+    POST /similarity-ranking — return top_k countries most similar by BOTH TED algorithms.
+    Response: { "chawathe": [...], "nj": [...] }.
+    """
+    try:
+        r = requests.post(
+            f"{WIKIINFOBOX_PREFIX}/similarity-ranking",
+            json={"country": country, "top_k": top_k},
+            timeout=180,
+        )
+        r.raise_for_status()
+        return r.json()
+    except requests.RequestException:
+        return None
+
+
 # --- Semantic edit script (clean) display: structured diff + category summary ---
 
 
@@ -580,361 +597,437 @@ section.main > div {
     slug_for_name = {name: slug for slug, name in index}
     all_display_names = [name for _, name in index]
 
-    # --- Section 1 — Data Selection ---
-    st.markdown("---")
-    st.header("Step 1 — Data Selection")
+    main_tabs = st.tabs(["Comparison", "Country Similarity"])
 
-    col_source, col_target = st.columns(2)
-    with col_source:
-        source_country = st.selectbox("Source Country", all_display_names, index=0, key="source_country")
-    with col_target:
-        target_country = st.selectbox(
-            "Target Country",
-            all_display_names,
-            index=1 if len(all_display_names) > 1 else 0,
-            key="target_country",
+    # --- Tab 0: Comparison ---
+    with main_tabs[0]:
+        # --- Section 1 — Data Selection ---
+        st.markdown("---")
+        st.header("Step 1 — Data Selection")
+
+        col_source, col_target = st.columns(2)
+        with col_source:
+            source_country = st.selectbox("Source Country", all_display_names, index=0, key="source_country")
+        with col_target:
+            target_country = st.selectbox(
+                "Target Country",
+                all_display_names,
+                index=1 if len(all_display_names) > 1 else 0,
+                key="target_country",
+            )
+
+        source_slug = slug_for_name.get(source_country)
+        target_slug = slug_for_name.get(target_country)
+
+        # Feature exclusion (optional — leave empty to compare everything)
+        available_features = load_features()
+        excluded_features = st.multiselect(
+            "Select Features to Exclude",
+            options=available_features,
+            default=[],
+            key="excluded_features",
+            help="Select features to exclude from comparison (leave empty to compare everything). Supports nested paths like area.total_km2.",
+            placeholder="Select features to exclude (leave empty to compare everything)",
         )
 
-    source_slug = slug_for_name.get(source_country)
-    target_slug = slug_for_name.get(target_country)
-
-    # Feature exclusion (optional — leave empty to compare everything)
-    available_features = load_features()
-    excluded_features = st.multiselect(
-        "Select Features to Exclude",
-        options=available_features,
-        default=[],
-        key="excluded_features",
-        help="Select features to exclude from comparison (leave empty to compare everything). Supports nested paths like area.total_km2.",
-        placeholder="Select features to exclude (leave empty to compare everything)",
-    )
-
-    if not source_slug or not target_slug:
-        st.warning("Please select both countries.")
-        return
-
-    # --- Section 2 — Data Views ---
-    st.markdown("---")
-    st.header("Step 2 — Data Views")
-
-    source_json = load_json(source_slug)
-    target_json = load_json(target_slug)
-    source_tree = load_tree(source_slug)
-    target_tree = load_tree(target_slug)
-    source_html = load_html(source_slug)
-    target_html = load_html(target_slug)
-
-    tabs = st.tabs(["JSON", "XML", "Tree", "HTML Source", "HTML Preview"])
-
-    with tabs[0]:
-        st.subheader("Data Preview (JSON)")
-        left, right = st.columns(2)
-        with left:
-            st.markdown(f"**Source:** `{source_country}`")
-            if source_json is None:
-                st.warning("No JSON.")
-            else:
-                st.json(source_json)
-        with right:
-            st.markdown(f"**Target:** `{target_country}`")
-            if target_json is None:
-                st.warning("No JSON.")
-            else:
-                st.json(target_json)
-
-    with tabs[1]:
-        st.subheader("Data Preview (XML)")
-        left, right = st.columns(2)
-        with left:
-            st.markdown(f"**Source:** `{source_country}`")
-            if source_tree is not None:
-                xml_output = json_to_xml(source_tree, root_name="tree")
-                st.text_area("XML Output", xml_output, height=700, disabled=True)
-            elif source_json is not None:
-                xml_output = json_to_xml(source_json, root_name="infobox_json")
-                st.text_area("XML Output", xml_output, height=700, disabled=True)
-            else:
-                st.info("No data available.")
-        with right:
-            st.markdown(f"**Target:** `{target_country}`")
-            if target_tree is not None:
-                xml_output = json_to_xml(target_tree, root_name="tree")
-                st.text_area("XML Output", xml_output, height=700, disabled=True)
-            elif target_json is not None:
-                xml_output = json_to_xml(target_json, root_name="infobox_json")
-                st.text_area("XML Output", xml_output, height=700, disabled=True)
-            else:
-                st.info("No data available.")
-
-    with tabs[2]:
-        st.subheader("Tree Structure")
-        left, right = st.columns(2)
-        with left:
-            st.markdown(f"**Source:** `{source_country}`")
-            if source_tree is None:
-                st.warning("No tree found.")
-            else:
-                st.caption("Box-drawn tree (├── / └──); scroll in the code block for large trees.")
-                st.code(
-                    format_draw_tree_dict(source_tree),
-                    language="text",
-                )
-        with right:
-            st.markdown(f"**Target:** `{target_country}`")
-            if target_tree is None:
-                st.warning("No tree found.")
-            else:
-                st.caption("Box-drawn tree (├── / └──); scroll in the code block for large trees.")
-                st.code(
-                    format_draw_tree_dict(target_tree),
-                    language="text",
-                )
-
-    with tabs[3]:
-        st.markdown("### HTML Source")
-        left, right = st.columns(2)
-        with left:
-            st.markdown(f"**Source:** `{source_country}`")
-            if source_html is None:
-                st.warning("No HTML.")
-            else:
-                st.code(source_html, language="html")
-        with right:
-            st.markdown(f"**Target:** `{target_country}`")
-            if target_html is None:
-                st.warning("No HTML.")
-            else:
-                st.code(target_html, language="html")
-
-    with tabs[4]:
-        st.markdown("### HTML Preview")
-        left, right = st.columns(2)
-        with left:
-            st.markdown(f"**Source:** `{source_country}`")
-            if source_html is None:
-                st.warning("No HTML.")
-            else:
-                st.components.v1.html(source_html, height=600, scrolling=True)
-        with right:
-            st.markdown(f"**Target:** `{target_country}`")
-            if target_html is None:
-                st.warning("No HTML.")
-            else:
-                st.components.v1.html(target_html, height=600, scrolling=True)
-
-    # --- Section 3 — TED Comparison ---
-    st.markdown("---")
-    st.header("Step 3 — Tree Edit Distance Comparison")
-
-    col_algo, col_coerce = st.columns(2)
-    with col_algo:
-        algorithm = st.radio(
-            "TED algorithm",
-            options=["chawathe", "nj"],
-            index=0,
-            format_func=lambda x: "Chawathe (LD-pair)" if x == "chawathe" else "Nierman & Jagadish (NJ)",
-            key="ted_algorithm",
-        )
-    with col_coerce:
-        coerce_root = st.checkbox(
-            "Coerce root label (compare content only)",
-            value=True,
-            key="ted_coerce_root",
-        )
-    coerce_root_label = "infobox" if coerce_root else None
-
-    ui_key = (source_slug, target_slug, tuple(excluded_features), algorithm, coerce_root_label)
-    if st.session_state.get("ted_ui_key") != ui_key:
-        st.session_state["ted_ui_key"] = ui_key
-        st.session_state.pop("ted_compute_result", None)
-        st.session_state.pop("edit_script", None)
-        st.session_state.pop("ted_source_tree_for_patch", None)
-        st.session_state.pop("ted_original_tree_for_patch", None)
-        st.session_state.pop("ted_target_tree_for_patch", None)
-        st.session_state.pop("ted_edit_script_clean", None)
-        st.session_state.pop("ted_target_tree_for_validation", None)
-        st.session_state.pop("ted_patch_result", None)
-
-    compare_disabled = source_tree is None or target_tree is None
-    if st.button(
-        "Compute Edit Script",
-        key="btn_compute_edit_script",
-        disabled=compare_disabled,
-    ):
-        if compare_disabled:
-            st.warning("Trees missing. Run preprocess first.")
+        if not source_slug or not target_slug:
+            st.warning("Please select both countries.")
         else:
-            with st.spinner("Computing TED edit script…"):
-                compute_result = compare_countries_api(
-                    source_slug,
-                    target_slug,
-                    features=excluded_features if excluded_features else None,
-                    exclude=True,
-                    algorithm=algorithm,
-                    coerce_root_label=coerce_root_label,
-                )
+            # --- Section 2 — Data Views ---
+            st.markdown("---")
+            st.header("Step 2 — Data Views")
 
-            if compute_result is not None:
-                st.session_state["ted_compute_result"] = compute_result
-                st.session_state["edit_script"] = compute_result.get("edit_script", [])
-                # Use source_tree from compare result (pruned when features selected)
-                source_tree_for_patch = dict(compute_result.get("source_tree", source_tree or {}))
-                if coerce_root_label:
-                    source_tree_for_patch["label"] = coerce_root_label
-                st.session_state["ted_source_tree_for_patch"] = source_tree_for_patch
-                # Target for patch validation (tree_similarity): always store
-                target_for_validation = compute_result.get("original_target_tree") or compute_result.get("target_tree")
-                if target_for_validation:
-                    st.session_state["ted_target_tree_for_validation"] = dict(target_for_validation)
-                else:
-                    st.session_state.pop("ted_target_tree_for_validation", None)
-                # When features used: store original trees for feature-driven patch
-                if excluded_features and compute_result.get("original_source_tree") is not None:
-                    st.session_state["ted_original_tree_for_patch"] = dict(compute_result["original_source_tree"])
-                    st.session_state["ted_target_tree_for_patch"] = dict(
-                        compute_result.get("original_target_tree") or compute_result.get("target_tree", {})
-                    )
-                    st.session_state["ted_edit_script_clean"] = compute_result.get("edit_script_clean") or []
-                else:
-                    st.session_state.pop("ted_original_tree_for_patch", None)
-                    st.session_state.pop("ted_target_tree_for_patch", None)
-                    st.session_state.pop("ted_edit_script_clean", None)
+            source_json = load_json(source_slug)
+            target_json = load_json(target_slug)
+            source_tree = load_tree(source_slug)
+            target_tree = load_tree(target_slug)
+            source_html = load_html(source_slug)
+            target_html = load_html(target_slug)
+
+            tabs = st.tabs(["JSON", "XML", "Tree", "HTML Source", "HTML Preview"])
+
+            with tabs[0]:
+                st.subheader("Data Preview (JSON)")
+                left, right = st.columns(2)
+                with left:
+                    st.markdown(f"**Source:** `{source_country}`")
+                    if source_json is None:
+                        st.warning("No JSON.")
+                    else:
+                        st.json(source_json)
+                with right:
+                    st.markdown(f"**Target:** `{target_country}`")
+                    if target_json is None:
+                        st.warning("No JSON.")
+                    else:
+                        st.json(target_json)
+
+            with tabs[1]:
+                st.subheader("Data Preview (XML)")
+                left, right = st.columns(2)
+                with left:
+                    st.markdown(f"**Source:** `{source_country}`")
+                    if source_tree is not None:
+                        xml_output = json_to_xml(source_tree, root_name="tree")
+                        st.text_area("XML Output", xml_output, height=700, disabled=True)
+                    elif source_json is not None:
+                        xml_output = json_to_xml(source_json, root_name="infobox_json")
+                        st.text_area("XML Output", xml_output, height=700, disabled=True)
+                    else:
+                        st.info("No data available.")
+                with right:
+                    st.markdown(f"**Target:** `{target_country}`")
+                    if target_tree is not None:
+                        xml_output = json_to_xml(target_tree, root_name="tree")
+                        st.text_area("XML Output", xml_output, height=700, disabled=True)
+                    elif target_json is not None:
+                        xml_output = json_to_xml(target_json, root_name="infobox_json")
+                        st.text_area("XML Output", xml_output, height=700, disabled=True)
+                    else:
+                        st.info("No data available.")
+
+            with tabs[2]:
+                st.subheader("Tree Structure")
+                left, right = st.columns(2)
+                with left:
+                    st.markdown(f"**Source:** `{source_country}`")
+                    if source_tree is None:
+                        st.warning("No tree found.")
+                    else:
+                        st.caption("Box-drawn tree (├── / └──); scroll in the code block for large trees.")
+                        st.code(
+                            format_draw_tree_dict(source_tree),
+                            language="text",
+                        )
+                with right:
+                    st.markdown(f"**Target:** `{target_country}`")
+                    if target_tree is None:
+                        st.warning("No tree found.")
+                    else:
+                        st.caption("Box-drawn tree (├── / └──); scroll in the code block for large trees.")
+                        st.code(
+                            format_draw_tree_dict(target_tree),
+                            language="text",
+                        )
+
+            with tabs[3]:
+                st.markdown("### HTML Source")
+                left, right = st.columns(2)
+                with left:
+                    st.markdown(f"**Source:** `{source_country}`")
+                    if source_html is None:
+                        st.warning("No HTML.")
+                    else:
+                        st.code(source_html, language="html")
+                with right:
+                    st.markdown(f"**Target:** `{target_country}`")
+                    if target_html is None:
+                        st.warning("No HTML.")
+                    else:
+                        st.code(target_html, language="html")
+
+            with tabs[4]:
+                st.markdown("### HTML Preview")
+                left, right = st.columns(2)
+                with left:
+                    st.markdown(f"**Source:** `{source_country}`")
+                    if source_html is None:
+                        st.warning("No HTML.")
+                    else:
+                        st.components.v1.html(source_html, height=600, scrolling=True)
+                with right:
+                    st.markdown(f"**Target:** `{target_country}`")
+                    if target_html is None:
+                        st.warning("No HTML.")
+                    else:
+                        st.components.v1.html(target_html, height=600, scrolling=True)
+
+            # --- Section 3 — TED Comparison ---
+            st.markdown("---")
+            st.header("Step 3 — Tree Edit Distance Comparison")
+
+            col_algo, col_coerce = st.columns(2)
+            with col_algo:
+                algorithm = st.radio(
+                    "TED algorithm",
+                    options=["chawathe", "nj"],
+                    index=0,
+                    format_func=lambda x: "Chawathe (LD-pair)" if x == "chawathe" else "Nierman & Jagadish (NJ)",
+                    key="ted_algorithm",
+                )
+            with col_coerce:
+                coerce_root = st.checkbox(
+                    "Coerce root label (compare content only)",
+                    value=True,
+                    key="ted_coerce_root",
+                )
+            coerce_root_label = "infobox" if coerce_root else None
+
+            ui_key = (source_slug, target_slug, tuple(excluded_features), algorithm, coerce_root_label)
+            if st.session_state.get("ted_ui_key") != ui_key:
+                st.session_state["ted_ui_key"] = ui_key
+                st.session_state.pop("ted_compute_result", None)
+                st.session_state.pop("edit_script", None)
+                st.session_state.pop("ted_source_tree_for_patch", None)
+                st.session_state.pop("ted_original_tree_for_patch", None)
+                st.session_state.pop("ted_target_tree_for_patch", None)
+                st.session_state.pop("ted_edit_script_clean", None)
+                st.session_state.pop("ted_target_tree_for_validation", None)
                 st.session_state.pop("ted_patch_result", None)
-                st.success("Edit script computed.")
-            else:
-                st.error("Compute edit script request failed. Check API.")
 
-    compute_result = st.session_state.get("ted_compute_result")
-    if isinstance(compute_result, dict):
-        st.markdown("### Comparison Results")
-        distance = compute_result.get("distance", "—")
-        similarity = compute_result.get("similarity", 0.0)
-        c1, c2 = st.columns(2)
-        c1.metric("Distance", distance)
-        c2.metric(
-            "Similarity",
-            f"{similarity:.4f}" if isinstance(similarity, (int, float)) else similarity,
+            compare_disabled = source_tree is None or target_tree is None
+            if st.button(
+                "Compute Edit Script",
+                key="btn_compute_edit_script",
+                disabled=compare_disabled,
+            ):
+                if compare_disabled:
+                    st.warning("Trees missing. Run preprocess first.")
+                else:
+                    with st.spinner("Computing TED edit script…"):
+                        compute_result = compare_countries_api(
+                            source_slug,
+                            target_slug,
+                            features=excluded_features if excluded_features else None,
+                            exclude=True,
+                            algorithm=algorithm,
+                            coerce_root_label=coerce_root_label,
+                        )
+
+                    if compute_result is not None:
+                        st.session_state["ted_compute_result"] = compute_result
+                        st.session_state["edit_script"] = compute_result.get("edit_script", [])
+                        # Use source_tree from compare result (pruned when features selected)
+                        source_tree_for_patch = dict(compute_result.get("source_tree", source_tree or {}))
+                        if coerce_root_label:
+                            source_tree_for_patch["label"] = coerce_root_label
+                        st.session_state["ted_source_tree_for_patch"] = source_tree_for_patch
+                        # Target for patch validation (tree_similarity): always store
+                        target_for_validation = compute_result.get("original_target_tree") or compute_result.get("target_tree")
+                        if target_for_validation:
+                            st.session_state["ted_target_tree_for_validation"] = dict(target_for_validation)
+                        else:
+                            st.session_state.pop("ted_target_tree_for_validation", None)
+                        # When features used: store original trees for feature-driven patch
+                        if excluded_features and compute_result.get("original_source_tree") is not None:
+                            st.session_state["ted_original_tree_for_patch"] = dict(compute_result["original_source_tree"])
+                            st.session_state["ted_target_tree_for_patch"] = dict(
+                                compute_result.get("original_target_tree") or compute_result.get("target_tree", {})
+                            )
+                            st.session_state["ted_edit_script_clean"] = compute_result.get("edit_script_clean") or []
+                        else:
+                            st.session_state.pop("ted_original_tree_for_patch", None)
+                            st.session_state.pop("ted_target_tree_for_patch", None)
+                            st.session_state.pop("ted_edit_script_clean", None)
+                        st.session_state.pop("ted_patch_result", None)
+                        st.success("Edit script computed.")
+                    else:
+                        st.error("Compute edit script request failed. Check API.")
+
+            compute_result = st.session_state.get("ted_compute_result")
+            if isinstance(compute_result, dict):
+                st.markdown("### Comparison Results")
+                distance = compute_result.get("distance", "—")
+                similarity = compute_result.get("similarity", 0.0)
+                c1, c2 = st.columns(2)
+                c1.metric("Distance", distance)
+                c2.metric(
+                    "Similarity",
+                    f"{similarity:.4f}" if isinstance(similarity, (int, float)) else similarity,
+                )
+
+                st.markdown("### Edit Script Viewer")
+                raw_script = compute_result.get("edit_script_raw")
+                if raw_script is None:
+                    raw_script = compute_result.get("edit_script") or []
+                clean_script = compute_result.get("edit_script_clean") or []
+                summary = compute_result.get("edit_script_summary") or {}
+
+                if summary:
+                    st.caption(
+                        f"Updates: {summary.get('updates', 0)} | "
+                        f"Inserts: {summary.get('inserts', 0)} | "
+                        f"Deletes: {summary.get('deletes', 0)}"
+                    )
+
+                if clean_script:
+                    total_changes, breakdown = build_summary(clean_script)
+                    st.markdown("#### Change summary")
+                    st.markdown(f"**Total changes:** {total_changes}")
+                    order = ["Economy", "Government", "Population", "Geography", "Others"]
+                    for cat in order:
+                        if cat in breakdown and breakdown[cat]:
+                            st.markdown(f"- **{cat}:** {breakdown[cat]} change(s)")
+                    for cat, n in sorted(breakdown.items()):
+                        if cat not in order:
+                            st.markdown(f"- **{cat}:** {n} change(s)")
+                else:
+                    st.caption("No clean (semantic) operations to summarize.")
+
+                view_tabs = st.tabs(["Raw", "Clean", "Structured diff"])
+                with view_tabs[0]:
+                    st.json(raw_script)
+                with view_tabs[1]:
+                    st.json(clean_script)
+                with view_tabs[2]:
+                    if clean_script:
+                        structured = to_structured_diff(clean_script)
+                        st.download_button(
+                            "Export Diff",
+                            data=structured,
+                            file_name=f"diff_{source_slug}_{target_slug}.txt",
+                            mime="text/plain",
+                            key="export_edit_diff",
+                        )
+                        with st.expander("View structured diff", expanded=True):
+                            st.code(structured, language="text")
+                    else:
+                        st.info("No semantic differences to display.")
+
+            # --- Section 4 — Patch Result ---
+            st.markdown("---")
+            st.header("Step 4 — Apply Patch & View Transformation Output")
+
+            edit_script = st.session_state.get("edit_script")
+            if edit_script is None:
+                st.info("Compute the edit script first to enable patching.")
+                patch_result = None
+            else:
+                if st.button(
+                    "Apply Patch",
+                    key="btn_apply_patch",
+                    disabled=st.session_state.get("ted_source_tree_for_patch") is None,
+                ):
+                    with st.spinner("Applying patch…"):
+                        orig = st.session_state.get("ted_original_tree_for_patch")
+                        tgt = st.session_state.get("ted_target_tree_for_patch")
+                        tgt_validation = st.session_state.get("ted_target_tree_for_validation")
+                        use_feature_driven = orig is not None and tgt is not None and excluded_features is not None
+                        # Pass target_tree for feature-driven patch; pass target for validation (tree_similarity) when available
+                        target_for_patch = tgt if use_feature_driven else tgt_validation
+                        patch_result = ted_patch(
+                            st.session_state["ted_source_tree_for_patch"],
+                            edit_script,
+                            algorithm=algorithm,
+                            original_tree=orig,
+                            edit_script_clean=st.session_state.get("ted_edit_script_clean") if not use_feature_driven else None,
+                            target_tree=target_for_patch,
+                            excluded_features=excluded_features if use_feature_driven else None,
+                        )
+                    if patch_result is not None:
+                        st.session_state["ted_patch_result"] = patch_result
+                        st.success("Patch applied.")
+                    else:
+                        st.error("Patch request failed. Check API.")
+
+            patch_result = st.session_state.get("ted_patch_result")
+            if isinstance(patch_result, dict):
+                # Patch validation: tree similarity and diff (patched vs target)
+                tree_sim = patch_result.get("tree_similarity")
+                if tree_sim is not None:
+                    st.metric(
+                        "Patch validation (tree similarity)",
+                        f"{tree_sim:.4f}",
+                        help="1.0 = perfect match, ~0.9+ = very close, lower = patch issues",
+                    )
+                    patch_diff = patch_result.get("patch_validation_diff") or []
+                    if patch_diff:
+                        st.markdown("#### Patched vs target — remaining differences")
+                        structured_diff = to_structured_diff(patch_diff)
+                        st.download_button(
+                            "Export Diff",
+                            data=structured_diff,
+                            file_name=f"patch_validation_diff_{source_slug}_{target_slug}.txt",
+                            mime="text/plain",
+                            key="export_patch_diff",
+                        )
+                        with st.expander("View differences (patched → target)", expanded=True):
+                            st.code(structured_diff, language="text")
+                    else:
+                        st.success("Patched tree matches target — no remaining differences.")
+                patch_tabs = st.tabs(["Patched JSON", "Patched XML", "Infobox Text"])
+                with patch_tabs[0]:
+                    st.subheader("Transformation Output (JSON)")
+                    st.code(patch_result.get("patched_tree_json", ""), language="json")
+                with patch_tabs[1]:
+                    st.subheader("Transformation Output (XML)")
+                    st.code(patch_result.get("patched_tree_xml", ""), language="xml")
+                with patch_tabs[2]:
+                    st.subheader("Transformation Output (Infobox text)")
+                    st.code(patch_result.get("patched_infobox_text", ""), language="text")
+
+    # --- Tab 1: Country Similarity ---
+    with main_tabs[1]:
+        st.markdown("---")
+        st.header("Country Similarity")
+        st.caption("Find countries most similar to a selected country based on TED (Tree Edit Distance) similarity.")
+
+        sim_selected = st.selectbox(
+            "Select a country",
+            options=[""] + all_display_names,
+            index=0,
+            key="sim_country_select",
+            placeholder="Choose a country…",
         )
+        sim_slug = slug_for_name.get(sim_selected) if sim_selected else ""
 
-        st.markdown("### Edit Script Viewer")
-        raw_script = compute_result.get("edit_script_raw")
-        if raw_script is None:
-            raw_script = compute_result.get("edit_script") or []
-        clean_script = compute_result.get("edit_script_clean") or []
-        summary = compute_result.get("edit_script_summary") or {}
+        top_k_options = [5, 10]
+        top_k = st.radio("Show top", options=top_k_options, index=0, horizontal=True, key="sim_top_k")
 
-        if summary:
-            st.caption(
-                f"Updates: {summary.get('updates', 0)} | "
-                f"Inserts: {summary.get('inserts', 0)} | "
-                f"Deletes: {summary.get('deletes', 0)}"
-            )
-
-        if clean_script:
-            total_changes, breakdown = build_summary(clean_script)
-            st.markdown("#### Change summary")
-            st.markdown(f"**Total changes:** {total_changes}")
-            order = ["Economy", "Government", "Population", "Geography", "Others"]
-            for cat in order:
-                if cat in breakdown and breakdown[cat]:
-                    st.markdown(f"- **{cat}:** {breakdown[cat]} change(s)")
-            for cat, n in sorted(breakdown.items()):
-                if cat not in order:
-                    st.markdown(f"- **{cat}:** {n} change(s)")
-        else:
-            st.caption("No clean (semantic) operations to summarize.")
-
-        view_tabs = st.tabs(["Raw", "Clean", "Structured diff"])
-        with view_tabs[0]:
-            st.json(raw_script)
-        with view_tabs[1]:
-            st.json(clean_script)
-        with view_tabs[2]:
-            if clean_script:
-                structured = to_structured_diff(clean_script)
-                st.download_button(
-                    "Export Diff",
-                    data=structured,
-                    file_name=f"diff_{source_slug}_{target_slug}.txt",
-                    mime="text/plain",
-                    key="export_edit_diff",
-                )
-                with st.expander("View structured diff", expanded=True):
-                    st.code(structured, language="text")
-            else:
-                st.info("No semantic differences to display.")
-
-    # --- Section 4 — Patch Result ---
-    st.markdown("---")
-    st.header("Step 4 — Apply Patch & View Transformation Output")
-
-    edit_script = st.session_state.get("edit_script")
-    if edit_script is None:
-        st.info("Compute the edit script first to enable patching.")
-        patch_result = None
-    else:
         if st.button(
-            "Apply Patch",
-            key="btn_apply_patch",
-            disabled=st.session_state.get("ted_source_tree_for_patch") is None,
+            "Find Similar Countries",
+            key="btn_find_similar",
+            disabled=not sim_slug,
+            type="primary",
         ):
-            with st.spinner("Applying patch…"):
-                orig = st.session_state.get("ted_original_tree_for_patch")
-                tgt = st.session_state.get("ted_target_tree_for_patch")
-                tgt_validation = st.session_state.get("ted_target_tree_for_validation")
-                use_feature_driven = orig is not None and tgt is not None and excluded_features is not None
-                # Pass target_tree for feature-driven patch; pass target for validation (tree_similarity) when available
-                target_for_patch = tgt if use_feature_driven else tgt_validation
-                patch_result = ted_patch(
-                    st.session_state["ted_source_tree_for_patch"],
-                    edit_script,
-                    algorithm=algorithm,
-                    original_tree=orig,
-                    edit_script_clean=st.session_state.get("ted_edit_script_clean") if not use_feature_driven else None,
-                    target_tree=target_for_patch,
-                    excluded_features=excluded_features if use_feature_driven else None,
-                )
-            if patch_result is not None:
-                st.session_state["ted_patch_result"] = patch_result
-                st.success("Patch applied.")
+            if not sim_slug:
+                st.warning("Please select a country first.")
             else:
-                st.error("Patch request failed. Check API.")
+                with st.spinner("Computing similarity ranking… (this may take a minute)"):
+                    results = similarity_ranking_api(sim_slug, top_k=top_k)
 
-    patch_result = st.session_state.get("ted_patch_result")
-    if isinstance(patch_result, dict):
-        # Patch validation: tree similarity and diff (patched vs target)
-        tree_sim = patch_result.get("tree_similarity")
-        if tree_sim is not None:
-            st.metric(
-                "Patch validation (tree similarity)",
-                f"{tree_sim:.4f}",
-                help="1.0 = perfect match, ~0.9+ = very close, lower = patch issues",
-            )
-            patch_diff = patch_result.get("patch_validation_diff") or []
-            if patch_diff:
-                st.markdown("#### Patched vs target — remaining differences")
-                structured_diff = to_structured_diff(patch_diff)
-                st.download_button(
-                    "Export Diff",
-                    data=structured_diff,
-                    file_name=f"patch_validation_diff_{source_slug}_{target_slug}.txt",
-                    mime="text/plain",
-                    key="export_patch_diff",
-                )
-                with st.expander("View differences (patched → target)", expanded=True):
-                    st.code(structured_diff, language="text")
+                if results is not None:
+                    st.session_state["sim_results"] = results
+                    st.session_state["sim_query_country"] = sim_selected
+                else:
+                    st.session_state.pop("sim_results", None)
+                    st.error("Failed to fetch similarity ranking. Check API logs.")
+
+        # Display results (persisted in session state)
+        results = st.session_state.get("sim_results")
+        if results is not None:
+            query_country = st.session_state.get("sim_query_country", "")
+            display_name = query_country or slug_for_name.get(query_country, "")
+
+            def _render_ranking(rank_list: List[Dict[str, Any]], label: str) -> None:
+                st.markdown(f"**{label}**")
+                if not rank_list:
+                    st.caption("No results.")
+                else:
+                    for i, item in enumerate(rank_list, 1):
+                        country_slug = item.get("country", "")
+                        score = item.get("score", 0.0)
+                        country_display = next(
+                            (name for slug, name in index if slug == country_slug),
+                            country_slug.replace("_", " ").title(),
+                        )
+                        score_str = f"{score:.4f}" if isinstance(score, (int, float)) else str(score)
+                        st.markdown(f"{i}. {country_display} — {score_str}")
+                st.markdown("")
+
+            chawathe_list = results.get("chawathe") or []
+            nj_list = results.get("nj") or []
+
+            if not chawathe_list and not nj_list:
+                st.info("No similar countries found.")
             else:
-                st.success("Patched tree matches target — no remaining differences.")
-        patch_tabs = st.tabs(["Patched JSON", "Patched XML", "Infobox Text"])
-        with patch_tabs[0]:
-            st.subheader("Transformation Output (JSON)")
-            st.code(patch_result.get("patched_tree_json", ""), language="json")
-        with patch_tabs[1]:
-            st.subheader("Transformation Output (XML)")
-            st.code(patch_result.get("patched_tree_xml", ""), language="xml")
-        with patch_tabs[2]:
-            st.subheader("Transformation Output (Infobox text)")
-            st.code(patch_result.get("patched_infobox_text", ""), language="text")
+                st.markdown(f"**Most similar to {display_name}:**")
+                st.markdown("")
+                col_c, col_n = st.columns(2)
+                with col_c:
+                    _render_ranking(chawathe_list, "Chawathe (LD-pair)")
+                with col_n:
+                    _render_ranking(nj_list, "Nierman & Jagadish (NJ)")
 
 
 if __name__ == "__main__":

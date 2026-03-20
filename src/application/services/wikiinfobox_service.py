@@ -705,3 +705,58 @@ def postprocess_tree(tree_dict: Dict[str, Any]) -> Dict[str, str]:
         "xml": tree_to_xml_string(root),
         "infobox_text": tree_to_infobox_text(root),
     }
+
+
+def similarity_ranking(
+    country: str,
+    top_k: int = 5,
+    *,
+    algorithm: str = "chawathe",
+    coerce_root_label: Optional[str] = "infobox",
+) -> List[Dict[str, Any]]:
+    """
+    Return top_k countries most similar to the given country by TED similarity.
+    Excludes the source country from results.
+    """
+    source_tree = get_tree_document(country)
+    if source_tree is None:
+        raise ValueError(f"No tree for country: {country}")
+
+    slugs = list_slugs()
+    results: List[Dict[str, Any]] = []
+
+    for slug in slugs:
+        if slug == country:
+            continue
+        target_tree = get_tree_document(slug)
+        if target_tree is None:
+            continue
+        try:
+            result = ted_compute_from_trees(
+                source_tree,
+                target_tree,
+                algorithm=algorithm,
+                coerce_root_label=coerce_root_label,
+            )
+            results.append({"country": slug, "score": result["similarity"]})
+        except Exception as e:
+            logger.debug("Skip %s: %s", slug, e)
+
+    results.sort(key=lambda x: x["score"], reverse=True)
+    return results[:top_k]
+
+
+def similarity_ranking_both(
+    country: str,
+    top_k: int = 5,
+    *,
+    coerce_root_label: Optional[str] = "infobox",
+) -> Dict[str, List[Dict[str, Any]]]:
+    """
+    Return top_k countries most similar to the given country using BOTH TED algorithms.
+    Returns {"chawathe": [...], "nj": [...]}.
+    """
+    return {
+        "chawathe": similarity_ranking(country, top_k, algorithm="chawathe", coerce_root_label=coerce_root_label),
+        "nj": similarity_ranking(country, top_k, algorithm="nj", coerce_root_label=coerce_root_label),
+    }
