@@ -4,13 +4,22 @@ WikiTreeDiff.
 from __future__ import annotations
 
 import os
+import sys
 from collections import defaultdict
+from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 import xml.etree.ElementTree as ET
 
 import requests
 import streamlit as st
+
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+_SRC = _PROJECT_ROOT / "src"
+if str(_SRC) not in sys.path:
+    sys.path.insert(0, str(_SRC))
+
+from domain.models.tree import format_draw_tree_dict  # noqa: E402
 
 # Base URL of the Wikipedia Infobox API (no trailing slash)
 API_URL = os.environ.get("API_URL", "http://localhost:8000").rstrip("/")
@@ -271,6 +280,9 @@ def ted_patch(
             payload["target_tree"] = target_tree
             payload["excluded_features"] = excluded_features
             payload.pop("edit_script_clean", None)
+        elif target_tree is not None:
+            # Pass target_tree for patch validation (tree_similarity) even when not feature-driven
+            payload["target_tree"] = target_tree
         r = requests.post(
             f"{WIKIINFOBOX_PREFIX}/ted/patch",
             json=payload,
@@ -414,30 +426,6 @@ def json_to_xml(data: Any, root_name: str = "root") -> str:
     root = ET.Element(root_name)
     build_xml(root, data)
     return ET.tostring(root, encoding="unicode")
-
-
-def render_tree_branch_inline(node: Dict[str, Any], level: int = 0) -> None:
-    """
-    Recursively render a tree branch as indented text (no nested expanders).
-    Expected node format: { "label": str, "value": Optional[str], "children": [ ... ] }
-    """
-    label = node.get("label", "")
-    value = node.get("value")
-    children = node.get("children") or []
-
-    indent = "&nbsp;" * 4 * level
-    if children:
-        if value is not None:
-            st.markdown(f"{indent}**{label}**: `{value}`", unsafe_allow_html=True)
-        else:
-            st.markdown(f"{indent}**{label}**", unsafe_allow_html=True)
-        for child in children:
-            render_tree_branch_inline(child, level=level + 1)
-    else:
-        if value is not None:
-            st.markdown(f"{indent}**{label}** = `{value}`", unsafe_allow_html=True)
-        else:
-            st.markdown(f"{indent}**{label}**", unsafe_allow_html=True)
 
 
 def main() -> None:
@@ -686,19 +674,21 @@ section.main > div {
             if source_tree is None:
                 st.warning("No tree found.")
             else:
-                st.markdown(f"**Root:** `{source_tree.get('label', '')}`")
-                for child in (source_tree.get("children") or []):
-                    with st.expander(child.get("label", ""), expanded=False):
-                        render_tree_branch_inline(child, level=1)
+                st.caption("Box-drawn tree (├── / └──); scroll in the code block for large trees.")
+                st.code(
+                    format_draw_tree_dict(source_tree),
+                    language="text",
+                )
         with right:
             st.markdown(f"**Target:** `{target_country}`")
             if target_tree is None:
                 st.warning("No tree found.")
             else:
-                st.markdown(f"**Root:** `{target_tree.get('label', '')}`")
-                for child in (target_tree.get("children") or []):
-                    with st.expander(child.get("label", ""), expanded=False):
-                        render_tree_branch_inline(child, level=1)
+                st.caption("Box-drawn tree (├── / └──); scroll in the code block for large trees.")
+                st.code(
+                    format_draw_tree_dict(target_tree),
+                    language="text",
+                )
 
     with tabs[3]:
         st.markdown("### HTML Source")
@@ -762,6 +752,7 @@ section.main > div {
         st.session_state.pop("ted_original_tree_for_patch", None)
         st.session_state.pop("ted_target_tree_for_patch", None)
         st.session_state.pop("ted_edit_script_clean", None)
+        st.session_state.pop("ted_target_tree_for_validation", None)
         st.session_state.pop("ted_patch_result", None)
 
     compare_disabled = source_tree is None or target_tree is None
@@ -791,6 +782,12 @@ section.main > div {
                 if coerce_root_label:
                     source_tree_for_patch["label"] = coerce_root_label
                 st.session_state["ted_source_tree_for_patch"] = source_tree_for_patch
+                # Target for patch validation (tree_similarity): always store
+                target_for_validation = compute_result.get("original_target_tree") or compute_result.get("target_tree")
+                if target_for_validation:
+                    st.session_state["ted_target_tree_for_validation"] = dict(target_for_validation)
+                else:
+                    st.session_state.pop("ted_target_tree_for_validation", None)
                 # When features used: store original trees for feature-driven patch
                 if excluded_features and compute_result.get("original_source_tree") is not None:
                     st.session_state["ted_original_tree_for_patch"] = dict(compute_result["original_source_tree"])
@@ -877,14 +874,17 @@ section.main > div {
             with st.spinner("Applying patch…"):
                 orig = st.session_state.get("ted_original_tree_for_patch")
                 tgt = st.session_state.get("ted_target_tree_for_patch")
+                tgt_validation = st.session_state.get("ted_target_tree_for_validation")
                 use_feature_driven = orig is not None and tgt is not None and excluded_features is not None
+                # Pass target_tree for feature-driven patch; pass target for validation (tree_similarity) when available
+                target_for_patch = tgt if use_feature_driven else tgt_validation
                 patch_result = ted_patch(
                     st.session_state["ted_source_tree_for_patch"],
                     edit_script,
                     algorithm=algorithm,
                     original_tree=orig,
                     edit_script_clean=st.session_state.get("ted_edit_script_clean") if not use_feature_driven else None,
-                    target_tree=tgt if use_feature_driven else None,
+                    target_tree=target_for_patch,
                     excluded_features=excluded_features if use_feature_driven else None,
                 )
             if patch_result is not None:
@@ -895,6 +895,22 @@ section.main > div {
 
     patch_result = st.session_state.get("ted_patch_result")
     if isinstance(patch_result, dict):
+        # Patch validation: tree similarity and diff (patched vs target)
+        tree_sim = patch_result.get("tree_similarity")
+        if tree_sim is not None:
+            st.metric(
+                "Patch validation (tree similarity)",
+                f"{tree_sim:.4f}",
+                help="1.0 = perfect match, ~0.9+ = very close, lower = patch issues",
+            )
+            patch_diff = patch_result.get("patch_validation_diff") or []
+            if patch_diff:
+                st.markdown("#### Patched vs target — remaining differences")
+                structured_diff = to_structured_diff(patch_diff)
+                with st.expander("View differences (patched → target)", expanded=True):
+                    st.code(structured_diff, language="text")
+            else:
+                st.success("Patched tree matches target — no remaining differences.")
         patch_tabs = st.tabs(["Patched JSON", "Patched XML", "Infobox Text"])
         with patch_tabs[0]:
             st.subheader("Transformation Output (JSON)")

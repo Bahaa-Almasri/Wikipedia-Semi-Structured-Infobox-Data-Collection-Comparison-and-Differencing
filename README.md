@@ -16,7 +16,7 @@ This project collects and pre-processes Wikipedia infobox data for all UN-recogn
     - `postprocess/` – tree → JSON/XML/infobox text, report
     - `edit/` – placeholder (edit script types in domain)
   - `domain/models/` – data structures
-    - `tree.py` – TreeNode, pretty_print
+    - `tree.py` – TreeNode, `pretty_print`, `draw_tree`, `format_draw_tree_dict` (box-drawing text)
     - `country.py` – CountryInfo
     - `infobox.py` – InfoboxRow, ParsedInfobox
     - `normalized_field.py` – NormalizedField

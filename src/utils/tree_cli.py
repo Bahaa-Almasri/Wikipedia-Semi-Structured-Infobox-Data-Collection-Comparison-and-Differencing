@@ -4,7 +4,7 @@ import argparse
 
 from core.data.storage import read_json_document, read_tree_document
 from core.preprocess.tree_builder import build_and_save_tree_for_slug, build_and_save_trees_for_all
-from domain.models.tree import TreeNode, pretty_print
+from domain.models.tree import TreeNode, draw_tree
 
 
 def _describe_tree_source(slug: str) -> str:
@@ -50,8 +50,8 @@ def main() -> None:
             print("Could not load tree.")
             return
         tree_root = TreeNode.from_dict(tree_json)
-        print("\nPretty-printed tree (truncated to depth 3):")
-        pretty_print(tree_root, max_depth=3)
+        print("\nTree (box drawing, depth ≤ 3):")
+        draw_tree(tree_root, max_depth=3)
         return
 
     if args.slug:

@@ -97,6 +97,8 @@ def tree_to_infobox_text(root: TreeNode) -> str:
 
     out_lines = ["{{Infobox country", f"| name = {title}"]
     for key, value in rows:
+        if not str(value).strip():  # Skip empty fields
+            continue
         cleaned_key = key.removeprefix("fields.")
         out_lines.append(f"| {cleaned_key} = {value}")
     out_lines.append("}}")

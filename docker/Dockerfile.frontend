@@ -6,6 +6,9 @@ WORKDIR /app
 COPY docker/requirements-frontend.txt requirements-frontend.txt
 RUN pip install --no-cache-dir -r requirements-frontend.txt
 
+# Shared domain tree helpers (format_draw_tree_dict, etc.); must sit next to frontend for app.py imports
+COPY src/ /app/src/
+
 COPY frontend/ frontend/
 
 EXPOSE 8501

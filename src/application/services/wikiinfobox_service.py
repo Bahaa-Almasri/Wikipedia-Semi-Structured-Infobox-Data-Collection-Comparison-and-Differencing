@@ -40,7 +40,7 @@ from core.preprocess.pipeline import collect_all_countries
 from core.similarity.common import clone_tree
 from core.similarity.ted import compute_ted
 from core.similarity.tree_validation import validate_tree
-from domain.models.tree import TreeNode
+from domain.models.tree import TreeNode, tree_similarity
 from utils.compare import compare_country_slugs, compare_from_tree_dicts, load_tree_for_slug
 
 # Alias for semantic diff filtering (same set as edit-script noise filter).
@@ -50,6 +50,32 @@ IGNORED_FIELDS = IGNORE_FIELDS
 EMPTY_VALUE_DISPLAY = "∅"
 
 _MISSING = object()
+
+
+def _is_empty_value(value: Any) -> bool:
+    """True if value is None, empty string, or recursively empty (dict/list of empties)."""
+    if value is None:
+        return True
+    if isinstance(value, str):
+        return not value.strip()
+    if isinstance(value, dict):
+        return all(_is_empty_value(v) for v in value.values())
+    if isinstance(value, (list, tuple)):
+        return all(_is_empty_value(item) for item in value)
+    return False
+
+
+def _should_filter_empty_diff_op(op: Dict[str, Any]) -> bool:
+    """Filter diff ops that only involve empty values (not meaningful differences)."""
+    kind = op.get("op")
+    if kind == "delete":
+        return _is_empty_value(op.get("old_value"))
+    if kind == "insert":
+        return _is_empty_value(op.get("value"))
+    if kind == "update":
+        return _is_empty_value(op.get("old_value")) and _is_empty_value(op.get("new_value"))
+    return False
+
 
 SEMANTIC_FIELDS = {
     "capital",
@@ -644,12 +670,31 @@ def ted_patch(
         )
 
     root = TreeNode.from_dict(patched_dict)
-    return {
+    result: Dict[str, Any] = {
         "patched_tree": patched_dict,
         "patched_tree_json": tree_to_json_string(root),
         "patched_tree_xml": tree_to_xml_string(root),
         "patched_infobox_text": tree_to_infobox_text(root),
     }
+    if target_tree is not None:
+        try:
+            # Semantic diff: patched vs target (what still differs)
+            raw_diff = clean_edit_script(patched_dict, target_tree)
+            # Filter out empty-value differences (patched has empty nodes target lacks — not meaningful)
+            patch_validation_diff = [
+                op for op in raw_diff
+                if not _should_filter_empty_diff_op(op)
+            ]
+            result["patch_validation_diff"] = patch_validation_diff
+            # Align metric with UI: no meaningful differences => 1.0 (structural score can lag semantics)
+            if not patch_validation_diff:
+                result["tree_similarity"] = 1.0
+            else:
+                target_root = TreeNode.from_dict(target_tree)
+                result["tree_similarity"] = tree_similarity(root, target_root)
+        except Exception as e:
+            logger.warning("Could not compute tree_similarity or patch diff: %s", e)
+    return result
 
 
 def postprocess_tree(tree_dict: Dict[str, Any]) -> Dict[str, str]:
