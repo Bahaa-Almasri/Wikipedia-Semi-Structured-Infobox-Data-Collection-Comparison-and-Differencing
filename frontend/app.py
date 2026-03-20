@@ -1,9 +1,10 @@
 """
-Wikipedia Country Infobox Browser (Streamlit).
+WikiTreeDiff.
 """
 from __future__ import annotations
 
 import os
+from collections import defaultdict
 from typing import Any, Dict, List, Optional, Tuple
 
 import xml.etree.ElementTree as ET
@@ -225,6 +226,96 @@ def ted_postprocess(tree: Dict[str, Any]) -> Optional[Dict[str, str]]:
         return None
 
 
+# --- Semantic edit script (clean) display: structured diff + category summary ---
+
+
+def path_to_label(path: List[str]) -> str:
+    """Human-readable label from the last path segment (strips list suffixes)."""
+    if not path:
+        return "Root"
+    leaf = path[-1]
+    base = leaf.split("[", 1)[0]
+    return base.replace("_", " ").title()
+
+
+EMPTY_VALUE_DISPLAY = "∅"
+
+
+def format_value(value: Any) -> str:
+    if value is None:
+        return EMPTY_VALUE_DISPLAY
+    if isinstance(value, str):
+        stripped = value.strip()
+        if stripped == "" or stripped == "None":
+            return EMPTY_VALUE_DISPLAY
+    if isinstance(value, dict):
+        parts = [f"{k}: {format_value(v)}" for k, v in value.items()]
+        return ", ".join(parts)
+    if isinstance(value, (list, tuple)):
+        return ", ".join(format_value(v) for v in value)
+    return str(value)
+
+
+def to_structured_diff(edit_script: List[Dict[str, Any]]) -> str:
+    """Format clean (path-based) edit script as labeled UPDATE / INSERT / DELETE blocks."""
+    lines: List[str] = []
+    for op in edit_script:
+        path = op.get("path") or []
+        label = path_to_label(path)
+        kind = op.get("op")
+
+        if kind == "update":
+            lines.append(f"🔄 UPDATE — {label}")
+            lines.append(f"   - Old: {format_value(op.get('old_value'))}")
+            lines.append(f"   + New: {format_value(op.get('new_value'))}")
+            lines.append("")
+        elif kind == "insert":
+            lines.append(f"➕ INSERT — {label}")
+            lines.append(f"   + Value: {format_value(op.get('value'))}")
+            lines.append("")
+        elif kind == "delete":
+            lines.append(f"❌ DELETE — {label}")
+            # API uses old_value for deletes; accept value for compatibility
+            deleted = op.get("old_value")
+            if deleted is None and "value" in op:
+                deleted = op.get("value")
+            lines.append(f"   - Value: {format_value(deleted)}")
+            lines.append("")
+        else:
+            lines.append(f"❓ {kind} — {label}")
+            lines.append(f"   {op}")
+            lines.append("")
+
+    return "\n".join(lines).rstrip()
+
+
+def categorize(section: str) -> str:
+    s = section.split("[", 1)[0].lower()
+    if s == "economy":
+        return "Economy"
+    if s == "government":
+        return "Government"
+    if s == "population":
+        return "Population"
+    if s in ("area", "coordinates"):
+        return "Geography"
+    return "Others"
+
+
+def build_summary(edit_script: List[Dict[str, Any]]) -> Tuple[int, Dict[str, int]]:
+    """Count ops per high-level category (Economy, Government, …)."""
+    category_counts: Dict[str, int] = defaultdict(int)
+    for op in edit_script:
+        path = op.get("path") or []
+        if len(path) > 1:
+            section = path[1]
+        else:
+            section = "others"
+        category_counts[categorize(section)] += 1
+    total = len(edit_script)
+    return total, dict(category_counts)
+
+
 def json_to_xml(data: Any, root_name: str = "root") -> str:
     """
     Convert JSON-like data (dict/list/scalar) to an XML string.
@@ -274,35 +365,106 @@ def render_tree_branch_inline(node: Dict[str, Any], level: int = 0) -> None:
 
 
 def main() -> None:
-    st.set_page_config(page_title="Wikipedia Country Infobox Browser", layout="wide")
+    st.set_page_config(page_title="WikiTreeDiff", layout="wide")
 
-    st.markdown(
-        """
+    st.markdown("""
 <style>
+
+/* Main background */
+.stApp {
+    background-color: #f7f9fc;
+}
+
+/* Reduce harsh white containers */
 .block-container {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    background-color: #f7f9fc;
 }
-h1, h2, h3 {
-    color: #1f4e79;
-}
-.stButton>button {
-    background-color: #1f4e79;
-    color: white;
-    border-radius: 8px;
-    padding: 0.5rem 1rem;
-}
-.stMetric {
-    background-color: #f5f7fa;
-    padding: 10px;
-    border-radius: 10px;
-}
-</style>
-""",
-        unsafe_allow_html=True,
-    )
 
-    st.title("Wikipedia Country Infobox Browser")
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #eef2f7;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #1e3a5f;
+    font-weight: 600;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.stButton>button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+/* Metrics cards */
+.stMetric {
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+/* Tabs */
+button[role="tab"] {
+    color: #6b7280;
+    font-weight: 500;
+}
+
+button[role="tab"][aria-selected="true"] {
+    color: #2563eb;
+    border-bottom: 2px solid #2563eb;
+}
+
+/* Code blocks */
+pre {
+    background-color: #f1f5f9 !important;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Text areas (XML viewer) */
+textarea {
+    background-color: #f1f5f9 !important;
+    color: #1e293b !important;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+/* Expanders */
+details {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    padding: 6px;
+}
+
+/* Divider */
+hr {
+    border: 1px solid #e5e7eb;
+}
+
+/* Subtle card effect for sections */
+section.main > div {
+    border-radius: 12px;
+}
+
+</style>
+    """, unsafe_allow_html=True)
+
+    st.title("WikiTreeDiff")
     st.caption("JSON → Tree → TED Edit Script → Patch (demo-friendly, step-by-step).")
 
     # Sidebar: data pipeline
@@ -553,8 +715,45 @@ h1, h2, h3 {
         )
 
         st.markdown("### Edit Script Viewer")
-        with st.expander("View Edit Script", expanded=False):
-            st.json(compute_result.get("edit_script") or [])
+        raw_script = compute_result.get("edit_script_raw")
+        if raw_script is None:
+            raw_script = compute_result.get("edit_script") or []
+        clean_script = compute_result.get("edit_script_clean") or []
+        summary = compute_result.get("edit_script_summary") or {}
+
+        if summary:
+            st.caption(
+                f"Updates: {summary.get('updates', 0)} | "
+                f"Inserts: {summary.get('inserts', 0)} | "
+                f"Deletes: {summary.get('deletes', 0)}"
+            )
+
+        if clean_script:
+            total_changes, breakdown = build_summary(clean_script)
+            st.markdown("#### Change summary")
+            st.markdown(f"**Total changes:** {total_changes}")
+            order = ["Economy", "Government", "Population", "Geography", "Others"]
+            for cat in order:
+                if cat in breakdown and breakdown[cat]:
+                    st.markdown(f"- **{cat}:** {breakdown[cat]} change(s)")
+            for cat, n in sorted(breakdown.items()):
+                if cat not in order:
+                    st.markdown(f"- **{cat}:** {n} change(s)")
+        else:
+            st.caption("No clean (semantic) operations to summarize.")
+
+        view_tabs = st.tabs(["Raw", "Clean", "Structured diff"])
+        with view_tabs[0]:
+            st.json(raw_script)
+        with view_tabs[1]:
+            st.json(clean_script)
+        with view_tabs[2]:
+            if clean_script:
+                structured = to_structured_diff(clean_script)
+                with st.expander("View structured diff", expanded=True):
+                    st.code(structured, language="text")
+            else:
+                st.info("No semantic differences to display.")
 
     # --- Section 4 — Patch Result ---
     st.markdown("---")

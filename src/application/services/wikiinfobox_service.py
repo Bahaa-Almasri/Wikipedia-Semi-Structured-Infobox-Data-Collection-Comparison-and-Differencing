@@ -4,7 +4,7 @@ All data access and run operations go through this module; the API controller ca
 """
 from __future__ import annotations
 
-from typing import Any, Dict, List, Optional, Tuple, Union
+from typing import Any, Dict, List, Optional, Sequence, Tuple, Union
 
 from core.data.storage import (
     list_slugs,
@@ -14,12 +14,298 @@ from core.data.storage import (
 )
 from core.patch.patch import apply_patch_from_dict
 from core.postprocess.postprocess import tree_to_infobox_text, tree_to_json_string, tree_to_xml_string
+from core.postprocess.edit_script_normalize import (
+    IGNORE_FIELDS,
+    ignored_path,
+    normalize_edit_script_for_algorithm,
+)
+from core.postprocess.semantic_edit_script import postprocess_semantic_edit_script
 from core.preprocess.tree_builder import build_and_save_tree_for_slug, build_and_save_trees_for_all
 from core.preprocess.pipeline import collect_all_countries
+from core.similarity.common import clone_tree
 from core.similarity.ted import compute_ted
 from core.similarity.tree_validation import validate_tree
 from domain.models.tree import TreeNode
 from utils.compare import compare_country_slugs, compare_from_tree_dicts, load_tree_for_slug
+
+# Alias for semantic diff filtering (same set as edit-script noise filter).
+IGNORED_FIELDS = IGNORE_FIELDS
+
+# Display placeholder for missing / empty scalar values in human-readable output.
+EMPTY_VALUE_DISPLAY = "∅"
+
+_MISSING = object()
+
+SEMANTIC_FIELDS = {
+    "capital",
+    "country_name",
+    "leader",
+    "head_of_government",
+    "head_of_state",
+    "government",
+    "currency",
+    "economy",
+    "gdp_nominal_total",
+    "gdp_ppp_total",
+}
+
+
+def _is_ignored_path(path: Sequence[str]) -> bool:
+    return ignored_path(path)
+
+
+def _normalize_scalar(value: Optional[str]) -> Optional[Union[str, float, int]]:
+    if value is None:
+        return None
+    text = str(value).strip()
+    if text == "":
+        return ""
+    try:
+        if "." in text:
+            return float(text)
+        return int(text)
+    except ValueError:
+        return text
+
+
+def _leaf_base(segment: str) -> str:
+    return str(segment).split("[", 1)[0]
+
+
+def _node_to_semantic_value(node: TreeNode) -> Any:
+    if not node.children:
+        return _normalize_scalar(node.value)
+
+    child_labels = [child.label for child in node.children]
+    if all(label == "token" for label in child_labels):
+        tokens = [str(child.value).strip() for child in node.children if child.value is not None]
+        return " ".join(token for token in tokens if token)
+    if all(label == "value" for label in child_labels):
+        if len(node.children) == 1:
+            return _normalize_scalar(node.children[0].value)
+        return [_normalize_scalar(child.value) for child in node.children]
+
+    grouped: Dict[str, List[Any]] = {}
+    for child in node.children:
+        grouped.setdefault(child.label, []).append(_node_to_semantic_value(child))
+
+    result: Dict[str, Any] = {}
+    for key, values in grouped.items():
+        if key.endswith("_item"):
+            normalized_key = key[:-5]
+            existing = result.get(normalized_key, [])
+            if not isinstance(existing, list):
+                existing = [existing]
+            existing.extend(values)
+            result[normalized_key] = existing
+        elif len(values) == 1:
+            result[key] = values[0]
+        else:
+            result[key] = values
+    return result
+
+
+def _is_atomic_node(path: Sequence[str], node: TreeNode) -> bool:
+    """
+    True only for leaf-like nodes: no children, or only token/value leaves, or
+    SEMANTIC_FIELDS with only token/value leaves.
+
+    Structured subtrees (e.g. government, economy, coordinates with nested keys)
+    are NOT atomic so we recurse and emit field-level ops.
+    """
+    label = path[-1] if path else node.label
+    base = _leaf_base(str(label))
+    if not node.children:
+        return True
+    child_labels = [child.label for child in node.children]
+    only_tokens = all(lbl in {"token", "value"} for lbl in child_labels)
+    if base in SEMANTIC_FIELDS and only_tokens:
+        return True
+    if only_tokens:
+        return True
+    return False
+
+
+def _diff_dict_semantic(
+    old_d: Dict[str, Any],
+    new_d: Dict[str, Any],
+    path: List[str],
+) -> List[Dict[str, Any]]:
+    """
+    Field-level diff for two dict-shaped semantic values (same parent path).
+    Recurses for nested dicts; does not emit a single blob update for the parent.
+    """
+    changes: List[Dict[str, Any]] = []
+    keys = sorted(set(old_d.keys()) | set(new_d.keys()))
+    for k in keys:
+        child_path = [*path, k]
+        ov = old_d.get(k, _MISSING)
+        nv = new_d.get(k, _MISSING)
+        if ov is _MISSING and nv is not _MISSING:
+            if _is_ignored_path(child_path):
+                continue
+            changes.append({"op": "insert", "path": child_path, "value": nv})
+            continue
+        if nv is _MISSING and ov is not _MISSING:
+            if _is_ignored_path(child_path):
+                continue
+            changes.append({"op": "delete", "path": child_path, "old_value": ov})
+            continue
+        # Both dicts have key k
+        if isinstance(ov, dict) and isinstance(nv, dict):
+            changes.extend(_diff_dict_semantic(ov, nv, child_path))
+        elif ov != nv:
+            if _is_ignored_path(child_path):
+                continue
+            changes.append({
+                "op": "update",
+                "path": child_path,
+                "old_value": ov,
+                "new_value": nv,
+            })
+    return changes
+
+
+def _child_keyed(children: Sequence[TreeNode]) -> Dict[str, TreeNode]:
+    grouped: Dict[str, List[TreeNode]] = {}
+    for child in children:
+        grouped.setdefault(child.label, []).append(child)
+
+    keyed: Dict[str, TreeNode] = {}
+    for label, nodes in grouped.items():
+        if len(nodes) == 1:
+            keyed[label] = nodes[0]
+            continue
+        for idx, node in enumerate(nodes):
+            keyed[f"{label}[{idx}]"] = node
+    return keyed
+
+
+def _semantic_diff(
+    source: Optional[TreeNode],
+    target: Optional[TreeNode],
+    path: List[str],
+) -> List[Dict[str, Any]]:
+    if _is_ignored_path(path):
+        return []
+
+    if source is None and target is None:
+        return []
+    if source is None and target is not None:
+        return [{
+            "op": "insert",
+            "path": path,
+            "value": _node_to_semantic_value(target),
+        }]
+    if target is None and source is not None:
+        return [{
+            "op": "delete",
+            "path": path,
+            "old_value": _node_to_semantic_value(source),
+        }]
+
+    assert source is not None
+    assert target is not None
+
+    if _is_atomic_node(path, source) or _is_atomic_node(path, target):
+        old_value = _node_to_semantic_value(source)
+        new_value = _node_to_semantic_value(target)
+        if isinstance(old_value, dict) and isinstance(new_value, dict):
+            return _diff_dict_semantic(old_value, new_value, path)
+        if old_value != new_value:
+            if _is_ignored_path(path):
+                return []
+            return [{
+                "op": "update",
+                "path": path,
+                "old_value": old_value,
+                "new_value": new_value,
+            }]
+        return []
+
+    changes: List[Dict[str, Any]] = []
+    source_children = _child_keyed(source.children)
+    target_children = _child_keyed(target.children)
+    all_keys = sorted(set(source_children.keys()) | set(target_children.keys()))
+    for key in all_keys:
+        changes.extend(_semantic_diff(source_children.get(key), target_children.get(key), [*path, key]))
+    return changes
+
+
+def clean_edit_script(
+    source_tree: Dict[str, Any],
+    target_tree: Dict[str, Any],
+) -> List[Dict[str, Any]]:
+    source_root = TreeNode.from_dict(source_tree)
+    target_root = TreeNode.from_dict(target_tree)
+    source_children = {child.label: child for child in source_root.children}
+    target_children = {child.label: child for child in target_root.children}
+    all_sections = sorted(set(source_children.keys()) | set(target_children.keys()))
+
+    changes: List[Dict[str, Any]] = []
+    for section in all_sections:
+        changes.extend(
+            _semantic_diff(
+                source_children.get(section),
+                target_children.get(section),
+                [section],
+            )
+        )
+    return postprocess_semantic_edit_script(changes)
+
+
+def _path_to_label(path: Sequence[str]) -> str:
+    if not path:
+        return "Root"
+    label = str(path[-1]).replace("_", " ")
+    label = label.split("[", 1)[0]
+    return label.title()
+
+
+def _format_value(value: Any) -> str:
+    if value is None:
+        return EMPTY_VALUE_DISPLAY
+    if isinstance(value, str):
+        stripped = value.strip()
+        if stripped == "" or stripped == "None":
+            return EMPTY_VALUE_DISPLAY
+    if isinstance(value, dict):
+        parts = []
+        for key, val in value.items():
+            key_label = str(key).replace("_", " ").title()
+            parts.append(f"{key_label}: {_format_value(val)}")
+        return ", ".join(parts)
+    if isinstance(value, list):
+        return ", ".join(_format_value(item) for item in value)
+    return str(value)
+
+
+def format_edit_script_human(edit_script: Sequence[Dict[str, Any]]) -> str:
+    lines: List[str] = []
+    for op in edit_script:
+        kind = op.get("op")
+        label = _path_to_label(op.get("path") or [])
+        if kind == "update":
+            lines.append(f"- {label}: {_format_value(op.get('old_value'))}")
+            lines.append(f"+ {label}: {_format_value(op.get('new_value'))}")
+        elif kind == "insert":
+            lines.append(f"+ {label}: {_format_value(op.get('value'))}")
+        elif kind == "delete":
+            lines.append(f"- {label}: {_format_value(op.get('old_value'))}")
+    return "\n".join(lines)
+
+
+def summarize_edit_script(edit_script: Sequence[Dict[str, Any]]) -> Dict[str, int]:
+    summary = {"updates": 0, "inserts": 0, "deletes": 0}
+    for op in edit_script:
+        kind = op.get("op")
+        if kind == "update":
+            summary["updates"] += 1
+        elif kind == "insert":
+            summary["inserts"] += 1
+        elif kind == "delete":
+            summary["deletes"] += 1
+    return summary
 
 
 def get_country_index() -> List[Tuple[str, str]]:
@@ -166,14 +452,32 @@ def ted_compute_from_trees(
         coerce_root_label=coerce_root_label,
     )
 
-    # Both TedResult and NJTedResult expose `.operations` as typed operation objects.
+    # Same source shape as TED (coerced root label) for LD-pair replay / filtering.
+    source_for_script = clone_tree(source_root)
+    if coerce_root_label is not None:
+        source_for_script.label = coerce_root_label
+
     edit_script_ops = [op.to_dict() for op in ted_result.operations]
+    edit_script_raw = normalize_edit_script_for_algorithm(
+        ted_result.algorithm,
+        source_for_script,
+        edit_script_ops,
+    )
+    edit_script_clean = clean_edit_script(source_tree, target_tree)
+    edit_script_human = format_edit_script_human(edit_script_clean)
+    edit_script_summary = summarize_edit_script(edit_script_clean)
+    edit_script_raw_summary = summarize_edit_script(edit_script_raw)
 
     return {
         "algorithm": ted_result.algorithm,
         "distance": ted_result.distance,
         "similarity": ted_result.similarity,
-        "edit_script": edit_script_ops,
+        "edit_script": edit_script_raw,
+        "edit_script_raw": edit_script_raw,
+        "edit_script_raw_summary": edit_script_raw_summary,
+        "edit_script_clean": edit_script_clean,
+        "edit_script_human": edit_script_human,
+        "edit_script_summary": edit_script_summary,
         "source_size": ted_result.source_size,
         "target_size": ted_result.target_size,
     }

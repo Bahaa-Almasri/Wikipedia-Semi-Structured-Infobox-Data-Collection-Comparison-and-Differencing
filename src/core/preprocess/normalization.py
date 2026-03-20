@@ -11,10 +11,13 @@ from domain.models.normalized_field import NormalizedField
 _key_non_alnum_re = re.compile(r"[^0-9a-zA-Z]+")
 _number_re = re.compile(r"[-+]?(?:\d{1,3}(?:[,\u00A0]\d{3})+|\d+)(?:\.\d+)?")
 _year_re = re.compile(r"\b(19|20)\d{2}\b")
-_rank_re = re.compile(r"\b(\d+)(st|nd|rd|th)\b", re.IGNORECASE)
+_rank_re = re.compile(r"\b(\d+)(?:st|nd|rd|th)\b", re.IGNORECASE)
+# Rank inside parentheses, e.g. (2nd), (102nd), (1st) — group 1 = digits only
+_rank_paren_re = re.compile(r"\((\d+)(?:st|nd|rd|th)\)", re.IGNORECASE)
 _coord_re = re.compile(r"\b(\d{1,2}°\d{1,2}′[NS])\b|\b(\d{1,3}°\d{1,2}′[EW])\b")
 _currency_code_re = re.compile(r"\b([A-Z]{3})\b")
-_rank_paren_re = re.compile(r"\s*\(\s*\d+(st|nd|rd|th)\s*\)\s*$", re.IGNORECASE)
+# For stripping trailing rank paren from GDP text — different pattern (no capture of digits)
+_rank_paren_strip_re = re.compile(r"\s*\(\s*\d+(?:st|nd|rd|th)\s*\)\s*$", re.IGNORECASE)
 
 
 def normalize_key(label: str) -> str:
@@ -95,9 +98,72 @@ def _first_year(text: str) -> Optional[int]:
     return int(m.group(0)) if m else None
 
 
-def _first_rank(text: str) -> Optional[int]:
-    m = _rank_re.search(text)
-    return int(m.group(1)) if m else None
+def _normalize_text_join(text: str) -> str:
+    """Collapse whitespace/newlines so multi-line cells parse as one string."""
+    return " ".join((text or "").split())
+
+
+def extract_rank(text: str) -> Optional[int]:
+    if not text:
+        return None
+
+    full = _normalize_text_join(text)
+
+    # STRICT: only match ordinal ranks
+    m = re.search(r"\((\d+)(?:st|nd|rd|th)\)", full, re.IGNORECASE)
+    if m:
+        return int(m.group(1))
+
+    m = re.search(r"\b(\d+)(?:st|nd|rd|th)\b", full, re.IGNORECASE)
+    if m:
+        return int(m.group(1))
+    return None
+
+
+def _all_hdi_field_keys(fields: Mapping[str, NormalizedField]) -> List[str]:
+    keys: List[str] = []
+    if "hdi" in fields:
+        keys.append("hdi")
+    keys.extend(sorted(k for k in fields if k.startswith("hdi_")))
+    return keys
+
+
+def _combine_hdi_field_texts(fields: Mapping[str, NormalizedField]) -> str:
+    """Merge all HDI-related row texts (multi-line cells or split rows) before parsing."""
+    parts: List[str] = []
+    for k in _all_hdi_field_keys(fields):
+        t = fields[k].text
+        if t:
+            parts.append(t)
+    return _normalize_text_join(" ".join(parts))
+
+
+def _parse_hdi_value(full_text: str) -> Optional[float]:
+    """
+    HDI index is in (0, 1]. Parse from full combined text (not per-token).
+    Prefer any number in (0, 1] so rank ordinals like 2nd (parsed as 2) are not used as HDI.
+    """
+    full = _normalize_text_join(full_text)
+    if not full:
+        return None
+    nums = _parse_numbers(full)
+    for n in nums:
+        v = float(n)
+        if 0 < v <= 1.0:
+            return round(v, 4)
+    return None
+
+
+def _hdi_year_from_fields(fields: Mapping[str, NormalizedField], combined_text: str) -> Optional[int]:
+    years: List[int] = []
+    for k in _all_hdi_field_keys(fields):
+        y = _first_year(k) or _first_year(fields[k].raw_label) or _first_year(fields[k].text)
+        if y is not None:
+            years.append(y)
+    y = _first_year(combined_text)
+    if y is not None:
+        years.append(y)
+    return max(years) if years else None
 
 
 def _extract_capital_name(text: str) -> str:
@@ -168,7 +234,7 @@ def _split_tlds(text: str) -> List[str]:
 
 
 def _strip_rank_paren(text: str) -> str:
-    return _rank_paren_re.sub("", text or "").strip()
+    return _rank_paren_strip_re.sub("", text or "").strip()
 
 
 def build_comparison_fields(
@@ -258,7 +324,7 @@ def build_comparison_fields(
             if isinstance(n, (int, float)) and n >= 10000:
                 pop_total = int(n)
                 break
-        pop_rank = _first_rank(pop_total_field.text)
+        pop_rank = extract_rank(pop_total_field.text)
 
     if pop_year is not None:
         pop["year"] = pop_year
@@ -310,13 +376,18 @@ def build_comparison_fields(
         out["economy"] = economy
 
     dev: Dict[str, Any] = {}
-    if "hdi" in fields:
-        dev["hdi"] = {"year": _first_year(fields["hdi"].raw_label) or _first_year(fields["hdi"].text), "value": fields["hdi"].numbers[0] if fields["hdi"].numbers else None, "rank": _first_rank(fields["hdi"].text)}
-    else:
-        hdi_keys = [k for k in fields.keys() if k.startswith("hdi_")]
-        if hdi_keys:
-            k = sorted(hdi_keys)[-1]
-            dev["hdi"] = {"year": _first_year(k) or _first_year(fields[k].raw_label), "value": fields[k].numbers[0] if fields[k].numbers else None, "rank": _first_rank(fields[k].text)}
+    hdi_keys_all = _all_hdi_field_keys(fields)
+    if hdi_keys_all:
+        hdi_full_text = _combine_hdi_field_texts(fields)
+        print("HDI FULL TEXT:", hdi_full_text)
+        hdi_year = _hdi_year_from_fields(fields, hdi_full_text)
+        hdi_value = _parse_hdi_value(hdi_full_text)
+        hdi_rank = extract_rank(hdi_full_text)
+        dev["hdi"] = {
+            "year": hdi_year,
+            "value": hdi_value,
+            "rank": hdi_rank,
+        }
     gini_keys = [k for k in fields.keys() if k.startswith("gini")]
     if gini_keys:
         k = sorted(gini_keys)[-1]
