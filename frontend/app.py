@@ -852,6 +852,13 @@ section.main > div {
         with view_tabs[2]:
             if clean_script:
                 structured = to_structured_diff(clean_script)
+                st.download_button(
+                    "Export Diff",
+                    data=structured,
+                    file_name=f"diff_{source_slug}_{target_slug}.txt",
+                    mime="text/plain",
+                    key="export_edit_diff",
+                )
                 with st.expander("View structured diff", expanded=True):
                     st.code(structured, language="text")
             else:
@@ -907,6 +914,13 @@ section.main > div {
             if patch_diff:
                 st.markdown("#### Patched vs target — remaining differences")
                 structured_diff = to_structured_diff(patch_diff)
+                st.download_button(
+                    "Export Diff",
+                    data=structured_diff,
+                    file_name=f"patch_validation_diff_{source_slug}_{target_slug}.txt",
+                    mime="text/plain",
+                    key="export_patch_diff",
+                )
                 with st.expander("View differences (patched → target)", expanded=True):
                     st.code(structured_diff, language="text")
             else:
