@@ -16,6 +16,7 @@ from application.services.wikiinfobox_service import (
     get_json_document,
     get_raw_html,
     get_tree_document,
+    ted_compute_from_trees,
     postprocess_tree,
     run_build_trees,
     run_collect_pipeline,
@@ -194,6 +195,27 @@ def post_ted_diff_trees(body: Dict[str, Any]) -> Dict[str, Any]:
             source_tree, target_tree,
             source_slug=body.get("source_slug", "source"),
             target_slug=body.get("target_slug", "target"),
+            algorithm=body.get("algorithm", "chawathe"),
+            coerce_root_label=body.get("coerce_root_label"),
+        )
+    except KeyError as exc:
+        raise HTTPException(status_code=400, detail=f"Missing key: {exc}") from exc
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+
+@router.post("/ted/compute", response_model=Dict[str, Any])
+def post_ted_compute(body: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Compute TED metrics + edit script ONLY (no patching).
+    Body: { "source_tree": {...}, "target_tree": {...}, "algorithm": "chawathe"|"nj", "coerce_root_label": "optional" }.
+    """
+    try:
+        source_tree = body["source_tree"]
+        target_tree = body["target_tree"]
+        return ted_compute_from_trees(
+            source_tree,
+            target_tree,
             algorithm=body.get("algorithm", "chawathe"),
             coerce_root_label=body.get("coerce_root_label"),
         )

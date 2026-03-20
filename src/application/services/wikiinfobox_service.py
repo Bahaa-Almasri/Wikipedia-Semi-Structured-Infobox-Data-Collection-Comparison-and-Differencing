@@ -4,7 +4,7 @@ All data access and run operations go through this module; the API controller ca
 """
 from __future__ import annotations
 
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple, Union
 
 from core.data.storage import (
     list_slugs,
@@ -17,6 +17,7 @@ from core.postprocess.postprocess import tree_to_infobox_text, tree_to_json_stri
 from core.preprocess.tree_builder import build_and_save_tree_for_slug, build_and_save_trees_for_all
 from core.preprocess.pipeline import collect_all_countries
 from core.similarity.ted import compute_ted
+from core.similarity.tree_validation import validate_tree
 from domain.models.tree import TreeNode
 from utils.compare import compare_country_slugs, compare_from_tree_dicts, load_tree_for_slug
 
@@ -140,15 +141,60 @@ def ted_diff_from_trees(
     )
 
 
+def ted_compute_from_trees(
+    source_tree: Dict[str, Any],
+    target_tree: Dict[str, Any],
+    *,
+    algorithm: str = "chawathe",
+    coerce_root_label: Optional[str] = None,
+) -> Dict[str, Any]:
+    """
+    Compute TED metrics + edit script ONLY (no patch application).
+
+    Returns edit_script as a list of serialized operations, so the frontend can store it directly
+    and apply it later via /ted/patch.
+    """
+    source_root = TreeNode.from_dict(source_tree)
+    target_root = TreeNode.from_dict(target_tree)
+    validate_tree(source_root)
+    validate_tree(target_root)
+
+    ted_result = compute_ted(
+        source_root,
+        target_root,
+        algorithm=algorithm,
+        coerce_root_label=coerce_root_label,
+    )
+
+    # Both TedResult and NJTedResult expose `.operations` as typed operation objects.
+    edit_script_ops = [op.to_dict() for op in ted_result.operations]
+
+    return {
+        "algorithm": ted_result.algorithm,
+        "distance": ted_result.distance,
+        "similarity": ted_result.similarity,
+        "edit_script": edit_script_ops,
+        "source_size": ted_result.source_size,
+        "target_size": ted_result.target_size,
+    }
+
+
 def ted_patch(
     source_tree: Dict[str, Any],
-    edit_script: Dict[str, Any],
+    edit_script: Union[Dict[str, Any], List[Dict[str, Any]]],
     *,
     algorithm: str = "chawathe",
 ) -> Dict[str, Any]:
     """Apply edit script to source tree; returns patched tree as dict."""
+    # Backward compatibility: older code passes the full TedResult.to_dict() (a dict with
+    # "operations"). New compute endpoint may pass just the operations list.
+    if isinstance(edit_script, list):
+        edit_script_dict = {"operations": edit_script}
+    else:
+        edit_script_dict = edit_script
+
     patched_dict = apply_patch_from_dict(
-        source_tree, edit_script,
+        source_tree, edit_script_dict,
         algorithm=algorithm,
     )
     root = TreeNode.from_dict(patched_dict)

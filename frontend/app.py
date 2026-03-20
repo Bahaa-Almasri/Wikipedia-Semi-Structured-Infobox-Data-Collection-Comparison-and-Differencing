@@ -6,6 +6,8 @@ from __future__ import annotations
 import os
 from typing import Any, Dict, List, Optional, Tuple
 
+import xml.etree.ElementTree as ET
+
 import requests
 import streamlit as st
 
@@ -163,9 +165,37 @@ def ted_diff(
         return None
 
 
+def ted_compute(
+    source_tree: Dict[str, Any],
+    target_tree: Dict[str, Any],
+    *,
+    algorithm: str = "chawathe",
+    coerce_root_label: Optional[str] = None,
+) -> Optional[Dict[str, Any]]:
+    """POST /ted/compute — compute TED metrics + edit script ONLY."""
+    try:
+        payload: Dict[str, Any] = {
+            "source_tree": source_tree,
+            "target_tree": target_tree,
+            "algorithm": algorithm,
+        }
+        if coerce_root_label:
+            payload["coerce_root_label"] = coerce_root_label
+
+        r = requests.post(
+            f"{WIKIINFOBOX_PREFIX}/ted/compute",
+            json=payload,
+            timeout=60,
+        )
+        r.raise_for_status()
+        return r.json()
+    except requests.RequestException:
+        return None
+
+
 def ted_patch(
     source_tree: Dict[str, Any],
-    edit_script: Dict[str, Any],
+    edit_script: Any,
     algorithm: str = "chawathe",
 ) -> Optional[Dict[str, Any]]:
     """POST /ted/patch — apply edit script to source tree."""
@@ -195,6 +225,30 @@ def ted_postprocess(tree: Dict[str, Any]) -> Optional[Dict[str, str]]:
         return None
 
 
+def json_to_xml(data: Any, root_name: str = "root") -> str:
+    """
+    Convert JSON-like data (dict/list/scalar) to an XML string.
+    Intended for visualization only in the frontend (no backend calls).
+    """
+
+    def build_xml(element: ET.Element, value: Any) -> None:
+        if isinstance(value, dict):
+            for k, v in value.items():
+                child = ET.SubElement(element, str(k))
+                build_xml(child, v)
+        elif isinstance(value, list):
+            for item in value:
+                child = ET.SubElement(element, "item")
+                build_xml(child, item)
+        else:
+            # ElementTree uses element.text for leaf scalars.
+            element.text = "" if value is None else str(value)
+
+    root = ET.Element(root_name)
+    build_xml(root, data)
+    return ET.tostring(root, encoding="unicode")
+
+
 def render_tree_branch_inline(node: Dict[str, Any], level: int = 0) -> None:
     """
     Recursively render a tree branch as indented text (no nested expanders).
@@ -220,35 +274,70 @@ def render_tree_branch_inline(node: Dict[str, Any], level: int = 0) -> None:
 
 
 def main() -> None:
-    st.set_page_config(
-        page_title="Wikipedia Country Infobox Browser",
-        layout="wide",
+    st.set_page_config(page_title="Wikipedia Country Infobox Browser", layout="wide")
+
+    st.markdown(
+        """
+<style>
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+h1, h2, h3 {
+    color: #1f4e79;
+}
+.stButton>button {
+    background-color: #1f4e79;
+    color: white;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+.stMetric {
+    background-color: #f5f7fa;
+    padding: 10px;
+    border-radius: 10px;
+}
+</style>
+""",
+        unsafe_allow_html=True,
     )
 
     st.title("Wikipedia Country Infobox Browser")
-    st.caption("Phase 1–2 data viewer: JSON documents, trees, and raw HTML (data via API).")
+    st.caption("JSON → Tree → TED Edit Script → Patch (demo-friendly, step-by-step).")
 
-    # Sidebar: data pipeline (run collect / preprocess)
+    # Sidebar: data pipeline
     with st.sidebar:
         st.header("Data pipeline")
-        if st.button("Run collect", help="Fetch UN member states, scrape infoboxes, store in MongoDB. Long-running."):
+        if st.button(
+            "Run collect",
+            help="Fetch UN member states, scrape infoboxes, store in MongoDB. Long-running.",
+        ):
             with st.spinner("Running collect… (may take several minutes)"):
                 result = run_collect()
             if result is not None:
                 load_country_index.clear()
-                st.success(f"Collected {result.get('collected', 0)} countries. Refresh or re-run to see the list.")
-                st.caption(f"Slugs: {result.get('slugs', [])[:5]}{'…' if len(result.get('slugs', [])) > 5 else ''}")
+                st.success(
+                    f"Collected {result.get('collected', 0)} countries. Refresh or re-run to see the list."
+                )
+                st.caption(
+                    f"Slugs: {result.get('slugs', [])[:5]}{'…' if len(result.get('slugs', [])) > 5 else ''}"
+                )
             else:
                 st.error("Collect failed or timed out. Check API logs.")
+
         if st.button("Run preprocess (all)", help="Build trees for all countries in MongoDB."):
             with st.spinner("Running preprocess… (may take a minute)"):
                 result = run_preprocess()
             if result is not None:
                 st.success(f"Built trees for {result.get('trees_built', 0)} countries.")
-                st.caption(f"Slugs: {result.get('slugs', [])[:5]}{'…' if len(result.get('slugs', [])) > 5 else ''}")
+                st.caption(
+                    f"Slugs: {result.get('slugs', [])[:5]}{'…' if len(result.get('slugs', [])) > 5 else ''}"
+                )
             else:
                 st.error("Preprocess failed or timed out. Check API logs.")
+
         st.divider()
+        st.caption("TED operations run against the backend + MongoDB.")
 
     if not api_available():
         st.error(
@@ -259,252 +348,252 @@ def main() -> None:
 
     index = load_country_index()
     if not index:
-        st.sidebar.error("No country data returned from the API. Run the pipeline to populate data.")
+        st.error("No country data returned from the API. Run the pipeline to populate data.")
         return
 
-    st.sidebar.header("Countries")
-    search_query = st.sidebar.text_input("Search by name", "").strip().lower()
+    slug_for_name = {name: slug for slug, name in index}
+    all_display_names = [name for _, name in index]
 
-    filtered = [
-        (slug, name)
-        for slug, name in index
-        if search_query in name.lower() or search_query in slug.lower()
-    ]
+    # --- Section 1 — Data Selection ---
+    st.markdown("---")
+    st.header("Step 1 — Data Selection")
 
-    if not filtered:
-        st.sidebar.info("No countries match this search.")
-        return
-
-    display_names = [name for _, name in filtered]
-    default_idx = 0
-    selected_name = st.sidebar.selectbox("Select a country", display_names, index=default_idx)
-    selected_slug = next(slug for slug, name in filtered if name == selected_name)
-
-    # Option to preprocess only current country
-    with st.sidebar:
-        if st.button("Run preprocess (this country)", key="preprocess_one", help=f"Build tree for {selected_name} only."):
-            with st.spinner(f"Building tree for {selected_slug}…"):
-                result = run_preprocess(slug=selected_slug)
-            if result is not None:
-                st.success(f"Built tree for {result.get('trees_built', 0)} country.")
-            else:
-                st.error("Preprocess failed. Check API logs.")
-        st.divider()
-
-    st.subheader(f"{selected_name}")
-    st.caption(f"Slug: `{selected_slug}`")
-
-    tree_data = load_tree(selected_slug)
-    json_data = load_json(selected_slug)
-    html_data = load_html(selected_slug)
-
-    tabs = st.tabs(["Tree", "JSON", "HTML Source", "HTML Preview", "Compare Trees"])
-
-    with tabs[0]:
-        st.markdown("### Tree View")
-        if tree_data is None:
-            st.warning("No tree data found for this country. Build trees via the pipeline/tree_cli.")
-        else:
-            root_label = tree_data.get("label", "")
-            st.markdown(f"**Root:** `{root_label}`")
-            children = tree_data.get("children") or []
-            for child in children:
-                child_label = child.get("label", "")
-                with st.expander(child_label, expanded=False):
-                    render_tree_branch_inline(child, level=1)
-
-    with tabs[1]:
-        st.markdown("### JSON View")
-        if json_data is None:
-            st.warning("No JSON document found for this country.")
-        else:
-            st.json(json_data)
-
-    with tabs[2]:
-        st.markdown("### HTML Source")
-        if html_data is None:
-            st.warning("No raw HTML found for this country.")
-        else:
-            st.code(html_data, language="html")
-
-    with tabs[3]:
-        st.markdown("### HTML Preview")
-        if html_data is None:
-            st.warning("No raw HTML found for this country.")
-        else:
-            st.components.v1.html(html_data, height=600, scrolling=True)
-
-    with tabs[4]:
-        st.markdown("### Compare Trees (TED, diff, patch, postprocess)")
-        st.caption(
-            "Select two countries, choose Chawathe or Nierman & Jagadish (NJ), then compute similarity, "
-            "edit script (diff), apply patch, or post-process a tree to JSON/XML/infobox."
+    col_source, col_target = st.columns(2)
+    with col_source:
+        source_country = st.selectbox("Source Country", all_display_names, index=0, key="source_country")
+    with col_target:
+        target_country = st.selectbox(
+            "Target Country",
+            all_display_names,
+            index=1 if len(all_display_names) > 1 else 0,
+            key="target_country",
         )
 
-        all_index = load_country_index()
-        if not all_index:
-            st.warning("No country data found for comparison.")
+    source_slug = slug_for_name.get(source_country)
+    target_slug = slug_for_name.get(target_country)
+
+    if not source_slug or not target_slug:
+        st.warning("Please select both countries.")
+        return
+
+    # --- Section 2 — Data Views ---
+    st.markdown("---")
+    st.header("Step 2 — Data Views")
+
+    source_json = load_json(source_slug)
+    target_json = load_json(target_slug)
+    source_tree = load_tree(source_slug)
+    target_tree = load_tree(target_slug)
+    source_html = load_html(source_slug)
+    target_html = load_html(target_slug)
+
+    tabs = st.tabs(["JSON", "XML", "Tree", "HTML Source", "HTML Preview"])
+
+    with tabs[0]:
+        st.subheader("Data Preview (JSON)")
+        left, right = st.columns(2)
+        with left:
+            st.markdown(f"**Source:** `{source_country}`")
+            if source_json is None:
+                st.warning("No JSON.")
+            else:
+                st.json(source_json)
+        with right:
+            st.markdown(f"**Target:** `{target_country}`")
+            if target_json is None:
+                st.warning("No JSON.")
+            else:
+                st.json(target_json)
+
+    with tabs[1]:
+        st.subheader("Data Preview (XML)")
+        left, right = st.columns(2)
+        with left:
+            st.markdown(f"**Source:** `{source_country}`")
+            if source_tree is not None:
+                xml_output = json_to_xml(source_tree, root_name="tree")
+                st.text_area("XML Output", xml_output, height=700, disabled=True)
+            elif source_json is not None:
+                xml_output = json_to_xml(source_json, root_name="infobox_json")
+                st.text_area("XML Output", xml_output, height=700, disabled=True)
+            else:
+                st.info("No data available.")
+        with right:
+            st.markdown(f"**Target:** `{target_country}`")
+            if target_tree is not None:
+                xml_output = json_to_xml(target_tree, root_name="tree")
+                st.text_area("XML Output", xml_output, height=700, disabled=True)
+            elif target_json is not None:
+                xml_output = json_to_xml(target_json, root_name="infobox_json")
+                st.text_area("XML Output", xml_output, height=700, disabled=True)
+            else:
+                st.info("No data available.")
+
+    with tabs[2]:
+        st.subheader("Tree Structure")
+        left, right = st.columns(2)
+        with left:
+            st.markdown(f"**Source:** `{source_country}`")
+            if source_tree is None:
+                st.warning("No tree found.")
+            else:
+                st.markdown(f"**Root:** `{source_tree.get('label', '')}`")
+                for child in (source_tree.get("children") or []):
+                    with st.expander(child.get("label", ""), expanded=False):
+                        render_tree_branch_inline(child, level=1)
+        with right:
+            st.markdown(f"**Target:** `{target_country}`")
+            if target_tree is None:
+                st.warning("No tree found.")
+            else:
+                st.markdown(f"**Root:** `{target_tree.get('label', '')}`")
+                for child in (target_tree.get("children") or []):
+                    with st.expander(child.get("label", ""), expanded=False):
+                        render_tree_branch_inline(child, level=1)
+
+    with tabs[3]:
+        st.markdown("### HTML Source")
+        left, right = st.columns(2)
+        with left:
+            st.markdown(f"**Source:** `{source_country}`")
+            if source_html is None:
+                st.warning("No HTML.")
+            else:
+                st.code(source_html, language="html")
+        with right:
+            st.markdown(f"**Target:** `{target_country}`")
+            if target_html is None:
+                st.warning("No HTML.")
+            else:
+                st.code(target_html, language="html")
+
+    with tabs[4]:
+        st.markdown("### HTML Preview")
+        left, right = st.columns(2)
+        with left:
+            st.markdown(f"**Source:** `{source_country}`")
+            if source_html is None:
+                st.warning("No HTML.")
+            else:
+                st.components.v1.html(source_html, height=600, scrolling=True)
+        with right:
+            st.markdown(f"**Target:** `{target_country}`")
+            if target_html is None:
+                st.warning("No HTML.")
+            else:
+                st.components.v1.html(target_html, height=600, scrolling=True)
+
+    # --- Section 3 — TED Comparison ---
+    st.markdown("---")
+    st.header("Step 3 — Tree Edit Distance Comparison")
+
+    col_algo, col_coerce = st.columns(2)
+    with col_algo:
+        algorithm = st.radio(
+            "TED algorithm",
+            options=["chawathe", "nj"],
+            index=0,
+            format_func=lambda x: "Chawathe (LD-pair)" if x == "chawathe" else "Nierman & Jagadish (NJ)",
+            key="ted_algorithm",
+        )
+    with col_coerce:
+        coerce_root = st.checkbox(
+            "Coerce root label (compare content only)",
+            value=True,
+            key="ted_coerce_root",
+        )
+    coerce_root_label = "infobox" if coerce_root else None
+
+    ui_key = (source_slug, target_slug, algorithm, coerce_root_label)
+    if st.session_state.get("ted_ui_key") != ui_key:
+        st.session_state["ted_ui_key"] = ui_key
+        st.session_state.pop("ted_compute_result", None)
+        st.session_state.pop("edit_script", None)
+        st.session_state.pop("ted_source_tree_for_patch", None)
+        st.session_state.pop("ted_patch_result", None)
+
+    if st.button(
+        "Compute Edit Script",
+        key="btn_compute_edit_script",
+        disabled=source_tree is None or target_tree is None,
+    ):
+        if source_tree is None or target_tree is None:
+            st.warning("Trees missing. Run preprocess first.")
         else:
-            all_display_names = [name for _, name in all_index]
-            try:
-                default_a_idx = all_display_names.index(selected_name)
-            except ValueError:
-                default_a_idx = 0
-            default_b_idx = 0 if default_a_idx != 0 else (1 if len(all_display_names) > 1 else 0)
-
-            col_select_a, col_select_b = st.columns(2)
-            with col_select_a:
-                country_a_name = st.selectbox(
-                    "Country A", all_display_names, index=default_a_idx, key="compare_country_a"
-                )
-            with col_select_b:
-                country_b_name = st.selectbox(
-                    "Country B", all_display_names, index=default_b_idx, key="compare_country_b"
+            with st.spinner("Computing TED edit script…"):
+                compute_result = ted_compute(
+                    source_tree,
+                    target_tree,
+                    algorithm=algorithm,
+                    coerce_root_label=coerce_root_label,
                 )
 
-            slug_for_name = {name: slug for slug, name in all_index}
-            slug_a = slug_for_name.get(country_a_name)
-            slug_b = slug_for_name.get(country_b_name)
+            if compute_result is not None:
+                st.session_state["ted_compute_result"] = compute_result
+                st.session_state["edit_script"] = compute_result.get("edit_script", [])
+                source_tree_for_patch = dict(source_tree)  # top-level label only
+                if coerce_root_label:
+                    source_tree_for_patch["label"] = coerce_root_label
+                st.session_state["ted_source_tree_for_patch"] = source_tree_for_patch
+                st.session_state.pop("ted_patch_result", None)
+                st.success("Edit script computed.")
+            else:
+                st.error("Compute edit script request failed. Check API.")
 
-            algorithm = st.radio(
-                "TED algorithm",
-                options=["chawathe", "nj"],
-                index=0,
-                format_func=lambda x: "Chawathe (LD-pair)" if x == "chawathe" else "Nierman & Jagadish (NJ)",
-                key="ted_algorithm",
-            )
-            coerce_root = st.checkbox(
-                "Coerce root label (compare content only, ignore root name)",
-                value=True,
-                key="ted_coerce_root",
-            )
-            coerce_root_label = "infobox" if coerce_root else None
+    compute_result = st.session_state.get("ted_compute_result")
+    if isinstance(compute_result, dict):
+        st.markdown("### Comparison Results")
+        distance = compute_result.get("distance", "—")
+        similarity = compute_result.get("similarity", 0.0)
+        c1, c2 = st.columns(2)
+        c1.metric("Distance", distance)
+        c2.metric(
+            "Similarity",
+            f"{similarity:.4f}" if isinstance(similarity, (int, float)) else similarity,
+        )
 
-            # Actions: similarity, diff, patch, postprocess
-            st.markdown("#### Actions")
-            col_sim, col_diff, col_post = st.columns(3)
+        st.markdown("### Edit Script Viewer")
+        with st.expander("View Edit Script", expanded=False):
+            st.json(compute_result.get("edit_script") or [])
 
-            with col_sim:
-                if st.button("Compute similarity", key="btn_similarity"):
-                    if slug_a and slug_b:
-                        with st.spinner("Computing TED similarity…"):
-                            result = ted_similarity(
-                                slug_a, slug_b,
-                                algorithm=algorithm,
-                                coerce_root_label=coerce_root_label,
-                            )
-                        if result is not None:
-                            st.success(
-                                f"**Distance:** {result.get('distance', '—')}  \n"
-                                f"**Similarity:** {result.get('similarity', 0):.4f}  \n"
-                                f"**Source size:** {result.get('source_size', '—')}  \n"
-                                f"**Target size:** {result.get('target_size', '—')}"
-                            )
-                        else:
-                            st.error("Similarity request failed. Check API.")
-                    else:
-                        st.warning("Select both countries.")
+    # --- Section 4 — Patch Result ---
+    st.markdown("---")
+    st.header("Step 4 — Apply Patch & View Transformation Output")
 
-            with col_diff:
-                if st.button("Compute diff (edit script + patch + report)", key="btn_diff"):
-                    if slug_a and slug_b:
-                        with st.spinner("Computing diff…"):
-                            result = ted_diff(
-                                slug_a, slug_b,
-                                algorithm=algorithm,
-                                coerce_root_label=coerce_root_label,
-                            )
-                        if result is not None:
-                            if "ted_diff_result" not in st.session_state:
-                                st.session_state["ted_diff_result"] = {}
-                            st.session_state["ted_diff_result"] = result
-                            st.success(
-                                f"**Distance:** {result.get('distance')}  **Similarity:** {result.get('similarity', 0):.4f}  \n"
-                                f"Patch matches target: **{result.get('patch_matches_target', False)}**"
-                            )
-                        else:
-                            st.error("Diff request failed. Check API.")
-                    else:
-                        st.warning("Select both countries.")
+    edit_script = st.session_state.get("edit_script")
+    if edit_script is None:
+        st.info("Compute the edit script first to enable patching.")
+        patch_result = None
+    else:
+        if st.button(
+            "Apply Patch",
+            key="btn_apply_patch",
+            disabled=st.session_state.get("ted_source_tree_for_patch") is None,
+        ):
+            with st.spinner("Applying patch…"):
+                patch_result = ted_patch(
+                    st.session_state["ted_source_tree_for_patch"],
+                    edit_script,
+                    algorithm=algorithm,
+                )
+            if patch_result is not None:
+                st.session_state["ted_patch_result"] = patch_result
+                st.success("Patch applied.")
+            else:
+                st.error("Patch request failed. Check API.")
 
-            # Show last diff result (edit script, patched tree, report, postprocess)
-            diff_result = st.session_state.get("ted_diff_result")
-            if diff_result is not None and isinstance(diff_result, dict):
-                st.markdown("---")
-                st.markdown("#### Last diff result")
-                summary = diff_result.get("edit_script_summary") or {}
-                st.json(summary)
-                with st.expander("Full edit script (JSON)"):
-                    st.json(diff_result.get("edit_script") or {})
-                with st.expander("Patched tree (JSON)"):
-                    st.json(diff_result.get("patched_tree") or {})
-                st.markdown("**Report**")
-                st.text(diff_result.get("report_text", ""))
-                st.markdown("**Patched tree — JSON**")
-                st.code(diff_result.get("patched_tree_json", ""), language="json")
-                st.markdown("**Patched tree — XML**")
-                st.code(diff_result.get("patched_tree_xml", ""), language="xml")
-                st.markdown("**Patched tree — Infobox text**")
-                st.code(diff_result.get("patched_infobox_text", ""), language="text")
-
-            with col_post:
-                st.markdown("Post-process **current** country tree to JSON/XML/infobox:")
-                if st.button("Post-process this country tree", key="btn_postprocess"):
-                    tree_for_post = load_tree(selected_slug)
-                    if tree_for_post is not None:
-                        with st.spinner("Post-processing…"):
-                            out = ted_postprocess(tree_for_post)
-                        if out is not None:
-                            st.session_state["postprocess_out"] = out
-                            st.success("Post-process done.")
-                        else:
-                            st.error("Postprocess request failed.")
-                    else:
-                        st.warning("No tree for current country.")
-
-            if "postprocess_out" in st.session_state:
-                po = st.session_state["postprocess_out"]
-                st.markdown("---")
-                st.markdown("#### Post-process output (current country tree)")
-                st.markdown("**JSON**")
-                st.code(po.get("json", ""), language="json")
-                st.markdown("**XML**")
-                st.code(po.get("xml", ""), language="xml")
-                st.markdown("**Infobox text**")
-                st.code(po.get("infobox_text", ""), language="text")
-
-            st.markdown("---")
-            st.markdown("#### Tree view (side by side)")
-            col_a, col_b = st.columns(2)
-            with col_a:
-                st.markdown(f"##### {country_a_name}")
-                if not slug_a:
-                    st.warning("Could not resolve Country A slug.")
-                else:
-                    tree_a = load_tree(slug_a)
-                    if tree_a is None:
-                        st.warning(f"No tree found for `{slug_a}`.")
-                    else:
-                        root_label_a = tree_a.get("label", "")
-                        st.markdown(f"**Root:** `{root_label_a}`")
-                        for child in tree_a.get("children") or []:
-                            with st.expander(child.get("label", ""), expanded=False):
-                                render_tree_branch_inline(child, level=1)
-
-            with col_b:
-                st.markdown(f"##### {country_b_name}")
-                if not slug_b:
-                    st.warning("Could not resolve Country B slug.")
-                else:
-                    tree_b = load_tree(slug_b)
-                    if tree_b is None:
-                        st.warning(f"No tree found for `{slug_b}`.")
-                    else:
-                        root_label_b = tree_b.get("label", "")
-                        st.markdown(f"**Root:** `{root_label_b}`")
-                        for child in tree_b.get("children") or []:
-                            with st.expander(child.get("label", ""), expanded=False):
-                                render_tree_branch_inline(child, level=1)
+    patch_result = st.session_state.get("ted_patch_result")
+    if isinstance(patch_result, dict):
+        patch_tabs = st.tabs(["Patched JSON", "Patched XML", "Infobox Text"])
+        with patch_tabs[0]:
+            st.subheader("Transformation Output (JSON)")
+            st.code(patch_result.get("patched_tree_json", ""), language="json")
+        with patch_tabs[1]:
+            st.subheader("Transformation Output (XML)")
+            st.code(patch_result.get("patched_tree_xml", ""), language="xml")
+        with patch_tabs[2]:
+            st.subheader("Transformation Output (Infobox text)")
+            st.code(patch_result.get("patched_infobox_text", ""), language="text")
 
 
 if __name__ == "__main__":
