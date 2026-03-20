@@ -12,6 +12,8 @@ from fastapi import APIRouter, HTTPException
 from fastapi.responses import Response
 
 from application.services.wikiinfobox_service import (
+    compare_countries,
+    get_available_features,
     get_country_index,
     get_json_document,
     get_raw_html,
@@ -38,6 +40,18 @@ def list_countries() -> List[Dict[str, str]]:
     try:
         index = get_country_index()
         return [{"slug": slug, "display_name": name} for slug, name in index]
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+@router.get("/features", response_model=List[str])
+def list_features() -> List[str]:
+    """
+    Return all available feature paths (dot notation) from tree schema.
+    Dynamically generated from country trees. Used for feature selection in comparison.
+    """
+    try:
+        return get_available_features()
     except Exception as exc:
         raise HTTPException(status_code=500, detail=str(exc)) from exc
 
@@ -204,6 +218,36 @@ def post_ted_diff_trees(body: Dict[str, Any]) -> Dict[str, Any]:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
 
 
+@router.post("/compare", response_model=Dict[str, Any])
+def post_compare(body: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Compare two countries by slug. Optionally restrict by features.
+    Body: { "country_a": str, "country_b": str, "features": Optional[List[str]], "exclude": bool, "algorithm": "chawathe"|"nj", "coerce_root_label": "optional" }.
+    If exclude=True, features are excluded from comparison; otherwise they are included.
+    If features is omitted or empty, performs full tree comparison.
+    """
+    try:
+        country_a = body["country_a"]
+        country_b = body["country_b"]
+        features = body.get("features")
+        if features is not None and len(features) == 0:
+            features = None
+        return compare_countries(
+            country_a,
+            country_b,
+            features=features,
+            exclude=body.get("exclude", False),
+            algorithm=body.get("algorithm", "chawathe"),
+            coerce_root_label=body.get("coerce_root_label"),
+        )
+    except KeyError as exc:
+        raise HTTPException(status_code=400, detail=f"Missing key: {exc}") from exc
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+
+
 @router.post("/ted/compute", response_model=Dict[str, Any])
 def post_ted_compute(body: Dict[str, Any]) -> Dict[str, Any]:
     """
@@ -228,19 +272,35 @@ def post_ted_compute(body: Dict[str, Any]) -> Dict[str, Any]:
 @router.post("/ted/patch", response_model=Dict[str, Any])
 def post_ted_patch(body: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Apply edit script to source tree. Returns patched tree (dict, JSON, XML, infobox text).
-    Body: { "source_tree": {...}, "edit_script": {...}, "algorithm": "chawathe"|"nj" }.
+    Apply edit script or feature-driven patch to source tree.
+    Body: { "source_tree": {...}, "edit_script": {...}, "algorithm": "chawathe"|"nj",
+           "original_tree": optional, "edit_script_clean": optional,
+           "target_tree": optional, "excluded_features": optional }.
+    When original_tree + target_tree + excluded_features are provided (feature selection),
+    uses feature-driven patch: SOURCE base, TARGET for values, only selected features.
     """
     try:
+        source_tree = body.get("source_tree")
+        edit_script = body.get("edit_script")
+        if source_tree is None:
+            raise HTTPException(status_code=400, detail="Missing required key: source_tree")
+        if edit_script is None:
+            raise HTTPException(status_code=400, detail="Missing required key: edit_script")
         return ted_patch(
-            body["source_tree"],
-            body["edit_script"],
+            source_tree,
+            edit_script,
             algorithm=body.get("algorithm", "chawathe"),
+            original_tree=body.get("original_tree"),
+            edit_script_clean=body.get("edit_script_clean"),
+            target_tree=body.get("target_tree"),
+            excluded_features=body.get("excluded_features"),
         )
+    except HTTPException:
+        raise
     except KeyError as exc:
         raise HTTPException(status_code=400, detail=f"Missing key: {exc}") from exc
     except Exception as exc:
-        raise HTTPException(status_code=400, detail=str(exc)) from exc
+        raise HTTPException(status_code=500, detail=f"Patch failed: {exc}") from exc
 
 
 @router.post("/ted/postprocess", response_model=Dict[str, str])

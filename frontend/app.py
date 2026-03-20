@@ -45,6 +45,58 @@ def load_country_index() -> List[Tuple[str, str]]:
         return []
 
 
+@st.cache_data(ttl=120)
+def load_features() -> List[str]:
+    """
+    Fetch list of available feature paths (dot notation) from the API.
+    Returns empty list on error. Cached 120s.
+    """
+    try:
+        r = _get("/features")
+        r.raise_for_status()
+        data = r.json()
+        return data if isinstance(data, list) else []
+    except requests.RequestException:
+        return []
+    except (KeyError, TypeError):
+        return []
+
+
+def compare_countries_api(
+    country_a: str,
+    country_b: str,
+    *,
+    features: Optional[List[str]] = None,
+    exclude: bool = True,
+    algorithm: str = "chawathe",
+    coerce_root_label: Optional[str] = None,
+) -> Optional[Dict[str, Any]]:
+    """
+    POST /compare — compare two countries, optionally excluding selected features.
+    Returns TED result with edit_script, distance, similarity, source_tree, target_tree.
+    """
+    try:
+        payload: Dict[str, Any] = {
+            "country_a": country_a,
+            "country_b": country_b,
+            "algorithm": algorithm,
+        }
+        if features:
+            payload["features"] = features
+            payload["exclude"] = exclude
+        if coerce_root_label:
+            payload["coerce_root_label"] = coerce_root_label
+        r = requests.post(
+            f"{WIKIINFOBOX_PREFIX}/compare",
+            json=payload,
+            timeout=60,
+        )
+        r.raise_for_status()
+        return r.json()
+    except requests.RequestException:
+        return None
+
+
 def load_tree(slug: str) -> Optional[Dict[str, Any]]:
     """Fetch tree for a country from the API. Returns None on 404 or error."""
     try:
@@ -198,17 +250,41 @@ def ted_patch(
     source_tree: Dict[str, Any],
     edit_script: Any,
     algorithm: str = "chawathe",
+    *,
+    original_tree: Optional[Dict[str, Any]] = None,
+    edit_script_clean: Optional[List[Dict[str, Any]]] = None,
+    target_tree: Optional[Dict[str, Any]] = None,
+    excluded_features: Optional[List[str]] = None,
 ) -> Optional[Dict[str, Any]]:
-    """POST /ted/patch — apply edit script to source tree."""
+    """POST /ted/patch — apply edit script or feature-driven patch. When original_tree + target_tree + excluded_features provided, uses feature-driven patch."""
     try:
+        payload: Dict[str, Any] = {
+            "source_tree": source_tree,
+            "edit_script": edit_script,
+            "algorithm": algorithm,
+        }
+        if original_tree is not None and edit_script_clean:
+            payload["original_tree"] = original_tree
+            payload["edit_script_clean"] = edit_script_clean
+        if target_tree is not None and excluded_features is not None:
+            payload["original_tree"] = original_tree or source_tree
+            payload["target_tree"] = target_tree
+            payload["excluded_features"] = excluded_features
+            payload.pop("edit_script_clean", None)
         r = requests.post(
             f"{WIKIINFOBOX_PREFIX}/ted/patch",
-            json={"source_tree": source_tree, "edit_script": edit_script, "algorithm": algorithm},
+            json=payload,
             timeout=30,
         )
         r.raise_for_status()
         return r.json()
-    except requests.RequestException:
+    except requests.RequestException as e:
+        if hasattr(e, "response") and e.response is not None:
+            try:
+                err_detail = e.response.json().get("detail", str(e))
+            except Exception:
+                err_detail = e.response.text or str(e)
+            st.error(f"Patch failed: {err_detail}")
         return None
 
 
@@ -534,6 +610,17 @@ section.main > div {
     source_slug = slug_for_name.get(source_country)
     target_slug = slug_for_name.get(target_country)
 
+    # Feature exclusion (optional — leave empty to compare everything)
+    available_features = load_features()
+    excluded_features = st.multiselect(
+        "Select Features to Exclude",
+        options=available_features,
+        default=[],
+        key="excluded_features",
+        help="Select features to exclude from comparison (leave empty to compare everything). Supports nested paths like area.total_km2.",
+        placeholder="Select features to exclude (leave empty to compare everything)",
+    )
+
     if not source_slug or not target_slug:
         st.warning("Please select both countries.")
         return
@@ -666,26 +753,32 @@ section.main > div {
         )
     coerce_root_label = "infobox" if coerce_root else None
 
-    ui_key = (source_slug, target_slug, algorithm, coerce_root_label)
+    ui_key = (source_slug, target_slug, tuple(excluded_features), algorithm, coerce_root_label)
     if st.session_state.get("ted_ui_key") != ui_key:
         st.session_state["ted_ui_key"] = ui_key
         st.session_state.pop("ted_compute_result", None)
         st.session_state.pop("edit_script", None)
         st.session_state.pop("ted_source_tree_for_patch", None)
+        st.session_state.pop("ted_original_tree_for_patch", None)
+        st.session_state.pop("ted_target_tree_for_patch", None)
+        st.session_state.pop("ted_edit_script_clean", None)
         st.session_state.pop("ted_patch_result", None)
 
+    compare_disabled = source_tree is None or target_tree is None
     if st.button(
         "Compute Edit Script",
         key="btn_compute_edit_script",
-        disabled=source_tree is None or target_tree is None,
+        disabled=compare_disabled,
     ):
-        if source_tree is None or target_tree is None:
+        if compare_disabled:
             st.warning("Trees missing. Run preprocess first.")
         else:
             with st.spinner("Computing TED edit script…"):
-                compute_result = ted_compute(
-                    source_tree,
-                    target_tree,
+                compute_result = compare_countries_api(
+                    source_slug,
+                    target_slug,
+                    features=excluded_features if excluded_features else None,
+                    exclude=True,
                     algorithm=algorithm,
                     coerce_root_label=coerce_root_label,
                 )
@@ -693,10 +786,22 @@ section.main > div {
             if compute_result is not None:
                 st.session_state["ted_compute_result"] = compute_result
                 st.session_state["edit_script"] = compute_result.get("edit_script", [])
-                source_tree_for_patch = dict(source_tree)  # top-level label only
+                # Use source_tree from compare result (pruned when features selected)
+                source_tree_for_patch = dict(compute_result.get("source_tree", source_tree or {}))
                 if coerce_root_label:
                     source_tree_for_patch["label"] = coerce_root_label
                 st.session_state["ted_source_tree_for_patch"] = source_tree_for_patch
+                # When features used: store original trees for feature-driven patch
+                if excluded_features and compute_result.get("original_source_tree") is not None:
+                    st.session_state["ted_original_tree_for_patch"] = dict(compute_result["original_source_tree"])
+                    st.session_state["ted_target_tree_for_patch"] = dict(
+                        compute_result.get("original_target_tree") or compute_result.get("target_tree", {})
+                    )
+                    st.session_state["ted_edit_script_clean"] = compute_result.get("edit_script_clean") or []
+                else:
+                    st.session_state.pop("ted_original_tree_for_patch", None)
+                    st.session_state.pop("ted_target_tree_for_patch", None)
+                    st.session_state.pop("ted_edit_script_clean", None)
                 st.session_state.pop("ted_patch_result", None)
                 st.success("Edit script computed.")
             else:
@@ -770,10 +875,17 @@ section.main > div {
             disabled=st.session_state.get("ted_source_tree_for_patch") is None,
         ):
             with st.spinner("Applying patch…"):
+                orig = st.session_state.get("ted_original_tree_for_patch")
+                tgt = st.session_state.get("ted_target_tree_for_patch")
+                use_feature_driven = orig is not None and tgt is not None and excluded_features is not None
                 patch_result = ted_patch(
                     st.session_state["ted_source_tree_for_patch"],
                     edit_script,
                     algorithm=algorithm,
+                    original_tree=orig,
+                    edit_script_clean=st.session_state.get("ted_edit_script_clean") if not use_feature_driven else None,
+                    target_tree=tgt if use_feature_driven else None,
+                    excluded_features=excluded_features if use_feature_driven else None,
                 )
             if patch_result is not None:
                 st.session_state["ted_patch_result"] = patch_result
