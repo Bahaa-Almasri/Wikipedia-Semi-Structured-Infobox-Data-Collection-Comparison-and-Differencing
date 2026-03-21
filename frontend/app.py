@@ -264,6 +264,7 @@ def ted_patch(
     edit_script_clean: Optional[List[Dict[str, Any]]] = None,
     target_tree: Optional[Dict[str, Any]] = None,
     excluded_features: Optional[List[str]] = None,
+    mappings: Optional[List[Dict[str, Any]]] = None,
 ) -> Optional[Dict[str, Any]]:
     """POST /ted/patch — apply edit script or feature-driven patch. When original_tree + target_tree + excluded_features provided, uses feature-driven patch."""
     try:
@@ -272,6 +273,14 @@ def ted_patch(
             "edit_script": edit_script,
             "algorithm": algorithm,
         }
+        if mappings is not None and (algorithm or "").lower() == "zhang_shasha":
+            payload["mappings"] = mappings
+        if (
+            edit_script_clean is not None
+            and len(edit_script_clean) > 0
+            and (algorithm or "").lower() == "zhang_shasha"
+        ):
+            payload["edit_script_clean"] = edit_script_clean
         if original_tree is not None and edit_script_clean:
             payload["original_tree"] = original_tree
             payload["edit_script_clean"] = edit_script_clean
@@ -750,9 +759,15 @@ section.main > div {
             with col_algo:
                 algorithm = st.radio(
                     "TED algorithm",
-                    options=["chawathe", "nj"],
+                    options=["chawathe", "nj", "zhang_shasha"],
                     index=0,
-                    format_func=lambda x: "Chawathe (LD-pair)" if x == "chawathe" else "Nierman & Jagadish (NJ)",
+                    format_func=lambda x: (
+                        "Chawathe (LD-pair)"
+                        if x == "chawathe"
+                        else "Nierman & Jagadish (NJ)"
+                        if x == "nj"
+                        else "Zhang–Shasha"
+                    ),
                     key="ted_algorithm",
                 )
             with col_coerce:
@@ -797,6 +812,8 @@ section.main > div {
                     if compute_result is not None:
                         st.session_state["ted_compute_result"] = compute_result
                         st.session_state["edit_script"] = compute_result.get("edit_script", [])
+                        # Semantic clean script (used by Zhang–Shasha patch path and viewers)
+                        st.session_state["ted_edit_script_clean"] = compute_result.get("edit_script_clean") or []
                         # Use source_tree from compare result (pruned when features selected)
                         source_tree_for_patch = dict(compute_result.get("source_tree", source_tree or {}))
                         if coerce_root_label:
@@ -814,11 +831,9 @@ section.main > div {
                             st.session_state["ted_target_tree_for_patch"] = dict(
                                 compute_result.get("original_target_tree") or compute_result.get("target_tree", {})
                             )
-                            st.session_state["ted_edit_script_clean"] = compute_result.get("edit_script_clean") or []
                         else:
                             st.session_state.pop("ted_original_tree_for_patch", None)
                             st.session_state.pop("ted_target_tree_for_patch", None)
-                            st.session_state.pop("ted_edit_script_clean", None)
                         st.session_state.pop("ted_patch_result", None)
                         st.success("Edit script computed.")
                     else:
@@ -887,6 +902,11 @@ section.main > div {
             # --- Section 4 — Patch Result ---
             st.markdown("---")
             st.header("Step 4 — Apply Patch & View Transformation Output")
+            if algorithm == "zhang_shasha":
+                st.caption(
+                    "Zhang–Shasha Apply Patch replays the TED postorder node mapping "
+                    "(plus target tree), not LD-pair operations."
+                )
 
             edit_script = st.session_state.get("edit_script")
             if edit_script is None:
@@ -905,6 +925,11 @@ section.main > div {
                         use_feature_driven = orig is not None and tgt is not None and excluded_features is not None
                         # Pass target_tree for feature-driven patch; pass target for validation (tree_similarity) when available
                         target_for_patch = tgt if use_feature_driven else tgt_validation
+                        zs_maps = None
+                        if (algorithm or "").lower() == "zhang_shasha":
+                            cr = st.session_state.get("ted_compute_result")
+                            if isinstance(cr, dict):
+                                zs_maps = cr.get("mappings")
                         patch_result = ted_patch(
                             st.session_state["ted_source_tree_for_patch"],
                             edit_script,
@@ -913,6 +938,7 @@ section.main > div {
                             edit_script_clean=st.session_state.get("ted_edit_script_clean") if not use_feature_driven else None,
                             target_tree=target_for_patch,
                             excluded_features=excluded_features if use_feature_driven else None,
+                            mappings=zs_maps,
                         )
                     if patch_result is not None:
                         st.session_state["ted_patch_result"] = patch_result

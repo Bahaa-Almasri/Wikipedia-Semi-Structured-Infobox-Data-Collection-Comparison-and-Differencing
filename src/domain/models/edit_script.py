@@ -84,9 +84,11 @@ class TedResult:
     source_ld_pairs: List[LDPairNode] = field(default_factory=list)
     target_ld_pairs: List[LDPairNode] = field(default_factory=list)
     operations: List[EditOperation] = field(default_factory=list)
+    # Zhang–Shasha: postorder node alignments (source_id -> target_id in postorder numbering)
+    zhang_shasha_mappings: Optional[List[Dict[str, int]]] = None
 
     def to_dict(self) -> Dict[str, Any]:
-        return {
+        out: Dict[str, Any] = {
             "algorithm": self.algorithm,
             "distance": self.distance,
             "similarity": self.similarity,
@@ -96,6 +98,9 @@ class TedResult:
             "target_ld_pairs": [n.to_dict() for n in self.target_ld_pairs],
             "operations": [op.to_dict() for op in self.operations],
         }
+        if self.zhang_shasha_mappings is not None:
+            out["mappings"] = list(self.zhang_shasha_mappings)
+        return out
 
 
 # --- Nierman & Jagadish edit script (tree-based refs) ---

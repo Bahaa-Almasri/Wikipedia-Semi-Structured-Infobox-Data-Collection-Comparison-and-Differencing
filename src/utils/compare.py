@@ -18,7 +18,13 @@ from core.postprocess.postprocess import (
     tree_to_xml_string,
 )
 from core.similarity.common import clone_tree
-from core.similarity.ted import ALGORITHM_CHAWATHE, ALGORITHM_NJ, compute_ted
+from core.similarity.ted import (
+    ALGORITHM_CHAWATHE,
+    ALGORITHM_NJ,
+    ALGORITHM_ZHANG_SHASHA,
+    compute_ted,
+)
+from core.similarity.zhang_shasha import normalize_tree as zs_normalize_tree
 from core.similarity.tree_validation import validate_tree
 
 
@@ -48,18 +54,55 @@ def compare_country_slugs(
     source_root = load_tree_for_slug(source_slug)
     target_root = load_tree_for_slug(target_slug)
 
-    ted_result = compute_ted(
-        source_root,
-        target_root,
-        algorithm=algorithm,
-        coerce_root_label=coerce_root_label,
-    )
-
     patch_source = clone_tree(source_root)
     patch_target = clone_tree(target_root)
     if coerce_root_label is not None:
         patch_source.label = coerce_root_label
         patch_target.label = coerce_root_label
+
+    al = (algorithm or "").lower()
+    if al == ALGORITHM_ZHANG_SHASHA:
+        zs_normalize_tree(patch_source)
+        zs_normalize_tree(patch_target)
+        ted_result = compute_ted(
+            patch_source,
+            patch_target,
+            algorithm=algorithm,
+            coerce_root_label=None,
+        )
+    else:
+        ted_result = compute_ted(
+            source_root,
+            target_root,
+            algorithm=algorithm,
+            coerce_root_label=coerce_root_label,
+        )
+
+    if al == ALGORITHM_ZHANG_SHASHA:
+        patched_root = apply_patch(
+            patch_source,
+            ted_result,
+            algorithm=algorithm,
+            target_root=patch_target,
+        )
+        patch_matches_target = trees_equal(patched_root, patch_target, algorithm=ALGORITHM_NJ)
+        report = render_comparison_report(source_slug, target_slug, ted_result, patched_root)
+        report_text = report + "\n\n(Patched via Zhang–Shasha postorder alignment.)\n"
+        return {
+            "source_slug": source_slug,
+            "target_slug": target_slug,
+            "algorithm": algorithm,
+            "distance": ted_result.distance,
+            "similarity": ted_result.similarity,
+            "edit_script": ted_result.to_dict(),
+            "edit_script_summary": summarize_edit_script(ted_result),
+            "patch_matches_target": patch_matches_target,
+            "patched_tree": patched_root.to_dict(),
+            "patched_tree_json": tree_to_json_string(patched_root),
+            "patched_tree_xml": tree_to_xml_string(patched_root),
+            "patched_infobox_text": tree_to_infobox_text(patched_root),
+            "report_text": report_text,
+        }
 
     patched_root = apply_patch(patch_source, ted_result, algorithm=algorithm)
     patch_matches_target = trees_equal(patched_root, patch_target, algorithm=algorithm)
@@ -98,18 +141,55 @@ def compare_from_tree_dicts(
     validate_tree(source_root)
     validate_tree(target_root)
 
-    ted_result = compute_ted(
-        source_root,
-        target_root,
-        algorithm=algorithm,
-        coerce_root_label=coerce_root_label,
-    )
-
     patch_source = clone_tree(source_root)
     patch_target = clone_tree(target_root)
     if coerce_root_label is not None:
         patch_source.label = coerce_root_label
         patch_target.label = coerce_root_label
+
+    al = (algorithm or "").lower()
+    if al == ALGORITHM_ZHANG_SHASHA:
+        zs_normalize_tree(patch_source)
+        zs_normalize_tree(patch_target)
+        ted_result = compute_ted(
+            patch_source,
+            patch_target,
+            algorithm=algorithm,
+            coerce_root_label=None,
+        )
+    else:
+        ted_result = compute_ted(
+            source_root,
+            target_root,
+            algorithm=algorithm,
+            coerce_root_label=coerce_root_label,
+        )
+
+    if al == ALGORITHM_ZHANG_SHASHA:
+        patched_root = apply_patch(
+            patch_source,
+            ted_result,
+            algorithm=algorithm,
+            target_root=patch_target,
+        )
+        patch_matches_target = trees_equal(patched_root, patch_target, algorithm=ALGORITHM_NJ)
+        report = render_comparison_report(source_slug, target_slug, ted_result, patched_root)
+        report_text = report + "\n\n(Patched via Zhang–Shasha postorder alignment.)\n"
+        return {
+            "source_slug": source_slug,
+            "target_slug": target_slug,
+            "algorithm": algorithm,
+            "distance": ted_result.distance,
+            "similarity": ted_result.similarity,
+            "edit_script": ted_result.to_dict(),
+            "edit_script_summary": summarize_edit_script(ted_result),
+            "patch_matches_target": patch_matches_target,
+            "patched_tree": patched_root.to_dict(),
+            "patched_tree_json": tree_to_json_string(patched_root),
+            "patched_tree_xml": tree_to_xml_string(patched_root),
+            "patched_infobox_text": tree_to_infobox_text(patched_root),
+            "report_text": report_text,
+        }
 
     patched_root = apply_patch(patch_source, ted_result, algorithm=algorithm)
 

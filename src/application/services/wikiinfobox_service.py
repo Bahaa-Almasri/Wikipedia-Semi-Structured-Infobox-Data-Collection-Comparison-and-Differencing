@@ -5,6 +5,7 @@ All data access and run operations go through this module; the API controller ca
 from __future__ import annotations
 
 import logging
+import time
 from typing import Any, Dict, List, Optional, Sequence, Tuple, Union
 
 logger = logging.getLogger(__name__)
@@ -337,7 +338,7 @@ def format_edit_script_human(edit_script: Sequence[Dict[str, Any]]) -> str:
 
 
 def summarize_edit_script(edit_script: Sequence[Dict[str, Any]]) -> Dict[str, int]:
-    summary = {"updates": 0, "inserts": 0, "deletes": 0}
+    summary = {"updates": 0, "inserts": 0, "deletes": 0, "alignments": 0}
     for op in edit_script:
         kind = op.get("op")
         if kind == "update":
@@ -346,6 +347,8 @@ def summarize_edit_script(edit_script: Sequence[Dict[str, Any]]) -> Dict[str, in
             summary["inserts"] += 1
         elif kind == "delete":
             summary["deletes"] += 1
+        elif kind == "map":
+            summary["alignments"] += 1
     return summary
 
 
@@ -434,6 +437,25 @@ def ted_similarity(
     """Compute TED distance and similarity between two country trees."""
     source_root = load_tree_for_slug(source_slug)
     target_root = load_tree_for_slug(target_slug)
+    al = (algorithm or "").lower()
+    if al == "zhang_shasha":
+        t0 = time.perf_counter()
+        result = compute_ted(
+            source_root, target_root,
+            algorithm=algorithm,
+            coerce_root_label=coerce_root_label,
+        )
+        runtime_ms = (time.perf_counter() - t0) * 1000.0
+        return {
+            "source_slug": source_slug,
+            "target_slug": target_slug,
+            "algorithm": result.algorithm,
+            "distance": result.distance,
+            "similarity": result.similarity,
+            "source_size": result.source_size,
+            "target_size": result.target_size,
+            "runtime_ms": runtime_ms,
+        }
     result = compute_ted(
         source_root, target_root,
         algorithm=algorithm,
@@ -552,12 +574,24 @@ def ted_compute_from_trees(
     validate_tree(source_root)
     validate_tree(target_root)
 
-    ted_result = compute_ted(
-        source_root,
-        target_root,
-        algorithm=algorithm,
-        coerce_root_label=coerce_root_label,
-    )
+    al = (algorithm or "").lower()
+    if al == "zhang_shasha":
+        t0 = time.perf_counter()
+        ted_result = compute_ted(
+            source_root,
+            target_root,
+            algorithm=algorithm,
+            coerce_root_label=coerce_root_label,
+        )
+        runtime_ms = (time.perf_counter() - t0) * 1000.0
+    else:
+        ted_result = compute_ted(
+            source_root,
+            target_root,
+            algorithm=algorithm,
+            coerce_root_label=coerce_root_label,
+        )
+        runtime_ms = None
 
     # Same source shape as TED (coerced root label) for LD-pair replay / filtering.
     source_for_script = clone_tree(source_root)
@@ -565,6 +599,17 @@ def ted_compute_from_trees(
         source_for_script.label = coerce_root_label
 
     edit_script_ops = [op.to_dict() for op in ted_result.operations]
+    zs_map = getattr(ted_result, "zhang_shasha_mappings", None)
+    if al == "zhang_shasha" and zs_map:
+        # TED native output is postorder node alignments, not LD-pair ops.
+        edit_script_ops = [
+            {
+                "op": "map",
+                "source_id": m["source_id"],
+                "target_id": m["target_id"],
+            }
+            for m in zs_map
+        ]
     edit_script_raw = normalize_edit_script_for_algorithm(
         ted_result.algorithm,
         source_for_script,
@@ -575,7 +620,7 @@ def ted_compute_from_trees(
     edit_script_summary = summarize_edit_script(edit_script_clean)
     edit_script_raw_summary = summarize_edit_script(edit_script_raw)
 
-    return {
+    out: Dict[str, Any] = {
         "algorithm": ted_result.algorithm,
         "distance": ted_result.distance,
         "similarity": ted_result.similarity,
@@ -588,6 +633,11 @@ def ted_compute_from_trees(
         "source_size": ted_result.source_size,
         "target_size": ted_result.target_size,
     }
+    if zs_map is not None:
+        out["mappings"] = zs_map
+    if runtime_ms is not None:
+        out["runtime_ms"] = runtime_ms
+    return out
 
 
 def ted_patch(
@@ -599,6 +649,7 @@ def ted_patch(
     edit_script_clean: Optional[List[Dict[str, Any]]] = None,
     target_tree: Optional[Dict[str, Any]] = None,
     excluded_features: Optional[List[str]] = None,
+    mappings: Optional[List[Dict[str, Any]]] = None,
 ) -> Dict[str, Any]:
     """
     Apply edit script or feature-driven patch to source tree; returns patched tree as dict.
@@ -614,6 +665,9 @@ def ted_patch(
       Apply edit_script_clean as patch onto original_tree.
 
     LD-pair (fallback): Apply edit_script via Chawathe/NJ algorithm.
+
+    Zhang–Shasha: requires ``target_tree`` and postorder ``mappings`` (from TED alignment),
+    either in ``edit_script`` dict or via ``mappings=``.
     """
     if original_tree is not None and target_tree is not None and excluded_features is not None:
         # Feature-driven patch: SOURCE base, TARGET for values, only selected features
@@ -658,6 +712,28 @@ def ted_patch(
                 f"Path-based patch failed: {e}. "
                 "Ensure original_tree has valid TreeNode structure and edit_script_clean paths match."
             ) from e
+    elif (algorithm or "").lower() == "zhang_shasha":
+        if target_tree is None:
+            raise ValueError(
+                "Patching with algorithm 'zhang_shasha' requires 'target_tree' and postorder mappings."
+            )
+        if isinstance(edit_script, dict):
+            edit_script_dict = dict(edit_script)
+        else:
+            edit_script_dict = {"operations": list(edit_script) if edit_script else []}
+        if mappings is not None:
+            edit_script_dict["mappings"] = mappings
+        if not edit_script_dict.get("mappings"):
+            raise ValueError(
+                "Zhang–Shasha patch requires 'mappings' (list of {source_id, target_id}) "
+                "in the request body or inside edit_script."
+            )
+        patched_dict = apply_patch_from_dict(
+            source_tree,
+            edit_script_dict,
+            algorithm=algorithm,
+            target_tree_dict=target_tree,
+        )
     else:
         # LD-pair patch (existing behavior)
         if isinstance(edit_script, list):

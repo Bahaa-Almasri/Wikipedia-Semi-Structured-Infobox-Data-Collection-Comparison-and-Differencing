@@ -1,6 +1,15 @@
 """
+NOTE:
+Zhang–Shasha TED does not use LD-pair operations. For ``algorithm="zhang_shasha"``,
+``apply_patch`` / ``apply_patch_from_dict`` require postorder ``mappings`` (from the
+Zhang–Shasha alignment) plus the **target** tree, and apply ``apply_zhang_shasha_patch``.
+
+Chawathe / NJ continue to use positional / ref-based edit scripts.
+
+---
+
 Unified tree patching: apply edit script from TED to source tree.
-Chawathe (LD-pair) and Nierman & Jagadish implementations in one module.
+Chawathe (LD-pair), Nierman & Jagadish, and Zhang–Shasha (node mapping) implementations.
 """
 from __future__ import annotations
 
@@ -13,11 +22,13 @@ from core.similarity.tree_validation import (
     validate_ld_pair_sequence,
     validate_tree,
 )
+from core.patch.zhang_shasha_patch import apply_zhang_shasha_patch
 from domain.models.edit_script import EditOperation, LDPairNode, NJEditOperation, NJTedResult, TedResult
 from domain.models.tree import TreeNode
 
 ALGORITHM_CHAWATHE = "chawathe"
 ALGORITHM_NJ = "nj"
+ALGORITHM_ZHANG_SHASHA = "zhang_shasha"
 
 
 class PatchApplicationError(ValueError):
@@ -212,14 +223,25 @@ def apply_patch_from_dict(
     edit_script_dict: Dict[str, Any],
     *,
     algorithm: str = ALGORITHM_CHAWATHE,
+    target_tree_dict: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """
     Apply a serialized edit script to a source tree (both as dicts).
     edit_script_dict is the output of TedResult.to_dict() or NJTedResult.to_dict().
+    For Zhang–Shasha, pass ``target_tree_dict`` and a ``mappings`` list in ``edit_script_dict``.
     """
+    al = (algorithm or "").lower()
     source_root = TreeNode.from_dict(source_tree_dict)
+    if al == ALGORITHM_ZHANG_SHASHA:
+        if target_tree_dict is None:
+            raise TypeError("Zhang–Shasha patching requires target_tree_dict.")
+        raw = edit_script_dict.get("mappings") or []
+        mappings = {int(m["source_id"]): int(m["target_id"]) for m in raw}
+        target_root = TreeNode.from_dict(target_tree_dict)
+        patched = apply_zhang_shasha_patch(source_root, target_root, mappings)
+        return patched.to_dict()
     ops_raw = edit_script_dict.get("operations") or []
-    if algorithm == ALGORITHM_NJ:
+    if al == ALGORITHM_NJ:
         operations = [NJEditOperation.from_dict(o) for o in ops_raw]
         patched = _apply_nj_operations(source_root, operations)
     else:
@@ -233,12 +255,22 @@ def apply_patch(
     ted_result: Union[TedResult, NJTedResult],
     *,
     algorithm: str = ALGORITHM_CHAWATHE,
+    target_root: Optional[TreeNode] = None,
 ) -> TreeNode:
     """
     Apply the edit script from a TED result to the source tree.
     algorithm must match the algorithm that produced ted_result ("chawathe" or "nj").
+    For Zhang–Shasha, pass ``target_root`` and ``ted_result.zhang_shasha_mappings``.
     """
-    if algorithm == ALGORITHM_NJ:
+    al = (algorithm or "").lower()
+    if al == ALGORITHM_ZHANG_SHASHA:
+        if target_root is None:
+            raise TypeError("Zhang–Shasha requires target_root for apply_patch.")
+        if not isinstance(ted_result, TedResult) or not ted_result.zhang_shasha_mappings:
+            raise TypeError("Zhang–Shasha requires TedResult with zhang_shasha_mappings.")
+        mp = {m["source_id"]: m["target_id"] for m in ted_result.zhang_shasha_mappings}
+        return apply_zhang_shasha_patch(source_root, target_root, mp)
+    if al == ALGORITHM_NJ:
         if not isinstance(ted_result, NJTedResult):
             raise TypeError("NJ algorithm requires NJTedResult.")
         return _apply_nj_operations(source_root, ted_result.operations)
@@ -248,7 +280,18 @@ def apply_patch(
 
 
 def trees_equal(left: TreeNode, right: TreeNode, *, algorithm: str = ALGORITHM_NJ) -> bool:
-    """Return True if two trees are equal. Use NJ for structure equality, Chawathe for LD-pair equality."""
-    if algorithm == ALGORITHM_NJ:
+    """
+    Return True if two trees are equal.
+
+    Chawathe: LD-pair sequence equality (same as patch replay semantics).
+    NJ: ordered recursive label/value/children equality.
+
+    Zhang–Shasha (distance-only algorithm): does not define a patch representation. Callers
+    comparing ``patched`` vs ``target`` after a skipped patch should not use this for
+    ``algorithm==zhang_shasha``; here we fall back to the same structural check as NJ
+    (label/value/children) when callers pass a generic ``algorithm`` string.
+    """
+    al = (algorithm or "").lower()
+    if al == ALGORITHM_NJ or al == ALGORITHM_ZHANG_SHASHA:
         return _trees_equal_nj(left, right)
     return _trees_equal_by_ld_pairs(left, right)

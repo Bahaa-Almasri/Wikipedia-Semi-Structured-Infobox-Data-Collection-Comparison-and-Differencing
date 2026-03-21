@@ -164,7 +164,7 @@ def get_ted_similarity(
 ) -> Dict[str, Any]:
     """
     Tree Edit Distance similarity between two country trees.
-    algorithm: "chawathe" (LD-pair) or "nj" (Nierman & Jagadish).
+    algorithm: "chawathe" (LD-pair), "nj" (Nierman & Jagadish), or "zhang_shasha".
     """
     try:
         return ted_similarity(
@@ -185,7 +185,7 @@ def get_ted_diff(
 ) -> Dict[str, Any]:
     """
     Full comparison: distance, similarity, edit script, patched tree, report.
-    algorithm: "chawathe" or "nj".
+    algorithm: "chawathe", "nj", or "zhang_shasha" (Zhang–Shasha is distance + postorder mappings; patch uses mappings + target tree, not LD-pair replay).
     """
     try:
         return ted_diff(
@@ -201,7 +201,7 @@ def get_ted_diff(
 def post_ted_diff_trees(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Full comparison from two tree dicts (source_tree, target_tree).
-    Body: { "source_tree": {...}, "target_tree": {...}, "source_slug": "optional", "target_slug": "optional", "algorithm": "chawathe"|"nj", "coerce_root_label": "optional" }.
+    Body: { "source_tree": {...}, "target_tree": {...}, "source_slug": "optional", "target_slug": "optional", "algorithm": "chawathe"|"nj"|"zhang_shasha", "coerce_root_label": "optional" }.
     """
     try:
         source_tree = body["source_tree"]
@@ -223,7 +223,7 @@ def post_ted_diff_trees(body: Dict[str, Any]) -> Dict[str, Any]:
 def post_compare(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Compare two countries by slug. Optionally restrict by features.
-    Body: { "country_a": str, "country_b": str, "features": Optional[List[str]], "exclude": bool, "algorithm": "chawathe"|"nj", "coerce_root_label": "optional" }.
+    Body: { "country_a": str, "country_b": str, "features": Optional[List[str]], "exclude": bool, "algorithm": "chawathe"|"nj"|"zhang_shasha", "coerce_root_label": "optional" }.
     If exclude=True, features are excluded from comparison; otherwise they are included.
     If features is omitted or empty, performs full tree comparison.
     """
@@ -253,7 +253,7 @@ def post_compare(body: Dict[str, Any]) -> Dict[str, Any]:
 def post_ted_compute(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Compute TED metrics + edit script ONLY (no patching).
-    Body: { "source_tree": {...}, "target_tree": {...}, "algorithm": "chawathe"|"nj", "coerce_root_label": "optional" }.
+    Body: { "source_tree": {...}, "target_tree": {...}, "algorithm": "chawathe"|"nj"|"zhang_shasha", "coerce_root_label": "optional" }.
     """
     try:
         source_tree = body["source_tree"]
@@ -274,11 +274,14 @@ def post_ted_compute(body: Dict[str, Any]) -> Dict[str, Any]:
 def post_ted_patch(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Apply edit script or feature-driven patch to source tree.
-    Body: { "source_tree": {...}, "edit_script": {...}, "algorithm": "chawathe"|"nj",
+    Body: { "source_tree": {...}, "edit_script": {...}, "algorithm": "chawathe"|"nj"|"zhang_shasha",
            "original_tree": optional, "edit_script_clean": optional,
-           "target_tree": optional, "excluded_features": optional }.
+           "target_tree": optional, "excluded_features": optional, "mappings": optional }.
     When original_tree + target_tree + excluded_features are provided (feature selection),
     uses feature-driven patch: SOURCE base, TARGET for values, only selected features.
+    For algorithm "zhang_shasha", applies node-mapping patch (postorder alignments from TED);
+    ``target_tree`` and ``mappings`` (list of {source_id, target_id}) are required unless
+    mappings are embedded in ``edit_script``.
     """
     try:
         source_tree = body.get("source_tree")
@@ -295,9 +298,12 @@ def post_ted_patch(body: Dict[str, Any]) -> Dict[str, Any]:
             edit_script_clean=body.get("edit_script_clean"),
             target_tree=body.get("target_tree"),
             excluded_features=body.get("excluded_features"),
+            mappings=body.get("mappings"),
         )
     except HTTPException:
         raise
+    except NotImplementedError as exc:
+        raise HTTPException(status_code=501, detail=str(exc)) from exc
     except KeyError as exc:
         raise HTTPException(status_code=400, detail=f"Missing key: {exc}") from exc
     except Exception as exc:

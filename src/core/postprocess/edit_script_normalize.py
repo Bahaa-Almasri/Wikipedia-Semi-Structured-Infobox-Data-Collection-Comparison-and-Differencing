@@ -212,4 +212,6 @@ def normalize_edit_script_for_algorithm(
     al = (algorithm or "").lower()
     if "nj" in al or "nierman" in al:
         return normalize_nj_edit_script(operations)
+    if "zhang" in al and "shasha" in al:
+        return list(operations)
     return normalize_chawathe_edit_script(source_root, operations)
