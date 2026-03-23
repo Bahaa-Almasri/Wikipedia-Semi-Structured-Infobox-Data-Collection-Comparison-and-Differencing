@@ -1,4 +1,4 @@
-"""Shared helpers for TED algorithms (Chawathe and NJ)."""
+"""Shared helpers for TED algorithms (Chawathe, NJ, Zhang–Shasha)."""
 from __future__ import annotations
 
 from domain.models.tree import TreeNode
@@ -14,7 +14,7 @@ def clone_tree(node: TreeNode) -> TreeNode:
 
 
 def similarity_from_distance(distance: int, size_a: int, size_b: int) -> float:
-    """Convert edit distance to similarity in [0, 1]. Used by both algorithms."""
+    """Convert edit distance to similarity in [0, 1]: 1 - distance / (size_a + size_b)."""
     denom = size_a + size_b
     if denom == 0:
         return 1.0

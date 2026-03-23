@@ -30,6 +30,10 @@ from core.patch.path_patch import (
     normalize_path,
 )
 from core.postprocess.postprocess import tree_to_infobox_text, tree_to_json_string, tree_to_xml_string
+from core.postprocess.edit_script_ops_summary import (
+    summarize_raw_edit_script_operations,
+    summarize_semantic_diff_operations,
+)
 from core.postprocess.edit_script_normalize import (
     IGNORE_FIELDS,
     ignored_path,
@@ -337,21 +341,6 @@ def format_edit_script_human(edit_script: Sequence[Dict[str, Any]]) -> str:
     return "\n".join(lines)
 
 
-def summarize_edit_script(edit_script: Sequence[Dict[str, Any]]) -> Dict[str, int]:
-    summary = {"updates": 0, "inserts": 0, "deletes": 0, "alignments": 0}
-    for op in edit_script:
-        kind = op.get("op")
-        if kind == "update":
-            summary["updates"] += 1
-        elif kind == "insert":
-            summary["inserts"] += 1
-        elif kind == "delete":
-            summary["deletes"] += 1
-        elif kind == "map":
-            summary["alignments"] += 1
-    return summary
-
-
 def get_country_index() -> List[Tuple[str, str]]:
     """
     Return a list of (slug, display_name) tuples.
@@ -617,8 +606,8 @@ def ted_compute_from_trees(
     )
     edit_script_clean = clean_edit_script(source_tree, target_tree)
     edit_script_human = format_edit_script_human(edit_script_clean)
-    edit_script_summary = summarize_edit_script(edit_script_clean)
-    edit_script_raw_summary = summarize_edit_script(edit_script_raw)
+    raw_edit_script_summary = summarize_raw_edit_script_operations(edit_script_raw)
+    semantic_diff_summary = summarize_semantic_diff_operations(edit_script_clean)
 
     out: Dict[str, Any] = {
         "algorithm": ted_result.algorithm,
@@ -626,10 +615,13 @@ def ted_compute_from_trees(
         "similarity": ted_result.similarity,
         "edit_script": edit_script_raw,
         "edit_script_raw": edit_script_raw,
-        "edit_script_raw_summary": edit_script_raw_summary,
+        "raw_edit_script_summary": raw_edit_script_summary,
+        "semantic_diff_summary": semantic_diff_summary,
+        # Backward-compatible aliases (semantic was previously exposed as edit_script_summary).
+        "edit_script_summary": semantic_diff_summary,
+        "edit_script_raw_summary": raw_edit_script_summary,
         "edit_script_clean": edit_script_clean,
         "edit_script_human": edit_script_human,
-        "edit_script_summary": edit_script_summary,
         "source_size": ted_result.source_size,
         "target_size": ted_result.target_size,
     }

@@ -233,6 +233,7 @@ class _NJEngine:
                     source_ref=self.source_ref(victim),
                     old_label=victim.label,
                     old_value=victim.value,
+                    subtree_node_count=nj_tree_size(victim),
                     note=f"DelTree({self.source_ref(victim)})",
                 )
             )
@@ -249,6 +250,7 @@ class _NJEngine:
                     subtree=clone_tree(subtree).to_dict(),
                     new_label=subtree.label,
                     new_value=subtree.value,
+                    subtree_node_count=nj_tree_size(subtree),
                     note=(
                         f"InsTree({self.target_ref(subtree)}, {self.source_ref(a)}, {right + 1})"
                     ),

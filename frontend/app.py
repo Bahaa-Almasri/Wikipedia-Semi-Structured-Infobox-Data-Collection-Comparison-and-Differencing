@@ -417,7 +417,7 @@ def categorize(section: str) -> str:
 
 
 def build_summary(edit_script: List[Dict[str, Any]]) -> Tuple[int, Dict[str, int]]:
-    """Count ops per high-level category (Economy, Government, …)."""
+    """Count semantic diff ops per high-level category (Economy, Government, …)."""
     category_counts: Dict[str, int] = defaultdict(int)
     for op in edit_script:
         path = op.get("path") or []
@@ -428,6 +428,32 @@ def build_summary(edit_script: List[Dict[str, Any]]) -> Tuple[int, Dict[str, int
         category_counts[categorize(section)] += 1
     total = len(edit_script)
     return total, dict(category_counts)
+
+
+def summarize_raw_edit_script_ops_local(ops: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """
+    Same rules as backend summarize_raw_edit_script_operations (fallback for older APIs).
+    """
+    inserts = deletes = updates = mappings = 0
+    for op in ops:
+        kind = str(op.get("op") or "").lower()
+        if kind in ("insert", "insert_tree"):
+            inserts += 1
+        elif kind in ("delete", "delete_tree"):
+            deletes += 1
+        elif kind == "update":
+            updates += 1
+        elif kind == "map":
+            mappings += 1
+    length = inserts + deletes + updates
+    return {
+        "edit_script_length": length,
+        "inserts": inserts,
+        "deletes": deletes,
+        "updates": updates,
+        "mappings": mappings,
+        "operation_count_total": len(ops),
+    }
 
 
 def json_to_xml(data: Any, root_name: str = "root") -> str:
@@ -852,34 +878,96 @@ section.main > div {
                 )
 
                 st.markdown("### Edit Script Viewer")
+
                 raw_script = compute_result.get("edit_script_raw")
                 if raw_script is None:
                     raw_script = compute_result.get("edit_script") or []
                 clean_script = compute_result.get("edit_script_clean") or []
-                summary = compute_result.get("edit_script_summary") or {}
 
-                if summary:
-                    st.caption(
-                        f"Updates: {summary.get('updates', 0)} | "
-                        f"Inserts: {summary.get('inserts', 0)} | "
-                        f"Deletes: {summary.get('deletes', 0)}"
+                raw_metrics = compute_result.get("raw_edit_script_summary") or compute_result.get(
+                    "edit_script_raw_summary"
+                )
+                if not raw_metrics and isinstance(raw_script, list):
+                    raw_metrics = summarize_raw_edit_script_ops_local(raw_script)
+
+                st.markdown("#### TED edit script (algorithm-native)")
+                st.caption(
+                    "These counts describe the script returned for the selected TED algorithm "
+                    "(Chawathe / NJ / Zhang–Shasha). They can differ from semantic field-level "
+                    "differences and from the distance/similarity score."
+                )
+                if raw_metrics:
+                    r1, r2, r3, r4 = st.columns(4)
+                    r1.metric(
+                        "Edit script length",
+                        raw_metrics.get("edit_script_length", 0),
+                        help="Inserts + deletes + updates in this script (mappings excluded).",
                     )
+                    r2.metric("Inserts", raw_metrics.get("inserts", 0))
+                    r3.metric("Deletes", raw_metrics.get("deletes", 0))
+                    r4.metric("Updates", raw_metrics.get("updates", 0))
+                    maps_n = raw_metrics.get("mappings", 0)
+                    if maps_n or (algorithm or "").lower() == "zhang_shasha":
+                        st.metric(
+                            "Mappings",
+                            maps_n,
+                            help="Zhang–Shasha postorder node alignments; not counted in edit script length.",
+                        )
+                    note = raw_metrics.get("summary_note")
+                    if note:
+                        with st.expander("About these metrics"):
+                            st.markdown(note)
 
+                sem = compute_result.get("semantic_diff_summary")
+                if sem is None:
+                    sem = compute_result.get("edit_script_summary") or {}
+                if sem and "model" not in sem and "total" not in sem:
+                    sem = {
+                        "model": "semantic_path_diff",
+                        "inserts": sem.get("inserts", 0),
+                        "deletes": sem.get("deletes", 0),
+                        "updates": sem.get("updates", 0),
+                        "total": (
+                            sem.get("inserts", 0)
+                            + sem.get("deletes", 0)
+                            + sem.get("updates", 0)
+                        ),
+                    }
+
+                st.markdown("#### Semantic path differences (not tied to TED algorithm)")
+                st.caption(
+                    "Independent tree diff at dotted paths. Use this for human-readable “what changed” "
+                    "between infoboxes; it does not depend on Chawathe vs NJ."
+                )
                 if clean_script:
-                    total_changes, breakdown = build_summary(clean_script)
-                    st.markdown("#### Change summary")
-                    st.markdown(f"**Total changes:** {total_changes}")
+                    sem_total = sem.get("total") if isinstance(sem, dict) else None
+                    if sem_total is None and isinstance(sem, dict):
+                        sem_total = (
+                            sem.get("inserts", 0)
+                            + sem.get("deletes", 0)
+                            + sem.get("updates", 0)
+                        )
+                    if sem_total is None:
+                        sem_total = len(clean_script)
+                    st.markdown(
+                        f"**Semantic differences (total):** {sem_total} — "
+                        f"inserts {sem.get('inserts', 0)}, "
+                        f"deletes {sem.get('deletes', 0)}, "
+                        f"updates {sem.get('updates', 0)}"
+                    )
+                    total_sem, breakdown = build_summary(clean_script)
+                    st.markdown("**By category (semantic):**")
                     order = ["Economy", "Government", "Population", "Geography", "Others"]
                     for cat in order:
                         if cat in breakdown and breakdown[cat]:
-                            st.markdown(f"- **{cat}:** {breakdown[cat]} change(s)")
+                            st.markdown(f"- **{cat}:** {breakdown[cat]} semantic op(s)")
                     for cat, n in sorted(breakdown.items()):
                         if cat not in order:
-                            st.markdown(f"- **{cat}:** {n} change(s)")
+                            st.markdown(f"- **{cat}:** {n} semantic op(s)")
                 else:
-                    st.caption("No clean (semantic) operations to summarize.")
+                    st.caption("No semantic path-level differences to summarize.")
 
-                view_tabs = st.tabs(["Raw", "Clean", "Structured diff"])
+                view_tabs = st.tabs(["Raw TED script", "Semantic (clean)", "Structured diff"])
                 with view_tabs[0]:
                     st.json(raw_script)
                 with view_tabs[1]:

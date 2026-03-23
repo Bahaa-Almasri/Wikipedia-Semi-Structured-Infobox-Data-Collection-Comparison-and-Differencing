@@ -10,6 +10,10 @@ from domain.models.tree import TreeNode
 
 from core.data.storage import read_tree_document
 from core.patch.patch import apply_patch, trees_equal
+from core.postprocess.edit_script_ops_summary import (
+    raw_edit_ops_from_ted_result,
+    summarize_raw_edit_script_operations,
+)
 from core.postprocess.postprocess import (
     render_comparison_report,
     summarize_edit_script,
@@ -30,6 +34,11 @@ from core.similarity.tree_validation import validate_tree
 
 class ComparisonPipelineError(ValueError):
     pass
+
+
+def _raw_edit_script_summary_from_ted(ted_result: Any) -> Dict[str, Any]:
+    """Counts from native TED operations (maps for Zhang–Shasha when ops list is empty)."""
+    return summarize_raw_edit_script_operations(raw_edit_ops_from_ted_result(ted_result))
 
 
 def load_tree_for_slug(slug: str) -> TreeNode:
@@ -95,6 +104,7 @@ def compare_country_slugs(
             "distance": ted_result.distance,
             "similarity": ted_result.similarity,
             "edit_script": ted_result.to_dict(),
+            "raw_edit_script_summary": _raw_edit_script_summary_from_ted(ted_result),
             "edit_script_summary": summarize_edit_script(ted_result),
             "patch_matches_target": patch_matches_target,
             "patched_tree": patched_root.to_dict(),
@@ -114,6 +124,7 @@ def compare_country_slugs(
         "distance": ted_result.distance,
         "similarity": ted_result.similarity,
         "edit_script": ted_result.to_dict(),
+        "raw_edit_script_summary": _raw_edit_script_summary_from_ted(ted_result),
         "edit_script_summary": summarize_edit_script(ted_result),
         "patch_matches_target": patch_matches_target,
         "patched_tree": patched_root.to_dict(),
@@ -182,6 +193,7 @@ def compare_from_tree_dicts(
             "distance": ted_result.distance,
             "similarity": ted_result.similarity,
             "edit_script": ted_result.to_dict(),
+            "raw_edit_script_summary": _raw_edit_script_summary_from_ted(ted_result),
             "edit_script_summary": summarize_edit_script(ted_result),
             "patch_matches_target": patch_matches_target,
             "patched_tree": patched_root.to_dict(),
@@ -200,6 +212,7 @@ def compare_from_tree_dicts(
         "distance": ted_result.distance,
         "similarity": ted_result.similarity,
         "edit_script": ted_result.to_dict(),
+        "raw_edit_script_summary": _raw_edit_script_summary_from_ted(ted_result),
         "edit_script_summary": summarize_edit_script(ted_result),
         "patch_matches_target": trees_equal(patched_root, patch_target, algorithm=algorithm),
         "patched_tree": patched_root.to_dict(),

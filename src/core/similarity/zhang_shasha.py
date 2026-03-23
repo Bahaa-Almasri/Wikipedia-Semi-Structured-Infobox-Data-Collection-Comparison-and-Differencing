@@ -10,7 +10,7 @@ import collections
 import time
 from typing import Dict, List, Optional, Tuple
 
-from core.similarity.common import clone_tree
+from core.similarity.common import clone_tree, similarity_from_distance
 from domain.models.edit_script import TedResult
 from domain.models.tree import TreeNode
 
@@ -34,13 +34,6 @@ def rename_cost(node1: TreeNode, node2: TreeNode) -> int:
     if node1.label == node2.label and node1.value == node2.value:
         return 0
     return 1
-
-
-def _similarity_from_max_norm(distance: int, size_a: int, size_b: int) -> float:
-    denom = max(size_a, size_b)
-    if denom == 0:
-        return 1.0
-    return max(0.0, min(1.0, 1.0 - (distance / denom)))
 
 
 def _zeros(rows: int, cols: int) -> List[List[float]]:
@@ -304,7 +297,7 @@ def zhang_shasha_distance(tree1: TreeNode, tree2: TreeNode) -> dict:
     normalize_tree(s)
     normalize_tree(t)
     distance, source_size, target_size, mappings = _zhang_shasha_core(s, t)
-    similarity = _similarity_from_max_norm(distance, source_size, target_size)
+    similarity = similarity_from_distance(distance, source_size, target_size)
     runtime_ms = (time.perf_counter() - t0) * 1000.0
     return {
         "distance": distance,
@@ -330,7 +323,7 @@ def compute_ted_zhang_shasha(
     normalize_tree(source)
     normalize_tree(target)
     distance, source_size, target_size, mappings = _zhang_shasha_core(source, target)
-    similarity = _similarity_from_max_norm(distance, source_size, target_size)
+    similarity = similarity_from_distance(distance, source_size, target_size)
     return TedResult(
         algorithm="zhang_shasha",
         distance=distance,

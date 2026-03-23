@@ -1,7 +1,8 @@
 from __future__ import annotations
 
+from collections import Counter
 from dataclasses import dataclass, field
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Union
 
 
 @dataclass(frozen=True)
@@ -100,6 +101,7 @@ class TedResult:
         }
         if self.zhang_shasha_mappings is not None:
             out["mappings"] = list(self.zhang_shasha_mappings)
+        out["operation_summary"] = ted_operation_summary(self)
         return out
 
 
@@ -115,6 +117,9 @@ class NJEditOperation:
     - update: update an existing source node referenced by source_ref
     - delete_tree: delete an existing source subtree rooted at source_ref
     - insert_tree: insert a destination subtree snapshot under parent_ref at 1-based position
+
+    subtree_node_count: for insert_tree / delete_tree, number of nodes in that subtree
+    (root inclusive). Omitted for update. Helps compare NJ subtree ops to LD-pair counts.
     """
 
     op: str  # update | delete_tree | insert_tree
@@ -126,6 +131,7 @@ class NJEditOperation:
     old_value: Optional[str] = None
     new_value: Optional[str] = None
     subtree: Optional[Dict[str, Any]] = None
+    subtree_node_count: Optional[int] = None
     note: Optional[str] = None
 
     def to_dict(self) -> Dict[str, Any]:
@@ -139,6 +145,7 @@ class NJEditOperation:
             "old_value": self.old_value,
             "new_value": self.new_value,
             "subtree": self.subtree,
+            "subtree_node_count": self.subtree_node_count,
             "note": self.note,
         }
 
@@ -154,6 +161,7 @@ class NJEditOperation:
             old_value=data.get("old_value"),
             new_value=data.get("new_value"),
             subtree=data.get("subtree"),
+            subtree_node_count=data.get("subtree_node_count"),
             note=data.get("note"),
         )
 
@@ -178,5 +186,55 @@ class NJTedResult:
             "target_size": self.target_size,
             "source_root_ref": self.source_root_ref,
             "operations": [op.to_dict() for op in self.operations],
+            "operation_summary": ted_operation_summary(self),
             "meta": self.meta,
         }
+
+
+def _chawathe_operation_summary(operations: List[EditOperation]) -> Dict[str, Any]:
+    counts = Counter(op.op for op in operations)
+    n = len(operations)
+    return {
+        "model": "chawathe_ld_pair_sequence",
+        "insert": counts.get("insert", 0),
+        "delete": counts.get("delete", 0),
+        "update": counts.get("update", 0),
+        "total_operations": n,
+        "total": n,
+        "each_operation_is_one_preorder_node": True,
+    }
+
+
+def _nj_operation_summary(operations: List[NJEditOperation]) -> Dict[str, Any]:
+    counts = Counter(op.op for op in operations)
+    nodes_deleted = sum(
+        op.subtree_node_count or 0 for op in operations if op.op == "delete_tree"
+    )
+    nodes_inserted = sum(
+        op.subtree_node_count or 0 for op in operations if op.op == "insert_tree"
+    )
+    n = len(operations)
+    return {
+        "model": "nierman_jagadish_subtree",
+        "update": counts.get("update", 0),
+        "insert_tree": counts.get("insert_tree", 0),
+        "delete_tree": counts.get("delete_tree", 0),
+        "total_operations": n,
+        "total": n,
+        "nodes_in_deleted_subtrees": nodes_deleted,
+        "nodes_in_inserted_subtrees": nodes_inserted,
+        "subtree_node_volume": nodes_deleted + nodes_inserted,
+        "comparison_note": (
+            "NJ uses insert_tree/delete_tree for whole subtrees; subtree_node_count on each "
+            "such op is how many nodes that step moves. Chawathe lists one insert/delete/update "
+            "per preorder node, so operation counts are not comparable across algorithms even "
+            "when the patched tree matches."
+        ),
+    }
+
+
+def ted_operation_summary(ted_result: Union[TedResult, NJTedResult]) -> Dict[str, Any]:
+    """Structured summary for API/reporting; contrasts NJ subtree ops vs Chawathe node ops."""
+    if isinstance(ted_result, NJTedResult):
+        return _nj_operation_summary(ted_result.operations)
+    return _chawathe_operation_summary(ted_result.operations)

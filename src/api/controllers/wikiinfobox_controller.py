@@ -226,6 +226,12 @@ def post_compare(body: Dict[str, Any]) -> Dict[str, Any]:
     Body: { "country_a": str, "country_b": str, "features": Optional[List[str]], "exclude": bool, "algorithm": "chawathe"|"nj"|"zhang_shasha", "coerce_root_label": "optional" }.
     If exclude=True, features are excluded from comparison; otherwise they are included.
     If features is omitted or empty, performs full tree comparison.
+
+    Response includes:
+    - raw_edit_script_summary: counts from the normalized TED script (edit_script_length, inserts,
+      deletes, updates; mappings separate for Zhang–Shasha).
+    - semantic_diff_summary: path-level semantic diff between trees (independent of TED algorithm).
+    - edit_script_summary / edit_script_raw_summary: legacy aliases (semantic vs raw metrics).
     """
     try:
         country_a = body["country_a"]
@@ -254,6 +260,8 @@ def post_ted_compute(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Compute TED metrics + edit script ONLY (no patching).
     Body: { "source_tree": {...}, "target_tree": {...}, "algorithm": "chawathe"|"nj"|"zhang_shasha", "coerce_root_label": "optional" }.
+
+    Returns raw_edit_script_summary and semantic_diff_summary (same shape as /compare TED fields).
     """
     try:
         source_tree = body["source_tree"]

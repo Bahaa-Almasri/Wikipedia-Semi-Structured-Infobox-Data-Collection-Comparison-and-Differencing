@@ -7,10 +7,9 @@ from __future__ import annotations
 import json
 import re
 import xml.etree.ElementTree as ET
-from collections import Counter
 from typing import Any, Dict, List, Tuple, Union
 
-from domain.models.edit_script import NJTedResult, TedResult
+from domain.models.edit_script import NJTedResult, TedResult, ted_operation_summary
 from domain.models.tree import TreeNode
 
 
@@ -105,22 +104,12 @@ def tree_to_infobox_text(root: TreeNode) -> str:
     return "\n".join(out_lines)
 
 
-def summarize_edit_script(ted_result: Union[TedResult, NJTedResult]) -> Dict[str, int]:
-    """Summarize edit script operation counts. Works for both Chawathe and NJ results."""
-    counts = Counter(op.op for op in ted_result.operations)
-    if isinstance(ted_result, NJTedResult):
-        return {
-            "update": counts.get("update", 0),
-            "insert_tree": counts.get("insert_tree", 0),
-            "delete_tree": counts.get("delete_tree", 0),
-            "total": sum(counts.values()),
-        }
-    return {
-        "insert": counts.get("insert", 0),
-        "delete": counts.get("delete", 0),
-        "update": counts.get("update", 0),
-        "total": sum(counts.values()),
-    }
+def summarize_edit_script(ted_result: Union[TedResult, NJTedResult]) -> Dict[str, Any]:
+    """
+    Summarize edit script operation counts (same structure as TedResult/NJTedResult
+    operation_summary from to_dict()).
+    """
+    return ted_operation_summary(ted_result)
 
 
 def render_comparison_report(
@@ -141,8 +130,12 @@ def render_comparison_report(
         "Edit script summary:",
     ]
     for k, v in summary.items():
-        if k != "total":
-            lines.append(f"- {k}: {v}")
+        if k in ("total", "comparison_note"):
+            continue
+        lines.append(f"- {k}: {v}")
+    if "comparison_note" in summary:
+        lines.append("")
+        lines.append(summary["comparison_note"])
     lines.append(f"- total: {summary['total']}")
 
     if isinstance(ted_result, NJTedResult):
