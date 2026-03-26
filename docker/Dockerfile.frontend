@@ -1,0 +1,16 @@
+# Streamlit frontend only (different image from API). Talks to API via HTTP.
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY docker/requirements-frontend.txt requirements-frontend.txt
+RUN pip install --no-cache-dir -r requirements-frontend.txt
+
+# Shared domain tree helpers (format_draw_tree_dict, etc.); must sit next to frontend for app.py imports
+COPY src/ /app/src/
+
+COPY frontend/ frontend/
+
+EXPOSE 8501
+
+CMD ["streamlit", "run", "frontend/app.py", "--server.address=0.0.0.0", "--server.port=8501"]
