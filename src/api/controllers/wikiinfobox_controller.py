@@ -13,20 +13,28 @@ from fastapi.responses import Response
 
 from application.services.wikiinfobox_service import (
     compare_countries,
+    generate_guess_round,
     get_available_features,
     get_country_index,
     get_json_document,
     get_raw_html,
     get_tree_document,
     postprocess_tree,
+    recommend_country_matches,
     run_build_trees,
     run_collect_pipeline,
+    run_vsm_preprocess,
     similarity_ranking_both,
+    submit_guess_answer,
     ted_compute_from_trees,
     ted_diff,
     ted_diff_from_trees,
     ted_patch,
     ted_similarity,
+    vsm_query,
+    vsm_cluster,
+    vsm_similarity,
+    vsm_similarity_ranking,
 )
 
 router = APIRouter()
@@ -36,7 +44,7 @@ router = APIRouter()
 def list_countries() -> List[Dict[str, str]]:
     """
     List all countries: slug and display name.
-    Used by the frontend to build the country selector and search.
+    Used by the streamlit to build the country selector and search.
     """
     try:
         index = get_country_index()
@@ -223,13 +231,14 @@ def post_ted_diff_trees(body: Dict[str, Any]) -> Dict[str, Any]:
 def post_compare(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Compare two countries by slug. Optionally restrict by features.
-    Body: { "country_a": str, "country_b": str, "features": Optional[List[str]], "exclude": bool, "algorithm": "chawathe"|"nj"|"zhang_shasha", "coerce_root_label": "optional" }.
+    Body: { "country_a": str, "country_b": str, "features": Optional[List[str]], "exclude": bool, "algorithm": "chawathe"|"nj"|"zhang_shasha", "coerce_root_label": "optional", "cost_model": "value_aware"|"classic" }.
     If exclude=True, features are excluded from comparison; otherwise they are included.
     If features is omitted or empty, performs full tree comparison.
 
     Response includes:
-    - raw_edit_script_summary: counts from the normalized TED script (edit_script_length, inserts,
+    - raw_edit_script_summary: counts from the native TED script (edit_script_length, inserts,
       deletes, updates; mappings separate for Zhang–Shasha).
+    - display_edit_script_summary: counts after display normalization/filtering.
     - semantic_diff_summary: path-level semantic diff between trees (independent of TED algorithm).
     - edit_script_summary / edit_script_raw_summary: legacy aliases (semantic vs raw metrics).
     """
@@ -246,6 +255,7 @@ def post_compare(body: Dict[str, Any]) -> Dict[str, Any]:
             exclude=body.get("exclude", False),
             algorithm=body.get("algorithm", "chawathe"),
             coerce_root_label=body.get("coerce_root_label"),
+            cost_model=body.get("cost_model"),
         )
     except KeyError as exc:
         raise HTTPException(status_code=400, detail=f"Missing key: {exc}") from exc
@@ -259,7 +269,7 @@ def post_compare(body: Dict[str, Any]) -> Dict[str, Any]:
 def post_ted_compute(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Compute TED metrics + edit script ONLY (no patching).
-    Body: { "source_tree": {...}, "target_tree": {...}, "algorithm": "chawathe"|"nj"|"zhang_shasha", "coerce_root_label": "optional" }.
+    Body: { "source_tree": {...}, "target_tree": {...}, "algorithm": "chawathe"|"nj"|"zhang_shasha", "coerce_root_label": "optional", "cost_model": "value_aware"|"classic" }.
 
     Returns raw_edit_script_summary and semantic_diff_summary (same shape as /compare TED fields).
     """
@@ -271,6 +281,7 @@ def post_ted_compute(body: Dict[str, Any]) -> Dict[str, Any]:
             target_tree,
             algorithm=body.get("algorithm", "chawathe"),
             coerce_root_label=body.get("coerce_root_label"),
+            cost_model=body.get("cost_model"),
         )
     except KeyError as exc:
         raise HTTPException(status_code=400, detail=f"Missing key: {exc}") from exc
@@ -351,5 +362,230 @@ def post_similarity_ranking(body: Dict[str, Any]) -> Dict[str, List[Dict[str, An
         raise HTTPException(status_code=404, detail=str(exc)) from exc
     except HTTPException:
         raise
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+def _top_k_from_body(body: Dict[str, Any], default: int = 5) -> int:
+    top_k = body.get("top_k", default)
+    if not isinstance(top_k, int) or top_k < 1 or top_k > 50:
+        return default
+    return top_k
+
+
+def _features_from_body(body: Dict[str, Any]) -> Optional[List[str]]:
+    features = body.get("features")
+    if not features:
+        return None
+    if not isinstance(features, list):
+        raise HTTPException(status_code=400, detail="'features' must be a list of strings")
+    return [str(feature) for feature in features if str(feature).strip()]
+
+
+def _int_range_from_body(
+    body: Dict[str, Any],
+    key: str,
+    *,
+    default: int,
+    minimum: int,
+    maximum: int,
+) -> int:
+    value = body.get(key, default)
+    if not isinstance(value, int):
+        return default
+    return max(minimum, min(value, maximum))
+
+
+def _positive_float_from_body(body: Dict[str, Any], key: str, *, default: float) -> float:
+    value = body.get(key, default)
+    try:
+        parsed = float(value)
+    except (TypeError, ValueError):
+        return default
+    if parsed <= 0:
+        return default
+    return parsed
+
+
+def _ratio_from_body(body: Dict[str, Any], key: str, *, default: float) -> float:
+    value = body.get(key, default)
+    try:
+        parsed = float(value)
+    except (TypeError, ValueError):
+        return default
+    if parsed <= 0.0 or parsed > 1.0:
+        return default
+    return parsed
+
+
+@router.post("/vsm/preprocess", response_model=Dict[str, Any])
+def post_vsm_preprocess(body: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Build/persist a TF-IDF VSM index.
+    Body: { "mode": "flat"|"field", "persist": bool }.
+    """
+    try:
+        return run_vsm_preprocess(
+            mode=body.get("mode", "field"),
+            persist=bool(body.get("persist", True)),
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+@router.post("/vsm/query", response_model=Dict[str, Any])
+def post_vsm_query(body: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Rank countries against a free-text query using TF-IDF VSM.
+    Body: { "query": str, "top_k": int, "metric": "cosine"|"pcc", "mode": "flat"|"field", "features": optional }.
+    """
+    try:
+        query = str(body.get("query") or "").strip()
+        if not query:
+            raise HTTPException(status_code=400, detail="Missing or empty 'query'")
+        return vsm_query(
+            query,
+            top_k=_top_k_from_body(body),
+            metric=body.get("metric", "cosine"),
+            features=_features_from_body(body),
+            mode=body.get("mode", "field"),
+        )
+    except HTTPException:
+        raise
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+@router.post("/vsm/similarity", response_model=Dict[str, Any])
+def post_vsm_similarity(body: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Compare two countries using TF-IDF VSM.
+    Body: { "source_slug": str, "target_slug": str, "metric": "cosine"|"pcc", "mode": "flat"|"field", "features": optional }.
+    """
+    try:
+        source_slug = str(body.get("source_slug") or "").strip().lower()
+        target_slug = str(body.get("target_slug") or "").strip().lower()
+        if not source_slug or not target_slug:
+            raise HTTPException(status_code=400, detail="Missing source_slug or target_slug")
+        return vsm_similarity(
+            source_slug,
+            target_slug,
+            metric=body.get("metric", "cosine"),
+            features=_features_from_body(body),
+            mode=body.get("mode", "field"),
+        )
+    except HTTPException:
+        raise
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+@router.post("/vsm/similarity-ranking", response_model=Dict[str, Any])
+def post_vsm_similarity_ranking(body: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Return top-k countries most similar to one country using TF-IDF VSM.
+    Body: { "country": str, "top_k": int, "metric": "cosine"|"pcc", "mode": "flat"|"field", "features": optional }.
+    """
+    try:
+        country = str(body.get("country") or "").strip().lower()
+        if not country:
+            raise HTTPException(status_code=400, detail="Missing or empty 'country'")
+        return vsm_similarity_ranking(
+            country,
+            top_k=_top_k_from_body(body),
+            metric=body.get("metric", "cosine"),
+            features=_features_from_body(body),
+            mode=body.get("mode", "field"),
+        )
+    except HTTPException:
+        raise
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+@router.post("/vsm/clustering", response_model=Dict[str, Any])
+def post_vsm_clustering(body: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Cluster all countries using VSM vectors.
+    Body: { "vector_source": "vsm"|"ted", "algorithm": "kmeans"|"dbscan"|"agglomerative",
+            "distance": "cosine"|"euclidean"|"manhattan", "mode": "flat"|"field",
+            "ted_algorithm": "chawathe"|"nj"|"zhang_shasha", "country": optional, "features": optional,
+            "k": int, "eps": float, "min_pts": int, "linkage": "single"|"complete"|"average",
+            "vsm_document_source": "comparison_fields"|"fields"|"all", "max_df_ratio": float }.
+    """
+    try:
+        return vsm_cluster(
+            vector_source=body.get("vector_source", "vsm"),
+            algorithm=body.get("algorithm", "kmeans"),
+            distance=body.get("distance", "cosine"),
+            mode=body.get("mode", "field"),
+            features=_features_from_body(body),
+            country=str(body.get("country") or "").strip().lower() or None,
+            k=_int_range_from_body(body, "k", default=5, minimum=2, maximum=50),
+            eps=_positive_float_from_body(body, "eps", default=1.0),
+            min_pts=_int_range_from_body(body, "min_pts", default=3, minimum=1, maximum=50),
+            linkage=body.get("linkage", "average"),
+            ted_algorithm=body.get("ted_algorithm", "chawathe"),
+            cost_model=body.get("cost_model"),
+            vsm_document_source=body.get("vsm_document_source", "comparison_fields"),
+            max_df_ratio=_ratio_from_body(body, "max_df_ratio", default=0.85),
+        )
+    except HTTPException:
+        raise
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+@router.post("/matchmaker/recommend", response_model=Dict[str, Any])
+def post_matchmaker_recommend(body: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Public-facing recommendation layer for the React matchmaker.
+    Body: preference answers plus optional limit.
+    """
+    try:
+        limit = _int_range_from_body(body, "limit", default=8, minimum=1, maximum=20)
+        return recommend_country_matches(body, limit=limit)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+@router.get("/game/guess-round", response_model=Dict[str, Any])
+def get_guess_round(clue_count: int = 3, option_count: int = 4) -> Dict[str, Any]:
+    """Generate a country guessing game round without exposing the answer."""
+    try:
+        clue_count = max(1, min(clue_count, 5))
+        option_count = max(2, min(option_count, 8))
+        return generate_guess_round(clue_count=clue_count, option_count=option_count)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+@router.post("/game/submit-answer", response_model=Dict[str, Any])
+def post_guess_answer(body: Dict[str, Any]) -> Dict[str, Any]:
+    """Validate a submitted answer for a generated guessing round."""
+    try:
+        round_id = str(body.get("round_id") or "").strip()
+        selected_country = str(body.get("selected_country") or "").strip().lower()
+        if not round_id or not selected_country:
+            raise HTTPException(status_code=400, detail="Missing round_id or selected_country")
+        return submit_guess_answer(round_id, selected_country)
+    except HTTPException:
+        raise
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
     except Exception as exc:
         raise HTTPException(status_code=500, detail=str(exc)) from exc

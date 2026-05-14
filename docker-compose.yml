@@ -41,12 +41,12 @@ services:
     networks:
       - shared_network
 
-  wikinfobox-app:
+  wikinfobox-streamlit:
     build:
       context: .
-      dockerfile: docker/Dockerfile.frontend
-    image: wikinfobox-frontend:latest
-    container_name: wikinfobox-app
+      dockerfile: docker/Dockerfile.streamlit
+    image: wikinfobox-streamlit:latest
+    container_name: wikinfobox-streamlit
     ports:
       - "${STREAMLIT_APP_PORT}:8501"
     environment:
@@ -59,8 +59,24 @@ services:
       WIKIPEDIA_MAX_RETRIES: ${WIKIPEDIA_MAX_RETRIES}
       WIKIPEDIA_BACKOFF_FACTOR: ${WIKIPEDIA_BACKOFF_FACTOR}
       WIKIPEDIA_USER_AGENT: ${WIKIPEDIA_USER_AGENT}
-      # Frontend talks to API by service name; API listens on port 80 inside the container.
+      # Streamlit talks to API by service name; API listens on port 80 inside the container.
       API_URL: http://${API_HOST}:80
+    depends_on:
+      wikinfobox-api:
+        condition: service_started
+    networks:
+      - shared_network
+
+  wikinfobox-frontend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.frontend
+    image: wikinfobox-frontend:latest
+    container_name: wikinfobox-frontend
+    ports:
+      - "${FRONTEND_PORT:-8990}:5173"
+    environment:
+      VITE_API_URL: http://localhost:${API_PORT}
     depends_on:
       wikinfobox-api:
         condition: service_started

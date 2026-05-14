@@ -3,13 +3,14 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import List, Optional, Sequence, Tuple
 
-from core.similarity.common import clone_tree, similarity_from_distance
-from core.similarity.tree_validation import validate_tree
+from core.similarity.cost_model import CostModel, CostModelInput, get_cost_model, similarity_from_distance
 from domain.models.edit_script import EditOperation, LDPairNode, TedResult
 from domain.models.tree import TreeNode
+from utils.tree_utils import clone_tree, validate_tree
 
 
 INF = 10 ** 9
+EPSILON = 1e-9
 
 
 @dataclass(frozen=True)
@@ -39,8 +40,16 @@ def chawathe_tree_to_ld_pairs(root: TreeNode) -> List[LDPairNode]:
     return items
 
 
-def _node_update_cost(a: LDPairNode, b: LDPairNode) -> int:
-    return 0 if (a.label == b.label and a.value == b.value) else 1
+def _node_update_cost(a: LDPairNode, b: LDPairNode, cost_model: CostModel) -> float:
+    return cost_model.update_cost(a, b)
+
+
+def _raw_node_equal(a: LDPairNode, b: LDPairNode) -> bool:
+    return a.label == b.label and a.value == b.value and a.depth == b.depth
+
+
+def _cost_equal(left: float, right: float) -> bool:
+    return abs(left - right) <= EPSILON
 
 
 def _update_allowed(a: LDPairNode, b: LDPairNode) -> bool:
@@ -55,15 +64,19 @@ def _insert_allowed(a: LDPairNode, b: LDPairNode, *, i: int, m: int) -> bool:
     return i == m or b.depth >= a.depth
 
 
-def _compute_matrix(a_seq: Sequence[LDPairNode], b_seq: Sequence[LDPairNode]) -> List[List[int]]:
+def _compute_matrix(
+    a_seq: Sequence[LDPairNode],
+    b_seq: Sequence[LDPairNode],
+    cost_model: CostModel,
+) -> List[List[float]]:
     m = len(a_seq)
     n = len(b_seq)
-    dist = [[0] * (n + 1) for _ in range(m + 1)]
+    dist = [[0.0] * (n + 1) for _ in range(m + 1)]
 
     for i in range(1, m + 1):
-        dist[i][0] = dist[i - 1][0] + 1
+        dist[i][0] = dist[i - 1][0] + cost_model.delete_cost(a_seq[i - 1])
     for j in range(1, n + 1):
-        dist[0][j] = dist[0][j - 1] + 1
+        dist[0][j] = dist[0][j - 1] + cost_model.insert_cost(b_seq[j - 1])
 
     for i in range(1, m + 1):
         for j in range(1, n + 1):
@@ -72,15 +85,15 @@ def _compute_matrix(a_seq: Sequence[LDPairNode], b_seq: Sequence[LDPairNode]) ->
 
             delete_cost = INF
             if _delete_allowed(a_node, b_node, j=j, n=n):
-                delete_cost = dist[i - 1][j] + 1
+                delete_cost = dist[i - 1][j] + cost_model.delete_cost(a_node)
 
             insert_cost = INF
             if _insert_allowed(a_node, b_node, i=i, m=m):
-                insert_cost = dist[i][j - 1] + 1
+                insert_cost = dist[i][j - 1] + cost_model.insert_cost(b_node)
 
             update_cost = INF
             if _update_allowed(a_node, b_node):
-                update_cost = dist[i - 1][j - 1] + _node_update_cost(a_node, b_node)
+                update_cost = dist[i - 1][j - 1] + _node_update_cost(a_node, b_node, cost_model)
 
             dist[i][j] = min(delete_cost, insert_cost, update_cost)
 
@@ -90,7 +103,8 @@ def _compute_matrix(a_seq: Sequence[LDPairNode], b_seq: Sequence[LDPairNode]) ->
 def _backtrack_alignment(
     a_seq: Sequence[LDPairNode],
     b_seq: Sequence[LDPairNode],
-    dist: Sequence[Sequence[int]],
+    dist: Sequence[Sequence[float]],
+    cost_model: CostModel,
 ) -> List[AlignmentStep]:
     i = len(a_seq)
     j = len(b_seq)
@@ -103,12 +117,25 @@ def _backtrack_alignment(
             a_node = a_seq[i - 1]
             b_node = b_seq[j - 1]
             diag_cost = INF
+            update_delta = INF
             if _update_allowed(a_node, b_node):
-                diag_cost = dist[i - 1][j - 1] + _node_update_cost(a_node, b_node)
-            if dist[i][j] == diag_cost:
+                update_delta = _node_update_cost(a_node, b_node, cost_model)
+                diag_cost = dist[i - 1][j - 1] + update_delta
+            if _cost_equal(dist[i][j], diag_cost) and _raw_node_equal(a_node, b_node):
                 raw_steps.append(
                     AlignmentStep(
-                        kind="keep" if _node_update_cost(a_node, b_node) == 0 else "update",
+                        kind="keep",
+                        a_node=a_node,
+                        b_node=b_node,
+                    )
+                )
+                i -= 1
+                j -= 1
+                continue
+            if _cost_equal(dist[i][j], diag_cost) and a_node.label == b_node.label:
+                raw_steps.append(
+                    AlignmentStep(
+                        kind="update",
                         a_node=a_node,
                         b_node=b_node,
                     )
@@ -120,13 +147,15 @@ def _backtrack_alignment(
         if i > 0:
             a_node = a_seq[i - 1]
             if j == 0:
-                if dist[i][j] == dist[i - 1][j] + 1:
+                if _cost_equal(dist[i][j], dist[i - 1][j] + cost_model.delete_cost(a_node)):
                     raw_steps.append(AlignmentStep(kind="delete", a_node=a_node))
                     i -= 1
                     continue
             else:
                 b_node = b_seq[j - 1]
-                if _delete_allowed(a_node, b_node, j=j, n=n) and dist[i][j] == dist[i - 1][j] + 1:
+                if _delete_allowed(a_node, b_node, j=j, n=n) and _cost_equal(
+                    dist[i][j], dist[i - 1][j] + cost_model.delete_cost(a_node)
+                ):
                     raw_steps.append(AlignmentStep(kind="delete", a_node=a_node))
                     i -= 1
                     continue
@@ -134,14 +163,29 @@ def _backtrack_alignment(
         if j > 0:
             b_node = b_seq[j - 1]
             if i == 0:
-                if dist[i][j] == dist[i][j - 1] + 1:
+                if _cost_equal(dist[i][j], dist[i][j - 1] + cost_model.insert_cost(b_node)):
                     raw_steps.append(AlignmentStep(kind="insert", b_node=b_node))
                     j -= 1
                     continue
             else:
                 a_node = a_seq[i - 1]
-                if _insert_allowed(a_node, b_node, i=i, m=m) and dist[i][j] == dist[i][j - 1] + 1:
+                if _insert_allowed(a_node, b_node, i=i, m=m) and _cost_equal(
+                    dist[i][j], dist[i][j - 1] + cost_model.insert_cost(b_node)
+                ):
                     raw_steps.append(AlignmentStep(kind="insert", b_node=b_node))
+                    j -= 1
+                    continue
+
+        if i > 0 and j > 0:
+            a_node = a_seq[i - 1]
+            b_node = b_seq[j - 1]
+            if _update_allowed(a_node, b_node):
+                diag_cost = dist[i - 1][j - 1] + _node_update_cost(a_node, b_node, cost_model)
+                if _cost_equal(dist[i][j], diag_cost):
+                    raw_steps.append(
+                        AlignmentStep(kind="update", a_node=a_node, b_node=b_node)
+                    )
+                    i -= 1
                     j -= 1
                     continue
 
@@ -235,6 +279,7 @@ def compute_ted_chawathe(
     target_root: TreeNode,
     *,
     coerce_root_label: Optional[str] = None,
+    cost_model: CostModelInput = None,
 ) -> TedResult:
     """
     Compute Chawathe-style TED on the current TreeNode representation.
@@ -248,8 +293,9 @@ def compute_ted_chawathe(
 
     a_seq = chawathe_tree_to_ld_pairs(source)
     b_seq = chawathe_tree_to_ld_pairs(target)
-    dist = _compute_matrix(a_seq, b_seq)
-    steps = _backtrack_alignment(a_seq, b_seq, dist)
+    resolved_cost_model = get_cost_model(cost_model)
+    dist = _compute_matrix(a_seq, b_seq, resolved_cost_model)
+    steps = _backtrack_alignment(a_seq, b_seq, dist, resolved_cost_model)
     operations = _alignment_to_edit_ops(a_seq, steps)
 
     distance = dist[len(a_seq)][len(b_seq)]
@@ -272,6 +318,6 @@ def diff_trees(
     target_root: TreeNode,
     *,
     coerce_root_label: Optional[str] = None,
-) -> Tuple[int, float, List[EditOperation]]:
+) -> Tuple[float, float, List[EditOperation]]:
     result = compute_ted_chawathe(source_root, target_root, coerce_root_label=coerce_root_label)
     return result.distance, result.similarity, result.operations

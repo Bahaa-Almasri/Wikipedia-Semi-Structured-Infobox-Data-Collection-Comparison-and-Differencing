@@ -11,6 +11,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 import xml.etree.ElementTree as ET
 
+import plotly.express as px
 import requests
 import streamlit as st
 
@@ -340,6 +341,144 @@ def similarity_ranking_api(country: str, top_k: int = 5) -> Optional[Dict[str, L
         return None
 
 
+def run_vsm_preprocess(mode: str = "field", persist: bool = True) -> Optional[Dict[str, Any]]:
+    """POST /vsm/preprocess — build a TF-IDF index for VSM retrieval."""
+    try:
+        r = requests.post(
+            f"{WIKIINFOBOX_PREFIX}/vsm/preprocess",
+            json={"mode": mode, "persist": persist},
+            timeout=600,
+        )
+        r.raise_for_status()
+        return r.json()
+    except requests.RequestException:
+        return None
+
+
+def vsm_query_api(
+    query: str,
+    *,
+    top_k: int = 5,
+    metric: str = "cosine",
+    mode: str = "field",
+    features: Optional[List[str]] = None,
+) -> Optional[Dict[str, Any]]:
+    """POST /vsm/query — rank countries against a free-text query."""
+    try:
+        payload: Dict[str, Any] = {
+            "query": query,
+            "top_k": top_k,
+            "metric": metric,
+            "mode": mode,
+        }
+        if features:
+            payload["features"] = features
+        r = requests.post(f"{WIKIINFOBOX_PREFIX}/vsm/query", json=payload, timeout=180)
+        r.raise_for_status()
+        return r.json()
+    except requests.RequestException:
+        return None
+
+
+def vsm_similarity_api(
+    source_slug: str,
+    target_slug: str,
+    *,
+    metric: str = "cosine",
+    mode: str = "field",
+    features: Optional[List[str]] = None,
+) -> Optional[Dict[str, Any]]:
+    """POST /vsm/similarity — compare two country vectors."""
+    try:
+        payload: Dict[str, Any] = {
+            "source_slug": source_slug,
+            "target_slug": target_slug,
+            "metric": metric,
+            "mode": mode,
+        }
+        if features:
+            payload["features"] = features
+        r = requests.post(f"{WIKIINFOBOX_PREFIX}/vsm/similarity", json=payload, timeout=180)
+        r.raise_for_status()
+        return r.json()
+    except requests.RequestException:
+        return None
+
+
+def vsm_similarity_ranking_api(
+    country: str,
+    *,
+    top_k: int = 5,
+    metric: str = "cosine",
+    mode: str = "field",
+    features: Optional[List[str]] = None,
+) -> Optional[Dict[str, Any]]:
+    """POST /vsm/similarity-ranking — rank country vectors by similarity."""
+    try:
+        payload: Dict[str, Any] = {
+            "country": country,
+            "top_k": top_k,
+            "metric": metric,
+            "mode": mode,
+        }
+        if features:
+            payload["features"] = features
+        r = requests.post(
+            f"{WIKIINFOBOX_PREFIX}/vsm/similarity-ranking",
+            json=payload,
+            timeout=180,
+        )
+        r.raise_for_status()
+        return r.json()
+    except requests.RequestException:
+        return None
+
+
+def vsm_clustering_api(
+    *,
+    vector_source: str = "vsm",
+    algorithm: str = "kmeans",
+    distance: str = "cosine",
+    mode: str = "field",
+    country: Optional[str] = None,
+    features: Optional[List[str]] = None,
+    k: int = 5,
+    eps: float = 1.0,
+    min_pts: int = 3,
+    linkage: str = "average",
+    ted_algorithm: str = "chawathe",
+    cost_model: Optional[str] = None,
+    vsm_document_source: str = "comparison_fields",
+    max_df_ratio: float = 0.85,
+) -> Optional[Dict[str, Any]]:
+    """POST /vsm/clustering — cluster country vectors and return Plotly-ready points."""
+    try:
+        payload: Dict[str, Any] = {
+            "vector_source": vector_source,
+            "algorithm": algorithm,
+            "distance": distance,
+            "mode": mode,
+            "k": k,
+            "eps": eps,
+            "min_pts": min_pts,
+            "linkage": linkage,
+            "ted_algorithm": ted_algorithm,
+            "vsm_document_source": vsm_document_source,
+            "max_df_ratio": max_df_ratio,
+        }
+        if cost_model:
+            payload["cost_model"] = cost_model
+        if country:
+            payload["country"] = country
+        if features:
+            payload["features"] = features
+        r = requests.post(f"{WIKIINFOBOX_PREFIX}/vsm/clustering", json=payload, timeout=300)
+        r.raise_for_status()
+        return r.json()
+    except requests.RequestException:
+        return None
+
+
 # --- Semantic edit script (clean) display: structured diff + category summary ---
 
 
@@ -459,7 +598,7 @@ def summarize_raw_edit_script_ops_local(ops: List[Dict[str, Any]]) -> Dict[str, 
 def json_to_xml(data: Any, root_name: str = "root") -> str:
     """
     Convert JSON-like data (dict/list/scalar) to an XML string.
-    Intended for visualization only in the frontend (no backend calls).
+    Intended for visualization only in the streamlit (no backend calls).
     """
 
     def build_xml(element: ET.Element, value: Any) -> None:
@@ -614,8 +753,28 @@ section.main > div {
             else:
                 st.error("Preprocess failed or timed out. Check API logs.")
 
+        st.markdown("**VSM preprocessing**")
+        vsm_index_mode = st.radio(
+            "VSM index mode",
+            options=["field", "flat"],
+            index=0,
+            horizontal=True,
+            key="sidebar_vsm_mode",
+            help="Field mode keeps semi-structured field context; flat mode concatenates all terms.",
+        )
+        if st.button("Build VSM index", help="Build and persist a TF-IDF vector index."):
+            with st.spinner("Building VSM index…"):
+                result = run_vsm_preprocess(mode=vsm_index_mode, persist=True)
+            if result is not None:
+                st.success(
+                    f"Indexed {result.get('document_count', 0)} documents "
+                    f"with {result.get('vocabulary_size', 0)} terms."
+                )
+            else:
+                st.error("VSM index build failed or timed out. Check API logs.")
+
         st.divider()
-        st.caption("TED operations run against the backend + MongoDB.")
+        st.caption("TED and VSM operations run against the backend + MongoDB.")
 
     if not api_available():
         st.error(
@@ -632,7 +791,7 @@ section.main > div {
     slug_for_name = {name: slug for slug, name in index}
     all_display_names = [name for _, name in index]
 
-    main_tabs = st.tabs(["Comparison", "Country Similarity"])
+    main_tabs = st.tabs(["Comparison", "Country Similarity", "VSM Search", "Similarity Clustering"])
 
     # --- Tab 0: Comparison ---
     with main_tabs[0]:
@@ -1142,6 +1301,421 @@ section.main > div {
                     _render_ranking(chawathe_list, "Chawathe (LD-pair)")
                 with col_n:
                     _render_ranking(nj_list, "Nierman & Jagadish (NJ)")
+
+        st.markdown("---")
+        st.subheader("VSM Similarity")
+        st.caption("Rank countries by TF-IDF vector similarity using cosine or Pearson correlation.")
+        vsm_features = load_features()
+        vsm_metric = st.radio(
+            "VSM metric",
+            options=["cosine", "pcc"],
+            index=0,
+            horizontal=True,
+            key="vsm_similarity_metric",
+        )
+        vsm_mode = st.radio(
+            "VSM mode",
+            options=["field", "flat"],
+            index=0,
+            horizontal=True,
+            key="vsm_similarity_mode",
+        )
+        vsm_selected_features = st.multiselect(
+            "Restrict VSM to features (optional)",
+            options=vsm_features,
+            default=[],
+            key="vsm_similarity_features",
+        )
+        if st.button(
+            "Find Similar Countries with VSM",
+            key="btn_find_similar_vsm",
+            disabled=not sim_slug,
+            type="secondary",
+        ):
+            if not sim_slug:
+                st.warning("Please select a country first.")
+            else:
+                with st.spinner("Computing VSM similarity ranking…"):
+                    vsm_results = vsm_similarity_ranking_api(
+                        sim_slug,
+                        top_k=top_k,
+                        metric=vsm_metric,
+                        mode=vsm_mode,
+                        features=vsm_selected_features or None,
+                    )
+                if vsm_results is not None:
+                    st.session_state["vsm_sim_results"] = vsm_results
+                    st.session_state["vsm_sim_query_country"] = sim_selected
+                else:
+                    st.session_state.pop("vsm_sim_results", None)
+                    st.error("Failed to fetch VSM ranking. Check API logs.")
+
+        vsm_results = st.session_state.get("vsm_sim_results")
+        if isinstance(vsm_results, dict):
+            st.markdown(
+                f"**VSM most similar to {st.session_state.get('vsm_sim_query_country', '')}:**"
+            )
+            rank_list = vsm_results.get("results") or []
+            if not rank_list:
+                st.info("No VSM results found.")
+            else:
+                for i, item in enumerate(rank_list, 1):
+                    score = item.get("score", 0.0)
+                    score_str = f"{score:.4f}" if isinstance(score, (int, float)) else str(score)
+                    display = item.get("display_name") or item.get("country", "")
+                    terms = ", ".join(item.get("matched_terms") or [])
+                    suffix = f" | matched: {terms}" if terms else ""
+                    st.markdown(f"{i}. {display} — {score_str}{suffix}")
+
+    # --- Tab 2: VSM Search ---
+    with main_tabs[2]:
+        st.markdown("---")
+        st.header("VSM Search")
+        st.caption("Run a free-text TF-IDF query over the collected infobox documents.")
+
+        query_text = st.text_input(
+            "Query",
+            placeholder="e.g. capital Beirut, population density, GDP",
+            key="vsm_query_text",
+        )
+        q_col1, q_col2, q_col3 = st.columns(3)
+        with q_col1:
+            query_top_k = st.radio(
+                "Top results",
+                options=[5, 10, 20],
+                index=0,
+                horizontal=True,
+                key="vsm_query_top_k",
+            )
+        with q_col2:
+            query_metric = st.radio(
+                "Metric",
+                options=["cosine", "pcc"],
+                index=0,
+                horizontal=True,
+                key="vsm_query_metric",
+            )
+        with q_col3:
+            query_mode = st.radio(
+                "Mode",
+                options=["field", "flat"],
+                index=0,
+                horizontal=True,
+                key="vsm_query_mode",
+            )
+
+        query_features = st.multiselect(
+            "Restrict query to features (optional)",
+            options=load_features(),
+            default=[],
+            key="vsm_query_features",
+        )
+
+        if st.button(
+            "Search Documents",
+            key="btn_vsm_search",
+            disabled=not query_text.strip(),
+            type="primary",
+        ):
+            with st.spinner("Running VSM query…"):
+                result = vsm_query_api(
+                    query_text,
+                    top_k=query_top_k,
+                    metric=query_metric,
+                    mode=query_mode,
+                    features=query_features or None,
+                )
+            if result is not None:
+                st.session_state["vsm_query_result"] = result
+            else:
+                st.session_state.pop("vsm_query_result", None)
+                st.error("VSM query failed. Check API logs.")
+
+        query_result = st.session_state.get("vsm_query_result")
+        if isinstance(query_result, dict):
+            st.markdown("### Ranked Results")
+            st.caption(
+                f"Documents: {query_result.get('document_count', 0)} | "
+                f"Vocabulary: {query_result.get('vocabulary_size', 0)} | "
+                f"Metric: {query_result.get('metric')} | Mode: {query_result.get('mode')}"
+            )
+            rows = query_result.get("results") or []
+            if not rows:
+                st.info("No matching documents found.")
+            else:
+                for i, item in enumerate(rows, 1):
+                    score = item.get("score", 0.0)
+                    score_str = f"{score:.4f}" if isinstance(score, (int, float)) else str(score)
+                    terms = ", ".join(item.get("matched_terms") or [])
+                    st.markdown(
+                        f"{i}. **{item.get('display_name') or item.get('country')}** — {score_str}"
+                    )
+                    if terms:
+                        st.caption(f"Matched terms: {terms}")
+
+    # --- Tab 3: Similarity Clustering ---
+    with main_tabs[3]:
+        st.markdown("---")
+        st.header("Similarity Clustering")
+        st.caption("Cluster all countries using VSM vectors or TED similarity profiles.")
+
+        cluster_country_options = ["All countries"] + all_display_names
+        selected_cluster_name = st.selectbox(
+            "Highlight a country cluster",
+            options=cluster_country_options,
+            index=0,
+            key="vsm_cluster_country",
+        )
+        selected_cluster_slug = (
+            slug_for_name.get(selected_cluster_name)
+            if selected_cluster_name != "All countries"
+            else None
+        )
+
+        c_col0, c_col1, c_col2, c_col3 = st.columns(4)
+        with c_col0:
+            cluster_source = st.selectbox(
+                "Vector source",
+                options=["vsm", "ted"],
+                index=0,
+                key="vsm_cluster_source",
+                help="TED computes all-pairs tree similarities first, so it can be slower.",
+            )
+        with c_col1:
+            cluster_algorithm = st.selectbox(
+                "Algorithm",
+                options=["kmeans", "dbscan", "agglomerative"],
+                index=0,
+                key="vsm_cluster_algorithm",
+            )
+        with c_col2:
+            cluster_distance = st.selectbox(
+                "Distance",
+                options=["cosine", "euclidean", "manhattan"],
+                index=0,
+                key="vsm_cluster_distance",
+            )
+        with c_col3:
+            cluster_mode = st.selectbox(
+                "VSM mode",
+                options=["field", "flat"],
+                index=0,
+                key="vsm_cluster_mode",
+                disabled=cluster_source == "ted",
+            )
+
+        ted_col1, ted_col2 = st.columns(2)
+        with ted_col1:
+            cluster_ted_algorithm = st.selectbox(
+                "TED algorithm",
+                options=["chawathe", "nj", "zhang_shasha"],
+                index=0,
+                key="vsm_cluster_ted_algorithm",
+                disabled=cluster_source != "ted",
+            )
+        with ted_col2:
+            cluster_cost_model = st.selectbox(
+                "TED cost model",
+                options=["value_aware", "classic"],
+                index=0,
+                key="vsm_cluster_cost_model",
+                disabled=cluster_source != "ted" or cluster_ted_algorithm == "zhang_shasha",
+            )
+
+        vsm_tuning_col1, vsm_tuning_col2 = st.columns(2)
+        with vsm_tuning_col1:
+            cluster_vsm_document_source = st.selectbox(
+                "VSM document source",
+                options=["comparison_fields", "fields", "all"],
+                index=0,
+                key="vsm_cluster_document_source",
+                disabled=cluster_source == "ted",
+                help="Use curated comparison fields by default to avoid schema/noise double-counting.",
+            )
+        with vsm_tuning_col2:
+            cluster_max_df_ratio = st.slider(
+                "Max document-frequency ratio",
+                min_value=0.50,
+                max_value=1.00,
+                value=0.85,
+                step=0.05,
+                key="vsm_cluster_max_df_ratio",
+                disabled=cluster_source == "ted",
+                help="Terms appearing in more than this fraction of documents are pruned for VSM clustering.",
+            )
+
+        param_col1, param_col2, param_col3 = st.columns(3)
+        with param_col1:
+            cluster_k = st.number_input(
+                "K",
+                min_value=2,
+                max_value=50,
+                value=5,
+                step=1,
+                key="vsm_cluster_k",
+                disabled=cluster_algorithm == "dbscan",
+            )
+        with param_col2:
+            cluster_eps = st.number_input(
+                "DBSCAN epsilon",
+                min_value=0.01,
+                value=1.0,
+                step=0.1,
+                key="vsm_cluster_eps",
+                disabled=cluster_algorithm != "dbscan",
+            )
+        with param_col3:
+            cluster_min_pts = st.number_input(
+                "DBSCAN MinPts",
+                min_value=1,
+                max_value=50,
+                value=3,
+                step=1,
+                key="vsm_cluster_min_pts",
+                disabled=cluster_algorithm != "dbscan",
+            )
+
+        cluster_linkage = st.selectbox(
+            "Agglomerative linkage",
+            options=["single", "complete", "average"],
+            index=2,
+            key="vsm_cluster_linkage",
+            disabled=cluster_algorithm != "agglomerative",
+        )
+        cluster_features = st.multiselect(
+            "Restrict clustering to features (optional)",
+            options=load_features(),
+            default=[],
+            key="vsm_cluster_features",
+        )
+
+        if st.button("Run Clustering", key="btn_vsm_clustering", type="primary"):
+            spinner_label = (
+                "Computing TED similarities and clustering…"
+                if cluster_source == "ted"
+                else "Clustering VSM vectors…"
+            )
+            with st.spinner(spinner_label):
+                result = vsm_clustering_api(
+                    vector_source=cluster_source,
+                    algorithm=cluster_algorithm,
+                    distance=cluster_distance,
+                    mode=cluster_mode,
+                    country=selected_cluster_slug,
+                    features=cluster_features or None,
+                    k=int(cluster_k),
+                    eps=float(cluster_eps),
+                    min_pts=int(cluster_min_pts),
+                    linkage=cluster_linkage,
+                    ted_algorithm=cluster_ted_algorithm,
+                    cost_model=cluster_cost_model if cluster_source == "ted" else None,
+                    vsm_document_source=cluster_vsm_document_source,
+                    max_df_ratio=float(cluster_max_df_ratio),
+                )
+            if result is not None:
+                st.session_state["vsm_cluster_result"] = result
+            else:
+                st.session_state.pop("vsm_cluster_result", None)
+                st.error("Clustering failed. Check API logs.")
+
+        cluster_result = st.session_state.get("vsm_cluster_result")
+        if isinstance(cluster_result, dict):
+            metadata = cluster_result.get("metadata") or {}
+            st.caption(
+                f"Documents: {metadata.get('document_count', 0)} | "
+                f"Vocabulary: {metadata.get('vocabulary_size', 0)} | "
+                f"Source: {cluster_result.get('vector_source', 'vsm')} | "
+                f"Algorithm: {cluster_result.get('algorithm')} | "
+                f"Distance: {cluster_result.get('distance')} | "
+                f"Mode: {cluster_result.get('mode')} | "
+                f"Projection: {metadata.get('projection', metadata.get('layout', 'unknown'))}"
+            )
+            if metadata.get("projection_stress") is not None:
+                st.caption(
+                    "MDS stress: "
+                    f"{float(metadata.get('projection_stress', 0.0)):.4f} "
+                    "(lower means the 2D map preserves pairwise distances better)."
+                )
+
+            points = cluster_result.get("points") or []
+            if not points:
+                st.info("No cluster points returned.")
+            else:
+                plot_rows = []
+                for point in points:
+                    cluster_id = point.get("cluster_id")
+                    plot_rows.append(
+                        {
+                            **point,
+                            "cluster_label": "Noise" if point.get("is_noise") else f"Cluster {cluster_id}",
+                            "marker_type": "Selected" if point.get("is_selected") else "Country",
+                            "marker_size": 15 if point.get("is_selected") else 8,
+                            "top_similar_display": ", ".join(
+                                item.get("display_name", item.get("country", ""))
+                                for item in (point.get("top_similar") or [])[:5]
+                            ),
+                        }
+                    )
+                fig = px.scatter(
+                    plot_rows,
+                    x="x",
+                    y="y",
+                    color="cluster_label",
+                    symbol="marker_type",
+                    size="marker_size",
+                    hover_name="display_name",
+                    hover_data={
+                        "country": True,
+                        "cluster_id": True,
+                        "is_noise": True,
+                        "top_similar_display": True,
+                        "x": ":.4f",
+                        "y": ":.4f",
+                        "marker_size": False,
+                        "marker_type": False,
+                    },
+                    title="Country Similarity Clusters",
+                )
+                fig.update_layout(
+                    legend_title_text="Cluster",
+                    xaxis_title="MDS dimension 1",
+                    yaxis_title="MDS dimension 2",
+                    xaxis={
+                        "showgrid": False,
+                        "zeroline": False,
+                    },
+                    yaxis={
+                        "showgrid": False,
+                        "zeroline": False,
+                        "scaleanchor": "x",
+                        "scaleratio": 1,
+                    },
+                )
+                st.plotly_chart(fig, use_container_width=True)
+
+            selected_cluster = cluster_result.get("selected_cluster")
+            if selected_cluster:
+                st.markdown("### Selected Country Cluster")
+                names = selected_cluster.get("display_names") or selected_cluster.get("countries") or []
+                st.write(", ".join(names))
+                terms = selected_cluster.get("centroid_terms") or []
+                if terms:
+                    st.caption(f"Representative terms: {', '.join(terms)}")
+
+            clusters = cluster_result.get("clusters") or []
+            if clusters:
+                st.markdown("### Cluster Summary")
+                summary_rows = [
+                    {
+                        "cluster_id": cluster.get("cluster_id"),
+                        "size": cluster.get("size"),
+                        "is_noise": cluster.get("is_noise"),
+                        "representative_terms": ", ".join(cluster.get("centroid_terms") or []),
+                        "countries": ", ".join(cluster.get("display_names") or cluster.get("countries") or []),
+                    }
+                    for cluster in clusters
+                ]
+                st.dataframe(summary_rows, use_container_width=True, hide_index=True)
 
 
 if __name__ == "__main__":

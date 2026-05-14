@@ -1,9 +1,20 @@
+"""Shared helpers for TED algorithms (Chawathe, NJ, Zhang–Shasha)."""
 from __future__ import annotations
 
 from typing import List, Sequence, Set
 
 from domain.models.edit_script import LDPairNode
 from domain.models.tree import TreeNode
+
+
+
+def clone_tree(node: TreeNode) -> TreeNode:
+    """Deep-clone a TreeNode. Used by both Chawathe and NJ algorithms."""
+    return TreeNode(
+        label=node.label,
+        value=node.value,
+        children=[clone_tree(child) for child in node.children],
+    )
 
 
 class TreeValidationError(ValueError):

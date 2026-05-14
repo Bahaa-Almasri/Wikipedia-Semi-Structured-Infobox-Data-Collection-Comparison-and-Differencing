@@ -30,6 +30,10 @@ def _get_collection() -> "Collection":
     return _get_db()[MONGO.collection]
 
 
+def _get_vsm_collection() -> "Collection":
+    return _get_db()[f"{MONGO.collection}_vsm"]
+
+
 def iso_now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
@@ -47,6 +51,18 @@ def read_json_document(slug: str) -> Optional[Dict]:
     if doc is None:
         return None
     return {k: v for k, v in doc.items() if k != "_id"}
+
+
+def read_all_json_documents() -> Dict[str, Dict]:
+    """Load all country documents keyed by slug from MongoDB."""
+    coll = _get_collection()
+    result: Dict[str, Dict] = {}
+    for doc in coll.find({}):
+        slug = str(doc.get("_id") or "")
+        if not slug:
+            continue
+        result[slug] = {k: v for k, v in doc.items() if k != "_id"}
+    return result
 
 
 def read_tree_document(slug: str) -> Optional[Dict]:
@@ -81,3 +97,18 @@ def write_tree_document(slug: str, document: Dict) -> None:
         {"$set": {"tree": document}},
         upsert=False,
     )
+
+
+def read_vsm_index(index_name: str) -> Optional[Dict]:
+    """Load a persisted VSM index document by name."""
+    coll = _get_vsm_collection()
+    doc = coll.find_one({"_id": index_name})
+    if doc is None:
+        return None
+    return {k: v for k, v in doc.items() if k != "_id"}
+
+
+def write_vsm_index(index_name: str, index: Dict) -> None:
+    """Persist a VSM index in a sibling collection."""
+    coll = _get_vsm_collection()
+    coll.replace_one({"_id": index_name}, {"_id": index_name, **index}, upsert=True)
