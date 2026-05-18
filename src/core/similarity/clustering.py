@@ -10,16 +10,18 @@ from domain.models.tree import TreeNode
 from domain.models.vsm import (
     SparseVector,
     VSMClusterPoint,
+    VSMClusterMerge,
     VSMClusterSummary,
     VSMClusteringResult,
     VSMIndex,
 )
 
 
-SUPPORTED_CLUSTER_ALGORITHMS = {"kmeans", "dbscan", "agglomerative"}
+SUPPORTED_CLUSTER_ALGORITHMS = {"kmeans", "agglomerative"}
 SUPPORTED_CLUSTER_DISTANCES = {"euclidean", "manhattan", "cosine"}
 SUPPORTED_AGGLOMERATIVE_LINKAGES = {"single", "complete", "average"}
-SUPPORTED_CLUSTER_PROJECTIONS = {"mds", "pca"}
+SUPPORTED_AGGLOMERATIVE_STOPPING_RULES = {"none", "cluster_count", "similarity_threshold"}
+SUPPORTED_CLUSTER_PROJECTIONS = {"pca"}
 
 DistanceFn = Callable[[Mapping[str, float], Mapping[str, float]], float]
 
@@ -70,11 +72,8 @@ def distance_function(name: str) -> DistanceFn:
 
 
 def normalize_cluster_projection(name: str) -> str:
-    normalized = (name or "mds").strip().lower()
+    normalized = (name or "pca").strip().lower()
     aliases = {
-        "mds": "mds",
-        "classical_mds": "mds",
-        "metric_mds": "mds",
         "pca": "pca",
         "principal_components": "pca",
     }
@@ -95,19 +94,61 @@ def _mean_vector(vectors: Sequence[Mapping[str, float]]) -> SparseVector:
     return {term: total / denom for term, total in totals.items() if total != 0.0}
 
 
+def _median_vector(vectors: Sequence[Mapping[str, float]]) -> SparseVector:
+    if not vectors:
+        return {}
+    terms = set()
+    for vector in vectors:
+        terms.update(vector)
+    median: SparseVector = {}
+    count = len(vectors)
+    for term in terms:
+        values = sorted(vector.get(term, 0.0) for vector in vectors)
+        if count % 2 == 1:
+            median[term] = values[count // 2]
+        else:
+            median[term] = (values[count // 2 - 1] + values[count // 2]) / 2.0
+    return {term: weight for term, weight in median.items() if weight != 0.0}
+
+
+def _kmeans_normalize_vectors(distance: str, normalize_vectors: Optional[bool]) -> bool:
+    if normalize_vectors is not None:
+        return normalize_vectors
+    return distance == "cosine"
+
+
+def _cluster_centroid(
+    members: Sequence[SparseVector],
+    *,
+    distance: str,
+    normalize_vectors: bool,
+) -> SparseVector:
+    if not members:
+        return {}
+    if distance == "manhattan":
+        return _median_vector(members)
+    centroid = _mean_vector(members)
+    if normalize_vectors:
+        centroid = _l2_normalize_vector(centroid)
+    return centroid
+
+
 def _closest_centroid(
     vector: Mapping[str, float],
     centroids: Sequence[Mapping[str, float]],
     dist: DistanceFn,
+    rng: random.Random,
 ) -> int:
-    best_idx = 0
+    tied: List[int] = [0]
     best_distance = float("inf")
     for idx, centroid in enumerate(centroids):
         current = dist(vector, centroid)
-        if current < best_distance:
-            best_idx = idx
+        if current < best_distance - 1e-15:
             best_distance = current
-    return best_idx
+            tied = [idx]
+        elif math.isclose(current, best_distance, rel_tol=1e-12, abs_tol=1e-12):
+            tied.append(idx)
+    return tied[0] if len(tied) == 1 else rng.choice(tied)
 
 
 def kmeans(
@@ -117,12 +158,14 @@ def kmeans(
     distance: str = "cosine",
     max_iter: int = 100,
     seed: int = 13,
-    normalize_vectors: bool = True,
+    normalize_vectors: Optional[bool] = None,
 ) -> List[int]:
     if not vectors:
         return []
+    distance = (distance or "cosine").strip().lower()
+    normalize = _kmeans_normalize_vectors(distance, normalize_vectors)
     working_vectors = [
-        _l2_normalize_vector(vector) if normalize_vectors else dict(vector)
+        _l2_normalize_vector(vector) if normalize else dict(vector)
         for vector in vectors
     ]
     k = max(1, min(int(k), len(vectors)))
@@ -135,7 +178,7 @@ def kmeans(
     for _ in range(max_iter):
         changed = False
         for idx, vector in enumerate(working_vectors):
-            label = _closest_centroid(vector, centroids, dist)
+            label = _closest_centroid(vector, centroids, dist, rng)
             if labels[idx] != label:
                 labels[idx] = label
                 changed = True
@@ -147,9 +190,11 @@ def kmeans(
         new_centroids: List[SparseVector] = []
         for idx in range(k):
             if grouped[idx]:
-                centroid = _mean_vector(grouped[idx])
-                if normalize_vectors:
-                    centroid = _l2_normalize_vector(centroid)
+                centroid = _cluster_centroid(
+                    grouped[idx],
+                    distance=distance,
+                    normalize_vectors=normalize,
+                )
                 new_centroids.append(centroid)
             else:
                 new_centroids.append(centroids[idx])
@@ -159,145 +204,177 @@ def kmeans(
     return labels
 
 
-def _region_query(
-    vectors: Sequence[SparseVector],
-    point_idx: int,
+def _distance_to_similarity(distance_value: float, distance_name: str) -> float:
+    if distance_name == "cosine":
+        return max(0.0, min(1.0, 1.0 - distance_value))
+    return 1.0 / (1.0 + max(0.0, distance_value))
+
+
+def _similarity_matrix_from_distances(
+    distance_matrix: Sequence[Sequence[float]],
     *,
-    eps: float,
-    dist: DistanceFn,
-) -> List[int]:
-    point = vectors[point_idx]
-    return [
-        idx
-        for idx, vector in enumerate(vectors)
-        if dist(point, vector) <= eps
-    ]
+    distance_name: str,
+) -> List[List[float]]:
+    n = len(distance_matrix)
+    matrix = [[0.0] * n for _ in range(n)]
+    for i in range(n):
+        matrix[i][i] = 1.0
+        for j in range(i + 1, n):
+            value = _distance_to_similarity(distance_matrix[i][j], distance_name)
+            matrix[i][j] = value
+            matrix[j][i] = value
+    return matrix
 
 
-def dbscan(
-    vectors: Sequence[SparseVector],
-    *,
-    eps: float,
-    min_pts: int,
-    distance: str = "euclidean",
-) -> List[int]:
-    if not vectors:
-        return []
-    dist = distance_function(distance)
-    min_pts = max(1, int(min_pts))
-    labels = [-99] * len(vectors)  # unvisited
-    cluster_id = 0
-
-    for point_idx in range(len(vectors)):
-        if labels[point_idx] != -99:
-            continue
-        neighbors = _region_query(vectors, point_idx, eps=eps, dist=dist)
-        if len(neighbors) < min_pts:
-            labels[point_idx] = -1
-            continue
-
-        labels[point_idx] = cluster_id
-        seeds = [idx for idx in neighbors if idx != point_idx]
-        cursor = 0
-        while cursor < len(seeds):
-            neighbor_idx = seeds[cursor]
-            if labels[neighbor_idx] == -1:
-                labels[neighbor_idx] = cluster_id
-            if labels[neighbor_idx] != -99:
-                cursor += 1
-                continue
-
-            labels[neighbor_idx] = cluster_id
-            neighbor_neighbors = _region_query(vectors, neighbor_idx, eps=eps, dist=dist)
-            if len(neighbor_neighbors) >= min_pts:
-                for candidate in neighbor_neighbors:
-                    if candidate not in seeds:
-                        seeds.append(candidate)
-            cursor += 1
-        cluster_id += 1
-
-    return labels
-
-
-def _cluster_distance(
-    left: Sequence[int],
-    right: Sequence[int],
-    pairwise: Mapping[Tuple[int, int], float],
+def _cluster_pair_similarity(
+    left_members: Sequence[int],
+    right_members: Sequence[int],
+    similarity_matrix: Sequence[Sequence[float]],
     *,
     linkage: str,
 ) -> float:
-    distances = [
-        pairwise[(min(i, j), max(i, j))]
-        for i in left
-        for j in right
+    values = [
+        similarity_matrix[left_idx][right_idx]
+        for left_idx in left_members
+        for right_idx in right_members
     ]
+    if not values:
+        return 0.0
     if linkage == "single":
-        return min(distances)
+        return max(values)
     if linkage == "complete":
-        return max(distances)
+        return min(values)
     if linkage == "average":
-        return sum(distances) / len(distances)
+        return sum(values) / len(values)
     raise ValueError(f"Unsupported agglomerative linkage '{linkage}'.")
+
+
+def _labels_from_active_clusters(
+    active_ids: Sequence[int],
+    clusters: Mapping[int, Sequence[int]],
+    n: int,
+) -> List[int]:
+    labels = [-1] * n
+    for label, cluster_id in enumerate(sorted(active_ids)):
+        for member_idx in clusters[cluster_id]:
+            labels[member_idx] = label
+    return labels
 
 
 def agglomerative(
     vectors: Sequence[SparseVector],
     *,
-    k: int,
-    distance: str = "euclidean",
+    slugs: Optional[Sequence[str]] = None,
+    distance: str = "cosine",
     linkage: str = "average",
-) -> List[int]:
-    if not vectors:
-        return []
+    stopping_rule: str = "none",
+    target_clusters: Optional[int] = None,
+    similarity_threshold: Optional[float] = None,
+) -> Tuple[List[int], List[VSMClusterMerge], Dict[str, Any]]:
+    """Bottom-up hierarchical clustering using the chapter's similarity link rules."""
+    n = len(vectors)
+    if n == 0:
+        return [], [], {"stopping_reason": "empty"}
+
+    distance = (distance or "cosine").strip().lower()
+    linkage = (linkage or "average").strip().lower()
+    stopping_rule = (stopping_rule or "none").strip().lower()
     if linkage not in SUPPORTED_AGGLOMERATIVE_LINKAGES:
         raise ValueError(f"Unsupported agglomerative linkage '{linkage}'.")
-    k = max(1, min(int(k), len(vectors)))
-    dist = distance_function(distance)
-    pairwise = {
-        (i, j): dist(vectors[i], vectors[j])
-        for i in range(len(vectors))
-        for j in range(i, len(vectors))
-    }
-    clusters: List[List[int]] = [[idx] for idx in range(len(vectors))]
+    if stopping_rule not in SUPPORTED_AGGLOMERATIVE_STOPPING_RULES:
+        raise ValueError(f"Unsupported agglomerative stopping rule '{stopping_rule}'.")
 
-    while len(clusters) > k:
-        best_pair = (0, 1)
-        best_distance = float("inf")
-        for i in range(len(clusters)):
-            for j in range(i + 1, len(clusters)):
-                current = _cluster_distance(
-                    clusters[i],
-                    clusters[j],
-                    pairwise,
+    desired_clusters = None
+    threshold = None
+    if stopping_rule == "cluster_count":
+        desired_clusters = max(1, min(int(target_clusters or 1), n))
+    elif stopping_rule == "similarity_threshold":
+        threshold = max(0.0, min(1.0, float(similarity_threshold or 0.0)))
+
+    slug_list = list(slugs or [str(idx) for idx in range(n)])
+    distance_matrix = pairwise_distance_matrix(vectors, distance=distance)
+    similarity_matrix = _similarity_matrix_from_distances(
+        distance_matrix,
+        distance_name=distance,
+    )
+
+    clusters: Dict[int, List[int]] = {idx: [idx] for idx in range(n)}
+    active = list(range(n))
+    next_cluster_id = n
+    merges: List[VSMClusterMerge] = []
+    stopped_labels: Optional[List[int]] = None
+    stopping_reason = "single_cluster"
+
+    while len(active) > 1:
+        best_pair: Optional[Tuple[int, int]] = None
+        best_similarity = -1.0
+        ordered_active = sorted(active)
+        for pos, left_id in enumerate(ordered_active):
+            for right_id in ordered_active[pos + 1:]:
+                current = _cluster_pair_similarity(
+                    clusters[left_id],
+                    clusters[right_id],
+                    similarity_matrix,
                     linkage=linkage,
                 )
-                if current < best_distance:
-                    best_distance = current
-                    best_pair = (i, j)
+                if (
+                    current > best_similarity + 1e-15
+                    or (
+                        math.isclose(current, best_similarity, rel_tol=1e-12, abs_tol=1e-12)
+                        and (best_pair is None or (left_id, right_id) < best_pair)
+                    )
+                ):
+                    best_similarity = current
+                    best_pair = (left_id, right_id)
 
-        left, right = best_pair
-        clusters[left] = sorted([*clusters[left], *clusters[right]])
-        del clusters[right]
+        if best_pair is None:
+            break
 
-    labels = [-1] * len(vectors)
-    for cluster_id, members in enumerate(sorted(clusters, key=lambda c: c[0])):
-        for idx in members:
-            labels[idx] = cluster_id
-    return labels
+        if stopped_labels is None:
+            if desired_clusters is not None and len(active) <= desired_clusters:
+                stopped_labels = _labels_from_active_clusters(active, clusters, n)
+                stopping_reason = "cluster_count"
+            elif threshold is not None and best_similarity < threshold:
+                stopped_labels = _labels_from_active_clusters(active, clusters, n)
+                stopping_reason = "similarity_threshold"
 
+        left_id, right_id = best_pair
+        merged_members = sorted(clusters[left_id] + clusters[right_id])
+        clusters[next_cluster_id] = merged_members
+        active = [
+            cluster_id
+            for cluster_id in active
+            if cluster_id not in {left_id, right_id}
+        ]
+        active.append(next_cluster_id)
+        merges.append(
+            VSMClusterMerge(
+                step=len(merges) + 1,
+                left=left_id,
+                right=right_id,
+                new_cluster=next_cluster_id,
+                similarity=best_similarity,
+                distance=1.0 - best_similarity,
+                size=len(merged_members),
+                members=[slug_list[idx] for idx in merged_members],
+            )
+        )
+        next_cluster_id += 1
 
-def _term_variances(index: VSMIndex, slugs: Sequence[str]) -> List[Tuple[float, str]]:
-    variances: List[Tuple[float, str]] = []
-    n = len(slugs)
-    if n == 0:
-        return []
-    for term in index.vocabulary:
-        values = [index.doc_vectors[slug].get(term, 0.0) for slug in slugs]
-        mean = sum(values) / n
-        variance = sum((value - mean) ** 2 for value in values) / n
-        variances.append((variance, term))
-    variances.sort(reverse=True)
-    return variances
+    if stopped_labels is None:
+        stopped_labels = _labels_from_active_clusters(active, clusters, n)
+
+    metadata = {
+        "linkage": linkage,
+        "stopping_rule": stopping_rule,
+        "stopping_reason": stopping_reason,
+        "target_clusters": desired_clusters,
+        "similarity_threshold": threshold,
+        "merge_count": len(merges),
+        "dendrogram_height": max((merge.distance for merge in merges), default=0.0),
+    }
+    return stopped_labels, merges, metadata
+
 
 
 def _matvec(matrix: Sequence[Sequence[float]], vector: Sequence[float]) -> List[float]:
@@ -306,10 +383,6 @@ def _matvec(matrix: Sequence[Sequence[float]], vector: Sequence[float]) -> List[
 
 def _dot(left: Sequence[float], right: Sequence[float]) -> float:
     return sum(a * b for a, b in zip(left, right))
-
-
-def _euclidean_coords(left: Tuple[float, float], right: Tuple[float, float]) -> float:
-    return math.sqrt((left[0] - right[0]) ** 2 + (left[1] - right[1]) ** 2)
 
 
 def _top_eigenpair(
@@ -323,6 +396,9 @@ def _top_eigenpair(
     if n == 0:
         return 0.0, []
 
+    # Shifted power iteration stabilizes the dominant eigenvector for PCA Gram matrices.
+    spectral_bound = max((sum(abs(value) for value in row) for row in matrix), default=0.0)
+    shift = spectral_bound + 1e-9
     vector = [math.sin((idx + 1) * (component + 1.37)) for idx in range(n)]
     norm = math.sqrt(_dot(vector, vector))
     if norm == 0.0:
@@ -330,7 +406,10 @@ def _top_eigenpair(
     vector = [value / norm for value in vector]
 
     for _ in range(max_iter):
-        next_vector = _matvec(matrix, vector)
+        next_vector = [
+            value + shift * vector[idx]
+            for idx, value in enumerate(_matvec(matrix, vector))
+        ]
         next_norm = math.sqrt(_dot(next_vector, next_vector))
         if next_norm == 0.0:
             return 0.0, [0.0] * n
@@ -374,56 +453,6 @@ def pairwise_distance_matrix(
             matrix[i][j] = value
             matrix[j][i] = value
     return matrix
-
-
-def project_mds(
-    slugs: Sequence[str],
-    distance_matrix: Sequence[Sequence[float]],
-) -> Tuple[Dict[str, Tuple[float, float]], float]:
-    """
-    Classical metric MDS over a pairwise distance matrix.
-
-    Coordinates are chosen so Euclidean distance in the plot approximates the
-    supplied country distances.
-    """
-    n = len(slugs)
-    if n == 0:
-        return {}, 0.0
-    if n == 1:
-        return {slugs[0]: (0.0, 0.0)}, 0.0
-
-    squared = [[distance_matrix[i][j] ** 2 for j in range(n)] for i in range(n)]
-    row_means = [sum(row) / n for row in squared]
-    total_mean = sum(row_means) / n
-    centered = [
-        [
-            -0.5 * (squared[i][j] - row_means[i] - row_means[j] + total_mean)
-            for j in range(n)
-        ]
-        for i in range(n)
-    ]
-
-    first_value, first_vector = _top_eigenpair(centered, component=0)
-    deflated = _deflate(centered, first_value, first_vector) if first_value > 0 else centered
-    second_value, second_vector = _top_eigenpair(deflated, component=1)
-
-    x_scale = math.sqrt(max(first_value, 0.0))
-    y_scale = math.sqrt(max(second_value, 0.0))
-    coordinates = {
-        slug: (x_scale * first_vector[idx], y_scale * second_vector[idx])
-        for idx, slug in enumerate(slugs)
-    }
-
-    numerator = 0.0
-    denominator = 0.0
-    for i in range(n):
-        for j in range(i + 1, n):
-            original = distance_matrix[i][j]
-            projected = _euclidean_coords(coordinates[slugs[i]], coordinates[slugs[j]])
-            numerator += (original - projected) ** 2
-            denominator += original ** 2
-    stress = math.sqrt(numerator / denominator) if denominator > 0.0 else 0.0
-    return coordinates, stress
 
 
 def _centered_dense_rows(
@@ -501,51 +530,31 @@ def project_cluster_coordinates(
     slugs: Sequence[str],
     vectors: Sequence[Mapping[str, float]],
     *,
-    projection: str = "mds",
-    distance: str = "cosine",
     vocabulary: Optional[Sequence[str]] = None,
 ) -> Tuple[Dict[str, Tuple[float, float]], Dict[str, Any]]:
-    projection_name = normalize_cluster_projection(projection)
-    if projection_name == "pca":
-        vocab = list(vocabulary or [])
-        if not vocab:
-            terms = set()
-            for vector in vectors:
-                terms.update(vector)
-            vocab = sorted(terms)
-        coordinates, pca_meta = project_pca(slugs, vectors, vocab)
-        metadata: Dict[str, Any] = {
-            "layout": "pca",
-            "projection": "pca",
-            "projection_stress": None,
-            **pca_meta,
-        }
-        return coordinates, metadata
-
-    distance_matrix = pairwise_distance_matrix(vectors, distance=distance)
-    coordinates, stress = project_mds(slugs, distance_matrix)
-    return coordinates, {
-        "layout": "mds",
-        "projection": "classical_mds",
-        "projection_stress": stress,
-        "explained_variance_ratio_pc1": None,
-        "explained_variance_ratio_pc2": None,
+    vocab = list(vocabulary or [])
+    if not vocab:
+        terms = set()
+        for vector in vectors:
+            terms.update(vector)
+        vocab = sorted(terms)
+    coordinates, pca_meta = project_pca(slugs, vectors, vocab)
+    metadata: Dict[str, Any] = {
+        "layout": "pca",
+        "projection": "pca",
+        **pca_meta,
     }
+    return coordinates, metadata
 
 
 def project_2d(
     index: VSMIndex,
     slugs: Sequence[str],
-    *,
-    distance: str = "cosine",
-    projection: str = "mds",
 ) -> Dict[str, Tuple[float, float]]:
     vectors = [index.doc_vectors[slug] for slug in slugs]
     coordinates, _metadata = project_cluster_coordinates(
         slugs,
         vectors,
-        projection=projection,
-        distance=distance,
         vocabulary=index.vocabulary,
     )
     return coordinates
@@ -646,6 +655,8 @@ def _cluster_members(labels: Sequence[int]) -> Dict[int, List[int]]:
     return dict(groups)
 
 
+
+
 def _centroid_terms(
     index: VSMIndex,
     slugs: Sequence[str],
@@ -656,7 +667,6 @@ def _centroid_terms(
     terms = [
         term
         for term, _weight in sorted(centroid.items(), key=lambda item: item[1], reverse=True)
-        if ":" not in term
     ]
     return terms[:limit]
 
@@ -699,19 +709,17 @@ def cluster_vsm_index(
     *,
     algorithm: str = "kmeans",
     distance: str = "cosine",
-    projection: str = "mds",
     selected_country: Optional[str] = None,
     k: int = 5,
-    eps: float = 1.0,
-    min_pts: int = 3,
-    linkage: str = "average",
     max_iter: int = 100,
     seed: int = 13,
-    normalize_kmeans: bool = True,
+    normalize_kmeans: Optional[bool] = None,
+    linkage: str = "average",
+    stopping_rule: str = "none",
+    similarity_threshold: Optional[float] = None,
 ) -> VSMClusteringResult:
     algorithm = (algorithm or "kmeans").strip().lower()
     distance = (distance or "cosine").strip().lower()
-    projection_name = normalize_cluster_projection(projection)
     if algorithm not in SUPPORTED_CLUSTER_ALGORITHMS:
         raise ValueError(f"Unsupported clustering algorithm '{algorithm}'.")
     if distance not in SUPPORTED_CLUSTER_DISTANCES:
@@ -719,30 +727,45 @@ def cluster_vsm_index(
 
     slugs = sorted(index.doc_vectors)
     vectors = [index.doc_vectors[slug] for slug in slugs]
-    clustering_vectors = [
-        _l2_normalize_vector(vector) if algorithm == "kmeans" and normalize_kmeans else dict(vector)
-        for vector in vectors
-    ]
+    merges: List[VSMClusterMerge] = []
+    algorithm_metadata: Dict[str, Any] = {}
     if algorithm == "kmeans":
+        l2_normalized = _kmeans_normalize_vectors(distance, normalize_kmeans)
+        clustering_vectors = [
+            _l2_normalize_vector(vector) if l2_normalized else dict(vector)
+            for vector in vectors
+        ]
+        k_used = max(1, min(int(k), len(vectors)))
         labels = kmeans(
             vectors,
-            k=k,
+            k=k_used,
             distance=distance,
             max_iter=max_iter,
             seed=seed,
-            normalize_vectors=normalize_kmeans,
+            normalize_vectors=l2_normalized,
         )
-    elif algorithm == "dbscan":
-        labels = dbscan(vectors, eps=eps, min_pts=min_pts, distance=distance)
+        algorithm_metadata = {
+            "k": k_used,
+            "l2_normalized_kmeans": l2_normalized,
+        }
+    elif algorithm == "agglomerative":
+        clustering_vectors = [dict(vector) for vector in vectors]
+        labels, merges, algorithm_metadata = agglomerative(
+            clustering_vectors,
+            slugs=slugs,
+            distance=distance,
+            linkage=linkage,
+            stopping_rule=stopping_rule,
+            target_clusters=k,
+            similarity_threshold=similarity_threshold,
+        )
     else:
-        labels = agglomerative(vectors, k=k, distance=distance, linkage=linkage)
+        raise ValueError(f"Unsupported clustering algorithm '{algorithm}'.")
 
     distance_matrix = pairwise_distance_matrix(clustering_vectors, distance=distance)
     projection, projection_metadata = project_cluster_coordinates(
         slugs,
         clustering_vectors,
-        projection=projection_name,
-        distance=distance,
         vocabulary=index.vocabulary,
     )
     top_similar = _nearest_neighbors(
@@ -792,6 +815,10 @@ def cluster_vsm_index(
         (cluster for cluster in clusters if cluster.cluster_id == selected_cluster_id),
         None,
     )
+    cluster_groups = _cluster_members(labels)
+    non_noise_groups = {
+        label: members for label, members in cluster_groups.items() if label >= 0
+    }
 
     return VSMClusteringResult(
         algorithm=algorithm,
@@ -803,14 +830,20 @@ def cluster_vsm_index(
         metadata={
             "document_count": len(slugs),
             "vocabulary_size": len(index.vocabulary),
-            "k": k,
-            "eps": eps,
-            "min_pts": min_pts,
-            "linkage": linkage,
+            "cluster_count": len(non_noise_groups),
+            "noise_count": len(cluster_groups.get(-1, [])),
+            "singleton_cluster_count": sum(
+                1 for members in non_noise_groups.values() if len(members) == 1
+            ),
+            "largest_cluster_size": max(
+                (len(members) for members in non_noise_groups.values()),
+                default=0,
+            ),
             "selected_country": selected_country,
-            "l2_normalized_kmeans": normalize_kmeans if algorithm == "kmeans" else False,
             "projection_distance": distance,
             "nearest_neighbor_count": 5,
+            **algorithm_metadata,
             **projection_metadata,
         },
+        merges=merges,
     )

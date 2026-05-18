@@ -147,6 +147,30 @@ class VSMClusterSummary:
 
 
 @dataclass(frozen=True)
+class VSMClusterMerge:
+    step: int
+    left: int
+    right: int
+    new_cluster: int
+    similarity: float
+    distance: float
+    size: int
+    members: List[str] = field(default_factory=list)
+
+    def to_dict(self) -> Dict[str, Any]:
+        return {
+            "step": self.step,
+            "left": self.left,
+            "right": self.right,
+            "new_cluster": self.new_cluster,
+            "similarity": self.similarity,
+            "distance": self.distance,
+            "size": self.size,
+            "members": list(self.members),
+        }
+
+
+@dataclass(frozen=True)
 class VSMClusteringResult:
     algorithm: str
     distance: str
@@ -154,6 +178,7 @@ class VSMClusteringResult:
     points: List[VSMClusterPoint]
     clusters: List[VSMClusterSummary]
     selected_cluster: VSMClusterSummary | None = None
+    merges: List[VSMClusterMerge] = field(default_factory=list)
     metadata: Dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> Dict[str, Any]:
@@ -166,5 +191,6 @@ class VSMClusteringResult:
             "selected_cluster": (
                 self.selected_cluster.to_dict() if self.selected_cluster is not None else None
             ),
+            "merges": [merge.to_dict() for merge in self.merges],
             "metadata": dict(self.metadata),
         }

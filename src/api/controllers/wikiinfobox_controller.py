@@ -23,6 +23,7 @@ from application.services.wikiinfobox_service import (
     recommend_country_matches,
     run_build_trees,
     run_collect_pipeline,
+    run_ted_preprocess,
     run_vsm_preprocess,
     similarity_ranking_both,
     submit_guess_answer,
@@ -407,26 +408,57 @@ def _positive_float_from_body(body: Dict[str, Any], key: str, *, default: float)
     return parsed
 
 
-def _ratio_from_body(body: Dict[str, Any], key: str, *, default: float) -> float:
-    value = body.get(key, default)
+def _optional_positive_float_from_body(body: Dict[str, Any], key: str) -> Optional[float]:
+    if key not in body or body.get(key) is None:
+        return None
     try:
-        parsed = float(value)
+        parsed = float(body[key])
     except (TypeError, ValueError):
-        return default
-    if parsed <= 0.0 or parsed > 1.0:
-        return default
+        return None
+    if parsed <= 0:
+        return None
     return parsed
+
+
+def _optional_unit_float_from_body(body: Dict[str, Any], key: str) -> Optional[float]:
+    if key not in body or body.get(key) is None:
+        return None
+    try:
+        parsed = float(body[key])
+    except (TypeError, ValueError):
+        return None
+    return max(0.0, min(1.0, parsed))
+
+
+@router.post("/ted/preprocess", response_model=Dict[str, Any])
+def post_ted_preprocess(body: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Build/persist TED similarity-profile indexes for clustering.
+    Body: { "algorithms": ["chawathe", "nj"], "persist": bool, "cost_model": optional }.
+    """
+    try:
+        algorithms = body.get("algorithms")
+        if algorithms is not None and not isinstance(algorithms, list):
+            raise HTTPException(status_code=400, detail="'algorithms' must be a list")
+        return run_ted_preprocess(
+            algorithms=algorithms,
+            persist=bool(body.get("persist", True)),
+            cost_model=body.get("cost_model"),
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
 
 
 @router.post("/vsm/preprocess", response_model=Dict[str, Any])
 def post_vsm_preprocess(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Build/persist a TF-IDF VSM index.
-    Body: { "mode": "flat"|"field", "persist": bool }.
+    Body: { "persist": bool }. VSM indexing uses term-context units.
     """
     try:
         return run_vsm_preprocess(
-            mode=body.get("mode", "field"),
             persist=bool(body.get("persist", True)),
         )
     except ValueError as exc:
@@ -439,7 +471,7 @@ def post_vsm_preprocess(body: Dict[str, Any]) -> Dict[str, Any]:
 def post_vsm_query(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Rank countries against a free-text query using TF-IDF VSM.
-    Body: { "query": str, "top_k": int, "metric": "cosine"|"pcc", "mode": "flat"|"field", "features": optional }.
+    Body: { "query": str, "top_k": int, "metric": "cosine"|"pcc", "features": optional }.
     """
     try:
         query = str(body.get("query") or "").strip()
@@ -450,7 +482,6 @@ def post_vsm_query(body: Dict[str, Any]) -> Dict[str, Any]:
             top_k=_top_k_from_body(body),
             metric=body.get("metric", "cosine"),
             features=_features_from_body(body),
-            mode=body.get("mode", "field"),
         )
     except HTTPException:
         raise
@@ -464,7 +495,7 @@ def post_vsm_query(body: Dict[str, Any]) -> Dict[str, Any]:
 def post_vsm_similarity(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Compare two countries using TF-IDF VSM.
-    Body: { "source_slug": str, "target_slug": str, "metric": "cosine"|"pcc", "mode": "flat"|"field", "features": optional }.
+    Body: { "source_slug": str, "target_slug": str, "metric": "cosine"|"pcc", "features": optional }.
     """
     try:
         source_slug = str(body.get("source_slug") or "").strip().lower()
@@ -476,7 +507,6 @@ def post_vsm_similarity(body: Dict[str, Any]) -> Dict[str, Any]:
             target_slug,
             metric=body.get("metric", "cosine"),
             features=_features_from_body(body),
-            mode=body.get("mode", "field"),
         )
     except HTTPException:
         raise
@@ -490,7 +520,7 @@ def post_vsm_similarity(body: Dict[str, Any]) -> Dict[str, Any]:
 def post_vsm_similarity_ranking(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Return top-k countries most similar to one country using TF-IDF VSM.
-    Body: { "country": str, "top_k": int, "metric": "cosine"|"pcc", "mode": "flat"|"field", "features": optional }.
+    Body: { "country": str, "top_k": int, "metric": "cosine"|"pcc", "features": optional }.
     """
     try:
         country = str(body.get("country") or "").strip().lower()
@@ -501,7 +531,6 @@ def post_vsm_similarity_ranking(body: Dict[str, Any]) -> Dict[str, Any]:
             top_k=_top_k_from_body(body),
             metric=body.get("metric", "cosine"),
             features=_features_from_body(body),
-            mode=body.get("mode", "field"),
         )
     except HTTPException:
         raise
@@ -515,30 +544,26 @@ def post_vsm_similarity_ranking(body: Dict[str, Any]) -> Dict[str, Any]:
 def post_vsm_clustering(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Cluster all countries using VSM vectors.
-    Body: { "vector_source": "vsm"|"ted", "algorithm": "kmeans"|"dbscan"|"agglomerative",
-            "distance": "cosine"|"euclidean"|"manhattan", "projection": "mds"|"pca",
-            "mode": "flat"|"field",
+    Body: { "vector_source": "vsm"|"ted", "algorithm": "kmeans"|"agglomerative",
+            "distance": "cosine"|"euclidean"|"manhattan",
             "ted_algorithm": "chawathe"|"nj"|"zhang_shasha", "country": optional, "features": optional,
-            "k": int, "eps": float, "min_pts": int, "linkage": "single"|"complete"|"average",
-            "vsm_document_source": "comparison_fields"|"fields"|"all", "max_df_ratio": float }.
+            "k": int, "linkage": "single"|"complete"|"average",
+            "stopping_rule": "none"|"cluster_count"|"similarity_threshold",
+            "similarity_threshold": optional float }.
     """
     try:
         return vsm_cluster(
             vector_source=body.get("vector_source", "vsm"),
             algorithm=body.get("algorithm", "kmeans"),
             distance=body.get("distance", "cosine"),
-            projection=body.get("projection", "mds"),
-            mode=body.get("mode", "field"),
             features=_features_from_body(body),
             country=str(body.get("country") or "").strip().lower() or None,
             k=_int_range_from_body(body, "k", default=5, minimum=2, maximum=50),
-            eps=_positive_float_from_body(body, "eps", default=1.0),
-            min_pts=_int_range_from_body(body, "min_pts", default=3, minimum=1, maximum=50),
-            linkage=body.get("linkage", "average"),
             ted_algorithm=body.get("ted_algorithm", "chawathe"),
             cost_model=body.get("cost_model"),
-            vsm_document_source=body.get("vsm_document_source", "comparison_fields"),
-            max_df_ratio=_ratio_from_body(body, "max_df_ratio", default=0.85),
+            linkage=body.get("linkage", "average"),
+            stopping_rule=body.get("stopping_rule", "none"),
+            similarity_threshold=_optional_unit_float_from_body(body, "similarity_threshold"),
         )
     except HTTPException:
         raise

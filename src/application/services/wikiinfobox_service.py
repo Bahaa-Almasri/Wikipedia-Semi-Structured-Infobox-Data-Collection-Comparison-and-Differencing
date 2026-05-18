@@ -19,12 +19,15 @@ from core.data.feature_extraction import (
     extract_selected_features,
 )
 from core.data.storage import (
+    iso_now,
     list_slugs,
     read_all_json_documents,
     read_json_document,
     read_raw_html,
     read_tree_document,
+    read_ted_index,
     read_vsm_index,
+    write_ted_index,
     write_vsm_index,
 )
 from core.patch.patch import apply_patch_from_dict
@@ -50,17 +53,17 @@ from core.preprocess.pipeline import collect_all_countries
 from utils.tree_utils import clone_tree, validate_tree
 from core.similarity.clustering import (
     SUPPORTED_AGGLOMERATIVE_LINKAGES,
+    SUPPORTED_AGGLOMERATIVE_STOPPING_RULES,
     SUPPORTED_CLUSTER_ALGORITHMS,
     SUPPORTED_CLUSTER_DISTANCES,
     build_ted_similarity_index,
     cluster_vsm_index,
-    normalize_cluster_projection,
 )
 from core.similarity.ted import compute_ted
 from core.similarity.vsm import (
+    COMPARISON_CONTENT_SOURCE,
+    DEFAULT_VSM_MODE,
     SUPPORTED_VSM_METRICS,
-    SUPPORTED_VSM_DOCUMENT_SOURCES,
-    SUPPORTED_VSM_MODES,
     build_vsm_index,
     rank_document,
     rank_query,
@@ -79,6 +82,7 @@ EMPTY_VALUE_DISPLAY = "∅"
 
 SUPPORTED_CLUSTER_SOURCES = {"vsm", "ted"}
 SUPPORTED_TED_CLUSTER_ALGORITHMS = {"chawathe", "nj", "zhang_shasha"}
+CLUSTERING_MAX_DF_RATIO = 0.85
 
 _MISSING = object()
 _GAME_ROUNDS: Dict[str, str] = {}
@@ -884,13 +888,6 @@ def _validate_vsm_metric(metric: str) -> str:
     return normalized
 
 
-def _validate_vsm_mode(mode: str) -> str:
-    normalized = (mode or "field").strip().lower()
-    if normalized not in SUPPORTED_VSM_MODES:
-        raise ValueError(f"Unsupported VSM mode '{mode}'.")
-    return normalized
-
-
 def _validate_cluster_algorithm(algorithm: str) -> str:
     normalized = (algorithm or "kmeans").strip().lower()
     if normalized not in SUPPORTED_CLUSTER_ALGORITHMS:
@@ -905,28 +902,24 @@ def _validate_cluster_distance(distance: str) -> str:
     return normalized
 
 
-def _validate_linkage(linkage: str) -> str:
+def _validate_agglomerative_linkage(linkage: str) -> str:
     normalized = (linkage or "average").strip().lower()
     if normalized not in SUPPORTED_AGGLOMERATIVE_LINKAGES:
         raise ValueError(f"Unsupported agglomerative linkage '{linkage}'.")
     return normalized
 
 
-def _validate_cluster_projection(projection: str) -> str:
-    return normalize_cluster_projection(projection)
+def _validate_agglomerative_stopping_rule(stopping_rule: str) -> str:
+    normalized = (stopping_rule or "none").strip().lower()
+    if normalized not in SUPPORTED_AGGLOMERATIVE_STOPPING_RULES:
+        raise ValueError(f"Unsupported agglomerative stopping rule '{stopping_rule}'.")
+    return normalized
 
 
 def _validate_cluster_source(source: str) -> str:
     normalized = (source or "vsm").strip().lower()
     if normalized not in SUPPORTED_CLUSTER_SOURCES:
         raise ValueError(f"Unsupported clustering vector source '{source}'.")
-    return normalized
-
-
-def _validate_vsm_document_source(source: str) -> str:
-    normalized = (source or "all").strip().lower()
-    if normalized not in SUPPORTED_VSM_DOCUMENT_SOURCES:
-        raise ValueError(f"Unsupported VSM document source '{source}'.")
     return normalized
 
 
@@ -937,22 +930,30 @@ def _validate_ted_cluster_algorithm(algorithm: str) -> str:
     return normalized
 
 
-def _vsm_index_name(mode: str) -> str:
-    return f"tfidf:{mode}:all"
+def _vsm_index_name() -> str:
+    return f"tfidf:{DEFAULT_VSM_MODE}:{COMPARISON_CONTENT_SOURCE}"
+
+
+def _ted_index_name(
+    ted_algorithm: str,
+    *,
+    cost_model: Optional[str] = None,
+) -> str:
+    algorithm = _validate_ted_cluster_algorithm(ted_algorithm)
+    if cost_model:
+        return f"ted:{algorithm}:{cost_model.strip().lower()}"
+    return f"ted:{algorithm}"
 
 
 def _build_vsm_index(
     *,
-    mode: str = "field",
     features: Optional[List[str]] = None,
-    source: str = "all",
     max_df_ratio: Optional[float] = None,
 ) -> VSMIndex:
-    mode = _validate_vsm_mode(mode)
-    source = _validate_vsm_document_source(source)
+    mode = DEFAULT_VSM_MODE
     docs = read_all_json_documents()
     vsm_documents = [
-        vsm_document_from_json(slug, doc, mode=mode, features=features, source=source)
+        vsm_document_from_json(slug, doc, mode=mode, features=features)
         for slug, doc in sorted(docs.items())
     ]
     vsm_documents = [doc for doc in vsm_documents if doc.terms]
@@ -962,40 +963,33 @@ def _build_vsm_index(
         max_df_ratio=max_df_ratio,
         metadata={
             "features": list(features or []),
-            "document_source": source,
+            "document_source": COMPARISON_CONTENT_SOURCE,
         },
     )
 
 
 def _build_vsm_clustering_index(
     *,
-    mode: str = "field",
     features: Optional[List[str]] = None,
-    source: str = "comparison_fields",
-    max_df_ratio: Optional[float] = 0.85,
 ) -> VSMIndex:
     """Build a non-persisted VSM index tuned for clustering, not keyword retrieval."""
     return _build_vsm_index(
-        mode=mode,
         features=features,
-        source=source,
-        max_df_ratio=max_df_ratio,
+        max_df_ratio=CLUSTERING_MAX_DF_RATIO,
     )
 
 
 def _load_or_build_vsm_index(
     *,
-    mode: str = "field",
     features: Optional[List[str]] = None,
 ) -> VSMIndex:
-    mode = _validate_vsm_mode(mode)
     if features:
-        return _build_vsm_index(mode=mode, features=features)
+        return _build_vsm_index(features=features)
 
-    stored = read_vsm_index(_vsm_index_name(mode))
+    stored = read_vsm_index(_vsm_index_name())
     if stored is not None:
         return VSMIndex.from_dict(stored)
-    return _build_vsm_index(mode=mode)
+    return _build_vsm_index()
 
 
 def _build_ted_similarity_index(
@@ -1020,6 +1014,9 @@ def _build_ted_similarity_index(
         meta = doc.get("meta") or {}
         documents[slug] = str(meta.get("country_name") or slug.replace("_", " ").title())
 
+    if not tree_docs:
+        raise ValueError("No country trees available for TED similarity indexing.")
+
     index = build_ted_similarity_index(
         tree_docs,
         documents=documents,
@@ -1028,26 +1025,106 @@ def _build_ted_similarity_index(
         coerce_root_label=coerce_root_label,
     )
     index.metadata["features"] = list(features or [])
+    index.metadata["country_slugs"] = sorted(tree_docs)
+    index.metadata["built_at"] = iso_now()
     return index
+
+
+def _load_or_build_ted_similarity_index(
+    *,
+    ted_algorithm: str = "chawathe",
+    features: Optional[List[str]] = None,
+    cost_model: Optional[str] = None,
+    coerce_root_label: Optional[str] = "infobox",
+    persist: bool = False,
+) -> VSMIndex:
+    """Load a persisted TED profile index or compute and optionally persist it."""
+    ted_algorithm = _validate_ted_cluster_algorithm(ted_algorithm)
+    if features:
+        return _build_ted_similarity_index(
+            ted_algorithm=ted_algorithm,
+            features=features,
+            cost_model=cost_model,
+            coerce_root_label=coerce_root_label,
+        )
+
+    index_name = _ted_index_name(ted_algorithm, cost_model=cost_model)
+    stored = read_ted_index(index_name)
+    if stored is not None:
+        stored_slugs = set((stored.get("metadata") or {}).get("country_slugs") or [])
+        current_slugs = set(list_slugs())
+        if stored_slugs and stored_slugs == current_slugs:
+            index = VSMIndex.from_dict(stored)
+            index.metadata.setdefault("index_name", index_name)
+            index.metadata.setdefault("loaded_from_cache", True)
+            return index
+
+    index = _build_ted_similarity_index(
+        ted_algorithm=ted_algorithm,
+        cost_model=cost_model,
+        coerce_root_label=coerce_root_label,
+    )
+    index.metadata["index_name"] = index_name
+    index.metadata["loaded_from_cache"] = False
+    if persist:
+        write_ted_index(index_name, index.to_dict())
+    return index
+
+
+def run_ted_preprocess(
+    *,
+    algorithms: Optional[List[str]] = None,
+    persist: bool = True,
+    cost_model: Optional[str] = None,
+) -> Dict[str, Any]:
+    """Build and persist TED similarity-profile indexes for clustering."""
+    requested = algorithms or ["chawathe", "nj"]
+    built: List[Dict[str, Any]] = []
+    for algorithm in requested:
+        algorithm = _validate_ted_cluster_algorithm(str(algorithm))
+        index = _build_ted_similarity_index(
+            ted_algorithm=algorithm,
+            cost_model=cost_model,
+        )
+        index_name = _ted_index_name(algorithm, cost_model=cost_model)
+        index.metadata["index_name"] = index_name
+        index.metadata["loaded_from_cache"] = False
+        if persist:
+            write_ted_index(index_name, index.to_dict())
+        pair_count = len(index.doc_vectors) * max(len(index.doc_vectors) - 1, 0)
+        built.append(
+            {
+                "algorithm": algorithm,
+                "index_name": index.metadata.get("index_name", _ted_index_name(algorithm, cost_model=cost_model)),
+                "document_count": len(index.doc_vectors),
+                "pair_count": pair_count,
+                "persisted": persist,
+                "loaded_from_cache": bool(index.metadata.get("loaded_from_cache")),
+            }
+        )
+    return {
+        "status": "ok",
+        "cost_model": cost_model,
+        "persisted": persist,
+        "indexes": built,
+    }
 
 
 def run_vsm_preprocess(
     *,
-    mode: str = "field",
     persist: bool = True,
 ) -> Dict[str, Any]:
     """Build a TF-IDF VSM index for all stored country documents."""
-    mode = _validate_vsm_mode(mode)
-    index = _build_vsm_index(mode=mode)
+    index = _build_vsm_index()
     if persist:
-        write_vsm_index(_vsm_index_name(mode), index.to_dict())
+        write_vsm_index(_vsm_index_name(), index.to_dict())
     return {
         "status": "ok",
-        "mode": mode,
+        "mode": DEFAULT_VSM_MODE,
         "persisted": persist,
         "document_count": len(index.doc_vectors),
         "vocabulary_size": len(index.vocabulary),
-        "index_name": _vsm_index_name(mode) if persist else None,
+        "index_name": _vsm_index_name() if persist else None,
     }
 
 
@@ -1057,16 +1134,14 @@ def vsm_query(
     top_k: int = 5,
     metric: str = "cosine",
     features: Optional[List[str]] = None,
-    mode: str = "field",
 ) -> Dict[str, Any]:
     metric = _validate_vsm_metric(metric)
-    mode = _validate_vsm_mode(mode)
-    index = _load_or_build_vsm_index(mode=mode, features=features)
+    index = _load_or_build_vsm_index(features=features)
     results = rank_query(index, query, top_k=top_k, metric=metric)
     return {
         "query": query,
         "metric": metric,
-        "mode": mode,
+        "mode": DEFAULT_VSM_MODE,
         "top_k": top_k,
         "features": list(features or []),
         "document_count": len(index.doc_vectors),
@@ -1081,11 +1156,9 @@ def vsm_similarity(
     *,
     metric: str = "cosine",
     features: Optional[List[str]] = None,
-    mode: str = "field",
 ) -> Dict[str, Any]:
     metric = _validate_vsm_metric(metric)
-    mode = _validate_vsm_mode(mode)
-    index = _load_or_build_vsm_index(mode=mode, features=features)
+    index = _load_or_build_vsm_index(features=features)
     if source_slug not in index.doc_vectors:
         raise ValueError(f"No VSM vector for country: {source_slug}")
     if target_slug not in index.doc_vectors:
@@ -1101,7 +1174,7 @@ def vsm_similarity(
         "target_slug": target_slug,
         "target_display_name": index.documents.get(target_slug, target_slug),
         "metric": metric,
-        "mode": mode,
+        "mode": DEFAULT_VSM_MODE,
         "features": list(features or []),
         "score": score,
         "document_count": len(index.doc_vectors),
@@ -1115,17 +1188,15 @@ def vsm_similarity_ranking(
     top_k: int = 5,
     metric: str = "cosine",
     features: Optional[List[str]] = None,
-    mode: str = "field",
 ) -> Dict[str, Any]:
     metric = _validate_vsm_metric(metric)
-    mode = _validate_vsm_mode(mode)
-    index = _load_or_build_vsm_index(mode=mode, features=features)
+    index = _load_or_build_vsm_index(features=features)
     results = rank_document(index, country, top_k=top_k, metric=metric)
     return {
         "country": country,
         "display_name": index.documents.get(country, country),
         "metric": metric,
-        "mode": mode,
+        "mode": DEFAULT_VSM_MODE,
         "top_k": top_k,
         "features": list(features or []),
         "document_count": len(index.doc_vectors),
@@ -1139,49 +1210,38 @@ def vsm_cluster(
     vector_source: str = "vsm",
     algorithm: str = "kmeans",
     distance: str = "cosine",
-    projection: str = "mds",
-    mode: str = "field",
     features: Optional[List[str]] = None,
     country: Optional[str] = None,
     k: int = 5,
-    eps: float = 1.0,
-    min_pts: int = 3,
-    linkage: str = "average",
     ted_algorithm: str = "chawathe",
     cost_model: Optional[str] = None,
-    vsm_document_source: str = "comparison_fields",
-    max_df_ratio: Optional[float] = 0.85,
+    linkage: str = "average",
+    stopping_rule: str = "none",
+    similarity_threshold: Optional[float] = None,
 ) -> Dict[str, Any]:
     vector_source = _validate_cluster_source(vector_source)
     algorithm = _validate_cluster_algorithm(algorithm)
     distance = _validate_cluster_distance(distance)
-    projection = _validate_cluster_projection(projection)
-    mode = _validate_vsm_mode(mode)
-    linkage = _validate_linkage(linkage)
+    linkage = _validate_agglomerative_linkage(linkage)
+    stopping_rule = _validate_agglomerative_stopping_rule(stopping_rule)
     if vector_source == "ted":
-        index = _build_ted_similarity_index(
+        index = _load_or_build_ted_similarity_index(
             ted_algorithm=ted_algorithm,
             features=features,
             cost_model=cost_model,
         )
     else:
-        index = _build_vsm_clustering_index(
-            mode=mode,
-            features=features,
-            source=vsm_document_source,
-            max_df_ratio=max_df_ratio,
-        )
+        index = _build_vsm_clustering_index(features=features)
     selected = (country or "").strip().lower() or None
     result = cluster_vsm_index(
         index,
         algorithm=algorithm,
         distance=distance,
-        projection=projection,
         selected_country=selected,
         k=k,
-        eps=eps,
-        min_pts=min_pts,
         linkage=linkage,
+        stopping_rule=stopping_rule,
+        similarity_threshold=similarity_threshold,
     )
     out = result.to_dict()
     out["vector_source"] = vector_source
@@ -1190,10 +1250,10 @@ def vsm_cluster(
         _validate_ted_cluster_algorithm(ted_algorithm) if vector_source == "ted" else None
     )
     out["cost_model"] = cost_model if vector_source == "ted" else None
-    out["vsm_document_source"] = (
-        _validate_vsm_document_source(vsm_document_source) if vector_source == "vsm" else None
-    )
-    out["max_df_ratio"] = max_df_ratio if vector_source == "vsm" else None
+    out["document_source"] = COMPARISON_CONTENT_SOURCE if vector_source == "vsm" else None
+    if vector_source == "ted":
+        out["ted_index_name"] = index.metadata.get("index_name")
+        out["ted_index_loaded_from_cache"] = bool(index.metadata.get("loaded_from_cache"))
     return out
 
 

@@ -9,6 +9,8 @@ sys.path.insert(0, "src")
 import math
 
 from core.similarity.vsm import (  # noqa: E402
+    DEFAULT_VSM_MODE,
+    SUPPORTED_VSM_MODES,
     build_vsm_index,
     cosine_similarity,
     inverse_document_frequency,
@@ -46,20 +48,22 @@ def _index():
         vsm_document_from_json(
             "lebanon",
             _doc("Lebanon", {"capital": "Beirut Beirut", "population": "5 million"}),
-            mode="field",
         ),
         vsm_document_from_json(
             "japan",
             _doc("Japan", {"capital": "Tokyo", "population": "125 million"}),
-            mode="field",
         ),
         vsm_document_from_json(
             "canada",
             _doc("Canada", {"capital": "Ottawa", "area": "large northern country"}),
-            mode="field",
         ),
     ]
-    return build_vsm_index(docs, mode="field")
+    return build_vsm_index(docs)
+
+
+def test_only_field_vsm_mode_supported():
+    assert SUPPORTED_VSM_MODES == {"field"}
+    assert DEFAULT_VSM_MODE == "field"
 
 
 def test_tokenization_and_tf_counts():
@@ -71,14 +75,13 @@ def test_tokenization_and_tf_counts():
 
 def test_idf_rewards_rarer_terms():
     index = _index()
-    assert index.idf["beirut"] > index.idf["capital"]
+    assert index.idf["capital:beirut"] > index.idf["population:million"]
 
 
-def test_idf_matches_lecture_log_n_over_df():
+def test_idf_matches_log_n_over_df():
     index = _index()
-    assert index.idf["beirut"] == math.log(3 / 1)
-    assert index.idf["million"] == math.log(3 / 2)
-    assert index.idf["capital"] == 0.0
+    assert index.idf["capital:beirut"] == math.log(3 / 1)
+    assert index.idf["population:million"] == math.log(3 / 2)
     assert inverse_document_frequency(3, 3) == 0.0
 
 
@@ -103,12 +106,11 @@ def test_feature_filtering_ignores_other_fields():
     filtered = vsm_document_from_json(
         "lebanon",
         source,
-        mode="field",
         features=["population"],
     )
     assert "population" in filtered.field_terms
     assert "capital" not in filtered.field_terms
-    assert "beirut" not in filtered.terms
+    assert "capital:beirut" not in filtered.terms
 
 
 def test_comparison_field_source_avoids_raw_field_double_counting():
@@ -126,25 +128,20 @@ def test_comparison_field_source_avoids_raw_field_double_counting():
             "comparison_fields": {"semantic_only": "semantic token"},
         },
     }
-    document = vsm_document_from_json(
-        "example",
-        source,
-        mode="flat",
-        source="comparison_fields",
-    )
+    document = vsm_document_from_json("example", source)
     assert "rawtoken" not in document.terms
-    assert "semantic" in document.terms
+    assert "semantic_only:semantic" in document.terms
 
 
 def test_max_df_ratio_prunes_corpus_wide_terms():
     docs = [
-        vsm_document_from_json("a", _doc("A", {"field": "common alpha"}), mode="flat"),
-        vsm_document_from_json("b", _doc("B", {"field": "common beta"}), mode="flat"),
-        vsm_document_from_json("c", _doc("C", {"field": "common gamma"}), mode="flat"),
+        vsm_document_from_json("a", _doc("A", {"field": "common alpha"})),
+        vsm_document_from_json("b", _doc("B", {"field": "common beta"})),
+        vsm_document_from_json("c", _doc("C", {"field": "common gamma"})),
     ]
-    index = build_vsm_index(docs, mode="flat", max_df_ratio=0.66)
-    assert "common" not in index.vocabulary
-    assert "alpha" in index.vocabulary
+    index = build_vsm_index(docs, max_df_ratio=0.66)
+    assert "field:common" not in index.vocabulary
+    assert "field:alpha" in index.vocabulary
 
 
 def test_empty_query_scores_zero():
@@ -162,9 +159,10 @@ def test_pcc_metric_path_runs():
 
 
 if __name__ == "__main__":
+    test_only_field_vsm_mode_supported()
     test_tokenization_and_tf_counts()
     test_idf_rewards_rarer_terms()
-    test_idf_matches_lecture_log_n_over_df()
+    test_idf_matches_log_n_over_df()
     test_cosine_identity_and_disjoint()
     test_pcc_identity_and_empty()
     test_query_ranks_matching_document_first()

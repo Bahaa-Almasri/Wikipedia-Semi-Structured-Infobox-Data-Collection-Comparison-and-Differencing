@@ -1,24 +1,21 @@
 from __future__ import annotations
 
 import math
-import re
 from collections import Counter
-from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence, Tuple
+from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence
 
+from core.similarity.vsm_preprocessing import (
+    build_indexing_node_terms,
+    merge_indexing_nodes,
+    normalize_terms,
+)
 from domain.models.vsm import SparseVector, TermCounts, VSMDocument, VSMIndex, VSMSearchResult
 
 
-_TOKEN_RE = re.compile(r"[0-9A-Za-z]+")
 SUPPORTED_VSM_METRICS = {"cosine", "pcc"}
-SUPPORTED_VSM_MODES = {"flat", "field"}
-SUPPORTED_VSM_DOCUMENT_SOURCES = {"all", "fields", "comparison_fields"}
-
-
-def normalize_terms(text: Any) -> List[str]:
-    """Tokenize text the same way normalized infobox rows are tokenized, but case-folded."""
-    if text is None:
-        return []
-    return [match.group(0).casefold() for match in _TOKEN_RE.finditer(str(text))]
+SUPPORTED_VSM_MODES = {"field"}
+DEFAULT_VSM_MODE = "field"
+COMPARISON_CONTENT_SOURCE = "comparison_fields"
 
 
 def _add_count(target: TermCounts, term: str, amount: int = 1) -> None:
@@ -36,108 +33,32 @@ def _count_terms(terms: Iterable[str]) -> TermCounts:
     return {term: count for term, count in Counter(terms).items() if term}
 
 
-def _field_label_terms(field_path: str) -> List[str]:
-    pieces = re.split(r"[^0-9A-Za-z]+", field_path.replace(".", "_"))
-    return [piece.casefold() for piece in pieces if piece]
-
-
-def _feature_key(feature: str) -> str:
-    clean = str(feature).strip().casefold()
-    if clean.startswith("fields."):
-        clean = clean.removeprefix("fields.")
-    return clean.replace(".", "_")
-
-
-def _feature_matches(field_path: str, features: Optional[Sequence[str]]) -> bool:
-    if not features:
-        return True
-    field_key = _feature_key(field_path)
-    for feature in features:
-        feature_key = _feature_key(feature)
-        if field_key == feature_key:
-            return True
-        if field_key.endswith(f"_{feature_key}") or feature_key.endswith(f"_{field_key}"):
-            return True
-        if field_key.split("_")[-1] == feature_key.split("_")[-1]:
-            return True
-    return False
-
-
-def _contextualize(field_path: str, terms: TermCounts) -> TermCounts:
-    contextual: TermCounts = {}
-    clean_path = _feature_key(field_path)
-    for term, count in terms.items():
-        _add_count(contextual, term, count)
-        _add_count(contextual, f"{clean_path}:{term}", count)
-    for label_term in _field_label_terms(field_path):
-        _add_count(contextual, label_term)
-    return contextual
-
-
-def _flatten_comparison_fields(
-    value: Any,
-    *,
-    path: Tuple[str, ...] = (),
-) -> Iterable[Tuple[str, List[str]]]:
-    if isinstance(value, dict):
-        for key, child in value.items():
-            yield from _flatten_comparison_fields(child, path=(*path, str(key)))
-        return
-    if isinstance(value, list):
-        for item in value:
-            yield from _flatten_comparison_fields(item, path=path)
-        return
-
-    field_path = ".".join(path)
-    terms = [*_field_label_terms(field_path), *normalize_terms(value)]
-    yield field_path, terms
-
-
 def vsm_document_from_json(
     slug: str,
     document: Mapping[str, Any],
     *,
-    mode: str = "field",
+    mode: str = DEFAULT_VSM_MODE,
     features: Optional[Sequence[str]] = None,
-    source: str = "all",
 ) -> VSMDocument:
+    """
+    Build a VSM document from comparison_fields (same payload as TED country trees).
+
+    Term-context mode keeps the comparison path on each term so values from
+    different attributes remain distinct. Numeric values use semantic bins, not
+    raw digits.
+    """
     if mode not in SUPPORTED_VSM_MODES:
         raise ValueError(f"Unsupported VSM mode '{mode}'.")
-    if source not in SUPPORTED_VSM_DOCUMENT_SOURCES:
-        raise ValueError(f"Unsupported VSM document source '{source}'.")
 
     meta = document.get("meta") or {}
     display_name = str(meta.get("country_name") or slug.replace("_", " ").title())
-    normalized = document.get("normalized") or {}
 
-    field_terms: Dict[str, TermCounts] = {}
-
-    if source in {"all", "fields"}:
-        fields = normalized.get("fields") or {}
-        for field_key, field_data in fields.items():
-            field_path = str(field_key)
-            if not _feature_matches(field_path, features):
-                continue
-            tokens = field_data.get("tokens") if isinstance(field_data, Mapping) else None
-            text = field_data.get("text") if isinstance(field_data, Mapping) else ""
-            raw_terms = list(tokens or []) or normalize_terms(text)
-            counts = _count_terms(
-                [*_field_label_terms(field_path), *(str(t).casefold() for t in raw_terms)]
-            )
-            field_terms[field_path] = _contextualize(field_path, counts) if mode == "field" else counts
-
-    if source in {"all", "comparison_fields"}:
-        comparison_fields = normalized.get("comparison_fields") or {}
-        for field_path, terms in _flatten_comparison_fields(comparison_fields):
-            if not field_path or not _feature_matches(field_path, features):
-                continue
-            counts = _count_terms(terms)
-            existing = field_terms.setdefault(field_path, {})
-            _merge_counts(existing, _contextualize(field_path, counts) if mode == "field" else counts)
-
-    all_terms: TermCounts = {}
-    for counts in field_terms.values():
-        _merge_counts(all_terms, counts)
+    field_terms = build_indexing_node_terms(
+        document,
+        mode=mode,
+        features=features,
+    )
+    all_terms = merge_indexing_nodes(field_terms)
 
     return VSMDocument(
         slug=slug,
@@ -156,7 +77,7 @@ def inverse_document_frequency(doc_count: int, document_frequency: int) -> float
 def build_vsm_index(
     documents: Sequence[VSMDocument],
     *,
-    mode: str = "field",
+    mode: str = DEFAULT_VSM_MODE,
     max_df_ratio: Optional[float] = None,
     metadata: Optional[Dict[str, Any]] = None,
 ) -> VSMIndex:
@@ -201,6 +122,7 @@ def build_vsm_index(
             "vocabulary_size": len(vocabulary),
             "max_df_ratio": max_df_ratio,
             "pruned_high_df_terms": len(pruned_terms),
+            "vsm_preprocessing": "indexing_nodes_term_context",
             **(metadata or {}),
         },
     )
@@ -272,14 +194,38 @@ def query_counts(query: str) -> TermCounts:
     return _count_terms(normalize_terms(query))
 
 
+def _expand_query_to_index_units(
+    counts: Mapping[str, int],
+    index: VSMIndex,
+) -> TermCounts:
+    """Map free-text query terms onto field-mode (path:term) indexing units."""
+    if index.mode != "field":
+        return dict(counts)
+
+    expanded: TermCounts = {}
+    vocabulary = set(index.vocabulary) | set(index.idf)
+    for term, count in counts.items():
+        for vocab_term in vocabulary:
+            if vocab_term == term or vocab_term.endswith(f":{term}"):
+                expanded[vocab_term] = max(expanded.get(vocab_term, 0), int(count))
+    return expanded
+
+
 def query_vector(query: str, index: VSMIndex) -> SparseVector:
-    counts = query_counts(query)
+    counts = _expand_query_to_index_units(query_counts(query), index)
     return tfidf_vector(counts, index.idf)
 
 
 def matched_terms(left: Mapping[str, float], right: Mapping[str, float], *, limit: int = 10) -> List[str]:
-    terms = [term for term in left if term in right and ":" not in term]
-    return sorted(terms)[:limit]
+    terms = []
+    for term in left:
+        if term not in right:
+            continue
+        if ":" in term:
+            terms.append(term.split(":", 1)[-1])
+        else:
+            terms.append(term)
+    return sorted(set(terms))[:limit]
 
 
 def rank_query(

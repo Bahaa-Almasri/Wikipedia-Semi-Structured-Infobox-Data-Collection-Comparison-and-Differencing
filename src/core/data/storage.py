@@ -109,6 +109,16 @@ def read_vsm_index(index_name: str) -> Optional[Dict]:
 
 
 def write_vsm_index(index_name: str, index: Dict) -> None:
-    """Persist a VSM index in a sibling collection."""
+    """Persist a VSM or TED similarity index in the vector-index collection."""
     coll = _get_vsm_collection()
     coll.replace_one({"_id": index_name}, {"_id": index_name, **index}, upsert=True)
+
+
+def read_ted_index(index_name: str) -> Optional[Dict]:
+    """Load a persisted TED similarity-profile index by name."""
+    return read_vsm_index(index_name)
+
+
+def write_ted_index(index_name: str, index: Dict) -> None:
+    """Persist a TED similarity-profile index."""
+    write_vsm_index(index_name, index)
