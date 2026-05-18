@@ -75,8 +75,12 @@ services:
     container_name: wikinfobox-frontend
     ports:
       - "${FRONTEND_PORT:-8990}:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
     environment:
-      VITE_API_URL: http://localhost:${API_PORT}
+      # Vite proxies /wikiinfobox to the API container (browser stays on the React origin).
+      VITE_PROXY_TARGET: http://${API_HOST}:80
     depends_on:
       wikinfobox-api:
         condition: service_started

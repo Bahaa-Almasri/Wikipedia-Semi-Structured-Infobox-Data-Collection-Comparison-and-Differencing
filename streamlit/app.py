@@ -1423,44 +1423,58 @@ section.main > div {
             default=[],
             key="vsm_similarity_features",
         )
+        vsm_loading = bool(st.session_state.get("vsm_sim_loading"))
         if st.button(
             "Find Similar Countries with VSM",
             key="btn_find_similar_vsm",
-            disabled=not sim_slug,
+            disabled=not sim_slug or vsm_loading,
             type="secondary",
         ):
             if not sim_slug:
                 st.warning("Please select a country first.")
             else:
-                with st.spinner("Computing VSM similarity ranking…"):
-                    vsm_results = vsm_similarity_ranking_api(
-                        sim_slug,
-                        top_k=top_k,
-                        metric=vsm_metric,
-                        features=vsm_selected_features or None,
-                    )
-                if vsm_results is not None:
-                    st.session_state["vsm_sim_results"] = vsm_results
-                    st.session_state["vsm_sim_query_country"] = sim_selected
-                else:
-                    st.session_state.pop("vsm_sim_results", None)
-                    st.error("Failed to fetch VSM ranking. Check API logs.")
+                st.session_state["vsm_sim_loading"] = True
+                try:
+                    with st.spinner("Computing VSM similarity ranking…"):
+                        vsm_results = vsm_similarity_ranking_api(
+                            sim_slug,
+                            top_k=top_k,
+                            metric=vsm_metric,
+                            features=vsm_selected_features or None,
+                        )
+                    if vsm_results is not None:
+                        st.session_state["vsm_sim_results"] = vsm_results
+                        st.session_state["vsm_sim_query_country"] = sim_selected
+                    else:
+                        st.session_state.pop("vsm_sim_results", None)
+                        st.error("Failed to fetch VSM ranking. Check API logs.")
+                finally:
+                    st.session_state["vsm_sim_loading"] = False
 
         vsm_results = st.session_state.get("vsm_sim_results")
         if isinstance(vsm_results, dict):
+            if vsm_results.get("status") == "insufficient_terms":
+                st.warning(
+                    vsm_results.get("message")
+                    or "Not enough meaningful terms after filtering. Try selecting broader features."
+                )
             st.markdown(
                 f"**VSM most similar to {st.session_state.get('vsm_sim_query_country', '')}:**"
             )
             rank_list = vsm_results.get("results") or []
-            if not rank_list:
+            if not rank_list and vsm_results.get("status") != "insufficient_terms":
                 st.info("No VSM results found.")
-            else:
+            elif rank_list:
                 for i, item in enumerate(rank_list, 1):
                     score = item.get("score", 0.0)
                     score_str = f"{score:.4f}" if isinstance(score, (int, float)) else str(score)
                     display = item.get("display_name") or item.get("country", "")
-                    terms = ", ".join(item.get("matched_terms") or [])
-                    suffix = f" | matched: {terms}" if terms else ""
+                    terms = item.get("matched_terms") or []
+                    joined = ", ".join(terms)
+                    if joined.startswith("distance:"):
+                        suffix = f" | {joined}"
+                    else:
+                        suffix = f" | matched: {joined}" if joined else ""
                     st.markdown(f"{i}. {display} — {score_str}{suffix}")
 
     # --- Tab 2: Similarity Clustering ---

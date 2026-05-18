@@ -68,6 +68,7 @@ def test_only_field_vsm_mode_supported():
 
 def test_tokenization_and_tf_counts():
     assert normalize_terms("Capital: Beirut, Beirut!") == ["capital", "beirut", "beirut"]
+    assert "n" not in normalize_terms("33°N 35°E")
     counts = query_counts("Beirut Beirut capital")
     assert counts["beirut"] == 2
     assert counts["capital"] == 1
@@ -99,6 +100,26 @@ def test_query_ranks_matching_document_first():
     results = rank_query(_index(), "capital beirut", top_k=3, metric="cosine")
     assert results[0].slug == "lebanon"
     assert "beirut" in results[0].matched_terms
+
+
+def _coord_doc(country_name: str, lat: str, lon: str) -> dict:
+    return {
+        "meta": {"country_name": country_name},
+        "normalized": {
+            "comparison_fields": {
+                "coordinates": {"latitude": lat, "longitude": lon},
+            }
+        },
+    }
+
+
+def test_coordinate_only_documents_have_no_tfidf_terms():
+    lebanon = vsm_document_from_json(
+        "lebanon",
+        _coord_doc("Lebanon", "33°N", "35°E"),
+        features=["coordinates.latitude", "coordinates.longitude"],
+    )
+    assert lebanon.terms == {}
 
 
 def test_feature_filtering_ignores_other_fields():
@@ -171,4 +192,5 @@ if __name__ == "__main__":
     test_max_df_ratio_prunes_corpus_wide_terms()
     test_empty_query_scores_zero()
     test_pcc_metric_path_runs()
+    test_coordinate_only_documents_have_no_tfidf_terms()
     print("All VSM diagnostic tests passed")

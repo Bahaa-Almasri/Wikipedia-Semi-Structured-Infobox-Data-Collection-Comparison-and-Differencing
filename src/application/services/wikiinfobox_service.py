@@ -63,6 +63,8 @@ from core.similarity.ted import compute_ted
 from core.similarity.vsm import (
     COMPARISON_CONTENT_SOURCE,
     DEFAULT_VSM_MODE,
+    INSUFFICIENT_TERMS_MESSAGE,
+    MIN_SHARED_MEANINGFUL_TERMS,
     SUPPORTED_VSM_METRICS,
     build_vsm_index,
     rank_document,
@@ -70,6 +72,12 @@ from core.similarity.vsm import (
     sparse_similarity,
     vsm_document_from_json,
 )
+from core.similarity.vsm_geo import (
+    build_country_coordinates,
+    merge_ranking_scores,
+    rank_by_geographic_proximity,
+)
+from core.similarity.vsm_preprocessing import count_meaningful_index_terms, partition_features
 from domain.models.tree import TreeNode
 from domain.models.vsm import VSMIndex
 from utils.compare import compare_country_slugs, compare_from_tree_dicts, load_tree_for_slug
@@ -1182,6 +1190,137 @@ def vsm_similarity(
     }
 
 
+def _vsm_insufficient_terms_response(
+    country: str,
+    *,
+    index: VSMIndex,
+    metric: str,
+    top_k: int,
+    features: Optional[List[str]],
+) -> Dict[str, Any]:
+    return {
+        "country": country,
+        "display_name": index.documents.get(country, country),
+        "metric": metric,
+        "mode": DEFAULT_VSM_MODE,
+        "top_k": top_k,
+        "features": list(features or []),
+        "document_count": len(index.doc_vectors),
+        "vocabulary_size": len(index.vocabulary),
+        "results": [],
+        "status": "insufficient_terms",
+        "message": INSUFFICIENT_TERMS_MESSAGE,
+    }
+
+
+def _validate_vsm_restricted_text_terms(
+    country: str,
+    *,
+    text_features: List[str],
+) -> Optional[Dict[str, Any]]:
+    """Reject text-only feature restrictions with too few meaningful TF-IDF terms."""
+    if not text_features:
+        return None
+    doc = read_json_document(country)
+    if doc is None:
+        return None
+    source = vsm_document_from_json(
+        country,
+        doc,
+        mode=DEFAULT_VSM_MODE,
+        features=text_features,
+    )
+    if count_meaningful_index_terms(source.terms) < MIN_SHARED_MEANINGFUL_TERMS:
+        index = _load_vsm_index(features=text_features)
+        return _vsm_insufficient_terms_response(
+            country,
+            index=index,
+            metric="cosine",
+            top_k=5,
+            features=text_features,
+        )
+    return None
+
+
+def _load_vsm_index(features: Optional[List[str]] = None) -> VSMIndex:
+    return _load_or_build_vsm_index(features=features)
+
+
+def _rank_vsm_with_feature_restriction(
+    country: str,
+    *,
+    top_k: int,
+    metric: str,
+    features: List[str],
+) -> Tuple[List[Any], str, VSMIndex]:
+    """
+    Rank using geographic distance for coordinate features and/or TF-IDF for text.
+
+    Returns (results, ranking_mode, index_for_metadata).
+    """
+    coordinate_features, text_features = partition_features(features)
+    docs = read_all_json_documents()
+    display_names = {
+        slug: str((doc.get("meta") or {}).get("country_name") or slug.replace("_", " ").title())
+        for slug, doc in docs.items()
+    }
+
+    rankings = []
+    ranking_mode = "tfidf"
+    index: Optional[VSMIndex] = None
+
+    if coordinate_features:
+        coordinates = build_country_coordinates(
+            docs,
+            coordinate_features=coordinate_features,
+        )
+        if country not in coordinates:
+            raise ValueError(f"No parseable coordinates for country: {country}")
+        geo_results = rank_by_geographic_proximity(
+            coordinates,
+            country,
+            top_k=max(top_k, len(docs)),
+            display_names=display_names,
+        )
+        rankings.append(geo_results)
+        ranking_mode = "geographic"
+
+    if text_features:
+        insufficient = _validate_vsm_restricted_text_terms(
+            country,
+            text_features=text_features,
+        )
+        if insufficient is not None:
+            if not rankings:
+                return [], "insufficient_terms", _load_vsm_index(features=text_features)
+        else:
+            text_index = _load_vsm_index(features=text_features)
+            min_shared = MIN_SHARED_MEANINGFUL_TERMS if not coordinate_features else 0
+            text_results = rank_document(
+                text_index,
+                country,
+                top_k=max(top_k, len(docs)),
+                metric=metric,
+                min_shared_meaningful_terms=min_shared,
+            )
+            rankings.append(text_results)
+            ranking_mode = "hybrid" if coordinate_features else "tfidf"
+            index = text_index
+
+    if index is None:
+        index = _load_vsm_index()
+
+    if not rankings:
+        return [], ranking_mode, index
+
+    if len(rankings) == 1:
+        results = rankings[0][:top_k]
+    else:
+        results = merge_ranking_scores(*rankings, top_k=top_k)
+
+    return results, ranking_mode, index
+
+
 def vsm_similarity_ranking(
     country: str,
     *,
@@ -1190,6 +1329,44 @@ def vsm_similarity_ranking(
     features: Optional[List[str]] = None,
 ) -> Dict[str, Any]:
     metric = _validate_vsm_metric(metric)
+
+    if features:
+        coordinate_features, text_features = partition_features(features)
+        if coordinate_features:
+            results, ranking_mode, index = _rank_vsm_with_feature_restriction(
+                country,
+                top_k=top_k,
+                metric=metric,
+                features=features,
+            )
+            if ranking_mode == "insufficient_terms":
+                insufficient = _validate_vsm_restricted_text_terms(
+                    country,
+                    text_features=text_features,
+                )
+                if insufficient is not None:
+                    insufficient["metric"] = metric
+                    insufficient["top_k"] = top_k
+                    return insufficient
+            return {
+                "country": country,
+                "display_name": index.documents.get(country, country),
+                "metric": metric,
+                "mode": DEFAULT_VSM_MODE,
+                "ranking_mode": ranking_mode,
+                "top_k": top_k,
+                "features": list(features),
+                "document_count": len(index.doc_vectors),
+                "vocabulary_size": len(index.vocabulary),
+                "results": [result.to_dict() for result in results],
+            }
+
+        insufficient = _validate_vsm_restricted_text_terms(country, text_features=text_features)
+        if insufficient is not None:
+            insufficient["metric"] = metric
+            insufficient["top_k"] = top_k
+            return insufficient
+
     index = _load_or_build_vsm_index(features=features)
     results = rank_document(index, country, top_k=top_k, metric=metric)
     return {
@@ -1197,6 +1374,7 @@ def vsm_similarity_ranking(
         "display_name": index.documents.get(country, country),
         "metric": metric,
         "mode": DEFAULT_VSM_MODE,
+        "ranking_mode": "tfidf",
         "top_k": top_k,
         "features": list(features or []),
         "document_count": len(index.doc_vectors),

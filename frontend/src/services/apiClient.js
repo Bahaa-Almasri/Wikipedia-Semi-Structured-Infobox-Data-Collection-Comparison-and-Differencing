@@ -1,5 +1,6 @@
-const API_URL = (import.meta.env.VITE_API_URL || "http://localhost:8970").replace(/\/$/, "");
-const WIKI_PREFIX = `${API_URL}/wikiinfobox`;
+// When VITE_API_URL is unset, requests use same-origin paths and Vite proxies to the API.
+const API_URL = (import.meta.env.VITE_API_URL || "").replace(/\/$/, "");
+const WIKI_PREFIX = API_URL ? `${API_URL}/wikiinfobox` : "/wikiinfobox";
 
 async function request(path, options = {}) {
   const response = await fetch(`${WIKI_PREFIX}${path}`, {

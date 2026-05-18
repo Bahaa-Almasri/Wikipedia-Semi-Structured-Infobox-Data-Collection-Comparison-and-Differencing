@@ -10,13 +10,25 @@ from core.preprocess.comparison_content import get_comparison_fields  # noqa: E4
 from core.similarity.vsm_preprocessing import (  # noqa: E402
     build_indexing_node_terms,
     encode_comparison_value,
+    is_meaningful_vsm_token,
     merge_indexing_nodes,
     normalize_terms,
 )
 
 
 def test_normalize_terms_skips_raw_digits():
-    assert normalize_terms("Population 5,000,000 in 2024") == ["population", "in"]
+    assert normalize_terms("Population 5,000,000 in 2024") == ["population"]
+
+
+def test_normalize_terms_filters_compass_direction_tokens():
+    assert normalize_terms("33°N 35°E") == []
+    assert not is_meaningful_vsm_token("n")
+    assert not is_meaningful_vsm_token("e")
+
+
+def test_coordinate_fields_are_excluded_from_tfidf_tokenization():
+    counts = encode_comparison_value("coordinates.latitude", "33°N", mode="field")
+    assert counts == {}
 
 
 def test_comparison_population_uses_magnitude_not_digits():
@@ -86,6 +98,8 @@ def test_build_indexing_node_terms_rejects_non_context_mode():
 
 if __name__ == "__main__":
     test_normalize_terms_skips_raw_digits()
+    test_normalize_terms_filters_compass_direction_tokens()
+    test_coordinate_fields_are_excluded_from_tfidf_tokenization()
     test_comparison_population_uses_magnitude_not_digits()
     test_comparison_government_type_is_contextual()
     test_field_mode_uses_path_colon_term()

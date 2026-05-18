@@ -18,14 +18,74 @@ TermCounts = Dict[str, int]
 _TOKEN_RE = re.compile(r"[0-9A-Za-z]+")
 _RAW_DIGITS_RE = re.compile(r"^\d+$")
 _YEAR_RE = re.compile(r"^(19|20)\d{2}$")
+# Match a single coordinate component such as 33°N or 35°12′E as one unit.
+_COORD_COMPONENT_RE = re.compile(
+    r"(\d+(?:\.\d+)?)\s*°(?:\s*\d+(?:\.\d+)?\s*['′])?\s*([nsew]{1,2})",
+    re.IGNORECASE,
+)
+
+# Values like "33°N" are split by the alphanumeric tokenizer into "33" (dropped)
+# and "n"/"e", which appear in most northern/eastern countries and inflate cosine
+# similarity. Coordinate paths are excluded here; see vsm_geo for distance ranking.
+_COMPASS_TOKENS = frozenset({"n", "s", "e", "w", "ne", "nw", "se", "sw"})
+_COORD_SYMBOL_TOKENS = frozenset(
+    {"deg", "degree", "degrees", "min", "minute", "minutes", "sec", "second", "seconds"}
+)
+_MIN_VSM_TOKEN_LEN = 3
+_SEMANTIC_BIN_PREFIXES = ("mag_", "year_", "rank_", "hdi_", "none", "frac")
+
+
+def is_meaningful_vsm_token(token: str) -> bool:
+    """Return True when a token should participate in VSM similarity."""
+    clean = str(token).casefold().strip()
+    if not clean or _RAW_DIGITS_RE.match(clean):
+        return False
+    if any(clean.startswith(prefix) for prefix in _SEMANTIC_BIN_PREFIXES):
+        return True
+    if clean in _COMPASS_TOKENS or clean in _COORD_SYMBOL_TOKENS:
+        return False
+    if len(clean) < _MIN_VSM_TOKEN_LEN:
+        return False
+    return True
 
 
 def normalize_terms(text: Any) -> List[str]:
-    """Lexical tokens for VSM (case-folded); excludes tokens that are only digits."""
+    """Lexical tokens for VSM (case-folded); excludes digits and low-signal tokens."""
     if text is None:
         return []
     tokens = [match.group(0).casefold() for match in _TOKEN_RE.finditer(str(text))]
-    return [token for token in tokens if not _RAW_DIGITS_RE.match(token)]
+    return [
+        token
+        for token in tokens
+        if not _RAW_DIGITS_RE.match(token) and is_meaningful_vsm_token(token)
+    ]
+
+
+def _is_coordinate_field_path(path: str) -> bool:
+    return is_coordinate_feature(path)
+
+
+def is_coordinate_feature(feature: str) -> bool:
+    """True when a feature path refers to geographic coordinates."""
+    key = _feature_key(feature)
+    return any(
+        marker in key
+        for marker in ("coordinate", "latitude", "longitude", "_lat", "_lon")
+    )
+
+
+def partition_features(
+    features: Sequence[str],
+) -> Tuple[List[str], List[str]]:
+    """Split selected features into coordinate vs text fields for hybrid VSM."""
+    coordinate_features: List[str] = []
+    text_features: List[str] = []
+    for feature in features:
+        if is_coordinate_feature(feature):
+            coordinate_features.append(feature)
+        else:
+            text_features.append(feature)
+    return coordinate_features, text_features
 
 
 def _feature_key(feature: str) -> str:
@@ -37,7 +97,11 @@ def _feature_key(feature: str) -> str:
 
 def _path_label_terms(path: str) -> List[str]:
     pieces = re.split(r"[^0-9A-Za-z]+", path.replace(".", "_"))
-    return [piece.casefold() for piece in pieces if piece and not _RAW_DIGITS_RE.match(piece)]
+    return [
+        piece.casefold()
+        for piece in pieces
+        if piece and not _RAW_DIGITS_RE.match(piece) and is_meaningful_vsm_token(piece)
+    ]
 
 
 def _add_count(target: TermCounts, term: str, amount: int = 1) -> None:
@@ -57,6 +121,8 @@ def _qualify_term(path: str, term: str, *, mode: str) -> str:
     clean_path = _feature_key(path.replace(".", "_"))
     clean_term = term.casefold().strip()
     if not clean_term or _RAW_DIGITS_RE.match(clean_term):
+        return ""
+    if not is_meaningful_vsm_token(clean_term):
         return ""
     return f"{clean_path}:{clean_term}"
 
@@ -137,6 +203,10 @@ def encode_comparison_value(path: str, value: Any, *, mode: str) -> TermCounts:
     if not text:
         return counts
 
+    # Coordinates are compared geographically (see vsm_geo), not via TF-IDF tokens.
+    if _is_coordinate_field_path(clean_path):
+        return counts
+
     for label in _path_label_terms(clean_path):
         _add_count(counts, _qualify_term(clean_path, label, mode=mode))
 
@@ -144,6 +214,16 @@ def encode_comparison_value(path: str, value: Any, *, mode: str) -> TermCounts:
         _add_count(counts, _qualify_term(clean_path, token, mode=mode))
 
     return counts
+
+
+def count_meaningful_index_terms(terms: Mapping[str, int]) -> int:
+    """Count distinct meaningful leaf terms in a document term map."""
+    meaningful: set[str] = set()
+    for term in terms:
+        leaf = term.split(":", 1)[-1] if ":" in term else term
+        if is_meaningful_vsm_token(leaf):
+            meaningful.add(leaf)
+    return len(meaningful)
 
 
 def iter_comparison_indexing_nodes(

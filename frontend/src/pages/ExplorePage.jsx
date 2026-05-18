@@ -38,7 +38,16 @@ export default function ExplorePage() {
     setResultError("");
     getVsmSimilarCountries(selected, 8)
       .then((payload) => {
-        if (active) setResults(payload.results || []);
+        if (!active) return;
+        if (payload?.status === "insufficient_terms") {
+          setResults([]);
+          setResultError(
+            payload.message ||
+              "Not enough meaningful terms after filtering. Try selecting broader features.",
+          );
+          return;
+        }
+        setResults(payload.results || []);
       })
       .catch((err) => {
         if (active) setResultError(err.message || "Could not load similar countries.");

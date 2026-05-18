@@ -6,6 +6,7 @@ from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence
 
 from core.similarity.vsm_preprocessing import (
     build_indexing_node_terms,
+    is_meaningful_vsm_token,
     merge_indexing_nodes,
     normalize_terms,
 )
@@ -16,6 +17,10 @@ SUPPORTED_VSM_METRICS = {"cosine", "pcc"}
 SUPPORTED_VSM_MODES = {"field"}
 DEFAULT_VSM_MODE = "field"
 COMPARISON_CONTENT_SOURCE = "comparison_fields"
+MIN_SHARED_MEANINGFUL_TERMS = 3
+INSUFFICIENT_TERMS_MESSAGE = (
+    "Not enough meaningful terms after filtering. Try selecting broader features."
+)
 
 
 def _add_count(target: TermCounts, term: str, amount: int = 1) -> None:
@@ -216,16 +221,23 @@ def query_vector(query: str, index: VSMIndex) -> SparseVector:
     return tfidf_vector(counts, index.idf)
 
 
+def _display_term(term: str) -> str:
+    return term.split(":", 1)[-1] if ":" in term else term
+
+
 def matched_terms(left: Mapping[str, float], right: Mapping[str, float], *, limit: int = 10) -> List[str]:
-    terms = []
+    terms: List[str] = []
     for term in left:
         if term not in right:
             continue
-        if ":" in term:
-            terms.append(term.split(":", 1)[-1])
-        else:
-            terms.append(term)
+        display = _display_term(term)
+        if is_meaningful_vsm_token(display):
+            terms.append(display)
     return sorted(set(terms))[:limit]
+
+
+def count_shared_meaningful_terms(left: Mapping[str, float], right: Mapping[str, float]) -> int:
+    return len(matched_terms(left, right, limit=10_000))
 
 
 def rank_query(
@@ -257,6 +269,7 @@ def rank_document(
     *,
     top_k: int = 5,
     metric: str = "cosine",
+    min_shared_meaningful_terms: int = MIN_SHARED_MEANINGFUL_TERMS,
 ) -> List[VSMSearchResult]:
     if slug not in index.doc_vectors:
         raise ValueError(f"No VSM vector for country: {slug}")
@@ -266,13 +279,16 @@ def rank_document(
     for other_slug, vector in index.doc_vectors.items():
         if other_slug == slug:
             continue
+        shared_terms = matched_terms(source, vector, limit=10_000)
+        if len(shared_terms) < min_shared_meaningful_terms:
+            continue
         score = sparse_similarity(source, vector, metric=metric)
         results.append(
             VSMSearchResult(
                 slug=other_slug,
                 display_name=index.documents.get(other_slug, other_slug.replace("_", " ").title()),
                 score=score,
-                matched_terms=matched_terms(source, vector),
+                matched_terms=shared_terms[:10],
             )
         )
     results.sort(key=lambda item: item.score, reverse=True)
