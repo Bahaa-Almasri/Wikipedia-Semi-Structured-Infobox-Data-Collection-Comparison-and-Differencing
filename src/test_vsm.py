@@ -6,9 +6,12 @@ import sys
 
 sys.path.insert(0, "src")
 
+import math
+
 from core.similarity.vsm import (  # noqa: E402
     build_vsm_index,
     cosine_similarity,
+    inverse_document_frequency,
     normalize_terms,
     pcc_similarity,
     query_counts,
@@ -69,6 +72,14 @@ def test_tokenization_and_tf_counts():
 def test_idf_rewards_rarer_terms():
     index = _index()
     assert index.idf["beirut"] > index.idf["capital"]
+
+
+def test_idf_matches_lecture_log_n_over_df():
+    index = _index()
+    assert index.idf["beirut"] == math.log(3 / 1)
+    assert index.idf["million"] == math.log(3 / 2)
+    assert index.idf["capital"] == 0.0
+    assert inverse_document_frequency(3, 3) == 0.0
 
 
 def test_cosine_identity_and_disjoint():
@@ -153,6 +164,7 @@ def test_pcc_metric_path_runs():
 if __name__ == "__main__":
     test_tokenization_and_tf_counts()
     test_idf_rewards_rarer_terms()
+    test_idf_matches_lecture_log_n_over_df()
     test_cosine_identity_and_disjoint()
     test_pcc_identity_and_empty()
     test_query_ranks_matching_document_first()

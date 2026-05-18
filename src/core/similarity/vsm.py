@@ -147,6 +147,12 @@ def vsm_document_from_json(
     )
 
 
+def inverse_document_frequency(doc_count: int, document_frequency: int) -> float:
+    if doc_count <= 0 or document_frequency <= 0:
+        return 0.0
+    return math.log(doc_count / document_frequency)
+
+
 def build_vsm_index(
     documents: Sequence[VSMDocument],
     *,
@@ -169,7 +175,7 @@ def build_vsm_index(
     }
     vocabulary = sorted(term for term in df if term not in pruned_terms)
     idf: SparseVector = {
-        term: math.log((doc_count + 1) / (frequency + 1)) + 1.0
+        term: inverse_document_frequency(doc_count, frequency)
         for term, frequency in df.items()
         if term not in pruned_terms
     }
