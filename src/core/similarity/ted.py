@@ -9,8 +9,8 @@ from typing import Optional, Union
 from domain.models.edit_script import NJTedResult, TedResult
 from domain.models.tree import TreeNode
 
-from core.similarity.common import clone_tree
 from core.similarity.chawathe import chawathe_tree_to_ld_pairs, compute_ted_chawathe
+from core.similarity.cost_model import CostModelInput
 from core.similarity.nj import compute_ted_nj
 from core.similarity.zhang_shasha import compute_ted_zhang_shasha
 
@@ -25,6 +25,7 @@ def compute_ted(
     *,
     algorithm: str = ALGORITHM_CHAWATHE,
     coerce_root_label: Optional[str] = None,
+    cost_model: CostModelInput = None,
 ) -> Union[TedResult, NJTedResult]:
     """
     Compute TED between two trees using the chosen algorithm.
@@ -35,14 +36,14 @@ def compute_ted(
     al = (algorithm or "").lower()
     if al == ALGORITHM_NJ:
         return compute_ted_nj(
-            source_root, target_root, coerce_root_label=coerce_root_label
+            source_root, target_root, coerce_root_label=coerce_root_label, cost_model=cost_model
         )
     if al == ALGORITHM_ZHANG_SHASHA:
         return compute_ted_zhang_shasha(
             source_root, target_root, coerce_root_label=coerce_root_label
         )
     return compute_ted_chawathe(
-        source_root, target_root, coerce_root_label=coerce_root_label
+        source_root, target_root, coerce_root_label=coerce_root_label, cost_model=cost_model
     )
 
 

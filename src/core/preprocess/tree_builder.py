@@ -4,6 +4,7 @@ import re
 from typing import Any, Dict, Iterable, List, Optional
 
 from core.data.storage import list_slugs, read_json_document, write_tree_document
+from core.preprocess.comparison_content import get_comparison_fields
 from domain.models.tree import TreeNode
 
 # Field typing for semantic merging (token lists → single string values on the field node).
@@ -162,17 +163,9 @@ def _build_subtree(label: str, value: Any) -> TreeNode:
     return _scalar_to_leaf_node(label, value)
 
 
-def _select_comparison_fields(document: Dict[str, Any]) -> Dict[str, Any]:
-    normalized = document.get("normalized", {}) or {}
-    comparison_fields = normalized.get("comparison_fields", {}) or {}
-    if comparison_fields:
-        return comparison_fields
-    return normalized.get("fields", {}) or {}
-
-
 def build_country_tree(document: Dict[str, Any]) -> TreeNode:
     meta = document.get("meta", {}) or {}
-    fields = _select_comparison_fields(document)
+    fields = get_comparison_fields(document)
 
     root_label = meta.get("slug") or meta.get("country_name") or "country"
     root = TreeNode(label=str(root_label))

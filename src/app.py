@@ -3,6 +3,7 @@ FastAPI application for the Wikipedia Country Infobox API.
 Run with: uvicorn src.app:app --host 0.0.0.0 --port 8000
 """
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 from api.controllers import health_controller, wikiinfobox_controller
 
@@ -16,6 +17,14 @@ app = FastAPI(
     title="Wikipedia Country Infobox API",
     description="API for browsing Wikipedia country infobox data (JSON, trees, raw HTML).",
     openapi_tags=tags_metadata,
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 app.include_router(

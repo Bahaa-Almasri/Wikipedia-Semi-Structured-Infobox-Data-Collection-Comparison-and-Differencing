@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 
 from core.data.storage import read_json_document, read_tree_document
+from core.preprocess.comparison_content import get_comparison_fields
 from core.preprocess.tree_builder import build_and_save_tree_for_slug, build_and_save_trees_for_all
 from domain.models.tree import TreeNode, draw_tree
 
@@ -11,12 +12,9 @@ def _describe_tree_source(slug: str) -> str:
     data = read_json_document(slug)
     if data is None:
         return "unknown"
-    normalized = data.get("normalized", {}) or {}
-    if normalized.get("comparison_fields"):
-        return "normalized.comparison_fields"
-    if normalized.get("fields"):
-        return "normalized.fields (fallback)"
-    return "no usable fields found"
+    if get_comparison_fields(data):
+        return "comparison_fields"
+    return "no comparison_fields found"
 
 
 def main() -> None:

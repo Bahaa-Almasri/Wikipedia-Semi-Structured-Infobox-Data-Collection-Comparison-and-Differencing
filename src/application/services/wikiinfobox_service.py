@@ -5,7 +5,9 @@ All data access and run operations go through this module; the API controller ca
 from __future__ import annotations
 
 import logging
+import random
 import time
+import uuid
 from typing import Any, Dict, List, Optional, Sequence, Tuple, Union
 
 logger = logging.getLogger(__name__)
@@ -17,10 +19,16 @@ from core.data.feature_extraction import (
     extract_selected_features,
 )
 from core.data.storage import (
+    iso_now,
     list_slugs,
+    read_all_json_documents,
     read_json_document,
     read_raw_html,
     read_tree_document,
+    read_ted_index,
+    read_vsm_index,
+    write_ted_index,
+    write_vsm_index,
 )
 from core.patch.patch import apply_patch_from_dict
 from core.patch.path_patch import (
@@ -30,22 +38,40 @@ from core.patch.path_patch import (
     normalize_path,
 )
 from core.postprocess.postprocess import tree_to_infobox_text, tree_to_json_string, tree_to_xml_string
-from core.postprocess.edit_script_ops_summary import (
+from core.edit_script.edit_script_ops_summary import (
     summarize_raw_edit_script_operations,
     summarize_semantic_diff_operations,
 )
-from core.postprocess.edit_script_normalize import (
+from core.edit_script.edit_script_normalize import (
     IGNORE_FIELDS,
     ignored_path,
     normalize_edit_script_for_algorithm,
 )
-from core.postprocess.semantic_edit_script import postprocess_semantic_edit_script
+from core.edit_script.semantic_edit_script import postprocess_semantic_edit_script
 from core.preprocess.tree_builder import build_and_save_tree_for_slug, build_and_save_trees_for_all
 from core.preprocess.pipeline import collect_all_countries
-from core.similarity.common import clone_tree
+from utils.tree_utils import clone_tree, validate_tree
+from core.similarity.clustering import (
+    SUPPORTED_AGGLOMERATIVE_LINKAGES,
+    SUPPORTED_AGGLOMERATIVE_STOPPING_RULES,
+    SUPPORTED_CLUSTER_ALGORITHMS,
+    SUPPORTED_CLUSTER_DISTANCES,
+    build_ted_similarity_index,
+    cluster_vsm_index,
+)
 from core.similarity.ted import compute_ted
-from core.similarity.tree_validation import validate_tree
-from domain.models.tree import TreeNode, tree_similarity
+from core.similarity.vsm import (
+    COMPARISON_CONTENT_SOURCE,
+    DEFAULT_VSM_MODE,
+    SUPPORTED_VSM_METRICS,
+    build_vsm_index,
+    rank_document,
+    rank_query,
+    sparse_similarity,
+    vsm_document_from_json,
+)
+from domain.models.tree import TreeNode
+from domain.models.vsm import VSMIndex
 from utils.compare import compare_country_slugs, compare_from_tree_dicts, load_tree_for_slug
 
 # Alias for semantic diff filtering (same set as edit-script noise filter).
@@ -54,7 +80,12 @@ IGNORED_FIELDS = IGNORE_FIELDS
 # Display placeholder for missing / empty scalar values in human-readable output.
 EMPTY_VALUE_DISPLAY = "∅"
 
+SUPPORTED_CLUSTER_SOURCES = {"vsm", "ted"}
+SUPPORTED_TED_CLUSTER_ALGORITHMS = {"chawathe", "nj", "zhang_shasha"}
+CLUSTERING_MAX_DF_RATIO = 0.85
+
 _MISSING = object()
+_GAME_ROUNDS: Dict[str, str] = {}
 
 
 def _is_empty_value(value: Any) -> bool:
@@ -422,6 +453,7 @@ def ted_similarity(
     *,
     algorithm: str = "chawathe",
     coerce_root_label: Optional[str] = None,
+    cost_model: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Compute TED distance and similarity between two country trees."""
     source_root = load_tree_for_slug(source_slug)
@@ -433,6 +465,7 @@ def ted_similarity(
             source_root, target_root,
             algorithm=algorithm,
             coerce_root_label=coerce_root_label,
+            cost_model=cost_model,
         )
         runtime_ms = (time.perf_counter() - t0) * 1000.0
         return {
@@ -449,6 +482,7 @@ def ted_similarity(
         source_root, target_root,
         algorithm=algorithm,
         coerce_root_label=coerce_root_label,
+        cost_model=cost_model,
     )
     return {
         "source_slug": source_slug,
@@ -467,12 +501,14 @@ def ted_diff(
     *,
     algorithm: str = "chawathe",
     coerce_root_label: Optional[str] = None,
+    cost_model: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Compute full comparison (TED + edit script + patched tree + report)."""
     return compare_country_slugs(
         source_slug, target_slug,
         algorithm=algorithm,
         coerce_root_label=coerce_root_label,
+        cost_model=cost_model,
     )
 
 
@@ -484,6 +520,7 @@ def ted_diff_from_trees(
     target_slug: str = "target",
     algorithm: str = "chawathe",
     coerce_root_label: Optional[str] = None,
+    cost_model: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Compute full comparison from two tree dicts (e.g. from API)."""
     return compare_from_tree_dicts(
@@ -492,6 +529,7 @@ def ted_diff_from_trees(
         target_slug=target_slug,
         algorithm=algorithm,
         coerce_root_label=coerce_root_label,
+        cost_model=cost_model,
     )
 
 
@@ -503,6 +541,7 @@ def compare_countries(
     exclude: bool = False,
     algorithm: str = "chawathe",
     coerce_root_label: Optional[str] = None,
+    cost_model: Optional[str] = None,
 ) -> Dict[str, Any]:
     """
     Compare two countries by slug. Optionally restrict by features.
@@ -535,6 +574,7 @@ def compare_countries(
         target_tree,
         algorithm=algorithm,
         coerce_root_label=coerce_root_label,
+        cost_model=cost_model,
     )
     result["source_tree"] = source_tree
     result["target_tree"] = target_tree
@@ -551,11 +591,12 @@ def ted_compute_from_trees(
     *,
     algorithm: str = "chawathe",
     coerce_root_label: Optional[str] = None,
+    cost_model: Optional[str] = None,
 ) -> Dict[str, Any]:
     """
     Compute TED metrics + edit script ONLY (no patch application).
 
-    Returns edit_script as a list of serialized operations, so the frontend can store it directly
+    Returns edit_script as a list of serialized operations, so the streamlit can store it directly
     and apply it later via /ted/patch.
     """
     source_root = TreeNode.from_dict(source_tree)
@@ -571,6 +612,7 @@ def ted_compute_from_trees(
             target_root,
             algorithm=algorithm,
             coerce_root_label=coerce_root_label,
+            cost_model=cost_model,
         )
         runtime_ms = (time.perf_counter() - t0) * 1000.0
     else:
@@ -579,6 +621,7 @@ def ted_compute_from_trees(
             target_root,
             algorithm=algorithm,
             coerce_root_label=coerce_root_label,
+            cost_model=cost_model,
         )
         runtime_ms = None
 
@@ -587,11 +630,11 @@ def ted_compute_from_trees(
     if coerce_root_label is not None:
         source_for_script.label = coerce_root_label
 
-    edit_script_ops = [op.to_dict() for op in ted_result.operations]
+    edit_script_native = [op.to_dict() for op in ted_result.operations]
     zs_map = getattr(ted_result, "zhang_shasha_mappings", None)
     if al == "zhang_shasha" and zs_map:
         # TED native output is postorder node alignments, not LD-pair ops.
-        edit_script_ops = [
+        edit_script_native = [
             {
                 "op": "map",
                 "source_id": m["source_id"],
@@ -599,27 +642,32 @@ def ted_compute_from_trees(
             }
             for m in zs_map
         ]
-    edit_script_raw = normalize_edit_script_for_algorithm(
+    edit_script_display = normalize_edit_script_for_algorithm(
         ted_result.algorithm,
         source_for_script,
-        edit_script_ops,
+        edit_script_native,
     )
     edit_script_clean = clean_edit_script(source_tree, target_tree)
     edit_script_human = format_edit_script_human(edit_script_clean)
-    raw_edit_script_summary = summarize_raw_edit_script_operations(edit_script_raw)
+    raw_edit_script_summary = summarize_raw_edit_script_operations(edit_script_native)
+    display_edit_script_summary = summarize_raw_edit_script_operations(edit_script_display)
     semantic_diff_summary = summarize_semantic_diff_operations(edit_script_clean)
 
     out: Dict[str, Any] = {
         "algorithm": ted_result.algorithm,
         "distance": ted_result.distance,
         "similarity": ted_result.similarity,
-        "edit_script": edit_script_raw,
-        "edit_script_raw": edit_script_raw,
+        "edit_script": edit_script_display,
+        "edit_script_raw": edit_script_native,
+        "edit_script_display": edit_script_display,
+        "edit_script_display_normalized": edit_script_display,
         "raw_edit_script_summary": raw_edit_script_summary,
+        "display_edit_script_summary": display_edit_script_summary,
         "semantic_diff_summary": semantic_diff_summary,
         # Backward-compatible aliases (semantic was previously exposed as edit_script_summary).
         "edit_script_summary": semantic_diff_summary,
         "edit_script_raw_summary": raw_edit_script_summary,
+        "edit_script_display_summary": display_edit_script_summary,
         "edit_script_clean": edit_script_clean,
         "edit_script_human": edit_script_human,
         "source_size": ted_result.source_size,
@@ -827,4 +875,615 @@ def similarity_ranking_both(
     return {
         "chawathe": similarity_ranking(country, top_k, algorithm="chawathe", coerce_root_label=coerce_root_label),
         "nj": similarity_ranking(country, top_k, algorithm="nj", coerce_root_label=coerce_root_label),
+    }
+
+
+# --- VSM / TF-IDF retrieval ---
+
+
+def _validate_vsm_metric(metric: str) -> str:
+    normalized = (metric or "cosine").strip().lower()
+    if normalized not in SUPPORTED_VSM_METRICS:
+        raise ValueError(f"Unsupported VSM metric '{metric}'.")
+    return normalized
+
+
+def _validate_cluster_algorithm(algorithm: str) -> str:
+    normalized = (algorithm or "kmeans").strip().lower()
+    if normalized not in SUPPORTED_CLUSTER_ALGORITHMS:
+        raise ValueError(f"Unsupported clustering algorithm '{algorithm}'.")
+    return normalized
+
+
+def _validate_cluster_distance(distance: str) -> str:
+    normalized = (distance or "euclidean").strip().lower()
+    if normalized not in SUPPORTED_CLUSTER_DISTANCES:
+        raise ValueError(f"Unsupported clustering distance '{distance}'.")
+    return normalized
+
+
+def _validate_agglomerative_linkage(linkage: str) -> str:
+    normalized = (linkage or "average").strip().lower()
+    if normalized not in SUPPORTED_AGGLOMERATIVE_LINKAGES:
+        raise ValueError(f"Unsupported agglomerative linkage '{linkage}'.")
+    return normalized
+
+
+def _validate_agglomerative_stopping_rule(stopping_rule: str) -> str:
+    normalized = (stopping_rule or "none").strip().lower()
+    if normalized not in SUPPORTED_AGGLOMERATIVE_STOPPING_RULES:
+        raise ValueError(f"Unsupported agglomerative stopping rule '{stopping_rule}'.")
+    return normalized
+
+
+def _validate_cluster_source(source: str) -> str:
+    normalized = (source or "vsm").strip().lower()
+    if normalized not in SUPPORTED_CLUSTER_SOURCES:
+        raise ValueError(f"Unsupported clustering vector source '{source}'.")
+    return normalized
+
+
+def _validate_ted_cluster_algorithm(algorithm: str) -> str:
+    normalized = (algorithm or "chawathe").strip().lower()
+    if normalized not in SUPPORTED_TED_CLUSTER_ALGORITHMS:
+        raise ValueError(f"Unsupported TED clustering algorithm '{algorithm}'.")
+    return normalized
+
+
+def _vsm_index_name() -> str:
+    return f"tfidf:{DEFAULT_VSM_MODE}:{COMPARISON_CONTENT_SOURCE}"
+
+
+def _ted_index_name(
+    ted_algorithm: str,
+    *,
+    cost_model: Optional[str] = None,
+) -> str:
+    algorithm = _validate_ted_cluster_algorithm(ted_algorithm)
+    if cost_model:
+        return f"ted:{algorithm}:{cost_model.strip().lower()}"
+    return f"ted:{algorithm}"
+
+
+def _build_vsm_index(
+    *,
+    features: Optional[List[str]] = None,
+    max_df_ratio: Optional[float] = None,
+) -> VSMIndex:
+    mode = DEFAULT_VSM_MODE
+    docs = read_all_json_documents()
+    vsm_documents = [
+        vsm_document_from_json(slug, doc, mode=mode, features=features)
+        for slug, doc in sorted(docs.items())
+    ]
+    vsm_documents = [doc for doc in vsm_documents if doc.terms]
+    return build_vsm_index(
+        vsm_documents,
+        mode=mode,
+        max_df_ratio=max_df_ratio,
+        metadata={
+            "features": list(features or []),
+            "document_source": COMPARISON_CONTENT_SOURCE,
+        },
+    )
+
+
+def _build_vsm_clustering_index(
+    *,
+    features: Optional[List[str]] = None,
+) -> VSMIndex:
+    """Build a non-persisted VSM index tuned for clustering, not keyword retrieval."""
+    return _build_vsm_index(
+        features=features,
+        max_df_ratio=CLUSTERING_MAX_DF_RATIO,
+    )
+
+
+def _load_or_build_vsm_index(
+    *,
+    features: Optional[List[str]] = None,
+) -> VSMIndex:
+    if features:
+        return _build_vsm_index(features=features)
+
+    stored = read_vsm_index(_vsm_index_name())
+    if stored is not None:
+        return VSMIndex.from_dict(stored)
+    return _build_vsm_index()
+
+
+def _build_ted_similarity_index(
+    *,
+    ted_algorithm: str = "chawathe",
+    features: Optional[List[str]] = None,
+    cost_model: Optional[str] = None,
+    coerce_root_label: Optional[str] = "infobox",
+) -> VSMIndex:
+    """Represent each country as its TED similarity profile against all countries."""
+    ted_algorithm = _validate_ted_cluster_algorithm(ted_algorithm)
+    docs = read_all_json_documents()
+    tree_docs: Dict[str, Dict[str, Any]] = {}
+    documents: Dict[str, str] = {}
+    for slug, doc in sorted(docs.items()):
+        tree = doc.get("tree")
+        if tree is None:
+            continue
+        if features:
+            tree = extract_selected_features(tree, features)
+        tree_docs[slug] = tree
+        meta = doc.get("meta") or {}
+        documents[slug] = str(meta.get("country_name") or slug.replace("_", " ").title())
+
+    if not tree_docs:
+        raise ValueError("No country trees available for TED similarity indexing.")
+
+    index = build_ted_similarity_index(
+        tree_docs,
+        documents=documents,
+        ted_algorithm=ted_algorithm,
+        cost_model=cost_model,
+        coerce_root_label=coerce_root_label,
+    )
+    index.metadata["features"] = list(features or [])
+    index.metadata["country_slugs"] = sorted(tree_docs)
+    index.metadata["built_at"] = iso_now()
+    return index
+
+
+def _load_or_build_ted_similarity_index(
+    *,
+    ted_algorithm: str = "chawathe",
+    features: Optional[List[str]] = None,
+    cost_model: Optional[str] = None,
+    coerce_root_label: Optional[str] = "infobox",
+    persist: bool = False,
+) -> VSMIndex:
+    """Load a persisted TED profile index or compute and optionally persist it."""
+    ted_algorithm = _validate_ted_cluster_algorithm(ted_algorithm)
+    if features:
+        return _build_ted_similarity_index(
+            ted_algorithm=ted_algorithm,
+            features=features,
+            cost_model=cost_model,
+            coerce_root_label=coerce_root_label,
+        )
+
+    index_name = _ted_index_name(ted_algorithm, cost_model=cost_model)
+    stored = read_ted_index(index_name)
+    if stored is not None:
+        stored_slugs = set((stored.get("metadata") or {}).get("country_slugs") or [])
+        current_slugs = set(list_slugs())
+        if stored_slugs and stored_slugs == current_slugs:
+            index = VSMIndex.from_dict(stored)
+            index.metadata.setdefault("index_name", index_name)
+            index.metadata.setdefault("loaded_from_cache", True)
+            return index
+
+    index = _build_ted_similarity_index(
+        ted_algorithm=ted_algorithm,
+        cost_model=cost_model,
+        coerce_root_label=coerce_root_label,
+    )
+    index.metadata["index_name"] = index_name
+    index.metadata["loaded_from_cache"] = False
+    if persist:
+        write_ted_index(index_name, index.to_dict())
+    return index
+
+
+def run_ted_preprocess(
+    *,
+    algorithms: Optional[List[str]] = None,
+    persist: bool = True,
+    cost_model: Optional[str] = None,
+) -> Dict[str, Any]:
+    """Build and persist TED similarity-profile indexes for clustering."""
+    requested = algorithms or ["chawathe", "nj"]
+    built: List[Dict[str, Any]] = []
+    for algorithm in requested:
+        algorithm = _validate_ted_cluster_algorithm(str(algorithm))
+        index = _build_ted_similarity_index(
+            ted_algorithm=algorithm,
+            cost_model=cost_model,
+        )
+        index_name = _ted_index_name(algorithm, cost_model=cost_model)
+        index.metadata["index_name"] = index_name
+        index.metadata["loaded_from_cache"] = False
+        if persist:
+            write_ted_index(index_name, index.to_dict())
+        pair_count = len(index.doc_vectors) * max(len(index.doc_vectors) - 1, 0)
+        built.append(
+            {
+                "algorithm": algorithm,
+                "index_name": index.metadata.get("index_name", _ted_index_name(algorithm, cost_model=cost_model)),
+                "document_count": len(index.doc_vectors),
+                "pair_count": pair_count,
+                "persisted": persist,
+                "loaded_from_cache": bool(index.metadata.get("loaded_from_cache")),
+            }
+        )
+    return {
+        "status": "ok",
+        "cost_model": cost_model,
+        "persisted": persist,
+        "indexes": built,
+    }
+
+
+def run_vsm_preprocess(
+    *,
+    persist: bool = True,
+) -> Dict[str, Any]:
+    """Build a TF-IDF VSM index for all stored country documents."""
+    index = _build_vsm_index()
+    if persist:
+        write_vsm_index(_vsm_index_name(), index.to_dict())
+    return {
+        "status": "ok",
+        "mode": DEFAULT_VSM_MODE,
+        "persisted": persist,
+        "document_count": len(index.doc_vectors),
+        "vocabulary_size": len(index.vocabulary),
+        "index_name": _vsm_index_name() if persist else None,
+    }
+
+
+def vsm_query(
+    query: str,
+    *,
+    top_k: int = 5,
+    metric: str = "cosine",
+    features: Optional[List[str]] = None,
+) -> Dict[str, Any]:
+    metric = _validate_vsm_metric(metric)
+    index = _load_or_build_vsm_index(features=features)
+    results = rank_query(index, query, top_k=top_k, metric=metric)
+    return {
+        "query": query,
+        "metric": metric,
+        "mode": DEFAULT_VSM_MODE,
+        "top_k": top_k,
+        "features": list(features or []),
+        "document_count": len(index.doc_vectors),
+        "vocabulary_size": len(index.vocabulary),
+        "results": [result.to_dict() for result in results],
+    }
+
+
+def vsm_similarity(
+    source_slug: str,
+    target_slug: str,
+    *,
+    metric: str = "cosine",
+    features: Optional[List[str]] = None,
+) -> Dict[str, Any]:
+    metric = _validate_vsm_metric(metric)
+    index = _load_or_build_vsm_index(features=features)
+    if source_slug not in index.doc_vectors:
+        raise ValueError(f"No VSM vector for country: {source_slug}")
+    if target_slug not in index.doc_vectors:
+        raise ValueError(f"No VSM vector for country: {target_slug}")
+    score = sparse_similarity(
+        index.doc_vectors[source_slug],
+        index.doc_vectors[target_slug],
+        metric=metric,
+    )
+    return {
+        "source_slug": source_slug,
+        "source_display_name": index.documents.get(source_slug, source_slug),
+        "target_slug": target_slug,
+        "target_display_name": index.documents.get(target_slug, target_slug),
+        "metric": metric,
+        "mode": DEFAULT_VSM_MODE,
+        "features": list(features or []),
+        "score": score,
+        "document_count": len(index.doc_vectors),
+        "vocabulary_size": len(index.vocabulary),
+    }
+
+
+def vsm_similarity_ranking(
+    country: str,
+    *,
+    top_k: int = 5,
+    metric: str = "cosine",
+    features: Optional[List[str]] = None,
+) -> Dict[str, Any]:
+    metric = _validate_vsm_metric(metric)
+    index = _load_or_build_vsm_index(features=features)
+    results = rank_document(index, country, top_k=top_k, metric=metric)
+    return {
+        "country": country,
+        "display_name": index.documents.get(country, country),
+        "metric": metric,
+        "mode": DEFAULT_VSM_MODE,
+        "top_k": top_k,
+        "features": list(features or []),
+        "document_count": len(index.doc_vectors),
+        "vocabulary_size": len(index.vocabulary),
+        "results": [result.to_dict() for result in results],
+    }
+
+
+def vsm_cluster(
+    *,
+    vector_source: str = "vsm",
+    algorithm: str = "kmeans",
+    distance: str = "cosine",
+    features: Optional[List[str]] = None,
+    country: Optional[str] = None,
+    k: int = 5,
+    ted_algorithm: str = "chawathe",
+    cost_model: Optional[str] = None,
+    linkage: str = "average",
+    stopping_rule: str = "none",
+    similarity_threshold: Optional[float] = None,
+) -> Dict[str, Any]:
+    vector_source = _validate_cluster_source(vector_source)
+    algorithm = _validate_cluster_algorithm(algorithm)
+    distance = _validate_cluster_distance(distance)
+    linkage = _validate_agglomerative_linkage(linkage)
+    stopping_rule = _validate_agglomerative_stopping_rule(stopping_rule)
+    if vector_source == "ted":
+        index = _load_or_build_ted_similarity_index(
+            ted_algorithm=ted_algorithm,
+            features=features,
+            cost_model=cost_model,
+        )
+    else:
+        index = _build_vsm_clustering_index(features=features)
+    selected = (country or "").strip().lower() or None
+    result = cluster_vsm_index(
+        index,
+        algorithm=algorithm,
+        distance=distance,
+        selected_country=selected,
+        k=k,
+        linkage=linkage,
+        stopping_rule=stopping_rule,
+        similarity_threshold=similarity_threshold,
+    )
+    out = result.to_dict()
+    out["vector_source"] = vector_source
+    out["features"] = list(features or [])
+    out["ted_algorithm"] = (
+        _validate_ted_cluster_algorithm(ted_algorithm) if vector_source == "ted" else None
+    )
+    out["cost_model"] = cost_model if vector_source == "ted" else None
+    out["document_source"] = COMPARISON_CONTENT_SOURCE if vector_source == "vsm" else None
+    if vector_source == "ted":
+        out["ted_index_name"] = index.metadata.get("index_name")
+        out["ted_index_loaded_from_cache"] = bool(index.metadata.get("loaded_from_cache"))
+    return out
+
+
+# --- Public-facing product helpers for the React UI ---
+
+
+def _country_display_name(slug: str, doc: Dict[str, Any]) -> str:
+    meta = doc.get("meta") or {}
+    return str(meta.get("country_name") or slug.replace("_", " ").title())
+
+
+def _normalized_fields(doc: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
+    normalized = doc.get("normalized") or {}
+    fields = normalized.get("fields") or {}
+    return fields if isinstance(fields, dict) else {}
+
+
+def _field_text(fields: Dict[str, Dict[str, Any]], key_fragment: str) -> str:
+    parts: List[str] = []
+    fragment = key_fragment.casefold()
+    for key, value in fields.items():
+        if fragment in str(key).casefold() and isinstance(value, dict):
+            parts.append(str(value.get("text") or ""))
+    return " ".join(parts).casefold()
+
+
+def _field_numbers(fields: Dict[str, Dict[str, Any]], key_fragment: str) -> List[float]:
+    numbers: List[float] = []
+    fragment = key_fragment.casefold()
+    for key, value in fields.items():
+        if fragment not in str(key).casefold() or not isinstance(value, dict):
+            continue
+        for number in value.get("numbers") or []:
+            try:
+                numbers.append(float(number))
+            except (TypeError, ValueError):
+                continue
+    return numbers
+
+
+def _classify_size(area_km2: Optional[float]) -> str:
+    if area_km2 is None:
+        return "unknown"
+    if area_km2 < 100_000:
+        return "small"
+    if area_km2 < 1_000_000:
+        return "medium"
+    return "large"
+
+
+def _classify_population(population: Optional[float]) -> str:
+    if population is None:
+        return "unknown"
+    if population < 5_000_000:
+        return "less"
+    if population < 50_000_000:
+        return "moderate"
+    return "high"
+
+
+def _score_preference(
+    *,
+    actual: str,
+    preferred: str,
+    reason: str,
+    weight: float,
+) -> Tuple[float, List[str]]:
+    if not preferred or preferred == "any" or preferred == "no_preference":
+        return weight * 0.5, []
+    if actual == preferred:
+        return weight, [reason]
+    if actual == "unknown":
+        return weight * 0.25, []
+    return 0.0, []
+
+
+def recommend_country_matches(
+    preferences: Dict[str, Any],
+    *,
+    limit: int = 8,
+) -> Dict[str, Any]:
+    docs = read_all_json_documents()
+    scored: List[Dict[str, Any]] = []
+    include_surprise = bool(preferences.get("include_surprising_matches"))
+
+    for slug, doc in sorted(docs.items()):
+        fields = _normalized_fields(doc)
+        all_text = " ".join(
+            str(value.get("text") or "")
+            for value in fields.values()
+            if isinstance(value, dict)
+        ).casefold()
+        reasons: List[str] = []
+        score = 0.05
+
+        area_values = _field_numbers(fields, "area")
+        area = max(area_values) if area_values else None
+        size_score, size_reasons = _score_preference(
+            actual=_classify_size(area),
+            preferred=str(preferences.get("size") or "any"),
+            reason="Matches your preferred country scale",
+            weight=0.18,
+        )
+        score += size_score
+        reasons.extend(size_reasons)
+
+        population_values = _field_numbers(fields, "population")
+        population = max(population_values) if population_values else None
+        population_score, population_reasons = _score_preference(
+            actual=_classify_population(population),
+            preferred=str(preferences.get("population") or "any"),
+            reason="Fits your population preference",
+            weight=0.18,
+        )
+        score += population_score
+        reasons.extend(population_reasons)
+
+        geography = str(preferences.get("geography") or "any")
+        if geography not in {"any", "no_preference"}:
+            geo_match = (
+                (geography == "island" and "island" in all_text)
+                or (geography == "coastal" and any(word in all_text for word in ["sea", "ocean", "coast", "gulf"]))
+                or (geography == "landlocked" and "landlocked" in all_text)
+            )
+            if geo_match:
+                score += 0.16
+                reasons.append("Matches your geographic preference")
+
+        government = str(preferences.get("government") or "any")
+        government_text = _field_text(fields, "government")
+        if government not in {"any", "no_preference"}:
+            if government in government_text:
+                score += 0.16
+                reasons.append("Has a compatible government profile")
+
+        language_profile = str(preferences.get("language_profile") or "any")
+        language_text = _field_text(fields, "language")
+        if language_profile == "multilingual" and ("," in language_text or " and " in language_text):
+            score += 0.14
+            reasons.append("Has a multilingual national profile")
+        elif language_profile == "single" and language_text and "," not in language_text:
+            score += 0.14
+            reasons.append("Fits a single-language profile")
+        elif language_profile in {"any", "no_preference"}:
+            score += 0.07
+
+        region = str(preferences.get("region") or "any").casefold()
+        if region not in {"any", "no_preference", ""} and region in all_text:
+            score += 0.08
+            reasons.append("Connects with your selected regional flavor")
+
+        if include_surprise:
+            score += (hash(slug) % 10) / 200.0
+        if not reasons:
+            reasons.append("Shares several country-profile characteristics")
+
+        scored.append({
+            "country": slug,
+            "display_name": _country_display_name(slug, doc),
+            "score": min(score, 1.0),
+            "reasons": reasons[:3],
+        })
+
+    scored.sort(key=lambda item: item["score"], reverse=True)
+    recommendations = scored[:max(1, min(limit, 20))]
+    top_match = recommendations[0] if recommendations else None
+    return {
+        "top_match": top_match,
+        "recommendations": recommendations,
+    }
+
+
+def generate_guess_round(*, clue_count: int = 3, option_count: int = 4) -> Dict[str, Any]:
+    countries = get_country_index()
+    if len(countries) < option_count:
+        raise ValueError("Not enough countries to generate a game round.")
+
+    rng = random.SystemRandom()
+    hidden_slug, hidden_name = rng.choice(countries)
+    clues: List[Dict[str, str]] = []
+    try:
+        ranking = vsm_similarity_ranking(hidden_slug, top_k=max(clue_count, 3))
+        for item in ranking.get("results", [])[:clue_count]:
+            clues.append({
+                "country": item["country"],
+                "display_name": item.get("display_name") or item["country"],
+            })
+    except Exception as exc:
+        logger.debug("Falling back to random game clues: %s", exc)
+
+    if len(clues) < clue_count:
+        pool = [(slug, name) for slug, name in countries if slug != hidden_slug]
+        rng.shuffle(pool)
+        for slug, name in pool:
+            if len(clues) >= clue_count:
+                break
+            if slug not in {clue["country"] for clue in clues}:
+                clues.append({"country": slug, "display_name": name})
+
+    options = [{"country": hidden_slug, "display_name": hidden_name}]
+    distractors = [(slug, name) for slug, name in countries if slug != hidden_slug]
+    rng.shuffle(distractors)
+    for slug, name in distractors:
+        if len(options) >= option_count:
+            break
+        options.append({"country": slug, "display_name": name})
+    rng.shuffle(options)
+
+    round_id = uuid.uuid4().hex
+    _GAME_ROUNDS[round_id] = hidden_slug
+    return {
+        "round_id": round_id,
+        "clues": clues,
+        "options": options,
+    }
+
+
+def submit_guess_answer(round_id: str, selected_country: str) -> Dict[str, Any]:
+    correct_slug = _GAME_ROUNDS.pop(round_id, None)
+    if correct_slug is None:
+        raise ValueError("Unknown or expired round.")
+    country_names = dict(get_country_index())
+    correct = selected_country == correct_slug
+    return {
+        "correct": correct,
+        "correct_answer": correct_slug,
+        "correct_display_name": country_names.get(correct_slug, correct_slug),
+        "explanation": (
+            "Correct. The clue countries were selected from nearby country profiles."
+            if correct
+            else "Not quite. The clue countries were nearest neighbors of the hidden country."
+        ),
     }

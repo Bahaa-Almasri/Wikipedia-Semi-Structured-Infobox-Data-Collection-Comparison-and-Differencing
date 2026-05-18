@@ -4,7 +4,7 @@ from typing import List, Optional
 
 from bs4 import BeautifulSoup, Tag
 
-from domain.models.infobox import InfoboxRow, ParsedInfobox
+from domain.schemas.infobox import InfoboxRow, ParsedInfobox
 
 
 def _extract_infobox(soup: BeautifulSoup) -> Optional[Tag]:

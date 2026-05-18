@@ -4,8 +4,8 @@ import re
 from dataclasses import asdict
 from typing import Any, Dict, List, Mapping, Optional, Tuple
 
-from domain.models.infobox import InfoboxRow
-from domain.models.normalized_field import NormalizedField
+from domain.schemas.infobox import InfoboxRow
+from domain.schemas.normalized_field import NormalizedField
 
 
 _key_non_alnum_re = re.compile(r"[^0-9a-zA-Z]+")

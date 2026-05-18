@@ -1,0 +1,16 @@
+# Streamlit
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY docker/requirements-streamlit.txt requirements-streamlit.txt
+RUN pip install --no-cache-dir -r requirements-streamlit.txt
+
+# Shared domain tree helpers (format_draw_tree_dict, etc.); must sit next to streamlit for app.py imports
+COPY src/ /app/src/
+
+COPY streamlit/ streamlit/
+
+EXPOSE 8501
+
+CMD ["streamlit", "run", "streamlit/app.py", "--server.address=0.0.0.0", "--server.port=8501"]

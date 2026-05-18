@@ -1,6 +1,6 @@
 # Wikipedia Country Infobox Dataset (Phases 1–2)
 
-This project collects and pre-processes Wikipedia infobox data for all UN-recognized countries, and stores each country as its own JSON document (document-oriented / NoSQL-style). It also converts each JSON document into a rooted, ordered, labeled tree for later tree edit distance experiments, and provides a small Streamlit frontend to browse the data.
+This project collects and pre-processes Wikipedia infobox data for all UN-recognized countries, and stores each country as its own JSON document (document-oriented / NoSQL-style). It also converts each JSON document into a rooted, ordered, labeled tree for tree edit distance experiments. The repository now includes both a technical Streamlit UI and a public-facing React discovery UI called CountryScope.
 
 ## Folder structure
 
@@ -25,8 +25,10 @@ This project collects and pre-processes Wikipedia infobox data for all UN-recogn
     - `compare.py` – comparison pipeline (TED + diff + patch + report)
     - `cli.py` – Phase 1 CLI (collect)
     - `tree_cli.py` – Phase 2 CLI (build trees)
+- `streamlit/`
+  - `app.py` – technical Streamlit UI; **only talks to the API** (no direct data or logic)
 - `frontend/`
-  - `app.py` – Streamlit UI; **only talks to the API** (no direct data or logic)
+  - React/Vite CountryScope UI for matchmaker, similar-country exploration, and guessing game
 
 ## Backend quick start (pipeline + trees)
 
@@ -98,7 +100,8 @@ docker compose up --build
 This starts:
 - **MongoDB** on port `27017` (data persisted in a volume)
 - **API** on `http://localhost:8000`
-- **Streamlit frontend** on `http://localhost:8501` (calls the API at `http://api:8000`)
+- **Streamlit technical UI** on `http://localhost:${STREAMLIT_APP_PORT}` (calls the API by service name)
+- **React CountryScope UI** on `http://localhost:${FRONTEND_PORT:-8990}` (calls the API from the browser)
 
 Populate the database and build trees via the API (or via CLI in the api container):
 
@@ -122,8 +125,31 @@ After that, refresh the Streamlit app in your browser; it will load all data via
 | `MONGODB_DATABASE` | `wikinfobox` | Database name |
 | `MONGODB_COLLECTION` | `countries` | Collection name; each document has `_id` = country slug |
 | `API_URL` | `http://localhost:8000` | Base URL of the API (used by the Streamlit frontend only) |
+| `VITE_API_URL` | `http://localhost:8970` | Base URL of the API used by the React frontend |
+| `FRONTEND_PORT` | `8990` | Host port for the React CountryScope UI in Docker Compose |
 
-## Frontend: Streamlit data browser
+## Frontend: React CountryScope discovery app
+
+The React app in `frontend/` is the public-facing interface. It hides algorithmic details and presents the backend as an interactive country discovery product.
+
+It includes:
+- **Find Your Country Match** – a quiz that recommends countries from structured profile fields.
+- **Explore Similar Countries** – a recommendation journey powered by existing similarity ranking APIs.
+- **Guess the Country** – a neighbor-clue game with backend-generated rounds and server-side answer validation.
+
+Run locally after starting the API:
+
+```bash
+cd frontend
+npm install
+VITE_API_URL=http://localhost:8970 npm run dev
+```
+
+Then open the Vite URL, typically `http://localhost:5173`.
+
+With Docker Compose, open `http://localhost:${FRONTEND_PORT:-8990}`.
+
+## Frontend: Streamlit technical data browser
 
 The Streamlit app is a **thin client**: it only talks to the Wikipedia Infobox API. It has no direct access to MongoDB, files, or any business logic.
 
@@ -139,7 +165,7 @@ It lets you:
 3. Run the frontend:
 
 ```bash
-streamlit run frontend/app.py
+streamlit run streamlit/app.py
 ```
 
 Then open the URL printed by Streamlit (typically `http://localhost:8501`).

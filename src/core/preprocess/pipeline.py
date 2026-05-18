@@ -10,8 +10,8 @@ from core.data.storage import iso_now, write_json_document
 from core.data.country_list import fetch_un_member_states
 from core.preprocess.infobox_parser import parse_infobox
 from core.preprocess.normalization import build_comparison_fields, normalize_rows, normalized_fields_to_dict
-from domain.models.country import CountryInfo
-from domain.models.infobox import ParsedInfobox
+from domain.schemas.country import CountryInfo
+from domain.schemas.infobox import ParsedInfobox
 from utils.http_client import get
 
 

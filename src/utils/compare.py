@@ -10,7 +10,7 @@ from domain.models.tree import TreeNode
 
 from core.data.storage import read_tree_document
 from core.patch.patch import apply_patch, trees_equal
-from core.postprocess.edit_script_ops_summary import (
+from core.edit_script.edit_script_ops_summary import (
     raw_edit_ops_from_ted_result,
     summarize_raw_edit_script_operations,
 )
@@ -21,7 +21,6 @@ from core.postprocess.postprocess import (
     tree_to_json_string,
     tree_to_xml_string,
 )
-from core.similarity.common import clone_tree
 from core.similarity.ted import (
     ALGORITHM_CHAWATHE,
     ALGORITHM_NJ,
@@ -29,7 +28,7 @@ from core.similarity.ted import (
     compute_ted,
 )
 from core.similarity.zhang_shasha import normalize_tree as zs_normalize_tree
-from core.similarity.tree_validation import validate_tree
+from utils.tree_utils import clone_tree, validate_tree
 
 
 class ComparisonPipelineError(ValueError):
@@ -58,6 +57,7 @@ def compare_country_slugs(
     *,
     algorithm: str = ALGORITHM_CHAWATHE,
     coerce_root_label: Optional[str] = None,
+    cost_model: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Compare two country trees by slug; returns distance, similarity, edit script, patched tree, and reports."""
     source_root = load_tree_for_slug(source_slug)
@@ -78,6 +78,7 @@ def compare_country_slugs(
             patch_target,
             algorithm=algorithm,
             coerce_root_label=None,
+            cost_model=cost_model,
         )
     else:
         ted_result = compute_ted(
@@ -85,6 +86,7 @@ def compare_country_slugs(
             target_root,
             algorithm=algorithm,
             coerce_root_label=coerce_root_label,
+            cost_model=cost_model,
         )
 
     if al == ALGORITHM_ZHANG_SHASHA:
@@ -145,6 +147,7 @@ def compare_from_tree_dicts(
     target_slug: str = "target",
     algorithm: str = ALGORITHM_CHAWATHE,
     coerce_root_label: Optional[str] = None,
+    cost_model: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Compare two trees given as dicts (e.g. from API); same shape as compare_country_slugs."""
     source_root = TreeNode.from_dict(source_tree)
@@ -167,6 +170,7 @@ def compare_from_tree_dicts(
             patch_target,
             algorithm=algorithm,
             coerce_root_label=None,
+            cost_model=cost_model,
         )
     else:
         ted_result = compute_ted(
@@ -174,6 +178,7 @@ def compare_from_tree_dicts(
             target_root,
             algorithm=algorithm,
             coerce_root_label=coerce_root_label,
+            cost_model=cost_model,
         )
 
     if al == ALGORITHM_ZHANG_SHASHA:

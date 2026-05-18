@@ -9,6 +9,8 @@ __pycache__/
 *.pyzwz
 
 *.json
+!frontend/package.json
+!frontend/package-lock.json
 *.xml
 
 .env

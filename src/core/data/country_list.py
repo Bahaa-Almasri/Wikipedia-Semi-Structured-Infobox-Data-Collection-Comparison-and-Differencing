@@ -1,11 +1,12 @@
 from __future__ import annotations
 
-from typing import Iterable, List
+from typing import Iterable, List, Optional
+from urllib.parse import urlparse
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
 from core.data.config import WIKIPEDIA
-from domain.models.country import CountryInfo
+from domain.schemas.country import CountryInfo
 from utils.http_client import get
 
 
@@ -18,6 +19,65 @@ def _slugify(name: str) -> str:
         .replace(")", "")
         .replace(",", "")
     )
+
+
+def _table_headers(table: Tag) -> List[str]:
+    return [th.get_text(" ", strip=True).casefold() for th in table.select("th")]
+
+
+def _is_current_members_table(table: Tag) -> bool:
+    headers = _table_headers(table)
+    return any("member state" in h for h in headers) and any(
+        "date of admission" in h for h in headers
+    )
+
+
+def _candidate_member_tables(soup: BeautifulSoup) -> Iterable[Tag]:
+    current_members = soup.find(id="Current_members")
+    if current_members is not None:
+        heading = current_members.find_parent(["h2", "h3"])
+        if heading is not None:
+            for sibling in heading.find_all_next():
+                if sibling.name in {"h2", "h3"}:
+                    break
+                if sibling.name == "table" and "wikitable" in (sibling.get("class") or []):
+                    yield sibling
+
+    yield from soup.select("table.wikitable")
+
+
+def _country_link_from_row(row: Tag) -> Optional[Tag]:
+    first_cell = row.find(["th", "td"], recursive=False)
+    if first_cell is None:
+        return None
+
+    for link in first_cell.find_all("a", href=True):
+        href = str(link.get("href") or "")
+        if _country_url_from_href(href) is None:
+            continue
+        if not link.get_text(strip=True):
+            continue
+        return link
+    return None
+
+
+def _country_url_from_href(href: str) -> Optional[str]:
+    if href.startswith("/wiki/"):
+        article_path = href
+        url = f"{WIKIPEDIA.base_url}{href}"
+    elif href.startswith("//") and "/wiki/" in href:
+        article_path = urlparse(f"https:{href}").path
+        url = f"https:{href}"
+    elif href.startswith(("http://", "https://")) and "/wiki/" in href:
+        article_path = urlparse(href).path
+        url = href
+    else:
+        return None
+
+    article = article_path.removeprefix("/wiki/")
+    if not article or ":" in article:
+        return None
+    return url
 
 
 def fetch_un_member_states() -> List[CountryInfo]:
@@ -38,24 +98,19 @@ def fetch_un_member_states() -> List[CountryInfo]:
     )
     soup = BeautifulSoup(html, "html.parser")
 
-    tables: Iterable = soup.select("table.wikitable.sortable")
+    tables = [table for table in _candidate_member_tables(soup) if _is_current_members_table(table)]
     countries: List[CountryInfo] = []
 
     for table in tables:
         for row in table.select("tr"):
-            link = row.find("a")
-            if not link or not link.get("href"):
+            link = _country_link_from_row(row)
+            if link is None:
                 continue
 
-            href = link["href"]
-            if not href.startswith("/wiki/"):
+            url = _country_url_from_href(str(link["href"]))
+            if url is None:
                 continue
-
             name = link.get_text(strip=True)
-            if not name:
-                continue
-
-            url = f"{WIKIPEDIA.base_url}{href}"
             countries.append(
                 CountryInfo(
                     name=name,

@@ -4,15 +4,22 @@ from dataclasses import dataclass
 from functools import lru_cache
 from typing import Dict, List, Optional, Tuple
 
-from core.similarity.common import clone_tree, similarity_from_distance
-from core.similarity.tree_validation import validate_tree
+from utils.tree_utils import clone_tree, validate_tree
+from core.similarity.cost_model import (
+    CostModel,
+    CostModelInput,
+    get_cost_model,
+    subtree_delete_cost,
+    subtree_insert_cost,
+    similarity_from_distance
+)
 from domain.models.edit_script import NJEditOperation, NJTedResult
 from domain.models.tree import TreeNode
 
 
 @dataclass(frozen=True)
 class _PairResult:
-    distance: int
+    distance: float
     operations: Tuple[NJEditOperation, ...]
 
 
@@ -43,12 +50,16 @@ def nj_tree_size(root: TreeNode) -> int:
     return 1 + sum(nj_tree_size(child) for child in root.children)
 
 
-def _node_equal(a: TreeNode, b: TreeNode) -> bool:
-    return a.label == b.label and (a.value or None) == (b.value or None)
+def _raw_node_equal(a: TreeNode, b: TreeNode) -> bool:
+    return a.label == b.label and a.value == b.value
 
 
-def _update_cost(a: TreeNode, b: TreeNode) -> int:
-    return 0 if _node_equal(a, b) else 1
+def _node_equal(a: TreeNode, b: TreeNode, cost_model: CostModel) -> bool:
+    return cost_model.nodes_equal(a, b)
+
+
+def _update_cost(a: TreeNode, b: TreeNode, cost_model: CostModel) -> float:
+    return cost_model.update_cost(a, b)
 
 
 def _iter_nodes(root: TreeNode):
@@ -57,8 +68,8 @@ def _iter_nodes(root: TreeNode):
         yield from _iter_nodes(child)
 
 
-def _contains_at(pattern: TreeNode, candidate: TreeNode) -> bool:
-    if not _node_equal(pattern, candidate):
+def _contains_at(pattern: TreeNode, candidate: TreeNode, cost_model: CostModel) -> bool:
+    if not _node_equal(pattern, candidate, cost_model):
         return False
 
     if not pattern.children:
@@ -68,7 +79,7 @@ def _contains_at(pattern: TreeNode, candidate: TreeNode) -> bool:
     for p_child in pattern.children:
         found = False
         for idx in range(start, len(candidate.children)):
-            if _contains_at(p_child, candidate.children[idx]):
+            if _contains_at(p_child, candidate.children[idx], cost_model):
                 found = True
                 start = idx + 1
                 break
@@ -79,11 +90,11 @@ def _contains_at(pattern: TreeNode, candidate: TreeNode) -> bool:
 
 
 @lru_cache(maxsize=None)
-def _contained_in_cached(pattern_key: Tuple, tree_key: Tuple) -> bool:
+def _contained_in_cached(pattern_key: Tuple, tree_key: Tuple, cost_model: CostModel) -> bool:
     pattern = _nj_tree_from_key(pattern_key)
     tree = _nj_tree_from_key(tree_key)
     for candidate in _iter_nodes(tree):
-        if _contains_at(pattern, candidate):
+        if _contains_at(pattern, candidate, cost_model):
             return True
     return False
 
@@ -102,12 +113,13 @@ def _nj_tree_from_key(key: Tuple) -> TreeNode:
 
 
 class _NJEngine:
-    def __init__(self, source_root: TreeNode, target_root: TreeNode) -> None:
+    def __init__(self, source_root: TreeNode, target_root: TreeNode, cost_model: CostModel) -> None:
         validate_tree(source_root)
         validate_tree(target_root)
 
         self.source_root = source_root
         self.target_root = target_root
+        self.cost_model = cost_model
 
         self.source_refs = _RefAssigner("s").assign(source_root)
         self.target_refs = _RefAssigner("t").assign(target_root)
@@ -125,26 +137,26 @@ class _NJEngine:
     def target_ref(self, node: TreeNode) -> str:
         return self.target_refs[id(node)]
 
-    def del_tree_cost(self, subtree: TreeNode) -> int:
-        if _contained_in_cached(_nj_tree_to_key(subtree), self._target_key):
-            return 1
-        return nj_tree_size(subtree)
+    def del_tree_cost(self, subtree: TreeNode) -> float:
+        if _contained_in_cached(_nj_tree_to_key(subtree), self._target_key, self.cost_model):
+            return self.cost_model.delete_cost(subtree)
+        return subtree_delete_cost(subtree, self.cost_model)
 
-    def ins_tree_cost(self, subtree: TreeNode) -> int:
-        if _contained_in_cached(_nj_tree_to_key(subtree), self._source_key):
-            return 1
-        return nj_tree_size(subtree)
+    def ins_tree_cost(self, subtree: TreeNode) -> float:
+        if _contained_in_cached(_nj_tree_to_key(subtree), self._source_key, self.cost_model):
+            return self.cost_model.insert_cost(subtree)
+        return subtree_insert_cost(subtree, self.cost_model)
 
     def compare(self, a: TreeNode, b: TreeNode) -> _PairResult:
         key = (id(a), id(b))
         if key in self._memo:
             return self._memo[key]
 
-        root_cost = _update_cost(a, b)
+        root_cost = _update_cost(a, b, self.cost_model)
         m = len(a.children)
         n = len(b.children)
 
-        dist = [[0] * (n + 1) for _ in range(m + 1)]
+        dist = [[0.0] * (n + 1) for _ in range(m + 1)]
         choice: List[List[Optional[Tuple[str, int, int]]]] = [
             [None] * (n + 1) for _ in range(m + 1)
         ]
@@ -172,18 +184,23 @@ class _NJEngine:
                 delete_cost = dist[i - 1][j] + self.del_tree_cost(child_a)
                 insert_cost = dist[i][j - 1] + self.ins_tree_cost(child_b)
 
-                best_cost = min(match_cost, delete_cost, insert_cost)
+                candidates = [
+                    (
+                        match_cost,
+                        0 if child_a.label == child_b.label else 3,
+                        "match",
+                        i - 1,
+                        j - 1,
+                    ),
+                    (delete_cost, 1, "delete_tree", i - 1, j),
+                    (insert_cost, 2, "insert_tree", i, j - 1),
+                ]
+                best_cost, _, best_kind, best_left, best_right = min(candidates)
                 dist[i][j] = best_cost
-
-                if best_cost == match_cost:
-                    choice[i][j] = ("match", i - 1, j - 1)
-                elif best_cost == delete_cost:
-                    choice[i][j] = ("delete_tree", i - 1, j)
-                else:
-                    choice[i][j] = ("insert_tree", i, j - 1)
+                choice[i][j] = (best_kind, best_left, best_right)
 
         ops: List[NJEditOperation] = []
-        if root_cost > 0:
+        if not _raw_node_equal(a, b):
             ops.append(
                 NJEditOperation(
                     op="update",
@@ -266,6 +283,7 @@ def compute_ted_nj(
     target_root: TreeNode,
     *,
     coerce_root_label: Optional[str] = None,
+    cost_model: CostModelInput = None,
 ) -> NJTedResult:
     """
     Compute a single minimum-cost Nierman & Jagadish (2002) edit script.
@@ -277,7 +295,8 @@ def compute_ted_nj(
         src.label = coerce_root_label
         tgt.label = coerce_root_label
 
-    engine = _NJEngine(src, tgt)
+    resolved_cost_model = get_cost_model(cost_model)
+    engine = _NJEngine(src, tgt, resolved_cost_model)
     pair_result = engine.compare(src, tgt)
     similarity = similarity_from_distance(pair_result.distance, engine.source_size, engine.target_size)
 
@@ -291,6 +310,7 @@ def compute_ted_nj(
         operations=list(pair_result.operations),
         meta={
             "coerced_root_label": coerce_root_label,
+            "cost_model": resolved_cost_model.name,
             "notes": [
                 "Returns one deterministic minimum-cost script.",
                 "Tree insertion/deletion costs use the contained-in relation against the full source/target trees.",

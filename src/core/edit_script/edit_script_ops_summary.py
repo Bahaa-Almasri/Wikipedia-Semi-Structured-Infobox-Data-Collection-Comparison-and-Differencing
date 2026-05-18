@@ -13,7 +13,7 @@ from domain.models.edit_script import NJTedResult, TedResult
 
 def summarize_raw_edit_script_operations(operations: Sequence[Dict[str, Any]]) -> Dict[str, Any]:
     """
-    Summarize a raw TED edit script (as returned by the API after normalization).
+    Summarize a native TED edit script before display normalization/filtering.
 
     - insert / insert_tree -> inserts
     - delete / delete_tree -> deletes
@@ -47,9 +47,9 @@ def summarize_raw_edit_script_operations(operations: Sequence[Dict[str, Any]]) -
         "operation_count_total": len(operations),
         "summary_note": (
             "edit_script_length is inserts + deletes + updates in the algorithm script returned "
-            "for this request. Mappings (Zhang–Shasha) are node alignments, not insert/delete/update "
-            "steps, and are counted separately. This breakdown can differ from semantic path-level "
-            "diffs and from TED distance."
+            "by the TED implementation. Mappings (Zhang–Shasha) are node alignments, not "
+            "insert/delete/update steps, and are counted separately. This breakdown can differ "
+            "from display-normalized scripts, semantic path-level diffs, and TED distance."
         ),
     }
 

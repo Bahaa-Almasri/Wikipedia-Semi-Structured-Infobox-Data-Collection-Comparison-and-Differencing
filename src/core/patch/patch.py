@@ -16,7 +16,7 @@ from __future__ import annotations
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple, Union
 
 from core.similarity.chawathe import chawathe_tree_to_ld_pairs
-from core.similarity.tree_validation import (
+from utils.tree_utils import (
     LDPairValidationError,
     PatchValidationError,
     validate_ld_pair_sequence,

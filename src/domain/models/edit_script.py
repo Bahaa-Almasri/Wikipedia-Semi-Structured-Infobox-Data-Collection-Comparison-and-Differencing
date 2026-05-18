@@ -78,7 +78,7 @@ class EditOperation:
 @dataclass
 class TedResult:
     algorithm: str
-    distance: int
+    distance: float
     similarity: float
     source_size: int
     target_size: int
@@ -169,7 +169,7 @@ class NJEditOperation:
 @dataclass
 class NJTedResult:
     algorithm: str
-    distance: int
+    distance: float
     similarity: float
     source_size: int
     target_size: int

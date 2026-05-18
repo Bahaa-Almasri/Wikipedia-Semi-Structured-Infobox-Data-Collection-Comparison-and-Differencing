@@ -10,9 +10,10 @@ import collections
 import time
 from typing import Dict, List, Optional, Tuple
 
-from core.similarity.common import clone_tree, similarity_from_distance
+from core.similarity.cost_model import similarity_from_distance
 from domain.models.edit_script import TedResult
 from domain.models.tree import TreeNode
+from utils.tree_utils import clone_tree
 
 
 def normalize_tree(node: TreeNode) -> None:
