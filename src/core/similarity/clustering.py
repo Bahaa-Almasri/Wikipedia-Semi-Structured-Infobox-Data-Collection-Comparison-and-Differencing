@@ -19,6 +19,7 @@ from domain.models.vsm import (
 SUPPORTED_CLUSTER_ALGORITHMS = {"kmeans", "dbscan", "agglomerative"}
 SUPPORTED_CLUSTER_DISTANCES = {"euclidean", "manhattan", "cosine"}
 SUPPORTED_AGGLOMERATIVE_LINKAGES = {"single", "complete", "average"}
+SUPPORTED_CLUSTER_PROJECTIONS = {"mds", "pca"}
 
 DistanceFn = Callable[[Mapping[str, float], Mapping[str, float]], float]
 
@@ -66,6 +67,21 @@ def distance_function(name: str) -> DistanceFn:
     if name == "cosine":
         return cosine_distance
     raise ValueError(f"Unsupported clustering distance '{name}'.")
+
+
+def normalize_cluster_projection(name: str) -> str:
+    normalized = (name or "mds").strip().lower()
+    aliases = {
+        "mds": "mds",
+        "classical_mds": "mds",
+        "metric_mds": "mds",
+        "pca": "pca",
+        "principal_components": "pca",
+    }
+    mapped = aliases.get(normalized, normalized)
+    if mapped not in SUPPORTED_CLUSTER_PROJECTIONS:
+        raise ValueError(f"Unsupported cluster projection '{name}'.")
+    return mapped
 
 
 def _mean_vector(vectors: Sequence[Mapping[str, float]]) -> SparseVector:
@@ -410,16 +426,129 @@ def project_mds(
     return coordinates, stress
 
 
+def _centered_dense_rows(
+    vectors: Sequence[Mapping[str, float]],
+    vocabulary: Sequence[str],
+) -> List[List[float]]:
+    n = len(vectors)
+    if n == 0:
+        return []
+    dimension = len(vocabulary)
+    if dimension == 0:
+        return [[0.0] * 0 for _ in range(n)]
+
+    term_index = {term: idx for idx, term in enumerate(vocabulary)}
+    dense = [[0.0] * dimension for _ in range(n)]
+    for row_idx, vector in enumerate(vectors):
+        for term, weight in vector.items():
+            col = term_index.get(term)
+            if col is not None:
+                dense[row_idx][col] = weight
+
+    means = [sum(row[col] for row in dense) / n for col in range(dimension)]
+    return [[row[col] - means[col] for col in range(dimension)] for row in dense]
+
+
+def project_pca(
+    slugs: Sequence[str],
+    vectors: Sequence[Mapping[str, float]],
+    vocabulary: Sequence[str],
+) -> Tuple[Dict[str, Tuple[float, float]], Dict[str, float]]:
+    """
+    Two-dimensional PCA over document vectors.
+
+    Uses the Gram matrix (n x n) when the vocabulary is larger than the
+    document count, which is typical for country-scale VSM indices.
+    """
+    n = len(slugs)
+    if n == 0:
+        return {}, {
+            "explained_variance_ratio_pc1": 0.0,
+            "explained_variance_ratio_pc2": 0.0,
+        }
+    if n == 1:
+        return {slugs[0]: (0.0, 0.0)}, {
+            "explained_variance_ratio_pc1": 0.0,
+            "explained_variance_ratio_pc2": 0.0,
+        }
+
+    centered = _centered_dense_rows(vectors, vocabulary)
+    gram = [[_dot(centered[i], centered[j]) for j in range(n)] for i in range(n)]
+    total_variance = sum(gram[i][i] for i in range(n))
+    if total_variance <= 0.0:
+        return {slug: (0.0, 0.0) for slug in slugs}, {
+            "explained_variance_ratio_pc1": 0.0,
+            "explained_variance_ratio_pc2": 0.0,
+        }
+
+    first_value, first_vector = _top_eigenpair(gram, component=0)
+    deflated = _deflate(gram, first_value, first_vector) if first_value > 0 else gram
+    second_value, second_vector = _top_eigenpair(deflated, component=1)
+
+    x_scale = math.sqrt(max(first_value, 0.0))
+    y_scale = math.sqrt(max(second_value, 0.0))
+    coordinates = {
+        slug: (x_scale * first_vector[idx], y_scale * second_vector[idx])
+        for idx, slug in enumerate(slugs)
+    }
+    return coordinates, {
+        "explained_variance_ratio_pc1": first_value / total_variance,
+        "explained_variance_ratio_pc2": second_value / total_variance,
+    }
+
+
+def project_cluster_coordinates(
+    slugs: Sequence[str],
+    vectors: Sequence[Mapping[str, float]],
+    *,
+    projection: str = "mds",
+    distance: str = "cosine",
+    vocabulary: Optional[Sequence[str]] = None,
+) -> Tuple[Dict[str, Tuple[float, float]], Dict[str, Any]]:
+    projection_name = normalize_cluster_projection(projection)
+    if projection_name == "pca":
+        vocab = list(vocabulary or [])
+        if not vocab:
+            terms = set()
+            for vector in vectors:
+                terms.update(vector)
+            vocab = sorted(terms)
+        coordinates, pca_meta = project_pca(slugs, vectors, vocab)
+        metadata: Dict[str, Any] = {
+            "layout": "pca",
+            "projection": "pca",
+            "projection_stress": None,
+            **pca_meta,
+        }
+        return coordinates, metadata
+
+    distance_matrix = pairwise_distance_matrix(vectors, distance=distance)
+    coordinates, stress = project_mds(slugs, distance_matrix)
+    return coordinates, {
+        "layout": "mds",
+        "projection": "classical_mds",
+        "projection_stress": stress,
+        "explained_variance_ratio_pc1": None,
+        "explained_variance_ratio_pc2": None,
+    }
+
+
 def project_2d(
     index: VSMIndex,
     slugs: Sequence[str],
     *,
     distance: str = "cosine",
+    projection: str = "mds",
 ) -> Dict[str, Tuple[float, float]]:
     vectors = [index.doc_vectors[slug] for slug in slugs]
-    matrix = pairwise_distance_matrix(vectors, distance=distance)
-    projection, _stress = project_mds(slugs, matrix)
-    return projection
+    coordinates, _metadata = project_cluster_coordinates(
+        slugs,
+        vectors,
+        projection=projection,
+        distance=distance,
+        vocabulary=index.vocabulary,
+    )
+    return coordinates
 
 
 def project_clusters_to_grid(
@@ -570,6 +699,7 @@ def cluster_vsm_index(
     *,
     algorithm: str = "kmeans",
     distance: str = "cosine",
+    projection: str = "mds",
     selected_country: Optional[str] = None,
     k: int = 5,
     eps: float = 1.0,
@@ -581,6 +711,7 @@ def cluster_vsm_index(
 ) -> VSMClusteringResult:
     algorithm = (algorithm or "kmeans").strip().lower()
     distance = (distance or "cosine").strip().lower()
+    projection_name = normalize_cluster_projection(projection)
     if algorithm not in SUPPORTED_CLUSTER_ALGORITHMS:
         raise ValueError(f"Unsupported clustering algorithm '{algorithm}'.")
     if distance not in SUPPORTED_CLUSTER_DISTANCES:
@@ -607,7 +738,13 @@ def cluster_vsm_index(
         labels = agglomerative(vectors, k=k, distance=distance, linkage=linkage)
 
     distance_matrix = pairwise_distance_matrix(clustering_vectors, distance=distance)
-    projection, projection_stress = project_mds(slugs, distance_matrix)
+    projection, projection_metadata = project_cluster_coordinates(
+        slugs,
+        clustering_vectors,
+        projection=projection_name,
+        distance=distance,
+        vocabulary=index.vocabulary,
+    )
     top_similar = _nearest_neighbors(
         slugs,
         distance_matrix,
@@ -672,10 +809,8 @@ def cluster_vsm_index(
             "linkage": linkage,
             "selected_country": selected_country,
             "l2_normalized_kmeans": normalize_kmeans if algorithm == "kmeans" else False,
-            "layout": "mds",
-            "projection": "classical_mds",
             "projection_distance": distance,
-            "projection_stress": projection_stress,
             "nearest_neighbor_count": 5,
+            **projection_metadata,
         },
     )

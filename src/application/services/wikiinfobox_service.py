@@ -54,6 +54,7 @@ from core.similarity.clustering import (
     SUPPORTED_CLUSTER_DISTANCES,
     build_ted_similarity_index,
     cluster_vsm_index,
+    normalize_cluster_projection,
 )
 from core.similarity.ted import compute_ted
 from core.similarity.vsm import (
@@ -911,6 +912,10 @@ def _validate_linkage(linkage: str) -> str:
     return normalized
 
 
+def _validate_cluster_projection(projection: str) -> str:
+    return normalize_cluster_projection(projection)
+
+
 def _validate_cluster_source(source: str) -> str:
     normalized = (source or "vsm").strip().lower()
     if normalized not in SUPPORTED_CLUSTER_SOURCES:
@@ -1134,6 +1139,7 @@ def vsm_cluster(
     vector_source: str = "vsm",
     algorithm: str = "kmeans",
     distance: str = "cosine",
+    projection: str = "mds",
     mode: str = "field",
     features: Optional[List[str]] = None,
     country: Optional[str] = None,
@@ -1149,6 +1155,7 @@ def vsm_cluster(
     vector_source = _validate_cluster_source(vector_source)
     algorithm = _validate_cluster_algorithm(algorithm)
     distance = _validate_cluster_distance(distance)
+    projection = _validate_cluster_projection(projection)
     mode = _validate_vsm_mode(mode)
     linkage = _validate_linkage(linkage)
     if vector_source == "ted":
@@ -1169,6 +1176,7 @@ def vsm_cluster(
         index,
         algorithm=algorithm,
         distance=distance,
+        projection=projection,
         selected_country=selected,
         k=k,
         eps=eps,

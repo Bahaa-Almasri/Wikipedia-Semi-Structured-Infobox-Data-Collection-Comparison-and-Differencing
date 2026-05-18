@@ -516,7 +516,8 @@ def post_vsm_clustering(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Cluster all countries using VSM vectors.
     Body: { "vector_source": "vsm"|"ted", "algorithm": "kmeans"|"dbscan"|"agglomerative",
-            "distance": "cosine"|"euclidean"|"manhattan", "mode": "flat"|"field",
+            "distance": "cosine"|"euclidean"|"manhattan", "projection": "mds"|"pca",
+            "mode": "flat"|"field",
             "ted_algorithm": "chawathe"|"nj"|"zhang_shasha", "country": optional, "features": optional,
             "k": int, "eps": float, "min_pts": int, "linkage": "single"|"complete"|"average",
             "vsm_document_source": "comparison_fields"|"fields"|"all", "max_df_ratio": float }.
@@ -526,6 +527,7 @@ def post_vsm_clustering(body: Dict[str, Any]) -> Dict[str, Any]:
             vector_source=body.get("vector_source", "vsm"),
             algorithm=body.get("algorithm", "kmeans"),
             distance=body.get("distance", "cosine"),
+            projection=body.get("projection", "mds"),
             mode=body.get("mode", "field"),
             features=_features_from_body(body),
             country=str(body.get("country") or "").strip().lower() or None,

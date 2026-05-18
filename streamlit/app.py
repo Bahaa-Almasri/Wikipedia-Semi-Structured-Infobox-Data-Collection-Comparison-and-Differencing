@@ -439,6 +439,7 @@ def vsm_clustering_api(
     vector_source: str = "vsm",
     algorithm: str = "kmeans",
     distance: str = "cosine",
+    projection: str = "mds",
     mode: str = "field",
     country: Optional[str] = None,
     features: Optional[List[str]] = None,
@@ -457,6 +458,7 @@ def vsm_clustering_api(
             "vector_source": vector_source,
             "algorithm": algorithm,
             "distance": distance,
+            "projection": projection,
             "mode": mode,
             "k": k,
             "eps": eps,
@@ -1504,6 +1506,17 @@ section.main > div {
                 disabled=cluster_source == "ted",
             )
 
+        proj_col, _proj_spacer = st.columns([1, 1])
+        with proj_col:
+            cluster_projection = st.selectbox(
+                "2D projection",
+                options=["mds", "pca"],
+                format_func=lambda value: "MDS (distance map)" if value == "mds" else "PCA (variance axes)",
+                index=0,
+                key="vsm_cluster_projection",
+                help="MDS preserves pairwise distances in the plot; PCA shows the top two principal components of the vectors.",
+            )
+
         ted_col1, ted_col2 = st.columns(2)
         with ted_col1:
             cluster_ted_algorithm = st.selectbox(
@@ -1600,6 +1613,7 @@ section.main > div {
                     vector_source=cluster_source,
                     algorithm=cluster_algorithm,
                     distance=cluster_distance,
+                    projection=cluster_projection,
                     mode=cluster_mode,
                     country=selected_cluster_slug,
                     features=cluster_features or None,
@@ -1636,6 +1650,18 @@ section.main > div {
                     f"{float(metadata.get('projection_stress', 0.0)):.4f} "
                     "(lower means the 2D map preserves pairwise distances better)."
                 )
+            elif metadata.get("projection") == "pca":
+                pc1 = metadata.get("explained_variance_ratio_pc1")
+                pc2 = metadata.get("explained_variance_ratio_pc2")
+                if pc1 is not None and pc2 is not None:
+                    st.caption(
+                        f"PCA explained variance: PC1 {float(pc1):.1%}, PC2 {float(pc2):.1%} "
+                        "(fraction of total variance along each axis)."
+                    )
+
+            projection_name = metadata.get("projection", metadata.get("layout", "mds"))
+            x_axis = "MDS dimension 1" if projection_name in {"mds", "classical_mds"} else "PC1"
+            y_axis = "MDS dimension 2" if projection_name in {"mds", "classical_mds"} else "PC2"
 
             points = cluster_result.get("points") or []
             if not points:
@@ -1678,8 +1704,8 @@ section.main > div {
                 )
                 fig.update_layout(
                     legend_title_text="Cluster",
-                    xaxis_title="MDS dimension 1",
-                    yaxis_title="MDS dimension 2",
+                    xaxis_title=x_axis,
+                    yaxis_title=y_axis,
                     xaxis={
                         "showgrid": False,
                         "zeroline": False,

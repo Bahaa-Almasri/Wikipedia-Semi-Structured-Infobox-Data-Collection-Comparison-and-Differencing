@@ -16,10 +16,13 @@ from core.similarity.clustering import (  # noqa: E402
     euclidean,
     kmeans,
     manhattan,
+    normalize_cluster_projection,
     pairwise_distance_matrix,
+    project_cluster_coordinates,
     project_clusters_to_grid,
     project_2d,
     project_mds,
+    project_pca,
 )
 from domain.models.vsm import VSMIndex  # noqa: E402
 
@@ -136,6 +139,31 @@ def test_projection_returns_finite_coordinates_for_every_document():
         assert math.isfinite(y)
 
 
+def test_normalize_cluster_projection_accepts_aliases():
+    assert normalize_cluster_projection("classical_mds") == "mds"
+    assert normalize_cluster_projection("pca") == "pca"
+
+
+def test_pca_projection_returns_finite_coordinates():
+    index = _index()
+    slugs = sorted(index.doc_vectors)
+    vectors = [index.doc_vectors[slug] for slug in slugs]
+    projection, meta = project_pca(slugs, vectors, index.vocabulary)
+    assert meta["explained_variance_ratio_pc1"] >= 0.0
+    assert set(projection) == set(slugs)
+    for x, y in projection.values():
+        assert math.isfinite(x)
+        assert math.isfinite(y)
+
+
+def test_cluster_vsm_index_supports_pca_projection():
+    result = cluster_vsm_index(_index(), algorithm="kmeans", distance="cosine", k=2, projection="pca")
+    assert result.metadata["projection"] == "pca"
+    assert result.metadata["layout"] == "pca"
+    assert result.metadata["projection_stress"] is None
+    assert result.metadata["explained_variance_ratio_pc1"] is not None
+
+
 def test_mds_places_similar_vectors_closer_than_dissimilar_vectors():
     vectors = _vectors()
     slugs = ["warm_a", "warm_b", "cold_a", "cold_b"]
@@ -176,6 +204,29 @@ def test_grid_projection_grows_for_large_collections():
     assert grid_size > 10
 
 
+def test_project_cluster_coordinates_dispatches_mds_and_pca():
+    index = _index()
+    slugs = sorted(index.doc_vectors)
+    vectors = [index.doc_vectors[slug] for slug in slugs]
+    mds_coords, mds_meta = project_cluster_coordinates(
+        slugs,
+        vectors,
+        projection="mds",
+        distance="cosine",
+        vocabulary=index.vocabulary,
+    )
+    pca_coords, pca_meta = project_cluster_coordinates(
+        slugs,
+        vectors,
+        projection="pca",
+        vocabulary=index.vocabulary,
+    )
+    assert mds_meta["projection"] == "classical_mds"
+    assert pca_meta["projection"] == "pca"
+    assert set(mds_coords) == set(slugs)
+    assert set(pca_coords) == set(slugs)
+
+
 def test_ted_similarity_profiles_can_drive_clustering():
     index = build_ted_similarity_index(
         {
@@ -204,6 +255,10 @@ if __name__ == "__main__":
     test_selected_country_returns_cluster_members()
     test_cluster_metadata_records_kmeans_normalization()
     test_projection_returns_finite_coordinates_for_every_document()
+    test_normalize_cluster_projection_accepts_aliases()
+    test_pca_projection_returns_finite_coordinates()
+    test_cluster_vsm_index_supports_pca_projection()
+    test_project_cluster_coordinates_dispatches_mds_and_pca()
     test_mds_places_similar_vectors_closer_than_dissimilar_vectors()
     test_cluster_points_include_top_similar_neighbors()
     test_grid_projection_uses_minimum_ten_by_ten_layout()
