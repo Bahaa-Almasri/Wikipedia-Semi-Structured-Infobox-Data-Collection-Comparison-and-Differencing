@@ -92,13 +92,17 @@ class VSMSearchResult:
     display_name: str
     score: float
     matched_terms: List[str] = field(default_factory=list)
+    explanation: str = ""
 
     def to_dict(self) -> Dict[str, Any]:
+        reasons = [self.explanation] if self.explanation else list(self.matched_terms[:3])
         return {
             "country": self.slug,
             "display_name": self.display_name,
             "score": self.score,
             "matched_terms": list(self.matched_terms),
+            "explanation": self.explanation,
+            "reasons": reasons[:3],
         }
 
 

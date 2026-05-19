@@ -957,11 +957,18 @@ def _build_vsm_index(
     *,
     features: Optional[List[str]] = None,
     max_df_ratio: Optional[float] = None,
+    semantic_only: bool = False,
 ) -> VSMIndex:
     mode = DEFAULT_VSM_MODE
     docs = read_all_json_documents()
     vsm_documents = [
-        vsm_document_from_json(slug, doc, mode=mode, features=features)
+        vsm_document_from_json(
+            slug,
+            doc,
+            mode=mode,
+            features=features,
+            semantic_only=semantic_only,
+        )
         for slug, doc in sorted(docs.items())
     ]
     vsm_documents = [doc for doc in vsm_documents if doc.terms]
@@ -971,6 +978,7 @@ def _build_vsm_index(
         max_df_ratio=max_df_ratio,
         metadata={
             "features": list(features or []),
+            "semantic_only": semantic_only,
             "document_source": COMPARISON_CONTENT_SOURCE,
         },
     )
@@ -990,9 +998,10 @@ def _build_vsm_clustering_index(
 def _load_or_build_vsm_index(
     *,
     features: Optional[List[str]] = None,
+    semantic_only: bool = False,
 ) -> VSMIndex:
-    if features:
-        return _build_vsm_index(features=features)
+    if features or semantic_only:
+        return _build_vsm_index(features=features, semantic_only=semantic_only)
 
     stored = read_vsm_index(_vsm_index_name())
     if stored is not None:
@@ -1242,8 +1251,12 @@ def _validate_vsm_restricted_text_terms(
     return None
 
 
-def _load_vsm_index(features: Optional[List[str]] = None) -> VSMIndex:
-    return _load_or_build_vsm_index(features=features)
+def _load_vsm_index(
+    features: Optional[List[str]] = None,
+    *,
+    semantic_only: bool = False,
+) -> VSMIndex:
+    return _load_or_build_vsm_index(features=features, semantic_only=semantic_only)
 
 
 def _rank_vsm_with_feature_restriction(
@@ -1327,6 +1340,7 @@ def vsm_similarity_ranking(
     top_k: int = 5,
     metric: str = "cosine",
     features: Optional[List[str]] = None,
+    semantic_only: bool = False,
 ) -> Dict[str, Any]:
     metric = _validate_vsm_metric(metric)
 
@@ -1356,6 +1370,7 @@ def vsm_similarity_ranking(
                 "ranking_mode": ranking_mode,
                 "top_k": top_k,
                 "features": list(features),
+                "semantic_only": semantic_only,
                 "document_count": len(index.doc_vectors),
                 "vocabulary_size": len(index.vocabulary),
                 "results": [result.to_dict() for result in results],
@@ -1367,7 +1382,7 @@ def vsm_similarity_ranking(
             insufficient["top_k"] = top_k
             return insufficient
 
-    index = _load_or_build_vsm_index(features=features)
+    index = _load_or_build_vsm_index(features=features, semantic_only=semantic_only)
     results = rank_document(index, country, top_k=top_k, metric=metric)
     return {
         "country": country,
@@ -1377,6 +1392,7 @@ def vsm_similarity_ranking(
         "ranking_mode": "tfidf",
         "top_k": top_k,
         "features": list(features or []),
+        "semantic_only": semantic_only,
         "document_count": len(index.doc_vectors),
         "vocabulary_size": len(index.vocabulary),
         "results": [result.to_dict() for result in results],

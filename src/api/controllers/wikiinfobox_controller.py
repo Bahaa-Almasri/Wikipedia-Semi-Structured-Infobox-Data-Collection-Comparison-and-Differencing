@@ -520,7 +520,8 @@ def post_vsm_similarity(body: Dict[str, Any]) -> Dict[str, Any]:
 def post_vsm_similarity_ranking(body: Dict[str, Any]) -> Dict[str, Any]:
     """
     Return top-k countries most similar to one country using TF-IDF VSM.
-    Body: { "country": str, "top_k": int, "metric": "cosine"|"pcc", "features": optional }.
+    Body: { "country": str, "top_k": int, "metric": "cosine"|"pcc",
+            "features": optional, "semantic_only": optional bool }.
     """
     try:
         country = str(body.get("country") or "").strip().lower()
@@ -531,6 +532,7 @@ def post_vsm_similarity_ranking(body: Dict[str, Any]) -> Dict[str, Any]:
             top_k=_top_k_from_body(body),
             metric=body.get("metric", "cosine"),
             features=_features_from_body(body),
+            semantic_only=bool(body.get("semantic_only", False)),
         )
     except HTTPException:
         raise

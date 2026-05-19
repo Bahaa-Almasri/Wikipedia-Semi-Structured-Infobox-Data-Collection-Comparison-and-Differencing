@@ -47,15 +47,15 @@ def _index():
     docs = [
         vsm_document_from_json(
             "lebanon",
-            _doc("Lebanon", {"capital": "Beirut Beirut", "population": "5 million"}),
+            _doc("Lebanon", {"capital": "Beirut", "population": 5_000_000}),
         ),
         vsm_document_from_json(
             "japan",
-            _doc("Japan", {"capital": "Tokyo", "population": "125 million"}),
+            _doc("Japan", {"capital": "Tokyo", "population": 125_000_000}),
         ),
         vsm_document_from_json(
             "canada",
-            _doc("Canada", {"capital": "Ottawa", "area": "large northern country"}),
+            _doc("Canada", {"capital": "Ottawa", "population": 5_000_000, "area": "large northern country"}),
         ),
     ]
     return build_vsm_index(docs)
@@ -76,13 +76,14 @@ def test_tokenization_and_tf_counts():
 
 def test_idf_rewards_rarer_terms():
     index = _index()
-    assert index.idf["capital:beirut"] > index.idf["population:million"]
+    assert index.idf["capital:beirut"] > index.idf["population:1m_to_10m"]
 
 
 def test_idf_matches_log_n_over_df():
     index = _index()
     assert index.idf["capital:beirut"] == math.log(3 / 1)
-    assert index.idf["population:million"] == math.log(3 / 2)
+    assert index.idf["population:1m_to_10m"] == math.log(3 / 2)
+    assert index.idf["capital:beirut"] > index.idf["population:1m_to_10m"]
     assert inverse_document_frequency(3, 3) == 0.0
 
 
@@ -99,7 +100,7 @@ def test_pcc_identity_and_empty():
 def test_query_ranks_matching_document_first():
     results = rank_query(_index(), "capital beirut", top_k=3, metric="cosine")
     assert results[0].slug == "lebanon"
-    assert "beirut" in results[0].matched_terms
+    assert any("beirut" in term.lower() for term in results[0].matched_terms)
 
 
 def _coord_doc(country_name: str, lat: str, lon: str) -> dict:
@@ -131,7 +132,7 @@ def test_feature_filtering_ignores_other_fields():
     )
     assert "population" in filtered.field_terms
     assert "capital" not in filtered.field_terms
-    assert "capital:beirut" not in filtered.terms
+    assert "capital:tokyo" not in filtered.terms
 
 
 def test_comparison_field_source_avoids_raw_field_double_counting():
@@ -151,18 +152,19 @@ def test_comparison_field_source_avoids_raw_field_double_counting():
     }
     document = vsm_document_from_json("example", source)
     assert "rawtoken" not in document.terms
-    assert "semantic_only:semantic" in document.terms
+    assert "semantic_only:token" in document.terms
+    assert "only:semantic_token" not in document.terms
 
 
 def test_max_df_ratio_prunes_corpus_wide_terms():
     docs = [
-        vsm_document_from_json("a", _doc("A", {"field": "common alpha"})),
-        vsm_document_from_json("b", _doc("B", {"field": "common beta"})),
-        vsm_document_from_json("c", _doc("C", {"field": "common gamma"})),
+        vsm_document_from_json("a", _doc("A", {"field": "common"})),
+        vsm_document_from_json("b", _doc("B", {"field": "common"})),
+        vsm_document_from_json("c", _doc("C", {"field": "unique"})),
     ]
     index = build_vsm_index(docs, max_df_ratio=0.66)
     assert "field:common" not in index.vocabulary
-    assert "field:alpha" in index.vocabulary
+    assert "field:unique" in index.vocabulary
 
 
 def test_empty_query_scores_zero():

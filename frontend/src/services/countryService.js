@@ -15,12 +15,18 @@ export function getTedSimilarCountries(country, topK = 8) {
   });
 }
 
-export function getVsmSimilarCountries(country, topK = 8, features = null) {
+export function getVsmSimilarCountries(
+  country,
+  topK = 8,
+  features = null,
+  semanticOnly = false,
+) {
   const payload = {
     country,
     top_k: topK,
     metric: "cosine",
     mode: "field",
+    semantic_only: semanticOnly,
   };
   if (features?.length) {
     payload.features = features;

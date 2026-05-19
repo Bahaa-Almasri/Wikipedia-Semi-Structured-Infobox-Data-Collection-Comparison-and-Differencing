@@ -6,7 +6,7 @@ from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence
 
 from core.similarity.vsm_preprocessing import (
     build_indexing_node_terms,
-    is_meaningful_vsm_token,
+    is_meaningful_index_term,
     merge_indexing_nodes,
     normalize_terms,
 )
@@ -44,13 +44,13 @@ def vsm_document_from_json(
     *,
     mode: str = DEFAULT_VSM_MODE,
     features: Optional[Sequence[str]] = None,
+    semantic_only: bool = False,
 ) -> VSMDocument:
     """
     Build a VSM document from comparison_fields (same payload as TED country trees).
 
-    Term-context mode keeps the comparison path on each term so values from
-    different attributes remain distinct. Numeric values use semantic bins, not
-    raw digits.
+    Indexing uses semantic field:value tokens (e.g. language:arabic) and excludes
+    noisy Wikipedia metadata paths. See vsm_preprocessing for filtering rules.
     """
     if mode not in SUPPORTED_VSM_MODES:
         raise ValueError(f"Unsupported VSM mode '{mode}'.")
@@ -62,6 +62,7 @@ def vsm_document_from_json(
         document,
         mode=mode,
         features=features,
+        semantic_only=semantic_only,
     )
     all_terms = merge_indexing_nodes(field_terms)
 
@@ -127,7 +128,7 @@ def build_vsm_index(
             "vocabulary_size": len(vocabulary),
             "max_df_ratio": max_df_ratio,
             "pruned_high_df_terms": len(pruned_terms),
-            "vsm_preprocessing": "indexing_nodes_term_context",
+            "vsm_preprocessing": "semantic_field_value_v2",
             **(metadata or {}),
         },
     )
@@ -221,19 +222,30 @@ def query_vector(query: str, index: VSMIndex) -> SparseVector:
     return tfidf_vector(counts, index.idf)
 
 
-def _display_term(term: str) -> str:
-    return term.split(":", 1)[-1] if ":" in term else term
+def format_semantic_concept(term: str) -> str:
+    """Display a shared indexing unit as ``field_path:value`` (values only, not labels)."""
+    if ":" not in term or not is_meaningful_index_term(term):
+        return ""
+    field, value = term.split(":", 1)
+    return f"{field}:{value}"
 
 
 def matched_terms(left: Mapping[str, float], right: Mapping[str, float], *, limit: int = 10) -> List[str]:
-    terms: List[str] = []
+    concepts: List[str] = []
     for term in left:
         if term not in right:
             continue
-        display = _display_term(term)
-        if is_meaningful_vsm_token(display):
-            terms.append(display)
-    return sorted(set(terms))[:limit]
+        phrase = format_semantic_concept(term)
+        if phrase:
+            concepts.append(phrase)
+    return sorted(set(concepts))[:limit]
+
+
+def shared_semantic_explanation(left: Mapping[str, float], right: Mapping[str, float]) -> str:
+    concepts = matched_terms(left, right, limit=8)
+    if not concepts:
+        return ""
+    return "matched: " + ", ".join(concepts)
 
 
 def count_shared_meaningful_terms(left: Mapping[str, float], right: Mapping[str, float]) -> int:
@@ -251,12 +263,14 @@ def rank_query(
     results: List[VSMSearchResult] = []
     for slug, vector in index.doc_vectors.items():
         score = sparse_similarity(query_vec, vector, metric=metric)
+        shared = matched_terms(query_vec, vector)
         results.append(
             VSMSearchResult(
                 slug=slug,
                 display_name=index.documents.get(slug, slug.replace("_", " ").title()),
                 score=score,
-                matched_terms=matched_terms(query_vec, vector),
+                matched_terms=shared,
+                explanation=shared_semantic_explanation(query_vec, vector),
             )
         )
     results.sort(key=lambda item: item.score, reverse=True)
@@ -289,6 +303,7 @@ def rank_document(
                 display_name=index.documents.get(other_slug, other_slug.replace("_", " ").title()),
                 score=score,
                 matched_terms=shared_terms[:10],
+                explanation=shared_semantic_explanation(source, vector),
             )
         )
     results.sort(key=lambda item: item.score, reverse=True)
